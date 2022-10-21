@@ -1,85 +1,114 @@
-import os, json
-import re
-import http
-import xgboost as xgb
-import time
-import urllib.request
-import pyarrow.parquet as pq
+from tqdm import tqdm
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
-import pandas as pd
 from pathlib import Path
-from play_handler import PlayProcess
-path_to_raw = "mbb"
+import os, json
+import re
+import http
+import pyreadr
+import pandas as pd
+import numpy as np
+import pyarrow.parquet as pq
+import sportsdataverse as sdv
+import xgboost as xgb
+import multiprocessing
+import time
+import urllib.request
+import argparse
+
+path_to_raw = "mbb/json/raw"
+path_to_final = "mbb/json/final"
+path_to_errors = "mbb/errors"
+
 def main():
-    years_arr = range(2022,2023)
+
+    if args.start_year < 2002:
+        start_year = 2002
+    else:
+        start_year = args.start_year
+    if args.end_year is None:
+        end_year = start_year
+    else:
+        end_year = args.end_year
+    years_arr = range(start_year, end_year + 1)
     schedule = pd.read_parquet('mbb_schedule_master.parquet', engine='auto', columns=None)
+    schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
     schedule["game_id"] = schedule["game_id"].astype(int)
-    schedule_in_repo = pd.read_parquet('mbb/mbb_games_in_data_repo.parquet', engine='auto', columns=None)
-    schedule_in_repo["game_id"] = schedule_in_repo["game_id"].astype(int)
-    done_already = schedule_in_repo['game_id']
-    print(len(schedule))
-    print(len(done_already))
-    schedule = schedule[schedule['status.type.completed']==True]
-    print(len(schedule))
-    schedule = schedule[~schedule['game_id'].isin(done_already)]
-    print(len(schedule))
-    schedule = schedule.sort_values(by=['season'], ascending = False)
+    schedule = schedule[schedule['status_type_completed']==True]
+    if args.rescrape == False:
+        schedule_in_repo = pd.read_parquet('mbb/mbb_games_in_data_repo.parquet', engine='auto', columns=None)
+        schedule_in_repo["game_id"] = schedule_in_repo["game_id"].astype(int)
+        done_already = schedule_in_repo['game_id']
+        schedule = schedule[~schedule['game_id'].isin(done_already)]
+    schedule_with_pbp = schedule[schedule['season']>=2002]
 
-
-    for year in reversed(years_arr):
-        print(year)
-        games = schedule[(schedule['season']==year)].reset_index()['game_id']
-        print(f"Number of Games: {len(games)}, first gameId: {games[0]}")
-
+    for year in years_arr:
+        print("Scraping year {}...".format(year))
+        games = schedule[(schedule['season']==year)].reset_index()['game_id'].tolist()
+        print(f"Number of Games: {len(games)}")
+        bad_schedule_keys = pd.DataFrame()
         # this finds our json files
-        path_to_raw_json = "{}/{}/".format(path_to_raw, year)
+        path_to_raw_json = "{}/".format(path_to_raw)
+        path_to_final_json = "{}/".format(path_to_final)
         Path(path_to_raw_json).mkdir(parents=True, exist_ok=True)
+        Path(path_to_final_json).mkdir(parents=True, exist_ok=True)
         # json_files = [pos_json.replace('.json', '') for pos_json in os.listdir(path_to_raw_json) if pos_json.endswith('.json')]
-        i = 0
-        for game in games[i:]:
-            if i == len(games):
-                print("done with year")
-                continue
-            if (i % 500 == 0 ):
-                print("Working on game {}/{}, gameId: {}".format(i+1, len(games[i:]) + i, game))
-            if len(str(game))<9:
-                i+=1
-                continue
+
+        for game in tqdm(games):
             try:
-                processor = PlayProcess( gameId = game, path_to_json = path_to_raw_json)
-                pbp = processor.mbb_pbp()
-
+                g = sdv.mbb.espn_mbb_pbp(game_id = game, raw=True)
             except (TypeError) as e:
-                print("TypeError: yo", e)
-                time.sleep(10)
-                pbp = processor.mbb_pbp()
-
+                print("TypeError: game_id = {}\n {}".format(game, e))
+                continue
+            except (IndexError) as e:
+                print("IndexError: game_id = {}\n {}".format(game, e))
+                continue
             except (KeyError) as e:
-                print("KeyError: yo", e)
-                i+=1
-                if i < len(games):
-                    print(f"Skipping game {i+1} of {len(games)}, gameId: {games[i]}")
-                else:
-                    print(f"Skipping game {i} of {len(games)}")
+                print("KeyError: game_id = {}\n {}".format(game, e))
                 continue
             except (ValueError) as e:
-                print("DecodeError: yo", e)
-                i+=1
-
-                if i < len(games):
-                    print(f"Skipping game {i+1} of {len(games)}, gameId: {games[i]}")
-                else:
-                    print(f"Skipping game {i} of {len(games)}")
+                print("DecodeError: game_id = {}\n {}".format(game, e))
                 continue
-            fp = "{}{}.json".format(path_to_raw_json, game)
-            with open(fp,'w') as f:
-                json.dump(pbp, f, indent=0, sort_keys=False)
-            i+=1
+            except (AttributeError) as e:
+                print("AttributeError: game_id = {}\n {}".format(game, e))
+                continue
+            with open("{}{}.json".format(path_to_raw_json, game),'w') as f:
+                json.dump(g, f, indent=2, sort_keys=False)
+            if args.process == True:
+                try:
+                    processed_data = sdv.mbb.mbb_pbp_disk(
+                        game_id = game,
+                        path_to_json = path_to_raw
+                    )
 
+                    result = sdv.mbb.helper_mbb_pbp(
+                        game_id = game,
+                        pbp_txt = processed_data
+                    )
+                    fp = "{}{}.json".format(path_to_final_json, game)
+                    with open(fp,'w') as f:
+                        json.dump(result, f, indent=2, sort_keys=False)
+                except (IndexError) as e:
+                    print("IndexError: game_id = {}\n {}".format(game, e))
+                except (KeyError) as e:
+                    print("KeyError: game_id = {}\n {}".format(game, e))
+                    continue
+                except (ValueError) as e:
+                    print("DecodeError: game_id = {}\n {}".format(game, e))
+                    continue
+                except (AttributeError) as e:
+                    print("AttributeError: game_id = {}\n {}".format(game, e))
+                    continue
 
+        print("Finished Scraping year {}...".format(year))
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--start_year', '-s', type=int, required=True, help='Start year of MBB Schedule period (YYYY), eg. 2023 for 2022-23 season')
+    parser.add_argument('--end_year', '-e', type=int, help='End year of MBB Schedule period (YYYY), eg. 2023 for 2022-23 season')
+    parser.add_argument('--rescrape', '-r', type=bool, default=True, help='Rescrape all games in the schedule period')
+    parser.add_argument('--process', '-p', type=bool, default=True, help='Run processing pipeline for games in the schedule period')
+    args = parser.parse_args()
+
     main()
-3

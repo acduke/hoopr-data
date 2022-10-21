@@ -17,7 +17,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- hoopR:::most_recent_nba_season()
+years_vec <- 2020:hoopR:::most_recent_nba_season()
 # --- compile into play_by_play_{year}.parquet ---------
 nba_pbp_games <- function(y){
   cli::cli_process_start("Starting nba play_by_play parse for {y}!")

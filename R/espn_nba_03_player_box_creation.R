@@ -14,7 +14,7 @@ suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\User
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- hoopR:::most_recent_nba_season()
+years_vec <- 2020:hoopR:::most_recent_nba_season()
 # --- compile into player_box_{year}.parquet ---------
 
 nba_player_box_games <- function(y){
