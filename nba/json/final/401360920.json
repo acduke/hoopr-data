@@ -33097,14 +33097,14 @@
       "type": "season",
       "title": "Regular Season Series",
       "description": "Regular Season Series",
-      "summary": "WSH Wins series 4-0",
-      "completed": true,
+      "summary": "WSH leads series 1-0",
+      "completed": false,
       "totalCompetitions": 4,
       "events": [
         {
-          "id": "401360920",
-          "uid": "s:40~l:46~e:401360920~c:401360920",
-          "date": "2022-03-25T23:00:00Z",
+          "id": "401360192",
+          "uid": "s:40~l:46~e:401360192~c:401360192",
+          "date": "2021-12-09T00:00:00Z",
           "timeValid": true,
           "status": "post",
           "statusType": {
@@ -33113,8 +33113,9 @@
             "state": "post",
             "completed": true,
             "description": "Final",
-            "detail": "Final",
-            "shortDetail": "Final"
+            "detail": "Final/OT",
+            "shortDetail": "Final/OT",
+            "altDetail": "OT"
           },
           "competitors": [
             {
@@ -33136,121 +33137,30 @@
                   }
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
-              },
-              "score": "97"
-            },
-            {
-              "homeAway": "away",
-              "winner": true,
-              "team": {
-                "id": "27",
-                "uid": "s:40~l:46~t:27",
-                "displayName": "Washington Wizards",
-                "abbreviation": "WSH",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/wsh",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
-              },
-              "score": "100"
-            }
-          ],
-          "links": [
-            {
-              "language": "en-US",
-              "rel": [
-                "summary",
-                "desktop",
-                "event"
-              ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360920",
-              "text": "Gamecast",
-              "shortText": "Summary",
-              "isExternal": false,
-              "isPremium": false
-            },
-            {
-              "language": "en-US",
-              "rel": [
-                "summary",
-                "sportscenter",
-                "app",
-                "event"
-              ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360920",
-              "text": "Gamecast",
-              "shortText": "Summary",
-              "isExternal": false,
-              "isPremium": false
-            }
-          ]
-        },
-        {
-          "id": "401360745",
-          "uid": "s:40~l:46~e:401360745~c:401360745",
-          "date": "2022-03-02T00:00:00Z",
-          "timeValid": true,
-          "status": "post",
-          "statusType": {
-            "id": "3",
-            "name": "STATUS_FINAL",
-            "state": "post",
-            "completed": true,
-            "description": "Final",
-            "detail": "Final",
-            "shortDetail": "Final"
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "winner": true,
-              "team": {
-                "id": "27",
-                "uid": "s:40~l:46~t:27",
-                "displayName": "Washington Wizards",
-                "abbreviation": "WSH",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/wsh",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
               },
               "score": "116"
             },
             {
               "homeAway": "away",
-              "winner": false,
+              "winner": true,
               "team": {
-                "id": "8",
-                "uid": "s:40~l:46~t:8",
-                "displayName": "Detroit Pistons",
-                "abbreviation": "DET",
+                "id": "27",
+                "uid": "s:40~l:46~t:27",
+                "displayName": "Washington Wizards",
+                "abbreviation": "WSH",
                 "links": [
                   {
-                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards",
                     "text": "Clubhouse"
                   },
                   {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/det",
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/wsh",
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
               },
-              "score": "113"
+              "score": "119"
             }
           ],
           "links": [
@@ -33261,7 +33171,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360745",
+              "href": "http://www.espn.com/nba/game/_/gameId/401360192",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -33275,7 +33185,7 @@
                 "app",
                 "event"
               ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360745",
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360192",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -33375,9 +33285,9 @@
           ]
         },
         {
-          "id": "401360192",
-          "uid": "s:40~l:46~e:401360192~c:401360192",
-          "date": "2021-12-09T00:00:00Z",
+          "id": "401360745",
+          "uid": "s:40~l:46~e:401360745~c:401360745",
+          "date": "2022-03-02T00:00:00Z",
           "timeValid": true,
           "status": "post",
           "statusType": {
@@ -33386,9 +33296,99 @@
             "state": "post",
             "completed": true,
             "description": "Final",
-            "detail": "Final/OT",
-            "shortDetail": "Final/OT",
-            "altDetail": "OT"
+            "detail": "Final",
+            "shortDetail": "Final"
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "27",
+                "uid": "s:40~l:46~t:27",
+                "displayName": "Washington Wizards",
+                "abbreviation": "WSH",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/wsh",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
+              },
+              "score": "116"
+            },
+            {
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "8",
+                "uid": "s:40~l:46~t:8",
+                "displayName": "Detroit Pistons",
+                "abbreviation": "DET",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/det",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+              },
+              "score": "113"
+            }
+          ],
+          "links": [
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "desktop",
+                "event"
+              ],
+              "href": "http://www.espn.com/nba/game/_/gameId/401360745",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "sportscenter",
+                "app",
+                "event"
+              ],
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360745",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            }
+          ]
+        },
+        {
+          "id": "401360920",
+          "uid": "s:40~l:46~e:401360920~c:401360920",
+          "date": "2022-03-25T23:00:00Z",
+          "timeValid": true,
+          "status": "post",
+          "statusType": {
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
           "competitors": [
             {
@@ -33411,7 +33411,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
               },
-              "score": "116"
+              "score": "97"
             },
             {
               "homeAway": "away",
@@ -33433,7 +33433,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
               },
-              "score": "119"
+              "score": "100"
             }
           ],
           "links": [
@@ -33444,7 +33444,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360192",
+              "href": "http://www.espn.com/nba/game/_/gameId/401360920",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -33458,7 +33458,7 @@
                 "app",
                 "event"
               ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360192",
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360920",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,

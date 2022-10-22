@@ -1,38 +1,50 @@
-
-.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
-Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
+rm(list = ls())
+gc()
+.libPaths("C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")
+Sys.setenv(R_LIBS="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
 }
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
 
-
+option_list = list(
+  make_option(c("-s", "--start_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="Start year of the seasons to process"),
+  make_option(c("-e", "--end_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="End year of the seasons to process")
+)
+opt = parse_args(OptionParser(option_list=option_list))
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2020:hoopR:::most_recent_nba_season()
+years_vec <- opt$s:opt$e
 # --- compile into player_box_{year}.parquet ---------
 
 nba_player_box_games <- function(y){
   player_box_g <- data.frame()
-  player_box_list <- list.files(path = glue::glue('nba/{y}/'))
+  player_box_list <- list.files(path = glue::glue('nba/json/final/'))
+  sched <- data.table::fread(paste0('nba/schedules/csv/nba_schedule_',y,'.csv'))
+  player_box_game_ids <- as.integer(gsub('.json','',player_box_list))
+  player_box_list <- sched %>%
+    dplyr::filter(.data$game_id %in% player_box_game_ids) %>%
+    dplyr::pull(.data$game_id)
   cli::cli_process_start("Starting nba player_box parse for {y}!")
-  
+
   player_box_g <- purrr::map_dfr(player_box_list, function(x){
-    game_json <- jsonlite::fromJSON(glue::glue('nba/{y}/{x}'))
-    
+    game_json <- jsonlite::fromJSON(glue::glue('nba/json/final/{x}.json'))
+
     player_box_score <- data.frame()
     players_box_score_df <- data.frame()
     players_box_score_df <- data.frame(jsonlite::fromJSON(jsonlite::toJSON(game_json[['boxscore']][['players']]), flatten=TRUE))
-    gameId <- game_json[["gameId"]]
+    gameId <- as.integer(game_json[["gameId"]])
     season <- game_json[['header']][['season']][['year']]
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
-    
+
     boxScoreSource = game_json[['header']][['competitions']][["boxscoreSource"]]
     homeAwayTeam1 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1])
     homeAwayTeam2 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2])
@@ -42,11 +54,11 @@ nba_player_box_games <- function(y){
     awayTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][2]
     homeTeamName = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['location']][1]
     awayTeamName = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['location']][2]
-    
+
     homeTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][1]
     awayTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][2]
     game_date = as.Date(substr(game_json[['header']][['competitions']][['date']],0,10))
-    
+
     tryCatch(
       expr = {
         if(length(players_box_score_df[["statistics"]])>0){
@@ -56,7 +68,7 @@ nba_player_box_games <- function(y){
               tidyr::unnest(.data$athletes)
             stat_cols <- players_df$names[[1]]
             stats <- players_df$stats
-            
+
             stats_df <- as.data.frame(do.call(rbind,stats))
             colnames(stats_df) <- stat_cols
             cols <- c('starter','ejected', 'didNotPlay','active',
@@ -66,15 +78,15 @@ nba_player_box_games <- function(y){
                       'athlete.position.abbreviation', 'team.shortDisplayName',
                       'team.name', 'team.logo', 'team.id', 'team.abbreviation',
                       'team.color')
-            
+
             players_df <- players_df %>%
               dplyr::filter(!.data$didNotPlay) %>%
               dplyr::select(tidyselect::any_of(cols))
             if(length(stats_df)>0){
               players_df <- dplyr::bind_cols(stats_df,players_df) %>%
                 dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
-              
-              
+
+
               players_df <- players_df %>%
                 janitor::clean_names() %>%
                 dplyr::rename(
@@ -87,49 +99,49 @@ nba_player_box_games <- function(y){
                   season = season,
                   season_type = season_type,
                   game_date = game_date
-                ) 
+                )
             }
           }
         }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available!"))
+        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available {gameId}!"))
       },
       warning = function(w) {
       },
       finally = {
       }
     )
-    
+
     drop <- c("statistics")
     player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
-    
+
     return(player_box_score)
   })
-  
-  
+
+
   if(nrow(player_box_g)>1){
     player_box_g <- player_box_g %>%
       hoopR:::make_hoopR_data("ESPN NBA Player Boxscore Information from hoopR data repository",Sys.time())
+
     ifelse(!dir.exists(file.path("nba/player_box")), dir.create(file.path("nba/player_box")), FALSE)
-    
+
     ifelse(!dir.exists(file.path("nba/player_box/csv")), dir.create(file.path("nba/player_box/csv")), FALSE)
     data.table::fwrite(player_box_g, file=paste0("nba/player_box/csv/player_box_",y,".csv.gz"))
-    
+
     ifelse(!dir.exists(file.path("nba/player_box/qs")), dir.create(file.path("nba/player_box/qs")), FALSE)
     qs::qsave(player_box_g,glue::glue("nba/player_box/qs/player_box_{y}.qs"))
-    
+
     ifelse(!dir.exists(file.path("nba/player_box/rds")), dir.create(file.path("nba/player_box/rds")), FALSE)
     saveRDS(player_box_g,glue::glue("nba/player_box/rds/player_box_{y}.rds"))
-    
+
     ifelse(!dir.exists(file.path("nba/player_box/parquet")), dir.create(file.path("nba/player_box/parquet")), FALSE)
     arrow::write_parquet(player_box_g, glue::glue("nba/player_box/parquet/player_box_{y}.parquet"))
   }
-  sched <- data.table::fread(paste0('nba/schedules/csv/nba_schedule_',y,'.csv'))
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),
-      status.displayClock = as.character(.data$status.displayClock)
+      status_display_clock = as.character(.data$status_display_clock)
     )
   if(nrow(player_box_g)>0){
     sched <- sched %>%
@@ -141,14 +153,14 @@ nba_player_box_games <- function(y){
   }
   final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
   final_sched <- final_sched %>%
-    hoopR:::make_hoopR_data("NBA Schedule Information from hoopR data repository",Sys.time())
+    hoopR:::make_hoopR_data("ESPN NBA Schedule Information from hoopR data repository",Sys.time())
   data.table::fwrite(final_sched,paste0("nba/schedules/csv/nba_schedule_",y,".csv"))
   qs::qsave(final_sched,glue::glue('nba/schedules/qs/nba_schedule_{y}.qs'))
   saveRDS(final_sched, glue::glue('nba/schedules/rds/nba_schedule_{y}.rds'))
   arrow::write_parquet(final_sched, glue::glue('nba/schedules/parquet/nba_schedule_{y}.parquet'))
   rm(sched)
   rm(final_sched)
-  
+
   rm(player_box_g)
   rm(player_box_list)
   gc()
@@ -164,13 +176,14 @@ sched_list <- list.files(path = glue::glue('nba/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
   sched <- data.table::fread(paste0('nba/schedules/csv/',x)) %>%
     dplyr::mutate(
-      status.displayClock = as.character(.data$status.displayClock)
+      status_display_clock = as.character(.data$status_display_clock)
     )
   return(sched)
 })
 
+
 sched_g <- sched_g %>%
-  hoopR:::make_hoopR_data("NBA Schedule Information from hoopR data repository",Sys.time())
+  hoopR:::make_hoopR_data("ESPN NBA Schedule Information from hoopR data repository",Sys.time())
 
 data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_master.csv')
 data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.csv')

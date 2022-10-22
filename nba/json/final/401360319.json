@@ -33764,14 +33764,14 @@
       "type": "season",
       "title": "Regular Season Series",
       "description": "Regular Season Series",
-      "summary": "DEN Wins series 3-1",
-      "completed": true,
+      "summary": "DEN leads series 1-0",
+      "completed": false,
       "totalCompetitions": 4,
       "events": [
         {
-          "id": "401360902",
-          "uid": "s:40~l:46~e:401360902~c:401360902",
-          "date": "2022-03-23T02:00:00Z",
+          "id": "401360319",
+          "uid": "s:40~l:46~e:401360319~c:401360319",
+          "date": "2021-12-27T02:00:00Z",
           "timeValid": true,
           "status": "post",
           "statusType": {
@@ -33786,28 +33786,6 @@
           "competitors": [
             {
               "homeAway": "home",
-              "winner": true,
-              "team": {
-                "id": "7",
-                "uid": "s:40~l:46~t:7",
-                "displayName": "Denver Nuggets",
-                "abbreviation": "DEN",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/den",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
-              },
-              "score": "127"
-            },
-            {
-              "homeAway": "away",
               "winner": false,
               "team": {
                 "id": "12",
@@ -33826,7 +33804,29 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
               },
-              "score": "115"
+              "score": "100"
+            },
+            {
+              "homeAway": "away",
+              "winner": true,
+              "team": {
+                "id": "7",
+                "uid": "s:40~l:46~t:7",
+                "displayName": "Denver Nuggets",
+                "abbreviation": "DEN",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/den",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+              },
+              "score": "103"
             }
           ],
           "links": [
@@ -33837,7 +33837,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360902",
+              "href": "http://www.espn.com/nba/game/_/gameId/401360319",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -33851,7 +33851,98 @@
                 "app",
                 "event"
               ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360902",
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360319",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            }
+          ]
+        },
+        {
+          "id": "401360435",
+          "uid": "s:40~l:46~e:401360435~c:401360435",
+          "date": "2022-01-12T03:30:00Z",
+          "timeValid": true,
+          "status": "post",
+          "statusType": {
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "12",
+                "uid": "s:40~l:46~t:12",
+                "displayName": "LA Clippers",
+                "abbreviation": "LAC",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/lac",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+              },
+              "score": "87"
+            },
+            {
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "7",
+                "uid": "s:40~l:46~t:7",
+                "displayName": "Denver Nuggets",
+                "abbreviation": "DEN",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/den",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+              },
+              "score": "85"
+            }
+          ],
+          "links": [
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "desktop",
+                "event"
+              ],
+              "href": "http://www.espn.com/nba/game/_/gameId/401360435",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "sportscenter",
+                "app",
+                "event"
+              ],
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360435",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -33952,9 +34043,9 @@
           ]
         },
         {
-          "id": "401360435",
-          "uid": "s:40~l:46~e:401360435~c:401360435",
-          "date": "2022-01-12T03:30:00Z",
+          "id": "401360902",
+          "uid": "s:40~l:46~e:401360902~c:401360902",
+          "date": "2022-03-23T02:00:00Z",
           "timeValid": true,
           "status": "post",
           "statusType": {
@@ -33969,119 +34060,6 @@
           "competitors": [
             {
               "homeAway": "home",
-              "winner": true,
-              "team": {
-                "id": "12",
-                "uid": "s:40~l:46~t:12",
-                "displayName": "LA Clippers",
-                "abbreviation": "LAC",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/lac",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
-              },
-              "score": "87"
-            },
-            {
-              "homeAway": "away",
-              "winner": false,
-              "team": {
-                "id": "7",
-                "uid": "s:40~l:46~t:7",
-                "displayName": "Denver Nuggets",
-                "abbreviation": "DEN",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/den",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
-              },
-              "score": "85"
-            }
-          ],
-          "links": [
-            {
-              "language": "en-US",
-              "rel": [
-                "summary",
-                "desktop",
-                "event"
-              ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360435",
-              "text": "Gamecast",
-              "shortText": "Summary",
-              "isExternal": false,
-              "isPremium": false
-            },
-            {
-              "language": "en-US",
-              "rel": [
-                "summary",
-                "sportscenter",
-                "app",
-                "event"
-              ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360435",
-              "text": "Gamecast",
-              "shortText": "Summary",
-              "isExternal": false,
-              "isPremium": false
-            }
-          ]
-        },
-        {
-          "id": "401360319",
-          "uid": "s:40~l:46~e:401360319~c:401360319",
-          "date": "2021-12-27T02:00:00Z",
-          "timeValid": true,
-          "status": "post",
-          "statusType": {
-            "id": "3",
-            "name": "STATUS_FINAL",
-            "state": "post",
-            "completed": true,
-            "description": "Final",
-            "detail": "Final",
-            "shortDetail": "Final"
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "winner": false,
-              "team": {
-                "id": "12",
-                "uid": "s:40~l:46~t:12",
-                "displayName": "LA Clippers",
-                "abbreviation": "LAC",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/lac",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
-              },
-              "score": "100"
-            },
-            {
-              "homeAway": "away",
               "winner": true,
               "team": {
                 "id": "7",
@@ -34100,7 +34078,29 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
               },
-              "score": "103"
+              "score": "127"
+            },
+            {
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "12",
+                "uid": "s:40~l:46~t:12",
+                "displayName": "LA Clippers",
+                "abbreviation": "LAC",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/lac",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+              },
+              "score": "115"
             }
           ],
           "links": [
@@ -34111,7 +34111,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360319",
+              "href": "http://www.espn.com/nba/game/_/gameId/401360902",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -34125,7 +34125,7 @@
                 "app",
                 "event"
               ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360319",
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360902",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,

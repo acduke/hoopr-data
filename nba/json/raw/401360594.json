@@ -3776,14 +3776,14 @@
       "type": "season",
       "title": "Regular Season Series",
       "description": "Regular Season Series",
-      "summary": "BOS Wins series 3-1",
-      "completed": true,
+      "summary": "BOS leads series 1-0",
+      "completed": false,
       "totalCompetitions": 4,
       "events": [
         {
-          "id": "401360800",
-          "uid": "s:40~l:46~e:401360800~c:401360800",
-          "date": "2022-03-10T00:00:00Z",
+          "id": "401359865",
+          "uid": "s:40~l:46~e:401359865~c:401359865",
+          "date": "2021-10-25T23:00:00Z",
           "timeValid": true,
           "status": "post",
           "statusType": {
@@ -3792,8 +3792,9 @@
             "state": "post",
             "completed": true,
             "description": "Final",
-            "detail": "Final",
-            "shortDetail": "Final"
+            "detail": "Final/OT",
+            "shortDetail": "Final/OT",
+            "altDetail": "OT"
           },
           "competitors": [
             {
@@ -3816,7 +3817,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
               },
-              "score": "101"
+              "score": "129"
             },
             {
               "homeAway": "away",
@@ -3838,7 +3839,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
               },
-              "score": "115"
+              "score": "140"
             }
           ],
           "links": [
@@ -3849,7 +3850,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360800",
+              "href": "http://www.espn.com/nba/game/_/gameId/401359865",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -3863,98 +3864,7 @@
                 "app",
                 "event"
               ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360800",
-              "text": "Gamecast",
-              "shortText": "Summary",
-              "isExternal": false,
-              "isPremium": false
-            }
-          ]
-        },
-        {
-          "id": "401360594",
-          "uid": "s:40~l:46~e:401360594~c:401360594",
-          "date": "2022-02-03T00:30:00Z",
-          "timeValid": true,
-          "status": "post",
-          "statusType": {
-            "id": "3",
-            "name": "STATUS_FINAL",
-            "state": "post",
-            "completed": true,
-            "description": "Final",
-            "detail": "Final",
-            "shortDetail": "Final"
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "winner": true,
-              "team": {
-                "id": "2",
-                "uid": "s:40~l:46~t:2",
-                "displayName": "Boston Celtics",
-                "abbreviation": "BOS",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/bos",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
-              },
-              "score": "113"
-            },
-            {
-              "homeAway": "away",
-              "winner": false,
-              "team": {
-                "id": "30",
-                "uid": "s:40~l:46~t:30",
-                "displayName": "Charlotte Hornets",
-                "abbreviation": "CHA",
-                "links": [
-                  {
-                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets",
-                    "text": "Clubhouse"
-                  },
-                  {
-                    "href": "https://www.espn.com/nba/team/schedule/_/name/cha",
-                    "text": "Schedule"
-                  }
-                ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
-              },
-              "score": "107"
-            }
-          ],
-          "links": [
-            {
-              "language": "en-US",
-              "rel": [
-                "summary",
-                "desktop",
-                "event"
-              ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401360594",
-              "text": "Gamecast",
-              "shortText": "Summary",
-              "isExternal": false,
-              "isPremium": false
-            },
-            {
-              "language": "en-US",
-              "rel": [
-                "summary",
-                "sportscenter",
-                "app",
-                "event"
-              ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360594",
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401359865",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -4054,9 +3964,9 @@
           ]
         },
         {
-          "id": "401359865",
-          "uid": "s:40~l:46~e:401359865~c:401359865",
-          "date": "2021-10-25T23:00:00Z",
+          "id": "401360594",
+          "uid": "s:40~l:46~e:401360594~c:401360594",
+          "date": "2022-02-03T00:30:00Z",
           "timeValid": true,
           "status": "post",
           "statusType": {
@@ -4065,9 +3975,99 @@
             "state": "post",
             "completed": true,
             "description": "Final",
-            "detail": "Final/OT",
-            "shortDetail": "Final/OT",
-            "altDetail": "OT"
+            "detail": "Final",
+            "shortDetail": "Final"
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "2",
+                "uid": "s:40~l:46~t:2",
+                "displayName": "Boston Celtics",
+                "abbreviation": "BOS",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/bos/boston-celtics",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/bos",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+              },
+              "score": "113"
+            },
+            {
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "30",
+                "uid": "s:40~l:46~t:30",
+                "displayName": "Charlotte Hornets",
+                "abbreviation": "CHA",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/cha",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+              },
+              "score": "107"
+            }
+          ],
+          "links": [
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "desktop",
+                "event"
+              ],
+              "href": "http://www.espn.com/nba/game/_/gameId/401360594",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "sportscenter",
+                "app",
+                "event"
+              ],
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360594",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            }
+          ]
+        },
+        {
+          "id": "401360800",
+          "uid": "s:40~l:46~e:401360800~c:401360800",
+          "date": "2022-03-10T00:00:00Z",
+          "timeValid": true,
+          "status": "post",
+          "statusType": {
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
           "competitors": [
             {
@@ -4090,7 +4090,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
               },
-              "score": "129"
+              "score": "101"
             },
             {
               "homeAway": "away",
@@ -4112,7 +4112,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
               },
-              "score": "140"
+              "score": "115"
             }
           ],
           "links": [
@@ -4123,7 +4123,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401359865",
+              "href": "http://www.espn.com/nba/game/_/gameId/401360800",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -4137,7 +4137,7 @@
                 "app",
                 "event"
               ],
-              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401359865",
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401360800",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
