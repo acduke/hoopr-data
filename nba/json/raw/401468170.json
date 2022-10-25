@@ -23569,30 +23569,28 @@
     "video": [
       {
         "source": "espn",
-        "id": 34842561,
-        "headline": "James Harden scores 31 points in loss to Bucks",
-        "caption": "James Harden has 31 points and 9 assists in the 76ers' loss to the Bucks.",
-        "description": "James Harden has 31 points and 9 assists in the 76ers' loss to the Bucks.",
+        "id": 34843295,
+        "headline": "Giannis stops mid-interview to watch his TV commercial",
+        "caption": "Giannis Antetokounmpo is answering a reporter's question when he stops and admires himself in a commercial.",
+        "description": "Giannis Antetokounmpo is answering a reporter's question when he stops and admires himself in a commercial.",
         "premium": false,
         "ad": {
           "sport": "nba",
-          "bundle": "nba_highlights"
+          "bundle": "sportscenter"
         },
         "tracking": {
           "sportName": "nba",
           "leagueName": "No League",
-          "coverageType": "Highlight",
-          "trackingName": "COM_NBA Highlight (James Harden scores 31 points in loss to Bucks) 2022/10/20 ESHEET Sotfull",
-          "trackingId": "dm_20221020_NBA_james_harden_highlights_vs_milwaukee_bucks"
+          "coverageType": "PressConference",
+          "trackingName": "COM_NBA Presser (Giannis stops mid-interview to watch his TV commercial) 2022/10/20 ESHEET 3PV",
+          "trackingId": "dm_221021_Watchfolder_GIANNIS_TWITTER"
         },
-        "cerebroId": "6351ff57be6ab37274faf35f",
-        "contributingPartner": "wsc",
-        "contributingSystem": "wsc",
-        "lastModified": "2022-10-21T12:44:55Z",
-        "originalPublishDate": "2022-10-21T02:09:18Z",
+        "cerebroId": "63522185ca84b770f8d8c114",
+        "lastModified": "2022-10-24T04:07:35Z",
+        "originalPublishDate": "2022-10-21T04:33:52Z",
         "timeRestrictions": {
-          "embargoDate": "2022-10-21T02:09:18Z",
-          "expirationDate": "2023-07-31T04:00:00Z"
+          "embargoDate": "2022-10-21T04:33:52Z",
+          "expirationDate": "2025-10-24T04:33:52Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
@@ -23604,147 +23602,37 @@
             "tablet"
           ]
         },
-        "geoRestrictions": {
-          "type": "whitelist",
-          "countries": [
-            "VC",
-            "CF",
-            "NA",
-            "MQ",
-            "ST",
-            "GY",
-            "GP",
-            "CM",
-            "BQ",
-            "US",
-            "AS",
-            "GU",
-            "MP",
-            "PR",
-            "VI",
-            "UM",
-            "BI",
-            "TC",
-            "AR",
-            "GQ",
-            "SS",
-            "BW",
-            "SZ",
-            "MS",
-            "KE",
-            "DO",
-            "CG",
-            "MU",
-            "AW",
-            "BM",
-            "SN",
-            "HT",
-            "RE",
-            "ZA",
-            "SL",
-            "SX",
-            "SR",
-            "AI",
-            "MF",
-            "ML",
-            "ZM",
-            "MX",
-            "BZ",
-            "GA",
-            "RW",
-            "AU",
-            "CU",
-            "ET",
-            "GW",
-            "PA",
-            "CO",
-            "PE",
-            "LC",
-            "NI",
-            "ER",
-            "CD",
-            "GD",
-            "TZ",
-            "LS",
-            "UG",
-            "NZ",
-            "CV",
-            "AO",
-            "AG",
-            "GF",
-            "NE",
-            "MG",
-            "MZ",
-            "TT",
-            "AM",
-            "CL",
-            "PY",
-            "BF",
-            "KY",
-            "SV",
-            "FJ",
-            "GN",
-            "EC",
-            "CR",
-            "HN",
-            "FM",
-            "NG",
-            "BB",
-            "LR",
-            "KN",
-            "MH",
-            "GB",
-            "UK",
-            "KM",
-            "ZW",
-            "PW",
-            "BR",
-            "SC",
-            "BS",
-            "MW",
-            "GT",
-            "GM",
-            "TG",
-            "GH",
-            "BJ",
-            "CI",
-            "UY",
-            "BO",
-            "JM",
-            "VE"
-          ]
-        },
         "syndicatable": true,
-        "duration": 103,
+        "duration": 50,
         "categories": [
           {
-            "id": 4323,
-            "description": "Philadelphia 76ers",
-            "type": "team",
+            "id": 9577,
+            "description": "NBA",
+            "type": "league",
             "sportId": 46,
-            "teamId": 20,
-            "team": {
-              "id": 20,
-              "description": "Philadelphia 76ers",
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
               "links": {
                 "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba/teams/20"
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba"
                   }
                 },
                 "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers"
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
                   }
                 },
                 "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/nba/clubhouse?teamId=20"
+                  "leagues": {
+                    "href": "http://m.espn.com/nba/"
                   }
                 }
               }
             },
-            "uid": "s:40~l:46~t:20"
+            "uid": "s:40~l:46"
           },
           {
             "id": 4453,
@@ -23776,115 +23664,56 @@
             "uid": "s:40~l:46~t:15"
           },
           {
-            "id": 9577,
-            "description": "NBA",
-            "type": "league",
-            "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
-              "links": {
-                "api": {
-                  "leagues": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "http://m.espn.com/nba/"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:46"
-          },
-          {
-            "id": 66124,
-            "description": "James Harden",
+            "id": 117636,
+            "description": "Giannis Antetokounmpo",
             "type": "athlete",
             "sportId": 46,
-            "athleteId": 3992,
+            "athleteId": 3032977,
             "athlete": {
-              "id": 3992,
-              "description": "James Harden",
+              "id": 3032977,
+              "description": "Giannis Antetokounmpo",
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba/athletes/3992"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba/athletes/3032977"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/3992/james-harden"
+                    "href": "https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.com/nba/playercard?playerId=3992"
+                    "href": "http://m.espn.com/nba/playercard?playerId=3032977"
                   }
                 }
               }
             },
-            "uid": "s:40~l:46~a:3992"
-          },
-          {
-            "id": 191422,
-            "description": "nba highlight",
-            "type": "topic",
-            "sportId": 0,
-            "topicId": 707
-          },
-          {
-            "id": 12025,
-            "description": "Fantasy NBA",
-            "type": "league",
-            "sportId": 3090,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA",
-              "links": {
-                "api": {
-                  "leagues": {}
-                },
-                "web": {
-                  "leagues": {}
-                },
-                "mobile": {
-                  "leagues": {}
-                }
-              }
-            },
-            "uid": "s:40~l:3090"
+            "uid": "s:40~l:46~a:3032977"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -23892,66 +23721,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/34842561"
+              "href": "http://api-app.espn.com/v1/video/clips/34843295"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/d1b471d4-51d6-4816-b855-6c496ac90dbc"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=34842561",
+            "href": "http://espn.com/video/clip?id=34843295",
             "short": {
-              "href": "https://es.pn/3eNr2eo"
+              "href": "https://es.pn/3TI6Byv"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=34842561"
+              "href": "http://espn.com/video/clip?id=34843295"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.smil/master.m3u8",
+              "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.smil/master.m3u8",
               "HD": {
-                "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.smil/master.m3u8"
+                "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.smil/master.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=34842561"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=34843295"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34842561",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1b471d4-51d6-4816-b855-6c496ac90dbc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34843295",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34842561"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1b471d4-51d6-4816-b855-6c496ac90dbc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34843295"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34842561"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1b471d4-51d6-4816-b855-6c496ac90dbc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34843295"
             }
           }
         },
-        "title": "James Harden scores 31 points in loss to Bucks"
+        "title": "Giannis stops mid-interview to watch his TV commercial"
       }
     ],
     "type": "Recap",
@@ -24075,11 +23904,11 @@
     "gameId": "401468170",
     "images": [
       {
-        "name": "James Harden scores 31 points in loss to Bucks",
+        "name": "Giannis stops mid-interview to watch his TV commercial",
         "width": 576,
         "alt": "",
-        "caption": "James Harden has 31 points and 9 assists in the 76ers' loss to the Bucks.",
-        "url": "https://a.espncdn.com/media/motion/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524.jpg",
+        "caption": "Giannis Antetokounmpo is answering a reporter's question when he stops and admires himself in a commercial.",
+        "url": "https://a.espncdn.com/media/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.jpg",
         "height": 324
       }
     ],
@@ -25747,26 +25576,26 @@
     },
     {
       "source": "espn",
-      "id": 34843295,
-      "headline": "Giannis stops mid-interview to watch his TV commercial",
-      "description": "Giannis Antetokounmpo is answering a reporter's question when he stops and admires himself in a commercial.",
+      "id": 34842561,
+      "headline": "James Harden scores 31 points in loss to Bucks",
+      "description": "James Harden has 31 points and 9 assists in the 76ers' loss to the Bucks.",
       "ad": {
         "sport": "nba",
-        "bundle": "sportscenter"
+        "bundle": "nba_highlights"
       },
       "tracking": {
         "sportName": "nba",
         "leagueName": "No League",
-        "coverageType": "PressConference",
-        "trackingName": "COM_NBA Presser (Giannis stops mid-interview to watch his TV commercial) 2022/10/20 ESHEET 3PV",
-        "trackingId": "dm_221021_Watchfolder_GIANNIS_TWITTER"
+        "coverageType": "Highlight",
+        "trackingName": "COM_NBA Highlight (James Harden scores 31 points in loss to Bucks) 2022/10/20 ESHEET Sotfull",
+        "trackingId": "dm_20221020_NBA_james_harden_highlights_vs_milwaukee_bucks"
       },
-      "cerebroId": "63522185ca84b770f8d8c114",
-      "lastModified": "2022-10-21T04:36:13Z",
-      "originalPublishDate": "2022-10-21T04:33:52Z",
+      "cerebroId": "6351ff57be6ab37274faf35f",
+      "lastModified": "2022-10-21T12:44:55Z",
+      "originalPublishDate": "2022-10-21T02:09:18Z",
       "timeRestrictions": {
-        "embargoDate": "2022-10-21T04:33:52Z",
-        "expirationDate": "2025-10-24T04:33:52Z"
+        "embargoDate": "2022-10-21T02:09:18Z",
+        "expirationDate": "2023-07-31T04:00:00Z"
       },
       "deviceRestrictions": {
         "type": "whitelist",
@@ -25777,63 +25606,173 @@
           "tablet"
         ]
       },
-      "duration": 50,
-      "thumbnail": "https://a.espncdn.com/media/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.jpg",
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "VC",
+          "CF",
+          "NA",
+          "MQ",
+          "ST",
+          "GY",
+          "GP",
+          "CM",
+          "BQ",
+          "US",
+          "AS",
+          "GU",
+          "MP",
+          "PR",
+          "VI",
+          "UM",
+          "BI",
+          "TC",
+          "AR",
+          "GQ",
+          "SS",
+          "BW",
+          "SZ",
+          "MS",
+          "KE",
+          "DO",
+          "CG",
+          "MU",
+          "AW",
+          "BM",
+          "SN",
+          "HT",
+          "RE",
+          "ZA",
+          "SL",
+          "SX",
+          "SR",
+          "AI",
+          "MF",
+          "ML",
+          "ZM",
+          "MX",
+          "BZ",
+          "GA",
+          "RW",
+          "AU",
+          "CU",
+          "ET",
+          "GW",
+          "PA",
+          "CO",
+          "PE",
+          "LC",
+          "NI",
+          "ER",
+          "CD",
+          "GD",
+          "TZ",
+          "LS",
+          "UG",
+          "NZ",
+          "CV",
+          "AO",
+          "AG",
+          "GF",
+          "NE",
+          "MG",
+          "MZ",
+          "TT",
+          "AM",
+          "CL",
+          "PY",
+          "BF",
+          "KY",
+          "SV",
+          "FJ",
+          "GN",
+          "EC",
+          "CR",
+          "HN",
+          "FM",
+          "NG",
+          "BB",
+          "LR",
+          "KN",
+          "MH",
+          "GB",
+          "UK",
+          "KM",
+          "ZW",
+          "PW",
+          "BR",
+          "SC",
+          "BS",
+          "MW",
+          "GT",
+          "GM",
+          "TG",
+          "GH",
+          "BJ",
+          "CI",
+          "UY",
+          "BO",
+          "JM",
+          "VE"
+        ]
+      },
+      "duration": 103,
+      "thumbnail": "https://a.espncdn.com/media/motion/2022/1021/ss_20221020_220929325_2076799524/ss_20221020_220929325_2076799524.jpg",
       "links": {
         "api": {
           "self": {
-            "href": "http://api.espn.com/v1/video/clips/34843295"
+            "href": "http://api.espn.com/v1/video/clips/34842561"
           },
           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/d1b471d4-51d6-4816-b855-6c496ac90dbc"
+            "href": "https://artwork.api.espn.com/artwork/collections/media/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4"
           }
         },
         "web": {
-          "href": "https://www.espn.com/video/clip?id=34843295&ex_cid=espnapi_internal",
+          "href": "https://www.espn.com/video/clip?id=34842561&ex_cid=espnapi_internal",
           "short": {
-            "href": "https://www.espn.com/video/clip?id=34843295"
+            "href": "https://www.espn.com/video/clip?id=34842561"
           },
           "self": {
-            "href": "https://www.espn.com/video/clip?id=34843295&ex_cid=espnapi_internal"
+            "href": "https://www.espn.com/video/clip?id=34842561&ex_cid=espnapi_internal"
           }
         },
         "source": {
           "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.mp4"
+            "href": "https://media.video-origin.espn.com/espnvideo/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.mp4"
           },
           "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.smil"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.smil"
           },
           "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_rel.smil/manifest.f4m"
+            "href": "https://hds.video-cdn.espn.com/z/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER/playlist.m3u8",
+            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER/playlist.m3u8"
+              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799/playlist.m3u8"
             }
           },
           "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_720p30_2896k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_720p30_2896k.mp4"
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_360p30_1464k.mp4"
           },
-          "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER_360p30_1464k.mp4"
+          "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799_360p30_1464k.mp4"
         },
         "mobile": {
           "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=34843295&ex_cid=espnapi_internal"
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=34842561&ex_cid=espnapi_internal"
           },
           "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1021/dm_221021_Watchfolder_GIANNIS_TWITTER/dm_221021_Watchfolder_GIANNIS_TWITTER.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2022/1020/ss_20221020_220929325_2076799/ss_20221020_220929325_2076799.mp4"
           },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1b471d4-51d6-4816-b855-6c496ac90dbc/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34843295&ex_cid=espnapi_internal",
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34842561",
           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1b471d4-51d6-4816-b855-6c496ac90dbc/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34843295&ex_cid=espnapi_internal"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34842561"
           },
           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1b471d4-51d6-4816-b855-6c496ac90dbc/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34843295&ex_cid=espnapi_internal"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bc145aae-4d72-4b5d-9e2a-36aba82c8ea4/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34842561"
           }
         }
       }
@@ -25848,172 +25787,6 @@
       {
         "standings": {
           "entries": [
-            {
-              "team": "Chicago",
-              "link": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
-              "id": "4",
-              "uid": "s:40~l:46~t:4",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 0.0,
-                  "displayValue": "0"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 1.0,
-                  "displayValue": "1.000"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Detroit",
-              "link": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
-              "id": "8",
-              "uid": "s:40~l:46~t:8",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 0.0,
-                  "displayValue": "0"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 1.0,
-                  "displayValue": "1.000"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
             {
               "team": "Milwaukee",
               "link": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
@@ -26047,8 +25820,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -26067,8 +25840,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 2.0,
+                  "displayValue": "2"
                 }
               ],
               "logo": [
@@ -26110,8 +25883,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "name": "losses",
@@ -26130,8 +25903,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -26140,8 +25913,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
+                  "value": 0.6666667,
+                  "displayValue": ".667"
                 },
                 {
                   "name": "wins",
@@ -26150,8 +25923,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 2.0,
+                  "displayValue": "2"
                 }
               ],
               "logo": [
@@ -26181,10 +25954,10 @@
               ]
             },
             {
-              "team": "Indiana",
-              "link": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers",
-              "id": "11",
-              "uid": "s:40~l:46~t:11",
+              "team": "Chicago",
+              "link": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
+              "id": "4",
+              "uid": "s:40~l:46~t:4",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -26203,8 +25976,174 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": 1.0,
+                  "displayValue": "W1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.5,
+                  "displayValue": ".500"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 2.0,
+                  "displayValue": "2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Detroit",
+              "link": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+              "id": "8",
+              "uid": "s:40~l:46~t:8",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 1.5,
+                  "displayValue": "1.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -2.0,
+                  "displayValue": "L2"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.33333334,
+                  "displayValue": ".333"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
                   "value": 1.0,
                   "displayValue": "1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Indiana",
+              "link": "https://www.espn.com/nba/team/_/name/ind/indiana-pacers",
+              "id": "11",
+              "uid": "s:40~l:46~t:11",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "streak",
@@ -26223,8 +26162,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
+                  "value": 0.25,
+                  "displayValue": ".250"
                 },
                 {
                   "name": "wins",
@@ -26233,8 +26172,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 1.0,
+                  "displayValue": "1"
                 }
               ],
               "logo": [
@@ -26294,8 +26233,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "name": "streak",
@@ -26304,8 +26243,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -26314,8 +26253,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 1.0,
-                  "displayValue": "1.000"
+                  "value": 0.75,
+                  "displayValue": ".750"
                 },
                 {
                   "name": "wins",
@@ -26324,8 +26263,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 3.0,
+                  "displayValue": "3"
                 }
               ],
               "logo": [
@@ -26355,89 +26294,6 @@
               ]
             },
             {
-              "team": "Toronto",
-              "link": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors",
-              "id": "28",
-              "uid": "s:40~l:46~t:28",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 0.0,
-                  "displayValue": "0"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 1.0,
-                  "displayValue": "1.000"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-10-11T13:47Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2020-10-08T19:46Z"
-                }
-              ]
-            },
-            {
               "team": "New York",
               "link": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
               "id": "18",
@@ -26450,8 +26306,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "name": "losses",
@@ -26470,8 +26326,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -26480,8 +26336,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
+                  "value": 0.6666667,
+                  "displayValue": ".667"
                 },
                 {
                   "name": "wins",
@@ -26490,8 +26346,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 2.0,
+                  "displayValue": "2"
                 }
               ],
               "logo": [
@@ -26521,10 +26377,10 @@
               ]
             },
             {
-              "team": "Brooklyn",
-              "link": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
-              "id": "17",
-              "uid": "s:40~l:46~t:17",
+              "team": "Toronto",
+              "link": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors",
+              "id": "28",
+              "uid": "s:40~l:46~t:28",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -26543,8 +26399,91 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
                   "value": 1.0,
-                  "displayValue": "1"
+                  "displayValue": "W1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.5,
+                  "displayValue": ".500"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 2.0,
+                  "displayValue": "2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-10-11T13:47Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2020-10-08T19:46Z"
+                }
+              ]
+            },
+            {
+              "team": "Brooklyn",
+              "link": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+              "id": "17",
+              "uid": "s:40~l:46~t:17",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 1.5,
+                  "displayValue": "1.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "name": "streak",
@@ -26563,8 +26502,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
+                  "value": 0.33333334,
+                  "displayValue": ".333"
                 },
                 {
                   "name": "wins",
@@ -26573,8 +26512,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 1.0,
+                  "displayValue": "1"
                 }
               ],
               "logo": [
@@ -26616,8 +26555,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "name": "losses",
@@ -26626,8 +26565,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "streak",
@@ -26636,8 +26575,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -26646,8 +26585,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
+                  "value": 0.25,
+                  "displayValue": ".250"
                 },
                 {
                   "name": "wins",
@@ -26656,8 +26595,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 1.0,
+                  "displayValue": "1"
                 }
               ],
               "logo": [

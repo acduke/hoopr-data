@@ -1,21 +1,26 @@
-
-.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
-Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
+lib_path <- Sys.getenv("R_LIBS")
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
 }
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc=lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc=lib_path)))
 
+option_list = list(
+  make_option(c("-s", "--start_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="Start year of the seasons to process"),
+  make_option(c("-e", "--end_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="End year of the seasons to process")
+)
+opt = parse_args(OptionParser(option_list=option_list))
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2020:hoopR:::most_recent_mbb_season()
+years_vec <- opt$s:opt$e
 # --- compile into play_by_play_{year}.parquet ---------
 mbb_pbp_games <- function(y){
   cli::cli_process_start("Starting mbb play_by_play parse for {y}!")
@@ -30,13 +35,13 @@ mbb_pbp_games <- function(y){
   })
   if(nrow(pbp_g)>0 && length(pbp_g)>1){
     pbp_g <- pbp_g %>% janitor::clean_names()
-    pbp_g <- pbp_g %>% 
+    pbp_g <- pbp_g %>%
       dplyr::mutate(
         game_id = as.integer(.data$game_id)
       )
   }
   if(!('coordinate_x' %in% colnames(pbp_g)) && length(pbp_g)>1){
-    pbp_g <- pbp_g %>% 
+    pbp_g <- pbp_g %>%
       dplyr::mutate(
         coordinate_x = NA_real_,
         coordinate_y = NA_real_
@@ -48,13 +53,13 @@ mbb_pbp_games <- function(y){
     pbp_g <- pbp_g %>%
       hoopR:::make_hoopR_data("ESPN MBB Play-by-Play Information from hoopR data repository",Sys.time())
     data.table::fwrite(pbp_g, file=paste0("mbb/pbp/csv/play_by_play_",y,".csv.gz"))
-    
+
     ifelse(!dir.exists(file.path("mbb/pbp/qs")), dir.create(file.path("mbb/pbp/qs")), FALSE)
     qs::qsave(pbp_g,glue::glue("mbb/pbp/qs/play_by_play_{y}.qs"))
-    
+
     ifelse(!dir.exists(file.path("mbb/pbp/rds")), dir.create(file.path("mbb/pbp/rds")), FALSE)
     saveRDS(pbp_g,glue::glue("mbb/pbp/rds/play_by_play_{y}.rds"))
-    
+
     ifelse(!dir.exists(file.path("mbb/pbp/parquet")), dir.create(file.path("mbb/pbp/parquet")), FALSE)
     arrow::write_parquet(pbp_g, glue::glue("mbb/pbp/parquet/play_by_play_{y}.parquet"))
   }
@@ -82,7 +87,7 @@ mbb_pbp_games <- function(y){
   } else {
     sched$PBP <- FALSE
   }
-  
+
   final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
   final_sched <- final_sched %>%
     hoopR:::make_hoopR_data("MBB Schedule Information from hoopR data repository",Sys.time())
