@@ -155,7 +155,7 @@ mbb_player_box_games <- function(y){
       game_id = as.integer(.data$id),
       id = as.integer(.data$id),
       game_id = as.integer(.data$game_id),
-      status.displayClock = as.character(.data$status.displayClock))
+      status_display_clock = as.character(.data$status_display_clock))
   if(nrow(player_box_g)>0){
     sched <- sched %>%
       dplyr::mutate(
@@ -194,7 +194,7 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
     dplyr::mutate(
       id = as.integer(.data$id),
       game_id = as.integer(.data$game_id),
-      status.displayClock = as.character(.data$status.displayClock)
+      status_display_clock = as.character(.data$status_display_clock)
     )
   return(sched)
 })
