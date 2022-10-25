@@ -96,6 +96,19 @@ nba_player_box_games <- function(y){
                 )
               player_box_score <- players_df %>%
                 dplyr::mutate(
+                  min = unlist(.data$min),
+                  fg = unlist(.data$fg),
+                  fg3 = unlist(.data$fg3),
+                  ft = unlist(.data$ft),
+                  oreb = unlist(.data$oreb),
+                  dreb = unlist(.data$dreb),
+                  reb = unlist(.data$reb),
+                  ast = unlist(.data$ast),
+                  stl = unlist(.data$stl),
+                  blk = unlist(.data$blk),
+                  to = unlist(.data$to),
+                  pf = unlist(.data$pf),
+                  pts = unlist(.data$pts),
                   game_id = gameId,
                   season = season,
                   season_type = season_type,

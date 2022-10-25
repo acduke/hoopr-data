@@ -92,6 +92,19 @@ mbb_player_box_games <- function(y){
                   )
                 player_box_score <- players_df %>%
                   dplyr::mutate(
+                    min = unlist(.data$min),
+                    fg = unlist(.data$fg),
+                    fg3 = unlist(.data$fg3),
+                    ft = unlist(.data$ft),
+                    oreb = unlist(.data$oreb),
+                    dreb = unlist(.data$dreb),
+                    reb = unlist(.data$reb),
+                    ast = unlist(.data$ast),
+                    stl = unlist(.data$stl),
+                    blk = unlist(.data$blk),
+                    to = unlist(.data$to),
+                    pf = unlist(.data$pf),
+                    pts = unlist(.data$pts),
                     game_id = gameId,
                     season = season,
                     season_type = season_type,
@@ -142,16 +155,6 @@ mbb_player_box_games <- function(y){
       game_id = as.integer(.data$id),
       id = as.integer(.data$id),
       game_id = as.integer(.data$game_id),
-      type.id = as.integer(.data$`type.id`),
-      venue.id = as.integer(.data$`venue.id`),
-      status.type.id = as.integer(.data$`status.type.id`),
-      home.id = as.integer(.data$`home.id`),
-      home.venue.id = as.integer(.data$`home.venue.id`),
-      home.conferenceId = as.integer(.data$`home.conferenceId`),
-      away.id = as.integer(.data$`away.id`),
-      away.venue.id = as.integer(.data$`away.venue.id`),
-      away.conferenceId = as.integer(.data$`away.conferenceId`),
-      groups.id = as.integer(.data$`groups.id`),
       status.displayClock = as.character(.data$status.displayClock))
   if(nrow(player_box_g)>0){
     sched <- sched %>%
@@ -191,16 +194,6 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
     dplyr::mutate(
       id = as.integer(.data$id),
       game_id = as.integer(.data$game_id),
-      type.id = as.integer(.data$`type.id`),
-      venue.id = as.integer(.data$`venue.id`),
-      status.type.id = as.integer(.data$`status.type.id`),
-      home.id = as.integer(.data$`home.id`),
-      home.venue.id = as.integer(.data$`home.venue.id`),
-      home.conferenceId = as.integer(.data$`home.conferenceId`),
-      away.id = as.integer(.data$`away.id`),
-      away.venue.id = as.integer(.data$`away.venue.id`),
-      away.conferenceId = as.integer(.data$`away.conferenceId`),
-      groups.id = as.integer(.data$`groups.id`),
       status.displayClock = as.character(.data$status.displayClock)
     )
   return(sched)
