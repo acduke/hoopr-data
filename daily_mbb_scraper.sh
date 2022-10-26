@@ -18,6 +18,6 @@ Rscript R/espn_mbb_03_player_box_creation.R -s $START_YEAR -e $END_YEAR
 git pull
 git add mbb/ mbb_schedule_master.csv mbb_schedule_master.parquet
 git pull
-git commit -m "MBB Play-by-Play and Schedules update (Start: $START_YEAR End: $END_YEAR" || echo "No changes to commit"
+git commit -m "MBB Play-by-Play and Schedules update (Start: $START_YEAR End: $END_YEAR)" || echo "No changes to commit"
 git pull
 git push
