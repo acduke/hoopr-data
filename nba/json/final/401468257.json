@@ -32219,7 +32219,7 @@
         "timeoutsAvailable": true,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -35151,8 +35151,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 4.0,
-                  "displayValue": "W4"
+                  "value": 5.0,
+                  "displayValue": "W5"
                 },
                 {
                   "name": "winPercent",
@@ -35161,8 +35161,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.8333333,
-                  "displayValue": ".833"
+                  "value": 0.85714287,
+                  "displayValue": ".857"
                 },
                 {
                   "name": "wins",
@@ -35171,8 +35171,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 }
               ],
               "logo": [
@@ -35202,89 +35202,6 @@
               ]
             },
             {
-              "team": "Golden State",
-              "link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
-              "id": "9",
-              "uid": "s:40~l:46~t:9",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.42857143,
-                  "displayValue": ".429"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 3.0,
-                  "displayValue": "3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2019-09-30T14:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2019-09-30T20:00Z"
-                }
-              ]
-            },
-            {
               "team": "LA Clippers",
               "link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
               "id": "12",
@@ -35297,8 +35214,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "losses",
@@ -35368,6 +35285,89 @@
               ]
             },
             {
+              "team": "Golden State",
+              "link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+              "id": "9",
+              "uid": "s:40~l:46~t:9",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 3.5,
+                  "displayValue": "3.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 5.0,
+                  "displayValue": "5"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -3.0,
+                  "displayValue": "L3"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.375,
+                  "displayValue": ".375"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 3.0,
+                  "displayValue": "3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2019-09-30T14:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-09-30T20:00Z"
+                }
+              ]
+            },
+            {
               "team": "Sacramento",
               "link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
               "id": "23",
@@ -35380,8 +35380,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "name": "losses",
@@ -35463,8 +35463,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "name": "losses",
@@ -35542,7 +35542,7 @@
   },
   "article": {
     "keywords": [],
-    "description": "\u2014 Paul George hit a go-ahead jumper with six seconds remaining, finishing with 35 points as the Los Angeles Clippers edged past the Houston Rockets 95-93 on Monday night to snap a four-game losing streak.",
+    "description": "\u2014 With Kawhi Leonard's return nowhere in sight, Paul George is putting pressure on himself to carry the Los Angeles Clippers and their high expectations.",
     "source": "AP",
     "video": [
       {
@@ -36064,7 +36064,7 @@
     "linkText": "Clippers edge Rockets 95-93 on George's clutch jumpers",
     "published": "2022-11-01T05:15:51Z",
     "allowComments": true,
-    "lastModified": "2022-11-01T05:15:52Z",
+    "lastModified": "2022-11-01T06:23:37Z",
     "metrics": [
       {
         "count": 0,
@@ -36096,7 +36096,7 @@
       }
     ],
     "inlines": [],
-    "story": "LOS ANGELES -- \u2014 <a href=\"http://www.espn.com/nba/player/_/id/4251/paul-george\">Paul George</a> hit a go-ahead jumper with six seconds remaining, finishing with 35 points as the Los Angeles Clippers edged past the <a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> 95-93 on Monday night to snap a four-game losing streak.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4017837/ivica-zubac\">Ivica Zubac</a> added 16 points and 12 rebounds for the Clippers, who played without <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a> and <a href=\"http://www.espn.com/nba/player/_/id/4237/john-wall\">John Wall</a>. Leonard missed his fifth game and Wall sat out his second, both because of knee injury management.\n\n\r\n              K.J. Martin scored 23 points off the bench to lead the Rockets (1-8), who dropped their fourth in a row.\n\n\r\n              George's 3-pointer tied the game 93-all with 39 seconds remaining. That got fans on their feet for the final seconds. \n\n\r\n              George stole the ball from former Clipper <a href=\"http://www.espn.com/nba/player/_/id/3431/eric-gordon\">Eric Gordon</a>. After another timeout, <a href=\"http://www.espn.com/nba/player/_/id/6443/reggie-jackson\">Reggie Jackson</a> inbounded to George, who hit a jumper that gave the Clippers their first lead of the fourth quarter.\n\n\r\n              Gordon's shot missed at the buzzer and he gestured to indicate he thought he'd been fouled.\n\n\r\n              George had three costly turnovers in the final minutes after hitting a 3-pointer that drew the Clippers within two earlier in the fourth. His first led to a dunk by <a href=\"http://www.espn.com/nba/player/_/id/4397140/kevin-porter-jr\">Kevin Porter Jr</a>. After George's second turnover, he got called for an offensive foul.\n\n\r\n              George fed Zubac for a dunk that again got the Clippers within two. But <a href=\"http://www.espn.com/nba/player/_/id/4437244/jalen-green\">Jalen Green</a> answered with a basket to keep Houston ahead.\n\n\r\n              Martin, who finished four points off his career high, got hot late in the third and early in the fourth. <a href=\"http://www.espn.com/nba/player/_/id/4433192/tari-eason\">Tari Eason</a> and Martin combined to score 11 points in a row to put Houston back in front, 76-71, late in the third.\n\n\r\n              Martin had Houston's first five points of the fourth before missing two free throws with the Rockets clinging to a two-point lead.\n\n\r\n              The teams traded narrow leads in the third, when George scored 12 points.\n\n\r\n              TIP-INS\n\n\r\n              Rockets: <a href=\"http://www.espn.com/nba/player/_/id/3136777/jae'sean-tate\">Jae'Sean Tate</a> reaggravated the ankle injury that forced him to miss the season's first four games. He's day-to-day and will be re-evaluated in Houston. \n\n\r\n              Clippers: <a href=\"http://www.espn.com/nba/player/_/id/2490620/robert-covington\">Robert Covington</a> remains in the NBA's health and safety protocols. ... Los Angeles has won seven of its last eight against the Rockets.\n\n\r\n              LEONARD TO STAY HOME\n\n\r\n              Leonard won't be joining the Clippers for their quick two-game trip to Texas this week.\n\n\r\n              \u201cHe's frustrated. He wants to be out on the floor,\u201d coach Tyronn Lue said. \u201cThen not being on the floor, now you can't travel. He wants to travel, but the doctor says it's not the right thing to do right now with the stiffness (in his knee) and what he's going through.\u201d\n\n\r\n              UP NEXT\n\n\r\n              The teams meet again Wednesday in Houston. \n\n\r\n              ------\n\n\r\n              AP NBA: https://apnews.com/hub/NBA and https://twitter.com/AP--Sports"
+    "story": "LOS ANGELES -- \u2014 With <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a>'s return nowhere in sight, <a href=\"http://www.espn.com/nba/player/_/id/4251/paul-george\">Paul George</a> is putting pressure on himself to carry the Los Angeles Clippers and their high expectations.\n\n\r\n              Despite turnovers down the stretch, George came up with two huge baskets to help the Clippers edge the <a href=\"http://www.espn.com/nba/team/_/name/hou/houston-rockets\">Houston Rockets</a> 95-93 on Monday night and snap a four-game losing streak.\n\n\r\n              \u201cWe're not playing the heavyweights right now,\u201d George said. \u201cThe way we were losing these games, it was embarrassing. We've got to start to play better.\u201d\n\n\r\n              The Clippers (3-4) again were without Leonard and <a href=\"http://www.espn.com/nba/player/_/id/4237/john-wall\">John Wall</a>. Leonard missed his fifth game and Wall sat out his second, both because of knee injury management.\n\n\r\n              \u201cI take full responsibility for us and our record right now,\u201d George said. \u201cRegardless of who's in the lineup or who's not, I'm more than capable of going out and performing.\u201d\n\n\r\n              <a href=\"https://www.nba.com/watch/video/paul-george-drops-the-incredible-jumper?plsrc=nba&game-highlights=0022200102\">George</a> hit a go-ahead jumper with six seconds remaining, finishing with 35 points, nine rebounds and eight assists. <a href=\"https://www.nba.com/watch/video/ivica-zubac-with-the-big-dunk?plsrc=nba&game-highlights=0022200102\"><a href=\"http://www.espn.com/nba/player/_/id/4017837/ivica-zubac\">Ivica Zubac</a></a> added 16 points and 12 rebounds. He teamed with George to score 14 of the Clippers' 22 points in the fourth quarter, when they played a two-man pick and roll.\n\n\r\n              \u201cThat's one of our best plays with me and PG doing pick and rolls together,\u201d Zubac said. \u201cWe couldn't make any shots but we attacked the paint.\u201d\n\n\r\n              <a href=\"https://www.nba.com/watch/video/kenyon-martin-jr-jumps-through-the-roof-and-throws-it-down?plsrc=nba&game-highlights=0022200102\">K.J. Martin</a> scored 23 points off the bench to lead the Rockets (1-8), who dropped their fourth in a row.\n\n\r\n              <a href=\"https://www.nba.com/watch/video/paul-george-drops-the-huge-triple?plsrc=nba&game-highlights=0022200102\">George's 3-pointer</a> tied the game 93-all with 39 seconds remaining. That got fans on their feet for the final seconds. \n\n\r\n              George stole the ball from former Clipper <a href=\"http://www.espn.com/nba/player/_/id/3431/eric-gordon\">Eric Gordon</a>. After another timeout, <a href=\"http://www.espn.com/nba/player/_/id/6443/reggie-jackson\">Reggie Jackson</a> inbounded to George, who hit a jumper that gave the Clippers their first lead of the fourth quarter.\n\n\r\n              Gordon's shot missed at the buzzer and he gestured to indicate he thought he'd been fouled.\n\n\r\n              \u201cWe're a group that fights,\u201d Houston coach Stephen Silas said. \u201cWe executed pretty good down the stretch.\u201d\n\n\r\n              George had three costly turnovers in the final minutes after hitting a 3-pointer that drew the Clippers within two earlier in the fourth. His first led to a dunk by <a href=\"http://www.espn.com/nba/player/_/id/4397140/kevin-porter-jr\">Kevin Porter Jr</a>. After George's second turnover, he got called for an offensive foul.\n\n\r\n              \u201cBad turnovers, bad possessions,\u201d George said, ticking off some of the Clippers' issues. \u201cWe're not shooting the ball well. That's going to come. Tonight, defensively, was a step in the right direction.\u201d\n\n\r\n              George fed Zubac for a dunk that again got the Clippers within two. But <a href=\"http://www.espn.com/nba/player/_/id/4437244/jalen-green\">Jalen Green</a> answered with a basket to keep Houston ahead.\n\n\r\n              Martin, who finished four points off his career high, got hot late in the third and early in the fourth. <a href=\"http://www.espn.com/nba/player/_/id/4433192/tari-eason\">Tari Eason</a> and <a href=\"https://www.nba.com/watch/video/kenyon-martin-jr-with-the-emphatic-jam?plsrc=nba&game-highlights=0022200102\">Martin</a> combined to score 11 points in a row to put Houston back in front, 76-71, late in the third.\n\n\r\n              Martin had Houston's first five points of the fourth before missing two free throws with the Rockets clinging to a two-point lead.\n\n\r\n              The teams traded narrow leads in the third, when George scored 12 points.\n\n\r\n              TIP-INS\n\n\r\n              Rockets: <a href=\"http://www.espn.com/nba/player/_/id/3136777/jae'sean-tate\">Jae'Sean Tate</a> reaggravated the ankle injury that forced him to miss the season's first four games. He's day-to-day and will be re-evaluated in Houston. \n\n\r\n              Clippers: <a href=\"http://www.espn.com/nba/player/_/id/2490620/robert-covington\">Robert Covington</a> remains in the NBA's health and safety protocols. ... Los Angeles has won seven of its last eight against the Rockets.\n\n\r\n              STAYING HOME\n\n\r\n              Leonard won't be joining the Clippers for their quick two-game trip to Texas this week.\n\n\r\n              \u201cHe's frustrated. He wants to be out on the floor,\u201d coach Tyronn Lue said. \u201cThen not being on the floor, now you can't travel. He wants to travel, but the doctor says it's not the right thing to do right now with the stiffness (in his knee) and what he's going through.\u201d\n\n\r\n              UP NEXT\n\n\r\n              The teams meet again Wednesday in Houston. \n\n\r\n              ------\n\n\r\n              AP NBA: https://apnews.com/hub/NBA and https://twitter.com/AP--Sports"
   },
   "leaders": [
     {
@@ -37167,7 +37167,7 @@
     "timeoutsAvailable": true,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

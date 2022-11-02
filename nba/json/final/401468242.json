@@ -31408,7 +31408,7 @@
                     "href": "https://a.espncdn.com/i/headshots/nba/players/full/4066399.png",
                     "alt": "Micah Potter"
                   },
-                  "jersey": "20",
+                  "jersey": "25",
                   "position": {
                     "name": "Center",
                     "displayName": "Center",
@@ -33506,8 +33506,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "name": "losses",
@@ -33516,8 +33516,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "streak",
@@ -33526,8 +33526,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": -2.0,
+                  "displayValue": "L2"
                 },
                 {
                   "name": "winPercent",
@@ -33536,8 +33536,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.6666667,
-                  "displayValue": ".667"
+                  "value": 0.5714286,
+                  "displayValue": ".571"
                 },
                 {
                   "name": "wins",
@@ -33672,8 +33672,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "name": "losses",
@@ -33682,8 +33682,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "name": "streak",
@@ -33692,8 +33692,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -3.0,
-                  "displayValue": "L3"
+                  "value": -4.0,
+                  "displayValue": "L4"
                 },
                 {
                   "name": "winPercent",
@@ -33702,8 +33702,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.14285715,
-                  "displayValue": ".143"
+                  "value": 0.125,
+                  "displayValue": ".125"
                 },
                 {
                   "name": "wins",
@@ -33846,8 +33846,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "name": "losses",
@@ -33866,8 +33866,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -33876,8 +33876,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.71428573,
-                  "displayValue": ".714"
+                  "value": 0.75,
+                  "displayValue": ".750"
                 },
                 {
                   "name": "wins",
@@ -33886,8 +33886,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 }
               ],
               "logo": [
@@ -35311,20 +35311,20 @@
           "uid": "s:40~l:46~e:401468256~c:401468256",
           "date": "2022-11-01T01:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "post",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Mon, October 31st at 9:00 PM EDT",
-            "shortDetail": "10/31 - 9:00 PM EDT"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "26",
                 "uid": "s:40~l:46~t:26",
@@ -35342,10 +35342,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
               },
-              "score": "0"
+              "score": "121"
             },
             {
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "29",
                 "uid": "s:40~l:46~t:29",
@@ -35363,7 +35364,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
               },
-              "score": "0"
+              "score": "105"
             }
           ],
           "links": [
