@@ -36940,15 +36940,15 @@
           "uid": "s:40~l:46~e:401468263~c:401468263",
           "date": "2022-11-02T22:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Wed, November 2nd at 6:00 PM EDT",
-            "shortDetail": "11/2 - 6:00 PM EDT"
+            "description": "In Progress",
+            "detail": "7:15 - 4th Quarter",
+            "shortDetail": "7:15 - 4th"
           },
           "broadcasts": [],
           "competitors": [
@@ -36971,7 +36971,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
               },
-              "score": "0"
+              "score": "98"
             },
             {
               "homeAway": "away",
@@ -36992,34 +36992,34 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
               },
-              "score": "0"
+              "score": "101"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/401468263",
+              "href": "https://www.espn.com/nba/game?gameId=401468263",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401468263",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
