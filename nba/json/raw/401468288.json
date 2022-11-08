@@ -4287,13 +4287,13 @@
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
-        "shotChartAvailable": false,
+        "shotChartAvailable": true,
         "timeoutsAvailable": true,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
         "recent": false,
         "boxscoreSource": "full",
-        "playByPlaySource": "none",
+        "playByPlaySource": "full",
         "competitors": [
           {
             "id": "30",
@@ -4613,6 +4613,18 @@
       },
       {
         "rel": [
+          "pbp",
+          "desktop",
+          "event"
+        ],
+        "href": "http://www.espn.com/nba/playbyplay/_/gameId/401468288",
+        "text": "Play-by-Play",
+        "shortText": "Play-by-Play",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "teamstats",
           "desktop",
           "event"
@@ -4888,10 +4900,10 @@
       "id": "4014682889",
       "sequenceNumber": "9",
       "type": {
-        "id": "95",
-        "text": "Layup Shot"
+        "id": "144",
+        "text": "Driving Floating Jump Shot"
       },
-      "text": "Terry Rozier makes layup",
+      "text": "Terry Rozier makes driving floating jump shot",
       "awayScore": 0,
       "homeScore": 2,
       "period": {
@@ -5041,7 +5053,7 @@
         "id": "109",
         "text": "Running Layup Shot"
       },
-      "text": "Dennis Smith Jr. blocks Edmond Sumner 's 3-foot two point shot",
+      "text": "P.J. Washington blocks Edmond Sumner 's 3-foot two point shot",
       "awayScore": 2,
       "homeScore": 2,
       "period": {
@@ -5064,7 +5076,7 @@
         },
         {
           "athlete": {
-            "id": "4065697"
+            "id": "4278078"
           }
         }
       ],
@@ -5924,10 +5936,10 @@
       "id": "40146828849",
       "sequenceNumber": "49",
       "type": {
-        "id": "95",
-        "text": "Layup Shot"
+        "id": "96",
+        "text": "Dunk Shot"
       },
-      "text": "Nic Claxton makes layup",
+      "text": "Nic Claxton makes 2-foot dunk",
       "awayScore": 9,
       "homeScore": 5,
       "period": {
@@ -15420,104 +15432,6 @@
       }
     },
     {
-      "id": "401468288436",
-      "sequenceNumber": "436",
-      "type": {
-        "id": "100",
-        "text": "Free Throw - 1 of 3"
-      },
-      "text": "Nick Richards misses free throw 1 of 3",
-      "awayScore": 59,
-      "homeScore": 60,
-      "period": {
-        "number": 3,
-        "displayValue": "3rd Quarter"
-      },
-      "clock": {
-        "displayValue": "4:45"
-      },
-      "scoringPlay": false,
-      "scoreValue": 0,
-      "team": {
-        "id": "30"
-      },
-      "participants": [
-        {
-          "athlete": {
-            "id": "4278076"
-          }
-        }
-      ],
-      "shootingPlay": true,
-      "coordinate": {
-        "x": -214748340,
-        "y": -214748365
-      }
-    },
-    {
-      "id": "401468288437",
-      "sequenceNumber": "437",
-      "type": {
-        "id": "156",
-        "text": "Offensive Rebound"
-      },
-      "text": "Hornets offensive team rebound",
-      "awayScore": 59,
-      "homeScore": 60,
-      "period": {
-        "number": 3,
-        "displayValue": "3rd Quarter"
-      },
-      "clock": {
-        "displayValue": "4:45"
-      },
-      "scoringPlay": false,
-      "scoreValue": 0,
-      "team": {
-        "id": "30"
-      },
-      "shootingPlay": false,
-      "coordinate": {
-        "x": -214748340,
-        "y": -214748365
-      }
-    },
-    {
-      "id": "401468288438",
-      "sequenceNumber": "438",
-      "type": {
-        "id": "101",
-        "text": "Free Throw - 2 of 3"
-      },
-      "text": "Nick Richards makes free throw 2 of 3",
-      "awayScore": 59,
-      "homeScore": 61,
-      "period": {
-        "number": 3,
-        "displayValue": "3rd Quarter"
-      },
-      "clock": {
-        "displayValue": "4:45"
-      },
-      "scoringPlay": true,
-      "scoreValue": 1,
-      "team": {
-        "id": "30"
-      },
-      "participants": [
-        {
-          "athlete": {
-            "id": "4278076"
-          }
-        }
-      ],
-      "shootingPlay": true,
-      "coordinate": {
-        "x": -214748340,
-        "y": -214748365
-      }
-    },
-    {
       "id": "401468288430",
       "sequenceNumber": "430",
       "type": {
@@ -15588,6 +15502,104 @@
       }
     },
     {
+      "id": "401468288436",
+      "sequenceNumber": "436",
+      "type": {
+        "id": "100",
+        "text": "Free Throw - 1 of 3"
+      },
+      "text": "Kelly Oubre Jr. misses free throw 1 of 3",
+      "awayScore": 59,
+      "homeScore": 60,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:35"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288437",
+      "sequenceNumber": "437",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Hornets offensive team rebound",
+      "awayScore": 59,
+      "homeScore": 60,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:35"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288438",
+      "sequenceNumber": "438",
+      "type": {
+        "id": "101",
+        "text": "Free Throw - 2 of 3"
+      },
+      "text": "Kelly Oubre Jr. makes free throw 2 of 3",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:35"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
       "id": "401468288439",
       "sequenceNumber": "439",
       "type": {
@@ -15621,6 +15633,6034 @@
           }
         }
       ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288558",
+      "sequenceNumber": "558",
+      "type": {
+        "id": "102",
+        "text": "Free Throw - 3 of 3"
+      },
+      "text": "Kelly Oubre Jr. makes free throw 3 of 3",
+      "awayScore": 59,
+      "homeScore": 62,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:35"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288441",
+      "sequenceNumber": "441",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Kevin Durant misses 15-foot pullup jump shot",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:22"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 34,
+        "y": 12
+      }
+    },
+    {
+      "id": "401468288442",
+      "sequenceNumber": "442",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Nick Richards defensive rebound",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:20"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 34,
+        "y": 12
+      }
+    },
+    {
+      "id": "401468288443",
+      "sequenceNumber": "443",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "James Bouknight misses 26-foot three point jumper",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:10"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 27,
+        "y": 26
+      }
+    },
+    {
+      "id": "401468288444",
+      "sequenceNumber": "444",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Kevin Durant defensive rebound",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:08"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 27,
+        "y": 26
+      }
+    },
+    {
+      "id": "401468288445",
+      "sequenceNumber": "445",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Cam Thomas misses 27-foot three point jumper",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "4:02"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 42,
+        "y": 20
+      }
+    },
+    {
+      "id": "401468288446",
+      "sequenceNumber": "446",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Royce O'Neale offensive rebound",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:59"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 42,
+        "y": 20
+      }
+    },
+    {
+      "id": "401468288448",
+      "sequenceNumber": "448",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Theo Maledon shooting foul",
+      "awayScore": 59,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:58"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4683027"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 42,
+        "y": 20
+      }
+    },
+    {
+      "id": "401468288450",
+      "sequenceNumber": "450",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Royce O'Neale makes free throw 1 of 2",
+      "awayScore": 60,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:58"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288451",
+      "sequenceNumber": "451",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Royce O'Neale makes free throw 2 of 2",
+      "awayScore": 61,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:58"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288452",
+      "sequenceNumber": "452",
+      "type": {
+        "id": "45",
+        "text": "Personal Foul"
+      },
+      "text": "Royce O'Neale personal foul",
+      "awayScore": 61,
+      "homeScore": 61,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:47"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 40,
+        "y": 16
+      }
+    },
+    {
+      "id": "401468288454",
+      "sequenceNumber": "454",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Nick Richards makes free throw 1 of 2",
+      "awayScore": 61,
+      "homeScore": 62,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:47"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288455",
+      "sequenceNumber": "455",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Nick Richards makes free throw 2 of 2",
+      "awayScore": 61,
+      "homeScore": 63,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:47"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288456",
+      "sequenceNumber": "456",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Joe Harris enters the game for Royce O'Neale",
+      "awayScore": 61,
+      "homeScore": 63,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:47"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288458",
+      "sequenceNumber": "458",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Seth Curry misses 25-foot three point jumper",
+      "awayScore": 61,
+      "homeScore": 63,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:34"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2326307"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 0,
+        "y": 1
+      }
+    },
+    {
+      "id": "401468288459",
+      "sequenceNumber": "459",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Theo Maledon defensive rebound",
+      "awayScore": 61,
+      "homeScore": 63,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:32"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4683027"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 0,
+        "y": 1
+      }
+    },
+    {
+      "id": "401468288460",
+      "sequenceNumber": "460",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Cam Thomas shooting foul",
+      "awayScore": 61,
+      "homeScore": 63,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:19"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 25,
+        "y": 2
+      }
+    },
+    {
+      "id": "401468288462",
+      "sequenceNumber": "462",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Kelly Oubre Jr. misses free throw 1 of 2",
+      "awayScore": 61,
+      "homeScore": 63,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:19"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288463",
+      "sequenceNumber": "463",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Hornets offensive team rebound",
+      "awayScore": 61,
+      "homeScore": 63,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:19"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288464",
+      "sequenceNumber": "464",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Kelly Oubre Jr. makes free throw 2 of 2",
+      "awayScore": 61,
+      "homeScore": 64,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:19"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288465",
+      "sequenceNumber": "465",
+      "type": {
+        "id": "63",
+        "text": "Lost Ball Turnover"
+      },
+      "text": "Kevin Durant lost ball turnover (James Bouknight steals)",
+      "awayScore": 61,
+      "homeScore": 64,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:05"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 28,
+        "y": 14
+      }
+    },
+    {
+      "id": "401468288467",
+      "sequenceNumber": "467",
+      "type": {
+        "id": "109",
+        "text": "Running Layup Shot"
+      },
+      "text": "Theo Maledon makes two point shot (James Bouknight assists)",
+      "awayScore": 61,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "3:01"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4683027"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 26,
+        "y": 0
+      }
+    },
+    {
+      "id": "401468288469",
+      "sequenceNumber": "469",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Nick Richards shooting foul",
+      "awayScore": 61,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:46"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 31,
+        "y": 7
+      }
+    },
+    {
+      "id": "401468288471",
+      "sequenceNumber": "471",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Kevin Durant makes free throw 1 of 2",
+      "awayScore": 62,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:46"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288472",
+      "sequenceNumber": "472",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Kevin Durant makes free throw 2 of 2",
+      "awayScore": 63,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:46"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288473",
+      "sequenceNumber": "473",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "James Bouknight misses 25-foot three point jumper",
+      "awayScore": 63,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:28"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 7,
+        "y": 17
+      }
+    },
+    {
+      "id": "401468288474",
+      "sequenceNumber": "474",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Nick Richards offensive rebound",
+      "awayScore": 63,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:27"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 7,
+        "y": 17
+      }
+    },
+    {
+      "id": "401468288475",
+      "sequenceNumber": "475",
+      "type": {
+        "id": "110",
+        "text": "Driving Layup Shot"
+      },
+      "text": "Cam Thomas blocks James Bouknight 's 6-foot driving layup",
+      "awayScore": 63,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:24"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 29,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288477",
+      "sequenceNumber": "477",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Cam Thomas defensive rebound",
+      "awayScore": 63,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:23"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 29,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288478",
+      "sequenceNumber": "478",
+      "type": {
+        "id": "144",
+        "text": "Driving Floating Jump Shot"
+      },
+      "text": "Cam Thomas makes 7-foot driving floating jump shot",
+      "awayScore": 65,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:13"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 7
+      }
+    },
+    {
+      "id": "401468288479",
+      "sequenceNumber": "479",
+      "type": {
+        "id": "16",
+        "text": "Full Timeout"
+      },
+      "text": "Hornets Full timeout",
+      "awayScore": 65,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:13"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288480",
+      "sequenceNumber": "480",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Terry Rozier enters the game for Theo Maledon",
+      "awayScore": 65,
+      "homeScore": 66,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "2:13"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4683027"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288482",
+      "sequenceNumber": "482",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "JT Thor makes three point jumper (Terry Rozier assists)",
+      "awayScore": 65,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "1:52"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4702233"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 50,
+        "y": 0
+      }
+    },
+    {
+      "id": "401468288484",
+      "sequenceNumber": "484",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Seth Curry misses 17-foot pullup jump shot",
+      "awayScore": 65,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "1:30"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2326307"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 15,
+        "y": 14
+      }
+    },
+    {
+      "id": "401468288485",
+      "sequenceNumber": "485",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Nick Richards defensive rebound",
+      "awayScore": 65,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "1:27"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 15,
+        "y": 14
+      }
+    },
+    {
+      "id": "401468288486",
+      "sequenceNumber": "486",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Kelly Oubre Jr. misses 27-foot three point jumper",
+      "awayScore": 65,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "1:08"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 45,
+        "y": 18
+      }
+    },
+    {
+      "id": "401468288487",
+      "sequenceNumber": "487",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "JT Thor offensive rebound",
+      "awayScore": 65,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "1:05"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4702233"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 45,
+        "y": 18
+      }
+    },
+    {
+      "id": "401468288488",
+      "sequenceNumber": "488",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "JT Thor misses 29-foot three point jumper",
+      "awayScore": 65,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "1:04"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4702233"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 6,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288489",
+      "sequenceNumber": "489",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Kevin Durant defensive rebound",
+      "awayScore": 65,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "1:02"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 6,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288490",
+      "sequenceNumber": "490",
+      "type": {
+        "id": "132",
+        "text": "Step Back Jump Shot"
+      },
+      "text": "Cam Thomas makes 21-foot step back jumpshot (Yuta Watanabe assists)",
+      "awayScore": 67,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "45.4"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 7,
+        "y": 10
+      }
+    },
+    {
+      "id": "401468288492",
+      "sequenceNumber": "492",
+      "type": {
+        "id": "93",
+        "text": "Hook Shot"
+      },
+      "text": "Nick Richards misses 3-foot hook shot",
+      "awayScore": 67,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "32.1"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 26,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288493",
+      "sequenceNumber": "493",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Yuta Watanabe defensive rebound",
+      "awayScore": 67,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "30.0"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 26,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288494",
+      "sequenceNumber": "494",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "James Bouknight shooting foul",
+      "awayScore": 67,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "5.6"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 26,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288496",
+      "sequenceNumber": "496",
+      "type": {
+        "id": "100",
+        "text": "Free Throw - 1 of 3"
+      },
+      "text": "Cam Thomas makes free throw 1 of 3",
+      "awayScore": 68,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "5.6"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288497",
+      "sequenceNumber": "497",
+      "type": {
+        "id": "101",
+        "text": "Free Throw - 2 of 3"
+      },
+      "text": "Cam Thomas misses free throw 2 of 3",
+      "awayScore": 68,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "5.6"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288498",
+      "sequenceNumber": "498",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Nets offensive team rebound",
+      "awayScore": 68,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "5.6"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288499",
+      "sequenceNumber": "499",
+      "type": {
+        "id": "102",
+        "text": "Free Throw - 3 of 3"
+      },
+      "text": "Cam Thomas makes free throw 3 of 3",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "5.6"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288501",
+      "sequenceNumber": "501",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "David Duke Jr. enters the game for Yuta Watanabe",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "5.6"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4397107"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288502",
+      "sequenceNumber": "502",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Royce O'Neale enters the game for Seth Curry",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "5.6"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2326307"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288505",
+      "sequenceNumber": "505",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Terry Rozier misses 27-foot three point pullup jump shot",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "0.7"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 5,
+        "y": 18
+      }
+    },
+    {
+      "id": "401468288506",
+      "sequenceNumber": "506",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Hornets offensive team rebound",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "0.1"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 5,
+        "y": 18
+      }
+    },
+    {
+      "id": "401468288507",
+      "sequenceNumber": "507",
+      "type": {
+        "id": "412",
+        "text": "End Period"
+      },
+      "text": "End of the 3rd Quarter",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 3,
+        "displayValue": "3rd Quarter"
+      },
+      "clock": {
+        "displayValue": "0.0"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288508",
+      "sequenceNumber": "508",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "P.J. Washington enters the game for Kelly Oubre Jr.",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "12:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288509",
+      "sequenceNumber": "509",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Patty Mills enters the game for Kevin Durant",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "12:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288510",
+      "sequenceNumber": "510",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Nic Claxton enters the game for David Duke Jr.",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "12:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4397107"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288515",
+      "sequenceNumber": "515",
+      "type": {
+        "id": "121",
+        "text": "Fade Away Jump Shot"
+      },
+      "text": "Cam Thomas misses 11-foot two point shot",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "11:45"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 36,
+        "y": -1
+      }
+    },
+    {
+      "id": "401468288516",
+      "sequenceNumber": "516",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "JT Thor defensive rebound",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "11:43"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4702233"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 36,
+        "y": -1
+      }
+    },
+    {
+      "id": "401468288517",
+      "sequenceNumber": "517",
+      "type": {
+        "id": "45",
+        "text": "Personal Foul"
+      },
+      "text": "Patty Mills personal foul",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "11:31"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 32,
+        "y": 23
+      }
+    },
+    {
+      "id": "401468288519",
+      "sequenceNumber": "519",
+      "type": {
+        "id": "144",
+        "text": "Driving Floating Jump Shot"
+      },
+      "text": "Terry Rozier misses driving floating jump shot",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "11:23"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 26,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288520",
+      "sequenceNumber": "520",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Nic Claxton defensive rebound",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "11:21"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 26,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288521",
+      "sequenceNumber": "521",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Patty Mills misses 27-foot three point jumper",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "11:10"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 8,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288522",
+      "sequenceNumber": "522",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Terry Rozier defensive rebound",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "11:08"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 8,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288523",
+      "sequenceNumber": "523",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Nic Claxton blocks James Bouknight 's 10-foot pullup jump shot",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:51"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 16,
+        "y": 4
+      }
+    },
+    {
+      "id": "401468288525",
+      "sequenceNumber": "525",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "James Bouknight offensive rebound",
+      "awayScore": 69,
+      "homeScore": 69,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:50"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 16,
+        "y": 4
+      }
+    },
+    {
+      "id": "401468288526",
+      "sequenceNumber": "526",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Terry Rozier makes 28-foot three point jumper (James Bouknight assists)",
+      "awayScore": 69,
+      "homeScore": 72,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:49"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 9,
+        "y": 23
+      }
+    },
+    {
+      "id": "401468288528",
+      "sequenceNumber": "528",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Joe Harris misses 26-foot three point jumper",
+      "awayScore": 69,
+      "homeScore": 72,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:32"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 40,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288529",
+      "sequenceNumber": "529",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Joe Harris offensive rebound",
+      "awayScore": 69,
+      "homeScore": 72,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:31"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 40,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288530",
+      "sequenceNumber": "530",
+      "type": {
+        "id": "110",
+        "text": "Driving Layup Shot"
+      },
+      "text": "P.J. Washington blocks Cam Thomas 's 5-foot driving layup",
+      "awayScore": 69,
+      "homeScore": 72,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:27"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288532",
+      "sequenceNumber": "532",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "James Bouknight defensive rebound",
+      "awayScore": 69,
+      "homeScore": 72,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:27"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 24,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288533",
+      "sequenceNumber": "533",
+      "type": {
+        "id": "113",
+        "text": "Running Jump Shot"
+      },
+      "text": "Terry Rozier makes 27-foot three point shot (James Bouknight assists)",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:20"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 43,
+        "y": 20
+      }
+    },
+    {
+      "id": "401468288535",
+      "sequenceNumber": "535",
+      "type": {
+        "id": "16",
+        "text": "Full Timeout"
+      },
+      "text": "Nets Full timeout",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:19"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288553",
+      "sequenceNumber": "553",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Yuta Watanabe enters the game for Joe Harris",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:19"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288536",
+      "sequenceNumber": "536",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Patty Mills misses 27-foot three point jumper",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:11"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 27
+      }
+    },
+    {
+      "id": "401468288537",
+      "sequenceNumber": "537",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "P.J. Washington defensive rebound",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10:09"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 24,
+        "y": 27
+      }
+    },
+    {
+      "id": "401468288538",
+      "sequenceNumber": "538",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Terry Rozier misses 27-foot three point jumper",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:53"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 9,
+        "y": 22
+      }
+    },
+    {
+      "id": "401468288539",
+      "sequenceNumber": "539",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "JT Thor offensive rebound",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:53"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4702233"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 9,
+        "y": 22
+      }
+    },
+    {
+      "id": "401468288540",
+      "sequenceNumber": "540",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "James Bouknight misses 27-foot three point jumper",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:48"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 13,
+        "y": 24
+      }
+    },
+    {
+      "id": "401468288541",
+      "sequenceNumber": "541",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Nick Richards offensive rebound",
+      "awayScore": 69,
+      "homeScore": 75,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:45"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 13,
+        "y": 24
+      }
+    },
+    {
+      "id": "401468288542",
+      "sequenceNumber": "542",
+      "type": {
+        "id": "95",
+        "text": "Layup Shot"
+      },
+      "text": "Nick Richards makes layup",
+      "awayScore": 69,
+      "homeScore": 77,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:45"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288543",
+      "sequenceNumber": "543",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Cam Thomas shooting foul",
+      "awayScore": 69,
+      "homeScore": 77,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:45"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 26,
+        "y": 7
+      }
+    },
+    {
+      "id": "401468288545",
+      "sequenceNumber": "545",
+      "type": {
+        "id": "97",
+        "text": "Free Throw - 1 of 1"
+      },
+      "text": "Nick Richards makes free throw 1 of 1",
+      "awayScore": 69,
+      "homeScore": 78,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:45"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288546",
+      "sequenceNumber": "546",
+      "type": {
+        "id": "35",
+        "text": "Technical Foul"
+      },
+      "text": "Nic Claxton technical foul (1st technical foul)",
+      "awayScore": 69,
+      "homeScore": 78,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:45"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 26,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288547",
+      "sequenceNumber": "547",
+      "type": {
+        "id": "103",
+        "text": "Free Throw - Technical"
+      },
+      "text": "Terry Rozier makes technical free throw",
+      "awayScore": 69,
+      "homeScore": 79,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:45"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288548",
+      "sequenceNumber": "548",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Patty Mills makes 27-foot three point jumper (Nic Claxton assists)",
+      "awayScore": 72,
+      "homeScore": 79,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:31"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 26,
+        "y": 27
+      }
+    },
+    {
+      "id": "401468288550",
+      "sequenceNumber": "550",
+      "type": {
+        "id": "62",
+        "text": "Bad Pass\nTurnover"
+      },
+      "text": "James Bouknight bad pass (Nic Claxton steals)",
+      "awayScore": 72,
+      "homeScore": 79,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:05"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 16,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288561",
+      "sequenceNumber": "561",
+      "type": {
+        "id": "16",
+        "text": "Full Timeout"
+      },
+      "text": "Nets Full timeout",
+      "awayScore": 72,
+      "homeScore": 80,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288562",
+      "sequenceNumber": "562",
+      "type": {
+        "id": "215",
+        "text": "Coach's Challenge (Overturned)"
+      },
+      "text": "(09:00) [Hornets] COACH'S CHALLENGE (CALL OVERTURNED) [Hornets] retain their timeout",
+      "awayScore": 72,
+      "homeScore": 80,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288563",
+      "sequenceNumber": "563",
+      "type": {
+        "id": "116",
+        "text": "Running Dunk Shot"
+      },
+      "text": "James Bouknight blocks Yuta Watanabe 's 6-foot dunk",
+      "awayScore": 72,
+      "homeScore": 80,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 21,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288565",
+      "sequenceNumber": "565",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "James Bouknight defensive rebound",
+      "awayScore": 72,
+      "homeScore": 80,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "9:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 21,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288566",
+      "sequenceNumber": "566",
+      "type": {
+        "id": "151",
+        "text": "Cutting Dunk Shot"
+      },
+      "text": "Nick Richards makes dunk (P.J. Washington assists)",
+      "awayScore": 72,
+      "homeScore": 82,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "8:46"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 26,
+        "y": 0
+      }
+    },
+    {
+      "id": "401468288568",
+      "sequenceNumber": "568",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Patty Mills makes 23-foot three point jumper (Cam Thomas assists)",
+      "awayScore": 75,
+      "homeScore": 82,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "8:32"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 48,
+        "y": 2
+      }
+    },
+    {
+      "id": "401468288570",
+      "sequenceNumber": "570",
+      "type": {
+        "id": "110",
+        "text": "Driving Layup Shot"
+      },
+      "text": "P.J. Washington makes driving layup",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "8:15"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 0
+      }
+    },
+    {
+      "id": "401468288571",
+      "sequenceNumber": "571",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Cam Thomas misses 15-foot jumper",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7:57"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 15
+      }
+    },
+    {
+      "id": "401468288572",
+      "sequenceNumber": "572",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "James Bouknight defensive rebound",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7:56"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 24,
+        "y": 15
+      }
+    },
+    {
+      "id": "401468288573",
+      "sequenceNumber": "573",
+      "type": {
+        "id": "62",
+        "text": "Bad Pass\nTurnover"
+      },
+      "text": "Terry Rozier bad pass (Yuta Watanabe steals)",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7:37"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 31,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288575",
+      "sequenceNumber": "575",
+      "type": {
+        "id": "113",
+        "text": "Running Jump Shot"
+      },
+      "text": "Royce O'Neale misses 27-foot three point shot",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7:29"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 2,
+        "y": 14
+      }
+    },
+    {
+      "id": "401468288576",
+      "sequenceNumber": "576",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "P.J. Washington defensive rebound",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7:27"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 2,
+        "y": 14
+      }
+    },
+    {
+      "id": "401468288577",
+      "sequenceNumber": "577",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "P.J. Washington misses 26-foot three point pullup jump shot",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7:09"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 32,
+        "y": 25
+      }
+    },
+    {
+      "id": "401468288578",
+      "sequenceNumber": "578",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Nic Claxton defensive rebound",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7:08"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 32,
+        "y": 25
+      }
+    },
+    {
+      "id": "401468288579",
+      "sequenceNumber": "579",
+      "type": {
+        "id": "93",
+        "text": "Hook Shot"
+      },
+      "text": "Nic Claxton misses 5-foot hook shot",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:50"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288580",
+      "sequenceNumber": "580",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Nick Richards defensive rebound",
+      "awayScore": 75,
+      "homeScore": 84,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:50"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 24,
+        "y": 5
+      }
+    },
+    {
+      "id": "401468288581",
+      "sequenceNumber": "581",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "P.J. Washington makes 27-foot three point jumper (JT Thor assists)",
+      "awayScore": 75,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:32"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4702233"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 42,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288583",
+      "sequenceNumber": "583",
+      "type": {
+        "id": "16",
+        "text": "Full Timeout"
+      },
+      "text": "Nets Full timeout",
+      "awayScore": 75,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:30"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288584",
+      "sequenceNumber": "584",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Theo Maledon enters the game for Terry Rozier",
+      "awayScore": 75,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:30"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4683027"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288585",
+      "sequenceNumber": "585",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Kelly Oubre Jr. enters the game for Nick Richards",
+      "awayScore": 75,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:30"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4278076"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288586",
+      "sequenceNumber": "586",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Mason Plumlee enters the game for JT Thor",
+      "awayScore": 75,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:30"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4702233"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288587",
+      "sequenceNumber": "587",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Kevin Durant enters the game for Patty Mills",
+      "awayScore": 75,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:30"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288588",
+      "sequenceNumber": "588",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Joe Harris enters the game for Nic Claxton",
+      "awayScore": 75,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:30"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4278067"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288594",
+      "sequenceNumber": "594",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Kevin Durant makes 13-foot pullup jump shot (Cam Thomas assists)",
+      "awayScore": 77,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6:18"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 30,
+        "y": 12
+      }
+    },
+    {
+      "id": "401468288596",
+      "sequenceNumber": "596",
+      "type": {
+        "id": "78",
+        "text": "Palming Turnover"
+      },
+      "text": "James Bouknight palming turnover",
+      "awayScore": 77,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5:57"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 40,
+        "y": 10
+      }
+    },
+    {
+      "id": "401468288597",
+      "sequenceNumber": "597",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Jalen McDaniels enters the game for James Bouknight",
+      "awayScore": 77,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5:57"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4066731"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288599",
+      "sequenceNumber": "599",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Yuta Watanabe makes 23-foot three point jumper (Kevin Durant assists)",
+      "awayScore": 80,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5:40"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 48,
+        "y": 1
+      }
+    },
+    {
+      "id": "401468288601",
+      "sequenceNumber": "601",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Theo Maledon misses 27-foot three point pullup jump shot",
+      "awayScore": 80,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5:20"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4683027"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 41,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288602",
+      "sequenceNumber": "602",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Jalen McDaniels offensive rebound",
+      "awayScore": 80,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5:18"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4066731"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 41,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288603",
+      "sequenceNumber": "603",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Jalen McDaniels misses 25-foot three point jumper",
+      "awayScore": 80,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5:15"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4066731"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 49,
+        "y": -2
+      }
+    },
+    {
+      "id": "401468288604",
+      "sequenceNumber": "604",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Royce O'Neale defensive rebound",
+      "awayScore": 80,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5:14"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 49,
+        "y": -2
+      }
+    },
+    {
+      "id": "401468288605",
+      "sequenceNumber": "605",
+      "type": {
+        "id": "95",
+        "text": "Layup Shot"
+      },
+      "text": "Yuta Watanabe makes layup (Royce O'Neale assists)",
+      "awayScore": 82,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "4:57"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 1
+      }
+    },
+    {
+      "id": "401468288607",
+      "sequenceNumber": "607",
+      "type": {
+        "id": "16",
+        "text": "Full Timeout"
+      },
+      "text": "Hornets Full timeout",
+      "awayScore": 82,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "4:57"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288608",
+      "sequenceNumber": "608",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Terry Rozier enters the game for Theo Maledon",
+      "awayScore": 82,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "4:57"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4683027"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288610",
+      "sequenceNumber": "610",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Terry Rozier misses 18-foot pullup jump shot",
+      "awayScore": 82,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "4:45"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 15,
+        "y": 14
+      }
+    },
+    {
+      "id": "401468288611",
+      "sequenceNumber": "611",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Joe Harris defensive rebound",
+      "awayScore": 82,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "4:42"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 15,
+        "y": 14
+      }
+    },
+    {
+      "id": "401468288612",
+      "sequenceNumber": "612",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Joe Harris makes three point jumper (Royce O'Neale assists)",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "4:25"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 48,
+        "y": 0
+      }
+    },
+    {
+      "id": "401468288614",
+      "sequenceNumber": "614",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Jalen McDaniels misses 26-foot three point jumper",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:57"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4066731"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 8,
+        "y": 20
+      }
+    },
+    {
+      "id": "401468288615",
+      "sequenceNumber": "615",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Kevin Durant defensive rebound",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:55"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 8,
+        "y": 20
+      }
+    },
+    {
+      "id": "401468288616",
+      "sequenceNumber": "616",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Joe Harris misses 26-foot three point jumper",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:47"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 26
+      }
+    },
+    {
+      "id": "401468288617",
+      "sequenceNumber": "617",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Jalen McDaniels defensive rebound",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:45"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4066731"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 24,
+        "y": 26
+      }
+    },
+    {
+      "id": "401468288618",
+      "sequenceNumber": "618",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Kelly Oubre Jr. misses three point jumper",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:25"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 25,
+        "y": 26
+      }
+    },
+    {
+      "id": "401468288619",
+      "sequenceNumber": "619",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Yuta Watanabe defensive rebound",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:22"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 25,
+        "y": 26
+      }
+    },
+    {
+      "id": "401468288620",
+      "sequenceNumber": "620",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Yuta Watanabe misses 28-foot three point jumper",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:02"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 19,
+        "y": 27
+      }
+    },
+    {
+      "id": "401468288621",
+      "sequenceNumber": "621",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Mason Plumlee defensive rebound",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "3:00"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 19,
+        "y": 27
+      }
+    },
+    {
+      "id": "401468288622",
+      "sequenceNumber": "622",
+      "type": {
+        "id": "62",
+        "text": "Bad Pass\nTurnover"
+      },
+      "text": "Terry Rozier bad pass (Cam Thomas steals)",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:45"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 27,
+        "y": 24
+      }
+    },
+    {
+      "id": "401468288624",
+      "sequenceNumber": "624",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Kelly Oubre Jr. shooting foul",
+      "awayScore": 85,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:40"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 25,
+        "y": 3
+      }
+    },
+    {
+      "id": "401468288626",
+      "sequenceNumber": "626",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Cam Thomas makes free throw 1 of 2",
+      "awayScore": 86,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:40"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288627",
+      "sequenceNumber": "627",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Cam Thomas makes free throw 2 of 2",
+      "awayScore": 87,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:40"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288629",
+      "sequenceNumber": "629",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Joe Harris shooting foul",
+      "awayScore": 87,
+      "homeScore": 87,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:24"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 28,
+        "y": 10
+      }
+    },
+    {
+      "id": "401468288631",
+      "sequenceNumber": "631",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "P.J. Washington makes free throw 1 of 2",
+      "awayScore": 87,
+      "homeScore": 88,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:24"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288632",
+      "sequenceNumber": "632",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "P.J. Washington makes free throw 2 of 2",
+      "awayScore": 87,
+      "homeScore": 89,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:24"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288633",
+      "sequenceNumber": "633",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Mason Plumlee shooting foul",
+      "awayScore": 87,
+      "homeScore": 89,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:13"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 16,
+        "y": 9
+      }
+    },
+    {
+      "id": "401468288635",
+      "sequenceNumber": "635",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Kevin Durant makes free throw 1 of 2",
+      "awayScore": 88,
+      "homeScore": 89,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:13"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288636",
+      "sequenceNumber": "636",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Kevin Durant makes free throw 2 of 2",
+      "awayScore": 89,
+      "homeScore": 89,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:13"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288637",
+      "sequenceNumber": "637",
+      "type": {
+        "id": "42",
+        "text": "Offensive Foul"
+      },
+      "text": "Mason Plumlee offensive foul",
+      "awayScore": 89,
+      "homeScore": 89,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:02"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 37,
+        "y": 16
+      }
+    },
+    {
+      "id": "401468288639",
+      "sequenceNumber": "639",
+      "type": {
+        "id": "84",
+        "text": "Offensive Foul Turnover"
+      },
+      "text": "Mason Plumlee turnover",
+      "awayScore": 89,
+      "homeScore": 89,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "2:02"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 37,
+        "y": 16
+      }
+    },
+    {
+      "id": "401468288640",
+      "sequenceNumber": "640",
+      "type": {
+        "id": "144",
+        "text": "Driving Floating Jump Shot"
+      },
+      "text": "Cam Thomas makes 7-foot driving floating jump shot (Yuta Watanabe assists)",
+      "awayScore": 91,
+      "homeScore": 89,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "1:48"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 24,
+        "y": 7
+      }
+    },
+    {
+      "id": "401468288642",
+      "sequenceNumber": "642",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "P.J. Washington makes 26-foot three point jumper (Terry Rozier assists)",
+      "awayScore": 91,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "1:38"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4278078"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 23,
+        "y": 26
+      }
+    },
+    {
+      "id": "401468288644",
+      "sequenceNumber": "644",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Kevin Durant misses 27-foot three point pullup jump shot",
+      "awayScore": 91,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "1:17"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 31,
+        "y": 27
+      }
+    },
+    {
+      "id": "401468288645",
+      "sequenceNumber": "645",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Joe Harris offensive rebound",
+      "awayScore": 91,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "1:15"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 31,
+        "y": 27
+      }
+    },
+    {
+      "id": "401468288646",
+      "sequenceNumber": "646",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Kevin Durant makes 26-foot three point jumper (Joe Harris assists)",
+      "awayScore": 94,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "1:12"
+      },
+      "scoringPlay": true,
+      "scoreValue": 3,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 43,
+        "y": 19
+      }
+    },
+    {
+      "id": "401468288648",
+      "sequenceNumber": "648",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Kelly Oubre Jr. misses 25-foot three point jumper",
+      "awayScore": 94,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "59.3"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 50,
+        "y": -1
+      }
+    },
+    {
+      "id": "401468288649",
+      "sequenceNumber": "649",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Kevin Durant defensive rebound",
+      "awayScore": 94,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "57.3"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 50,
+        "y": -1
+      }
+    },
+    {
+      "id": "401468288650",
+      "sequenceNumber": "650",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Joe Harris misses three point jumper",
+      "awayScore": 94,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "37.5"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2528794"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 48,
+        "y": 0
+      }
+    },
+    {
+      "id": "401468288651",
+      "sequenceNumber": "651",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Nets offensive team rebound",
+      "awayScore": 94,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "35.1"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 48,
+        "y": 0
+      }
+    },
+    {
+      "id": "401468288653",
+      "sequenceNumber": "653",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Kevin Durant makes 13-foot jumper (Royce O'Neale assists)",
+      "awayScore": 96,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "32.8"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2583632"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 13,
+        "y": 2
+      }
+    },
+    {
+      "id": "401468288655",
+      "sequenceNumber": "655",
+      "type": {
+        "id": "16",
+        "text": "Full Timeout"
+      },
+      "text": "Hornets Full timeout",
+      "awayScore": 94,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "32.6"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288656",
+      "sequenceNumber": "656",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Kevin Durant blocks Terry Rozier 's 28-foot three point pullup jump shot",
+      "awayScore": 96,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "29.5"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3202"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 42,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288658",
+      "sequenceNumber": "658",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Mason Plumlee offensive rebound",
+      "awayScore": 96,
+      "homeScore": 92,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "27.5"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 42,
+        "y": 21
+      }
+    },
+    {
+      "id": "401468288659",
+      "sequenceNumber": "659",
+      "type": {
+        "id": "94",
+        "text": "Tip Shot"
+      },
+      "text": "Mason Plumlee makes tip shot",
+      "awayScore": 96,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "27.0"
+      },
+      "scoringPlay": true,
+      "scoreValue": 2,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 25,
+        "y": 1
+      }
+    },
+    {
+      "id": "401468288661",
+      "sequenceNumber": "661",
+      "type": {
+        "id": "45",
+        "text": "Personal Foul"
+      },
+      "text": "Kelly Oubre Jr. personal foul",
+      "awayScore": 96,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "21.3"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133603"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 25,
+        "y": 1
+      }
+    },
+    {
+      "id": "401468288663",
+      "sequenceNumber": "663",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Patty Mills enters the game for Yuta Watanabe",
+      "awayScore": 96,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "21.3"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        },
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288665",
+      "sequenceNumber": "665",
+      "type": {
+        "id": "45",
+        "text": "Personal Foul"
+      },
+      "text": "Mason Plumlee personal foul",
+      "awayScore": 96,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "14.2"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 33,
+        "y": 7
+      }
+    },
+    {
+      "id": "401468288667",
+      "sequenceNumber": "667",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Cam Thomas makes free throw 1 of 2",
+      "awayScore": 97,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "14.2"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288668",
+      "sequenceNumber": "668",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "James Bouknight enters the game for Mason Plumlee",
+      "awayScore": 97,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "14.2"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4431712"
+          }
+        },
+        {
+          "athlete": {
+            "id": "2488653"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288669",
+      "sequenceNumber": "669",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Yuta Watanabe enters the game for Patty Mills",
+      "awayScore": 97,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "14.2"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3133838"
+          }
+        },
+        {
+          "athlete": {
+            "id": "4004"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288672",
+      "sequenceNumber": "672",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Cam Thomas makes free throw 2 of 2",
+      "awayScore": 98,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "14.2"
+      },
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288673",
+      "sequenceNumber": "673",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Terry Rozier misses 26-foot three point pullup jump shot",
+      "awayScore": 98,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "10.2"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 7,
+        "y": 19
+      }
+    },
+    {
+      "id": "401468288674",
+      "sequenceNumber": "674",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Terry Rozier offensive rebound",
+      "awayScore": 98,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "7.2"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 7,
+        "y": 19
+      }
+    },
+    {
+      "id": "401468288675",
+      "sequenceNumber": "675",
+      "type": {
+        "id": "114",
+        "text": "Turnaround Jump Shot"
+      },
+      "text": "Terry Rozier misses 20-foot two point shot",
+      "awayScore": 98,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "6.4"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "30"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "3074752"
+          }
+        }
+      ],
+      "shootingPlay": true,
+      "coordinate": {
+        "x": 5,
+        "y": -1
+      }
+    },
+    {
+      "id": "401468288676",
+      "sequenceNumber": "676",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Cam Thomas defensive rebound",
+      "awayScore": 98,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "5.1"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team": {
+        "id": "17"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "id": "4432174"
+          }
+        }
+      ],
+      "shootingPlay": false,
+      "coordinate": {
+        "x": 5,
+        "y": -1
+      }
+    },
+    {
+      "id": "401468288677",
+      "sequenceNumber": "677",
+      "type": {
+        "id": "412",
+        "text": "End Period"
+      },
+      "text": "End of the 4th Quarter",
+      "awayScore": 98,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "0.0"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "shootingPlay": false,
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      }
+    },
+    {
+      "id": "401468288678",
+      "sequenceNumber": "678",
+      "type": {
+        "id": "402",
+        "text": "End Game"
+      },
+      "text": "End of Game",
+      "awayScore": 98,
+      "homeScore": 94,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "displayValue": "0.0"
+      },
+      "scoringPlay": false,
+      "scoreValue": 0,
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16642,7 +22682,7 @@
         "trackingId": "dm_20221105_NBA_mason_plumlee_elevates_for_flush_vs_brooklyn_nets"
       },
       "cerebroId": "6366ffd0ca84b73aafa868b4",
-      "lastModified": "2022-11-06T00:34:56Z",
+      "lastModified": "2022-11-06T00:37:16Z",
       "originalPublishDate": "2022-11-06T00:28:55Z",
       "timeRestrictions": {
         "embargoDate": "2022-11-06T00:28:55Z",
@@ -16818,12 +22858,12 @@
           "source": {
             "href": "https://media.video-cdn.espn.com/motion/2022/1105/ss_20221105_202905972_2093348/ss_20221105_202905972_2093348.mp4"
           },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34958090&ex_cid=espnapi_internal",
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34958090",
           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34958090&ex_cid=espnapi_internal"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34958090"
           },
           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34958090&ex_cid=espnapi_internal"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34958090"
           }
         }
       }
