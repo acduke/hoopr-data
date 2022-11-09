@@ -25,9 +25,14 @@ years_vec <- opt$s:opt$e
 mbb_pbp_games <- function(y){
   cli::cli_process_start("Starting mbb play_by_play parse for {y}!")
   pbp_g <- data.frame()
-  pbp_list <- list.files(path = glue::glue('mbb/{y}/'))
+  pbp_list <- list.files(path = glue::glue('mbb/json/final/'))
+  sched <- data.table::fread(paste0('mbb/schedules/csv/mbb_schedule_',y,'.csv'))
+  pbp_game_ids <- as.integer(gsub('.json','',pbp_list))
+  pbp_list <- sched %>%
+    dplyr::filter(.data$game_id %in% pbp_game_ids) %>%
+    dplyr::pull("game_id")
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
-    pbp <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))$plays
+    pbp <- jsonlite::fromJSON(glue::glue('mbb/json/final/{x}.json'))$plays
     if(length(pbp)>1){
       pbp$game_id <- gsub(".json","", x)
     }

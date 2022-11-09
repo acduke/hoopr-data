@@ -27,9 +27,14 @@ years_vec <- opt$s:opt$e
 mbb_player_box_games <- function(y){
   cli::cli_process_start("Starting mbb player_box parse for {y}!")
   player_box_g <- data.frame()
-  player_box_list <- list.files(path = glue::glue('mbb/{y}/'))
+  player_box_list <- list.files(path = glue::glue('mbb/json/final/'))
+  sched <- data.table::fread(paste0('mbb/schedules/csv/mbb_schedule_',y,'.csv'))
+  player_box_game_ids <- as.integer(gsub('.json','',player_box_list))
+  player_box_list <- sched %>%
+    dplyr::filter(.data$game_id %in% player_box_game_ids) %>%
+    dplyr::pull("game_id")
   player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
-    game_json <- jsonlite::fromJSON(glue::glue('mbb/{y}/{x}'))
+    game_json <- jsonlite::fromJSON(glue::glue('mbb/json/final/{x}.json'))
 
     player_box_score <- data.frame()
     players_box_score_df <- data.frame()
