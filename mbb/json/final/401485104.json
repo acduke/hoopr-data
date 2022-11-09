@@ -23043,7 +23043,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23324,6 +23324,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401485104",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401485104",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -24273,6 +24285,165 @@
               ]
             },
             {
+              "team": "Georgetown",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/46/georgetown-hoyas",
+              "id": "46",
+              "uid": "s:40~l:41~t:46",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Marquette",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles",
+              "id": "269",
+              "uid": "s:40~l:41~t:269",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Providence",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2507/providence-friars",
+              "id": "2507",
+              "uid": "s:40~l:41~t:2507",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "St. John's",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm",
               "id": "2599",
@@ -24485,165 +24656,6 @@
               ]
             },
             {
-              "team": "Georgetown",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/46/georgetown-hoyas",
-              "id": "46",
-              "uid": "s:40~l:41~t:46",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Marquette",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles",
-              "id": "269",
-              "uid": "s:40~l:41~t:269",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Providence",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2507/providence-friars",
-              "id": "2507",
-              "uid": "s:40~l:41~t:2507",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Seton Hall",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2550/seton-hall-pirates",
               "id": "2550",
@@ -24703,7 +24715,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Javan Johnson had 24 points and 10 rebounds in DePaul\u2019s 72-66 win against Loyola (Md.) on Monday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-34977038",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/34977038"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401485104"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401485104",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=34977038"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401485104&version=mobile"
+      }
+    },
+    "id": 34977038,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3251,
+        "description": "DePaul Blue Demons",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 305,
+        "team": {
+          "id": 305,
+          "description": "DePaul Blue Demons",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/305"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/305/depaul-blue-demons"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=305"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:305"
+      },
+      {
+        "id": 23095,
+        "description": "Loyola Maryland Greyhounds",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2352,
+        "team": {
+          "id": 2352,
+          "description": "Loyola Maryland Greyhounds",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2352"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2352/loyola-maryland-greyhounds"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2352"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2352"
+      }
+    ],
+    "headline": "DePaul wins 72-66 over Loyola (Md.)",
+    "gameId": "401485104",
+    "images": [],
+    "linkText": "DePaul wins 72-66 over Loyola (Md.)",
+    "published": "2022-11-08T06:01:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-08T06:01:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "CHICAGO -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4280280/javan-johnson\">Javan Johnson</a> had 24 points and 10 rebounds in DePaul\u2019s 72-66 win against Loyola (Md.) on Monday night.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4279087/umoja-gibson\">Umoja Gibson</a> scored 12 points for the Blue Demons (1-0). Da\u2019Sean Nelson recorded 10 points.\n\n\r\n              The Greyhounds (0-1) were led by Kenny Jones, who recorded 20 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105687/deon-perry\">Deon Perry</a> added 13 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398132/jaylin-andrews\">Jaylin Andrews</a> had 12 points.\n\n\r\n              NEXT UP\n\n\r\n              DePaul next plays Friday against Western Illinois at home, and Loyola will visit Penn State on Thursday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "leaders": [
     {
       "team": {
@@ -25374,7 +25547,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

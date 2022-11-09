@@ -21429,6 +21429,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401482991",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -21770,112 +21782,6 @@
               ]
             },
             {
-              "team": "South Carolina State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2569/south-carolina-state-bulldogs",
-              "id": "2569",
-              "uid": "s:40~l:41~t:2569",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Coppin State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2154/coppin-state-eagles",
-              "id": "2154",
-              "uid": "s:40~l:41~t:2154",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Delaware State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2169/delaware-state-hornets",
               "id": "2169",
@@ -22129,6 +22035,112 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "South Carolina State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2569/south-carolina-state-bulldogs",
+              "id": "2569",
+              "uid": "s:40~l:41~t:2569",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Coppin State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2154/coppin-state-eagles",
+              "id": "2154",
+              "uid": "s:40~l:41~t:2154",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-2",
+                  "displayValue": "0-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22950,7 +22962,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Grant Basile poured in 30 points and grabbed 10 rebounds in his Virginia Tech debut, leading the Hokies to a 95-57 romp past Delaware State in a season opener on Monday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-34976822",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/34976822"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401482991"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401482991",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=34976822"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401482991&version=mobile"
+      }
+    },
+    "id": 34976822,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3176,
+        "description": "Virginia Tech Hokies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 259,
+        "team": {
+          "id": 259,
+          "description": "Virginia Tech Hokies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/259"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/259/virginia-tech-hokies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=259"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:259"
+      },
+      {
+        "id": 3304,
+        "description": "Delaware State Hornets",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2169,
+        "team": {
+          "id": 2169,
+          "description": "Delaware State Hornets",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2169"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2169/delaware-state-hornets"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2169"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2169"
+      }
+    ],
+    "headline": "Basile impresses, Virginia Tech wallops Delaware St. 95-57",
+    "gameId": "401482991",
+    "images": [],
+    "linkText": "Basile impresses, Virginia Tech wallops Delaware St. 95-57",
+    "published": "2022-11-08T05:28:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-08T05:28:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "BLACKSBURG, Va. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397787/grant-basile\">Grant Basile</a> poured in 30 points and grabbed 10 rebounds in his Virginia Tech debut, leading the Hokies to a 95-57 romp past Delaware State in a season opener on Monday night.\n\n\r\n              A senior transfer from Wright State, Basile hit 12 of 16 from the field, including 6-of-9 from behind the 3-point arc, and is widely seen as the replacement for two-time All-Atlantic Coast Conference forward Keve Aluma. \n\n\r\n              The Hokies, last season's ACC Tournament champions, won their season opener for the seventh straight time.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4709131/sean-pedulla\">Sean Pedulla</a> had 18 points on 5-of-8 shooting from deep and dished eight assists for Virginia Tech, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432257/darius-maddox\">Darius Maddox</a> added 14 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701224/lynn-kidd\">Lynn Kidd</a> had 10 rebounds to go with eight points. \n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897762/khyrie-staten\">Khyrie Staten</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432906/brandon-stone\">Brandon Stone</a> scored 16 and 15 points, respectively, to lead Delaware State, which finished 2-25 a year ago and was winless in 14 games in the Mideast Athletic Conference.\n\n\r\n              ----"
+  },
   "leaders": [
     {
       "team": {

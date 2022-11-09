@@ -23688,7 +23688,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23985,6 +23985,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401491839",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401491839",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -24735,59 +24747,6 @@
               ]
             },
             {
-              "team": "UNC Wilmington",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
-              "id": "350",
-              "uid": "s:40~l:41~t:350",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Northeastern",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/111/northeastern-huskies",
               "id": "111",
@@ -24882,6 +24841,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UNC Wilmington",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
+              "id": "350",
+              "uid": "s:40~l:41~t:350",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25491,7 +25503,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Walter Whyte had 27 points in Boston University\u2019s 72-63 victory against Northeastern in the season opener on Monday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-34977080",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/34977080"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401491839"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401491839",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=34977080"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401491839&version=mobile"
+      }
+    },
+    "id": 34977080,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3144,
+        "description": "Boston University Terriers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 104,
+        "team": {
+          "id": 104,
+          "description": "Boston University Terriers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/104"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/104/boston-university-terriers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=104"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:104"
+      },
+      {
+        "id": 3145,
+        "description": "Northeastern Huskies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 111,
+        "team": {
+          "id": 111,
+          "description": "Northeastern Huskies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/111"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/111/northeastern-huskies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=111"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:111"
+      }
+    ],
+    "headline": "Whyte scores 27 as Boston University tops Northeastern 72-63",
+    "gameId": "401491839",
+    "images": [],
+    "linkText": "Whyte scores 27 as Boston University tops Northeastern 72-63",
+    "published": "2022-11-08T06:10:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-08T06:10:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "BOSTON -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4280039/walter-whyte\">Walter Whyte</a> had 27 points in Boston University\u2019s 72-63 victory against Northeastern in the season opener on Monday night.\n\n\r\n              Whyte added 13 rebounds for the Terriers. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397631/jonas-harper\">Jonas Harper</a> scored 15 points while shooting 4 for 11 (0 for 4 from 3-point range) and 7 of 10 from the free throw line. Daman finished 3 of 6 from the field to finish with seven points.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702785/jahmyl-telfort\">Jahmyl Telfort</a> led the way for the Huskies with 26 points, nine rebounds and two steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106714/masai-troutman\">Masai Troutman</a> added 13 points for Northeastern. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432051/glen-mcclintock\">Glen McClintock</a> finished with eight points and four steals.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "leaders": [
     {
       "team": {
@@ -26162,7 +26335,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": true,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

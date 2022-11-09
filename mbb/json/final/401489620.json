@@ -22192,6 +22192,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401489620",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -22717,8 +22729,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
+                  "summary": "1-1",
+                  "displayValue": "1-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -23401,59 +23413,6 @@
               ]
             },
             {
-              "team": "UNC Wilmington",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
-              "id": "350",
-              "uid": "s:40~l:41~t:350",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Northeastern",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/111/northeastern-huskies",
               "id": "111",
@@ -23560,6 +23519,59 @@
               ]
             },
             {
+              "team": "UNC Wilmington",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
+              "id": "350",
+              "uid": "s:40~l:41~t:350",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "William & Mary",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2729/william-mary-tribe",
               "id": "2729",
@@ -23619,7 +23631,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Sekou Sylla\u2019s 19 points helped Towson defeat Albany (NY) 67-62 on Monday night to open the season.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-34977490",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/34977490"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401489620"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401489620",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=34977490"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401489620&version=mobile"
+      }
+    },
+    "id": 34977490,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3238,
+        "description": "Towson Tigers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 119,
+        "team": {
+          "id": 119,
+          "description": "Towson Tigers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/119"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/119/towson-tigers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=119"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:119"
+      },
+      {
+        "id": 3149,
+        "description": "Albany Great Danes",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 399,
+        "team": {
+          "id": 399,
+          "description": "Albany Great Danes",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/399"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/399/albany-great-danes"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=399"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:399"
+      }
+    ],
+    "headline": "Towson takes down Albany (NY) 67-62",
+    "gameId": "401489620",
+    "images": [],
+    "linkText": "Towson takes down Albany (NY) 67-62",
+    "published": "2022-11-08T07:16:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-08T07:16:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "TOWSON, Md. -- \u2014 Sekou Sylla\u2019s 19 points helped Towson defeat Albany (NY) 67-62 on Monday night to open the season.\n\n\r\n              Sylla added nine rebounds for the Tigers. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433103/charles-thompson\">Charles Thompson</a> scored 13 points while going 5 of 10 and 3 of 4 from the free throw line. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398354/nygal-russell\">Nygal Russell</a> shot 5 for 7, including 2 for 3 from beyond the arc to finish with 12 points.\n\n\r\n              The Great Danes were led in scoring by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431833/gerald-drumgoole-jr\">Gerald Drumgoole Jr.</a>, who finished with 15 points and seven rebounds. Albany (NY) also got 12 points, five assists and two blocks from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4896621/aaron-reddish\">Aaron Reddish</a>. Da\u2019Kquan Davis also had 12 points.\n\n\r\n              NEXT UP\n\n\r\n              Up next for Towson is a matchup Thursday with UMass on the road. Albany (NY) visits Immaculata on Tuesday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "leaders": [
     {
       "team": {

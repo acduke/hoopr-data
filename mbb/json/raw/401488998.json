@@ -5597,7 +5597,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -5802,6 +5802,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401488998",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401488998",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15293,7 +15305,168 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Ben Sheppard scored 18 points as Belmont beat Ohio 70-69 on Monday night in a season opener.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-34977531",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/34977531"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401488998"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401488998",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=34977531"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401488998&version=mobile"
+      }
+    },
+    "id": 34977531,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3461,
+        "description": "Belmont Bruins",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2057,
+        "team": {
+          "id": 2057,
+          "description": "Belmont Bruins",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2057"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2057/belmont-bruins"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2057"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2057"
+      },
+      {
+        "id": 3280,
+        "description": "Ohio Bobcats",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 195,
+        "team": {
+          "id": 195,
+          "description": "Ohio Bobcats",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/195"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/195/ohio-bobcats"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=195"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:195"
+      }
+    ],
+    "headline": "Belmont wins 70-69 over Ohio",
+    "gameId": "401488998",
+    "images": [],
+    "linkText": "Belmont wins 70-69 over Ohio",
+    "published": "2022-11-08T07:24:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-08T07:24:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "NASHVILLE, Tenn. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433076/ben-sheppard\">Ben Sheppard</a> scored 18 points as Belmont beat Ohio 70-69 on Monday night in a season opener.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5107970/cade-tyson\">Cade Tyson</a> scored 18 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398004/drew-friberg\">Drew Friberg</a> finished with 11 points for Belmont.\n\n\r\n              The Bobcats were led in scoring by Dwight Wilson, who finished with 20 points and eight rebounds.\n\n\r\n              NEXT UP\n\n\r\n              Belmont\u2019s next game is Friday against Furman on the road, and Ohio hosts Cleveland State on Saturday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -15742,8 +15915,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "0-1",
+                  "displayValue": "0-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -15778,59 +15951,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-09-09T17:32Z"
-                }
-              ]
-            },
-            {
-              "team": "Western Michigan",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2711/western-michigan-broncos",
-              "id": "2711",
-              "uid": "s:40~l:41~t:2711",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-09T18:08Z"
                 }
               ]
             },
@@ -15937,6 +16057,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-06-10T21:28Z"
+                }
+              ]
+            },
+            {
+              "team": "Western Michigan",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2711/western-michigan-broncos",
+              "id": "2711",
+              "uid": "s:40~l:41~t:2711",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-09T18:08Z"
                 }
               ]
             }
@@ -16051,6 +16224,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-06-30T16:42Z"
+                }
+              ]
+            },
+            {
+              "team": "Evansville",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/339/evansville-purple-aces",
+              "id": "339",
+              "uid": "s:40~l:41~t:339",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-08-31T15:04Z"
                 }
               ]
             },
@@ -16316,59 +16542,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Evansville",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/339/evansville-purple-aces",
-              "id": "339",
-              "uid": "s:40~l:41~t:339",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-08-31T15:04Z"
                 }
               ]
             },

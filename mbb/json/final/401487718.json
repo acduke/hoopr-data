@@ -20157,7 +20157,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -20438,6 +20438,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401487718",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401487718",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -21705,59 +21717,6 @@
               ]
             },
             {
-              "team": "UNC Wilmington",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
-              "id": "350",
-              "uid": "s:40~l:41~t:350",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Northeastern",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/111/northeastern-huskies",
               "id": "111",
@@ -21864,6 +21823,59 @@
               ]
             },
             {
+              "team": "UNC Wilmington",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
+              "id": "350",
+              "uid": "s:40~l:41~t:350",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "William & Mary",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2729/william-mary-tribe",
               "id": "2729",
@@ -21923,7 +21935,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Tyler Nelson had 16 points in Navy\u2019s 74-59 victory against William & Mary in a season opener on Monday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-34977154",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/34977154"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401487718"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401487718",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=34977154"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401487718&version=mobile"
+      }
+    },
+    "id": 34977154,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3246,
+        "description": "William & Mary Tribe",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2729,
+        "team": {
+          "id": 2729,
+          "description": "William & Mary Tribe",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2729"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2729/william-&-mary-tribe"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2729"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2729"
+      },
+      {
+        "id": 3359,
+        "description": "Navy Midshipmen",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2426,
+        "team": {
+          "id": 2426,
+          "description": "Navy Midshipmen",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2426"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2426/navy-midshipmen"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2426"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2426"
+      }
+    ],
+    "headline": "Nelson powers Navy to 74-59 victory over William & Mary",
+    "gameId": "401487718",
+    "images": [],
+    "linkText": "Nelson powers Navy to 74-59 victory over William & Mary",
+    "published": "2022-11-08T06:27:27Z",
+    "allowComments": true,
+    "lastModified": "2022-11-08T06:27:27Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "WILLIAMSBURG, Va. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593139/tyler-nelson\">Tyler Nelson</a> had 16 points in Navy\u2019s 74-59 victory against William & Mary in a season opener on Monday night.\n\n\r\n              Nelson shot 6 for 9, including 4 for 6 from beyond the arc for the Midshipmen. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433132/sean-yoder\">Sean Yoder</a> added 14 points while shooting 6 for 13, including 2 for 3 from beyond the arc, and he also had nine rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593145/daniel-deaver\">Daniel Deaver</a> shot 6 of 10 from the field and 2 for 4 from the line to finish with 14 points, while adding eight rebounds.\n\n\r\n              The Tribe were led in scoring by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432204/noah-collier\">Noah Collier</a>, who finished with 17 points, eight rebounds, two steals and three blocks. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433119/ben-wight\">Ben Wight</a> added 12 points and eight rebounds for William & Mary. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683639/gabe-dorsey\">Gabe Dorsey</a> finished with 10 points.\n\n\r\n              NEXT UP\n\n\r\n              Navy\u2019s next game is Friday against Princeton at home, while William & Mary hosts Mid-Atlantic Christian on Thursday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "leaders": [
     {
       "team": {
@@ -22594,7 +22767,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
