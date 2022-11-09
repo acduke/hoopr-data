@@ -16,7 +16,7 @@ Rscript R/espn_nba_01_pbp_creation.R -s $START_YEAR -e $END_YEAR
 Rscript R/espn_nba_02_team_box_creation.R -s $START_YEAR -e $END_YEAR
 Rscript R/espn_nba_03_player_box_creation.R -s $START_YEAR -e $END_YEAR
 git pull
-git add nba/ nba_schedule_master.csv nba_schedule_master.parquet
+git add nba/* nba_schedule_master.csv nba_schedule_master.parquet
 git pull
 git commit -m "NBA Play-by-Play and Schedules update (Start: $START_YEAR End: $END_YEAR)" || echo "No changes to commit"
 git pull
