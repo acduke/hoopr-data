@@ -82,7 +82,7 @@ mbb_pbp_games <- function(y){
   final_sched <- final_sched %>%
     hoopR:::make_hoopR_data("MBB Schedule Information from hoopR data repository",Sys.time())
   # data.table::fwrite(final_sched,paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
-  qs::qsave(final_sched,glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
+  qs::qsave(final_sched, glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
   saveRDS(final_sched, glue::glue('mbb/schedules/rds/mbb_schedule_{y}.rds'))
   arrow::write_parquet(final_sched, glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
   rm(sched)

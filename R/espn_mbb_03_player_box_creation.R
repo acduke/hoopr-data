@@ -57,16 +57,16 @@ mbb_player_box_games <- function(y){
 
     tryCatch(
       expr = {
-        if(boxScoreAvailable == TRUE && length(players_box_score_df[["statistics"]])>1 &&
-           length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>1){
+        if (boxScoreAvailable == TRUE && length(players_box_score_df[["statistics"]]) >1 &&
+            length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>1){
           players_df <- players_box_score_df %>%
-            tidyr::unnest(.data$statistics) %>%
-            tidyr::unnest(.data$athletes)
-          if(length(players_df)>1){
+            tidyr::unnest("statistics") %>%
+            tidyr::unnest("athletes")
+          if (length(players_df) > 1) {
             stat_cols <- players_df$names[[1]]
             stats <- players_df$stats
-            if(length(stat_cols)==length(stats[[1]]) ){
-              stats_df <- as.data.frame(do.call(rbind,stats))
+            if (length(stat_cols) == length(stats[[1]])) {
+              stats_df <- as.data.frame(do.call(rbind, stats))
               colnames(stats_df) <- stat_cols
               cols <- c('starter','ejected', 'didNotPlay','active',
                         'athlete.displayName','athlete.jersey',
@@ -88,7 +88,7 @@ mbb_player_box_games <- function(y){
                 players_df <- players_df %>%
                   janitor::clean_names() %>%
                   dplyr::rename(
-                    fg3 = .data$x3pt
+                    "fg3" = "x3pt"
                   )
                 player_box_score <- players_df %>%
                   dplyr::mutate(
@@ -141,7 +141,7 @@ mbb_player_box_games <- function(y){
     data.table::fwrite(player_box_g, file=paste0("mbb/player_box/csv/player_box_",y,".csv.gz"))
 
     ifelse(!dir.exists(file.path("mbb/player_box/qs")), dir.create(file.path("mbb/player_box/qs")), FALSE)
-    qs::qsave(player_box_g,glue::glue("mbb/player_box/qs/player_box_{y}.qs"))
+    qs::qsave(player_box_g, glue::glue("mbb/player_box/qs/player_box_{y}.qs"))
 
     ifelse(!dir.exists(file.path("mbb/player_box/rds")), dir.create(file.path("mbb/player_box/rds")), FALSE)
     saveRDS(player_box_g,glue::glue("mbb/player_box/rds/player_box_{y}.rds"))
@@ -170,8 +170,8 @@ mbb_player_box_games <- function(y){
   final_sched <- final_sched %>%
     hoopR:::make_hoopR_data("MBB Schedule Information from hoopR data repository",Sys.time())
 
-  data.table::fwrite(final_sched,paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
-  qs::qsave(final_sched,glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
+  data.table::fwrite(final_sched, paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
+  qs::qsave(final_sched, glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
   saveRDS(final_sched, glue::glue('mbb/schedules/rds/mbb_schedule_{y}.rds'))
   arrow::write_parquet(final_sched, glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
   rm(sched)
@@ -207,7 +207,7 @@ sched_g <- sched_g %>%
 data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.csv')
 qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.qs')
 qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.qs')
-arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('mbb_schedule_master.parquet'))
+arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)), glue::glue('mbb_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.parquet')
 
 rm(sched_g)

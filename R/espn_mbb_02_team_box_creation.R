@@ -56,11 +56,15 @@ mbb_team_box_games <- function(y){
         if(boxScoreAvailable == TRUE && length(teams_box_score_df[["statistics"]][[1]])>1){
 
             teams_box_score_df_2 <- teams_box_score_df[['statistics']][[2]] %>%
-              dplyr::select(.data$displayValue, .data$name) %>%
-              dplyr::rename(Home = .data$displayValue)
+              dplyr::select(
+                "displayValue",
+                "name") %>%
+              dplyr::rename("Home" = "displayValue")
             teams_box_score_df_1 <- teams_box_score_df[['statistics']][[1]] %>%
-              dplyr::select(.data$displayValue, .data$name) %>%
-              dplyr::rename(Away = .data$displayValue)
+              dplyr::select(
+                "displayValue",
+                "name") %>%
+              dplyr::rename("Away" = "displayValue")
 
             teams2 <- data.frame(t(teams_box_score_df_2$Home))
             colnames(teams2) <- t(teams_box_score_df_2$name)
@@ -107,7 +111,7 @@ mbb_team_box_games <- function(y){
   if(nrow(team_box_g)>0 && !("largest_lead" %in% colnames(team_box_g))){
     team_box_g$largestLead <- NA_character_
     team_box_g <- team_box_g %>%
-      dplyr::relocate(.data$largestLead, .after = last_col())
+      dplyr::relocate("largestLead", .after = last_col())
 
   }
   if(nrow(team_box_g)>0){
