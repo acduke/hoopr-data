@@ -15,8 +15,8 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc=lib_path))
 suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc=lib_path)))
 
 option_list = list(
-  make_option(c("-s", "--start_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="Start year of the seasons to process"),
-  make_option(c("-e", "--end_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="End year of the seasons to process")
+  make_option(c("-s", "--start_year"), action="store", default=hoopR:::most_recent_mbb_season(), type='integer', help="Start year of the seasons to process"),
+  make_option(c("-e", "--end_year"), action="store", default=hoopR:::most_recent_mbb_season(), type='integer', help="End year of the seasons to process")
 )
 opt = parse_args(OptionParser(option_list=option_list))
 options(stringsAsFactors = FALSE)
