@@ -3369,90 +3369,6 @@
               {
                 "active": false,
                 "athlete": {
-                  "id": "5113500",
-                  "uid": "s:40~l:41~a:5113500",
-                  "guid": "68fc18a2-55e4-3712-968a-84d4daa60b0c",
-                  "displayName": "Chas Kelley Iii",
-                  "shortName": "C. Kelley Iii",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5113500/chas-kelley-iii",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5113500/chas-kelley-iii",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5113500/chas-kelley-iii",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5113500/chas-kelley-iii",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5113500/chas-kelley-iii",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5113500/chas-kelley-iii",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5113500/chas-kelley-iii",
-                      "text": "Overview"
-                    }
-                  ],
-                  "position": {
-                    "name": "Guard",
-                    "displayName": "Guard",
-                    "abbreviation": "G"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": true,
-                "ejected": false,
-                "stats": []
-              },
-              {
-                "active": false,
-                "athlete": {
                   "id": "4714770",
                   "uid": "s:40~l:41~a:4714770",
                   "guid": "075234c0-6c4d-3698-8c07-ebd7331f6376",
@@ -4395,14 +4311,14 @@
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "103",
-      "gameProjection": "77.2",
-      "teamChanceLoss": "22.8",
+      "gameProjection": "77.4",
+      "teamChanceLoss": "22.6",
       "teamChanceTie": "0.0"
     },
     "awayTeam": {
       "id": "172",
-      "gameProjection": "22.8",
-      "teamChanceLoss": "77.2",
+      "gameProjection": "22.6",
+      "teamChanceLoss": "77.4",
       "teamChanceTie": "0.0"
     }
   },
@@ -4489,9 +4405,9 @@
         "moneyLine": -510,
         "spreadRecord": {
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "pushes": 0,
-          "summary": "0-0-0"
+          "summary": "0-1-0"
         },
         "spreadOdds": -108.0,
         "teamId": "103"
@@ -9483,13 +9399,6 @@
       "team": {
         "id": "103"
       },
-      "participants": [
-        {
-          "athlete": {
-            "id": "5113500"
-          }
-        }
-      ],
       "shootingPlay": false
     },
     {
@@ -16325,13 +16234,6 @@
       "team": {
         "id": "103"
       },
-      "participants": [
-        {
-          "athlete": {
-            "id": "5113500"
-          }
-        }
-      ],
       "shootingPlay": false
     },
     {
@@ -16628,13 +16530,6 @@
       "team": {
         "id": "103"
       },
-      "participants": [
-        {
-          "athlete": {
-            "id": "5113500"
-          }
-        }
-      ],
       "shootingPlay": false
     },
     {
@@ -16756,11 +16651,6 @@
         {
           "athlete": {
             "id": "5105451"
-          }
-        },
-        {
-          "athlete": {
-            "id": "5113500"
           }
         }
       ],
@@ -19557,59 +19447,6 @@
               ]
             },
             {
-              "team": "Louisville",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/97/louisville-cardinals",
-              "id": "97",
-              "uid": "s:40~l:41~t:97",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Notre Dame",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/87/notre-dame-fighting-irish",
               "id": "87",
@@ -19704,6 +19541,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Louisville",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/97/louisville-cardinals",
+              "id": "97",
+              "uid": "s:40~l:41~t:97",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",

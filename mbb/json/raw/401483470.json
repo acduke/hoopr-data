@@ -3972,14 +3972,14 @@
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "30",
-      "gameProjection": "80.5",
-      "teamChanceLoss": "19.5",
+      "gameProjection": "80.6",
+      "teamChanceLoss": "19.4",
       "teamChanceTie": "0.0"
     },
     "awayTeam": {
       "id": "526",
-      "gameProjection": "19.5",
-      "teamChanceLoss": "80.5",
+      "gameProjection": "19.4",
+      "teamChanceLoss": "80.6",
       "teamChanceTie": "0.0"
     }
   },
@@ -4066,9 +4066,9 @@
         "moneyLine": -1878,
         "spreadRecord": {
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "pushes": 0,
-          "summary": "0-0-0"
+          "summary": "0-1-0"
         },
         "spreadOdds": -105.0,
         "teamId": "30"
@@ -17860,6 +17860,59 @@
         "standings": {
           "entries": [
             {
+              "team": "Bellarmine",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/91/bellarmine-knights",
+              "id": "91",
+              "uid": "s:40~l:41~t:91",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-12-03T20:20Z"
+                }
+              ]
+            },
+            {
               "team": "Eastern Kentucky",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2198/eastern-kentucky-colonels",
               "id": "2198",
@@ -17909,59 +17962,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-13T14:33Z"
-                }
-              ]
-            },
-            {
-              "team": "Florida Gulf Coast",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/526/florida-gulf-coast-eagles",
-              "id": "526",
-              "uid": "s:40~l:41~t:526",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/526.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -18284,10 +18284,10 @@
               ]
             },
             {
-              "team": "Bellarmine",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/91/bellarmine-knights",
-              "id": "91",
-              "uid": "s:40~l:41~t:91",
+              "team": "Florida Gulf Coast",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/526/florida-gulf-coast-eagles",
+              "id": "526",
+              "uid": "s:40~l:41~t:526",
               "stats": [
                 {
                   "id": "0",
@@ -18297,8 +18297,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "1-1",
+                  "displayValue": "1-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -18324,60 +18324,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-12-03T20:20Z"
-                }
-              ]
-            },
-            {
-              "team": "Lipscomb",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
-              "id": "288",
-              "uid": "s:40~l:41~t:288",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/526.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18545,6 +18492,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-10-22T17:25Z"
+                }
+              ]
+            },
+            {
+              "team": "Lipscomb",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
+              "id": "288",
+              "uid": "s:40~l:41~t:288",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },

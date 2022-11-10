@@ -25432,6 +25432,59 @@
         "standings": {
           "entries": [
             {
+              "team": "UC Davis",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
+              "id": "302",
+              "uid": "s:40~l:41~t:302",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-0",
+                  "displayValue": "2-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-19T17:34Z"
+                }
+              ]
+            },
+            {
               "team": "Cal Poly",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
               "id": "13",
@@ -25640,59 +25693,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-20T15:58Z"
-                }
-              ]
-            },
-            {
-              "team": "UC Davis",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
-              "id": "302",
-              "uid": "s:40~l:41~t:302",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-19T17:34Z"
                 }
               ]
             },
@@ -27351,9 +27351,9 @@
         "moneyLine": 540,
         "spreadRecord": {
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "pushes": 0,
-          "summary": "0-0-0"
+          "summary": "0-1-0"
         },
         "spreadOdds": -110.0,
         "teamId": "27"
@@ -27364,10 +27364,10 @@
         "underdog": false,
         "moneyLine": -825,
         "spreadRecord": {
-          "wins": 0,
+          "wins": 1,
           "losses": 0,
           "pushes": 0,
-          "summary": "0-0-0"
+          "summary": "1-0-0"
         },
         "spreadOdds": -110.0,
         "teamId": "38"
@@ -27422,14 +27422,14 @@
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "38",
-      "gameProjection": "85.5",
-      "teamChanceLoss": "14.5",
+      "gameProjection": "84.9",
+      "teamChanceLoss": "15.1",
       "teamChanceTie": "0.0"
     },
     "awayTeam": {
       "id": "27",
-      "gameProjection": "14.5",
-      "teamChanceLoss": "85.5",
+      "gameProjection": "15.1",
+      "teamChanceLoss": "84.9",
       "teamChanceTie": "0.0"
     }
   },

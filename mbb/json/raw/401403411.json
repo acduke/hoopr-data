@@ -746,7 +746,7 @@
                     "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431795.png",
                     "alt": "Josh Pierre-Louis"
                   },
-                  "jersey": "2",
+                  "jersey": "1",
                   "position": {
                     "name": "Guard",
                     "displayName": "Guard",
@@ -3511,7 +3511,7 @@
                     "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703393.png",
                     "alt": "Devin Tillis"
                   },
-                  "jersey": "3",
+                  "jersey": "11",
                   "position": {
                     "name": "Forward",
                     "displayName": "Forward",
@@ -3748,6 +3748,7 @@
     "attendance": 0,
     "officials": [
       {
+        "fullName": "Gregory Nixon",
         "displayName": "Gregory Nixon",
         "position": {
           "name": "Referee",
@@ -3757,6 +3758,7 @@
         "order": 1
       },
       {
+        "fullName": "Daryl Gelinas",
         "displayName": "Daryl Gelinas",
         "position": {
           "name": "Referee",
@@ -3766,6 +3768,7 @@
         "order": 2
       },
       {
+        "fullName": "Ian  Caldwell",
         "displayName": "Ian  Caldwell",
         "position": {
           "name": "Referee",
@@ -4260,14 +4263,14 @@
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "300",
-      "gameProjection": "58.0",
-      "teamChanceLoss": "42.0",
+      "gameProjection": "58.7",
+      "teamChanceLoss": "41.3",
       "teamChanceTie": "0.0"
     },
     "awayTeam": {
       "id": "2540",
-      "gameProjection": "42.0",
-      "teamChanceLoss": "58.0",
+      "gameProjection": "41.3",
+      "teamChanceLoss": "58.7",
       "teamChanceTie": "0.0"
     }
   },
@@ -4339,10 +4342,10 @@
         "underdog": false,
         "moneyLine": -145,
         "spreadRecord": {
-          "wins": 10,
-          "losses": 14,
-          "pushes": 1,
-          "summary": "10-14-1"
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "summary": "0-0-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2540"
@@ -4353,10 +4356,10 @@
         "underdog": true,
         "moneyLine": 125,
         "spreadRecord": {
-          "wins": 9,
-          "losses": 12,
-          "pushes": 2,
-          "summary": "9-12-2"
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "summary": "0-0-0"
         },
         "spreadOdds": -110.0,
         "teamId": "300"
@@ -16344,10 +16347,10 @@
         "standings": {
           "entries": [
             {
-              "team": "Long Beach State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/299/long-beach-state-beach",
-              "id": "299",
-              "uid": "s:40~l:41~t:299",
+              "team": "UC Davis",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
+              "id": "302",
+              "uid": "s:40~l:41~t:302",
               "stats": [
                 {
                   "id": "0",
@@ -16357,8 +16360,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "20-13",
-                  "displayValue": "20-13"
+                  "summary": "2-0",
+                  "displayValue": "2-0"
                 },
                 {
                   "name": "gamesBehind",
@@ -16378,8 +16381,220 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "12-3",
-                  "displayValue": "12-3"
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-19T17:34Z"
+                }
+              ]
+            },
+            {
+              "team": "Cal Poly",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
+              "id": "13",
+              "uid": "s:40~l:41~t:13",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Cal State Bakersfield",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2934/cal-state-bakersfield-roadrunners",
+              "id": "2934",
+              "uid": "s:40~l:41~t:2934",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-08-25T14:24Z"
+                }
+              ]
+            },
+            {
+              "team": "Cal State Northridge",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2463/cal-state-northridge-matadors",
+              "id": "2463",
+              "uid": "s:40~l:41~t:2463",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-22T22:28Z"
+                }
+              ]
+            },
+            {
+              "team": "Long Beach State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/299/long-beach-state-beach",
+              "id": "299",
+              "uid": "s:40~l:41~t:299",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
                 }
               ],
               "logo": [
@@ -16397,112 +16612,6 @@
               ]
             },
             {
-              "team": "CSU Fullerton",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2239/csu-fullerton-titans",
-              "id": "2239",
-              "uid": "s:40~l:41~t:2239",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "21-11",
-                  "displayValue": "21-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "11-4",
-                  "displayValue": "11-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2239.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-08-31T18:01Z"
-                }
-              ]
-            },
-            {
-              "team": "Hawai'i",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/62/hawaii-rainbow-warriors",
-              "id": "62",
-              "uid": "s:40~l:41~t:62",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "17-11",
-                  "displayValue": "17-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "10-5",
-                  "displayValue": "10-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "UC Irvine",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/300/uc-irvine-anteaters",
               "id": "300",
@@ -16516,8 +16625,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-10",
-                  "displayValue": "15-10"
+                  "summary": "1-0",
+                  "displayValue": "1-0"
                 },
                 {
                   "name": "gamesBehind",
@@ -16526,8 +16635,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -16537,8 +16646,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-5",
-                  "displayValue": "9-5"
+                  "summary": "0-0",
+                  "displayValue": "0-0"
                 }
               ],
               "logo": [
@@ -16569,8 +16678,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "17-11",
-                  "displayValue": "17-11"
+                  "summary": "1-0",
+                  "displayValue": "1-0"
                 },
                 {
                   "name": "gamesBehind",
@@ -16579,8 +16688,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -16590,8 +16699,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-5",
-                  "displayValue": "8-5"
+                  "summary": "0-0",
+                  "displayValue": "0-0"
                 }
               ],
               "logo": [
@@ -16609,6 +16718,112 @@
               ]
             },
             {
+              "team": "Hawai'i",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/62/hawaii-rainbow-warriors",
+              "id": "62",
+              "uid": "s:40~l:41~t:62",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Cal State Fullerton",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2239/cal-state-fullerton-titans",
+              "id": "2239",
+              "uid": "s:40~l:41~t:2239",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2239.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-08-31T18:01Z"
+                }
+              ]
+            },
+            {
               "team": "UC Riverside",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/27/uc-riverside-highlanders",
               "id": "27",
@@ -16622,8 +16837,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "16-12",
-                  "displayValue": "16-12"
+                  "summary": "0-1",
+                  "displayValue": "0-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -16632,8 +16847,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -16643,8 +16858,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-6",
-                  "displayValue": "9-6"
+                  "summary": "0-0",
+                  "displayValue": "0-0"
                 }
               ],
               "logo": [
@@ -16662,218 +16877,6 @@
               ]
             },
             {
-              "team": "UC Davis",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
-              "id": "302",
-              "uid": "s:40~l:41~t:302",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "13-11",
-                  "displayValue": "13-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-6",
-                  "displayValue": "5-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-19T17:34Z"
-                }
-              ]
-            },
-            {
-              "team": "CSU Northridge",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2463/csu-northridge-matadors",
-              "id": "2463",
-              "uid": "s:40~l:41~t:2463",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-23",
-                  "displayValue": "7-23"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 9.5,
-                  "displayValue": "9.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-13",
-                  "displayValue": "3-13"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-22T22:28Z"
-                }
-              ]
-            },
-            {
-              "team": "CSU Bakersfield",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2934/csu-bakersfield-roadrunners",
-              "id": "2934",
-              "uid": "s:40~l:41~t:2934",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-19",
-                  "displayValue": "8-19"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 9.5,
-                  "displayValue": "9.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-12",
-                  "displayValue": "2-12"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-08-25T14:24Z"
-                }
-              ]
-            },
-            {
-              "team": "Cal Poly",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
-              "id": "13",
-              "uid": "s:40~l:41~t:13",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-21",
-                  "displayValue": "7-21"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 9.5,
-                  "displayValue": "9.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-12",
-                  "displayValue": "2-12"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "UC San Diego",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/28/uc-san-diego-tritons",
               "id": "28",
@@ -16887,8 +16890,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-16",
-                  "displayValue": "13-16"
+                  "summary": "0-1",
+                  "displayValue": "0-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -16897,8 +16900,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -16928,7 +16931,7 @@
             }
           ]
         },
-        "header": "2021-22 Big West Conference Standings",
+        "header": "2022-23 Big West Conference Standings",
         "href": "https://www.espn.com/mens-college-basketball/standings/_/group/9"
       }
     ]

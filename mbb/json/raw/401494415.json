@@ -4005,14 +4005,14 @@
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "2751",
-      "gameProjection": "95.0",
-      "teamChanceLoss": "5.0",
+      "gameProjection": "94.9",
+      "teamChanceLoss": "5.1",
       "teamChanceTie": "0.0"
     },
     "awayTeam": {
       "id": "2862",
-      "gameProjection": "5.0",
-      "teamChanceLoss": "95.0",
+      "gameProjection": "5.1",
+      "teamChanceLoss": "94.9",
       "teamChanceTie": "0.0"
     }
   },
@@ -18108,59 +18108,6 @@
               ]
             },
             {
-              "team": "Boise State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
-              "id": "68",
-              "uid": "s:40~l:41~t:68",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-09T18:13Z"
-                }
-              ]
-            },
-            {
               "team": "Air Force",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2005/air-force-falcons",
               "id": "2005",
@@ -18210,6 +18157,59 @@
                     "default"
                   ],
                   "lastUpdated": "2019-07-31T20:01Z"
+                }
+              ]
+            },
+            {
+              "team": "Boise State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
+              "id": "68",
+              "uid": "s:40~l:41~t:68",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-09T18:13Z"
                 }
               ]
             }

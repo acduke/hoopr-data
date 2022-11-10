@@ -20970,7 +20970,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "1",
+                  "2",
                   "0-0",
                   "0-0",
                   "0-0",
@@ -21069,7 +21069,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "10",
+                  "9",
                   "2-7",
                   "1-4",
                   "0-0",
@@ -21168,7 +21168,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "12",
+                  "13",
                   "0-4",
                   "0-3",
                   "0-0",
@@ -21271,7 +21271,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "1",
+                  "2",
                   "1-1",
                   "0-0",
                   "0-0",
@@ -22189,6 +22189,59 @@
         "standings": {
           "entries": [
             {
+              "team": "UC Davis",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
+              "id": "302",
+              "uid": "s:40~l:41~t:302",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-0",
+                  "displayValue": "2-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-19T17:34Z"
+                }
+              ]
+            },
+            {
               "team": "Cal Poly",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
               "id": "13",
@@ -22397,59 +22450,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-20T15:58Z"
-                }
-              ]
-            },
-            {
-              "team": "UC Davis",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
-              "id": "302",
-              "uid": "s:40~l:41~t:302",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-19T17:34Z"
                 }
               ]
             },
@@ -23260,14 +23260,14 @@
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "2463",
-      "gameProjection": "84.8",
-      "teamChanceLoss": "15.2",
+      "gameProjection": "84.7",
+      "teamChanceLoss": "15.3",
       "teamChanceTie": "0.0"
     },
     "awayTeam": {
       "id": "3167",
-      "gameProjection": "15.2",
-      "teamChanceLoss": "84.8",
+      "gameProjection": "15.3",
+      "teamChanceLoss": "84.7",
       "teamChanceTie": "0.0"
     }
   },

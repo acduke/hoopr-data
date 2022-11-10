@@ -24133,6 +24133,59 @@
               ]
             },
             {
+              "team": "Marist",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2368/marist-red-foxes",
+              "id": "2368",
+              "uid": "s:40~l:41~t:2368",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Quinnipiac",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2514/quinnipiac-bobcats",
               "id": "2514",
@@ -24280,59 +24333,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Marist",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2368/marist-red-foxes",
-              "id": "2368",
-              "uid": "s:40~l:41~t:2368",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25351,9 +25351,9 @@
         "moneyLine": 286,
         "spreadRecord": {
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "pushes": 0,
-          "summary": "0-0-0"
+          "summary": "0-1-0"
         },
         "spreadOdds": -113.0,
         "teamId": "2885"
@@ -25422,14 +25422,14 @@
     "header": "Matchup Predictor",
     "homeTeam": {
       "id": "2612",
-      "gameProjection": "76.6",
-      "teamChanceLoss": "23.4",
+      "gameProjection": "76.7",
+      "teamChanceLoss": "23.3",
       "teamChanceTie": "0.0"
     },
     "awayTeam": {
       "id": "2885",
-      "gameProjection": "23.4",
-      "teamChanceLoss": "76.6",
+      "gameProjection": "23.3",
+      "teamChanceLoss": "76.7",
       "teamChanceTie": "0.0"
     }
   },
