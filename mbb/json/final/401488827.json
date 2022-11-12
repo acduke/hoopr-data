@@ -10871,13 +10871,13 @@
       "sequenceNumber": "102844303",
       "type.id": "540",
       "type.text": "MadeFreeThrow",
-      "text": "Isaac Jones made Free Throw.",
+      "text": "Isaac Jones missed Free Throw.",
       "awayScore": 29,
-      "homeScore": 83,
+      "homeScore": 82,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:56",
-      "scoringPlay": true,
+      "scoringPlay": false,
       "scoreValue": 1,
       "team.id": "70",
       "participants.0.athlete.id": "5107818",
@@ -10926,7 +10926,7 @@
       "type.text": "MadeFreeThrow",
       "text": "Isaac Jones made Free Throw.",
       "awayScore": 29,
-      "homeScore": 84,
+      "homeScore": 83,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:56",
@@ -10973,13 +10973,66 @@
       "period": 2
     },
     {
+      "id": 401488827102844305,
+      "sequenceNumber": "102844305",
+      "type.id": "449",
+      "type.text": "Dead Ball Rebound",
+      "text": "Idaho Deadball Team Rebound.",
+      "awayScore": 29,
+      "homeScore": 83,
+      "period.number": 2,
+      "period.displayValue": "2nd Half",
+      "clock.displayValue": "15:56",
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team.id": "70",
+      "participants.0.athlete.id": null,
+      "participants.1.athlete.id": null,
+      "shootingPlay": false,
+      "season": 2023,
+      "seasonType": 2,
+      "awayTeamId": 3152,
+      "awayTeamName": "Walla Walla University",
+      "awayTeamMascot": "Wolves",
+      "awayTeamAbbrev": "WAL",
+      "awayTeamNameAlt": "Walla Walla University",
+      "homeTeamId": 70,
+      "homeTeamName": "Idaho",
+      "homeTeamMascot": "Vandals",
+      "homeTeamAbbrev": "IDHO",
+      "homeTeamNameAlt": "Idaho",
+      "homeTeamSpread": 2.5,
+      "gameSpread": 2.5,
+      "homeFavorite": true,
+      "gameSpreadAvailable": false,
+      "game_id": 401488827,
+      "qtr": 2,
+      "time": "15:56",
+      "clock.minutes": "15",
+      "clock.seconds": "56",
+      "half": "1",
+      "game_half": "1",
+      "lag_qtr": 2.0,
+      "lead_qtr": 2.0,
+      "lag_game_half": "1",
+      "lead_game_half": "1",
+      "start.quarter_seconds_remaining": 956,
+      "start.half_seconds_remaining": 956,
+      "start.game_seconds_remaining": 2156,
+      "game_play_number": 208,
+      "end.quarter_seconds_remaining": 956.0,
+      "end.half_seconds_remaining": 956.0,
+      "end.game_seconds_remaining": 2156.0,
+      "period": 2
+    },
+    {
       "id": 401488827102846401,
       "sequenceNumber": "102846401",
       "type.id": "598",
       "type.text": "Lost Ball Turnover",
       "text": "Noah Olsen Turnover.",
       "awayScore": 29,
-      "homeScore": 84,
+      "homeScore": 83,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:35",
@@ -11019,7 +11072,7 @@
       "start.quarter_seconds_remaining": 935,
       "start.half_seconds_remaining": 935,
       "start.game_seconds_remaining": 2135,
-      "game_play_number": 208,
+      "game_play_number": 209,
       "end.quarter_seconds_remaining": 956.0,
       "end.half_seconds_remaining": 956.0,
       "end.game_seconds_remaining": 2156.0,
@@ -11032,7 +11085,7 @@
       "type.text": "Steal",
       "text": "Terren Frank Steal.",
       "awayScore": 29,
-      "homeScore": 84,
+      "homeScore": 83,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:35",
@@ -11072,7 +11125,7 @@
       "start.quarter_seconds_remaining": 935,
       "start.half_seconds_remaining": 935,
       "start.game_seconds_remaining": 2135,
-      "game_play_number": 209,
+      "game_play_number": 210,
       "end.quarter_seconds_remaining": 935.0,
       "end.half_seconds_remaining": 935.0,
       "end.game_seconds_remaining": 2135.0,
@@ -11085,7 +11138,7 @@
       "type.text": "DunkShot",
       "text": "Terren Frank missed Dunk.",
       "awayScore": 29,
-      "homeScore": 84,
+      "homeScore": 83,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:29",
@@ -11125,7 +11178,7 @@
       "start.quarter_seconds_remaining": 929,
       "start.half_seconds_remaining": 929,
       "start.game_seconds_remaining": 2129,
-      "game_play_number": 210,
+      "game_play_number": 211,
       "end.quarter_seconds_remaining": 935.0,
       "end.half_seconds_remaining": 935.0,
       "end.game_seconds_remaining": 2135.0,
@@ -11138,7 +11191,7 @@
       "type.text": "Offensive Rebound",
       "text": "Divant'e Moffitt Offensive Rebound.",
       "awayScore": 29,
-      "homeScore": 84,
+      "homeScore": 83,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:26",
@@ -11178,7 +11231,7 @@
       "start.quarter_seconds_remaining": 926,
       "start.half_seconds_remaining": 926,
       "start.game_seconds_remaining": 2126,
-      "game_play_number": 211,
+      "game_play_number": 212,
       "end.quarter_seconds_remaining": 929.0,
       "end.half_seconds_remaining": 929.0,
       "end.game_seconds_remaining": 2129.0,
@@ -11191,7 +11244,7 @@
       "type.text": "JumpShot",
       "text": "Yusef Salih made Three Point Jumper. Assisted by Divant'e Moffitt.",
       "awayScore": 29,
-      "homeScore": 87,
+      "homeScore": 86,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:21",
@@ -11231,7 +11284,7 @@
       "start.quarter_seconds_remaining": 921,
       "start.half_seconds_remaining": 921,
       "start.game_seconds_remaining": 2121,
-      "game_play_number": 212,
+      "game_play_number": 213,
       "end.quarter_seconds_remaining": 926.0,
       "end.half_seconds_remaining": 926.0,
       "end.game_seconds_remaining": 2126.0,
@@ -11244,7 +11297,7 @@
       "type.text": "PersonalFoul",
       "text": "Foul on Caleb Golden.",
       "awayScore": 29,
-      "homeScore": 87,
+      "homeScore": 86,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:20",
@@ -11284,7 +11337,7 @@
       "start.quarter_seconds_remaining": 920,
       "start.half_seconds_remaining": 920,
       "start.game_seconds_remaining": 2120,
-      "game_play_number": 213,
+      "game_play_number": 214,
       "end.quarter_seconds_remaining": 921.0,
       "end.half_seconds_remaining": 921.0,
       "end.game_seconds_remaining": 2121.0,
@@ -11297,7 +11350,7 @@
       "type.text": "MadeFreeThrow",
       "text": "Yusef Salih made Free Throw.",
       "awayScore": 29,
-      "homeScore": 88,
+      "homeScore": 87,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:20",
@@ -11337,7 +11390,7 @@
       "start.quarter_seconds_remaining": 920,
       "start.half_seconds_remaining": 920,
       "start.game_seconds_remaining": 2120,
-      "game_play_number": 214,
+      "game_play_number": 215,
       "end.quarter_seconds_remaining": 920.0,
       "end.half_seconds_remaining": 920.0,
       "end.game_seconds_remaining": 2120.0,
@@ -11350,7 +11403,7 @@
       "type.text": "JumpShot",
       "text": "Caleb Golden missed Jumper.",
       "awayScore": 29,
-      "homeScore": 88,
+      "homeScore": 87,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:04",
@@ -11390,7 +11443,7 @@
       "start.quarter_seconds_remaining": 904,
       "start.half_seconds_remaining": 904,
       "start.game_seconds_remaining": 2104,
-      "game_play_number": 215,
+      "game_play_number": 216,
       "end.quarter_seconds_remaining": 920.0,
       "end.half_seconds_remaining": 920.0,
       "end.game_seconds_remaining": 2120.0,
@@ -11403,7 +11456,7 @@
       "type.text": "Defensive Rebound",
       "text": "Dominique Ford Defensive Rebound.",
       "awayScore": 29,
-      "homeScore": 88,
+      "homeScore": 87,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "15:02",
@@ -11443,7 +11496,7 @@
       "start.quarter_seconds_remaining": 902,
       "start.half_seconds_remaining": 902,
       "start.game_seconds_remaining": 2102,
-      "game_play_number": 216,
+      "game_play_number": 217,
       "end.quarter_seconds_remaining": 904.0,
       "end.half_seconds_remaining": 904.0,
       "end.game_seconds_remaining": 2104.0,
@@ -11456,7 +11509,7 @@
       "type.text": "LayUpShot",
       "text": "Isaac Jones made Layup. Assisted by Divant'e Moffitt.",
       "awayScore": 29,
-      "homeScore": 90,
+      "homeScore": 89,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "14:54",
@@ -11496,7 +11549,7 @@
       "start.quarter_seconds_remaining": 894,
       "start.half_seconds_remaining": 894,
       "start.game_seconds_remaining": 2094,
-      "game_play_number": 217,
+      "game_play_number": 218,
       "end.quarter_seconds_remaining": 902.0,
       "end.half_seconds_remaining": 902.0,
       "end.game_seconds_remaining": 2102.0,
@@ -11509,7 +11562,7 @@
       "type.text": "LayUpShot",
       "text": "Caleb Golden made Layup.",
       "awayScore": 31,
-      "homeScore": 90,
+      "homeScore": 89,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "14:33",
@@ -11549,7 +11602,7 @@
       "start.quarter_seconds_remaining": 873,
       "start.half_seconds_remaining": 873,
       "start.game_seconds_remaining": 2073,
-      "game_play_number": 218,
+      "game_play_number": 219,
       "end.quarter_seconds_remaining": 894.0,
       "end.half_seconds_remaining": 894.0,
       "end.game_seconds_remaining": 2094.0,
@@ -11562,7 +11615,7 @@
       "type.text": "JumpShot",
       "text": "Dominique Ford made Three Point Jumper. Assisted by Yusef Salih.",
       "awayScore": 31,
-      "homeScore": 93,
+      "homeScore": 92,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "14:17",
@@ -11602,7 +11655,7 @@
       "start.quarter_seconds_remaining": 857,
       "start.half_seconds_remaining": 857,
       "start.game_seconds_remaining": 2057,
-      "game_play_number": 219,
+      "game_play_number": 220,
       "end.quarter_seconds_remaining": 873.0,
       "end.half_seconds_remaining": 873.0,
       "end.game_seconds_remaining": 2073.0,
@@ -11615,7 +11668,7 @@
       "type.text": "JumpShot",
       "text": "Andrew Vaughn made Jumper.",
       "awayScore": 33,
-      "homeScore": 93,
+      "homeScore": 92,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:55",
@@ -11655,7 +11708,7 @@
       "start.quarter_seconds_remaining": 835,
       "start.half_seconds_remaining": 835,
       "start.game_seconds_remaining": 2035,
-      "game_play_number": 220,
+      "game_play_number": 221,
       "end.quarter_seconds_remaining": 857.0,
       "end.half_seconds_remaining": 857.0,
       "end.game_seconds_remaining": 2057.0,
@@ -11668,7 +11721,7 @@
       "type.text": "DunkShot",
       "text": "Isaac Jones made Dunk. Assisted by Divant'e Moffitt.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:43",
@@ -11708,7 +11761,7 @@
       "start.quarter_seconds_remaining": 823,
       "start.half_seconds_remaining": 823,
       "start.game_seconds_remaining": 2023,
-      "game_play_number": 221,
+      "game_play_number": 222,
       "end.quarter_seconds_remaining": 835.0,
       "end.half_seconds_remaining": 835.0,
       "end.game_seconds_remaining": 2035.0,
@@ -11721,7 +11774,7 @@
       "type.text": "Technical Foul",
       "text": "Technical Foul on Isaac Jones.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:42",
@@ -11761,7 +11814,7 @@
       "start.quarter_seconds_remaining": 822,
       "start.half_seconds_remaining": 822,
       "start.game_seconds_remaining": 2022,
-      "game_play_number": 222,
+      "game_play_number": 223,
       "end.quarter_seconds_remaining": 823.0,
       "end.half_seconds_remaining": 823.0,
       "end.game_seconds_remaining": 2023.0,
@@ -11774,7 +11827,7 @@
       "type.text": "MadeFreeThrow",
       "text": "Artur Borges-Paraizo missed Free Throw.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:42",
@@ -11814,7 +11867,7 @@
       "start.quarter_seconds_remaining": 822,
       "start.half_seconds_remaining": 822,
       "start.game_seconds_remaining": 2022,
-      "game_play_number": 223,
+      "game_play_number": 224,
       "end.quarter_seconds_remaining": 822.0,
       "end.half_seconds_remaining": 822.0,
       "end.game_seconds_remaining": 2022.0,
@@ -11827,7 +11880,7 @@
       "type.text": "Offensive Rebound",
       "text": "Walla Walla University Offensive Rebound.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:42",
@@ -11867,7 +11920,7 @@
       "start.quarter_seconds_remaining": 822,
       "start.half_seconds_remaining": 822,
       "start.game_seconds_remaining": 2022,
-      "game_play_number": 224,
+      "game_play_number": 225,
       "end.quarter_seconds_remaining": 822.0,
       "end.half_seconds_remaining": 822.0,
       "end.game_seconds_remaining": 2022.0,
@@ -11880,7 +11933,7 @@
       "type.text": "Lost Ball Turnover",
       "text": "Britt Murray Turnover.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:31",
@@ -11920,7 +11973,7 @@
       "start.quarter_seconds_remaining": 811,
       "start.half_seconds_remaining": 811,
       "start.game_seconds_remaining": 2011,
-      "game_play_number": 225,
+      "game_play_number": 226,
       "end.quarter_seconds_remaining": 822.0,
       "end.half_seconds_remaining": 822.0,
       "end.game_seconds_remaining": 2022.0,
@@ -11933,7 +11986,7 @@
       "type.text": "Steal",
       "text": "Michael Hanshaw Steal.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:31",
@@ -11973,7 +12026,7 @@
       "start.quarter_seconds_remaining": 811,
       "start.half_seconds_remaining": 811,
       "start.game_seconds_remaining": 2011,
-      "game_play_number": 226,
+      "game_play_number": 227,
       "end.quarter_seconds_remaining": 811.0,
       "end.half_seconds_remaining": 811.0,
       "end.game_seconds_remaining": 2011.0,
@@ -11986,7 +12039,7 @@
       "type.text": "Lost Ball Turnover",
       "text": "Dominique Ford Turnover.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:24",
@@ -12026,7 +12079,7 @@
       "start.quarter_seconds_remaining": 804,
       "start.half_seconds_remaining": 804,
       "start.game_seconds_remaining": 2004,
-      "game_play_number": 227,
+      "game_play_number": 228,
       "end.quarter_seconds_remaining": 811.0,
       "end.half_seconds_remaining": 811.0,
       "end.game_seconds_remaining": 2011.0,
@@ -12039,7 +12092,7 @@
       "type.text": "Steal",
       "text": "Britt Murray Steal.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:24",
@@ -12079,7 +12132,7 @@
       "start.quarter_seconds_remaining": 804,
       "start.half_seconds_remaining": 804,
       "start.game_seconds_remaining": 2004,
-      "game_play_number": 228,
+      "game_play_number": 229,
       "end.quarter_seconds_remaining": 804.0,
       "end.half_seconds_remaining": 804.0,
       "end.game_seconds_remaining": 2004.0,
@@ -12092,7 +12145,7 @@
       "type.text": "PersonalFoul",
       "text": "Foul on RJ Walker.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:19",
@@ -12132,7 +12185,7 @@
       "start.quarter_seconds_remaining": 799,
       "start.half_seconds_remaining": 799,
       "start.game_seconds_remaining": 1999,
-      "game_play_number": 229,
+      "game_play_number": 230,
       "end.quarter_seconds_remaining": 804.0,
       "end.half_seconds_remaining": 804.0,
       "end.game_seconds_remaining": 2004.0,
@@ -12145,7 +12198,7 @@
       "type.text": "MadeFreeThrow",
       "text": "Artur Borges-Paraizo missed Free Throw.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:19",
@@ -12185,7 +12238,7 @@
       "start.quarter_seconds_remaining": 799,
       "start.half_seconds_remaining": 799,
       "start.game_seconds_remaining": 1999,
-      "game_play_number": 230,
+      "game_play_number": 231,
       "end.quarter_seconds_remaining": 799.0,
       "end.half_seconds_remaining": 799.0,
       "end.game_seconds_remaining": 1999.0,
@@ -12198,7 +12251,7 @@
       "type.text": "Dead Ball Rebound",
       "text": "Walla Walla University Deadball Team Rebound.",
       "awayScore": 33,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:19",
@@ -12238,7 +12291,7 @@
       "start.quarter_seconds_remaining": 799,
       "start.half_seconds_remaining": 799,
       "start.game_seconds_remaining": 1999,
-      "game_play_number": 231,
+      "game_play_number": 232,
       "end.quarter_seconds_remaining": 799.0,
       "end.half_seconds_remaining": 799.0,
       "end.game_seconds_remaining": 1999.0,
@@ -12251,7 +12304,7 @@
       "type.text": "MadeFreeThrow",
       "text": "Artur Borges-Paraizo made Free Throw.",
       "awayScore": 34,
-      "homeScore": 95,
+      "homeScore": 94,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:19",
@@ -12291,7 +12344,7 @@
       "start.quarter_seconds_remaining": 799,
       "start.half_seconds_remaining": 799,
       "start.game_seconds_remaining": 1999,
-      "game_play_number": 232,
+      "game_play_number": 233,
       "end.quarter_seconds_remaining": 799.0,
       "end.half_seconds_remaining": 799.0,
       "end.game_seconds_remaining": 1999.0,
@@ -12304,7 +12357,7 @@
       "type.text": "JumpShot",
       "text": "Dominique Ford made Three Point Jumper. Assisted by Nigel Burris.",
       "awayScore": 34,
-      "homeScore": 98,
+      "homeScore": 97,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "13:07",
@@ -12344,7 +12397,7 @@
       "start.quarter_seconds_remaining": 787,
       "start.half_seconds_remaining": 787,
       "start.game_seconds_remaining": 1987,
-      "game_play_number": 233,
+      "game_play_number": 234,
       "end.quarter_seconds_remaining": 799.0,
       "end.half_seconds_remaining": 799.0,
       "end.game_seconds_remaining": 1999.0,
@@ -12357,7 +12410,7 @@
       "type.text": "Lost Ball Turnover",
       "text": "Michael Daley Turnover.",
       "awayScore": 34,
-      "homeScore": 98,
+      "homeScore": 97,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "12:47",
@@ -12397,7 +12450,7 @@
       "start.quarter_seconds_remaining": 767,
       "start.half_seconds_remaining": 767,
       "start.game_seconds_remaining": 1967,
-      "game_play_number": 234,
+      "game_play_number": 235,
       "end.quarter_seconds_remaining": 787.0,
       "end.half_seconds_remaining": 787.0,
       "end.game_seconds_remaining": 1987.0,
@@ -12410,7 +12463,7 @@
       "type.text": "LayUpShot",
       "text": "Michael Hanshaw made Layup.",
       "awayScore": 34,
-      "homeScore": 100,
+      "homeScore": 99,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "12:32",
@@ -12450,7 +12503,7 @@
       "start.quarter_seconds_remaining": 752,
       "start.half_seconds_remaining": 752,
       "start.game_seconds_remaining": 1952,
-      "game_play_number": 235,
+      "game_play_number": 236,
       "end.quarter_seconds_remaining": 767.0,
       "end.half_seconds_remaining": 767.0,
       "end.game_seconds_remaining": 1967.0,
@@ -12463,7 +12516,7 @@
       "type.text": "JumpShot",
       "text": "Michael Daley made Jumper.",
       "awayScore": 36,
-      "homeScore": 100,
+      "homeScore": 99,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "12:00",
@@ -12503,7 +12556,7 @@
       "start.quarter_seconds_remaining": 720,
       "start.half_seconds_remaining": 720,
       "start.game_seconds_remaining": 1920,
-      "game_play_number": 236,
+      "game_play_number": 237,
       "end.quarter_seconds_remaining": 752.0,
       "end.half_seconds_remaining": 752.0,
       "end.game_seconds_remaining": 1952.0,
@@ -12516,7 +12569,7 @@
       "type.text": "PersonalFoul",
       "text": "Foul on Andrew Vaughn.",
       "awayScore": 36,
-      "homeScore": 100,
+      "homeScore": 99,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "11:49",
@@ -12556,7 +12609,7 @@
       "start.quarter_seconds_remaining": 709,
       "start.half_seconds_remaining": 709,
       "start.game_seconds_remaining": 1909,
-      "game_play_number": 237,
+      "game_play_number": 238,
       "end.quarter_seconds_remaining": 720.0,
       "end.half_seconds_remaining": 720.0,
       "end.game_seconds_remaining": 1920.0,
@@ -12569,7 +12622,7 @@
       "type.text": "OfficialTVTimeOut",
       "text": " Official TV Timeout",
       "awayScore": 36,
-      "homeScore": 100,
+      "homeScore": 99,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "11:49",
@@ -12609,7 +12662,7 @@
       "start.quarter_seconds_remaining": 709,
       "start.half_seconds_remaining": 709,
       "start.game_seconds_remaining": 1909,
-      "game_play_number": 238,
+      "game_play_number": 239,
       "end.quarter_seconds_remaining": 709.0,
       "end.half_seconds_remaining": 709.0,
       "end.game_seconds_remaining": 1909.0,
@@ -12622,7 +12675,7 @@
       "type.text": "PersonalFoul",
       "text": "Foul on Giovanni Moncion.",
       "awayScore": 36,
-      "homeScore": 100,
+      "homeScore": 99,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "11:42",
@@ -12662,222 +12715,10 @@
       "start.quarter_seconds_remaining": 702,
       "start.half_seconds_remaining": 702,
       "start.game_seconds_remaining": 1902,
-      "game_play_number": 239,
+      "game_play_number": 240,
       "end.quarter_seconds_remaining": 709.0,
       "end.half_seconds_remaining": 709.0,
       "end.game_seconds_remaining": 1909.0,
-      "period": 2
-    },
-    {
-      "id": 401488827102885704,
-      "sequenceNumber": "102885704",
-      "type.id": "540",
-      "type.text": "MadeFreeThrow",
-      "text": "Andrew Vaughn missed Free Throw.",
-      "awayScore": 36,
-      "homeScore": 100,
-      "period.number": 2,
-      "period.displayValue": "2nd Half",
-      "clock.displayValue": "11:42",
-      "scoringPlay": false,
-      "scoreValue": 1,
-      "team.id": "3152",
-      "participants.0.athlete.id": "5114452",
-      "participants.1.athlete.id": null,
-      "shootingPlay": true,
-      "season": 2023,
-      "seasonType": 2,
-      "awayTeamId": 3152,
-      "awayTeamName": "Walla Walla University",
-      "awayTeamMascot": "Wolves",
-      "awayTeamAbbrev": "WAL",
-      "awayTeamNameAlt": "Walla Walla University",
-      "homeTeamId": 70,
-      "homeTeamName": "Idaho",
-      "homeTeamMascot": "Vandals",
-      "homeTeamAbbrev": "IDHO",
-      "homeTeamNameAlt": "Idaho",
-      "homeTeamSpread": 2.5,
-      "gameSpread": 2.5,
-      "homeFavorite": true,
-      "gameSpreadAvailable": false,
-      "game_id": 401488827,
-      "qtr": 2,
-      "time": "11:42",
-      "clock.minutes": "11",
-      "clock.seconds": "42",
-      "half": "1",
-      "game_half": "1",
-      "lag_qtr": 2.0,
-      "lead_qtr": 2.0,
-      "lag_game_half": "1",
-      "lead_game_half": "1",
-      "start.quarter_seconds_remaining": 702,
-      "start.half_seconds_remaining": 702,
-      "start.game_seconds_remaining": 1902,
-      "game_play_number": 240,
-      "end.quarter_seconds_remaining": 702.0,
-      "end.half_seconds_remaining": 702.0,
-      "end.game_seconds_remaining": 1902.0,
-      "period": 2
-    },
-    {
-      "id": 401488827102885705,
-      "sequenceNumber": "102885705",
-      "type.id": "540",
-      "type.text": "MadeFreeThrow",
-      "text": "Andrew Vaughn made Free Throw.",
-      "awayScore": 37,
-      "homeScore": 100,
-      "period.number": 2,
-      "period.displayValue": "2nd Half",
-      "clock.displayValue": "11:42",
-      "scoringPlay": true,
-      "scoreValue": 1,
-      "team.id": "3152",
-      "participants.0.athlete.id": "5114452",
-      "participants.1.athlete.id": null,
-      "shootingPlay": true,
-      "season": 2023,
-      "seasonType": 2,
-      "awayTeamId": 3152,
-      "awayTeamName": "Walla Walla University",
-      "awayTeamMascot": "Wolves",
-      "awayTeamAbbrev": "WAL",
-      "awayTeamNameAlt": "Walla Walla University",
-      "homeTeamId": 70,
-      "homeTeamName": "Idaho",
-      "homeTeamMascot": "Vandals",
-      "homeTeamAbbrev": "IDHO",
-      "homeTeamNameAlt": "Idaho",
-      "homeTeamSpread": 2.5,
-      "gameSpread": 2.5,
-      "homeFavorite": true,
-      "gameSpreadAvailable": false,
-      "game_id": 401488827,
-      "qtr": 2,
-      "time": "11:42",
-      "clock.minutes": "11",
-      "clock.seconds": "42",
-      "half": "1",
-      "game_half": "1",
-      "lag_qtr": 2.0,
-      "lead_qtr": 2.0,
-      "lag_game_half": "1",
-      "lead_game_half": "1",
-      "start.quarter_seconds_remaining": 702,
-      "start.half_seconds_remaining": 702,
-      "start.game_seconds_remaining": 1902,
-      "game_play_number": 241,
-      "end.quarter_seconds_remaining": 702.0,
-      "end.half_seconds_remaining": 702.0,
-      "end.game_seconds_remaining": 1902.0,
-      "period": 2
-    },
-    {
-      "id": 401488827102885706,
-      "sequenceNumber": "102885706",
-      "type.id": "449",
-      "type.text": "Dead Ball Rebound",
-      "text": "Walla Walla University Deadball Team Rebound.",
-      "awayScore": 37,
-      "homeScore": 100,
-      "period.number": 2,
-      "period.displayValue": "2nd Half",
-      "clock.displayValue": "11:42",
-      "scoringPlay": false,
-      "scoreValue": 0,
-      "team.id": "3152",
-      "participants.0.athlete.id": null,
-      "participants.1.athlete.id": null,
-      "shootingPlay": false,
-      "season": 2023,
-      "seasonType": 2,
-      "awayTeamId": 3152,
-      "awayTeamName": "Walla Walla University",
-      "awayTeamMascot": "Wolves",
-      "awayTeamAbbrev": "WAL",
-      "awayTeamNameAlt": "Walla Walla University",
-      "homeTeamId": 70,
-      "homeTeamName": "Idaho",
-      "homeTeamMascot": "Vandals",
-      "homeTeamAbbrev": "IDHO",
-      "homeTeamNameAlt": "Idaho",
-      "homeTeamSpread": 2.5,
-      "gameSpread": 2.5,
-      "homeFavorite": true,
-      "gameSpreadAvailable": false,
-      "game_id": 401488827,
-      "qtr": 2,
-      "time": "11:42",
-      "clock.minutes": "11",
-      "clock.seconds": "42",
-      "half": "1",
-      "game_half": "1",
-      "lag_qtr": 2.0,
-      "lead_qtr": 2.0,
-      "lag_game_half": "1",
-      "lead_game_half": "1",
-      "start.quarter_seconds_remaining": 702,
-      "start.half_seconds_remaining": 702,
-      "start.game_seconds_remaining": 1902,
-      "game_play_number": 242,
-      "end.quarter_seconds_remaining": 702.0,
-      "end.half_seconds_remaining": 702.0,
-      "end.game_seconds_remaining": 1902.0,
-      "period": 2
-    },
-    {
-      "id": 401488827102885804,
-      "sequenceNumber": "102885804",
-      "type.id": "519",
-      "type.text": "PersonalFoul",
-      "text": "Foul on Michael Hanshaw.",
-      "awayScore": 37,
-      "homeScore": 100,
-      "period.number": 2,
-      "period.displayValue": "2nd Half",
-      "clock.displayValue": "11:41",
-      "scoringPlay": false,
-      "scoreValue": 0,
-      "team.id": "70",
-      "participants.0.athlete.id": "4592586",
-      "participants.1.athlete.id": null,
-      "shootingPlay": false,
-      "season": 2023,
-      "seasonType": 2,
-      "awayTeamId": 3152,
-      "awayTeamName": "Walla Walla University",
-      "awayTeamMascot": "Wolves",
-      "awayTeamAbbrev": "WAL",
-      "awayTeamNameAlt": "Walla Walla University",
-      "homeTeamId": 70,
-      "homeTeamName": "Idaho",
-      "homeTeamMascot": "Vandals",
-      "homeTeamAbbrev": "IDHO",
-      "homeTeamNameAlt": "Idaho",
-      "homeTeamSpread": 2.5,
-      "gameSpread": 2.5,
-      "homeFavorite": true,
-      "gameSpreadAvailable": false,
-      "game_id": 401488827,
-      "qtr": 2,
-      "time": "11:41",
-      "clock.minutes": "11",
-      "clock.seconds": "41",
-      "half": "1",
-      "game_half": "1",
-      "lag_qtr": 2.0,
-      "lead_qtr": 2.0,
-      "lag_game_half": "1",
-      "lead_game_half": "1",
-      "start.quarter_seconds_remaining": 701,
-      "start.half_seconds_remaining": 701,
-      "start.game_seconds_remaining": 1901,
-      "game_play_number": 243,
-      "end.quarter_seconds_remaining": 702.0,
-      "end.half_seconds_remaining": 702.0,
-      "end.game_seconds_remaining": 1902.0,
       "period": 2
     },
     {
@@ -12886,8 +12727,8 @@
       "type.id": "558",
       "type.text": "JumpShot",
       "text": "Michael Daley missed Jumper.",
-      "awayScore": 37,
-      "homeScore": 100,
+      "awayScore": 36,
+      "homeScore": 99,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "11:29",
@@ -12927,10 +12768,169 @@
       "start.quarter_seconds_remaining": 689,
       "start.half_seconds_remaining": 689,
       "start.game_seconds_remaining": 1889,
+      "game_play_number": 241,
+      "end.quarter_seconds_remaining": 702.0,
+      "end.half_seconds_remaining": 702.0,
+      "end.game_seconds_remaining": 1902.0,
+      "period": 2
+    },
+    {
+      "id": 401488827102887002,
+      "sequenceNumber": "102887002",
+      "type.id": "540",
+      "type.text": "MadeFreeThrow",
+      "text": "Dominique Ford made Free Throw.",
+      "awayScore": 36,
+      "homeScore": 100,
+      "period.number": 2,
+      "period.displayValue": "2nd Half",
+      "clock.displayValue": "11:29",
+      "scoringPlay": true,
+      "scoreValue": 1,
+      "team.id": "70",
+      "participants.0.athlete.id": "5107819",
+      "participants.1.athlete.id": null,
+      "shootingPlay": true,
+      "season": 2023,
+      "seasonType": 2,
+      "awayTeamId": 3152,
+      "awayTeamName": "Walla Walla University",
+      "awayTeamMascot": "Wolves",
+      "awayTeamAbbrev": "WAL",
+      "awayTeamNameAlt": "Walla Walla University",
+      "homeTeamId": 70,
+      "homeTeamName": "Idaho",
+      "homeTeamMascot": "Vandals",
+      "homeTeamAbbrev": "IDHO",
+      "homeTeamNameAlt": "Idaho",
+      "homeTeamSpread": 2.5,
+      "gameSpread": 2.5,
+      "homeFavorite": true,
+      "gameSpreadAvailable": false,
+      "game_id": 401488827,
+      "qtr": 2,
+      "time": "11:29",
+      "clock.minutes": "11",
+      "clock.seconds": "29",
+      "half": "1",
+      "game_half": "1",
+      "lag_qtr": 2.0,
+      "lead_qtr": 2.0,
+      "lag_game_half": "1",
+      "lead_game_half": "1",
+      "start.quarter_seconds_remaining": 689,
+      "start.half_seconds_remaining": 689,
+      "start.game_seconds_remaining": 1889,
+      "game_play_number": 242,
+      "end.quarter_seconds_remaining": 689.0,
+      "end.half_seconds_remaining": 689.0,
+      "end.game_seconds_remaining": 1889.0,
+      "period": 2
+    },
+    {
+      "id": 401488827102887003,
+      "sequenceNumber": "102887003",
+      "type.id": "540",
+      "type.text": "MadeFreeThrow",
+      "text": "Dominique Ford missed Free Throw.",
+      "awayScore": 36,
+      "homeScore": 100,
+      "period.number": 2,
+      "period.displayValue": "2nd Half",
+      "clock.displayValue": "11:29",
+      "scoringPlay": false,
+      "scoreValue": 1,
+      "team.id": "70",
+      "participants.0.athlete.id": "5107819",
+      "participants.1.athlete.id": null,
+      "shootingPlay": true,
+      "season": 2023,
+      "seasonType": 2,
+      "awayTeamId": 3152,
+      "awayTeamName": "Walla Walla University",
+      "awayTeamMascot": "Wolves",
+      "awayTeamAbbrev": "WAL",
+      "awayTeamNameAlt": "Walla Walla University",
+      "homeTeamId": 70,
+      "homeTeamName": "Idaho",
+      "homeTeamMascot": "Vandals",
+      "homeTeamAbbrev": "IDHO",
+      "homeTeamNameAlt": "Idaho",
+      "homeTeamSpread": 2.5,
+      "gameSpread": 2.5,
+      "homeFavorite": true,
+      "gameSpreadAvailable": false,
+      "game_id": 401488827,
+      "qtr": 2,
+      "time": "11:29",
+      "clock.minutes": "11",
+      "clock.seconds": "29",
+      "half": "1",
+      "game_half": "1",
+      "lag_qtr": 2.0,
+      "lead_qtr": 2.0,
+      "lag_game_half": "1",
+      "lead_game_half": "1",
+      "start.quarter_seconds_remaining": 689,
+      "start.half_seconds_remaining": 689,
+      "start.game_seconds_remaining": 1889,
+      "game_play_number": 243,
+      "end.quarter_seconds_remaining": 689.0,
+      "end.half_seconds_remaining": 689.0,
+      "end.game_seconds_remaining": 1889.0,
+      "period": 2
+    },
+    {
+      "id": 401488827102887004,
+      "sequenceNumber": "102887004",
+      "type.id": "587",
+      "type.text": "Defensive Rebound",
+      "text": "Walla Walla University Defensive Rebound.",
+      "awayScore": 36,
+      "homeScore": 100,
+      "period.number": 2,
+      "period.displayValue": "2nd Half",
+      "clock.displayValue": "11:29",
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team.id": "3152",
+      "participants.0.athlete.id": null,
+      "participants.1.athlete.id": null,
+      "shootingPlay": false,
+      "season": 2023,
+      "seasonType": 2,
+      "awayTeamId": 3152,
+      "awayTeamName": "Walla Walla University",
+      "awayTeamMascot": "Wolves",
+      "awayTeamAbbrev": "WAL",
+      "awayTeamNameAlt": "Walla Walla University",
+      "homeTeamId": 70,
+      "homeTeamName": "Idaho",
+      "homeTeamMascot": "Vandals",
+      "homeTeamAbbrev": "IDHO",
+      "homeTeamNameAlt": "Idaho",
+      "homeTeamSpread": 2.5,
+      "gameSpread": 2.5,
+      "homeFavorite": true,
+      "gameSpreadAvailable": false,
+      "game_id": 401488827,
+      "qtr": 2,
+      "time": "11:29",
+      "clock.minutes": "11",
+      "clock.seconds": "29",
+      "half": "1",
+      "game_half": "1",
+      "lag_qtr": 2.0,
+      "lead_qtr": 2.0,
+      "lag_game_half": "1",
+      "lead_game_half": "1",
+      "start.quarter_seconds_remaining": 689,
+      "start.half_seconds_remaining": 689,
+      "start.game_seconds_remaining": 1889,
       "game_play_number": 244,
-      "end.quarter_seconds_remaining": 701.0,
-      "end.half_seconds_remaining": 701.0,
-      "end.game_seconds_remaining": 1901.0,
+      "end.quarter_seconds_remaining": 689.0,
+      "end.half_seconds_remaining": 689.0,
+      "end.game_seconds_remaining": 1889.0,
       "period": 2
     },
     {
@@ -12939,7 +12939,7 @@
       "type.id": "587",
       "type.text": "Defensive Rebound",
       "text": "Jack Hatten Defensive Rebound.",
-      "awayScore": 37,
+      "awayScore": 36,
       "homeScore": 100,
       "period.number": 2,
       "period.displayValue": "2nd Half",
@@ -12992,7 +12992,7 @@
       "type.id": "558",
       "type.text": "JumpShot",
       "text": "Dominique Ford missed Three Point Jumper.",
-      "awayScore": 37,
+      "awayScore": 36,
       "homeScore": 100,
       "period.number": 2,
       "period.displayValue": "2nd Half",
@@ -13045,7 +13045,7 @@
       "type.id": "586",
       "type.text": "Offensive Rebound",
       "text": "Michael Hanshaw Offensive Rebound.",
-      "awayScore": 37,
+      "awayScore": 36,
       "homeScore": 100,
       "period.number": 2,
       "period.displayValue": "2nd Half",
@@ -13098,7 +13098,7 @@
       "type.id": "558",
       "type.text": "JumpShot",
       "text": "RJ Walker missed Three Point Jumper.",
-      "awayScore": 37,
+      "awayScore": 36,
       "homeScore": 100,
       "period.number": 2,
       "period.displayValue": "2nd Half",
@@ -13151,7 +13151,7 @@
       "type.id": "587",
       "type.text": "Defensive Rebound",
       "text": "Andrew Vaughn Defensive Rebound.",
-      "awayScore": 37,
+      "awayScore": 36,
       "homeScore": 100,
       "period.number": 2,
       "period.displayValue": "2nd Half",
@@ -13203,14 +13203,14 @@
       "sequenceNumber": "102894401",
       "type.id": "558",
       "type.text": "JumpShot",
-      "text": "Andrew Vaughn made Jumper.",
+      "text": "Andrew Vaughn made Three Point Jumper.",
       "awayScore": 39,
       "homeScore": 100,
       "period.number": 2,
       "period.displayValue": "2nd Half",
       "clock.displayValue": "10:55",
       "scoringPlay": true,
-      "scoreValue": 2,
+      "scoreValue": 3,
       "team.id": "3152",
       "participants.0.athlete.id": "5114452",
       "participants.1.athlete.id": null,
@@ -17585,9 +17585,9 @@
       "half": "1",
       "game_half": "1",
       "lag_qtr": 2.0,
-      "lead_qtr": null,
+      "lead_qtr": 2.0,
       "lag_game_half": "1",
-      "lead_game_half": null,
+      "lead_game_half": "1",
       "start.quarter_seconds_remaining": 0,
       "start.half_seconds_remaining": 0,
       "start.game_seconds_remaining": 1200,
@@ -17595,6 +17595,59 @@
       "end.quarter_seconds_remaining": 16.0,
       "end.half_seconds_remaining": 16.0,
       "end.game_seconds_remaining": 1216.0,
+      "period": 2
+    },
+    {
+      "id": 401488827102999902,
+      "sequenceNumber": "102999902",
+      "type.id": "402",
+      "type.text": "End Game",
+      "text": "End of Game",
+      "awayScore": 48,
+      "homeScore": 122,
+      "period.number": 2,
+      "period.displayValue": "2nd Half",
+      "clock.displayValue": "0:00",
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team.id": null,
+      "participants.0.athlete.id": null,
+      "participants.1.athlete.id": null,
+      "shootingPlay": false,
+      "season": 2023,
+      "seasonType": 2,
+      "awayTeamId": 3152,
+      "awayTeamName": "Walla Walla University",
+      "awayTeamMascot": "Wolves",
+      "awayTeamAbbrev": "WAL",
+      "awayTeamNameAlt": "Walla Walla University",
+      "homeTeamId": 70,
+      "homeTeamName": "Idaho",
+      "homeTeamMascot": "Vandals",
+      "homeTeamAbbrev": "IDHO",
+      "homeTeamNameAlt": "Idaho",
+      "homeTeamSpread": 2.5,
+      "gameSpread": 2.5,
+      "homeFavorite": true,
+      "gameSpreadAvailable": false,
+      "game_id": 401488827,
+      "qtr": 2,
+      "time": "0:00",
+      "clock.minutes": "0",
+      "clock.seconds": "00",
+      "half": "1",
+      "game_half": "1",
+      "lag_qtr": 2.0,
+      "lead_qtr": null,
+      "lag_game_half": "1",
+      "lead_game_half": null,
+      "start.quarter_seconds_remaining": 0,
+      "start.half_seconds_remaining": 0,
+      "start.game_seconds_remaining": 1200,
+      "game_play_number": 333,
+      "end.quarter_seconds_remaining": 0.0,
+      "end.half_seconds_remaining": 0.0,
+      "end.game_seconds_remaining": 1200.0,
       "period": 2
     }
   ],
@@ -18637,6 +18690,11 @@
     {
       "tiePercentage": 0.0,
       "homeWinPercentage": 0.999,
+      "playId": "401488827102844305"
+    },
+    {
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.999,
       "playId": "401488827102846401"
     },
     {
@@ -18787,42 +18845,27 @@
     {
       "tiePercentage": 0.0,
       "homeWinPercentage": 0.999,
-      "playId": "401488827102885601"
-    },
-    {
-      "tiePercentage": 0.0,
-      "homeWinPercentage": 0.999,
-      "playId": "401488827102885602"
-    },
-    {
-      "tiePercentage": 0.0,
-      "homeWinPercentage": 0.999,
-      "playId": "401488827102885603"
-    },
-    {
-      "tiePercentage": 0.0,
-      "homeWinPercentage": 0.999,
       "playId": "401488827102885701"
     },
     {
       "tiePercentage": 0.0,
       "homeWinPercentage": 0.999,
-      "playId": "401488827102885704"
-    },
-    {
-      "tiePercentage": 0.0,
-      "homeWinPercentage": 0.999,
-      "playId": "401488827102885705"
-    },
-    {
-      "tiePercentage": 0.0,
-      "homeWinPercentage": 0.999,
-      "playId": "401488827102885706"
-    },
-    {
-      "tiePercentage": 0.0,
-      "homeWinPercentage": 0.999,
       "playId": "401488827102887001"
+    },
+    {
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.999,
+      "playId": "401488827102887002"
+    },
+    {
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.999,
+      "playId": "401488827102887003"
+    },
+    {
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.999,
+      "playId": "401488827102887004"
     },
     {
       "tiePercentage": 0.0,
@@ -19263,6 +19306,11 @@
       "tiePercentage": 0.0,
       "homeWinPercentage": 1.0,
       "playId": "401488827102999901"
+    },
+    {
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 1.0,
+      "playId": "401488827102999902"
     }
   ],
   "boxscore": {
@@ -19292,29 +19340,29 @@
           },
           {
             "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-            "displayValue": "4-15",
+            "displayValue": "5-16",
             "label": "3PT"
           },
           {
             "name": "threePointFieldGoalPct",
-            "displayValue": "26.7",
+            "displayValue": "31.3",
             "abbreviation": "3P%",
             "label": "Three Point %"
           },
           {
             "name": "freeThrowsMade-freeThrowsAttempted",
-            "displayValue": "6-11",
+            "displayValue": "5-9",
             "label": "FT"
           },
           {
             "name": "freeThrowPct",
-            "displayValue": "54.5",
+            "displayValue": "55.6",
             "abbreviation": "FT%",
             "label": "Free Throw %"
           },
           {
             "name": "totalRebounds",
-            "displayValue": "26",
+            "displayValue": "27",
             "abbreviation": "REB",
             "label": "Rebounds"
           },
@@ -19326,7 +19374,7 @@
           },
           {
             "name": "defensiveRebounds",
-            "displayValue": "20",
+            "displayValue": "21",
             "abbreviation": "DR",
             "label": "Defensive Rebounds"
           },
@@ -19443,12 +19491,12 @@
           },
           {
             "name": "freeThrowsMade-freeThrowsAttempted",
-            "displayValue": "16-28",
+            "displayValue": "16-30",
             "label": "FT"
           },
           {
             "name": "freeThrowPct",
-            "displayValue": "57.1",
+            "displayValue": "53.3",
             "abbreviation": "FT%",
             "label": "Free Throw %"
           },
@@ -19532,7 +19580,7 @@
           },
           {
             "name": "fouls",
-            "displayValue": "8",
+            "displayValue": "7",
             "abbreviation": "PF",
             "label": "Fouls"
           },
@@ -19703,10 +19751,10 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "26",
                   "5-12",
-                  "2-4",
-                  "2-4",
+                  "3-5",
+                  "1-2",
                   "0",
                   "1",
                   "1",
@@ -19802,7 +19850,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "32",
                   "1-3",
                   "0-0",
                   "1-2",
@@ -19901,7 +19949,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "10",
                   "3-3",
                   "0-0",
                   "0-0",
@@ -20000,7 +20048,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "21",
                   "4-15",
                   "0-2",
                   "0-0",
@@ -20099,7 +20147,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "14",
                   "0-3",
                   "0-1",
                   "0-0",
@@ -20197,7 +20245,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "9",
                   "0-1",
                   "0-0",
                   "0-0",
@@ -20210,104 +20258,6 @@
                   "0",
                   "0",
                   "0"
-                ]
-              },
-              {
-                "active": false,
-                "athlete": {
-                  "id": "5114450",
-                  "uid": "s:40~l:41~a:5114450",
-                  "guid": "8831218f-728a-31ce-832a-b645d4c6b0ef",
-                  "displayName": "Artur Borges-Paraizo",
-                  "shortName": "A. Borges-Paraizo",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5114450/artur-borges-paraizo",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5114450/artur-borges-paraizo",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5114450/artur-borges-paraizo",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5114450/artur-borges-paraizo",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5114450/artur-borges-paraizo",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5114450/artur-borges-paraizo",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5114450/artur-borges-paraizo",
-                      "text": "Overview"
-                    }
-                  ],
-                  "position": {
-                    "name": "Athlete",
-                    "displayName": "Athlete",
-                    "abbreviation": "ATH"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": false,
-                "ejected": false,
-                "stats": [
-                  "--",
-                  "2-4",
-                  "1-2",
-                  "1-3",
-                  "0",
-                  "1",
-                  "1",
-                  "0",
-                  "0",
-                  "0",
-                  "1",
-                  "1",
-                  "6"
                 ]
               },
               {
@@ -20393,7 +20343,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "18",
                   "2-6",
                   "0-0",
                   "0-0",
@@ -20492,7 +20442,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "14",
                   "0-1",
                   "0-0",
                   "0-0",
@@ -20505,6 +20455,104 @@
                   "1",
                   "5",
                   "0"
+                ]
+              },
+              {
+                "active": false,
+                "athlete": {
+                  "id": "5114450",
+                  "uid": "s:40~l:41~a:5114450",
+                  "guid": "8831218f-728a-31ce-832a-b645d4c6b0ef",
+                  "displayName": "Artur Borges-Paraizo",
+                  "shortName": "A. Borges-Paraizo",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5114450/artur-borges-paraizo",
+                      "text": "Player Card"
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5114450/artur-borges-paraizo",
+                      "text": "Stats"
+                    },
+                    {
+                      "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5114450/artur-borges-paraizo",
+                      "text": "Splits"
+                    },
+                    {
+                      "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5114450/artur-borges-paraizo",
+                      "text": "Game Log"
+                    },
+                    {
+                      "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5114450/artur-borges-paraizo",
+                      "text": "News"
+                    },
+                    {
+                      "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5114450/artur-borges-paraizo",
+                      "text": "Bio"
+                    },
+                    {
+                      "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5114450/artur-borges-paraizo",
+                      "text": "Overview"
+                    }
+                  ],
+                  "position": {
+                    "name": "Guard",
+                    "displayName": "Guard",
+                    "abbreviation": "G"
+                  }
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "ejected": false,
+                "stats": [
+                  "13",
+                  "2-4",
+                  "1-2",
+                  "1-3",
+                  "0",
+                  "1",
+                  "1",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "1",
+                  "6"
                 ]
               },
               {
@@ -20591,7 +20639,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "13",
                   "0-3",
                   "0-2",
                   "0-0",
@@ -20690,7 +20738,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "11",
                   "1-4",
                   "1-3",
                   "0-0",
@@ -20789,7 +20837,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "19",
                   "1-3",
                   "0-1",
                   "2-2",
@@ -21318,11 +21366,11 @@
             "totals": [
               "",
               "19-58",
-              "4-15",
-              "6-11",
+              "5-16",
+              "5-9",
               "6",
-              "20",
-              "26",
+              "21",
+              "27",
               "6",
               "2",
               "0",
@@ -21494,10 +21542,10 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "19",
                   "10-13",
                   "0-0",
-                  "2-2",
+                  "1-2",
                   "4",
                   "6",
                   "10",
@@ -21506,7 +21554,7 @@
                   "0",
                   "0",
                   "2",
-                  "22"
+                  "21"
                 ]
               },
               {
@@ -21597,7 +21645,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "20",
                   "9-13",
                   "3-5",
                   "3-3",
@@ -21696,7 +21744,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "18",
                   "3-7",
                   "1-2",
                   "2-4",
@@ -21799,7 +21847,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "21",
                   "3-4",
                   "3-3",
                   "3-4",
@@ -21902,7 +21950,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "25",
                   "2-3",
                   "2-3",
                   "1-4",
@@ -22001,7 +22049,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "18",
                   "6-8",
                   "1-2",
                   "0-1",
@@ -22104,7 +22152,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "14",
                   "5-6",
                   "0-0",
                   "0-0",
@@ -22115,7 +22163,7 @@
                   "1",
                   "0",
                   "0",
-                  "1",
+                  "0",
                   "10"
                 ]
               },
@@ -22203,10 +22251,10 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "27",
                   "5-11",
                   "2-5",
-                  "4-6",
+                  "5-8",
                   "1",
                   "7",
                   "8",
@@ -22215,7 +22263,7 @@
                   "0",
                   "1",
                   "1",
-                  "16"
+                  "17"
                 ]
               },
               {
@@ -22306,7 +22354,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "14",
                   "0-3",
                   "0-2",
                   "1-2",
@@ -22409,7 +22457,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "24",
                   "3-4",
                   "2-3",
                   "0-2",
@@ -22862,7 +22910,7 @@
               "",
               "46-72",
               "14-25",
-              "16-28",
+              "16-30",
               "14",
               "35",
               "49",
@@ -22870,7 +22918,7 @@
               "13",
               "0",
               "7",
-              "8",
+              "7",
               "122"
             ]
           }
@@ -22900,7 +22948,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23435,6 +23483,112 @@
               ]
             },
             {
+              "team": "Idaho State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/304/idaho-state-bengals",
+              "id": "304",
+              "uid": "s:40~l:41~t:304",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-1",
+                  "displayValue": "1-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-22T15:06Z"
+                }
+              ]
+            },
+            {
+              "team": "Northern Colorado",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
+              "id": "2458",
+              "uid": "s:40~l:41~t:2458",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-1",
+                  "displayValue": "1-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Weber State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2692/weber-state-wildcats",
               "id": "2692",
@@ -23476,218 +23630,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Portland State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2502/portland-state-vikings",
-              "id": "2502",
-              "uid": "s:40~l:41~t:2502",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Eastern Washington",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/331/eastern-washington-eagles",
-              "id": "331",
-              "uid": "s:40~l:41~t:331",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Idaho State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/304/idaho-state-bengals",
-              "id": "304",
-              "uid": "s:40~l:41~t:304",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-22T15:06Z"
-                }
-              ]
-            },
-            {
-              "team": "Montana",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/149/montana-grizzlies",
-              "id": "149",
-              "uid": "s:40~l:41~t:149",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -23753,10 +23695,10 @@
               ]
             },
             {
-              "team": "Northern Arizona",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2464/northern-arizona-lumberjacks",
-              "id": "2464",
-              "uid": "s:40~l:41~t:2464",
+              "team": "Portland State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2502/portland-state-vikings",
+              "id": "2502",
+              "uid": "s:40~l:41~t:2502",
               "stats": [
                 {
                   "id": "0",
@@ -23793,60 +23735,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Northern Colorado",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
-              "id": "2458",
-              "uid": "s:40~l:41~t:2458",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -23900,6 +23789,165 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Eastern Washington",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/331/eastern-washington-eagles",
+              "id": "331",
+              "uid": "s:40~l:41~t:331",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-2",
+                  "displayValue": "0-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Montana",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/149/montana-grizzlies",
+              "id": "149",
+              "uid": "s:40~l:41~t:149",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-2",
+                  "displayValue": "0-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Northern Arizona",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2464/northern-arizona-lumberjacks",
+              "id": "2464",
+              "uid": "s:40~l:41~t:2464",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-2",
+                  "displayValue": "0-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -24055,6 +24103,15 @@
                   "displayValue": "0"
                 },
                 {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 18.0,
+                  "displayValue": "18"
+                },
+                {
                   "name": "assistTurnoverRatio",
                   "displayName": "Assist To Turnover Ratio",
                   "shortDisplayName": "AST/TO",
@@ -24200,7 +24257,7 @@
                   "description": "Free Throw makes and attempts.",
                   "abbreviation": "FT",
                   "value": 0.5,
-                  "displayValue": "2/4"
+                  "displayValue": "1/2"
                 }
               ]
             }
@@ -24254,6 +24311,15 @@
                   "abbreviation": "TO",
                   "value": 3.0,
                   "displayValue": "3"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 10.0,
+                  "displayValue": "10"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -24401,7 +24467,39 @@
       "grass": false,
       "images": []
     },
-    "attendance": 0
+    "attendance": 1549,
+    "officials": [
+      {
+        "fullName": "Nate Harris",
+        "displayName": "Nate Harris",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Derek Anganes",
+        "displayName": "Derek Anganes",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Darren Drake",
+        "displayName": "Darren Drake",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "teamInfo": {
     "id": "401488827",
@@ -24416,7 +24514,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": true,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

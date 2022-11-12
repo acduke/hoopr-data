@@ -23112,6 +23112,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401491805",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -24448,6 +24460,59 @@
               ]
             },
             {
+              "team": "Jacksonville",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/294/jacksonville-dolphins",
+              "id": "294",
+              "uid": "s:40~l:41~t:294",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-1",
+                  "displayValue": "1-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-10-22T17:25Z"
+                }
+              ]
+            },
+            {
               "team": "Austin Peay",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2046/austin-peay-governors",
               "id": "2046",
@@ -24550,59 +24615,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-10-04T14:41Z"
-                }
-              ]
-            },
-            {
-              "team": "Jacksonville",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/294/jacksonville-dolphins",
-              "id": "294",
-              "uid": "s:40~l:41~t:294",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-10-22T17:25Z"
                 }
               ]
             },
@@ -24719,7 +24731,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Luke Frampton scored 21 points as Western Kentucky came from behind to beat Eastern Kentucky 66-60 on Thursday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35000071",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35000071"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401491805"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401491805",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35000071"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401491805&version=mobile"
+      }
+    },
+    "id": 35000071,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3336,
+        "description": "Eastern Kentucky Colonels",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2198,
+        "team": {
+          "id": 2198,
+          "description": "Eastern Kentucky Colonels",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2198"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2198/eastern-kentucky-colonels"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2198"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2198"
+      },
+      {
+        "id": 3405,
+        "description": "Western Kentucky Hilltoppers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 98,
+        "team": {
+          "id": 98,
+          "description": "Western Kentucky Hilltoppers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/98"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/98/western-kentucky-hilltoppers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=98"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:98"
+      }
+    ],
+    "headline": "Western Kentucky comes back, edges Eastern Kentucky, 66-60",
+    "gameId": "401491805",
+    "images": [],
+    "linkText": "Western Kentucky comes back, edges Eastern Kentucky, 66-60",
+    "published": "2022-11-11T05:15:19Z",
+    "allowComments": true,
+    "lastModified": "2022-11-11T05:15:19Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "RICHMOND, Ky. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4278350/luke-frampton\">Luke Frampton</a> scored 21 points as Western Kentucky came from behind to beat Eastern Kentucky 66-60 on Thursday night.\n\n\r\n              Frampton was 6 of 8 shooting, including 5 for 6 from distance, and went 4 for 5 from the line for the Hilltoppers (1-0). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4395617/jairus-hamilton\">Jairus Hamilton</a> scored 11 points and added nine rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4574710/dayvion-mcknight\">Dayvion McKnight</a> was 4 of 15 shooting and 3 of 5 from the free throw line to finish with 11 points.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397469/cooper-robb\">Cooper Robb</a> led the Colonels (1-1) in scoring, finishing with 11 points and seven rebounds. Eastern Kentucky also got 10 points from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431810/michael-moreno\">Michael Moreno</a>. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703234/devontae-blanton\">Devontae Blanton</a> finished with 10 points and four assists.\n\n\r\n              NEXT UP\n\n\r\n              Western Kentucky next plays Saturday against Kentucky State at home, and Eastern Kentucky will visit Cincinnati on Sunday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "leaders": [
     {
       "team": {

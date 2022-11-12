@@ -5,11 +5,11 @@
         "team": {
           "id": "2903",
           "uid": "s:40~l:41~t:2903",
-          "slug": "sw-adventist-knights",
-          "location": "SW Adventist",
+          "slug": "southwestern-adventist-knights",
+          "location": "Southwestern Adventist",
           "name": "Knights",
           "abbreviation": "SWA",
-          "displayName": "SW Adventist Knights",
+          "displayName": "Southwestern Adventist Knights",
           "shortDisplayName": "SW Adventist"
         },
         "statistics": [
@@ -284,11 +284,11 @@
         "team": {
           "id": "2903",
           "uid": "s:40~l:41~t:2903",
-          "slug": "sw-adventist-knights",
-          "location": "SW Adventist",
+          "slug": "southwestern-adventist-knights",
+          "location": "Southwestern Adventist",
           "name": "Knights",
           "abbreviation": "SWA",
-          "displayName": "SW Adventist Knights",
+          "displayName": "Southwestern Adventist Knights",
           "shortDisplayName": "SW Adventist"
         },
         "statistics": [
@@ -3446,7 +3446,7 @@
       "team": {
         "id": "2903",
         "uid": "s:40~l:41~t:2903",
-        "displayName": "SW Adventist Knights",
+        "displayName": "Southwestern Adventist Knights",
         "abbreviation": "SWA",
         "links": [
           {
@@ -3697,7 +3697,7 @@
       "team": {
         "id": "2903",
         "uid": "s:40~l:41~t:2903",
-        "displayName": "SW Adventist Knights",
+        "displayName": "Southwestern Adventist Knights",
         "abbreviation": "SWA",
         "links": [
           {
@@ -5402,11 +5402,11 @@
             "team": {
               "id": "2903",
               "uid": "s:40~l:41~t:2903",
-              "location": "SW Adventist",
+              "location": "Southwestern Adventist",
               "name": "Knights",
               "nickname": "SW Adventist",
               "abbreviation": "SWA",
-              "displayName": "SW Adventist Knights",
+              "displayName": "Southwestern Adventist Knights",
               "links": []
             },
             "score": "33",
@@ -5462,6 +5462,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401499511",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401499511",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15311,7 +15323,168 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Giovanni Emejuru had 16 points in Sam Houston\u2019s 120-33 victory against Southwestern Adventist on Thursday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-34999865",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/34999865"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401499511"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401499511",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=34999865"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401499511&version=mobile"
+      }
+    },
+    "id": 34999865,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3391,
+        "description": "Sam Houston Bearkats",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2534,
+        "team": {
+          "id": 2534,
+          "description": "Sam Houston Bearkats",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2534"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2534/sam-houston-bearkats"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2534"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2534"
+      },
+      {
+        "id": 160368,
+        "description": "SW Adventist Knights",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2903,
+        "team": {
+          "id": 2903,
+          "description": "SW Adventist Knights",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2903"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2903/southwestern-adventist-knights"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2903"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2903"
+      }
+    ],
+    "headline": "Sam Houston routs Southwestern Advantist, 120-33",
+    "gameId": "401499511",
+    "images": [],
+    "linkText": "Sam Houston routs Southwestern Advantist, 120-33",
+    "published": "2022-11-11T04:17:19Z",
+    "allowComments": true,
+    "lastModified": "2022-11-11T04:17:19Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "HUNTSVILLE, Texas -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4896939/giovanni-emejuru\">Giovanni Emejuru</a> had 16 points in Sam Houston\u2019s 120-33 victory against Southwestern Adventist on Thursday night.\n\n\r\n              Emejuru also contributed seven rebounds for the Bearkats (2-0). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105876/lamar-wilkerson\">Lamar Wilkerson</a> scored 15 points and added five rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397867/kaosi-ezeagu\">Kaosi Ezeagu</a> shot 6 of 8 from the field and 1 for 3 from the line to finish with 13 points.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4906808/alain-aviles\">Alain Aviles</a> led the way for the Knights (0-1) with 12 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5113137/byron-fields\">Byron Fields</a> added nine points for Southwestern Adventist. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5113135/kahvonn-williams\">Kahvonn Williams</a> had five points.\n\n\r\n              NEXT UP\n\n\r\n              Sam Houston plays Monday against LeTourneau at home, and Southwestern Adventist visits UT Rio Grande Valley on Saturday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
