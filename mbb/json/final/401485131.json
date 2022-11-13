@@ -16472,9 +16472,9 @@
       "half": "1",
       "game_half": "1",
       "lag_qtr": 2.0,
-      "lead_qtr": null,
+      "lead_qtr": 2.0,
       "lag_game_half": "1",
-      "lead_game_half": null,
+      "lead_game_half": "1",
       "start.quarter_seconds_remaining": 0,
       "start.half_seconds_remaining": 0,
       "start.game_seconds_remaining": 1200,
@@ -16482,6 +16482,59 @@
       "end.quarter_seconds_remaining": 9.0,
       "end.half_seconds_remaining": 9.0,
       "end.game_seconds_remaining": 1209.0,
+      "period": 2
+    },
+    {
+      "id": 401485131102999902,
+      "sequenceNumber": "102999902",
+      "type.id": "402",
+      "type.text": "End Game",
+      "text": "End of Game",
+      "awayScore": 74,
+      "homeScore": 86,
+      "period.number": 2,
+      "period.displayValue": "2nd Half",
+      "clock.displayValue": "0:00",
+      "scoringPlay": false,
+      "scoreValue": 0,
+      "team.id": null,
+      "participants.0.athlete.id": null,
+      "shootingPlay": false,
+      "participants.1.athlete.id": null,
+      "season": 2023,
+      "seasonType": 2,
+      "awayTeamId": 2710,
+      "awayTeamName": "Western Illinois",
+      "awayTeamMascot": "Leathernecks",
+      "awayTeamAbbrev": "WIU",
+      "awayTeamNameAlt": "Western Illinois",
+      "homeTeamId": 305,
+      "homeTeamName": "DePaul",
+      "homeTeamMascot": "Blue Demons",
+      "homeTeamAbbrev": "DEP",
+      "homeTeamNameAlt": "DePaul",
+      "homeTeamSpread": 15.5,
+      "gameSpread": -15.5,
+      "homeFavorite": true,
+      "gameSpreadAvailable": true,
+      "game_id": 401485131,
+      "qtr": 2,
+      "time": "0:00",
+      "clock.minutes": "0",
+      "clock.seconds": "00",
+      "half": "1",
+      "game_half": "1",
+      "lag_qtr": 2.0,
+      "lead_qtr": null,
+      "lag_game_half": "1",
+      "lead_game_half": null,
+      "start.quarter_seconds_remaining": 0,
+      "start.half_seconds_remaining": 0,
+      "start.game_seconds_remaining": 1200,
+      "game_play_number": 312,
+      "end.quarter_seconds_remaining": 0.0,
+      "end.half_seconds_remaining": 0.0,
+      "end.game_seconds_remaining": 1200.0,
       "period": 2
     }
   ],
@@ -18040,6 +18093,11 @@
       "tiePercentage": 0.0,
       "homeWinPercentage": 1.0,
       "playId": "401485131102999901"
+    },
+    {
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 1.0,
+      "playId": "401485131102999902"
     }
   ],
   "boxscore": {
@@ -18294,13 +18352,13 @@
           },
           {
             "name": "technicalFouls",
-            "displayValue": "0",
+            "displayValue": "1",
             "abbreviation": "TECH",
             "label": "Technical Fouls"
           },
           {
             "name": "totalTechnicalFouls",
-            "displayValue": "0",
+            "displayValue": "1",
             "abbreviation": "TECH",
             "label": "Total Technical Fouls"
           },
@@ -18487,7 +18545,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "27",
                   "4-6",
                   "0-0",
                   "5-8",
@@ -18590,7 +18648,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "29",
                   "4-10",
                   "1-2",
                   "4-4",
@@ -18689,7 +18747,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "32",
                   "5-10",
                   "1-4",
                   "5-6",
@@ -18792,7 +18850,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "31",
                   "3-8",
                   "0-1",
                   "6-6",
@@ -18895,7 +18953,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "20",
                   "3-9",
                   "2-7",
                   "0-0",
@@ -18998,7 +19056,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "12",
                   "1-6",
                   "1-3",
                   "0-0",
@@ -19101,7 +19159,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "12",
                   "0-2",
                   "0-1",
                   "0-0",
@@ -19111,6 +19169,109 @@
                   "0",
                   "1",
                   "1",
+                  "0",
+                  "0",
+                  "0"
+                ]
+              },
+              {
+                "active": false,
+                "athlete": {
+                  "id": "4431929",
+                  "uid": "s:40~l:41~a:4431929",
+                  "guid": "b719ff37-a394-34ee-a056-70fd32d7293d",
+                  "displayName": "Cody Collinsworth",
+                  "shortName": "C. Collinsworth",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431929/cody-collinsworth",
+                      "text": "Player Card"
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4431929/cody-collinsworth",
+                      "text": "Stats"
+                    },
+                    {
+                      "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4431929/cody-collinsworth",
+                      "text": "Splits"
+                    },
+                    {
+                      "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4431929/cody-collinsworth",
+                      "text": "Game Log"
+                    },
+                    {
+                      "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4431929/cody-collinsworth",
+                      "text": "News"
+                    },
+                    {
+                      "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4431929/cody-collinsworth",
+                      "text": "Bio"
+                    },
+                    {
+                      "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/4431929/cody-collinsworth",
+                      "text": "Overview"
+                    }
+                  ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431929.png",
+                    "alt": "Cody Collinsworth"
+                  },
+                  "jersey": "20",
+                  "position": {
+                    "name": "Center",
+                    "displayName": "Center",
+                    "abbreviation": "C"
+                  }
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "ejected": false,
+                "stats": [
+                  "1",
+                  "0-0",
+                  "0-0",
+                  "0-0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
                   "0",
                   "0",
                   "0"
@@ -19200,7 +19361,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "7",
                   "1-3",
                   "1-3",
                   "2-2",
@@ -19303,7 +19464,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "28",
                   "1-6",
                   "0-5",
                   "0-0",
@@ -19406,7 +19567,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "1",
                   "1-1",
                   "0-0",
                   "0-0",
@@ -19420,95 +19581,6 @@
                   "0",
                   "2"
                 ]
-              },
-              {
-                "active": false,
-                "athlete": {
-                  "id": "4431929",
-                  "uid": "s:40~l:41~a:4431929",
-                  "guid": "b719ff37-a394-34ee-a056-70fd32d7293d",
-                  "displayName": "Cody Collinsworth",
-                  "shortName": "C. Collinsworth",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431929/cody-collinsworth",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4431929/cody-collinsworth",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4431929/cody-collinsworth",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4431929/cody-collinsworth",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4431929/cody-collinsworth",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4431929/cody-collinsworth",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/4431929/cody-collinsworth",
-                      "text": "Overview"
-                    }
-                  ],
-                  "headshot": {
-                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431929.png",
-                    "alt": "Cody Collinsworth"
-                  },
-                  "jersey": "20",
-                  "position": {
-                    "name": "Center",
-                    "displayName": "Center",
-                    "abbreviation": "C"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": true,
-                "ejected": false,
-                "stats": []
               },
               {
                 "active": false,
@@ -20127,7 +20199,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "27",
                   "4-7",
                   "0-1",
                   "0-0",
@@ -20230,7 +20302,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "31",
                   "5-10",
                   "2-3",
                   "2-2",
@@ -20333,7 +20405,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "27",
                   "3-5",
                   "1-2",
                   "3-5",
@@ -20436,13 +20508,13 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "16",
                   "0-1",
                   "0-1",
                   "0-0",
                   "0",
-                  "2",
-                  "2",
+                  "3",
+                  "3",
                   "0",
                   "0",
                   "0",
@@ -20539,7 +20611,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "24",
                   "8-10",
                   "4-5",
                   "4-4",
@@ -20638,7 +20710,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "26",
                   "6-7",
                   "1-1",
                   "2-2",
@@ -20651,6 +20723,105 @@
                   "3",
                   "3",
                   "15"
+                ]
+              },
+              {
+                "active": false,
+                "athlete": {
+                  "id": "5105584",
+                  "uid": "s:40~l:41~a:5105584",
+                  "guid": "63ea439b-a513-3e8a-a294-3c1b85ef77ac",
+                  "displayName": "Mo Sall",
+                  "shortName": "M. Sall",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105584/mo-sall",
+                      "text": "Player Card"
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5105584/mo-sall",
+                      "text": "Stats"
+                    },
+                    {
+                      "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5105584/mo-sall",
+                      "text": "Splits"
+                    },
+                    {
+                      "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5105584/mo-sall",
+                      "text": "Game Log"
+                    },
+                    {
+                      "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5105584/mo-sall",
+                      "text": "News"
+                    },
+                    {
+                      "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5105584/mo-sall",
+                      "text": "Bio"
+                    },
+                    {
+                      "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5105584/mo-sall",
+                      "text": "Overview"
+                    }
+                  ],
+                  "jersey": "55",
+                  "position": {
+                    "name": "Guard",
+                    "displayName": "Guard",
+                    "abbreviation": "G"
+                  }
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "ejected": false,
+                "stats": [
+                  "1",
+                  "0-0",
+                  "0-0",
+                  "0-0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
                 ]
               },
               {
@@ -20737,7 +20908,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "9",
                   "1-4",
                   "0-1",
                   "0-0",
@@ -20836,7 +21007,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "8",
                   "2-2",
                   "1-1",
                   "0-0",
@@ -20847,8 +21018,111 @@
                   "0",
                   "0",
                   "0",
-                  "0",
+                  "1",
                   "5"
+                ]
+              },
+              {
+                "active": false,
+                "athlete": {
+                  "id": "4701558",
+                  "uid": "s:40~l:41~a:4701558",
+                  "guid": "8e143202-867c-358a-ab6a-dd368e47ab48",
+                  "displayName": "Max Williams",
+                  "shortName": "M. Williams",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/4701558/max-williams",
+                      "text": "Player Card"
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4701558/max-williams",
+                      "text": "Stats"
+                    },
+                    {
+                      "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4701558/max-williams",
+                      "text": "Splits"
+                    },
+                    {
+                      "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4701558/max-williams",
+                      "text": "Game Log"
+                    },
+                    {
+                      "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4701558/max-williams",
+                      "text": "News"
+                    },
+                    {
+                      "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4701558/max-williams",
+                      "text": "Bio"
+                    },
+                    {
+                      "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/4701558/max-williams",
+                      "text": "Overview"
+                    }
+                  ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4701558.png",
+                    "alt": "Max Williams"
+                  },
+                  "jersey": "30",
+                  "position": {
+                    "name": "Guard",
+                    "displayName": "Guard",
+                    "abbreviation": "G"
+                  }
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "ejected": false,
+                "stats": [
+                  "1",
+                  "0-0",
+                  "0-0",
+                  "0-0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
                 ]
               },
               {
@@ -20939,7 +21213,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "11",
                   "2-5",
                   "0-2",
                   "0-0",
@@ -20952,6 +21226,109 @@
                   "0",
                   "1",
                   "4"
+                ]
+              },
+              {
+                "active": false,
+                "athlete": {
+                  "id": "4592458",
+                  "uid": "s:40~l:41~a:4592458",
+                  "guid": "f3b026a0-564a-3bc0-98db-7920f3e4bfbf",
+                  "displayName": "Brendan Favre",
+                  "shortName": "B. Favre",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/4592458/brendan-favre",
+                      "text": "Player Card"
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4592458/brendan-favre",
+                      "text": "Stats"
+                    },
+                    {
+                      "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4592458/brendan-favre",
+                      "text": "Splits"
+                    },
+                    {
+                      "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4592458/brendan-favre",
+                      "text": "Game Log"
+                    },
+                    {
+                      "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4592458/brendan-favre",
+                      "text": "News"
+                    },
+                    {
+                      "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4592458/brendan-favre",
+                      "text": "Bio"
+                    },
+                    {
+                      "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/4592458/brendan-favre",
+                      "text": "Overview"
+                    }
+                  ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4592458.png",
+                    "alt": "Brendan Favre"
+                  },
+                  "jersey": "20",
+                  "position": {
+                    "name": "Guard",
+                    "displayName": "Guard",
+                    "abbreviation": "G"
+                  }
+                },
+                "starter": false,
+                "didNotPlay": false,
+                "ejected": false,
+                "stats": [
+                  "1",
+                  "0-0",
+                  "0-0",
+                  "0-0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
                 ]
               },
               {
@@ -21042,7 +21419,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "18",
                   "2-5",
                   "0-2",
                   "0-0",
@@ -21139,269 +21516,6 @@
                     "name": "Center",
                     "displayName": "Center",
                     "abbreviation": "C"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": true,
-                "ejected": false,
-                "stats": []
-              },
-              {
-                "active": false,
-                "athlete": {
-                  "id": "5105584",
-                  "uid": "s:40~l:41~a:5105584",
-                  "guid": "63ea439b-a513-3e8a-a294-3c1b85ef77ac",
-                  "displayName": "Mo Sall",
-                  "shortName": "M. Sall",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105584/mo-sall",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5105584/mo-sall",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5105584/mo-sall",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5105584/mo-sall",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5105584/mo-sall",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5105584/mo-sall",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5105584/mo-sall",
-                      "text": "Overview"
-                    }
-                  ],
-                  "jersey": "55",
-                  "position": {
-                    "name": "Guard",
-                    "displayName": "Guard",
-                    "abbreviation": "G"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": true,
-                "ejected": false,
-                "stats": []
-              },
-              {
-                "active": false,
-                "athlete": {
-                  "id": "4701558",
-                  "uid": "s:40~l:41~a:4701558",
-                  "guid": "8e143202-867c-358a-ab6a-dd368e47ab48",
-                  "displayName": "Max Williams",
-                  "shortName": "M. Williams",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/4701558/max-williams",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4701558/max-williams",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4701558/max-williams",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4701558/max-williams",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4701558/max-williams",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4701558/max-williams",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/4701558/max-williams",
-                      "text": "Overview"
-                    }
-                  ],
-                  "headshot": {
-                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4701558.png",
-                    "alt": "Max Williams"
-                  },
-                  "jersey": "30",
-                  "position": {
-                    "name": "Guard",
-                    "displayName": "Guard",
-                    "abbreviation": "G"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": true,
-                "ejected": false,
-                "stats": []
-              },
-              {
-                "active": false,
-                "athlete": {
-                  "id": "4592458",
-                  "uid": "s:40~l:41~a:4592458",
-                  "guid": "f3b026a0-564a-3bc0-98db-7920f3e4bfbf",
-                  "displayName": "Brendan Favre",
-                  "shortName": "B. Favre",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/4592458/brendan-favre",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/4592458/brendan-favre",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/4592458/brendan-favre",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/4592458/brendan-favre",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/4592458/brendan-favre",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/4592458/brendan-favre",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/4592458/brendan-favre",
-                      "text": "Overview"
-                    }
-                  ],
-                  "headshot": {
-                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4592458.png",
-                    "alt": "Brendan Favre"
-                  },
-                  "jersey": "20",
-                  "position": {
-                    "name": "Guard",
-                    "displayName": "Guard",
-                    "abbreviation": "G"
                   }
                 },
                 "starter": false,
@@ -21541,7 +21655,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -21838,6 +21952,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401485131",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401485131",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -22144,6 +22270,59 @@
               ]
             },
             {
+              "team": "South Dakota",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/233/south-dakota-coyotes",
+              "id": "233",
+              "uid": "s:40~l:41~t:233",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-1",
+                  "displayValue": "2-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Western Illinois",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2710/western-illinois-leathernecks",
               "id": "2710",
@@ -22299,59 +22478,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-02-17T22:48Z"
-                }
-              ]
-            },
-            {
-              "team": "South Dakota",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/233/south-dakota-coyotes",
-              "id": "233",
-              "uid": "s:40~l:41~t:233",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -22735,6 +22861,59 @@
               ]
             },
             {
+              "team": "Georgetown",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/46/georgetown-hoyas",
+              "id": "46",
+              "uid": "s:40~l:41~t:46",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-0",
+                  "displayValue": "2-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Marquette",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles",
               "id": "269",
@@ -22776,6 +22955,165 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Providence",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2507/providence-friars",
+              "id": "2507",
+              "uid": "s:40~l:41~t:2507",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-0",
+                  "displayValue": "2-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Seton Hall",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2550/seton-hall-pirates",
+              "id": "2550",
+              "uid": "s:40~l:41~t:2550",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-0",
+                  "displayValue": "2-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "St. John's",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm",
+              "id": "2599",
+              "uid": "s:40~l:41~t:2599",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-0",
+                  "displayValue": "2-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22947,218 +23285,6 @@
               ]
             },
             {
-              "team": "Georgetown",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/46/georgetown-hoyas",
-              "id": "46",
-              "uid": "s:40~l:41~t:46",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Providence",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2507/providence-friars",
-              "id": "2507",
-              "uid": "s:40~l:41~t:2507",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Seton Hall",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2550/seton-hall-pirates",
-              "id": "2550",
-              "uid": "s:40~l:41~t:2550",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "St. John's",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm",
-              "id": "2599",
-              "uid": "s:40~l:41~t:2599",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Villanova",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/222/villanova-wildcats",
               "id": "222",
@@ -23218,7 +23344,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Umoja Gibson scored 24 points on 8-for-10 shooting and Da'Sean Nelson went 6 for 7 off the bench for 15 points and DePaul beat Western Illinois 86-74 on Friday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35006942",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35006942"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401485131"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401485131",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35006942"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401485131&version=mobile"
+      }
+    },
+    "id": 35006942,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3251,
+        "description": "DePaul Blue Demons",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 305,
+        "team": {
+          "id": 305,
+          "description": "DePaul Blue Demons",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/305"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/305/depaul-blue-demons"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=305"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:305"
+      },
+      {
+        "id": 3299,
+        "description": "Western Illinois Leathernecks",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2710,
+        "team": {
+          "id": 2710,
+          "description": "Western Illinois Leathernecks",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2710"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2710/western-illinois-leathernecks"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2710"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2710"
+      }
+    ],
+    "headline": "Gibson paces DePaul past W. Illinois with 24 points",
+    "gameId": "401485131",
+    "images": [],
+    "linkText": "Gibson paces DePaul past W. Illinois with 24 points",
+    "published": "2022-11-12T05:31:20Z",
+    "allowComments": true,
+    "lastModified": "2022-11-12T05:31:20Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "CHICAGO -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4279087/umoja-gibson\">Umoja Gibson</a> scored 24 points on 8-for-10 shooting and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105583/da'sean-nelson\">Da'Sean Nelson</a> went 6 for 7 off the bench for 15 points and DePaul beat Western Illinois 86-74 on Friday night.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4280280/javan-johnson\">Javan Johnson</a> contributed 14 points for the Blue Demons (2-0) and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4279628/eral-penn\">Eral Penn</a> 10. DePaul shot 58.9% (33 for 56) and made 11 of 13 from the foul line.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5108993/alec-rosner\">Alec Rosner</a> scored 16 points for the Leathernecks (2-1), <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703184/vuk-stevanic\">Vuk Stevanic</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5108994/jesiah-west\">Jesiah West</a> 13 apiece and Quinaln Bennett 12.\n\n\r\n              Nelson's dunk with 15:25 before halftime gave DePaul an 11-9 lead and the Blue Demons led for the rest of the game.\n\n\r\n              ------"
+  },
   "leaders": [
     {
       "team": {
@@ -23357,6 +23644,15 @@
                   "abbreviation": "TO",
                   "value": 1.0,
                   "displayValue": "1"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 24.0,
+                  "displayValue": "24"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -23564,6 +23860,15 @@
                   "abbreviation": "TO",
                   "value": 0.0,
                   "displayValue": "0"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 27.0,
+                  "displayValue": "27"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -23808,7 +24113,7 @@
       "grass": false,
       "images": []
     },
-    "attendance": 0
+    "attendance": 2977
   },
   "teamInfo": {
     "id": "401485131",
@@ -23823,7 +24128,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

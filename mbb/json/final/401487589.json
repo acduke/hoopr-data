@@ -21019,7 +21019,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -21316,6 +21316,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401487589",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401487589",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -21696,6 +21708,59 @@
               ]
             },
             {
+              "team": "Alcorn State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2016/alcorn-state-braves",
+              "id": "2016",
+              "uid": "s:40~l:41~t:2016",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-1",
+                  "displayValue": "1-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Arkansas-Pine Bluff",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
               "id": "2029",
@@ -21802,112 +21867,6 @@
               ]
             },
             {
-              "team": "Alcorn State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2016/alcorn-state-braves",
-              "id": "2016",
-              "uid": "s:40~l:41~t:2016",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Jackson State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
-              "id": "2296",
-              "uid": "s:40~l:41~t:2296",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Alabama State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2011/alabama-state-hornets",
               "id": "2011",
@@ -22002,6 +21961,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Jackson State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
+              "id": "2296",
+              "uid": "s:40~l:41~t:2296",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-2",
+                  "displayValue": "0-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22234,59 +22246,6 @@
         "standings": {
           "entries": [
             {
-              "team": "UC Davis",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
-              "id": "302",
-              "uid": "s:40~l:41~t:302",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-19T17:34Z"
-                }
-              ]
-            },
-            {
               "team": "UC Irvine",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/300/uc-irvine-anteaters",
               "id": "300",
@@ -22393,59 +22352,6 @@
               ]
             },
             {
-              "team": "Cal State Northridge",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2463/cal-state-northridge-matadors",
-              "id": "2463",
-              "uid": "s:40~l:41~t:2463",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-22T22:28Z"
-                }
-              ]
-            },
-            {
               "team": "Hawai'i",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/62/hawaii-rainbow-warriors",
               "id": "62",
@@ -22495,6 +22401,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UC Davis",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
+              "id": "302",
+              "uid": "s:40~l:41~t:302",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-1",
+                  "displayValue": "2-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-19T17:34Z"
                 }
               ]
             },
@@ -22658,6 +22617,59 @@
               ]
             },
             {
+              "team": "Cal State Northridge",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2463/cal-state-northridge-matadors",
+              "id": "2463",
+              "uid": "s:40~l:41~t:2463",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-1",
+                  "displayValue": "1-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-22T22:28Z"
+                }
+              ]
+            },
+            {
               "team": "Long Beach State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/299/long-beach-state-beach",
               "id": "299",
@@ -22777,8 +22789,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "0-1",
-                  "displayValue": "0-1"
+                  "summary": "0-2",
+                  "displayValue": "0-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -22823,7 +22835,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Noel Coleman totaled 22 points, Samuta Avea scored 20 and Hawaii pulled away in the second half to beat Mississippi Valley State 72-54 in the Rainbow Warriors' season opener on Friday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35007450",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35007450"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401487589"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401487589",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35007450"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401487589&version=mobile"
+      }
+    },
+    "id": 35007450,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3425,
+        "description": "Hawai'i Rainbow Warriors",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 62,
+        "team": {
+          "id": 62,
+          "description": "Hawai'i Rainbow Warriors",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/62"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/62/hawai'i-rainbow-warriors"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=62"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:62"
+      },
+      {
+        "id": 3400,
+        "description": "Mississippi Valley State Delta Devils",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2400,
+        "team": {
+          "id": 2400,
+          "description": "Mississippi Valley State Delta Devils",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2400"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2400/mississippi-valley-state-delta-devils"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2400"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2400"
+      }
+    ],
+    "headline": "Coleman, Avea help Hawaii open with 72-54 victory over MVSU",
+    "gameId": "401487589",
+    "images": [],
+    "linkText": "Coleman, Avea help Hawaii open with 72-54 victory over MVSU",
+    "published": "2022-11-12T07:17:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-12T07:17:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "HONOLULU -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593795/noel-coleman\">Noel Coleman</a> totaled 22 points, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4278746/samuta-avea\">Samuta Avea</a> scored 20 and Hawaii pulled away in the second half to beat Mississippi Valley State 72-54 in the Rainbow Warriors' season opener on Friday night.\n\n\r\n              Coleman and Avea both scored 11 in the second half to help Hawaii turn a 30-28 lead at intermission into a rout.\n\n\r\n              Coleman sank 5 of 10 shots from 3-point range for Hawaii and Avea made 2 of 4, but the rest of their teammates were 2 for 20. Bernardo Da Silva pitched in with 10 points and 11 rebounds.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4705894/terry-collins\">Terry Collins</a> topped Mississippi Valley State (0-2) with 15 points and six rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398165/michael-barber\">Michael Barber</a> scored 13.\n\n\r\n              Hawaii shot just 39.4% overall and 26.5% from 3-point range (9 of 34) but the Rainbow Warriors got off 17 more shots. The Delta Devils shot 42.9% from the floor, including 41.7% from distance (5 of 12).\n\n\r\n              ----"
+  },
   "leaders": [
     {
       "team": {
@@ -23345,10 +23518,10 @@
         "underdog": true,
         "moneyLine": 1446,
         "spreadRecord": {
-          "wins": 0,
+          "wins": 1,
           "losses": 1,
           "pushes": 0,
-          "summary": "0-1-0"
+          "summary": "1-1-0"
         },
         "spreadOdds": -108.0,
         "teamId": "2400"
@@ -23360,9 +23533,9 @@
         "moneyLine": -3104,
         "spreadRecord": {
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "pushes": 0,
-          "summary": "0-0-0"
+          "summary": "0-1-0"
         },
         "spreadOdds": -108.0,
         "teamId": "62"
@@ -23499,7 +23672,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": true,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
