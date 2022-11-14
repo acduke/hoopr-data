@@ -22682,7 +22682,7 @@
         "trackingId": "dm_20221105_NBA_mason_plumlee_elevates_for_flush_vs_brooklyn_nets"
       },
       "cerebroId": "6366ffd0ca84b73aafa868b4",
-      "lastModified": "2022-11-06T00:37:16Z",
+      "lastModified": "2022-11-06T00:34:56Z",
       "originalPublishDate": "2022-11-06T00:28:55Z",
       "timeRestrictions": {
         "embargoDate": "2022-11-06T00:28:55Z",
@@ -22858,12 +22858,12 @@
           "source": {
             "href": "https://media.video-cdn.espn.com/motion/2022/1105/ss_20221105_202905972_2093348/ss_20221105_202905972_2093348.mp4"
           },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34958090",
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34958090&ex_cid=espnapi_internal",
           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34958090"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34958090&ex_cid=espnapi_internal"
           },
           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=34958090"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ace1af52-4672-4b77-9675-484481417ede/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=34958090&ex_cid=espnapi_internal"
           }
         }
       }
@@ -23451,10 +23451,10 @@
               ]
             },
             {
-              "team": "New York",
-              "link": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
-              "id": "18",
-              "uid": "s:40~l:46~t:18",
+              "team": "Philadelphia",
+              "link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+              "id": "20",
+              "uid": "s:40~l:46~t:20",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -23473,8 +23473,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "name": "streak",
@@ -23483,8 +23483,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -23495,6 +23495,89 @@
                   "type": "winpercent",
                   "value": 0.5,
                   "displayValue": ".500"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 7.0,
+                  "displayValue": "7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-10-11T14:16Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-10-11T14:17Z"
+                }
+              ]
+            },
+            {
+              "team": "New York",
+              "link": "https://www.espn.com/nba/team/_/name/ny/new-york-knicks",
+              "id": "18",
+              "uid": "s:40~l:46~t:18",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 7.0,
+                  "displayValue": "7"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -1.0,
+                  "displayValue": "L1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.46153846,
+                  "displayValue": ".462"
                 },
                 {
                   "name": "wins",
@@ -23534,89 +23617,6 @@
               ]
             },
             {
-              "team": "Philadelphia",
-              "link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
-              "id": "20",
-              "uid": "s:40~l:46~t:20",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 7.0,
-                  "displayValue": "7"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.46153846,
-                  "displayValue": ".462"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 6.0,
-                  "displayValue": "6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-10-11T14:16Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-10-11T14:17Z"
-                }
-              ]
-            },
-            {
               "team": "Brooklyn",
               "link": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
               "id": "17",
@@ -23629,8 +23629,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "name": "losses",
@@ -23639,8 +23639,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 7.0,
-                  "displayValue": "7"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "name": "streak",
@@ -23649,8 +23649,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -23659,8 +23659,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.46153846,
-                  "displayValue": ".462"
+                  "value": 0.42857143,
+                  "displayValue": ".429"
                 },
                 {
                   "name": "wins",
@@ -23803,8 +23803,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "name": "losses",
@@ -23823,8 +23823,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 3.0,
-                  "displayValue": "W3"
+                  "value": 4.0,
+                  "displayValue": "W4"
                 },
                 {
                   "name": "winPercent",
@@ -23833,8 +23833,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.53846157,
-                  "displayValue": ".538"
+                  "value": 0.5714286,
+                  "displayValue": ".571"
                 },
                 {
                   "name": "wins",
@@ -23843,8 +23843,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 7.0,
-                  "displayValue": "7"
+                  "value": 8.0,
+                  "displayValue": "8"
                 }
               ],
               "logo": [
