@@ -3527,6 +3527,7 @@
                 "athlete": {
                   "id": "4433246",
                   "uid": "s:40~l:46~a:4433246",
+                  "guid": "3464f26e-f9ed-345c-8959-eb35e3a02f69",
                   "displayName": "Patrick Baldwin Jr.",
                   "shortName": "P. Baldwin Jr.",
                   "links": [
@@ -4382,20 +4383,20 @@
           "uid": "s:40~l:46~e:401468352~c:401468352",
           "date": "2022-11-14T02:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "post",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Sun, November 13th at 9:00 PM EST",
-            "shortDetail": "11/13 - 9:00 PM EST"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "23",
                 "uid": "s:40~l:46~t:23",
@@ -4413,10 +4414,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
               },
-              "score": "0"
+              "score": "122"
             },
             {
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "9",
                 "uid": "s:40~l:46~t:9",
@@ -4434,7 +4436,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
               },
-              "score": "0"
+              "score": "115"
             }
           ],
           "links": [
