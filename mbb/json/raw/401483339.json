@@ -16582,7 +16582,7 @@
           "trackingId": "dm_221115_dm_221114_NCB_Illinois_HL"
         },
         "cerebroId": "63732448ca84b73aafc2f845",
-        "lastModified": "2022-11-15T05:32:21Z",
+        "lastModified": "2022-11-15T18:54:34Z",
         "originalPublishDate": "2022-11-15T05:27:56Z",
         "timeRestrictions": {
           "embargoDate": "2022-11-15T05:27:56Z",
@@ -16795,6 +16795,13 @@
             },
             "source": {
               "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_dm_221114_NCB_Illinois_HL/dm_221115_dm_221114_NCB_Illinois_HL.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35030066",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35030066"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35030066"
             }
           }
         },
@@ -16980,7 +16987,7 @@
         "trackingName": "COM_NCB Highlight (Terrence Shannon Jr.  scores 30 as No. 19 Illinois routs Monmouth) 2022/11/15 ESHEET SOTFULL",
         "trackingId": "dm_221115_dm_221114_NCB_Illinois_HL"
       },
-      "lastModified": "2022-11-15T05:32:21Z",
+      "lastModified": "2022-11-15T18:54:34Z",
       "originalPublishDate": "2022-11-15T05:27:56Z",
       "timeRestrictions": {
         "embargoDate": "2022-11-15T05:27:56Z",
@@ -17046,12 +17053,12 @@
           "source": {
             "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_dm_221114_NCB_Illinois_HL/dm_221115_dm_221114_NCB_Illinois_HL.mp4"
           },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=35030066&ex_cid=espnapi_internal",
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35030066",
           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=35030066&ex_cid=espnapi_internal"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35030066"
           },
           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=35030066&ex_cid=espnapi_internal"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/95a79714-7815-4e54-8308-c0f0bbdd9264/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35030066"
           }
         }
       }
@@ -17173,59 +17180,6 @@
               ]
             },
             {
-              "team": "Drexel",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2182/drexel-dragons",
-              "id": "2182",
-              "uid": "s:40~l:41~t:2182",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Charleston",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/232/charleston-cougars",
               "id": "232",
@@ -17332,6 +17286,59 @@
               ]
             },
             {
+              "team": "Drexel",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2182/drexel-dragons",
+              "id": "2182",
+              "uid": "s:40~l:41~t:2182",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-1",
+                  "displayValue": "1-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Hampton",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2261/hampton-pirates",
               "id": "2261",
@@ -17373,112 +17380,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Stony Brook",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2619/stony-brook-seawolves",
-              "id": "2619",
-              "uid": "s:40~l:41~t:2619",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "UNC Wilmington",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
-              "id": "350",
-              "uid": "s:40~l:41~t:350",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17585,6 +17486,112 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Stony Brook",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2619/stony-brook-seawolves",
+              "id": "2619",
+              "uid": "s:40~l:41~t:2619",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-2",
+                  "displayValue": "1-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UNC Wilmington",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/350/unc-wilmington-seahawks",
+              "id": "350",
+              "uid": "s:40~l:41~t:350",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-2",
+                  "displayValue": "1-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17817,6 +17824,112 @@
               ]
             },
             {
+              "team": "Maryland",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/120/maryland-terrapins",
+              "id": "120",
+              "uid": "s:40~l:41~t:120",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Northwestern",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/77/northwestern-wildcats",
+              "id": "77",
+              "uid": "s:40~l:41~t:77",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-07-16T05:37Z"
+                }
+              ]
+            },
+            {
               "team": "Penn State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/213/penn-state-nittany-lions",
               "id": "213",
@@ -18029,59 +18142,6 @@
               ]
             },
             {
-              "team": "Maryland",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/120/maryland-terrapins",
-              "id": "120",
-              "uid": "s:40~l:41~t:120",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Michigan",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/130/michigan-wolverines",
               "id": "130",
@@ -18184,59 +18244,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Northwestern",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/77/northwestern-wildcats",
-              "id": "77",
-              "uid": "s:40~l:41~t:77",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-07-16T05:37Z"
                 }
               ]
             },
@@ -18400,6 +18407,59 @@
               ]
             },
             {
+              "team": "Michigan State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
+              "id": "127",
+              "uid": "s:40~l:41~t:127",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-1",
+                  "displayValue": "2-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Minnesota",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/135/minnesota-golden-gophers",
               "id": "135",
@@ -18449,59 +18509,6 @@
                     "default"
                   ],
                   "lastUpdated": "2021-06-10T20:19Z"
-                }
-              ]
-            },
-            {
-              "team": "Michigan State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
-              "id": "127",
-              "uid": "s:40~l:41~t:127",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }
