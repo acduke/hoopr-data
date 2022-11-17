@@ -3726,10 +3726,10 @@
         "underdog": false,
         "moneyLine": -124,
         "spreadRecord": {
-          "wins": 1,
+          "wins": 2,
           "losses": 1,
           "pushes": 0,
-          "summary": "1-1-0"
+          "summary": "2-1-0"
         },
         "spreadOdds": -112.0,
         "teamId": "77"
@@ -3741,9 +3741,9 @@
         "moneyLine": 106,
         "spreadRecord": {
           "wins": 1,
-          "losses": 1,
+          "losses": 2,
           "pushes": 0,
-          "summary": "1-1-0"
+          "summary": "1-2-0"
         },
         "spreadOdds": -108.0,
         "teamId": "46"
@@ -5726,6 +5726,18 @@
         "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401479697",
         "text": "Team Stats",
         "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/video?gameId=401479697",
+        "text": "Videos",
+        "shortText": "Videos",
         "isExternal": false,
         "isPremium": false
       }
@@ -16099,7 +16111,223 @@
     "keywords": [],
     "description": "\u2014 Chase Audige scored 13 of his 17 points in the second half, Boo Buie had all 12 of his points after halftime and Northwestern beat Georgetown 75-63 on Tuesday night in the first meeting between the schools.",
     "source": "AP",
-    "video": [],
+    "video": [
+      {
+        "source": "espn",
+        "id": 35036252,
+        "headline": "Count the mistakes on this sequence between Northwestern and Georgetown",
+        "caption": "Northwestern and Georgetown come together to provide a hilarious sequence of basketball in the first half.",
+        "description": "Northwestern and Georgetown come together to provide a hilarious sequence of basketball in the first half.",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncbgamehighlights"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Count the mistakes on this sequence between Northwestern and Georgetown) 2022/11/15 ESHEET",
+          "trackingId": "dm_221115_Georgetown_stinks_final"
+        },
+        "cerebroId": "63744971ca84b751bd8ca0cb",
+        "lastModified": "2022-11-16T13:49:33Z",
+        "originalPublishDate": "2022-11-16T02:21:36Z",
+        "timeRestrictions": {
+          "embargoDate": "2022-11-16T02:21:36Z",
+          "expirationDate": "2023-05-01T01:21:36Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 31,
+        "categories": [
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 3204,
+            "description": "Northwestern Wildcats",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 77,
+            "team": {
+              "id": 77,
+              "description": "Northwestern Wildcats",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/77"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/77/northwestern-wildcats"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=77"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:77"
+          },
+          {
+            "id": 3180,
+            "description": "Georgetown Hoyas",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 46,
+            "team": {
+              "id": 46,
+              "description": "Georgetown Hoyas",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/46"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/46/georgetown-hoyas"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=46"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:46"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35036252"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/e890d015-a64f-4032-977e-3389d7b70d1f"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35036252",
+            "short": {
+              "href": "https://es.pn/3UEaENd"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35036252"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.smil/master.m3u8",
+              "HD": {
+                "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.smil/master.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35036252"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e890d015-a64f-4032-977e-3389d7b70d1f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35036252",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e890d015-a64f-4032-977e-3389d7b70d1f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35036252"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e890d015-a64f-4032-977e-3389d7b70d1f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35036252"
+            }
+          }
+        },
+        "title": "Count the mistakes on this sequence between Northwestern and Georgetown"
+      }
+    ],
     "type": "Recap",
     "nowId": "1-35036180",
     "premium": false,
@@ -16219,7 +16447,16 @@
     ],
     "headline": "Northwestern uses big 2nd half to beat Georgetown 75-63",
     "gameId": "401479697",
-    "images": [],
+    "images": [
+      {
+        "name": "Count the mistakes on this sequence between Northwestern and Georgetown",
+        "width": 576,
+        "alt": "",
+        "caption": "Northwestern and Georgetown come together to provide a hilarious sequence of basketball in the first half.",
+        "url": "https://a.espncdn.com/media/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.jpg",
+        "height": 324
+      }
+    ],
     "linkText": "Northwestern uses big 2nd half to beat Georgetown 75-63",
     "published": "2022-11-16T02:07:19Z",
     "allowComments": true,
@@ -16257,7 +16494,96 @@
     "inlines": [],
     "story": "WASHINGTON -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397602/chase-audige\">Chase Audige</a> scored 13 of his 17 points in the second half, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592712/boo-buie\">Boo Buie</a> had all 12 of his points after halftime and Northwestern beat Georgetown 75-63 on Tuesday night in the first meeting between the schools.\n\n\r\n              <a href=\"https://twitter.com/CBBonFOX/status/1592688714156679168\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431737/robbie-beran\">Robbie Beran</a> made a wide open 3-pointer from the corner</a>, off a nice pass from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683949/julian-roper-ii\">Julian Roper II</a>, to extend Northwestern's lead to 70-57 with 3:37 left. The Wildcats were 8 of 15 from 3-point range in the second half with three makes from Audige and two from Buie.\n\n\r\n              Beran finished with 11 points and seven rebounds for Northwestern (3-0). The Wildcats were 14 of 33 from distance and shot 40.3% overall.\n\n\r\n              Northwestern only trailed 35-33 at halftime despite shooting just 28.6% from the field. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702289/matthew-nicholson\">Matthew Nicholson</a> had nine points and nine rebounds for the Wildcats and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431706/akok-akok\">Akok Akok</a> scored 10 points for the Hoyas. Northwestern outscored Georgetown 27-18 over the opening 12 minutes of the second half.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897090/primo-spears\">Primo Spears</a> led Georgetown (2-1) with 20 points and six assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592181/jay-heath\">Jay Heath</a> scored 13 points and Akok had 10 points, seven rebounds and three blocks. The Hoyas lost the rebounding battle 47-31.\n\n\r\n              Both teams play again on Friday. Northwestern plays Purdue Fort Wayne, while Georgetown faces Loyola Marymount.\n\n\r\n              ------"
   },
-  "videos": [],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 35036252,
+      "headline": "Count the mistakes on this sequence between Northwestern and Georgetown",
+      "description": "Northwestern and Georgetown come together to provide a hilarious sequence of basketball in the first half.",
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "NCB_One-Play (Count the mistakes on this sequence between Northwestern and Georgetown) 2022/11/15 ESHEET",
+        "trackingId": "dm_221115_Georgetown_stinks_final"
+      },
+      "lastModified": "2022-11-16T13:49:33Z",
+      "originalPublishDate": "2022-11-16T02:21:36Z",
+      "timeRestrictions": {
+        "embargoDate": "2022-11-16T02:21:36Z",
+        "expirationDate": "2023-05-01T01:21:36Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 31,
+      "thumbnail": "https://a.espncdn.com/media/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35036252"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/e890d015-a64f-4032-977e-3389d7b70d1f"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35036252&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35036252"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35036252&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final/playlist.m3u8",
+            "HD": {
+              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35036252&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1115/dm_221115_Georgetown_stinks_final/dm_221115_Georgetown_stinks_final.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e890d015-a64f-4032-977e-3389d7b70d1f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35036252",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e890d015-a64f-4032-977e-3389d7b70d1f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35036252"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e890d015-a64f-4032-977e-3389d7b70d1f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35036252"
+          }
+        }
+      }
+    }
+  ],
   "standings": {
     "fullViewLink": {
       "text": "Full Standings",
@@ -16309,6 +16635,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Iowa",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2294/iowa-hawkeyes",
+              "id": "2294",
+              "uid": "s:40~l:41~t:2294",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16374,6 +16753,59 @@
               ]
             },
             {
+              "team": "Michigan",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/130/michigan-wolverines",
+              "id": "130",
+              "uid": "s:40~l:41~t:130",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Northwestern",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/77/northwestern-wildcats",
               "id": "77",
@@ -16423,6 +16855,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-07-16T05:37Z"
+                }
+              ]
+            },
+            {
+              "team": "Ohio State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/194/ohio-state-buckeyes",
+              "id": "194",
+              "uid": "s:40~l:41~t:194",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-05-27T15:35Z"
                 }
               ]
             },
@@ -16480,6 +16965,59 @@
               ]
             },
             {
+              "team": "Purdue",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2509/purdue-boilermakers",
+              "id": "2509",
+              "uid": "s:40~l:41~t:2509",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-07T20:54Z"
+                }
+              ]
+            },
+            {
               "team": "Rutgers",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/164/rutgers-scarlet-knights",
               "id": "164",
@@ -16533,6 +17071,59 @@
               ]
             },
             {
+              "team": "Wisconsin",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/275/wisconsin-badgers",
+              "id": "275",
+              "uid": "s:40~l:41~t:275",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-02T17:08Z"
+                }
+              ]
+            },
+            {
               "team": "Indiana",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/84/indiana-hoosiers",
               "id": "84",
@@ -16574,112 +17165,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Iowa",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2294/iowa-hawkeyes",
-              "id": "2294",
-              "uid": "s:40~l:41~t:2294",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Michigan",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/130/michigan-wolverines",
-              "id": "130",
-              "uid": "s:40~l:41~t:130",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16745,10 +17230,10 @@
               ]
             },
             {
-              "team": "Ohio State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/194/ohio-state-buckeyes",
-              "id": "194",
-              "uid": "s:40~l:41~t:194",
+              "team": "Michigan State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
+              "id": "127",
+              "uid": "s:40~l:41~t:127",
               "stats": [
                 {
                   "id": "0",
@@ -16758,8 +17243,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
+                  "summary": "2-1",
+                  "displayValue": "2-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -16785,7 +17270,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16793,113 +17278,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2020-05-27T15:35Z"
-                }
-              ]
-            },
-            {
-              "team": "Purdue",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2509/purdue-boilermakers",
-              "id": "2509",
-              "uid": "s:40~l:41~t:2509",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-07T20:54Z"
-                }
-              ]
-            },
-            {
-              "team": "Wisconsin",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/275/wisconsin-badgers",
-              "id": "275",
-              "uid": "s:40~l:41~t:275",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-02T17:08Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16953,59 +17332,6 @@
                     "default"
                   ],
                   "lastUpdated": "2021-06-10T20:19Z"
-                }
-              ]
-            },
-            {
-              "team": "Michigan State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
-              "id": "127",
-              "uid": "s:40~l:41~t:127",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }
@@ -17336,59 +17662,6 @@
               ]
             },
             {
-              "team": "Seton Hall",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2550/seton-hall-pirates",
-              "id": "2550",
-              "uid": "s:40~l:41~t:2550",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Georgetown",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/46/georgetown-hoyas",
               "id": "46",
@@ -17483,6 +17756,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Seton Hall",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2550/seton-hall-pirates",
+              "id": "2550",
+              "uid": "s:40~l:41~t:2550",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-1",
+                  "displayValue": "2-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",

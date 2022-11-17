@@ -3021,9 +3021,9 @@
                     }
                   ],
                   "position": {
-                    "name": "Athlete",
-                    "displayName": "Athlete",
-                    "abbreviation": "ATH"
+                    "name": "Forward",
+                    "displayName": "Forward",
+                    "abbreviation": "F"
                   }
                 },
                 "starter": false,
@@ -4200,9 +4200,9 @@
         "moneyLine": -1239,
         "spreadRecord": {
           "wins": 1,
-          "losses": 0,
+          "losses": 1,
           "pushes": 0,
-          "summary": "1-0-0"
+          "summary": "1-1-0"
         },
         "spreadOdds": -110.0,
         "teamId": "23"
@@ -5842,7 +5842,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6031,6 +6031,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401491902",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401491902",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15761,7 +15773,168 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Omari Moore scored 19 points as San Jose State beat Alabama State 70-57 on Tuesday.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35037767",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35037767"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401491902"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401491902",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35037767"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401491902&version=mobile"
+      }
+    },
+    "id": 35037767,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3424,
+        "description": "San Jos\u00e9 State Spartans",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 23,
+        "team": {
+          "id": 23,
+          "description": "San Jos\u00e9 State Spartans",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/23"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/23/san-jos\u00e9-state-spartans"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=23"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:23"
+      },
+      {
+        "id": 3396,
+        "description": "Alabama State Hornets",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2011,
+        "team": {
+          "id": 2011,
+          "description": "Alabama State Hornets",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2011"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2011/alabama-state-hornets"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2011"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2011"
+      }
+    ],
+    "headline": "Moore scores 19 as San Jose State tops Alabama State 70-57",
+    "gameId": "401491902",
+    "images": [],
+    "linkText": "Moore scores 19 as San Jose State tops Alabama State 70-57",
+    "published": "2022-11-16T06:41:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-16T06:41:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "SAN JOSE, Calf. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593095/omari-moore\">Omari Moore</a> scored 19 points as San Jose State beat Alabama State 70-57 on Tuesday.\n\n\r\n              Moore added five rebounds for the Spartans (3-0). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897535/alvaro-cardenas\">Alvaro Cardenas</a> Torre hit three 3-pointers and scored 17.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4705379/isaiah-range\">Isaiah Range</a> led the way for the Hornets (0-4) with 18 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897173/alex-anderson\">Alex Anderson</a> added 10 points, while Antonio Madlock scored nine.\n\n\r\n              San Jose State carried a slim three-point lead into halftime, as Moore led the way with 13 points. \n\n\r\n              NEXT UP\n\n\r\n              Up next for San Jose State is a matchup Thursday with Hofstra at home. Alabama State visits Pittsburgh on Sunday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -15945,8 +16118,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "1-2",
-                  "displayValue": "1-2"
+                  "summary": "2-2",
+                  "displayValue": "2-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -15998,8 +16171,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "1-3",
-                  "displayValue": "1-3"
+                  "summary": "1-4",
+                  "displayValue": "1-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -16051,8 +16224,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "1-3",
-                  "displayValue": "1-3"
+                  "summary": "1-4",
+                  "displayValue": "1-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -16210,8 +16383,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "0-2",
-                  "displayValue": "0-2"
+                  "summary": "0-3",
+                  "displayValue": "0-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -16682,6 +16855,59 @@
               ]
             },
             {
+              "team": "UNLV",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2439/unlv-rebels",
+              "id": "2439",
+              "uid": "s:40~l:41~t:2439",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Utah State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/328/utah-state-aggies",
               "id": "328",
@@ -16723,59 +16949,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "UNLV",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2439/unlv-rebels",
-              "id": "2439",
-              "uid": "s:40~l:41~t:2439",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16894,59 +17067,6 @@
               ]
             },
             {
-              "team": "Fresno State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/278/fresno-state-bulldogs",
-              "id": "278",
-              "uid": "s:40~l:41~t:278",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Air Force",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2005/air-force-falcons",
               "id": "2005",
@@ -16996,6 +17116,59 @@
                     "default"
                   ],
                   "lastUpdated": "2019-07-31T20:01Z"
+                }
+              ]
+            },
+            {
+              "team": "Fresno State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/278/fresno-state-bulldogs",
+              "id": "278",
+              "uid": "s:40~l:41~t:278",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-2",
+                  "displayValue": "1-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }
