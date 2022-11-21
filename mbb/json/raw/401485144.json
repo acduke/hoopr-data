@@ -448,7 +448,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "28",
                   "5-6",
                   "3-4",
                   "2-2",
@@ -551,7 +551,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "18",
                   "5-6",
                   "0-0",
                   "0-0",
@@ -654,7 +654,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "27",
                   "4-8",
                   "4-7",
                   "0-0",
@@ -757,7 +757,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "19",
                   "2-9",
                   "0-5",
                   "3-4",
@@ -860,7 +860,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "35",
                   "4-11",
                   "0-4",
                   "2-4",
@@ -963,7 +963,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "20",
                   "4-6",
                   "0-0",
                   "1-1",
@@ -1066,7 +1066,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "19",
                   "3-8",
                   "2-5",
                   "0-0",
@@ -1169,7 +1169,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "27",
                   "3-11",
                   "3-10",
                   "0-0",
@@ -1272,7 +1272,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "7",
                   "2-2",
                   "0-0",
                   "0-0",
@@ -2001,7 +2001,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "32",
                   "1-6",
                   "0-4",
                   "0-0",
@@ -2104,7 +2104,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "23",
                   "2-2",
                   "0-0",
                   "8-8",
@@ -2207,7 +2207,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "36",
                   "4-17",
                   "0-2",
                   "2-2",
@@ -2310,7 +2310,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "39",
                   "7-18",
                   "3-8",
                   "2-2",
@@ -2413,7 +2413,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "31",
                   "5-10",
                   "0-2",
                   "5-6",
@@ -2516,7 +2516,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "2",
                   "0-0",
                   "0-0",
                   "0-0",
@@ -2619,7 +2619,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "15",
                   "0-2",
                   "0-0",
                   "0-0",
@@ -2722,7 +2722,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "3",
                   "2-2",
                   "0-0",
                   "0-0",
@@ -2825,7 +2825,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "12",
                   "1-1",
                   "0-0",
                   "2-2",
@@ -2928,7 +2928,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "7",
                   "0-0",
                   "0-0",
                   "0-0",
@@ -3343,7 +3343,39 @@
       "grass": false,
       "images": []
     },
-    "attendance": 0
+    "attendance": 0,
+    "officials": [
+      {
+        "fullName": "Tony Chiazza",
+        "displayName": "Tony Chiazza",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Jemel Spearman",
+        "displayName": "Jemel Spearman",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Michael Palau",
+        "displayName": "Michael Palau",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "leaders": [
     {
@@ -3483,6 +3515,15 @@
                   "abbreviation": "TO",
                   "value": 1.0,
                   "displayValue": "1"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 36.0,
+                  "displayValue": "36"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -3702,6 +3743,15 @@
                   "abbreviation": "TO",
                   "value": 1.0,
                   "displayValue": "1"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 35.0,
+                  "displayValue": "35"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -5567,7 +5617,7 @@
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
         "recent": false,
-        "boxscoreSource": "basic",
+        "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
           {
@@ -16236,6 +16286,59 @@
               ]
             },
             {
+              "team": "Gonzaga",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
+              "id": "2250",
+              "uid": "s:40~l:41~t:2250",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-1",
+                  "displayValue": "3-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "San Diego",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros",
               "id": "301",
@@ -16289,10 +16392,10 @@
               ]
             },
             {
-              "team": "Santa Clara",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2541/santa-clara-broncos",
-              "id": "2541",
-              "uid": "s:40~l:41~t:2541",
+              "team": "Loyola Marymount",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2351/loyola-marymount-lions",
+              "id": "2351",
+              "uid": "s:40~l:41~t:2351",
               "stats": [
                 {
                   "id": "0",
@@ -16302,8 +16405,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
+                  "summary": "4-2",
+                  "displayValue": "4-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -16329,7 +16432,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16337,7 +16440,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2021-08-24T17:51Z"
+                  "lastUpdated": "2019-06-03T16:39Z"
                 }
               ]
             },
@@ -16395,63 +16498,10 @@
               ]
             },
             {
-              "team": "Gonzaga",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
-              "id": "2250",
-              "uid": "s:40~l:41~t:2250",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Loyola Marymount",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2351/loyola-marymount-lions",
-              "id": "2351",
-              "uid": "s:40~l:41~t:2351",
+              "team": "Santa Clara",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2541/santa-clara-broncos",
+              "id": "2541",
+              "uid": "s:40~l:41~t:2541",
               "stats": [
                 {
                   "id": "0",
@@ -16488,7 +16538,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16496,7 +16546,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2019-06-03T16:39Z"
+                  "lastUpdated": "2021-08-24T17:51Z"
                 }
               ]
             },
@@ -16561,6 +16611,59 @@
       {
         "standings": {
           "entries": [
+            {
+              "team": "UConn",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/41/uconn-huskies",
+              "id": "41",
+              "uid": "s:40~l:41~t:41",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "5-0",
+                  "displayValue": "5-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
             {
               "team": "Creighton",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/156/creighton-bluejays",
@@ -16668,59 +16771,6 @@
               ]
             },
             {
-              "team": "UConn",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/41/uconn-huskies",
-              "id": "41",
-              "uid": "s:40~l:41~t:41",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "4-0",
-                  "displayValue": "4-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Butler",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2086/butler-bulldogs",
               "id": "2086",
@@ -16762,59 +16812,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "DePaul",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/305/depaul-blue-demons",
-              "id": "305",
-              "uid": "s:40~l:41~t:305",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16880,10 +16877,10 @@
               ]
             },
             {
-              "team": "Providence",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2507/providence-friars",
-              "id": "2507",
-              "uid": "s:40~l:41~t:2507",
+              "team": "Seton Hall",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2550/seton-hall-pirates",
+              "id": "2550",
+              "uid": "s:40~l:41~t:2550",
               "stats": [
                 {
                   "id": "0",
@@ -16920,7 +16917,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16986,10 +16983,10 @@
               ]
             },
             {
-              "team": "Seton Hall",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2550/seton-hall-pirates",
-              "id": "2550",
-              "uid": "s:40~l:41~t:2550",
+              "team": "DePaul",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/305/depaul-blue-demons",
+              "id": "305",
+              "uid": "s:40~l:41~t:305",
               "stats": [
                 {
                   "id": "0",
@@ -16999,8 +16996,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
+                  "summary": "3-2",
+                  "displayValue": "3-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -17026,7 +17023,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17052,8 +17049,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-2",
-                  "displayValue": "2-2"
+                  "summary": "3-2",
+                  "displayValue": "3-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -17080,6 +17077,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Providence",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2507/providence-friars",
+              "id": "2507",
+              "uid": "s:40~l:41~t:2507",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-2",
+                  "displayValue": "3-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
