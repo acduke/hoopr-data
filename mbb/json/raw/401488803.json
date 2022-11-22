@@ -4399,10 +4399,10 @@
         "underdog": true,
         "moneyLine": 118,
         "spreadRecord": {
-          "wins": 1,
+          "wins": 2,
           "losses": 2,
           "pushes": 0,
-          "summary": "1-2-0"
+          "summary": "2-2-0"
         },
         "spreadOdds": -110.0,
         "teamId": "116"
@@ -6071,7 +6071,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6276,6 +6276,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401488803",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401488803",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -16209,7 +16221,168 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Jalen Benjamin scored 18 points as Mount St. Mary\u2019s beat Cal Poly 73-68 Sunday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35073049",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35073049"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401488803"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401488803",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35073049"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401488803&version=mobile"
+      }
+    },
+    "id": 35073049,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3227,
+        "description": "Cal Poly Mustangs",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 13,
+        "team": {
+          "id": 13,
+          "description": "Cal Poly Mustangs",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/13"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=13"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:13"
+      },
+      {
+        "id": 23056,
+        "description": "Mount St. Mary's Mountaineers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 116,
+        "team": {
+          "id": 116,
+          "description": "Mount St. Mary's Mountaineers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/116"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/116/mount-st.-mary's-mountaineers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=116"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:116"
+      }
+    ],
+    "headline": "Mount St. Mary's wins 73-68 against Cal Poly",
+    "gameId": "401488803",
+    "images": [],
+    "linkText": "Mount St. Mary's wins 73-68 against Cal Poly",
+    "published": "2022-11-21T06:17:27Z",
+    "allowComments": true,
+    "lastModified": "2022-11-21T06:17:28Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "SAN LUIS OBISPO, Calif. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431903/jalen-benjamin\">Jalen Benjamin</a> scored 18 points as Mount St. Mary\u2019s beat Cal Poly 73-68 Sunday night.\n\n\r\n              Benjamin also contributed six assists for the Mountaineers (2-3). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703167/dakota-leffew\">Dakota Leffew</a> scored 16 points while shooting 5 for 9 (3 for 7 from 3-point range) and 3 of 3 from the free throw line. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397980/malik-jefferson\">Malik Jefferson</a> shot 7 of 9 from the field to finish with 14 points, while adding eight rebounds.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592943/chance-hunter\">Chance Hunter</a> led the Mustangs (1-3) in scoring, finishing with 18 points and two steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397446/trevon-taylor\">Trevon Taylor</a> added 17 points and 10 rebounds for Cal Poly. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592922/alimamy-koroma\">Alimamy Koroma</a> also had 10 points.\n\n\r\n              NEXT UP\n\n\r\n              Up next for Mount St. Mary\u2019s is a matchup Tuesday with Pacific (CA) on the road. Cal Poly hosts Idaho on Wednesday.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -16812,6 +16985,59 @@
         "standings": {
           "entries": [
             {
+              "team": "UC Irvine",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/300/uc-irvine-anteaters",
+              "id": "300",
+              "uid": "s:40~l:41~t:300",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "4-1",
+                  "displayValue": "4-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/300.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Cal State Fullerton",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2239/cal-state-fullerton-titans",
               "id": "2239",
@@ -16971,10 +17197,10 @@
               ]
             },
             {
-              "team": "UC Irvine",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/300/uc-irvine-anteaters",
-              "id": "300",
-              "uid": "s:40~l:41~t:300",
+              "team": "UC Santa Barbara",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2540/uc-santa-barbara-gauchos",
+              "id": "2540",
+              "uid": "s:40~l:41~t:2540",
               "stats": [
                 {
                   "id": "0",
@@ -17011,7 +17237,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/300.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2540.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17077,10 +17303,10 @@
               ]
             },
             {
-              "team": "UC Santa Barbara",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2540/uc-santa-barbara-gauchos",
-              "id": "2540",
-              "uid": "s:40~l:41~t:2540",
+              "team": "UC Riverside",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/27/uc-riverside-highlanders",
+              "id": "27",
+              "uid": "s:40~l:41~t:27",
               "stats": [
                 {
                   "id": "0",
@@ -17090,8 +17316,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
+                  "summary": "3-2",
+                  "displayValue": "3-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -17117,7 +17343,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2540.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17125,7 +17351,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2020-08-25T14:37Z"
                 }
               ]
             },
@@ -17183,112 +17409,6 @@
               ]
             },
             {
-              "team": "UC Riverside",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/27/uc-riverside-highlanders",
-              "id": "27",
-              "uid": "s:40~l:41~t:27",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-2",
-                  "displayValue": "2-2"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-08-25T14:37Z"
-                }
-              ]
-            },
-            {
-              "team": "Cal State Northridge",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2463/cal-state-northridge-matadors",
-              "id": "2463",
-              "uid": "s:40~l:41~t:2463",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-2",
-                  "displayValue": "1-2"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-22T22:28Z"
-                }
-              ]
-            },
-            {
               "team": "Cal Poly",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
               "id": "13",
@@ -17338,6 +17458,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Cal State Northridge",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2463/cal-state-northridge-matadors",
+              "id": "2463",
+              "uid": "s:40~l:41~t:2463",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-3",
+                  "displayValue": "1-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-22T22:28Z"
                 }
               ]
             },

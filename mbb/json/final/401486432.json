@@ -21627,6 +21627,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401486432",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -21888,8 +21900,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
+                  "summary": "4-1",
+                  "displayValue": "4-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -21981,112 +21993,6 @@
               ]
             },
             {
-              "team": "Northern Kentucky",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/94/northern-kentucky-norse",
-              "id": "94",
-              "uid": "s:40~l:41~t:94",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Detroit Mercy",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2174/detroit-mercy-titans",
-              "id": "2174",
-              "uid": "s:40~l:41~t:2174",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-2",
-                  "displayValue": "2-2"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Milwaukee",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/270/milwaukee-panthers",
               "id": "270",
@@ -22136,6 +22042,59 @@
                     "default"
                   ],
                   "lastUpdated": "2019-12-17T15:38Z"
+                }
+              ]
+            },
+            {
+              "team": "Northern Kentucky",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/94/northern-kentucky-norse",
+              "id": "94",
+              "uid": "s:40~l:41~t:94",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-2",
+                  "displayValue": "2-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -22287,6 +22246,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/325.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Detroit Mercy",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2174/detroit-mercy-titans",
+              "id": "2174",
+              "uid": "s:40~l:41~t:2174",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-3",
+                  "displayValue": "2-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22572,112 +22584,6 @@
               ]
             },
             {
-              "team": "California Baptist",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2856/california-baptist-lancers",
-              "id": "2856",
-              "uid": "s:40~l:41~t:2856",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-11-16T16:51Z"
-                }
-              ]
-            },
-            {
-              "team": "Grand Canyon",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-lopes",
-              "id": "2253",
-              "uid": "s:40~l:41~t:2253",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-10-11T19:28Z"
-                }
-              ]
-            },
-            {
               "team": "Stephen F. Austin",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2617/stephen-f-austin-lumberjacks",
               "id": "2617",
@@ -22731,10 +22637,10 @@
               ]
             },
             {
-              "team": "Tarleton",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2627/tarleton-texans",
-              "id": "2627",
-              "uid": "s:40~l:41~t:2627",
+              "team": "California Baptist",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2856/california-baptist-lancers",
+              "id": "2856",
+              "uid": "s:40~l:41~t:2856",
               "stats": [
                 {
                   "id": "0",
@@ -22744,8 +22650,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
+                  "summary": "3-2",
+                  "displayValue": "3-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -22771,7 +22677,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22779,15 +22685,15 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2020-11-23T15:25Z"
+                  "lastUpdated": "2018-11-16T16:51Z"
                 }
               ]
             },
             {
-              "team": "Abilene Christian",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
-              "id": "2000",
-              "uid": "s:40~l:41~t:2000",
+              "team": "Grand Canyon",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-lopes",
+              "id": "2253",
+              "uid": "s:40~l:41~t:2253",
               "stats": [
                 {
                   "id": "0",
@@ -22797,8 +22703,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
+                  "summary": "3-2",
+                  "displayValue": "3-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -22824,7 +22730,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22832,7 +22738,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2021-10-11T19:28Z"
                 }
               ]
             },
@@ -22890,6 +22796,112 @@
               ]
             },
             {
+              "team": "Tarleton",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2627/tarleton-texans",
+              "id": "2627",
+              "uid": "s:40~l:41~t:2627",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-2",
+                  "displayValue": "3-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-11-23T15:25Z"
+                }
+              ]
+            },
+            {
+              "team": "UT Rio Grande Valley",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/292/ut-rio-grande-valley-vaqueros",
+              "id": "292",
+              "uid": "s:40~l:41~t:292",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-2",
+                  "displayValue": "3-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-10-15T14:03Z"
+                }
+              ]
+            },
+            {
               "team": "Utah Valley",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines",
               "id": "3084",
@@ -22943,10 +22955,10 @@
               ]
             },
             {
-              "team": "UT Arlington",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/250/ut-arlington-mavericks",
-              "id": "250",
-              "uid": "s:40~l:41~t:250",
+              "team": "Abilene Christian",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
+              "id": "2000",
+              "uid": "s:40~l:41~t:2000",
               "stats": [
                 {
                   "id": "0",
@@ -22983,7 +22995,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22991,60 +23003,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2020-08-04T16:32Z"
-                }
-              ]
-            },
-            {
-              "team": "UT Rio Grande Valley",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/292/ut-rio-grande-valley-vaqueros",
-              "id": "292",
-              "uid": "s:40~l:41~t:292",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-2",
-                  "displayValue": "2-2"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-10-15T14:03Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -23098,6 +23057,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UT Arlington",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/250/ut-arlington-mavericks",
+              "id": "250",
+              "uid": "s:40~l:41~t:250",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-3",
+                  "displayValue": "2-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-08-04T16:32Z"
                 }
               ]
             },
@@ -23161,7 +23173,168 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Justin Harmon\u2019s 18 points helped Utah Valley defeat Green Bay 79-56 Sunday in a consolation game at the Jamaica Classic.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35073105",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35073105"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401486432"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401486432",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35073105"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401486432&version=mobile"
+      }
+    },
+    "id": 35073105,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 22587,
+        "description": "Utah Valley Wolverines",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 3084,
+        "team": {
+          "id": 3084,
+          "description": "Utah Valley Wolverines",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/3084"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=3084"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:3084"
+      },
+      {
+        "id": 59890,
+        "description": "Green Bay Phoenix",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2739,
+        "team": {
+          "id": 2739,
+          "description": "Green Bay Phoenix",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2739"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2739/green-bay-phoenix"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2739"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2739"
+      }
+    ],
+    "headline": "Utah Valley defeats Green Bay 79-56",
+    "gameId": "401486432",
+    "images": [],
+    "linkText": "Utah Valley defeats Green Bay 79-56",
+    "published": "2022-11-21T07:00:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-21T07:00:19Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "MONTEGO BAY, Jamaica -- \u2014 Justin Harmon\u2019s 18 points helped Utah Valley defeat Green Bay 79-56 Sunday in a consolation game at the Jamaica Classic.\n\n\r\n              Harmon added three steals for the Wolverines (3-3). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397434/trey-woodbury\">Trey Woodbury</a> scored 16 points while going 6 of 11 (4 for 5 from distance), and added seven rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593929/tahj-small\">Tahj Small</a> shot 3 for 6 (2 for 4 from 3-point range) and 6 of 6 from the free throw line to finish with 14 points.\n\n\r\n              The Phoenix (0-5) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106749/clarence-cummings-iii\">Clarence Cummings III</a>, who posted 16 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897724/cade-meyer\">Cade Meyer</a> added nine points for Green Bay. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106750/zae-blake\">Zae Blake</a> had eight points and three steals.\n\n\r\n              NEXT UP\n\n\r\n              Both teams play again on Saturday. Utah Valley visits Boise State and Green Bay hosts UIC.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+  },
   "leaders": [
     {
       "team": {
