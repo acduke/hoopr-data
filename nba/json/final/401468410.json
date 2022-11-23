@@ -31209,7 +31209,7 @@
                     "full",
                     "dark"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2022-11-22T16:37Z"
                 },
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
@@ -31456,7 +31456,7 @@
                 "full",
                 "dark"
               ],
-              "lastUpdated": "2018-06-05T12:08Z"
+              "lastUpdated": "2022-11-22T16:37Z"
             },
             {
               "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
@@ -31511,6 +31511,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/recap?gameId=401468410",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -31554,18 +31566,6 @@
         "href": "https://www.espn.com/nba/video?gameId=401468410",
         "text": "Videos",
         "shortText": "Videos",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "recap",
-          "desktop",
-          "event"
-        ],
-        "href": "http://www.espn.com/nba/recap?gameId=401468410",
-        "text": "Recap",
-        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       }
@@ -33231,89 +33231,6 @@
               ]
             },
             {
-              "team": "Denver",
-              "link": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
-              "id": "7",
-              "uid": "s:40~l:46~t:7",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 6.0,
-                  "displayValue": "6"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.625,
-                  "displayValue": ".625"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 10.0,
-                  "displayValue": "10"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-10-04T15:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/den.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-10-04T15:13Z"
-                }
-              ]
-            },
-            {
               "team": "Portland",
               "link": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers",
               "id": "22",
@@ -33393,6 +33310,89 @@
                     "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Denver",
+              "link": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+              "id": "7",
+              "uid": "s:40~l:46~t:7",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 7.0,
+                  "displayValue": "7"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -1.0,
+                  "displayValue": "L1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.5882353,
+                  "displayValue": ".588"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 10.0,
+                  "displayValue": "10"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-10-04T15:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/den.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-10-04T15:13Z"
                 }
               ]
             },
@@ -33603,8 +33603,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -33613,8 +33613,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.625,
-                  "displayValue": ".625"
+                  "value": 0.64705884,
+                  "displayValue": ".647"
                 },
                 {
                   "name": "wins",
@@ -33623,8 +33623,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 11.0,
+                  "displayValue": "11"
                 }
               ],
               "logo": [
@@ -33654,6 +33654,89 @@
               ]
             },
             {
+              "team": "Sacramento",
+              "link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+              "id": "23",
+              "uid": "s:40~l:46~t:23",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 0.5,
+                  "displayValue": "0.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 6.0,
+                  "displayValue": "6"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": 7.0,
+                  "displayValue": "W7"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.625,
+                  "displayValue": ".625"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 10.0,
+                  "displayValue": "10"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "LA Clippers",
               "link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
               "id": "12",
@@ -33666,8 +33749,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "name": "losses",
@@ -33737,89 +33820,6 @@
               ]
             },
             {
-              "team": "Sacramento",
-              "link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
-              "id": "23",
-              "uid": "s:40~l:46~t:23",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 6.0,
-                  "displayValue": "6"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 6.0,
-                  "displayValue": "W6"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.6,
-                  "displayValue": ".600"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 9.0,
-                  "displayValue": "9"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Golden State",
               "link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
               "id": "9",
@@ -33832,8 +33832,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "name": "losses",
@@ -33915,8 +33915,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "name": "losses",
@@ -33925,8 +33925,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 11.0,
+                  "displayValue": "11"
                 },
                 {
                   "name": "streak",
@@ -33935,8 +33935,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 3.0,
-                  "displayValue": "W3"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -33945,8 +33945,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.33333334,
-                  "displayValue": ".333"
+                  "value": 0.3125,
+                  "displayValue": ".313"
                 },
                 {
                   "name": "wins",
@@ -33994,7 +33994,7 @@
   },
   "article": {
     "keywords": [],
-    "description": "\u2014 Norman Powell scored a season-high 30 points, Reggie Jackson added a season-best 27 and the Los Angeles Clippers rallied in the fourth quarter to defeat the Utah Jazz 121-114 on Monday night.",
+    "description": "\u2014 With Kawhi Leonard still working his way back and Paul George sidelined, the Los Angeles Clippers need the rest of the roster to pick up the slack.",
     "source": "AP",
     "video": [
       {
@@ -34516,7 +34516,7 @@
     "linkText": "Powell, Jackson score season highs as Clippers defeat Jazz",
     "published": "2022-11-22T06:11:21Z",
     "allowComments": true,
-    "lastModified": "2022-11-22T06:11:21Z",
+    "lastModified": "2022-11-22T07:40:20Z",
     "metrics": [
       {
         "count": 0,
@@ -34548,7 +34548,7 @@
       }
     ],
     "inlines": [],
-    "story": "LOS ANGELES -- \u2014 <a href=\"http://www.espn.com/nba/player/_/id/2595516/norman-powell\">Norman Powell</a> scored a season-high 30 points, <a href=\"http://www.espn.com/nba/player/_/id/6443/reggie-jackson\">Reggie Jackson</a> added a season-best 27 and the Los Angeles Clippers rallied in the fourth quarter to defeat the <a href=\"http://www.espn.com/nba/team/_/name/utah/utah-jazz\">Utah Jazz</a> 121-114 on Monday night.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4017837/ivica-zubac\">Ivica Zubac</a> had 14 points and 14 rebounds as the Clippers extended their winning streak to three.\n\n\r\n              Los Angeles was without <a href=\"http://www.espn.com/nba/player/_/id/4251/paul-george\">Paul George</a> after he strained his right hamstring during Saturday\u2019s win over San Antonio.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/2528426/jordan-clarkson\">Jordan Clarkson</a> led Utah with 26 points and <a href=\"http://www.espn.com/nba/player/_/id/4066336/lauri-markkanen\">Lauri Markkanen</a> had 25 points and 10 rebounds. The Jazz have dropped four of their last six after starting the season 10-3.\n\n\r\n              The Jazz had a 93-86 lead late in the third quarter before the Clippers regained control with a 20-8 spurt over a six-minute span.\n\n\r\n              The Clippers had a 10-point lead at the end of the first quarter. Powell's 3-pointer extended the advantage to 55-38 with 5:47 remaining in the first half before the Jazz started to make their comeback. Utah scored eight straight points before going into halftime down 66-56.\n\n\r\n              Los Angeles was up 80-70 midway through the third quarter before Utah went on a 23-6 run that included seven points from Markkanen and six by <a href=\"http://www.espn.com/nba/player/_/id/4396991/talen-horton-tucker\">Talen Horton-Tucker</a>.\n\n\r\n              TIP-INS\n\n\r\n              Jazz: <a href=\"http://www.espn.com/nba/player/_/id/2489663/kelly-olynyk\">Kelly Olynyk</a> had 19 points and Horton-Tucker scored 14 off the bench. ... <a href=\"http://www.espn.com/nba/player/_/id/4278077/jarred-vanderbilt\">Jarred Vanderbilt</a> grabbed 10 rebounds. ... <a href=\"http://www.espn.com/nba/player/_/id/4277811/collin-sexton\">Collin Sexton</a> scored 10 points. Sexton got his second start of the season with <a href=\"http://www.espn.com/nba/player/_/id/3195/mike-conley\">Mike Conley</a> sidelined because of a left knee strain. \n\n\r\n              Clippers: <a href=\"http://www.espn.com/nba/player/_/id/4237/john-wall\">John Wall</a> scored seven of his 13 points in the first quarter, including a half-court shot to end the period. ... Los Angeles had a season-high 12 offensive rebounds.\n\n\r\n              UP NEXT\n\n\r\n              Jazz: Return home to face Detroit on Wednesday.\n\n\r\n              Clippers: Play at Golden State on Wednesday.\n\n\r\n              ------\n\n\r\n              AP NBA: https://apnews.com/hub/nba and https://twitter.com/AP--Sports"
+    "story": "LOS ANGELES -- \u2014 With <a href=\"http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\">Kawhi Leonard</a> still working his way back and <a href=\"http://www.espn.com/nba/player/_/id/4251/paul-george\">Paul George</a> sidelined, the Los Angeles Clippers need the rest of the roster to pick up the slack.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/2595516/norman-powell\">Norman Powell</a> and <a href=\"http://www.espn.com/nba/player/_/id/6443/reggie-jackson\">Reggie Jackson</a> did their part Monday night with season-high point totals.\n\n\r\n              Powell came off the bench to score 30 and Jackson added 27 as the Clippers rallied in the fourth quarter to defeat the <a href=\"http://www.espn.com/nba/team/_/name/utah/utah-jazz\">Utah Jazz</a> 121-114.\n\n\r\n              \u201cI give the team credit. No matter who\u2019s on the floor, we always feel like we have a chance to win,\u201d coach Tyronn Lue said after the Clippers won their third straight. \"It\u2019s tough some nights and it\u2019s not pretty every night, but we always seem to try to find a way to get it done. Different guys are stepping up every single night. \n\n\r\n              \u201cI thought at the end of the game, Norman and Reggie really brought this home offensively.\u201d \n\n\r\n              Leonard, who missed last season with a knee injury, had eight points and five assists in 23 minutes while George was sidelined after he strained his right hamstring during Saturday\u2019s win over San Antonio.\n\n\r\n              The Jazz had a 93-86 lead late in the third quarter before the Clippers regained control with a 20-8 spurt over a six-minute span.\n\n\r\n              Powell scored nine points in the final 12 minutes and Jackson added eight. The Clippers forced six Jazz turnovers and held them to 7-of-20 shooting from the floor.\n\n\r\n              \u201cWe didn\u2019t panic. I think our coaches called some timeouts in the right spots and let us figure things out as a group, go out there and compete,\u201d said Jackson, who has three straight games with at least 20 points. \n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/4017837/ivica-zubac\">Ivica Zubac</a> had 14 points and 14 rebounds for the Clippers, who have won four of their last five.\n\n\r\n              <a href=\"http://www.espn.com/nba/player/_/id/2528426/jordan-clarkson\">Jordan Clarkson</a> led Utah with 26 points and <a href=\"http://www.espn.com/nba/player/_/id/4066336/lauri-markkanen\">Lauri Markkanen</a> had 25 points and 10 rebounds. The Jazz have dropped four of their last six after starting the season 10-3.\n\n\r\n              \u201cThat\u2019s a frustrating game. We played very well in stretches and we were extremely poor in some stretches. That cost us the game,\u201d Utah coach Will Hardy said.\n\n\r\n              The Clippers had a 10-point lead at the end of the first quarter. Powell's 3-pointer extended the advantage to 55-38 with 5:47 remaining in the first half before the Jazz started to make their comeback. Utah scored eight straight points before going into halftime down 66-56.\n\n\r\n              Los Angeles was up 80-70 midway through the third quarter before Utah went on a 23-6 run that included seven points from Markkanen and six by <a href=\"http://www.espn.com/nba/player/_/id/4396991/talen-horton-tucker\">Talen Horton-Tucker</a>.\n\n\r\n              \u201cWe did a great job of coming out of the locker room in the third quarter and giving us a chance to win the game,\u201d Markkanen said. \u201cWe\u2019re gonna watch film of that fourth quarter and what we can do better. I think there\u2019s some mistakes that we can easily correct.\u201d\n\n\r\n              TIP-INS\n\n\r\n              Jazz: <a href=\"http://www.espn.com/nba/player/_/id/2489663/kelly-olynyk\">Kelly Olynyk</a> had 19 points and Horton-Tucker scored 14 off the bench. ... <a href=\"http://www.espn.com/nba/player/_/id/4278077/jarred-vanderbilt\">Jarred Vanderbilt</a> grabbed 10 rebounds. ... <a href=\"http://www.espn.com/nba/player/_/id/4277811/collin-sexton\">Collin Sexton</a> scored 10 points. Sexton got his second start of the season with <a href=\"http://www.espn.com/nba/player/_/id/3195/mike-conley\">Mike Conley</a> sidelined because of a left knee strain. \n\n\r\n              Clippers: <a href=\"http://www.espn.com/nba/player/_/id/4237/john-wall\">John Wall</a> scored seven of his 13 points in the first quarter, including a half-court shot to end the period. ... Los Angeles had a season-high 12 offensive rebounds.\n\n\r\n              UP NEXT\n\n\r\n              Jazz: Return home to face Detroit on Wednesday.\n\n\r\n              Clippers: Play at Golden State on Wednesday.\n\n\r\n              ------\n\n\r\n              AP NBA: https://apnews.com/hub/nba and https://twitter.com/AP--Sports"
   },
   "leaders": [
     {
@@ -35470,9 +35470,9 @@
         "moneyLine": 112,
         "spreadRecord": {
           "wins": 12,
-          "losses": 6,
+          "losses": 7,
           "pushes": 0,
-          "summary": "12-6-0"
+          "summary": "12-7-0"
         },
         "spreadOdds": -108.0,
         "teamId": "26"
@@ -35483,10 +35483,10 @@
         "underdog": false,
         "moneyLine": -124,
         "spreadRecord": {
-          "wins": 8,
+          "wins": 9,
           "losses": 9,
           "pushes": 0,
-          "summary": "8-9-0"
+          "summary": "9-9-0"
         },
         "spreadOdds": -112.0,
         "teamId": "12"
@@ -35543,9 +35543,7 @@
       "id": "12"
     },
     "awayTeam": {
-      "id": "26",
-      "gameProjection": "43.1",
-      "teamChanceLoss": "56.9"
+      "id": "26"
     }
   },
   "espnWP": [],
@@ -35768,7 +35766,7 @@
                 "full",
                 "dark"
               ],
-              "lastUpdated": "2018-06-05T12:08Z"
+              "lastUpdated": "2022-11-22T16:37Z"
             },
             {
               "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
@@ -36015,7 +36013,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2018-06-05T12:08Z"
+          "lastUpdated": "2022-11-22T16:37Z"
         },
         {
           "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",

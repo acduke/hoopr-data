@@ -3533,15 +3533,15 @@
           "displayName": "Assists",
           "leaders": [
             {
-              "displayValue": "5",
+              "displayValue": "6",
               "athlete": {
-                "id": "3064440",
-                "uid": "s:40~l:46~a:3064440",
-                "guid": "dba79cae3f61b87b37d9223f39b4f516",
-                "lastName": "LaVine",
-                "fullName": "Zach LaVine",
-                "displayName": "Zach LaVine",
-                "shortName": "Z. LaVine",
+                "id": "6478",
+                "uid": "s:40~l:46~a:6478",
+                "guid": "2c9b229fcbd58e0bcf3a236f74f23867",
+                "lastName": "Vucevic",
+                "fullName": "Nikola Vucevic",
+                "displayName": "Nikola Vucevic",
+                "shortName": "N. Vucevic",
                 "links": [
                   {
                     "rel": [
@@ -3549,17 +3549,17 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/nba/player/_/id/3064440/zach-lavine",
+                    "href": "https://www.espn.com/nba/player/_/id/6478/nikola-vucevic",
                     "text": "Player Card"
                   }
                 ],
                 "headshot": {
-                  "href": "https://a.espncdn.com/i/headshots/nba/players/full/3064440.png",
-                  "alt": "Zach LaVine"
+                  "href": "https://a.espncdn.com/i/headshots/nba/players/full/6478.png",
+                  "alt": "Nikola Vucevic"
                 },
-                "jersey": "8",
+                "jersey": "9",
                 "position": {
-                  "abbreviation": "SG"
+                  "abbreviation": "C"
                 },
                 "team": {
                   "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2023/teams/4?lang=en&region=us"
@@ -3572,8 +3572,8 @@
                   "shortDisplayName": "AST",
                   "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
                   "abbreviation": "AST",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "name": "turnovers",
@@ -3581,8 +3581,8 @@
                   "shortDisplayName": "TO",
                   "description": "The number of times a player loses possession to the other team.",
                   "abbreviation": "TO",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 0.0,
+                  "displayValue": "0"
                 },
                 {
                   "name": "minutes",
@@ -3590,8 +3590,8 @@
                   "shortDisplayName": "MIN",
                   "description": "The total number of minutes played.",
                   "abbreviation": "MIN",
-                  "value": 34.0,
-                  "displayValue": "34"
+                  "value": 35.0,
+                  "displayValue": "35"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -3599,8 +3599,8 @@
                   "shortDisplayName": "AST/TO",
                   "description": "The average number of assists a player or team records per turnover",
                   "abbreviation": "AST/TO",
-                  "value": 1.6666666,
-                  "displayValue": "1.7"
+                  "value": 0.0,
+                  "displayValue": "INF"
                 }
               ]
             }
@@ -3611,15 +3611,15 @@
           "displayName": "Rebounds",
           "leaders": [
             {
-              "displayValue": "12",
+              "displayValue": "13",
               "athlete": {
-                "id": "6585",
-                "uid": "s:40~l:46~a:6585",
-                "guid": "355269b721fc8104b40ed7c81ec96c9a",
-                "lastName": "Drummond",
-                "fullName": "Andre Drummond",
-                "displayName": "Andre Drummond",
-                "shortName": "A. Drummond",
+                "id": "6478",
+                "uid": "s:40~l:46~a:6478",
+                "guid": "2c9b229fcbd58e0bcf3a236f74f23867",
+                "lastName": "Vucevic",
+                "fullName": "Nikola Vucevic",
+                "displayName": "Nikola Vucevic",
+                "shortName": "N. Vucevic",
                 "links": [
                   {
                     "rel": [
@@ -3627,15 +3627,15 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/nba/player/_/id/6585/andre-drummond",
+                    "href": "https://www.espn.com/nba/player/_/id/6478/nikola-vucevic",
                     "text": "Player Card"
                   }
                 ],
                 "headshot": {
-                  "href": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
-                  "alt": "Andre Drummond"
+                  "href": "https://a.espncdn.com/i/headshots/nba/players/full/6478.png",
+                  "alt": "Nikola Vucevic"
                 },
-                "jersey": "3",
+                "jersey": "9",
                 "position": {
                   "abbreviation": "C"
                 },
@@ -3650,8 +3650,8 @@
                   "shortDisplayName": "REB",
                   "description": "The total number of rebounds (offensive and defensive).",
                   "abbreviation": "REB",
-                  "value": 12.0,
-                  "displayValue": "12"
+                  "value": 13.0,
+                  "displayValue": "13"
                 },
                 {
                   "name": "defensiveRebounds",
@@ -3659,8 +3659,8 @@
                   "shortDisplayName": "DREB",
                   "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
                   "abbreviation": "DR",
-                  "value": 8.0,
-                  "displayValue": "8"
+                  "value": 12.0,
+                  "displayValue": "12"
                 },
                 {
                   "name": "offensiveRebounds",
@@ -3668,8 +3668,8 @@
                   "shortDisplayName": "OREB",
                   "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
                   "abbreviation": "OR",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 1.0,
+                  "displayValue": "1"
                 }
               ]
             }
@@ -4387,9 +4387,9 @@
         "moneyLine": -199,
         "spreadRecord": {
           "wins": 9,
-          "losses": 7,
+          "losses": 8,
           "pushes": 0,
-          "summary": "9-7-0"
+          "summary": "9-8-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2"
@@ -4400,10 +4400,10 @@
         "underdog": true,
         "moneyLine": 177,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 8,
           "pushes": 1,
-          "summary": "7-8-1"
+          "summary": "8-8-1"
         },
         "spreadOdds": -105.0,
         "teamId": "4"
@@ -23815,7 +23815,7 @@
           "web": {
             "href": "http://espn.com/video/clip?id=35078810",
             "short": {
-              "href": "https://es.pn/3UYibpZ"
+              "href": "https://es.pn/3UWl9LX"
             },
             "self": {
               "href": "http://espn.com/video/clip?id=35078810"
@@ -26561,6 +26561,89 @@
               ]
             },
             {
+              "team": "Philadelphia",
+              "link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+              "id": "20",
+              "uid": "s:40~l:46~t:20",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 8.0,
+                  "displayValue": "8"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": 1.0,
+                  "displayValue": "W1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.5294118,
+                  "displayValue": ".529"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 9.0,
+                  "displayValue": "9"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-10-11T14:16Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-10-11T14:17Z"
+                }
+              ]
+            },
+            {
               "team": "Toronto",
               "link": "https://www.espn.com/nba/team/_/name/tor/toronto-raptors",
               "id": "28",
@@ -26727,10 +26810,10 @@
               ]
             },
             {
-              "team": "Philadelphia",
-              "link": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
-              "id": "20",
-              "uid": "s:40~l:46~t:20",
+              "team": "Brooklyn",
+              "link": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+              "id": "17",
+              "uid": "s:40~l:46~t:17",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -26739,8 +26822,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "name": "losses",
@@ -26749,8 +26832,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 8.0,
-                  "displayValue": "8"
+                  "value": 10.0,
+                  "displayValue": "10"
                 },
                 {
                   "name": "streak",
@@ -26769,91 +26852,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5,
-                  "displayValue": ".500"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 8.0,
-                  "displayValue": "8"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-10-11T14:16Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-10-11T14:17Z"
-                }
-              ]
-            },
-            {
-              "team": "Brooklyn",
-              "link": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
-              "id": "17",
-              "uid": "s:40~l:46~t:17",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 9.0,
-                  "displayValue": "9"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.47058824,
-                  "displayValue": ".471"
+                  "value": 0.44444445,
+                  "displayValue": ".444"
                 },
                 {
                   "name": "wins",
@@ -27245,8 +27245,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 9.5,
+                  "displayValue": "9.5"
                 },
                 {
                   "name": "losses",
@@ -27265,8 +27265,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -7.0,
-                  "displayValue": "L7"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -27275,8 +27275,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.16666667,
-                  "displayValue": ".167"
+                  "value": 0.21052632,
+                  "displayValue": ".211"
                 },
                 {
                   "name": "wins",
@@ -27285,8 +27285,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 4.0,
+                  "displayValue": "4"
                 }
               ],
               "logo": [
