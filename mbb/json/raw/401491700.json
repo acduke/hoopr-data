@@ -4126,10 +4126,10 @@
         "underdog": true,
         "moneyLine": 135,
         "spreadRecord": {
-          "wins": 1,
+          "wins": 2,
           "losses": 2,
           "pushes": 0,
-          "summary": "1-2-0"
+          "summary": "2-2-0"
         },
         "spreadOdds": -105.0,
         "teamId": "27"
@@ -4140,10 +4140,10 @@
         "underdog": false,
         "moneyLine": -155,
         "spreadRecord": {
-          "wins": 0,
-          "losses": 2,
+          "wins": 1,
+          "losses": 3,
           "pushes": 0,
-          "summary": "0-2-0"
+          "summary": "1-3-0"
         },
         "spreadOdds": -115.0,
         "teamId": "2692"
@@ -5728,7 +5728,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -5916,6 +5916,18 @@
         "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401491700",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401491700",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15367,7 +15379,168 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Zyon Pullin had 27 points and UC Riverside defeated Weber State 72-65 at the Vegas 4 on Monday.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35080489",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35080489"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401491700"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401491700",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35080489"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401491700&version=mobile"
+      }
+    },
+    "id": 35080489,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3194,
+        "description": "Weber State Wildcats",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2692,
+        "team": {
+          "id": 2692,
+          "description": "Weber State Wildcats",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2692"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2692/weber-state-wildcats"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2692"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2692"
+      },
+      {
+        "id": 23051,
+        "description": "UC Riverside Highlanders",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 27,
+        "team": {
+          "id": 27,
+          "description": "UC Riverside Highlanders",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/27"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/27/uc-riverside-highlanders"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=27"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:27"
+      }
+    ],
+    "headline": "Pullin scores 27 as UC Riverside beats Weber State 72-65",
+    "gameId": "401491700",
+    "images": [],
+    "linkText": "Pullin scores 27 as UC Riverside beats Weber State 72-65",
+    "published": "2022-11-22T06:17:18Z",
+    "allowComments": true,
+    "lastModified": "2022-11-22T06:17:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "HENDERSON, Nev. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592979/zyon-pullin\">Zyon Pullin</a> had 27 points and UC Riverside defeated Weber State 72-65 at the Vegas 4 on Monday.\n\n\r\n              Pullin shot 10 for 16 (3 for 3 from 3-point range) and 4 of 6 from the free-throw line for the Highlanders (3-2). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4293886/flynn-cameron\">Flynn Cameron</a> scored 17 points and added seven rebounds. \n\n\r\n              The Wildcats (1-3) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897981/alex-tew\">Alex Tew</a>, who recorded 15 points and two blocks. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4405290/zahir-porter\">Zahir Porter</a> added 11 points and six rebounds.\n\n\r\n              NEXT UP\n\n\r\n              These two teams both play Tuesday. UC Riverside takes on Wright State while Weber State takes on Abilene Christian.\n\n\r\n              ------\n\n\r\n              The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -15378,6 +15551,59 @@
       {
         "standings": {
           "entries": [
+            {
+              "team": "Cal State Fullerton",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2239/cal-state-fullerton-titans",
+              "id": "2239",
+              "uid": "s:40~l:41~t:2239",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "4-1",
+                  "displayValue": "4-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2239.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-08-31T18:01Z"
+                }
+              ]
+            },
             {
               "team": "UC Irvine",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/300/uc-irvine-anteaters",
@@ -15432,10 +15658,10 @@
               ]
             },
             {
-              "team": "Cal State Fullerton",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2239/cal-state-fullerton-titans",
-              "id": "2239",
-              "uid": "s:40~l:41~t:2239",
+              "team": "Cal State Bakersfield",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2934/cal-state-bakersfield-roadrunners",
+              "id": "2934",
+              "uid": "s:40~l:41~t:2934",
               "stats": [
                 {
                   "id": "0",
@@ -15472,7 +15698,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2239.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -15480,7 +15706,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2021-08-31T18:01Z"
+                  "lastUpdated": "2020-08-25T14:24Z"
                 }
               ]
             },
@@ -15644,59 +15870,6 @@
               ]
             },
             {
-              "team": "Cal State Bakersfield",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2934/cal-state-bakersfield-roadrunners",
-              "id": "2934",
-              "uid": "s:40~l:41~t:2934",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-08-25T14:24Z"
-                }
-              ]
-            },
-            {
               "team": "UC Riverside",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/27/uc-riverside-highlanders",
               "id": "27",
@@ -15710,8 +15883,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-2",
-                  "displayValue": "3-2"
+                  "summary": "4-2",
+                  "displayValue": "4-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -15799,6 +15972,59 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-20T15:58Z"
+                }
+              ]
+            },
+            {
+              "team": "UC San Diego",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/28/uc-san-diego-tritons",
+              "id": "28",
+              "uid": "s:40~l:41~t:28",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-4",
+                  "displayValue": "2-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-09-13T15:43Z"
                 }
               ]
             },
@@ -15905,59 +16131,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-22T22:28Z"
-                }
-              ]
-            },
-            {
-              "team": "UC San Diego",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/28/uc-san-diego-tritons",
-              "id": "28",
-              "uid": "s:40~l:41~t:28",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-4",
-                  "displayValue": "1-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-09-13T15:43Z"
                 }
               ]
             }
@@ -16076,6 +16249,59 @@
               ]
             },
             {
+              "team": "Montana",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/149/montana-grizzlies",
+              "id": "149",
+              "uid": "s:40~l:41~t:149",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-3",
+                  "displayValue": "3-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Portland State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2502/portland-state-vikings",
               "id": "2502",
@@ -16129,10 +16355,10 @@
               ]
             },
             {
-              "team": "Montana",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/149/montana-grizzlies",
-              "id": "149",
-              "uid": "s:40~l:41~t:149",
+              "team": "Weber State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2692/weber-state-wildcats",
+              "id": "2692",
+              "uid": "s:40~l:41~t:2692",
               "stats": [
                 {
                   "id": "0",
@@ -16169,7 +16395,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16195,8 +16421,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-4",
-                  "displayValue": "2-4"
+                  "summary": "2-5",
+                  "displayValue": "2-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -16284,112 +16510,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-22T15:06Z"
-                }
-              ]
-            },
-            {
-              "team": "Northern Colorado",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
-              "id": "2458",
-              "uid": "s:40~l:41~t:2458",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-3",
-                  "displayValue": "1-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Weber State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2692/weber-state-wildcats",
-              "id": "2692",
-              "uid": "s:40~l:41~t:2692",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-3",
-                  "displayValue": "1-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16496,6 +16616,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-11-04T21:05Z"
+                }
+              ]
+            },
+            {
+              "team": "Northern Colorado",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
+              "id": "2458",
+              "uid": "s:40~l:41~t:2458",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "1-4",
+                  "displayValue": "1-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }
