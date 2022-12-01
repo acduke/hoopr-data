@@ -2230,7 +2230,7 @@
                   "36",
                   "11-22",
                   "5-14",
-                  "3-3",
+                  "4-4",
                   "0",
                   "4",
                   "4",
@@ -2239,7 +2239,7 @@
                   "0",
                   "3",
                   "0",
-                  "30"
+                  "31"
                 ]
               },
               {
@@ -2539,7 +2539,7 @@
                   "17",
                   "2-5",
                   "0-0",
-                  "1-1",
+                  "0-0",
                   "4",
                   "1",
                   "5",
@@ -2548,7 +2548,7 @@
                   "0",
                   "0",
                   "4",
-                  "5"
+                  "4"
                 ]
               },
               {
@@ -3394,7 +3394,7 @@
           "displayName": "Points",
           "leaders": [
             {
-              "displayValue": "30",
+              "displayValue": "31",
               "athlete": {
                 "id": "4396656",
                 "uid": "s:40~l:41~a:4396656",
@@ -3430,8 +3430,8 @@
                   "shortDisplayName": "PTS",
                   "description": "The number of points scored.",
                   "abbreviation": "PTS",
-                  "value": 30.0,
-                  "displayValue": "30"
+                  "value": 31.0,
+                  "displayValue": "31"
                 },
                 {
                   "name": "fieldGoals",
@@ -3449,7 +3449,7 @@
                   "description": "Free Throw makes and attempts.",
                   "abbreviation": "FT",
                   "value": 1.0,
-                  "displayValue": "3/3"
+                  "displayValue": "4/4"
                 }
               ]
             }
@@ -4610,6 +4610,59 @@
         "standings": {
           "entries": [
             {
+              "team": "Missouri",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/142/missouri-tigers",
+              "id": "142",
+              "uid": "s:40~l:41~t:142",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-0",
+                  "displayValue": "8-0"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-08-31T04:52Z"
+                }
+              ]
+            },
+            {
               "team": "Auburn",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2/auburn-tigers",
               "id": "2",
@@ -4712,59 +4765,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-08-31T05:02Z"
-                }
-              ]
-            },
-            {
-              "team": "Missouri",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/142/missouri-tigers",
-              "id": "142",
-              "uid": "s:40~l:41~t:142",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-0",
-                  "displayValue": "7-0"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-08-31T04:52Z"
                 }
               ]
             },
@@ -4994,8 +4994,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-1",
-                  "displayValue": "5-1"
+                  "summary": "6-1",
+                  "displayValue": "6-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -5047,8 +5047,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
+                  "summary": "6-2",
+                  "displayValue": "6-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -5153,8 +5153,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-2",
-                  "displayValue": "4-2"
+                  "summary": "5-2",
+                  "displayValue": "5-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -5206,8 +5206,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-3",
-                  "displayValue": "4-3"
+                  "summary": "5-3",
+                  "displayValue": "5-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -5259,8 +5259,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-3",
-                  "displayValue": "3-3"
+                  "summary": "3-4",
+                  "displayValue": "3-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -5312,8 +5312,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-3",
-                  "displayValue": "3-3"
+                  "summary": "3-4",
+                  "displayValue": "3-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -5373,8 +5373,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
+                  "summary": "5-3",
+                  "displayValue": "5-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -5426,8 +5426,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-1",
-                  "displayValue": "6-1"
+                  "summary": "7-1",
+                  "displayValue": "7-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -5479,8 +5479,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-1",
-                  "displayValue": "5-1"
+                  "summary": "6-1",
+                  "displayValue": "6-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -5532,8 +5532,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-1",
-                  "displayValue": "5-1"
+                  "summary": "6-1",
+                  "displayValue": "6-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -5568,59 +5568,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-09-07T21:13Z"
-                }
-              ]
-            },
-            {
-              "team": "UTEP",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2638/utep-miners",
-              "id": "2638",
-              "uid": "s:40~l:41~t:2638",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-1",
-                  "displayValue": "5-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-09T17:28Z"
                 }
               ]
             },
@@ -5784,10 +5731,10 @@
               ]
             },
             {
-              "team": "Florida International",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2229/florida-international-panthers",
-              "id": "2229",
-              "uid": "s:40~l:41~t:2229",
+              "team": "UTEP",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2638/utep-miners",
+              "id": "2638",
+              "uid": "s:40~l:41~t:2638",
               "stats": [
                 {
                   "id": "0",
@@ -5797,8 +5744,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-2",
-                  "displayValue": "4-2"
+                  "summary": "5-2",
+                  "displayValue": "5-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -5824,7 +5771,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -5832,7 +5779,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2022-09-09T17:28Z"
                 }
               ]
             },
@@ -5890,6 +5837,59 @@
               ]
             },
             {
+              "team": "Florida International",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2229/florida-international-panthers",
+              "id": "2229",
+              "uid": "s:40~l:41~t:2229",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "4-3",
+                  "displayValue": "4-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.5,
+                  "displayValue": "0.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Rice",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/242/rice-owls",
               "id": "242",
@@ -5903,8 +5903,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-2",
-                  "displayValue": "4-2"
+                  "summary": "5-2",
+                  "displayValue": "5-2"
                 },
                 {
                   "name": "gamesBehind",
