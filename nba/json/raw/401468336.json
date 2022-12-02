@@ -4035,20 +4035,20 @@
           "uid": "s:40~l:46~e:401468472~c:401468472",
           "date": "2022-12-01T01:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "post",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Wed, November 30th at 8:00 PM EST",
-            "shortDetail": "11/30 - 8:00 PM EST"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "16",
                 "uid": "s:40~l:46~t:16",
@@ -4066,10 +4066,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
               },
-              "score": "0"
+              "score": "109"
             },
             {
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "29",
                 "uid": "s:40~l:46~t:29",
@@ -4087,7 +4088,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
               },
-              "score": "0"
+              "score": "101"
             }
           ],
           "links": [
@@ -4414,9 +4415,9 @@
         "moneyLine": -168,
         "spreadRecord": {
           "wins": 8,
-          "losses": 11,
+          "losses": 12,
           "pushes": 1,
-          "summary": "8-11-1"
+          "summary": "8-12-1"
         },
         "spreadOdds": -107.0,
         "teamId": "29"
@@ -7361,6 +7362,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:45:39Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -7396,6 +7398,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:45:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 15,
@@ -7431,6 +7434,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:46:27Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -7466,6 +7470,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:46:29Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -7506,6 +7511,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:46:37Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -7541,6 +7547,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:46:49Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -7581,6 +7588,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:47:03Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -7616,6 +7624,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:47:06Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -7651,6 +7660,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:47:19Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 30,
@@ -7686,6 +7696,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:47:43Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -7721,6 +7732,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:47:56Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -7756,6 +7768,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:48:08Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -7791,6 +7804,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:48:13Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -7826,6 +7840,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:48:31Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 18,
@@ -7861,6 +7876,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:48:51Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 19,
@@ -7896,6 +7912,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:48:55Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 19,
@@ -7936,6 +7953,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:48:56Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -7971,6 +7989,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:48:56Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -8006,6 +8025,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:49:01Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -8041,6 +8061,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:49:29Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -8076,6 +8097,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:49:48Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -8116,6 +8138,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:50:03Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -8151,6 +8174,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:50:16Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 18,
@@ -8191,6 +8215,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:50:31Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 29,
@@ -8231,6 +8256,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:50:49Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -8266,6 +8292,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:50:53Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 39,
@@ -8301,6 +8328,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:50:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 39,
@@ -8341,6 +8369,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:50:58Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 21,
@@ -8376,6 +8405,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:51:21Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -8411,6 +8441,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:51:23Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -8446,6 +8477,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:51:32Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 37,
@@ -8481,6 +8513,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:51:35Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 37,
@@ -8516,6 +8549,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:51:44Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 13,
@@ -8551,6 +8585,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:51:48Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 13,
@@ -8591,6 +8626,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:51:57Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -8626,6 +8662,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:52:14Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 37,
@@ -8661,6 +8698,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:52:28Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 43,
@@ -8696,6 +8734,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:52:57Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -8731,6 +8770,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:53:13Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -8766,6 +8806,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:53:25Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -8801,6 +8842,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:53:43Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 36,
@@ -8836,6 +8878,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:53:46Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 36,
@@ -8871,6 +8914,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:54:02Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 10,
@@ -8906,6 +8950,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:54:05Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 10,
@@ -8941,6 +8986,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:54:18Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 28,
@@ -8969,6 +9015,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T02:54:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -9004,6 +9051,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:58:12Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -9039,6 +9087,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:58:23Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -9074,6 +9123,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:58:41Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -9109,6 +9159,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:04Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -9144,6 +9195,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:19Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -9179,6 +9231,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:34Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 36,
@@ -9214,6 +9267,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:36Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 36,
@@ -9249,6 +9303,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:45Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -9284,6 +9339,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:45Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -9324,6 +9380,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:53Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -9364,6 +9421,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T02:59:53Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -9404,6 +9462,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:20Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 29,
@@ -9439,6 +9498,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:25Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 2,
@@ -9474,6 +9534,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:28Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 2,
@@ -9514,6 +9575,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:33Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -9549,6 +9611,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:40Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -9584,6 +9647,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -9619,6 +9683,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:50Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 37,
@@ -9647,6 +9712,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T03:00:50Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 37,
@@ -9682,6 +9748,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:00:55Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -9722,6 +9789,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:01:04Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -9762,6 +9830,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:01:04Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -9797,6 +9866,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:01:33Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -9832,6 +9902,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:01:34Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -9867,6 +9938,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:01:36Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -9907,6 +9979,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:01:46Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -9942,6 +10015,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:01:56Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 34,
@@ -9977,6 +10051,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:02:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 34,
@@ -10017,6 +10092,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:02:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -10052,6 +10128,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:02:36Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -10087,6 +10164,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:02:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -10127,6 +10205,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:02:48Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -10162,6 +10241,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:03:07Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -10197,6 +10277,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:03:24Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 23,
@@ -10232,6 +10313,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:03:53Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -10267,6 +10349,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:04:12Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -10307,6 +10390,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:04:28Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 30,
@@ -10342,6 +10426,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:04:32Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -10377,6 +10462,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:04:56Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -10412,6 +10498,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:04:56Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -10447,6 +10534,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:05:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -10482,6 +10570,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:05:23Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -10522,6 +10611,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:05:36Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 33,
@@ -10562,6 +10652,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:05:51Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 15,
@@ -10602,6 +10693,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:03Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -10642,6 +10734,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:22Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 28,
@@ -10677,6 +10770,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 28,
@@ -10712,6 +10806,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:43Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 23,
@@ -10747,6 +10842,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:45Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 23,
@@ -10787,6 +10883,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:48Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -10827,6 +10924,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:55Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -10862,6 +10960,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:06:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -10890,6 +10989,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:07:12Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -10930,6 +11030,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:09:40Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -10970,6 +11071,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:09:40Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -11010,6 +11112,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:09:40Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -11045,6 +11148,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:10:44Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -11080,6 +11184,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:10:44Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -11115,6 +11220,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:10:54Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 2,
@@ -11150,6 +11256,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:10:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 2,
@@ -11185,6 +11292,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:11:04Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -11220,6 +11328,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:11:06Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -11255,6 +11364,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:11:26Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -11290,6 +11400,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:11:47Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -11318,6 +11429,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:11:47Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -11358,6 +11470,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:12:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -11393,6 +11506,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:12:24Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 21,
@@ -11428,6 +11542,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:12:27Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 21,
@@ -11463,6 +11578,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:12:35Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 30,
@@ -11498,6 +11614,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:13:03Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -11533,6 +11650,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:13:17Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -11568,6 +11686,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:13:39Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -11603,6 +11722,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:13:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -11643,6 +11763,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:13:48Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 48,
@@ -11671,6 +11792,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:13:48Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 48,
@@ -11699,6 +11821,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:13:53Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -11734,6 +11857,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:14:20Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 12,
@@ -11769,6 +11893,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:14:22Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 12,
@@ -11804,6 +11929,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:14:32Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 30,
@@ -11839,6 +11965,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:14:44Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 37,
@@ -11867,6 +11994,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:14:46Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 37,
@@ -11892,6 +12020,7 @@
       },
       "scoringPlay": false,
       "scoreValue": 0,
+      "wallclock": "2022-11-12T03:14:51Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -11932,6 +12061,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:17:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -11972,6 +12102,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:17:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -12012,6 +12143,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:17:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -12052,6 +12184,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:17:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -12087,6 +12220,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:18:45Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 28,
@@ -12122,6 +12256,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:18:49Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 28,
@@ -12162,6 +12297,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:19:06Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 18,
@@ -12202,6 +12338,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:19:33Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 15,
@@ -12237,6 +12374,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:19:46Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 32,
@@ -12265,6 +12403,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T03:19:47Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 32,
@@ -12300,6 +12439,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:19:52Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -12340,6 +12480,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:20:11Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 39,
@@ -12380,6 +12521,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:20:29Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 9,
@@ -12415,6 +12557,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:20:45Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 20,
@@ -12450,6 +12593,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:20:47Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 20,
@@ -12485,6 +12629,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:20:52Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 39,
@@ -12520,6 +12665,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:20:56Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 39,
@@ -12560,6 +12706,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:21:02Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -12588,6 +12735,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T03:21:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -12628,6 +12776,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:21:08Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -12668,6 +12817,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:21:21Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -12708,6 +12858,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:21:32Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 28,
@@ -12743,6 +12894,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:21:36Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -12778,6 +12930,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:21:39Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -12813,6 +12966,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:22:08Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -12848,6 +13002,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:22:21Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 8,
@@ -12876,6 +13031,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:22:22Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 8,
@@ -12911,6 +13067,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:22:28Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -12951,6 +13108,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:22:53Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 29,
@@ -12991,6 +13149,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:23:13Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 31,
@@ -13026,6 +13185,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:23:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -13061,6 +13221,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:24:27Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -13096,6 +13257,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:24:42Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -13131,6 +13293,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:25:08Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -13166,6 +13329,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:25:13Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -13201,6 +13365,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:25:12Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -13241,6 +13406,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:25:26Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 17,
@@ -13281,6 +13447,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:25:31Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 36,
@@ -13309,6 +13476,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:25:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13349,6 +13517,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:27:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13389,6 +13558,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:27:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13429,6 +13599,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:29:18Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 39,
@@ -13469,6 +13640,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:29:34Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 28,
@@ -13504,6 +13676,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:29:43Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 28,
@@ -13539,6 +13712,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:30:20Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -13579,6 +13753,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:30:35Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 40,
@@ -13619,6 +13794,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:30:48Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 30,
@@ -13659,6 +13835,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:13Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 2,
@@ -13694,6 +13871,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:26Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 36,
@@ -13729,6 +13907,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:29Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 36,
@@ -13769,6 +13948,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:37Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13809,6 +13989,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:37Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13849,6 +14030,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:37Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13889,6 +14071,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:37Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13929,6 +14112,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:31:37Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -13969,6 +14153,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:32:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -14004,6 +14189,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:32:13Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -14039,6 +14225,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:32:38Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -14067,6 +14254,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:32:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -14102,6 +14290,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:32:43Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -14137,6 +14326,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:33:11Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 48,
@@ -14172,6 +14362,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:33:14Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 48,
@@ -14207,6 +14398,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:33:29Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 31,
@@ -14242,6 +14434,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:00Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -14270,6 +14463,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T03:34:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -14310,6 +14504,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:01Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -14345,6 +14540,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:23Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -14380,6 +14576,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:24Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -14415,6 +14612,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:40Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 12,
@@ -14450,6 +14648,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:43Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 12,
@@ -14485,6 +14684,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:53Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 11,
@@ -14520,6 +14720,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:55Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 11,
@@ -14555,6 +14756,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:57Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -14590,6 +14792,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:34:58Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -14625,6 +14828,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:35:00Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -14660,6 +14864,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:35:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -14700,6 +14905,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:35:09Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -14740,6 +14946,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:35:09Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -14775,6 +14982,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:35:37Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -14810,6 +15018,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:35:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -14850,6 +15059,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:35:52Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 13,
@@ -14885,6 +15095,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:36:09Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 31,
@@ -14920,6 +15131,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:36:26Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -14955,6 +15167,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:36:28Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -14995,6 +15208,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:36:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -15030,6 +15244,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:36:46Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 21,
@@ -15065,6 +15280,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:37:15Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -15105,6 +15321,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:37:16Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -15140,6 +15357,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:37:31Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -15180,6 +15398,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:37:51Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -15215,6 +15434,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:37:54Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -15255,6 +15475,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:37:57Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 49,
@@ -15290,6 +15511,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:38:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 41,
@@ -15318,6 +15540,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T03:38:21Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -15358,6 +15581,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:40:43Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -15398,6 +15622,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:40:43Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -15433,6 +15658,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:41:54Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 13,
@@ -15468,6 +15694,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:42:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 15,
@@ -15503,6 +15730,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:42:13Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 15,
@@ -15543,6 +15771,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:42:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 33,
@@ -15578,6 +15807,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:42:37Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 37,
@@ -15613,6 +15843,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:43:03Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 33,
@@ -15648,6 +15879,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:43:31Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -15683,6 +15915,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:43:43Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -15718,6 +15951,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:43:59Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 21,
@@ -15753,6 +15987,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:44:26Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -15781,6 +16016,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T03:44:26Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -15821,6 +16057,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:44:27Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -15861,6 +16098,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:44:27Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -15896,6 +16134,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:44:45Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -15931,6 +16170,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:45:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 12,
@@ -15959,6 +16199,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T03:45:10Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 12,
@@ -15987,6 +16228,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T03:45:18Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -16027,6 +16269,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:45:34Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -16062,6 +16305,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:45:55Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 2,
@@ -16097,6 +16341,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:45:56Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 2,
@@ -16132,6 +16377,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:45:58Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -16167,6 +16413,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:46:17Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -16202,6 +16449,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:46:48Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 23,
@@ -16237,6 +16485,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:47:18Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -16277,6 +16526,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:47:19Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16317,6 +16567,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:47:19Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16352,6 +16603,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:47:43Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -16387,6 +16639,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:47:44Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16422,6 +16675,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:47:56Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 33,
@@ -16457,6 +16711,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T03:47:56Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 33,
@@ -16482,6 +16737,7 @@
       },
       "scoringPlay": false,
       "scoreValue": 0,
+      "wallclock": "2022-11-12T03:48:03Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16522,6 +16778,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:02:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16562,6 +16819,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:02:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16602,6 +16860,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:02:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16642,6 +16901,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:02:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16682,6 +16942,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:02:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -16717,6 +16978,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:03:49Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 14,
@@ -16752,6 +17014,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:03:53Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 14,
@@ -16787,6 +17050,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:04:15Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 35,
@@ -16822,6 +17086,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:04:17Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 35,
@@ -16862,6 +17127,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:04:28Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -16897,6 +17163,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:04:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -16932,6 +17199,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:04:58Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -16972,6 +17240,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:05:16Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 20,
@@ -17012,6 +17281,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:05:19Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 18,
@@ -17052,6 +17322,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:05:23Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 20,
@@ -17087,6 +17358,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:05:29Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 28,
@@ -17115,6 +17387,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:05:34Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -17150,6 +17423,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:09:11Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -17178,6 +17452,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:09:12Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -17218,6 +17493,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:09:33Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 48,
@@ -17258,6 +17534,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:10:01Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -17293,6 +17570,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:10:15Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 1,
@@ -17328,6 +17606,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:10:18Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 1,
@@ -17368,6 +17647,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:10:34Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 30,
@@ -17403,6 +17683,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:10:41Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 32,
@@ -17438,6 +17719,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:10:44Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 32,
@@ -17473,6 +17755,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:10:57Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 23,
@@ -17508,6 +17791,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:11:04Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 2,
@@ -17548,6 +17832,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:11:23Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 30,
@@ -17588,6 +17873,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:11:42Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -17628,6 +17914,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:12:02Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -17663,6 +17950,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:12:20Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 14,
@@ -17698,6 +17986,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:12:21Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 14,
@@ -17733,6 +18022,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:12:35Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 42,
@@ -17761,6 +18051,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:12:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 42,
@@ -17796,6 +18087,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:13:03Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 33,
@@ -17831,6 +18123,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:13:25Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 20,
@@ -17866,6 +18159,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:13:26Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 20,
@@ -17901,6 +18195,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:13:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 41,
@@ -17941,6 +18236,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:14:08Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -17976,6 +18272,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:14:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -18004,6 +18301,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:14:56Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -18032,6 +18330,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:15:13Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -18072,6 +18371,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:17:24Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -18112,6 +18412,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:17:24Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -18147,6 +18448,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:18:34Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -18182,6 +18484,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:18:46Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -18222,6 +18525,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:19:00Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -18257,6 +18561,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:19:15Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 18,
@@ -18292,6 +18597,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:19:40Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 30,
@@ -18332,6 +18638,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:20:05Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -18367,6 +18674,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:20:28Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 2,
@@ -18402,6 +18710,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:20:31Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 2,
@@ -18437,6 +18746,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:20:41Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -18472,6 +18782,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:20:44Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -18512,6 +18823,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:20:49Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 23,
@@ -18547,6 +18859,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:21:14Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 40,
@@ -18587,6 +18900,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:21:35Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -18627,6 +18941,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:21:35Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -18667,6 +18982,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:21:35Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -18702,6 +19018,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:21:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -18737,6 +19054,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:22:24Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -18772,6 +19090,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:22:28Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -18812,6 +19131,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:22:34Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -18847,6 +19167,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:22:49Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 6,
@@ -18882,6 +19203,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:22:52Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 6,
@@ -18917,6 +19239,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:23:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 7,
@@ -18952,6 +19275,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:23:27Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 35,
@@ -18987,6 +19311,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:23:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 35,
@@ -19022,6 +19347,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:23:38Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 23,
@@ -19057,6 +19383,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:23:47Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 34,
@@ -19097,6 +19424,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:23:55Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -19132,6 +19460,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:24:26Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -19167,6 +19496,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:24:50Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 22,
@@ -19202,6 +19532,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:25:24Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -19237,6 +19568,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:25:42Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -19272,6 +19604,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:25:55Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -19300,6 +19633,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T04:26:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -19340,6 +19674,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:27:59Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 31,
@@ -19375,6 +19710,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:13Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 12,
@@ -19410,6 +19746,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:16Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 12,
@@ -19445,6 +19782,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:22Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 2,
@@ -19480,6 +19818,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 2,
@@ -19520,6 +19859,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:33Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 32,
@@ -19555,6 +19895,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:49Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 37,
@@ -19590,6 +19931,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:49Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 37,
@@ -19630,6 +19972,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:28:59Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -19665,6 +20008,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:29:33Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -19700,6 +20044,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:29:35Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -19740,6 +20085,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:29:45Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 18,
@@ -19775,6 +20121,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:29:48Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 18,
@@ -19815,6 +20162,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:29:51Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 23,
@@ -19850,6 +20198,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:30:03Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 32,
@@ -19885,6 +20234,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:30:06Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 32,
@@ -19920,6 +20270,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:30:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 9,
@@ -19955,6 +20306,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:30:14Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 9,
@@ -19990,6 +20342,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:30:22Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 28,
@@ -20025,6 +20378,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:30:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 28,
@@ -20060,6 +20414,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:30:29Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 32,
@@ -20095,6 +20450,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:31:06Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 32,
@@ -20123,6 +20479,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:31:11Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 32,
@@ -20148,6 +20505,7 @@
       },
       "scoringPlay": false,
       "scoreValue": 0,
+      "wallclock": "2022-11-12T04:31:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20188,6 +20546,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:34:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20228,6 +20587,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:34:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20268,6 +20628,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:34:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20308,6 +20669,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:34:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20348,6 +20710,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:34:02Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20388,6 +20751,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:35:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 23,
@@ -20428,6 +20792,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:35:34Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -20463,6 +20828,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:35:59Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 18,
@@ -20498,6 +20864,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:01Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 18,
@@ -20533,6 +20900,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:09Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 22,
@@ -20568,6 +20936,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:23Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 36,
@@ -20603,6 +20972,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 36,
@@ -20638,6 +21008,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:31Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 31,
@@ -20673,6 +21044,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:58Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -20701,6 +21073,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:36:58Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20741,6 +21114,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:59Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20776,6 +21150,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:37:19Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -20811,6 +21186,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:37:39Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -20851,6 +21227,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:37:54Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -20886,6 +21263,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:36:59Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 17,
@@ -20914,6 +21292,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:36:59Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 17,
@@ -20954,6 +21333,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:38:22Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -20989,6 +21369,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:38:35Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 28,
@@ -21024,6 +21405,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:38:39Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 28,
@@ -21064,6 +21446,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:38:45Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 31,
@@ -21104,6 +21487,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:38:55Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 36,
@@ -21144,6 +21528,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:39:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 22,
@@ -21179,6 +21564,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:39:23Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 14,
@@ -21214,6 +21600,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:39:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 14,
@@ -21254,6 +21641,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:39:28Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 48,
@@ -21289,6 +21677,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:39:59Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 37,
@@ -21324,6 +21713,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:40:03Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 37,
@@ -21359,6 +21749,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:40:20Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 29,
@@ -21394,6 +21785,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:40:22Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 29,
@@ -21429,6 +21821,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:40:27Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -21464,6 +21857,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:41:02Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -21499,6 +21893,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:41:05Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -21534,6 +21929,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:41:11Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 21,
@@ -21569,6 +21965,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:41:44Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 30,
@@ -21604,6 +22001,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:41:47Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 30,
@@ -21644,6 +22042,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:42:07Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -21672,6 +22071,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T04:42:16Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -21712,6 +22112,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:44:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -21752,6 +22153,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:44:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -21792,6 +22194,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:44:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -21832,6 +22235,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:46:04Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 23,
@@ -21867,6 +22271,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:46:31Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -21907,6 +22312,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:46:41Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -21947,6 +22353,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:47:06Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -21987,6 +22394,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:47:27Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 22,
@@ -22022,6 +22430,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:47:41Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 37,
@@ -22057,6 +22466,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:47:42Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 37,
@@ -22097,6 +22507,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:47:58Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 31,
@@ -22132,6 +22543,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:48:28Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 22,
@@ -22160,6 +22572,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T04:48:29Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 22,
@@ -22188,6 +22601,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T04:48:56Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22215,6 +22629,7 @@
       "team": {
         "id": "16"
       },
+      "wallclock": "2022-11-12T04:49:23Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22255,6 +22670,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:51:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22295,6 +22711,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:51:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22335,6 +22752,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:51:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22375,6 +22793,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:51:30Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22415,6 +22834,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:52:23Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -22455,6 +22875,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:52:47Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -22490,6 +22911,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:52:52Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 26,
@@ -22525,6 +22947,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:52:55Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 26,
@@ -22560,6 +22983,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:52:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 21,
@@ -22595,6 +23019,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:53:32Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -22630,6 +23055,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:53:34Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -22665,6 +23091,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:53:47Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 2,
@@ -22700,6 +23127,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:53:51Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 2,
@@ -22735,6 +23163,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:53:54Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 29,
@@ -22770,6 +23199,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:53:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 29,
@@ -22805,6 +23235,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:54:06Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 25,
@@ -22840,6 +23271,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:54:10Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 25,
@@ -22880,6 +23312,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:54:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22920,6 +23353,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:54:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -22955,6 +23389,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:54:50Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -22990,6 +23425,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:54:51Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -23025,6 +23461,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:55:07Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 18,
@@ -23060,6 +23497,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:55:09Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 18,
@@ -23095,6 +23533,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:55:21Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 27,
@@ -23130,6 +23569,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:55:23Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -23165,6 +23605,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:55:28Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 27,
@@ -23200,6 +23641,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:55:55Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -23240,6 +23682,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:55:56Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -23275,6 +23718,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:56:16Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -23310,6 +23754,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:56:32Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 20,
@@ -23345,6 +23790,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:56:35Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 20,
@@ -23380,6 +23826,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:56:52Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -23415,6 +23862,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:56:58Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 24,
@@ -23450,6 +23898,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:57:05Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 24,
@@ -23485,6 +23934,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:57:30Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 48,
@@ -23520,6 +23970,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:57:33Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 48,
@@ -23555,6 +24006,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T04:57:50Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 20,
@@ -23583,6 +24035,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T04:58:14Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -23618,6 +24071,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:00:10Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 29,
@@ -23653,6 +24107,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:00:13Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 29,
@@ -23688,6 +24143,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:00:22Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 14,
@@ -23728,6 +24184,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:00:27Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -23763,6 +24220,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:00:57Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -23791,6 +24249,7 @@
       "team": {
         "id": "29"
       },
+      "wallclock": "2022-11-12T05:00:57Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -23826,6 +24285,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:01:14Z",
       "shootingPlay": true,
       "coordinate": {
         "x": -214748340,
@@ -23861,6 +24321,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:01:33Z",
       "shootingPlay": true,
       "coordinate": {
         "x": 15,
@@ -23896,6 +24357,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:01:38Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 15,
@@ -23936,6 +24398,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:02:00Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 45,
@@ -23976,6 +24439,7 @@
           }
         }
       ],
+      "wallclock": "2022-11-12T05:02:06Z",
       "shootingPlay": false,
       "coordinate": {
         "x": 10,
@@ -24001,6 +24465,7 @@
       },
       "scoringPlay": false,
       "scoreValue": 0,
+      "wallclock": "2022-11-12T05:02:21Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -24026,6 +24491,7 @@
       },
       "scoringPlay": false,
       "scoreValue": 0,
+      "wallclock": "2022-11-12T05:02:25Z",
       "shootingPlay": false,
       "coordinate": {
         "x": -214748340,
@@ -26027,8 +26493,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 3.0,
-                  "displayValue": "W3"
+                  "value": 4.0,
+                  "displayValue": "W4"
                 },
                 {
                   "name": "winPercent",
@@ -26037,8 +26503,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.65,
-                  "displayValue": ".650"
+                  "value": 0.6666667,
+                  "displayValue": ".667"
                 },
                 {
                   "name": "wins",
@@ -26047,8 +26513,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 13.0,
-                  "displayValue": "13"
+                  "value": 14.0,
+                  "displayValue": "14"
                 }
               ],
               "logo": [
@@ -26074,89 +26540,6 @@
                     "dark"
                   ],
                   "lastUpdated": "2018-10-04T15:13Z"
-                }
-              ]
-            },
-            {
-              "team": "Portland",
-              "link": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers",
-              "id": "22",
-              "uid": "s:40~l:46~t:22",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 10.0,
-                  "displayValue": "10"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.52380955,
-                  "displayValue": ".524"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 11.0,
-                  "displayValue": "11"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/por.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -26193,8 +26576,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -5.0,
-                  "displayValue": "L5"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -26203,8 +26586,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5217391,
-                  "displayValue": ".522"
+                  "value": 0.5416667,
+                  "displayValue": ".542"
                 },
                 {
                   "name": "wins",
@@ -26213,8 +26596,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 12.0,
-                  "displayValue": "12"
+                  "value": 13.0,
+                  "displayValue": "13"
                 }
               ],
               "logo": [
@@ -26276,8 +26659,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -3.0,
-                  "displayValue": "L3"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -26286,8 +26669,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.47619048,
-                  "displayValue": ".476"
+                  "value": 0.5,
+                  "displayValue": ".500"
                 },
                 {
                   "name": "wins",
@@ -26296,8 +26679,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 11.0,
+                  "displayValue": "11"
                 }
               ],
               "logo": [
@@ -26314,6 +26697,89 @@
                 },
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/min.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Portland",
+              "link": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers",
+              "id": "22",
+              "uid": "s:40~l:46~t:22",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 3.5,
+                  "displayValue": "3.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 11.0,
+                  "displayValue": "11"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -3.0,
+                  "displayValue": "L3"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.5,
+                  "displayValue": ".500"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Team's current Win-Loss record",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 11.0,
+                  "displayValue": "11"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/por.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -26359,8 +26825,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -26369,8 +26835,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.3809524,
-                  "displayValue": ".381"
+                  "value": 0.4090909,
+                  "displayValue": ".409"
                 },
                 {
                   "name": "wins",
@@ -26379,8 +26845,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 8.0,
-                  "displayValue": "8"
+                  "value": 9.0,
+                  "displayValue": "9"
                 }
               ],
               "logo": [
@@ -26450,8 +26916,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -26460,8 +26926,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.6,
-                  "displayValue": ".600"
+                  "value": 0.61904764,
+                  "displayValue": ".619"
                 },
                 {
                   "name": "wins",
@@ -26470,8 +26936,8 @@
                   "description": "Team's current Win-Loss record",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 12.0,
-                  "displayValue": "12"
+                  "value": 13.0,
+                  "displayValue": "13"
                 }
               ],
               "logo": [
@@ -26513,8 +26979,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "name": "losses",
@@ -26523,8 +26989,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 8.0,
-                  "displayValue": "8"
+                  "value": 9.0,
+                  "displayValue": "9"
                 },
                 {
                   "name": "streak",
@@ -26533,8 +26999,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -26543,8 +27009,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.6,
-                  "displayValue": ".600"
+                  "value": 0.5714286,
+                  "displayValue": ".571"
                 },
                 {
                   "name": "wins",
@@ -26596,8 +27062,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "losses",
@@ -26606,8 +27072,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 11.0,
+                  "displayValue": "11"
                 },
                 {
                   "name": "streak",
@@ -26616,8 +27082,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -26626,8 +27092,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5,
-                  "displayValue": ".500"
+                  "value": 0.47619048,
+                  "displayValue": ".476"
                 },
                 {
                   "name": "wins",
@@ -26679,8 +27145,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
+                  "value": 7.5,
+                  "displayValue": "7.5"
                 },
                 {
                   "name": "losses",
@@ -26689,8 +27155,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 15.0,
-                  "displayValue": "15"
+                  "value": 16.0,
+                  "displayValue": "16"
                 },
                 {
                   "name": "streak",
@@ -26699,8 +27165,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -8.0,
-                  "displayValue": "L8"
+                  "value": -9.0,
+                  "displayValue": "L9"
                 },
                 {
                   "name": "winPercent",
@@ -26709,8 +27175,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.2857143,
-                  "displayValue": ".286"
+                  "value": 0.27272728,
+                  "displayValue": ".273"
                 },
                 {
                   "name": "wins",
@@ -26762,8 +27228,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 7.0,
-                  "displayValue": "7"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "name": "losses",
@@ -26772,8 +27238,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 15.0,
-                  "displayValue": "15"
+                  "value": 16.0,
+                  "displayValue": "16"
                 },
                 {
                   "name": "streak",
@@ -26782,8 +27248,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": -2.0,
+                  "displayValue": "L2"
                 },
                 {
                   "name": "winPercent",
@@ -26792,8 +27258,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.25,
-                  "displayValue": ".250"
+                  "value": 0.23809524,
+                  "displayValue": ".238"
                 },
                 {
                   "name": "wins",
