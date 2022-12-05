@@ -3222,90 +3222,6 @@
               {
                 "active": false,
                 "athlete": {
-                  "id": "5120014",
-                  "uid": "s:40~l:41~a:5120014",
-                  "guid": "7bbb67f1-5f99-39cc-bfb7-3597fa80065d",
-                  "displayName": "Freds Pauls Bagatskis",
-                  "shortName": "F. Bagatskis",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5120014/freds-pauls-bagatskis",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5120014/freds-pauls-bagatskis",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5120014/freds-pauls-bagatskis",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5120014/freds-pauls-bagatskis",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5120014/freds-pauls-bagatskis",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5120014/freds-pauls-bagatskis",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5120014/freds-pauls-bagatskis",
-                      "text": "Overview"
-                    }
-                  ],
-                  "position": {
-                    "name": "Forward",
-                    "displayName": "Forward",
-                    "abbreviation": "F"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": true,
-                "ejected": false,
-                "stats": []
-              },
-              {
-                "active": false,
-                "athlete": {
                   "id": "5105434",
                   "uid": "s:40~l:41~a:5105434",
                   "guid": "6ad4a364-060d-3f8d-b39b-4a47ad21996c",
@@ -4145,10 +4061,10 @@
         "underdog": true,
         "moneyLine": 500,
         "spreadRecord": {
-          "wins": 2,
+          "wins": 3,
           "losses": 5,
           "pushes": 0,
-          "summary": "2-5-0"
+          "summary": "3-5-0"
         },
         "spreadOdds": -110.0,
         "teamId": "111"
@@ -18304,6 +18220,59 @@
               ]
             },
             {
+              "team": "Northeastern",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/111/northeastern-huskies",
+              "id": "111",
+              "uid": "s:40~l:41~t:111",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-6",
+                  "displayValue": "2-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-11-06T15:47Z"
+                }
+              ]
+            },
+            {
               "team": "Stony Brook",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2619/stony-brook-seawolves",
               "id": "2619",
@@ -18353,59 +18322,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Northeastern",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/111/northeastern-huskies",
-              "id": "111",
-              "uid": "s:40~l:41~t:111",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-6",
-                  "displayValue": "1-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-11-06T15:47Z"
                 }
               ]
             },
@@ -18476,8 +18392,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "0-8",
-                  "displayValue": "0-8"
+                  "summary": "1-8",
+                  "displayValue": "1-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -18573,6 +18489,59 @@
                     "default"
                   ],
                   "lastUpdated": "2020-09-16T19:21Z"
+                }
+              ]
+            },
+            {
+              "team": "Miami",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2390/miami-hurricanes",
+              "id": "2390",
+              "uid": "s:40~l:41~t:2390",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-1",
+                  "displayValue": "8-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-11-19T19:02Z"
                 }
               ]
             },
@@ -18789,59 +18758,6 @@
               ]
             },
             {
-              "team": "Miami",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2390/miami-hurricanes",
-              "id": "2390",
-              "uid": "s:40~l:41~t:2390",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-1",
-                  "displayValue": "7-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-11-19T19:02Z"
-                }
-              ]
-            },
-            {
               "team": "Virginia Tech",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/259/virginia-tech-hokies",
               "id": "259",
@@ -18989,59 +18905,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Louisville",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/97/louisville-cardinals",
-              "id": "97",
-              "uid": "s:40~l:41~t:97",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "0-7",
-                  "displayValue": "0-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -19307,6 +19170,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Louisville",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/97/louisville-cardinals",
+              "id": "97",
+              "uid": "s:40~l:41~t:97",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "0-8",
+                  "displayValue": "0-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
