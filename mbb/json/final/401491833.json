@@ -21900,9 +21900,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1104/ss_20221104_153625833_2091186/ss_20221104_153625833_2091186_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1104/ss_20221104_153625833_2091186/ss_20221104_153625833_2091186/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1104/ss_20221104_153625833_2091186/ss_20221104_153625833_2091186/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1104/ss_20221104_153625833_2091186/ss_20221104_153625833_2091186/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1104/ss_20221104_153625833_2091186/ss_20221104_153625833_2091186/playlist.m3u8"
             }
           },
           "HD": {
@@ -22639,59 +22639,6 @@
         "standings": {
           "entries": [
             {
-              "team": "Yale",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
-              "id": "43",
-              "uid": "s:40~l:41~t:43",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-1",
-                  "displayValue": "8-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-03-16T19:55Z"
-                }
-              ]
-            },
-            {
               "team": "Cornell",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/172/cornell-big-red",
               "id": "172",
@@ -22741,6 +22688,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Yale",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/43/yale-bulldogs",
+              "id": "43",
+              "uid": "s:40~l:41~t:43",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-2",
+                  "displayValue": "8-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-03-16T19:55Z"
                 }
               ]
             },
@@ -23962,9 +23962,9 @@
         "moneyLine": 110,
         "spreadRecord": {
           "wins": 4,
-          "losses": 4,
+          "losses": 5,
           "pushes": 0,
-          "summary": "4-4-0"
+          "summary": "4-5-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2275"

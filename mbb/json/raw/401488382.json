@@ -17662,9 +17662,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1118/ss_20221118_212528195_2107566/ss_20221118_212528195_2107566_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_212528195_2107566/ss_20221118_212528195_2107566/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_212528195_2107566/ss_20221118_212528195_2107566/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_212528195_2107566/ss_20221118_212528195_2107566/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_212528195_2107566/ss_20221118_212528195_2107566/playlist.m3u8"
             }
           },
           "HD": {
@@ -17755,9 +17755,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1118/ss_20221118_213313539_2107597/ss_20221118_213313539_2107597_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_213313539_2107597/ss_20221118_213313539_2107597/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_213313539_2107597/ss_20221118_213313539_2107597/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_213313539_2107597/ss_20221118_213313539_2107597/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_213313539_2107597/ss_20221118_213313539_2107597/playlist.m3u8"
             }
           },
           "HD": {
@@ -17848,9 +17848,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1118/ss_20221118_224125846_2107751/ss_20221118_224125846_2107751_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_224125846_2107751/ss_20221118_224125846_2107751/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_224125846_2107751/ss_20221118_224125846_2107751/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_224125846_2107751/ss_20221118_224125846_2107751/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1118/ss_20221118_224125846_2107751/ss_20221118_224125846_2107751/playlist.m3u8"
             }
           },
           "HD": {
@@ -18008,8 +18008,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
+                  "summary": "6-2",
+                  "displayValue": "6-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -18036,6 +18036,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Kennesaw State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/338/kennesaw-state-owls",
+              "id": "338",
+              "uid": "s:40~l:41~t:338",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-3",
+                  "displayValue": "6-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18097,59 +18150,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-10-22T17:25Z"
-                }
-              ]
-            },
-            {
-              "team": "Kennesaw State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/338/kennesaw-state-owls",
-              "id": "338",
-              "uid": "s:40~l:41~t:338",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-3",
-                  "displayValue": "5-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -18538,8 +18538,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-6",
-                  "displayValue": "3-6"
+                  "summary": "4-6",
+                  "displayValue": "4-6"
                 },
                 {
                   "name": "gamesBehind",

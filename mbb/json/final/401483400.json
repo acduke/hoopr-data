@@ -21147,9 +21147,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1117/ss_20221117_130736743_2106343/ss_20221117_130736743_2106343_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1117/ss_20221117_130736743_2106343/ss_20221117_130736743_2106343/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1117/ss_20221117_130736743_2106343/ss_20221117_130736743_2106343/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1117/ss_20221117_130736743_2106343/ss_20221117_130736743_2106343/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1117/ss_20221117_130736743_2106343/ss_20221117_130736743_2106343/playlist.m3u8"
             }
           },
           "HD": {
@@ -21454,6 +21454,59 @@
               ]
             },
             {
+              "team": "Mercer",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2382/mercer-bears",
+              "id": "2382",
+              "uid": "s:40~l:41~t:2382",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "5-5",
+                  "displayValue": "5-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "East Tennessee State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2193/east-tennessee-state-buccaneers",
               "id": "2193",
@@ -21495,59 +21548,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Mercer",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2382/mercer-bears",
-              "id": "2382",
-              "uid": "s:40~l:41~t:2382",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "4-5",
-                  "displayValue": "4-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -23609,9 +23609,9 @@
         "moneyLine": -144,
         "spreadRecord": {
           "wins": 5,
-          "losses": 1,
+          "losses": 2,
           "pushes": 1,
-          "summary": "5-1-1"
+          "summary": "5-2-1"
         },
         "spreadOdds": -110.0,
         "teamId": "213"

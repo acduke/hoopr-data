@@ -3930,10 +3930,10 @@
         "underdog": true,
         "moneyLine": 166,
         "spreadRecord": {
-          "wins": 4,
+          "wins": 5,
           "losses": 4,
           "pushes": 0,
-          "summary": "4-4-0"
+          "summary": "5-4-0"
         },
         "spreadOdds": -111.0,
         "teamId": "284"
@@ -3945,9 +3945,9 @@
         "moneyLine": -198,
         "spreadRecord": {
           "wins": 2,
-          "losses": 4,
+          "losses": 5,
           "pushes": 0,
-          "summary": "2-4-0"
+          "summary": "2-5-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2066"
@@ -16456,9 +16456,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1203/dm_221203_dm_221203_NCB_Stonehill_winner/dm_221203_dm_221203_NCB_Stonehill_winner_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1203/dm_221203_dm_221203_NCB_Stonehill_winner/dm_221203_dm_221203_NCB_Stonehill_winner/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1203/dm_221203_dm_221203_NCB_Stonehill_winner/dm_221203_dm_221203_NCB_Stonehill_winner/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1203/dm_221203_dm_221203_NCB_Stonehill_winner/dm_221203_dm_221203_NCB_Stonehill_winner/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1203/dm_221203_dm_221203_NCB_Stonehill_winner/dm_221203_dm_221203_NCB_Stonehill_winner/playlist.m3u8"
             }
           },
           "HD": {
@@ -16496,59 +16496,6 @@
       {
         "standings": {
           "entries": [
-            {
-              "team": "Wagner",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2681/wagner-seahawks",
-              "id": "2681",
-              "uid": "s:40~l:41~t:2681",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "4-3",
-                  "displayValue": "4-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
             {
               "team": "Sacred Heart",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2529/sacred-heart-pioneers",
@@ -16616,8 +16563,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-4",
-                  "displayValue": "3-4"
+                  "summary": "4-4",
+                  "displayValue": "4-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -16652,6 +16599,59 @@
                     "default"
                   ],
                   "lastUpdated": "2020-09-08T15:53Z"
+                }
+              ]
+            },
+            {
+              "team": "Wagner",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2681/wagner-seahawks",
+              "id": "2681",
+              "uid": "s:40~l:41~t:2681",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "4-4",
+                  "displayValue": "4-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -17101,8 +17101,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-4",
-                  "displayValue": "5-4"
+                  "summary": "6-4",
+                  "displayValue": "6-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -17194,6 +17194,59 @@
               ]
             },
             {
+              "team": "Vermont",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/261/vermont-catamounts",
+              "id": "261",
+              "uid": "s:40~l:41~t:261",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "5-7",
+                  "displayValue": "5-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/261.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-01-16T22:18Z"
+                }
+              ]
+            },
+            {
               "team": "Binghamton",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2066/binghamton-bearcats",
               "id": "2066",
@@ -17247,10 +17300,10 @@
               ]
             },
             {
-              "team": "Vermont",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/261/vermont-catamounts",
-              "id": "261",
-              "uid": "s:40~l:41~t:261",
+              "team": "New Hampshire",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/160/new-hampshire-wildcats",
+              "id": "160",
+              "uid": "s:40~l:41~t:160",
               "stats": [
                 {
                   "id": "0",
@@ -17260,8 +17313,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
+                  "summary": "3-5",
+                  "displayValue": "3-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17287,7 +17340,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/261.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17295,7 +17348,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2019-01-16T22:18Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -17349,59 +17402,6 @@
                     "default"
                   ],
                   "lastUpdated": "2020-07-27T14:41Z"
-                }
-              ]
-            },
-            {
-              "team": "New Hampshire",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/160/new-hampshire-wildcats",
-              "id": "160",
-              "uid": "s:40~l:41~t:160",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-5",
-                  "displayValue": "2-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },

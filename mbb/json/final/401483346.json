@@ -4270,9 +4270,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1120/dm_221120_ncb_davis/dm_221120_ncb_davis_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1120/dm_221120_ncb_davis/dm_221120_ncb_davis/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1120/dm_221120_ncb_davis/dm_221120_ncb_davis/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1120/dm_221120_ncb_davis/dm_221120_ncb_davis/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1120/dm_221120_ncb_davis/dm_221120_ncb_davis/playlist.m3u8"
             }
           },
           "HD": {
@@ -4325,8 +4325,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-2",
-                  "displayValue": "6-2"
+                  "summary": "6-3",
+                  "displayValue": "6-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -4414,6 +4414,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-10-16T18:59Z"
+                }
+              ]
+            },
+            {
+              "team": "Buffalo",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2084/buffalo-bulls",
+              "id": "2084",
+              "uid": "s:40~l:41~t:2084",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "5-4",
+                  "displayValue": "5-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-03-01T22:14Z"
                 }
               ]
             },
@@ -4520,59 +4573,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Buffalo",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2084/buffalo-bulls",
-              "id": "2084",
-              "uid": "s:40~l:41~t:2084",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "4-4",
-                  "displayValue": "4-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-03-01T22:14Z"
                 }
               ]
             },
@@ -4855,8 +4855,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-6",
-                  "displayValue": "2-6"
+                  "summary": "3-6",
+                  "displayValue": "3-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -6640,9 +6640,9 @@
         "moneyLine": 1708,
         "spreadRecord": {
           "wins": 5,
-          "losses": 1,
+          "losses": 2,
           "pushes": 1,
-          "summary": "5-1-1"
+          "summary": "5-2-1"
         },
         "spreadOdds": -105.0,
         "teamId": "84"
