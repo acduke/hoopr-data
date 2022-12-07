@@ -40689,9 +40689,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1205/dm_221205_nba_harden/dm_221205_nba_harden_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1205/dm_221205_nba_harden/dm_221205_nba_harden/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1205/dm_221205_nba_harden/dm_221205_nba_harden/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1205/dm_221205_nba_harden/dm_221205_nba_harden/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1205/dm_221205_nba_harden/dm_221205_nba_harden/playlist.m3u8"
             }
           },
           "HD": {
@@ -40892,9 +40892,9 @@
             "href": "https://hds.video-cdn.espn.com/z/motion/2022/1205/dm_221205_gordon/dm_221205_gordon_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1205/dm_221205_gordon/dm_221205_gordon/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1205/dm_221205_gordon/dm_221205_gordon/playlist.m3u8",
             "HD": {
-              "href": "https://espnpackaging.akamaized.net/opp/hls/espn/2022/1205/dm_221205_gordon/dm_221205_gordon/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1205/dm_221205_gordon/dm_221205_gordon/playlist.m3u8"
             }
           },
           "HD": {
@@ -41535,8 +41535,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "name": "losses",
@@ -41555,8 +41555,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": 3.0,
+                  "displayValue": "W3"
                 },
                 {
                   "name": "winPercent",
@@ -41565,8 +41565,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5217391,
-                  "displayValue": ".522"
+                  "value": 0.5416667,
+                  "displayValue": ".542"
                 },
                 {
                   "name": "wins",
@@ -41575,8 +41575,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 12.0,
-                  "displayValue": "12"
+                  "value": 13.0,
+                  "displayValue": "13"
                 }
               ],
               "logo": [
@@ -43099,9 +43099,7 @@
       "id": "10"
     },
     "awayTeam": {
-      "id": "20",
-      "gameProjection": "77.1",
-      "teamChanceLoss": "22.9"
+      "id": "20"
     }
   },
   "espnWP": [],
