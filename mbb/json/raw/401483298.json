@@ -68,12 +68,6 @@
             "label": "Defensive Rebounds"
           },
           {
-            "name": "teamRebounds",
-            "displayValue": "0",
-            "abbreviation": "TREB",
-            "label": "Team Rebounds"
-          },
-          {
             "name": "assists",
             "displayValue": "22",
             "abbreviation": "AST",
@@ -206,12 +200,6 @@
             "displayValue": "28",
             "abbreviation": "DR",
             "label": "Defensive Rebounds"
-          },
-          {
-            "name": "teamRebounds",
-            "displayValue": "0",
-            "abbreviation": "TREB",
-            "label": "Team Rebounds"
           },
           {
             "name": "assists",
@@ -639,6 +627,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108827.png",
+                    "alt": "AC Curry"
+                  },
                   "jersey": "24",
                   "position": {
                     "name": "Guard",
@@ -944,6 +936,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108826.png",
+                    "alt": "Robert Lewis"
+                  },
                   "jersey": "22",
                   "position": {
                     "name": "Forward",
@@ -1043,6 +1039,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108823.png",
+                    "alt": "Orion Virden"
+                  },
                   "jersey": "4",
                   "position": {
                     "name": "Guard",
@@ -1344,6 +1344,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108828.png",
+                    "alt": "Caleb Stokes"
+                  },
                   "jersey": "32",
                   "position": {
                     "name": "Forward",
@@ -1429,6 +1433,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108824.png",
+                    "alt": "Rafael Martinez"
+                  },
                   "jersey": "5",
                   "position": {
                     "name": "Forward",
@@ -1514,6 +1522,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108825.png",
+                    "alt": "Samuel Da Cruz"
+                  },
                   "jersey": "12",
                   "position": {
                     "name": "Guard",
@@ -1599,6 +1611,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108822.png",
+                    "alt": "Kuron Coleman"
+                  },
                   "jersey": "3",
                   "position": {
                     "name": "Guard",
@@ -1684,6 +1700,10 @@
                       "text": "Overview"
                     }
                   ],
+                  "headshot": {
+                    "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108821.png",
+                    "alt": "Zach Reinhart"
+                  },
                   "jersey": "2",
                   "position": {
                     "name": "Guard",
@@ -19024,59 +19044,6 @@
               ]
             },
             {
-              "team": "Iowa State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/66/iowa-state-cyclones",
-              "id": "66",
-              "uid": "s:40~l:41~t:66",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-1",
-                  "displayValue": "7-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "TCU",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
               "id": "2628",
@@ -19232,6 +19199,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-02-16T17:25Z"
+                }
+              ]
+            },
+            {
+              "team": "Iowa State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/66/iowa-state-cyclones",
+              "id": "66",
+              "uid": "s:40~l:41~t:66",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-2",
+                  "displayValue": "7-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
