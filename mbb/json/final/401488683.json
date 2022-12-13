@@ -23109,7 +23109,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401488683",
+        "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401488683",
         "text": "Gamecast",
         "shortText": "Summary",
         "isExternal": false,
@@ -23133,7 +23133,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/boxscore/_/gameId/401488683",
+        "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401488683",
         "text": "Box Score",
         "shortText": "Box Score",
         "isExternal": false,
@@ -23145,7 +23145,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401488683",
+        "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401488683",
         "text": "Play-by-Play",
         "shortText": "Play-by-Play",
         "isExternal": false,
@@ -23768,6 +23768,59 @@
               ]
             },
             {
+              "team": "Little Rock",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2031/little-rock-trojans",
+              "id": "2031",
+              "uid": "s:40~l:41~t:2031",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "3-7",
+                  "displayValue": "3-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Tennessee Tech",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2635/tennessee-tech-golden-eagles",
               "id": "2635",
@@ -23817,59 +23870,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-12T21:43Z"
-                }
-              ]
-            },
-            {
-              "team": "Little Rock",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2031/little-rock-trojans",
-              "id": "2031",
-              "uid": "s:40~l:41~t:2031",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "2-7",
-                  "displayValue": "2-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -24425,8 +24425,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-6",
-                  "displayValue": "3-6"
+                  "summary": "3-7",
+                  "displayValue": "3-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -25253,10 +25253,10 @@
         "underdog": false,
         "moneyLine": -1637,
         "spreadRecord": {
-          "wins": 3,
+          "wins": 4,
           "losses": 4,
           "pushes": 0,
-          "summary": "3-4-0"
+          "summary": "4-4-0"
         },
         "spreadOdds": -110.0,
         "teamId": "195"

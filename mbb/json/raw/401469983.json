@@ -3929,9 +3929,9 @@
         "moneyLine": 115,
         "spreadRecord": {
           "wins": 6,
-          "losses": 2,
+          "losses": 3,
           "pushes": 0,
-          "summary": "6-2-0"
+          "summary": "6-3-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2754"
@@ -5799,7 +5799,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401469983",
+        "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401469983",
         "text": "Gamecast",
         "shortText": "Summary",
         "isExternal": false,
@@ -5823,7 +5823,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/boxscore/_/gameId/401469983",
+        "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401469983",
         "text": "Box Score",
         "shortText": "Box Score",
         "isExternal": false,
@@ -5835,7 +5835,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401469983",
+        "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401469983",
         "text": "Play-by-Play",
         "shortText": "Play-by-Play",
         "isExternal": false,
@@ -16632,6 +16632,59 @@
               ]
             },
             {
+              "team": "IUPUI",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/85/iupui-jaguars",
+              "id": "85",
+              "uid": "s:40~l:41~t:85",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-8",
+                  "displayValue": "2-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-2",
+                  "displayValue": "0-2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-11-19T16:22Z"
+                }
+              ]
+            },
+            {
               "team": "Oakland",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2473/oakland-golden-grizzlies",
               "id": "2473",
@@ -16681,59 +16734,6 @@
                     "default"
                   ],
                   "lastUpdated": "2021-08-10T19:28Z"
-                }
-              ]
-            },
-            {
-              "team": "IUPUI",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/85/iupui-jaguars",
-              "id": "85",
-              "uid": "s:40~l:41~t:85",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-8",
-                  "displayValue": "1-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-2",
-                  "displayValue": "0-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-11-19T16:22Z"
                 }
               ]
             }

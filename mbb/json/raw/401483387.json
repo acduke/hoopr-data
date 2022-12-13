@@ -2667,19 +2667,19 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
-                  "1-4",
-                  "0-2",
-                  "0-0",
+                  "38",
+                  "4-15",
+                  "2-7",
+                  "2-3",
+                  "0",
+                  "5",
+                  "5",
+                  "7",
+                  "1",
                   "0",
                   "1",
-                  "1",
-                  "1",
-                  "1",
-                  "0",
-                  "1",
-                  "1",
-                  "2"
+                  "2",
+                  "12"
                 ]
               },
               {
@@ -3769,8 +3769,8 @@
                   "shortDisplayName": "AST",
                   "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
                   "abbreviation": "AST",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "name": "turnovers",
@@ -3782,13 +3782,22 @@
                   "displayValue": "1"
                 },
                 {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 38.0,
+                  "displayValue": "38"
+                },
+                {
                   "name": "assistTurnoverRatio",
                   "displayName": "Assist To Turnover Ratio",
                   "shortDisplayName": "AST/TO",
                   "description": "The average number of assists a player or team records per turnover",
                   "abbreviation": "AST/TO",
-                  "value": 1.0,
-                  "displayValue": "1.0"
+                  "value": 7.0,
+                  "displayValue": "7.0"
                 }
               ]
             }
@@ -6263,7 +6272,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401483387",
+        "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401483387",
         "text": "Gamecast",
         "shortText": "Summary",
         "isExternal": false,
@@ -6287,7 +6296,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/boxscore/_/gameId/401483387",
+        "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401483387",
         "text": "Box Score",
         "shortText": "Box Score",
         "isExternal": false,
@@ -6299,7 +6308,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401483387",
+        "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401483387",
         "text": "Play-by-Play",
         "shortText": "Play-by-Play",
         "isExternal": false,
@@ -18278,8 +18287,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
+                  "summary": "3-6",
+                  "displayValue": "3-6"
                 },
                 {
                   "name": "gamesBehind",
