@@ -4961,9 +4961,9 @@
         "moneyLine": 198,
         "spreadRecord": {
           "wins": 3,
-          "losses": 4,
+          "losses": 5,
           "pushes": 0,
-          "summary": "3-4-0"
+          "summary": "3-5-0"
         },
         "spreadOdds": -110.0,
         "teamId": "28"
@@ -6965,7 +6965,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401487714",
+        "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401487714",
         "text": "Gamecast",
         "shortText": "Summary",
         "isExternal": false,
@@ -6989,7 +6989,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/boxscore/_/gameId/401487714",
+        "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401487714",
         "text": "Box Score",
         "shortText": "Box Score",
         "isExternal": false,
@@ -7001,7 +7001,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401487714",
+        "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401487714",
         "text": "Play-by-Play",
         "shortText": "Play-by-Play",
         "isExternal": false,
@@ -18202,7 +18202,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18223,6 +18223,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UC Davis",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
+              "id": "302",
+              "uid": "s:40~l:41~t:302",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-3",
+                  "displayValue": "7-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-19T17:34Z"
                 }
               ]
             },
@@ -18255,7 +18308,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18308,7 +18361,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18329,59 +18382,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "UC Davis",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/302/uc-davis-aggies",
-              "id": "302",
-              "uid": "s:40~l:41~t:302",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-19T17:34Z"
                 }
               ]
             },
@@ -18414,7 +18414,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18452,8 +18452,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-3",
-                  "displayValue": "5-3"
+                  "summary": "5-4",
+                  "displayValue": "5-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -18467,7 +18467,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18520,7 +18520,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18573,7 +18573,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18626,7 +18626,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18679,7 +18679,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18732,7 +18732,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18778,8 +18778,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-2",
-                  "displayValue": "7-2"
+                  "summary": "8-2",
+                  "displayValue": "8-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -18793,7 +18793,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18846,7 +18846,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18899,7 +18899,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -18937,8 +18937,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-5",
-                  "displayValue": "6-5"
+                  "summary": "7-5",
+                  "displayValue": "7-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -18952,7 +18952,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -19005,7 +19005,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -19058,7 +19058,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -19111,7 +19111,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -19149,8 +19149,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
+                  "summary": "4-8",
+                  "displayValue": "4-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -19164,7 +19164,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -19217,7 +19217,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -19270,7 +19270,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",

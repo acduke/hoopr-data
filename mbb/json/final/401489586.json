@@ -23046,7 +23046,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/game/_/gameId/401489586",
+        "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401489586",
         "text": "Gamecast",
         "shortText": "Summary",
         "isExternal": false,
@@ -23070,7 +23070,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/boxscore/_/gameId/401489586",
+        "href": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401489586",
         "text": "Box Score",
         "shortText": "Box Score",
         "isExternal": false,
@@ -23082,7 +23082,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401489586",
+        "href": "https://www.espn.com/mens-college-basketball/playbyplay/_/gameId/401489586",
         "text": "Play-by-Play",
         "shortText": "Play-by-Play",
         "isExternal": false,
@@ -23341,7 +23341,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23394,7 +23394,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23415,6 +23415,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-07-16T05:37Z"
+                }
+              ]
+            },
+            {
+              "team": "UT Martin",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2630/ut-martin-skyhawks",
+              "id": "2630",
+              "uid": "s:40~l:41~t:2630",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-5",
+                  "displayValue": "6-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -23447,7 +23500,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23500,7 +23553,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23553,7 +23606,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23574,59 +23627,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-07-22T17:32Z"
-                }
-              ]
-            },
-            {
-              "team": "UT Martin",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2630/ut-martin-skyhawks",
-              "id": "2630",
-              "uid": "s:40~l:41~t:2630",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-5",
-                  "displayValue": "5-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -23659,7 +23659,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23712,7 +23712,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23765,7 +23765,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23818,7 +23818,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23879,7 +23879,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23932,7 +23932,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -23970,8 +23970,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-4",
-                  "displayValue": "8-4"
+                  "summary": "9-4",
+                  "displayValue": "9-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -23985,7 +23985,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -24038,7 +24038,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -24091,7 +24091,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -24144,7 +24144,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -24197,7 +24197,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -24210,6 +24210,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Omaha",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2437/omaha-mavericks",
+              "id": "2437",
+              "uid": "s:40~l:41~t:2437",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "4-8",
+                  "displayValue": "4-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -24250,7 +24303,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
@@ -24271,59 +24324,6 @@
                     "default"
                   ],
                   "lastUpdated": "2021-06-30T17:16Z"
-                }
-              ]
-            },
-            {
-              "team": "Omaha",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2437/omaha-mavericks",
-              "id": "2437",
-              "uid": "s:40~l:41~t:2437",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "3-8",
-                  "displayValue": "3-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs Conference",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -24356,7 +24356,7 @@
                 },
                 {
                   "id": "9",
-                  "name": "vs Conference",
+                  "name": "vs. Conf.",
                   "abbreviation": "VS CONF",
                   "displayName": "CONF",
                   "shortDisplayName": "CONF",
