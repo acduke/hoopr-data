@@ -3722,15 +3722,15 @@
           "uid": "s:40~l:46~e:401468570~c:401468570",
           "date": "2022-12-15T00:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Wed, December 14th at 7:00 PM EST",
-            "shortDetail": "12/14 - 7:00 PM EST"
+            "description": "In Progress",
+            "detail": "4:16 - 3rd Quarter",
+            "shortDetail": "4:16 - 3rd"
           },
           "broadcasts": [],
           "competitors": [
@@ -3753,7 +3753,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
               },
-              "score": "0"
+              "score": "83"
             },
             {
               "homeAway": "away",
@@ -3774,34 +3774,34 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
               },
-              "score": "0"
+              "score": "79"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401468570",
+              "href": "https://www.espn.com/nba/game?gameId=401468570",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401468570",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
@@ -24326,6 +24326,7 @@
       {
         "source": "espn",
         "id": 35187987,
+        "guid": "584d21bc-4ca2-33d2-967a-210441c34f0d",
         "headline": "This Steph video would be even better if it were real",
         "caption": "Mike Greenberg, Dan Orlovsky, Ryan Clark and Rex Ryan discuss whether a video showing Steph Curry making five full-court shots in a row is real.",
         "description": "Mike Greenberg, Dan Orlovsky, Ryan Clark and Rex Ryan discuss whether a video showing Steph Curry making five full-court shots in a row is real.",
@@ -24671,6 +24672,7 @@
     "linkText": "Rookie Nembhard has 31, leads Pacers past Warriors, 112-104",
     "published": "2022-12-06T05:57:18Z",
     "allowComments": true,
+    "guid": "ab69ba02-8c00-34b5-891d-d5d8761c461c",
     "lastModified": "2022-12-06T06:13:18Z",
     "metrics": [
       {
@@ -28528,8 +28530,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "name": "losses",
@@ -28538,8 +28540,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 15.0,
-                  "displayValue": "15"
+                  "value": 16.0,
+                  "displayValue": "16"
                 },
                 {
                   "name": "streak",
@@ -28548,8 +28550,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -28558,8 +28560,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.42307693,
-                  "displayValue": ".423"
+                  "value": 0.4074074,
+                  "displayValue": ".407"
                 },
                 {
                   "name": "wins",
