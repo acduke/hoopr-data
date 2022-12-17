@@ -24315,7 +24315,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24368,7 +24368,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24421,7 +24421,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24474,7 +24474,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24527,7 +24527,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24580,7 +24580,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24626,6 +24626,59 @@
               ]
             },
             {
+              "team": "Central Connecticut",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2115/central-connecticut-blue-devils",
+              "id": "2115",
+              "uid": "s:40~l:41~t:2115",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "2-10",
+                  "displayValue": "2-10"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Merrimack",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2771/merrimack-warriors",
               "id": "2771",
@@ -24633,7 +24686,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24686,7 +24739,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -24728,59 +24781,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-28T18:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Central Connecticut",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2115/central-connecticut-blue-devils",
-              "id": "2115",
-              "uid": "s:40~l:41~t:2115",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "1-10",
-                  "displayValue": "1-10"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }

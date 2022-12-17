@@ -16874,7 +16874,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -16927,7 +16927,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -16980,7 +16980,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17033,7 +17033,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17086,7 +17086,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17139,7 +17139,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17192,7 +17192,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17245,7 +17245,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17291,59 +17291,6 @@
               ]
             },
             {
-              "team": "St. Bonaventure",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/179/st-bonaventure-bonnies",
-              "id": "179",
-              "uid": "s:40~l:41~t:179",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "Season",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "6-4",
-                  "displayValue": "6-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-13T20:28Z"
-                }
-              ]
-            },
-            {
               "team": "Dayton",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2168/dayton-flyers",
               "id": "2168",
@@ -17351,7 +17298,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17397,6 +17344,59 @@
               ]
             },
             {
+              "team": "St. Bonaventure",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/179/st-bonaventure-bonnies",
+              "id": "179",
+              "uid": "s:40~l:41~t:179",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-5",
+                  "displayValue": "6-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-08-13T20:28Z"
+                }
+              ]
+            },
+            {
               "team": "La Salle",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2325/la-salle-explorers",
               "id": "2325",
@@ -17404,7 +17404,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17457,7 +17457,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17510,7 +17510,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17563,7 +17563,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17616,7 +17616,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17677,7 +17677,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17730,7 +17730,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17783,7 +17783,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17836,14 +17836,14 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-4",
-                  "displayValue": "6-4"
+                  "summary": "7-4",
+                  "displayValue": "7-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -17889,7 +17889,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17942,7 +17942,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -17995,7 +17995,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -18048,7 +18048,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -18101,7 +18101,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -18154,7 +18154,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -18207,14 +18207,14 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-7",
-                  "displayValue": "3-7"
+                  "summary": "3-8",
+                  "displayValue": "3-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -18260,7 +18260,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
@@ -18313,7 +18313,7 @@
               "stats": [
                 {
                   "id": "0",
-                  "name": "Season",
+                  "name": "overall",
                   "abbreviation": "Season",
                   "displayName": "Team Season Record",
                   "shortDisplayName": "Season",
