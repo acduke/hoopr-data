@@ -203,7 +203,7 @@
           },
           {
             "name": "totalRebounds",
-            "displayValue": "53",
+            "displayValue": "54",
             "abbreviation": "REB",
             "label": "Rebounds"
           },
@@ -215,7 +215,7 @@
           },
           {
             "name": "defensiveRebounds",
-            "displayValue": "44",
+            "displayValue": "45",
             "abbreviation": "DR",
             "label": "Defensive Rebounds"
           },
@@ -954,7 +954,7 @@
                   "0",
                   "0",
                   "1",
-                  "+9",
+                  "+10",
                   "3"
                 ]
               },
@@ -1059,7 +1059,7 @@
                   "19",
                   "3-4",
                   "0-0",
-                  "4-4",
+                  "5-6",
                   "0",
                   "8",
                   "8",
@@ -1069,7 +1069,7 @@
                   "1",
                   "2",
                   "-13",
-                  "10"
+                  "11"
                 ]
               },
               {
@@ -1296,7 +1296,7 @@
                   "0",
                   "0",
                   "2",
-                  "-8",
+                  "-9",
                   "2"
                 ]
               },
@@ -1515,7 +1515,7 @@
                   "34",
                   "5-14",
                   "2-9",
-                  "3-4",
+                  "2-2",
                   "0",
                   "1",
                   "1",
@@ -1525,7 +1525,7 @@
                   "1",
                   "1",
                   "-2",
-                  "15"
+                  "14"
                 ]
               },
               {
@@ -3085,8 +3085,8 @@
                   "2-5",
                   "4-6",
                   "1",
-                  "6",
                   "7",
+                  "8",
                   "4",
                   "0",
                   "0",
@@ -3103,8 +3103,8 @@
               "19-45",
               "20-31",
               "9",
-              "44",
-              "53",
+              "45",
+              "54",
               "29",
               "7",
               "0",
@@ -3361,13 +3361,13 @@
             {
               "displayValue": "8",
               "athlete": {
-                "id": "3133626",
-                "uid": "s:40~l:46~a:3133626",
-                "guid": "5dbafed64f212177c97368422587ed03",
-                "lastName": "Williams",
-                "fullName": "Kenrich Williams",
-                "displayName": "Kenrich Williams",
-                "shortName": "K. Williams",
+                "id": "4397183",
+                "uid": "s:40~l:46~a:4397183",
+                "guid": "f22ab0b791ee77c3f4c940138ecdaa1b",
+                "lastName": "Wiggins",
+                "fullName": "Aaron Wiggins",
+                "displayName": "Aaron Wiggins",
+                "shortName": "A. Wiggins",
                 "links": [
                   {
                     "rel": [
@@ -3375,17 +3375,17 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/nba/player/_/id/3133626/kenrich-williams",
+                    "href": "https://www.espn.com/nba/player/_/id/4397183/aaron-wiggins",
                     "text": "Player Card"
                   }
                 ],
                 "headshot": {
-                  "href": "https://a.espncdn.com/i/headshots/nba/players/full/3133626.png",
-                  "alt": "Kenrich Williams"
+                  "href": "https://a.espncdn.com/i/headshots/nba/players/full/4397183.png",
+                  "alt": "Aaron Wiggins"
                 },
-                "jersey": "34",
+                "jersey": "21",
                 "position": {
-                  "abbreviation": "SF"
+                  "abbreviation": "SG"
                 },
                 "team": {
                   "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2023/teams/25?lang=en&region=us"
@@ -3407,8 +3407,8 @@
                   "shortDisplayName": "DREB",
                   "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
                   "abbreviation": "DR",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "name": "offensiveRebounds",
@@ -3416,8 +3416,8 @@
                   "shortDisplayName": "OREB",
                   "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
                   "abbreviation": "OR",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.0,
+                  "displayValue": "1"
                 }
               ]
             }
@@ -4045,9 +4045,7 @@
       "id": "25"
     },
     "awayTeam": {
-      "id": "29",
-      "gameProjection": "85.2",
-      "teamChanceLoss": "14.8"
+      "id": "29"
     }
   },
   "pickcenter": [
@@ -4132,10 +4130,10 @@
         "underdog": true,
         "moneyLine": 444,
         "spreadRecord": {
-          "wins": 17,
+          "wins": 18,
           "losses": 12,
           "pushes": 0,
-          "summary": "17-12-0"
+          "summary": "18-12-0"
         },
         "spreadOdds": -108.0,
         "teamId": "25"
@@ -28928,8 +28926,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -28938,8 +28936,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.60714287,
-                  "displayValue": ".607"
+                  "value": 0.62068963,
+                  "displayValue": ".621"
                 },
                 {
                   "name": "wins",
@@ -28948,8 +28946,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 17.0,
-                  "displayValue": "17"
+                  "value": 18.0,
+                  "displayValue": "18"
                 }
               ],
               "logo": [
@@ -28991,8 +28989,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "name": "losses",
@@ -29074,8 +29072,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "name": "losses",
@@ -29177,8 +29175,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -29187,8 +29185,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.4827586,
-                  "displayValue": ".483"
+                  "value": 0.5,
+                  "displayValue": ".500"
                 },
                 {
                   "name": "wins",
@@ -29197,8 +29195,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 14.0,
-                  "displayValue": "14"
+                  "value": 15.0,
+                  "displayValue": "15"
                 }
               ],
               "logo": [
@@ -29240,8 +29238,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 6.5,
+                  "displayValue": "6.5"
                 },
                 {
                   "name": "losses",
