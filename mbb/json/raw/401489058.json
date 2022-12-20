@@ -143,23 +143,23 @@
         "statistics": [
           {
             "name": "fieldGoalsMade-fieldGoalsAttempted",
-            "displayValue": "35-64",
+            "displayValue": "35-67",
             "label": "FG"
           },
           {
             "name": "fieldGoalPct",
-            "displayValue": "54.7",
+            "displayValue": "52.2",
             "abbreviation": "FG%",
             "label": "Field Goal %"
           },
           {
             "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-            "displayValue": "19-37",
+            "displayValue": "19-40",
             "label": "3PT"
           },
           {
             "name": "threePointFieldGoalPct",
-            "displayValue": "51.4",
+            "displayValue": "47.5",
             "abbreviation": "3P%",
             "label": "Three Point %"
           },
@@ -176,13 +176,13 @@
           },
           {
             "name": "totalRebounds",
-            "displayValue": "30",
+            "displayValue": "32",
             "abbreviation": "REB",
             "label": "Rebounds"
           },
           {
             "name": "offensiveRebounds",
-            "displayValue": "10",
+            "displayValue": "12",
             "abbreviation": "OR",
             "label": "Offensive Rebounds"
           },
@@ -194,13 +194,13 @@
           },
           {
             "name": "assists",
-            "displayValue": "22",
+            "displayValue": "23",
             "abbreviation": "AST",
             "label": "Assists"
           },
           {
             "name": "steals",
-            "displayValue": "14",
+            "displayValue": "15",
             "abbreviation": "STL",
             "label": "Steals"
           },
@@ -2378,8 +2378,8 @@
                 "ejected": false,
                 "stats": [
                   "21",
+                  "5-10",
                   "5-9",
-                  "5-8",
                   "0-0",
                   "0",
                   "1",
@@ -2687,12 +2687,12 @@
                 "ejected": false,
                 "stats": [
                   "23",
-                  "1-2",
+                  "1-3",
                   "0-0",
                   "3-6",
-                  "2",
+                  "4",
                   "3",
-                  "5",
+                  "7",
                   "0",
                   "0",
                   "2",
@@ -2893,18 +2893,18 @@
                 "ejected": false,
                 "stats": [
                   "17",
-                  "4-9",
-                  "4-9",
+                  "3-8",
+                  "3-8",
                   "0-0",
-                  "0",
+                  "1",
                   "2",
-                  "2",
+                  "3",
                   "3",
                   "1",
                   "0",
                   "0",
                   "2",
-                  "12"
+                  "9"
                 ]
               },
               {
@@ -2996,8 +2996,8 @@
                 "ejected": false,
                 "stats": [
                   "17",
-                  "4-6",
-                  "1-3",
+                  "5-7",
+                  "2-4",
                   "0-0",
                   "2",
                   "2",
@@ -3007,7 +3007,7 @@
                   "0",
                   "0",
                   "4",
-                  "9"
+                  "12"
                 ]
               },
               {
@@ -3202,14 +3202,14 @@
                 "ejected": false,
                 "stats": [
                   "23",
-                  "2-7",
-                  "0-0",
+                  "2-8",
+                  "0-2",
                   "1-2",
-                  "2",
                   "1",
-                  "3",
-                  "3",
-                  "3",
+                  "1",
+                  "2",
+                  "4",
+                  "4",
                   "0",
                   "1",
                   "3",
@@ -3753,14 +3753,14 @@
             ],
             "totals": [
               "",
-              "35-64",
-              "19-37",
+              "35-67",
+              "19-40",
               "11-20",
-              "10",
+              "12",
               "20",
-              "30",
-              "22",
-              "14",
+              "32",
+              "23",
+              "15",
               "2",
               "10",
               "20",
@@ -3898,8 +3898,8 @@
                   "shortDisplayName": "FG",
                   "description": "Field Goal makes and attempts.",
                   "abbreviation": "FG",
-                  "value": 0.555556,
-                  "displayValue": "5/9"
+                  "value": 0.5,
+                  "displayValue": "5/10"
                 },
                 {
                   "name": "freeThrows",
@@ -4819,59 +4819,6 @@
               ]
             },
             {
-              "team": "San Francisco",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2539/san-francisco-dons",
-              "id": "2539",
-              "uid": "s:40~l:41~t:2539",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "9-3",
-                  "displayValue": "9-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Loyola Marymount",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2351/loyola-marymount-lions",
               "id": "2351",
@@ -4966,6 +4913,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "San Francisco",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2539/san-francisco-dons",
+              "id": "2539",
+              "uid": "s:40~l:41~t:2539",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "9-4",
+                  "displayValue": "9-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -5084,6 +5084,59 @@
               ]
             },
             {
+              "team": "Pepperdine",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2492/pepperdine-waves",
+              "id": "2492",
+              "uid": "s:40~l:41~t:2492",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-5",
+                  "displayValue": "6-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "San Diego",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros",
               "id": "301",
@@ -5125,59 +5178,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Pepperdine",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2492/pepperdine-waves",
-              "id": "2492",
-              "uid": "s:40~l:41~t:2492",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-5",
-                  "displayValue": "5-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
