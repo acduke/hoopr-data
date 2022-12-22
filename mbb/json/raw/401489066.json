@@ -436,7 +436,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "21",
                   "1-1",
                   "0-0",
                   "1-2",
@@ -539,7 +539,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "23",
                   "0-2",
                   "0-1",
                   "2-4",
@@ -642,7 +642,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "34",
                   "5-15",
                   "1-2",
                   "2-3",
@@ -745,7 +745,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "26",
                   "3-10",
                   "1-5",
                   "2-2",
@@ -848,7 +848,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "37",
                   "9-18",
                   "3-4",
                   "3-6",
@@ -951,7 +951,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "8",
                   "1-1",
                   "0-0",
                   "0-0",
@@ -1054,7 +1054,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "21",
                   "4-7",
                   "2-3",
                   "3-3",
@@ -1157,7 +1157,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "15",
                   "2-5",
                   "0-2",
                   "0-0",
@@ -1260,7 +1260,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "15",
                   "2-5",
                   "1-3",
                   "2-2",
@@ -2167,7 +2167,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "28",
                   "5-13",
                   "2-8",
                   "2-3",
@@ -2270,7 +2270,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "24",
                   "7-12",
                   "0-0",
                   "3-5",
@@ -2373,7 +2373,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "40",
                   "1-8",
                   "1-5",
                   "0-1",
@@ -2476,7 +2476,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "29",
                   "0-6",
                   "0-3",
                   "3-4",
@@ -2579,7 +2579,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "39",
                   "10-19",
                   "0-1",
                   "6-7",
@@ -2682,7 +2682,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "18",
                   "1-3",
                   "0-1",
                   "1-2",
@@ -2785,7 +2785,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "21",
                   "0-7",
                   "0-1",
                   "6-6",
@@ -2888,7 +2888,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "1",
                   "0-0",
                   "0-0",
                   "0-0",
@@ -3581,7 +3581,39 @@
         }
       ]
     },
-    "attendance": 0
+    "attendance": 5064,
+    "officials": [
+      {
+        "fullName": "Jim Schipper",
+        "displayName": "Jim Schipper",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Daryl Gelinas",
+        "displayName": "Daryl Gelinas",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "David Hall",
+        "displayName": "David Hall",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "leaders": [
     {
@@ -3721,6 +3753,15 @@
                   "abbreviation": "TO",
                   "value": 3.0,
                   "displayValue": "3"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 39.0,
+                  "displayValue": "39"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -3940,6 +3981,15 @@
                   "abbreviation": "TO",
                   "value": 2.0,
                   "displayValue": "2"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 37.0,
+                  "displayValue": "37"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -6109,8 +6159,8 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
-        "boxscoreSource": "basic",
+        "recent": false,
+        "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
           {
@@ -6314,6 +6364,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401489066",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401489066",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -18630,7 +18692,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Trey Woodbury scored 24 points, grabbed nine rebounds and had six assists and helped Utah Valley withstand a late comeback to post a 77-72 win over Oregon on Tuesday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35295768",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35295768"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401489066"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401489066",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35295768"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401489066&version=mobile"
+      }
+    },
+    "id": 35295768,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3351,
+        "description": "Oregon Ducks",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2483,
+        "team": {
+          "id": 2483,
+          "description": "Oregon Ducks",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2483"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2483/oregon-ducks"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2483"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2483"
+      },
+      {
+        "id": 22587,
+        "description": "Utah Valley Wolverines",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 3084,
+        "team": {
+          "id": 3084,
+          "description": "Utah Valley Wolverines",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/3084"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=3084"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:3084"
+      }
+    ],
+    "headline": "Utah Valley holds off late Oregon comeback to win 77-72",
+    "gameId": "401489066",
+    "images": [],
+    "linkText": "Utah Valley holds off late Oregon comeback to win 77-72",
+    "published": "2022-12-21T06:15:12Z",
+    "allowComments": true,
+    "guid": "72482e80-f819-3d56-a94b-19e83777ff9d",
+    "lastModified": "2022-12-21T06:15:13Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">EUGENE, Ore. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397434/trey-woodbury\">Trey Woodbury</a> scored 24 points, grabbed nine rebounds and had six assists and helped Utah Valley withstand a late comeback to post a 77-72 win over Oregon on Tuesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Wolverines took a 17-point lead into intermission, but Oregon whittled it away in the second half, getting the deficit to single digits for good on a layup by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432996/quincy-guerrier\">Quincy Guerrier</a> with 7:14 left, and his 3 with 5:51 left made it a two-possession game, 62-58.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Utah Valley managed to parry Oregon's every thrust down the stretch. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702362/le'tre-darthard\">Le'Tre Darthard</a> knocked down a 3 with 3:44 left to push the lead to seven, 68-61. Guerrier hit a clutch 3 and hit two free throws with 1:22 left to get within two, but Woodbury came out of a Utah Valley timeout to stick a pull-up 17-footer with just over a minute to go and added a free throw with :29 left to make it a five-point game. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593745/blaze-nield\">Blaze Nield</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4896970/justin-harmon\">Justin Harmon</a> both hit a pair of free throws in the final 13 seconds to preserve the win. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Harmon and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593882/tim-ceaser\">Tim Ceaser</a> each scored 13 points for Utah Valley (8-4), which has now won six straight games. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397101/will-richardson\">Will Richardson</a> finished with 26 points, seven rebound and four assists to lead the Ducks (7-5). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592401/n'faly-dante\">N'Faly Dante</a> posted a double-double with 17 points and 15 rebounds and Guerrier had 14 points and seven rebounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Oregon had its three-game win streak snapped. The Ducks will host Oregon State on New Year's Eve.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">----"
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -18907,60 +19131,8 @@
               ]
             },
             {
-              "team": "Southern Utah",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/253/southern-utah-thunderbirds",
-              "id": "253",
-              "uid": "s:40~l:41~t:253",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-4",
-                  "displayValue": "8-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "UT Rio Grande Valley",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/292/ut-rio-grande-valley-vaqueros",
               "id": "292",
               "uid": "s:40~l:41~t:292",
               "stats": [
@@ -19012,59 +19184,6 @@
               ]
             },
             {
-              "team": "New Mexico State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies",
-              "id": "166",
-              "uid": "s:40~l:41~t:166",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "6-4",
-                  "displayValue": "6-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Abilene Christian",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
               "id": "2000",
@@ -19078,8 +19197,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-5",
-                  "displayValue": "7-5"
+                  "summary": "8-5",
+                  "displayValue": "8-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -19106,6 +19225,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Southern Utah",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/253/southern-utah-thunderbirds",
+              "id": "253",
+              "uid": "s:40~l:41~t:253",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-5",
+                  "displayValue": "8-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -19224,6 +19396,59 @@
               ]
             },
             {
+              "team": "New Mexico State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies",
+              "id": "166",
+              "uid": "s:40~l:41~t:166",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-5",
+                  "displayValue": "6-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Tarleton",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2627/tarleton-texans",
               "id": "2627",
@@ -19237,8 +19462,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-6",
-                  "displayValue": "5-6"
+                  "summary": "6-6",
+                  "displayValue": "6-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -19290,8 +19515,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-7",
-                  "displayValue": "5-7"
+                  "summary": "5-8",
+                  "displayValue": "5-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -19351,8 +19576,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-1",
-                  "displayValue": "11-1"
+                  "summary": "11-2",
+                  "displayValue": "11-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -19404,8 +19629,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-2",
-                  "displayValue": "10-2"
+                  "summary": "11-2",
+                  "displayValue": "11-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -19510,8 +19735,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-3",
-                  "displayValue": "9-3"
+                  "summary": "9-4",
+                  "displayValue": "9-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -19616,8 +19841,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-3",
-                  "displayValue": "9-3"
+                  "summary": "9-4",
+                  "displayValue": "9-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -19652,6 +19877,59 @@
                     "default"
                   ],
                   "lastUpdated": "2019-07-12T19:04Z"
+                }
+              ]
+            },
+            {
+              "team": "Oregon State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/204/oregon-state-beavers",
+              "id": "204",
+              "uid": "s:40~l:41~t:204",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-6",
+                  "displayValue": "7-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-1",
+                  "displayValue": "1-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -19709,59 +19987,6 @@
               ]
             },
             {
-              "team": "Oregon State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/204/oregon-state-beavers",
-              "id": "204",
-              "uid": "s:40~l:41~t:204",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "6-6",
-                  "displayValue": "6-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Colorado",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/38/colorado-buffaloes",
               "id": "38",
@@ -19775,8 +20000,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-5",
-                  "displayValue": "7-5"
+                  "summary": "8-5",
+                  "displayValue": "8-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -19934,8 +20159,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "0-12",
-                  "displayValue": "0-12"
+                  "summary": "1-12",
+                  "displayValue": "1-12"
                 },
                 {
                   "name": "gamesBehind",
