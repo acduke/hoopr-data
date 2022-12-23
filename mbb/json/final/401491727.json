@@ -20106,7 +20106,7 @@
           },
           {
             "name": "turnovers",
-            "displayValue": "12",
+            "displayValue": "13",
             "abbreviation": "TO",
             "label": "Turnovers"
           },
@@ -20118,7 +20118,7 @@
           },
           {
             "name": "totalTurnovers",
-            "displayValue": "12",
+            "displayValue": "13",
             "abbreviation": "ToTO",
             "label": "Total Turnovers"
           },
@@ -23866,7 +23866,7 @@
                   "1",
                   "1",
                   "0",
-                  "1",
+                  "2",
                   "1",
                   "21"
                 ]
@@ -25153,7 +25153,7 @@
               "14",
               "4",
               "3",
-              "12",
+              "13",
               "13",
               "100"
             ]
@@ -26090,6 +26090,59 @@
               ]
             },
             {
+              "team": "Charleston Southern",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2127/charleston-southern-buccaneers",
+              "id": "2127",
+              "uid": "s:40~l:41~t:2127",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "4-7",
+                  "displayValue": "4-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-06-30T22:04Z"
+                }
+              ]
+            },
+            {
               "team": "Presbyterian",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2506/presbyterian-blue-hose",
               "id": "2506",
@@ -26139,59 +26192,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Charleston Southern",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2127/charleston-southern-buccaneers",
-              "id": "2127",
-              "uid": "s:40~l:41~t:2127",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "3-7",
-                  "displayValue": "3-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-06-30T22:04Z"
                 }
               ]
             }

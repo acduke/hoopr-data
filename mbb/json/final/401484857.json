@@ -22619,6 +22619,18 @@
         "shortText": "Team Stats",
         "isExternal": false,
         "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/video?gameId=401484857",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
       }
     ],
     "week": 7,
@@ -22821,7 +22833,101 @@
     }
   },
   "broadcasts": [],
-  "videos": [],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 35304727,
+      "headline": "Tom Izzo, sporting an elf sweater, gets T'd up",
+      "description": "Michigan State coach Tom Izzo argues a foul call and quickly is assessed a technical foul.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncbgamehighlights"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "NCB_One-Play (Tom Izzo, sporting an elf sweater, gets T'd up) 2022/12/22 ESHEET",
+        "trackingId": "dm_221222_ncb_izzo_tech"
+      },
+      "cerebroId": "63a478deca84b751bdebd47d",
+      "lastModified": "2022-12-22T15:35:50Z",
+      "originalPublishDate": "2022-12-22T15:32:02Z",
+      "timeRestrictions": {
+        "embargoDate": "2022-12-22T15:32:02Z",
+        "expirationDate": "2023-04-30T14:32:02Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 26,
+      "thumbnail": "https://a.espncdn.com/media/motion/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35304727"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/12101792-74bb-4a36-be37-6ebaf5e38255"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35304727&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35304727"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35304727&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35304727&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/dm_221222_ncb_izzo_tech/dm_221222_ncb_izzo_tech.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12101792-74bb-4a36-be37-6ebaf5e38255/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35304727",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12101792-74bb-4a36-be37-6ebaf5e38255/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35304727"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12101792-74bb-4a36-be37-6ebaf5e38255/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35304727"
+          }
+        }
+      }
+    }
+  ],
   "playByPlaySource": "full",
   "standings": {
     "fullViewLink": {
@@ -23270,8 +23376,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-6",
-                  "displayValue": "6-6"
+                  "summary": "7-6",
+                  "displayValue": "7-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -23755,8 +23861,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-3",
-                  "displayValue": "8-3"
+                  "summary": "9-3",
+                  "displayValue": "9-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -23808,8 +23914,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-3",
-                  "displayValue": "8-3"
+                  "summary": "9-3",
+                  "displayValue": "9-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -24020,8 +24126,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-3",
-                  "displayValue": "8-3"
+                  "summary": "8-4",
+                  "displayValue": "8-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -24126,8 +24232,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-6",
-                  "displayValue": "5-6"
+                  "summary": "6-6",
+                  "displayValue": "6-6"
                 },
                 {
                   "name": "gamesBehind",

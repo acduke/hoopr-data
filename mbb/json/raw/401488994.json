@@ -2054,8 +2054,8 @@
                   "0-1",
                   "11-13",
                   "2",
-                  "7",
-                  "9",
+                  "8",
+                  "10",
                   "0",
                   "1",
                   "6",
@@ -2157,8 +2157,8 @@
                   "0-0",
                   "6-9",
                   "0",
-                  "2",
-                  "2",
+                  "1",
+                  "1",
                   "6",
                   "2",
                   "0",
@@ -3549,7 +3549,7 @@
           "displayName": "Rebounds",
           "leaders": [
             {
-              "displayValue": "9",
+              "displayValue": "10",
               "athlete": {
                 "id": "5107818",
                 "uid": "s:40~l:41~a:5107818",
@@ -3585,8 +3585,8 @@
                   "shortDisplayName": "REB",
                   "description": "The total number of rebounds (offensive and defensive).",
                   "abbreviation": "REB",
-                  "value": 9.0,
-                  "displayValue": "9"
+                  "value": 10.0,
+                  "displayValue": "10"
                 },
                 {
                   "name": "defensiveRebounds",
@@ -3594,8 +3594,8 @@
                   "shortDisplayName": "DREB",
                   "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
                   "abbreviation": "DR",
-                  "value": 7.0,
-                  "displayValue": "7"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "name": "offensiveRebounds",
@@ -17221,6 +17221,59 @@
               ]
             },
             {
+              "team": "Portland State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2502/portland-state-vikings",
+              "id": "2502",
+              "uid": "s:40~l:41~t:2502",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-7",
+                  "displayValue": "6-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Northern Colorado",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
               "id": "2458",
@@ -17274,59 +17327,6 @@
               ]
             },
             {
-              "team": "Portland State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2502/portland-state-vikings",
-              "id": "2502",
-              "uid": "s:40~l:41~t:2502",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-7",
-                  "displayValue": "5-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Weber State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2692/weber-state-wildcats",
               "id": "2692",
@@ -17340,8 +17340,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-7",
-                  "displayValue": "5-7"
+                  "summary": "5-8",
+                  "displayValue": "5-8"
                 },
                 {
                   "name": "gamesBehind",

@@ -51,7 +51,7 @@
           },
           {
             "name": "totalRebounds",
-            "displayValue": "33",
+            "displayValue": "32",
             "abbreviation": "REB",
             "label": "Rebounds"
           },
@@ -63,7 +63,7 @@
           },
           {
             "name": "defensiveRebounds",
-            "displayValue": "21",
+            "displayValue": "20",
             "abbreviation": "DR",
             "label": "Defensive Rebounds"
           },
@@ -75,7 +75,7 @@
           },
           {
             "name": "steals",
-            "displayValue": "3",
+            "displayValue": "5",
             "abbreviation": "STL",
             "label": "Steals"
           },
@@ -87,7 +87,7 @@
           },
           {
             "name": "turnovers",
-            "displayValue": "19",
+            "displayValue": "20",
             "abbreviation": "TO",
             "label": "Turnovers"
           },
@@ -99,7 +99,7 @@
           },
           {
             "name": "totalTurnovers",
-            "displayValue": "19",
+            "displayValue": "20",
             "abbreviation": "ToTO",
             "label": "Total Turnovers"
           },
@@ -652,7 +652,7 @@
                   "0",
                   "0",
                   "0",
-                  "1",
+                  "2",
                   "1",
                   "0"
                 ]
@@ -1371,7 +1371,7 @@
                   "2",
                   "3",
                   "1",
-                  "0",
+                  "1",
                   "0",
                   "4",
                   "2",
@@ -1471,10 +1471,10 @@
                   "0-2",
                   "0-0",
                   "1",
+                  "2",
                   "3",
-                  "4",
                   "0",
-                  "0",
+                  "1",
                   "0",
                   "0",
                   "1",
@@ -1844,12 +1844,12 @@
               "6-20",
               "6-10",
               "12",
-              "21",
-              "33",
+              "20",
+              "32",
               "7",
-              "3",
+              "5",
               "1",
-              "19",
+              "20",
               "20",
               "54"
             ]
@@ -17091,8 +17091,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-5",
-                  "displayValue": "6-5"
+                  "summary": "7-5",
+                  "displayValue": "7-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17127,6 +17127,59 @@
                     "default"
                   ],
                   "lastUpdated": "2020-08-25T14:37Z"
+                }
+              ]
+            },
+            {
+              "team": "Cal Poly",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
+              "id": "13",
+              "uid": "s:40~l:41~t:13",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-6",
+                  "displayValue": "6-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-0",
+                  "displayValue": "0-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -17233,59 +17286,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-08-20T15:58Z"
-                }
-              ]
-            },
-            {
-              "team": "Cal Poly",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
-              "id": "13",
-              "uid": "s:40~l:41~t:13",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-6",
-                  "displayValue": "5-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -17409,8 +17409,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-8",
-                  "displayValue": "2-8"
+                  "summary": "3-8",
+                  "displayValue": "3-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -17576,8 +17576,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-3",
-                  "displayValue": "9-3"
+                  "summary": "10-3",
+                  "displayValue": "10-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -17682,8 +17682,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-1",
-                  "displayValue": "11-1"
+                  "summary": "12-1",
+                  "displayValue": "12-1"
                 },
                 {
                   "name": "gamesBehind",
@@ -17947,8 +17947,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-6",
-                  "displayValue": "4-6"
+                  "summary": "5-6",
+                  "displayValue": "5-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -18000,8 +18000,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
+                  "summary": "5-7",
+                  "displayValue": "5-7"
                 },
                 {
                   "name": "gamesBehind",
