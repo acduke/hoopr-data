@@ -34602,8 +34602,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "name": "losses",
@@ -34622,8 +34622,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -4.0,
-                  "displayValue": "L4"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -34632,8 +34632,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.6,
-                  "displayValue": ".600"
+                  "value": 0.61290324,
+                  "displayValue": ".613"
                 },
                 {
                   "name": "wins",
@@ -34642,8 +34642,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 18.0,
-                  "displayValue": "18"
+                  "value": 19.0,
+                  "displayValue": "19"
                 }
               ],
               "logo": [
@@ -34768,8 +34768,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 9.0,
-                  "displayValue": "9"
+                  "value": 9.5,
+                  "displayValue": "9.5"
                 },
                 {
                   "name": "losses",
@@ -34778,8 +34778,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 20.0,
-                  "displayValue": "20"
+                  "value": 21.0,
+                  "displayValue": "21"
                 },
                 {
                   "name": "streak",
@@ -34788,8 +34788,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -34798,8 +34798,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.33333334,
-                  "displayValue": ".333"
+                  "value": 0.32258064,
+                  "displayValue": ".323"
                 },
                 {
                   "name": "wins",
@@ -36131,20 +36131,20 @@
           "uid": "s:40~l:46~e:401468632~c:401468632",
           "date": "2022-12-23T01:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "post",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Thu, December 22nd at 8:00 PM EST",
-            "shortDetail": "12/22 - 8:00 PM EST"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "3",
                 "uid": "s:40~l:46~t:3",
@@ -36162,10 +36162,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
               },
-              "score": "0"
+              "score": "126"
             },
             {
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "24",
                 "uid": "s:40~l:46~t:24",
@@ -36183,7 +36184,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
               },
-              "score": "0"
+              "score": "117"
             }
           ],
           "links": [
@@ -36378,10 +36379,10 @@
         "underdog": false,
         "moneyLine": -251,
         "spreadRecord": {
-          "wins": 15,
+          "wins": 16,
           "losses": 15,
           "pushes": 0,
-          "summary": "15-15-0"
+          "summary": "16-15-0"
         },
         "spreadOdds": -105.0,
         "teamId": "3"
@@ -36393,9 +36394,9 @@
         "moneyLine": 219,
         "spreadRecord": {
           "wins": 13,
-          "losses": 17,
+          "losses": 18,
           "pushes": 0,
-          "summary": "13-17-0"
+          "summary": "13-18-0"
         },
         "spreadOdds": -105.0,
         "teamId": "24"
