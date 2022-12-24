@@ -21466,6 +21466,18 @@
       },
       {
         "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/video?gameId=401483363",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "recap",
           "desktop",
           "event"
@@ -21677,7 +21689,96 @@
     }
   },
   "broadcasts": [],
-  "videos": [],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 35307172,
+      "headline": "Hakim Hart scores the and-1 layup for Maryland",
+      "description": "Hakim Hart gets the layup to fall vs. Saint Peter's Peacocks",
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "NCB_One-Play (Hakim Hart gets the layup to fall vs. Saint Peter's Peacocks) 2022/12/22 ESHEET",
+        "trackingId": "dm_20221222_NCB_hakim_hart_gets_the_layup_to_fall_vs_saint_peters_peacocks"
+      },
+      "lastModified": "2022-12-23T13:24:54Z",
+      "originalPublishDate": "2022-12-23T00:17:27Z",
+      "timeRestrictions": {
+        "embargoDate": "2022-12-23T00:17:27Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 23,
+      "thumbnail": "https://a.espncdn.com/media/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35307172"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/3e7651d8-900d-421d-9471-6ac3b00f119d"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35307172&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35307172"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35307172&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35307172&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3e7651d8-900d-421d-9471-6ac3b00f119d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35307172",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3e7651d8-900d-421d-9471-6ac3b00f119d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35307172"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3e7651d8-900d-421d-9471-6ac3b00f119d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35307172"
+          }
+        }
+      }
+    }
+  ],
   "playByPlaySource": "full",
   "standings": {
     "fullViewLink": {
@@ -23032,7 +23133,226 @@
     "keywords": [],
     "description": "\u2014 Hakim Hart scored 20 points, Cam Young added 14 points and Maryland beat Saint Peter's 75-45 on Thursday night to snap a three-game losing streak.",
     "source": "AP",
-    "video": [],
+    "video": [
+      {
+        "source": "espn",
+        "id": 35307172,
+        "guid": "f59e900ff7ee5",
+        "headline": "Hakim Hart scores the and-1 layup for Maryland",
+        "caption": "Hakim Hart gets the layup to fall vs. Saint Peter's Peacocks",
+        "description": "Hakim Hart gets the layup to fall vs. Saint Peter's Peacocks",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Hakim Hart gets the layup to fall vs. Saint Peter's Peacocks) 2022/12/22 ESHEET",
+          "trackingId": "dm_20221222_NCB_hakim_hart_gets_the_layup_to_fall_vs_saint_peters_peacocks"
+        },
+        "cerebroId": "63a4f398be6ab31ff7b884a4",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2022-12-23T13:24:54Z",
+        "originalPublishDate": "2022-12-23T00:17:27Z",
+        "timeRestrictions": {
+          "embargoDate": "2022-12-23T00:17:27Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 23,
+        "categories": [
+          {
+            "id": 3154,
+            "description": "Maryland Terrapins",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 120,
+            "team": {
+              "id": 120,
+              "description": "Maryland Terrapins",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/120"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/120/maryland-terrapins"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=120"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:120"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 409805,
+            "description": "Hakim Hart",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4431984,
+            "athlete": {
+              "id": 4431984,
+              "description": "Hakim Hart",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4431984"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431984/hakim-hart"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4431984"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4431984"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35307172"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/3e7651d8-900d-421d-9471-6ac3b00f119d"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35307172",
+            "short": {
+              "href": "https://es.pn/3Wjfxf7"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35307172"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.smil/master.m3u8",
+              "HD": {
+                "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.smil/master.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35307172"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3e7651d8-900d-421d-9471-6ac3b00f119d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35307172",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3e7651d8-900d-421d-9471-6ac3b00f119d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35307172"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3e7651d8-900d-421d-9471-6ac3b00f119d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35307172"
+            }
+          }
+        },
+        "title": "Hakim Hart scores the and-1 layup for Maryland"
+      }
+    ],
     "type": "Recap",
     "nowId": "1-35307546",
     "premium": false,
@@ -23152,7 +23472,16 @@
     ],
     "headline": "Maryland snaps 3-game losing streak, beats Saint Peter's",
     "gameId": "401483363",
-    "images": [],
+    "images": [
+      {
+        "name": "Hakim Hart scores the and-1 layup for Maryland",
+        "width": 576,
+        "alt": "",
+        "caption": "Hakim Hart gets the layup to fall vs. Saint Peter's Peacocks",
+        "url": "https://a.espncdn.com/media/motion/2022/1222/ss_20221222_191730330_2136999/ss_20221222_191730330_2136999.jpg",
+        "height": 324
+      }
+    ],
     "linkText": "Maryland snaps 3-game losing streak, beats Saint Peter's",
     "published": "2022-12-23T01:52:01Z",
     "allowComments": true,

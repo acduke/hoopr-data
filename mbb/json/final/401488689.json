@@ -20862,7 +20862,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -21143,6 +21143,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401488689",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401488689",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -22629,7 +22641,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Sincere Carry's 15 points helped Kent State defeat UTEP 47-46 Thursday night at the Sun Bowl Invitational.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35308384",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35308384"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401488689"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401488689",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35308384"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401488689&version=mobile"
+      }
+    },
+    "id": 35308384,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3433,
+        "description": "UTEP Miners",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2638,
+        "team": {
+          "id": 2638,
+          "description": "UTEP Miners",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2638"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2638/utep-miners"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2638"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2638"
+      },
+      {
+        "id": 3284,
+        "description": "Kent State Golden Flashes",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2309,
+        "team": {
+          "id": 2309,
+          "description": "Kent State Golden Flashes",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2309"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2309/kent-state-golden-flashes"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2309"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2309"
+      }
+    ],
+    "headline": "Kent State beats UTEP 47-46",
+    "gameId": "401488689",
+    "images": [],
+    "linkText": "Kent State beats UTEP 47-46",
+    "published": "2022-12-23T05:28:54Z",
+    "allowComments": true,
+    "guid": "e6565adf1436f",
+    "lastModified": "2022-12-23T05:28:55Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">EL PASO, Texas -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396807/sincere-carry\">Sincere Carry</a>'s 15 points helped Kent State defeat UTEP 47-46 Thursday night at the Sun Bowl Invitational.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Carry also contributed six rebounds for the Golden Flashes (10-3). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4279796/miryne-thomas\">Miryne Thomas</a> scored eight points and added three steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4589474/voncameron-davis\">VonCameron Davis</a> recorded six points and went 3 of 7 from the field.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Miners (8-4) were led in scoring by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396616/tae-hardy\">Tae Hardy</a>, who finished with 11 points. UTEP also got 10 points and seven rebounds from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397353/shamar-givance\">Shamar Givance</a>. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4700882/otis-frazier-iii\">Otis Frazier III</a> also had eight points, nine rebounds and two blocks.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -23300,7 +23474,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

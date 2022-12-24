@@ -6037,7 +6037,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6226,6 +6226,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401487397",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401487397",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -18385,7 +18397,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Elijah Harkless had 19 points in UNLV's 74-63 victory against Southern Miss on Thursday.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35308418",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35308418"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401487397"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401487397",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35308418"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401487397&version=mobile"
+      }
+    },
+    "id": 35308418,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3447,
+        "description": "UNLV Rebels",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2439,
+        "team": {
+          "id": 2439,
+          "description": "UNLV Rebels",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2439"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2439/unlv-rebels"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2439"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2439"
+      },
+      {
+        "id": 3258,
+        "description": "Southern Miss Golden Eagles",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2572,
+        "team": {
+          "id": 2572,
+          "description": "Southern Miss Golden Eagles",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2572"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2572/southern-miss-golden-eagles"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2572"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2572"
+      }
+    ],
+    "headline": "Harkless scores 19, Rodriguez 18; UNLV beats Southern Miss",
+    "gameId": "401487397",
+    "images": [],
+    "linkText": "Harkless scores 19, Rodriguez 18; UNLV beats Southern Miss",
+    "published": "2022-12-23T05:48:09Z",
+    "allowComments": true,
+    "guid": "983fca62428e3",
+    "lastModified": "2022-12-23T05:48:10Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LAS VEGAS -- \u2014 Elijah Harkless had 19 points in UNLV's 74-63 victory against Southern Miss on Thursday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Harkless had seven rebounds, six assists, and four steals for the Rebels (11-1). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/3162948/luis-rodriguez\">Luis Rodriguez</a> added 18 points while going 6 of 12 (5 for 8 from distance), and he also had seven rebounds and four steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432918/justin-webster\">Justin Webster</a> recorded 12 points and shot 4 for 12 (1 for 5 from 3-point range) and 3 of 3 from the free throw line.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703112/deandre-pinckney\">DeAndre Pinckney</a> led the way for the Golden Eagles (11-2) with 23 points and 13 rebounds. Southern Miss also got 18 points and three steals from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431758/austin-crowley\">Austin Crowley</a>. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593268/denijay-harris\">Denijay Harris</a> finished with six points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rodriguez scored 11 points in the first half and UNLV went into the break trailing 33-32. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397449/ej-harkless\">EJ Harkless</a>' 15-point second half helped UNLV finish off the 11-point victory.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
