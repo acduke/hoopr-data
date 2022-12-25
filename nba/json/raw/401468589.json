@@ -4286,20 +4286,20 @@
           "uid": "s:40~l:46~e:401468640~c:401468640",
           "date": "2022-12-24T00:30:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "post",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Fri, December 23rd at 7:30 PM EST",
-            "shortDetail": "12/23 - 7:30 PM EST"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": false,
               "team": {
                 "id": "18",
                 "uid": "s:40~l:46~t:18",
@@ -4317,10 +4317,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
               },
-              "score": "0"
+              "score": "117"
             },
             {
               "homeAway": "away",
+              "winner": true,
               "team": {
                 "id": "4",
                 "uid": "s:40~l:46~t:4",
@@ -4338,7 +4339,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
               },
-              "score": "0"
+              "score": "118"
             }
           ],
           "links": [
@@ -4453,9 +4454,9 @@
         "moneyLine": 125,
         "spreadRecord": {
           "wins": 17,
-          "losses": 13,
+          "losses": 14,
           "pushes": 2,
-          "summary": "17-13-2"
+          "summary": "17-14-2"
         },
         "spreadOdds": -107.0,
         "teamId": "18"
