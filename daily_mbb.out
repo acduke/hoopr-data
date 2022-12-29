@@ -8,3 +8,43 @@ KeyError: game_id = 401499093
  'abbreviation'
 Finished Scraping year 2023...
 Already up to date.
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1233666 65.9    3235747 172.9  3235747 172.9
+Vcells 2632528 20.1   51406282 392.2 80322049 612.9
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1245793 66.6    2523417 134.8  2523417 134.8
+Vcells 3207740 24.5   25287466 193.0 26273349 200.5
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1308067 69.9    2523418 134.8  2523418 134.8
+Vcells 2537897 19.4   18281202 139.5 22850452 174.4
+Already up to date.
+Already up to date.
+[main 45b3625daf] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 1456 files changed, 321105 insertions(+), 27829 deletions(-)
+ rewrite daily_mbb.out (83%)
+ create mode 100644 mbb/json/final/401482964.json
+ create mode 100644 mbb/json/final/401483245.json
+ create mode 100644 mbb/json/final/401483318.json
+ create mode 100644 mbb/json/final/401483327.json
+ create mode 100644 mbb/json/final/401485193.json
+ create mode 100644 mbb/json/final/401499094.json
+ create mode 100644 mbb/json/final/401500695.json
+ create mode 100644 mbb/json/raw/401482964.json
+ create mode 100644 mbb/json/raw/401483245.json
+ create mode 100644 mbb/json/raw/401483318.json
+ create mode 100644 mbb/json/raw/401483327.json
+ create mode 100644 mbb/json/raw/401485193.json
+ create mode 100644 mbb/json/raw/401499094.json
+ create mode 100644 mbb/json/raw/401500695.json
+ rewrite mbb/mbb_games_in_data_repo.parquet (68%)
+ rewrite mbb/mbb_games_in_data_repo.qs (82%)
+ rewrite mbb/player_box/csv/player_box_2023.csv.gz (75%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (82%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (84%)
+ rewrite mbb/player_box/rds/player_box_2023.rds (77%)
+ rewrite mbb/schedules/qs/mbb_schedule_2023.qs (93%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (90%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (95%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (91%)
+ rewrite nba_schedule_master.qs (65%)
+Already up to date.
