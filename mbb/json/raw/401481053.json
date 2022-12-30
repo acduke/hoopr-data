@@ -6423,7 +6423,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6635,6 +6635,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401481053",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401481053",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -17760,7 +17772,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Tevian Jones scored 20 points as Southern Utah beat New Mexico State 79-75 in a Western Athletic Conference opener on Wednesday.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35339254",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35339254"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401481053"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401481053",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35339254"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401481053&version=mobile"
+      }
+    },
+    "id": 35339254,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3411,
+        "description": "New Mexico State Aggies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 166,
+        "team": {
+          "id": 166,
+          "description": "New Mexico State Aggies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/166"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=166"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:166"
+      },
+      {
+        "id": 3295,
+        "description": "Southern Utah Thunderbirds",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 253,
+        "team": {
+          "id": 253,
+          "description": "Southern Utah Thunderbirds",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/253"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/253/southern-utah-thunderbirds"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=253"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:253"
+      }
+    ],
+    "headline": "Jones' 20 help Southern Utah beat New Mexico State 79-75",
+    "gameId": "401481053",
+    "images": [],
+    "linkText": "Jones' 20 help Southern Utah beat New Mexico State 79-75",
+    "published": "2022-12-29T05:30:55Z",
+    "allowComments": true,
+    "guid": "2a1159b0b75d4",
+    "lastModified": "2022-12-29T05:30:56Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LAS CRUCES, N.M. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397000/tevian-jones\">Tevian Jones</a> scored 20 points as Southern Utah beat New Mexico State 79-75 in a Western Athletic Conference opener on Wednesday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Jones was 6 of 15 shooting, including 5 for 7 from distance, and went 3 for 4 from the line for the Thunderbirds (9-5). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105494/drake-allen\">Drake Allen</a> was 5 of 8 shooting and 3 of 3 from the free throw line to add 14 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702155/jason-spurgin\">Jason Spurgin</a> recorded 12 points and shot 5 of 10 from the field and 2 for 7 from the line.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Aggies (7-6) were led in scoring by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593138/deshawndre-washington\">Deshawndre Washington</a>, who finished with 18 points, 12 rebounds and four assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396953/xavier-pinson\">Xavier Pinson</a> added 16 points and four assists for New Mexico State. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701189/anthony-roy\">Anthony Roy</a> finished with 11 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams next play Saturday. Southern Utah hosts UT Rio Grande Valley while New Mexico State hosts Sam Houston.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -17771,6 +17945,112 @@
       {
         "standings": {
           "entries": [
+            {
+              "team": "Grand Canyon",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-lopes",
+              "id": "2253",
+              "uid": "s:40~l:41~t:2253",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "10-4",
+                  "displayValue": "10-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-10-11T19:28Z"
+                }
+              ]
+            },
+            {
+              "team": "Utah Valley",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines",
+              "id": "3084",
+              "uid": "s:40~l:41~t:3084",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "10-4",
+                  "displayValue": "10-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
             {
               "team": "Southern Utah",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/253/southern-utah-thunderbirds",
@@ -17825,10 +18105,10 @@
               ]
             },
             {
-              "team": "Sam Houston",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2534/sam-houston-bearkats",
-              "id": "2534",
-              "uid": "s:40~l:41~t:2534",
+              "team": "Stephen F. Austin",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2617/stephen-f-austin-lumberjacks",
+              "id": "2617",
+              "uid": "s:40~l:41~t:2617",
               "stats": [
                 {
                   "id": "0",
@@ -17838,8 +18118,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-2",
-                  "displayValue": "10-2"
+                  "summary": "9-5",
+                  "displayValue": "9-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17848,8 +18128,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -17859,13 +18139,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "1-0",
+                  "displayValue": "1-0"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17873,15 +18153,15 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2020-11-17T16:28Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
             {
-              "team": "Grand Canyon",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-lopes",
-              "id": "2253",
-              "uid": "s:40~l:41~t:2253",
+              "team": "Utah Tech",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/utah-tech-trailblazers",
+              "id": "3101",
+              "uid": "s:40~l:41~t:3101",
               "stats": [
                 {
                   "id": "0",
@@ -17891,8 +18171,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-4",
-                  "displayValue": "9-4"
+                  "summary": "9-5",
+                  "displayValue": "9-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17901,8 +18181,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -17912,13 +18192,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "1-0",
+                  "displayValue": "1-0"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17926,7 +18206,60 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2021-10-11T19:28Z"
+                  "lastUpdated": "2022-07-08T16:43Z"
+                }
+              ]
+            },
+            {
+              "team": "Tarleton",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2627/tarleton-texans",
+              "id": "2627",
+              "uid": "s:40~l:41~t:2627",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-6",
+                  "displayValue": "7-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-0",
+                  "displayValue": "1-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-11-23T15:25Z"
                 }
               ]
             },
@@ -17984,10 +18317,10 @@
               ]
             },
             {
-              "team": "Utah Valley",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3084/utah-valley-wolverines",
-              "id": "3084",
-              "uid": "s:40~l:41~t:3084",
+              "team": "Sam Houston",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2534/sam-houston-bearkats",
+              "id": "2534",
+              "uid": "s:40~l:41~t:2534",
               "stats": [
                 {
                   "id": "0",
@@ -17997,8 +18330,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-4",
-                  "displayValue": "9-4"
+                  "summary": "10-3",
+                  "displayValue": "10-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -18007,8 +18340,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -18018,13 +18351,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "0-1",
+                  "displayValue": "0-1"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18032,7 +18365,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2020-11-17T16:28Z"
                 }
               ]
             },
@@ -18050,8 +18383,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-4",
-                  "displayValue": "8-4"
+                  "summary": "8-5",
+                  "displayValue": "8-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -18060,8 +18393,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -18071,8 +18404,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "0-1",
+                  "displayValue": "0-1"
                 }
               ],
               "logo": [
@@ -18103,8 +18436,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-5",
-                  "displayValue": "8-5"
+                  "summary": "8-6",
+                  "displayValue": "8-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -18113,8 +18446,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -18124,8 +18457,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "0-1",
+                  "displayValue": "0-1"
                 }
               ],
               "logo": [
@@ -18156,8 +18489,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-5",
-                  "displayValue": "8-5"
+                  "summary": "8-6",
+                  "displayValue": "8-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -18166,8 +18499,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -18177,8 +18510,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
+                  "summary": "0-1",
+                  "displayValue": "0-1"
                 }
               ],
               "logo": [
@@ -18192,218 +18525,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-11-16T16:51Z"
-                }
-              ]
-            },
-            {
-              "team": "Stephen F. Austin",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2617/stephen-f-austin-lumberjacks",
-              "id": "2617",
-              "uid": "s:40~l:41~t:2617",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-5",
-                  "displayValue": "8-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Utah Tech",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/utah-tech-trailblazers",
-              "id": "3101",
-              "uid": "s:40~l:41~t:3101",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-5",
-                  "displayValue": "8-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-07-08T16:43Z"
-                }
-              ]
-            },
-            {
-              "team": "Tarleton",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2627/tarleton-texans",
-              "id": "2627",
-              "uid": "s:40~l:41~t:2627",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "6-6",
-                  "displayValue": "6-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-11-23T15:25Z"
-                }
-              ]
-            },
-            {
-              "team": "UT Arlington",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/250/ut-arlington-mavericks",
-              "id": "250",
-              "uid": "s:40~l:41~t:250",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-8",
-                  "displayValue": "5-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-0",
-                  "displayValue": "0-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-08-04T16:32Z"
                 }
               ]
             },
@@ -18457,6 +18578,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UT Arlington",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/250/ut-arlington-mavericks",
+              "id": "250",
+              "uid": "s:40~l:41~t:250",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "5-9",
+                  "displayValue": "5-9"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-1",
+                  "displayValue": "0-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-08-04T16:32Z"
                 }
               ]
             }
