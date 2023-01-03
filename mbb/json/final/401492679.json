@@ -22204,7 +22204,7 @@
         "trackingName": "COM_NCB Highlight (Tulsa Golden Hurricane vs. SMU Mustangs: Full Highlights) 2023/01/01 ESHEET",
         "trackingId": "dm_20230101_NCB_tulsa_golden_hurricane_vs_smu_mustangs_full_highlights"
       },
-      "lastModified": "2023-01-02T04:56:39Z",
+      "lastModified": "2023-01-02T13:44:54Z",
       "originalPublishDate": "2023-01-01T22:13:32Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-01T22:13:32Z",
@@ -22889,6 +22889,7 @@
       {
         "source": "espn",
         "id": 35360683,
+        "guid": "438ba8c7953db",
         "headline": "SMU cruises past Tulsa",
         "caption": "Three of SMU's starters score in double figures in a 92-67 win over Tulsa.",
         "description": "Three of SMU's starters score in double figures in a 92-67 win over Tulsa.",
@@ -22905,10 +22906,9 @@
           "trackingId": "dm_20230101_NCB_tulsa_golden_hurricane_vs_smu_mustangs_full_highlights"
         },
         "cerebroId": "63b20590be6ab31ff7c6a98e",
-        "pccId": "82176732-d0af-4e07-8ca2-0c3f8540217e",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-01-02T04:56:39Z",
+        "lastModified": "2023-01-02T13:44:54Z",
         "originalPublishDate": "2023-01-01T22:13:32Z",
         "timeRestrictions": {
           "embargoDate": "2023-01-01T22:13:32Z",
@@ -22918,6 +22918,7 @@
           "type": "whitelist",
           "devices": [
             "desktop",
+            "ipad",
             "settop",
             "handset",
             "tablet"
@@ -22938,21 +22939,22 @@
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4898293"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4898293"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4898293/mo-njie?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4898293/mo-njie"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4898293&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4898293"
                   }
                 }
               }
-            }
+            },
+            "uid": "s:40~l:41~a:4898293"
           },
           {
             "id": 3427,
@@ -22966,17 +22968,17 @@
               "links": {
                 "api": {
                   "teams": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/202"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/202"
                   }
                 },
                 "web": {
                   "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/202/tulsa-golden-hurricane?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/202/tulsa-golden-hurricane"
                   }
                 },
                 "mobile": {
                   "teams": {
-                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=202&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=202"
                   }
                 }
               }
@@ -22995,21 +22997,22 @@
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4431676"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4431676"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431676/samuell-williamson?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431676/samuell-williamson"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4431676&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4431676"
                   }
                 }
               }
-            }
+            },
+            "uid": "s:40~l:41~a:4431676"
           },
           {
             "id": 9576,
@@ -23023,17 +23026,17 @@
               "links": {
                 "api": {
                   "leagues": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
                   }
                 },
                 "web": {
                   "leagues": {
-                    "href": "https://www.espn.com/mens-college-basketball/?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/"
                   }
                 },
                 "mobile": {
                   "leagues": {
-                    "href": "http://m.espn.go.com/ncb/?ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/"
                   }
                 }
               }
@@ -23052,17 +23055,17 @@
               "links": {
                 "api": {
                   "teams": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2567"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2567"
                   }
                 },
                 "web": {
                   "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2567/smu-mustangs?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2567/smu-mustangs"
                   }
                 },
                 "mobile": {
                   "teams": {
-                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=2567&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=2567"
                   }
                 }
               }
@@ -23081,21 +23084,22 @@
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4398281"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4398281"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4398281/zach-nutall?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4398281/zach-nutall"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4398281&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4398281"
                   }
                 }
               }
-            }
+            },
+            "uid": "s:40~l:41~a:4398281"
           },
           {
             "id": 411325,
@@ -23109,21 +23113,22 @@
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432994"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432994"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432994/sam-griffin?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432994/sam-griffin"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4432994&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4432994"
                   }
                 }
               }
-            }
+            },
+            "uid": "s:40~l:41~a:4432994"
           },
           {
             "id": 456090,
@@ -23137,21 +23142,22 @@
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4703831"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4703831"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4703831/ricardo-wright?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4703831/ricardo-wright"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4703831&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4703831"
                   }
                 }
               }
-            }
+            },
+            "uid": "s:40~l:41~a:4703831"
           },
           {
             "id": 454345,
@@ -23165,24 +23171,24 @@
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4702178"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4702178"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4702178/keon-ambrose-hylton?ex_cid=espnapi_internal"
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4702178/keon-ambrose-hylton"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4702178&ex_cid=espnapi_internal"
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4702178"
                   }
                 }
               }
-            }
+            },
+            "uid": "s:40~l:41~a:4702178"
           }
         ],
-        "gameId": 401492679,
         "keywords": [],
         "posterImages": {
           "default": {
@@ -23215,24 +23221,24 @@
         "links": {
           "api": {
             "self": {
-              "href": "http://api.espn.com/v1/video/clips/35360683"
+              "href": "http://api-app.espn.com/v1/video/clips/35360683"
             },
             "artwork": {
               "href": "https://artwork.api.espn.com/artwork/collections/media/82176732-d0af-4e07-8ca2-0c3f8540217e"
             }
           },
           "web": {
-            "href": "https://www.espn.com/video/clip?id=35360683&ex_cid=espnapi_internal",
+            "href": "http://espn.com/video/clip?id=35360683",
             "short": {
-              "href": "https://www.espn.com/video/clip?id=35360683"
+              "href": "https://es.pn/3G8QHIb"
             },
             "self": {
-              "href": "https://www.espn.com/video/clip?id=35360683&ex_cid=espnapi_internal"
+              "href": "http://espn.com/video/clip?id=35360683"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "https://media.video-origin.espn.com/espnvideo/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.mp4"
             },
             "flash": {
               "href": "https://media.video-cdn.espn.com/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.smil"
@@ -23241,9 +23247,9 @@
               "href": "https://hds.video-cdn.espn.com/z/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845/playlist.m3u8",
+              "href": "http://pkg.video-cdn.espn.com/i/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.smil/master.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845/playlist.m3u8"
+                "href": "http://pkg.video-cdn.espn.com/i/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.smil/master.m3u8"
               }
             },
             "HD": {
@@ -23256,7 +23262,7 @@
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.go.com/general/video/videoAlert?vid=35360683&ex_cid=espnapi_internal"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35360683"
             },
             "source": {
               "href": "https://media.video-cdn.espn.com/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.mp4"
@@ -23269,7 +23275,8 @@
               "href": "https://watch.auth.api.espn.com/video/auth/brightcove/82176732-d0af-4e07-8ca2-0c3f8540217e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35360683"
             }
           }
-        }
+        },
+        "title": "SMU cruises past Tulsa"
       }
     ],
     "type": "Recap",
@@ -23391,7 +23398,16 @@
     ],
     "headline": "Williamson powers SMU to 92-67 victory over Tulsa",
     "gameId": "401492679",
-    "images": [],
+    "images": [
+      {
+        "name": "SMU cruises past Tulsa",
+        "width": 576,
+        "alt": "",
+        "caption": "Three of SMU's starters score in double figures in a 92-67 win over Tulsa.",
+        "url": "https://a.espncdn.com/media/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.jpg",
+        "height": 324
+      }
+    ],
     "linkText": "Williamson powers SMU to 92-67 victory over Tulsa",
     "published": "2023-01-01T22:53:55Z",
     "allowComments": true,
