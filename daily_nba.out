@@ -1,67 +1,6 @@
 Already up to date.
 2023
 Scraping year 2023...
-Number of Games: 560
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401468323
-TypeError: game_id = 401468323
- the JSON object must be str, bytes or bytearray, not NoneType
+Number of Games: 563
 Finished Scraping year 2023...
-Already up to date.
-         used (Mb) gc trigger (Mb) max used (Mb)
-Ncells 273710 14.7     660900 35.3   451920 24.2
-Vcells 459112  3.6    8388608 64.0  1800272 13.8
-          used (Mb) gc trigger  (Mb) max used  (Mb)
-Ncells 1203260 64.3    2372330 126.7  2372330 126.7
-Vcells 2872586 22.0   22544467 172.1 29893919 228.1
-         used (Mb) gc trigger (Mb) max used (Mb)
-Ncells 273710 14.7     660900 35.3   451920 24.2
-Vcells 459112  3.6    8388608 64.0  1800272 13.8
-          used (Mb) gc trigger  (Mb) max used  (Mb)
-Ncells 1214807 64.9    2370421 126.6  2370421 126.6
-Vcells 2631830 20.1    8388608  64.0  8382002  64.0
-         used (Mb) gc trigger (Mb) max used (Mb)
-Ncells 273710 14.7     660900 35.3   451920 24.2
-Vcells 459112  3.6    8388608 64.0  1800272 13.8
-          used (Mb) gc trigger  (Mb) max used  (Mb)
-Ncells 1230386 65.8    2368816 126.6  2368816 126.6
-Vcells 2665586 20.4    8388608  64.0  8379625  64.0
-Already up to date.
-Already up to date.
-[main 985de5c1eb] NBA Play-by-Play and Schedules update (Start: 2023 End: 2023)
- 1136 files changed, 784674 insertions(+), 47843 deletions(-)
- rewrite daily_nba.out (95%)
- create mode 100644 nba/json/final/401468705.json
- create mode 100644 nba/json/final/401468706.json
- create mode 100644 nba/json/final/401468707.json
- create mode 100644 nba/json/final/401468708.json
- create mode 100644 nba/json/final/401468709.json
- create mode 100644 nba/json/final/401468710.json
- create mode 100644 nba/json/final/401468711.json
- create mode 100644 nba/json/final/401468712.json
- create mode 100644 nba/json/final/401468713.json
- create mode 100644 nba/json/final/401468714.json
- create mode 100644 nba/json/final/401468715.json
- create mode 100644 nba/json/raw/401468705.json
- create mode 100644 nba/json/raw/401468706.json
- create mode 100644 nba/json/raw/401468707.json
- create mode 100644 nba/json/raw/401468708.json
- create mode 100644 nba/json/raw/401468709.json
- create mode 100644 nba/json/raw/401468710.json
- create mode 100644 nba/json/raw/401468711.json
- create mode 100644 nba/json/raw/401468712.json
- create mode 100644 nba/json/raw/401468713.json
- create mode 100644 nba/json/raw/401468714.json
- create mode 100644 nba/json/raw/401468715.json
- rewrite nba/nba_games_in_data_repo.parquet (62%)
- rewrite nba/nba_games_in_data_repo.qs (80%)
- rewrite nba/player_box/csv/player_box_2023.csv.gz (92%)
- rewrite nba/player_box/parquet/player_box_2023.parquet (94%)
- rewrite nba/player_box/qs/player_box_2023.qs (95%)
- rewrite nba/player_box/rds/player_box_2023.rds (95%)
- rewrite nba/schedules/qs/nba_schedule_2023.qs (91%)
- rewrite nba/schedules/rds/nba_schedule_2023.rds (95%)
- rewrite nba/team_box/csv/team_box_2023.csv.gz (98%)
- rewrite nba/team_box/parquet/team_box_2023.parquet (89%)
- rewrite nba/team_box/qs/team_box_2023.qs (98%)
- rewrite nba/team_box/rds/team_box_2023.rds (96%)
 Already up to date.
