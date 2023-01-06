@@ -4482,9 +4482,9 @@
         "moneyLine": 260,
         "spreadRecord": {
           "wins": 20,
-          "losses": 16,
+          "losses": 17,
           "pushes": 0,
-          "summary": "20-16-0"
+          "summary": "20-17-0"
         },
         "spreadOdds": -110.0,
         "teamId": "23"
@@ -4496,9 +4496,9 @@
         "moneyLine": -310,
         "spreadRecord": {
           "wins": 18,
-          "losses": 19,
+          "losses": 20,
           "pushes": 1,
-          "summary": "18-19-1"
+          "summary": "18-20-1"
         },
         "spreadOdds": -110.0,
         "teamId": "9"
@@ -25738,7 +25738,6 @@
       {
         "source": "espn",
         "id": 34981407,
-        "guid": "fc0f08ec-7a97-3d81-ac56-a42df3b7e7e3",
         "headline": "Huerter upset after no foul call on potential game-tying 3",
         "caption": "Kings guard Kevin Huerter argues with referees after appearing to be fouled by Klay Thompson on a 3-point attempt at the buzzer.",
         "description": "Kings guard Kevin Huerter argues with referees after appearing to be fouled by Klay Thompson on a 3-point attempt at the buzzer.",
@@ -26095,9 +26094,9 @@
               "href": "https://hds.video-cdn.espn.com/z/motion/2022/1108/dm_221108_NO_FOUL_FINAL_PLAY/dm_221108_NO_FOUL_FINAL_PLAY_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1108/dm_221108_NO_FOUL_FINAL_PLAY/dm_221108_NO_FOUL_FINAL_PLAY.smil/master.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1108/dm_221108_NO_FOUL_FINAL_PLAY/dm_221108_NO_FOUL_FINAL_PLAY/playlist.m3u8",
               "HD": {
-                "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1108/dm_221108_NO_FOUL_FINAL_PLAY/dm_221108_NO_FOUL_FINAL_PLAY.smil/master.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1108/dm_221108_NO_FOUL_FINAL_PLAY/dm_221108_NO_FOUL_FINAL_PLAY/playlist.m3u8"
               }
             },
             "HD": {
@@ -26259,7 +26258,6 @@
     "linkText": "Curry scores 47, Warriors beat Kings to end 5-game skid",
     "published": "2022-11-08T05:38:18Z",
     "allowComments": true,
-    "guid": "c39d3c46-5838-3b2b-b594-535623473147",
     "lastModified": "2022-11-08T06:22:19Z",
     "metrics": [
       {
@@ -28561,8 +28559,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 16.0,
-                  "displayValue": "16"
+                  "value": 17.0,
+                  "displayValue": "17"
                 },
                 {
                   "name": "streak",
@@ -28571,8 +28569,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -28581,8 +28579,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5555556,
-                  "displayValue": ".556"
+                  "value": 0.5405405,
+                  "displayValue": ".541"
                 },
                 {
                   "name": "wins",
@@ -28634,8 +28632,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "name": "losses",
@@ -28705,89 +28703,6 @@
               ]
             },
             {
-              "team": "Golden State",
-              "link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
-              "id": "9",
-              "uid": "s:40~l:46~t:9",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 18.0,
-                  "displayValue": "18"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 5.0,
-                  "displayValue": "W5"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.5263158,
-                  "displayValue": ".526"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Wins",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 20.0,
-                  "displayValue": "20"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2019-09-30T14:23Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2019-09-30T20:00Z"
-                }
-              ]
-            },
-            {
               "team": "Phoenix",
               "link": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
               "id": "21",
@@ -28800,8 +28715,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "name": "losses",
@@ -28871,6 +28786,89 @@
               ]
             },
             {
+              "team": "Golden State",
+              "link": "https://www.espn.com/nba/team/_/name/gs/golden-state-warriors",
+              "id": "9",
+              "uid": "s:40~l:46~t:9",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 19.0,
+                  "displayValue": "19"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -1.0,
+                  "displayValue": "L1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.51282054,
+                  "displayValue": ".513"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Wins",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 20.0,
+                  "displayValue": "20"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2019-09-30T14:23Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-09-30T20:00Z"
+                }
+              ]
+            },
+            {
               "team": "LA Lakers",
               "link": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers",
               "id": "13",
@@ -28883,8 +28881,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "name": "losses",
@@ -28903,8 +28901,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": 3.0,
+                  "displayValue": "W3"
                 },
                 {
                   "name": "winPercent",
@@ -28913,8 +28911,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.43243244,
-                  "displayValue": ".432"
+                  "value": 0.4473684,
+                  "displayValue": ".447"
                 },
                 {
                   "name": "wins",
@@ -28923,8 +28921,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 16.0,
-                  "displayValue": "16"
+                  "value": 17.0,
+                  "displayValue": "17"
                 }
               ],
               "logo": [
