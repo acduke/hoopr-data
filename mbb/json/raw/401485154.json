@@ -4167,9 +4167,9 @@
         "moneyLine": -121,
         "spreadRecord": {
           "wins": 7,
-          "losses": 7,
+          "losses": 8,
           "pushes": 0,
-          "summary": "7-7-0"
+          "summary": "7-8-0"
         },
         "spreadOdds": -110.0,
         "teamId": "235"
@@ -4181,9 +4181,9 @@
         "moneyLine": 103,
         "spreadRecord": {
           "wins": 8,
-          "losses": 6,
+          "losses": 7,
           "pushes": 0,
-          "summary": "8-6-0"
+          "summary": "8-7-0"
         },
         "spreadOdds": -106.0,
         "teamId": "2550"
@@ -18254,7 +18254,6 @@
       {
         "source": "espn",
         "id": 35101964,
-        "guid": "6b01174b-702e-35e6-8f1d-5fb20e0988a2",
         "headline": "Tyrese Samuel's buzzer-beating 3 gives Seton Hall the win",
         "caption": "Tyrese Samuel banks in a 3 at the buzzer to give Seton Hall the win vs. Memphis.",
         "description": "Tyrese Samuel banks in a 3 at the buzzer to give Seton Hall the win vs. Memphis.",
@@ -18438,9 +18437,9 @@
               "href": "https://hds.video-cdn.espn.com/z/motion/2022/1124/ss_20221124_220227113_2113394/ss_20221124_220227113_2113394_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1124/ss_20221124_220227113_2113394/ss_20221124_220227113_2113394.smil/master.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1124/ss_20221124_220227113_2113394/ss_20221124_220227113_2113394/playlist.m3u8",
               "HD": {
-                "href": "http://pkg.video-cdn.espn.com/i/motion/2022/1124/ss_20221124_220227113_2113394/ss_20221124_220227113_2113394.smil/master.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1124/ss_20221124_220227113_2113394/ss_20221124_220227113_2113394/playlist.m3u8"
               }
             },
             "HD": {
@@ -18602,7 +18601,6 @@
     "linkText": "Samuel banks in 3 at buzzer, Seton Hall beats Memphis 70-69",
     "published": "2022-11-25T04:35:18Z",
     "allowComments": true,
-    "guid": "f36a9a6d-1e28-3e75-b959-70d18d220472",
     "lastModified": "2022-11-25T04:35:18Z",
     "metrics": [
       {
@@ -19672,6 +19670,59 @@
         "standings": {
           "entries": [
             {
+              "team": "Houston",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/248/houston-cougars",
+              "id": "248",
+              "uid": "s:40~l:41~t:248",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "15-1",
+                  "displayValue": "15-1"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-0",
+                  "displayValue": "3-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-09-17T18:37Z"
+                }
+              ]
+            },
+            {
               "team": "Temple",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/218/temple-owls",
               "id": "218",
@@ -19725,112 +19776,6 @@
               ]
             },
             {
-              "team": "Houston",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/248/houston-cougars",
-              "id": "248",
-              "uid": "s:40~l:41~t:248",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "14-1",
-                  "displayValue": "14-1"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-09-17T18:37Z"
-                }
-              ]
-            },
-            {
-              "team": "SMU",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2567/smu-mustangs",
-              "id": "2567",
-              "uid": "s:40~l:41~t:2567",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "6-8",
-                  "displayValue": "6-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "1-0",
-                  "displayValue": "1-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-08-31T21:25Z"
-                }
-              ]
-            },
-            {
               "team": "UCF",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2116/ucf-knights",
               "id": "2116",
@@ -19880,6 +19825,59 @@
                     "default"
                   ],
                   "lastUpdated": "2022-09-01T23:51Z"
+                }
+              ]
+            },
+            {
+              "team": "Cincinnati",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2132/cincinnati-bearcats",
+              "id": "2132",
+              "uid": "s:40~l:41~t:2132",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "11-5",
+                  "displayValue": "11-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-1",
+                  "displayValue": "2-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-08-31T17:55Z"
                 }
               ]
             },
@@ -19990,10 +19988,10 @@
               ]
             },
             {
-              "team": "Cincinnati",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2132/cincinnati-bearcats",
-              "id": "2132",
-              "uid": "s:40~l:41~t:2132",
+              "team": "SMU",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2567/smu-mustangs",
+              "id": "2567",
+              "uid": "s:40~l:41~t:2567",
               "stats": [
                 {
                   "id": "0",
@@ -20003,8 +20001,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-5",
-                  "displayValue": "10-5"
+                  "summary": "6-9",
+                  "displayValue": "6-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -20030,7 +20028,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -20038,7 +20036,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2022-08-31T17:55Z"
+                  "lastUpdated": "2022-08-31T21:25Z"
                 }
               ]
             },
@@ -20096,59 +20094,6 @@
               ]
             },
             {
-              "team": "Wichita State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2724/wichita-state-shockers",
-              "id": "2724",
-              "uid": "s:40~l:41~t:2724",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-7",
-                  "displayValue": "7-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-2",
-                  "displayValue": "0-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "South Florida",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/58/south-florida-bulls",
               "id": "58",
@@ -20190,6 +20135,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Wichita State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2724/wichita-state-shockers",
+              "id": "2724",
+              "uid": "s:40~l:41~t:2724",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-8",
+                  "displayValue": "7-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 3.0,
+                  "displayValue": "3"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-3",
+                  "displayValue": "0-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
