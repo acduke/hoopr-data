@@ -1,67 +1,9 @@
 Already up to date.
 2023
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?limit=500&dates=20230121&groups=50
 Scraping year 2023...
-Number of Games: 3006
+Number of Games: 3152
 KeyError: game_id = 401488802
  'abbreviation'
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401488641
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401488641
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401488641
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401488641
 Finished Scraping year 2023...
-Already up to date.
-          used (Mb) gc trigger  (Mb) max used  (Mb)
-Ncells 1241909 66.4    3221827 172.1  3221827 172.1
-Vcells 3462452 26.5   62639238 477.9 97839433 746.5
-          used (Mb) gc trigger  (Mb) max used  (Mb)
-Ncells 1253987 67.0    2527726 135.0  2527726 135.0
-Vcells 3229508 24.7   25336492 193.4 26309873 200.8
-          used (Mb) gc trigger  (Mb) max used  (Mb)
-Ncells 1311455 70.1    2528040 135.1  2528040 135.1
-Vcells 2416265 18.5   18118759 138.3 22645749 172.8
-Already up to date.
-Already up to date.
-[main 6dc4646efa] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
- 5047 files changed, 951793 insertions(+), 368468 deletions(-)
- rewrite daily_mbb.out (95%)
- create mode 100644 mbb/json/final/401469999.json
- create mode 100644 mbb/json/final/401470000.json
- create mode 100644 mbb/json/final/401473510.json
- create mode 100644 mbb/json/final/401473515.json
- create mode 100644 mbb/json/final/401486975.json
- create mode 100644 mbb/json/final/401486976.json
- create mode 100644 mbb/json/final/401486977.json
- create mode 100644 mbb/json/final/401486978.json
- create mode 100644 mbb/json/final/401486979.json
- create mode 100644 mbb/json/final/401487339.json
- create mode 100644 mbb/json/final/401487378.json
- create mode 100644 mbb/json/final/401487460.json
- create mode 100644 mbb/json/final/401490327.json
- create mode 100644 mbb/json/final/401492368.json
- create mode 100644 mbb/json/raw/401469999.json
- create mode 100644 mbb/json/raw/401470000.json
- create mode 100644 mbb/json/raw/401473510.json
- create mode 100644 mbb/json/raw/401473515.json
- create mode 100644 mbb/json/raw/401486975.json
- create mode 100644 mbb/json/raw/401486976.json
- create mode 100644 mbb/json/raw/401486977.json
- create mode 100644 mbb/json/raw/401486978.json
- create mode 100644 mbb/json/raw/401486979.json
- create mode 100644 mbb/json/raw/401487339.json
- create mode 100644 mbb/json/raw/401487378.json
- create mode 100644 mbb/json/raw/401487460.json
- create mode 100644 mbb/json/raw/401490327.json
- create mode 100644 mbb/json/raw/401492368.json
- rewrite mbb/mbb_games_in_data_repo.parquet (68%)
- rewrite mbb/mbb_games_in_data_repo.qs (82%)
- rewrite mbb/player_box/csv/player_box_2023.csv.gz (72%)
- rewrite mbb/player_box/parquet/player_box_2023.parquet (80%)
- rewrite mbb/player_box/qs/player_box_2023.qs (82%)
- rewrite mbb/player_box/rds/player_box_2023.rds (73%)
- rewrite mbb/schedules/qs/mbb_schedule_2023.qs (91%)
- rewrite mbb/schedules/rds/mbb_schedule_2023.rds (90%)
- rewrite mbb/team_box/csv/team_box_2023.csv.gz (69%)
- rewrite mbb/team_box/qs/team_box_2023.qs (94%)
- rewrite mbb/team_box/rds/team_box_2023.rds (93%)
- rewrite nba_schedule_master.qs (65%)
 Already up to date.
