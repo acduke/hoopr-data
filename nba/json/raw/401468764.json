@@ -1170,7 +1170,7 @@
                 "reason": "COACH'S DECISION",
                 "ejected": false,
                 "stats": [
-                  "25",
+                  "26",
                   "2-6",
                   "2-5",
                   "0-0",
@@ -1182,7 +1182,7 @@
                   "0",
                   "0",
                   "2",
-                  "-4",
+                  "-2",
                   "6"
                 ]
               },
@@ -1638,7 +1638,7 @@
                   "0",
                   "2",
                   "3",
-                  "-2",
+                  "-4",
                   "15"
                 ]
               },
@@ -4347,8 +4347,8 @@
         "spreadRecord": {
           "wins": 18,
           "losses": 22,
-          "pushes": 0,
-          "summary": "18-22-0"
+          "pushes": 1,
+          "summary": "18-22-1"
         },
         "spreadOdds": -113.0,
         "teamId": "13"
@@ -27759,89 +27759,6 @@
               ]
             },
             {
-              "team": "Minnesota",
-              "link": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
-              "id": "16",
-              "uid": "s:40~l:46~t:16",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 7.5,
-                  "displayValue": "7.5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 21.0,
-                  "displayValue": "21"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": 4.0,
-                  "displayValue": "W4"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.4878049,
-                  "displayValue": ".488"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Wins",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 20.0,
-                  "displayValue": "20"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/min.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Utah",
               "link": "https://www.espn.com/nba/team/_/name/utah/utah-jazz",
               "id": "26",
@@ -27921,6 +27838,89 @@
                     "dark"
                   ],
                   "lastUpdated": "2022-11-23T20:19Z"
+                }
+              ]
+            },
+            {
+              "team": "Minnesota",
+              "link": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
+              "id": "16",
+              "uid": "s:40~l:46~t:16",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 8.0,
+                  "displayValue": "8"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 22.0,
+                  "displayValue": "22"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -1.0,
+                  "displayValue": "L1"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.47619048,
+                  "displayValue": ".476"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Wins",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 20.0,
+                  "displayValue": "20"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/min.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
