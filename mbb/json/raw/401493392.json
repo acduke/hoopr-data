@@ -5960,7 +5960,7 @@
         "uid": "s:40~l:41~e:401493392~c:401493392",
         "date": "2023-01-11T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6161,14 +6161,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "8",
-          "name": "Big 12 Conference",
-          "abbreviation": "big12",
-          "shortName": "Big 12",
-          "midsizeName": "Big 12"
-        }
+        ]
       }
     ],
     "links": [
@@ -17326,7 +17319,7 @@
         "trackingId": "dm_20230111_NCB_sam_godwin_elevates_for_slam_dunk_vs_kansas_jayhawks"
       },
       "cerebroId": "63be1c9ebe6ab31ff7eabcfc",
-      "lastModified": "2023-01-11T02:24:54Z",
+      "lastModified": "2023-01-11T14:06:41Z",
       "originalPublishDate": "2023-01-11T02:19:06Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-11T02:19:06Z",
@@ -17419,7 +17412,7 @@
         "trackingId": "dm_20230111_NCB_jacob_groves_makes_nice_pass_on_sam_godwins_jam"
       },
       "cerebroId": "63be2277be6ab31ff7eac43e",
-      "lastModified": "2023-01-11T02:46:17Z",
+      "lastModified": "2023-01-11T14:08:05Z",
       "originalPublishDate": "2023-01-11T02:44:05Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-11T02:44:05Z",
@@ -17512,7 +17505,7 @@
         "trackingId": "dm_20230111_NCB_check_out_this_sweet_pass_from_dajuan_harris"
       },
       "cerebroId": "63be2456be6ab31ff7eac480",
-      "lastModified": "2023-01-11T02:56:10Z",
+      "lastModified": "2023-01-11T14:07:47Z",
       "originalPublishDate": "2023-01-11T02:52:05Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-11T02:52:05Z",
@@ -17605,7 +17598,7 @@
         "trackingId": "dm_20230111_NCB_dajuan_harris_lobs_it_up_for_kj_adams_jr"
       },
       "cerebroId": "63be289ebe6ab31ff7ead34e",
-      "lastModified": "2023-01-11T03:12:26Z",
+      "lastModified": "2023-01-11T14:07:13Z",
       "originalPublishDate": "2023-01-11T03:10:21Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-11T03:10:21Z",
@@ -17698,7 +17691,7 @@
         "trackingId": "dm_20230111_NCB_milos_uzan_gets_the_layin_to_fall_vs_kansas_jayhawks"
       },
       "cerebroId": "63be2e83be6ab31ff7eae82d",
-      "lastModified": "2023-01-11T03:38:01Z",
+      "lastModified": "2023-01-11T14:07:29Z",
       "originalPublishDate": "2023-01-11T03:35:29Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-11T03:35:29Z",
@@ -18130,6 +18123,59 @@
               ]
             },
             {
+              "team": "Texas",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/251/texas-longhorns",
+              "id": "251",
+              "uid": "s:40~l:41~t:251",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-2",
+                  "displayValue": "14-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-1",
+                  "displayValue": "3-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "TCU",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
               "id": "2628",
@@ -18143,8 +18189,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-2",
-                  "displayValue": "13-2"
+                  "summary": "13-3",
+                  "displayValue": "13-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -18153,8 +18199,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -18164,8 +18210,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
+                  "summary": "2-2",
+                  "displayValue": "2-2"
                 }
               ],
               "logo": [
@@ -18183,10 +18229,10 @@
               ]
             },
             {
-              "team": "Texas",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/251/texas-longhorns",
-              "id": "251",
-              "uid": "s:40~l:41~t:251",
+              "team": "Baylor",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/239/baylor-bears",
+              "id": "239",
+              "uid": "s:40~l:41~t:239",
               "stats": [
                 {
                   "id": "0",
@@ -18196,8 +18242,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-2",
-                  "displayValue": "13-2"
+                  "summary": "11-5",
+                  "displayValue": "11-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -18206,8 +18252,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -18217,13 +18263,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
+                  "summary": "1-3",
+                  "displayValue": "1-3"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18231,7 +18277,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2021-02-16T17:25Z"
                 }
               ]
             },
@@ -18342,112 +18388,6 @@
               ]
             },
             {
-              "team": "Baylor",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/239/baylor-bears",
-              "id": "239",
-              "uid": "s:40~l:41~t:239",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "10-5",
-                  "displayValue": "10-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-3",
-                  "displayValue": "0-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-02-16T17:25Z"
-                }
-              ]
-            },
-            {
-              "team": "West Virginia",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers",
-              "id": "277",
-              "uid": "s:40~l:41~t:277",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "10-5",
-                  "displayValue": "10-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "0-3",
-                  "displayValue": "0-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Texas Tech",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2641/texas-tech-red-raiders",
               "id": "2641",
@@ -18489,6 +18429,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "West Virginia",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers",
+              "id": "277",
+              "uid": "s:40~l:41~t:277",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "10-6",
+                  "displayValue": "10-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "0-4",
+                  "displayValue": "0-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
