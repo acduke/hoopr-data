@@ -21677,7 +21677,7 @@
         "uid": "s:40~l:41~e:401482810~c:401482810",
         "date": "2023-01-12T04:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -21685,7 +21685,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -21878,6 +21878,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        },
         "home": {
           "id": "2439",
           "uid": "s:40~l:41~t:2439",
@@ -21982,6 +21989,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401482810",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401482810",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -22823,7 +22842,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "cd8abdc87a827",
+    "keywords": [],
+    "description": "\u2014 Tyson Degenhart's 17 points helped Boise State defeat UNLV 84-66 on Wednesday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35430384",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35430384"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401482810"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401482810",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35430384"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401482810&version=mobile"
+      }
+    },
+    "id": 35430384,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3447,
+        "description": "UNLV Rebels",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2439,
+        "team": {
+          "id": 2439,
+          "description": "UNLV Rebels",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2439"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2439/unlv-rebels"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2439"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2439"
+      },
+      {
+        "id": 3426,
+        "description": "Boise State Broncos",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 68,
+        "team": {
+          "id": 68,
+          "description": "Boise State Broncos",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/68"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=68"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:68"
+      }
+    ],
+    "headline": "Degenhart has 17, 12 boards, 6 assists, Boise St. routs UNLV",
+    "gameId": "401482810",
+    "images": [],
+    "linkText": "Degenhart has 17, 12 boards, 6 assists, Boise St. routs UNLV",
+    "published": "2023-01-12T06:48:14Z",
+    "allowComments": true,
+    "lastModified": "2023-01-12T06:48:15Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LAS VEGAS -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4898260/tyson-degenhart\">Tyson Degenhart</a>'s 17 points helped Boise State defeat UNLV 84-66 on Wednesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Degenhart added 12 rebounds and six assists for the Broncos (13-4, 3-1 Mountain West Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433197/chibuzo-agbo\">Chibuzo Agbo</a> shot 6 for 10, including 4 for 6 from beyond the arc to add 17 points. Marcus Shaver Jr. recorded 15 points and was 4-of-9 shooting, including 2 for 4 from distance, and went 5 for 6 from the line.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4585618/keshon-gilbert\">Keshon Gilbert</a> finished with 14 points and four assists for the Rebels (12-4, 1-3). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432918/justin-webster\">Justin Webster</a> added 13 points for UNLV. Elijah Harkless also had 12 points and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397263/max-rice\">Max Rice</a> scored 13 points in the first half and Boise State went into the break trailing 33-31. Agbo scored 15 points down the stretch in the second half to help lead Boise State to an 18-point victory.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams next play Saturday. Boise State visits Wyoming while UNLV hosts Colorado State.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -23486,7 +23667,7 @@
     "uid": "s:40~l:41~e:401482810~c:401482810",
     "date": "2023-01-12T04:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -23494,7 +23675,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
@@ -23687,6 +23868,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "44",
+      "name": "Mountain West Conference",
+      "abbreviation": "mwest",
+      "shortName": "Mountain West",
+      "midsizeName": "Mountain West"
+    },
     "home": {
       "id": "2439",
       "uid": "s:40~l:41~t:2439",

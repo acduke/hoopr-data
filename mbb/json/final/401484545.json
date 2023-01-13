@@ -24901,7 +24901,7 @@
         "uid": "s:40~l:41~e:401484545~c:401484545",
         "date": "2023-01-07T18:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -25103,6 +25103,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "23",
+          "name": "Southeastern Conference",
+          "abbreviation": "sec",
+          "shortName": "SEC",
+          "midsizeName": "SEC"
+        },
         "home": {
           "id": "333",
           "uid": "s:40~l:41~t:333",
@@ -26495,6 +26502,59 @@
         "standings": {
           "entries": [
             {
+              "team": "Alabama",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/333/alabama-crimson-tide",
+              "id": "333",
+              "uid": "s:40~l:41~t:333",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-2",
+                  "displayValue": "14-2"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-0",
+                  "displayValue": "4-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-08-30T21:52Z"
+                }
+              ]
+            },
+            {
               "team": "Tennessee",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2633/tennessee-volunteers",
               "id": "2633",
@@ -26548,10 +26608,10 @@
               ]
             },
             {
-              "team": "Alabama",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/333/alabama-crimson-tide",
-              "id": "333",
-              "uid": "s:40~l:41~t:333",
+              "team": "Texas A&M",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/245/texas-am-aggies",
+              "id": "245",
+              "uid": "s:40~l:41~t:245",
               "stats": [
                 {
                   "id": "0",
@@ -26561,8 +26621,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-2",
-                  "displayValue": "13-2"
+                  "summary": "11-5",
+                  "displayValue": "11-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -26584,59 +26644,6 @@
                   "type": "vsconf",
                   "summary": "3-0",
                   "displayValue": "3-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-08-30T21:52Z"
-                }
-              ]
-            },
-            {
-              "team": "Texas A&M",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/245/texas-am-aggies",
-              "id": "245",
-              "uid": "s:40~l:41~t:245",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "10-5",
-                  "displayValue": "10-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
                 }
               ],
               "logo": [
@@ -26707,59 +26714,6 @@
               ]
             },
             {
-              "team": "Missouri",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/142/missouri-tigers",
-              "id": "142",
-              "uid": "s:40~l:41~t:142",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "13-2",
-                  "displayValue": "13-2"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-08-31T04:52Z"
-                }
-              ]
-            },
-            {
               "team": "Georgia",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/61/georgia-bulldogs",
               "id": "61",
@@ -26813,6 +26767,59 @@
               ]
             },
             {
+              "team": "Missouri",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/142/missouri-tigers",
+              "id": "142",
+              "uid": "s:40~l:41~t:142",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-3",
+                  "displayValue": "13-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-2",
+                  "displayValue": "2-2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-08-31T04:52Z"
+                }
+              ]
+            },
+            {
               "team": "Florida",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/57/florida-gators",
               "id": "57",
@@ -26862,59 +26869,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-08-30T21:58Z"
-                }
-              ]
-            },
-            {
-              "team": "Arkansas",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/8/arkansas-razorbacks",
-              "id": "8",
-              "uid": "s:40~l:41~t:8",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-3",
-                  "displayValue": "12-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "1-2",
-                  "displayValue": "1-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -27074,6 +27028,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-06-25T17:25Z"
+                }
+              ]
+            },
+            {
+              "team": "Arkansas",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/8/arkansas-razorbacks",
+              "id": "8",
+              "uid": "s:40~l:41~t:8",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-4",
+                  "displayValue": "12-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 3.0,
+                  "displayValue": "3"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-3",
+                  "displayValue": "1-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -27917,7 +27924,7 @@
     "uid": "s:40~l:41~e:401484545~c:401484545",
     "date": "2023-01-07T18:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -28119,6 +28126,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "23",
+      "name": "Southeastern Conference",
+      "abbreviation": "sec",
+      "shortName": "SEC",
+      "midsizeName": "SEC"
+    },
     "home": {
       "id": "333",
       "uid": "s:40~l:41~t:333",

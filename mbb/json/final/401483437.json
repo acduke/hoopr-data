@@ -24142,7 +24142,7 @@
         "uid": "s:40~l:41~e:401483437~c:401483437",
         "date": "2022-12-02T01:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -24343,6 +24343,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "21",
+          "name": "Pac-12 Conference",
+          "abbreviation": "pac12",
+          "shortName": "Pac-12",
+          "midsizeName": "Pac-12"
+        },
         "home": {
           "id": "38",
           "uid": "s:40~l:41~t:38",
@@ -24764,6 +24771,59 @@
               ]
             },
             {
+              "team": "Arizona State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/9/arizona-state-sun-devils",
+              "id": "9",
+              "uid": "s:40~l:41~t:9",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-3",
+                  "displayValue": "14-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.5,
+                  "displayValue": "0.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-1",
+                  "displayValue": "5-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Utah",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/254/utah-utes",
               "id": "254",
@@ -24817,10 +24877,10 @@
               ]
             },
             {
-              "team": "Arizona State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/9/arizona-state-sun-devils",
-              "id": "9",
-              "uid": "s:40~l:41~t:9",
+              "team": "USC",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans",
+              "id": "30",
+              "uid": "s:40~l:41~t:30",
               "stats": [
                 {
                   "id": "0",
@@ -24830,8 +24890,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-3",
-                  "displayValue": "13-3"
+                  "summary": "12-5",
+                  "displayValue": "12-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -24840,8 +24900,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -24851,13 +24911,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-1",
-                  "displayValue": "4-1"
+                  "summary": "4-2",
+                  "displayValue": "4-2"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -24865,7 +24925,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2022-09-02T17:12Z"
                 }
               ]
             },
@@ -24923,59 +24983,6 @@
               ]
             },
             {
-              "team": "USC",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans",
-              "id": "30",
-              "uid": "s:40~l:41~t:30",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "11-5",
-                  "displayValue": "11-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-2",
-                  "displayValue": "3-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-02T17:12Z"
-                }
-              ]
-            },
-            {
               "team": "Oregon",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2483/oregon-ducks",
               "id": "2483",
@@ -24989,8 +24996,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-7",
-                  "displayValue": "9-7"
+                  "summary": "9-8",
+                  "displayValue": "9-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -24999,8 +25006,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -25010,8 +25017,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-2",
-                  "displayValue": "3-2"
+                  "summary": "3-3",
+                  "displayValue": "3-3"
                 }
               ],
               "logo": [
@@ -25042,8 +25049,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-6",
-                  "displayValue": "11-6"
+                  "summary": "11-7",
+                  "displayValue": "11-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -25052,8 +25059,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -25063,8 +25070,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-3",
-                  "displayValue": "3-3"
+                  "summary": "3-4",
+                  "displayValue": "3-4"
                 }
               ],
               "logo": [
@@ -26188,7 +26195,7 @@
     "uid": "s:40~l:41~e:401483437~c:401483437",
     "date": "2022-12-02T01:30Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -26389,6 +26396,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "21",
+      "name": "Pac-12 Conference",
+      "abbreviation": "pac12",
+      "shortName": "Pac-12",
+      "midsizeName": "Pac-12"
+    },
     "home": {
       "id": "38",
       "uid": "s:40~l:41~t:38",
