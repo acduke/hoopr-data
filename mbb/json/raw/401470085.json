@@ -3887,10 +3887,10 @@
         "underdog": false,
         "moneyLine": -111,
         "spreadRecord": {
-          "wins": 4,
+          "wins": 5,
           "losses": 9,
           "pushes": 0,
-          "summary": "4-9-0"
+          "summary": "5-9-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2630"
@@ -3901,10 +3901,10 @@
         "underdog": true,
         "moneyLine": -105,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 8,
           "pushes": 0,
-          "summary": "7-8-0"
+          "summary": "8-8-0"
         },
         "spreadOdds": -111.0,
         "teamId": "2031"
@@ -5921,7 +5921,7 @@
         "uid": "s:40~l:41~e:401470085~c:401470085",
         "date": "2022-12-30T01:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6105,7 +6105,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "20",
+          "name": "Ohio Valley Conference",
+          "abbreviation": "ovc",
+          "shortName": "OVC",
+          "midsizeName": "Ohio Valley"
+        }
       }
     ],
     "links": [

@@ -3982,10 +3982,10 @@
         "underdog": true,
         "moneyLine": 113,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 5,
           "pushes": 1,
-          "summary": "9-5-1"
+          "summary": "10-5-1"
         },
         "spreadOdds": -106.0,
         "teamId": "68"
@@ -5611,7 +5611,7 @@
         "uid": "s:40~l:41~e:401482791~c:401482791",
         "date": "2022-12-29T03:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5795,14 +5795,7 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": [],
-        "groups": {
-          "id": "44",
-          "name": "Mountain West Conference",
-          "abbreviation": "mwest",
-          "shortName": "Mountain West",
-          "midsizeName": "Mountain West"
-        }
+        "broadcasts": []
       }
     ],
     "links": [
@@ -16053,8 +16046,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-4",
-                  "displayValue": "14-4"
+                  "summary": "15-4",
+                  "displayValue": "15-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -16063,8 +16056,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -16074,8 +16067,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-1",
-                  "displayValue": "4-1"
+                  "summary": "5-1",
+                  "displayValue": "5-1"
                 }
               ],
               "logo": [
@@ -16089,59 +16082,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-08-31T05:34Z"
-                }
-              ]
-            },
-            {
-              "team": "Utah State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/328/utah-state-aggies",
-              "id": "328",
-              "uid": "s:40~l:41~t:328",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "14-3",
-                  "displayValue": "14-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16195,6 +16135,59 @@
                     "default"
                   ],
                   "lastUpdated": "2022-09-09T18:13Z"
+                }
+              ]
+            },
+            {
+              "team": "Utah State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/328/utah-state-aggies",
+              "id": "328",
+              "uid": "s:40~l:41~t:328",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-4",
+                  "displayValue": "14-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.5,
+                  "displayValue": "1.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-2",
+                  "displayValue": "3-2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },

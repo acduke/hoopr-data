@@ -203,7 +203,7 @@
           },
           {
             "name": "assists",
-            "displayValue": "13",
+            "displayValue": "14",
             "abbreviation": "AST",
             "label": "Assists"
           },
@@ -2267,7 +2267,7 @@
                   "3",
                   "1",
                   "4",
-                  "3",
+                  "4",
                   "4",
                   "1",
                   "0",
@@ -2988,7 +2988,7 @@
                   "0",
                   "3",
                   "3",
-                  "1",
+                  "0",
                   "0",
                   "0",
                   "1",
@@ -3091,7 +3091,7 @@
                   "0",
                   "5",
                   "5",
-                  "0",
+                  "1",
                   "1",
                   "0",
                   "1",
@@ -3656,7 +3656,7 @@
               "11",
               "30",
               "41",
-              "13",
+              "14",
               "11",
               "1",
               "7",
@@ -3816,15 +3816,15 @@
           "displayName": "Assists",
           "leaders": [
             {
-              "displayValue": "3",
+              "displayValue": "4",
               "athlete": {
-                "id": "4684628",
-                "uid": "s:40~l:41~a:4684628",
-                "guid": "6791e596-1ee7-3d38-acdb-6fcd24800942",
-                "lastName": "Mahaney",
-                "fullName": "Aidan Mahaney",
-                "displayName": "Aidan Mahaney",
-                "shortName": "A. Mahaney",
+                "id": "4431902",
+                "uid": "s:40~l:41~a:4431902",
+                "guid": "9f67463d-4738-3eed-8854-781be19289cb",
+                "lastName": "Bowen",
+                "fullName": "Kyle Bowen",
+                "displayName": "Kyle Bowen",
+                "shortName": "K. Bowen",
                 "links": [
                   {
                     "rel": [
@@ -3832,17 +3832,17 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4684628/aidan-mahaney",
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431902/kyle-bowen",
                     "text": "Player Card"
                   }
                 ],
                 "headshot": {
-                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4684628.png",
-                  "alt": "Aidan Mahaney"
+                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431902.png",
+                  "alt": "Kyle Bowen"
                 },
-                "jersey": "20",
+                "jersey": "14",
                 "position": {
-                  "abbreviation": "G"
+                  "abbreviation": "F"
                 }
               },
               "statistics": [
@@ -3852,8 +3852,8 @@
                   "shortDisplayName": "AST",
                   "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
                   "abbreviation": "AST",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "name": "turnovers",
@@ -3861,8 +3861,8 @@
                   "shortDisplayName": "TO",
                   "description": "The number of times a player loses possession to the other team.",
                   "abbreviation": "TO",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 0.0,
+                  "displayValue": "0"
                 },
                 {
                   "name": "minutes",
@@ -3870,8 +3870,8 @@
                   "shortDisplayName": "MIN",
                   "description": "The total number of minutes played.",
                   "abbreviation": "MIN",
-                  "value": 27.0,
-                  "displayValue": "27"
+                  "value": 29.0,
+                  "displayValue": "29"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -3879,8 +3879,8 @@
                   "shortDisplayName": "AST/TO",
                   "description": "The average number of assists a player or team records per turnover",
                   "abbreviation": "AST/TO",
-                  "value": 3.0,
-                  "displayValue": "3.0"
+                  "value": 0.0,
+                  "displayValue": "INF"
                 }
               ]
             }
@@ -4267,10 +4267,10 @@
         "underdog": true,
         "moneyLine": 929,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 9,
           "pushes": 0,
-          "summary": "7-9-0"
+          "summary": "8-9-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2501"
@@ -4281,10 +4281,10 @@
         "underdog": false,
         "moneyLine": -1641,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 6,
           "pushes": 0,
-          "summary": "11-6-0"
+          "summary": "12-6-0"
         },
         "spreadOdds": -115.0,
         "teamId": "2608"
@@ -5891,7 +5891,7 @@
         "uid": "s:40~l:41~e:401470405~c:401470405",
         "date": "2023-01-08T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6075,14 +6075,7 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": [],
-        "groups": {
-          "id": "29",
-          "name": "West Coast Conference",
-          "abbreviation": "wcc",
-          "shortName": "WCC",
-          "midsizeName": "West Coast"
-        }
+        "broadcasts": []
       }
     ],
     "links": [

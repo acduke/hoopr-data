@@ -27758,6 +27758,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "30",
+          "name": "Western Athletic Conference",
+          "abbreviation": "wac",
+          "shortName": "WAC",
+          "midsizeName": "WAC"
+        },
         "home": {
           "id": "292",
           "uid": "s:40~l:41~t:292",
@@ -28201,8 +28208,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-5",
-                  "displayValue": "12-5"
+                  "summary": "13-5",
+                  "displayValue": "13-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -28211,8 +28218,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -28222,8 +28229,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-0",
-                  "displayValue": "4-0"
+                  "summary": "5-0",
+                  "displayValue": "5-0"
                 }
               ],
               "logo": [
@@ -28254,8 +28261,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-4",
-                  "displayValue": "12-4"
+                  "summary": "13-4",
+                  "displayValue": "13-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -28264,8 +28271,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "id": "9",
@@ -28275,8 +28282,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-0",
-                  "displayValue": "3-0"
+                  "summary": "4-0",
+                  "displayValue": "4-0"
                 }
               ],
               "logo": [
@@ -28360,8 +28367,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-5",
-                  "displayValue": "11-5"
+                  "summary": "12-5",
+                  "displayValue": "12-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -28370,8 +28377,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -28381,8 +28388,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-1",
-                  "displayValue": "2-1"
+                  "summary": "3-1",
+                  "displayValue": "3-1"
                 }
               ],
               "logo": [
@@ -28559,59 +28566,6 @@
               ]
             },
             {
-              "team": "Utah Tech",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/utah-tech-trailblazers",
-              "id": "3101",
-              "uid": "s:40~l:41~t:3101",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "9-7",
-                  "displayValue": "9-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "1-2",
-                  "displayValue": "1-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-07-08T16:43Z"
-                }
-              ]
-            },
-            {
               "team": "Abilene Christian",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
               "id": "2000",
@@ -28661,6 +28615,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Utah Tech",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/utah-tech-trailblazers",
+              "id": "3101",
+              "uid": "s:40~l:41~t:3101",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "9-8",
+                  "displayValue": "9-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 3.5,
+                  "displayValue": "3.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-3",
+                  "displayValue": "1-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-07-08T16:43Z"
                 }
               ]
             },
@@ -28731,8 +28738,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-9",
-                  "displayValue": "7-9"
+                  "summary": "7-10",
+                  "displayValue": "7-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -28741,8 +28748,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "id": "9",
@@ -28752,8 +28759,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-4",
-                  "displayValue": "0-4"
+                  "summary": "0-5",
+                  "displayValue": "0-5"
                 }
               ],
               "logo": [
@@ -28784,8 +28791,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-12",
-                  "displayValue": "5-12"
+                  "summary": "5-13",
+                  "displayValue": "5-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -28794,8 +28801,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "id": "9",
@@ -28805,8 +28812,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-4",
-                  "displayValue": "0-4"
+                  "summary": "0-5",
+                  "displayValue": "0-5"
                 }
               ],
               "logo": [
@@ -29359,9 +29366,9 @@
         "moneyLine": -280,
         "spreadRecord": {
           "wins": 4,
-          "losses": 8,
+          "losses": 9,
           "pushes": 0,
-          "summary": "4-8-0"
+          "summary": "4-9-0"
         },
         "spreadOdds": -108.0,
         "teamId": "2000"
@@ -29372,10 +29379,10 @@
         "underdog": true,
         "moneyLine": 235,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 6,
           "pushes": 0,
-          "summary": "7-6-0"
+          "summary": "8-6-0"
         },
         "spreadOdds": -108.0,
         "teamId": "292"
@@ -29694,6 +29701,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "30",
+      "name": "Western Athletic Conference",
+      "abbreviation": "wac",
+      "shortName": "WAC",
+      "midsizeName": "WAC"
+    },
     "home": {
       "id": "292",
       "uid": "s:40~l:41~t:292",

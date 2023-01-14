@@ -220,7 +220,7 @@
           },
           {
             "name": "turnovers",
-            "displayValue": "9",
+            "displayValue": "10",
             "abbreviation": "TO",
             "label": "Turnovers"
           },
@@ -232,7 +232,7 @@
           },
           {
             "name": "totalTurnovers",
-            "displayValue": "9",
+            "displayValue": "10",
             "abbreviation": "ToTO",
             "label": "Total Turnovers"
           },
@@ -2885,7 +2885,7 @@
                   "0",
                   "0",
                   "0",
-                  "0",
+                  "1",
                   "2",
                   "7"
                 ]
@@ -3951,7 +3951,7 @@
               "9",
               "8",
               "3",
-              "9",
+              "10",
               "20",
               "60"
             ]
@@ -4560,9 +4560,9 @@
         "moneyLine": -517,
         "spreadRecord": {
           "wins": 5,
-          "losses": 8,
+          "losses": 9,
           "pushes": 1,
-          "summary": "5-8-1"
+          "summary": "5-9-1"
         },
         "spreadOdds": -110.0,
         "teamId": "2504"
@@ -4573,10 +4573,10 @@
         "underdog": true,
         "moneyLine": 382,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 6,
           "pushes": 0,
-          "summary": "11-6-0"
+          "summary": "12-6-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2400"
@@ -6278,7 +6278,7 @@
         "uid": "s:40~l:41~e:401493724~c:401493724",
         "date": "2023-01-08T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6461,7 +6461,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "26",
+          "name": "Southwestern Athletic Conference",
+          "abbreviation": "swac",
+          "shortName": "SWAC",
+          "midsizeName": "SWAC"
+        }
       }
     ],
     "links": [

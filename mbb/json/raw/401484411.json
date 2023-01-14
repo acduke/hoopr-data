@@ -2202,8 +2202,8 @@
                   "0-0",
                   "3-6",
                   "6",
-                  "6",
-                  "12",
+                  "5",
+                  "11",
                   "2",
                   "0",
                   "0",
@@ -2305,8 +2305,8 @@
                   "0-0",
                   "2-2",
                   "0",
-                  "1",
-                  "1",
+                  "2",
+                  "2",
                   "2",
                   "2",
                   "0",
@@ -3721,7 +3721,7 @@
           "displayName": "Rebounds",
           "leaders": [
             {
-              "displayValue": "12",
+              "displayValue": "11",
               "athlete": {
                 "id": "4432068",
                 "uid": "s:40~l:41~a:4432068",
@@ -3757,8 +3757,8 @@
                   "shortDisplayName": "REB",
                   "description": "The total number of rebounds (offensive and defensive).",
                   "abbreviation": "REB",
-                  "value": 12.0,
-                  "displayValue": "12"
+                  "value": 11.0,
+                  "displayValue": "11"
                 },
                 {
                   "name": "defensiveRebounds",
@@ -3766,8 +3766,8 @@
                   "shortDisplayName": "DREB",
                   "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
                   "abbreviation": "DR",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "name": "offensiveRebounds",
@@ -4119,9 +4119,9 @@
         "moneyLine": 175,
         "spreadRecord": {
           "wins": 3,
-          "losses": 12,
+          "losses": 13,
           "pushes": 0,
-          "summary": "3-12-0"
+          "summary": "3-13-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2350"
@@ -4132,10 +4132,10 @@
         "underdog": false,
         "moneyLine": -205,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 7,
           "pushes": 0,
-          "summary": "9-7-0"
+          "summary": "10-7-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2244"
@@ -6081,7 +6081,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "3",
+          "name": "Atlantic 10 Conference",
+          "abbreviation": "atl10",
+          "shortName": "A 10",
+          "midsizeName": "Atlantic 10"
+        }
       }
     ],
     "links": [

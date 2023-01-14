@@ -4139,9 +4139,9 @@
         "moneyLine": -152,
         "spreadRecord": {
           "wins": 8,
-          "losses": 6,
+          "losses": 7,
           "pushes": 0,
-          "summary": "8-6-0"
+          "summary": "8-7-0"
         },
         "spreadOdds": -109.0,
         "teamId": "62"
@@ -4152,10 +4152,10 @@
         "underdog": true,
         "moneyLine": 132,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 4,
           "pushes": 1,
-          "summary": "9-4-1"
+          "summary": "10-4-1"
         },
         "spreadOdds": -107.0,
         "teamId": "2239"
@@ -6182,7 +6182,7 @@
         "uid": "s:40~l:41~e:401469757~c:401469757",
         "date": "2023-01-08T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6389,7 +6389,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "9",
+          "name": "Big West Conference",
+          "abbreviation": "bigw",
+          "shortName": "Big West",
+          "midsizeName": "Big West"
+        }
       }
     ],
     "links": [
@@ -19338,59 +19345,6 @@
               ]
             },
             {
-              "team": "Cal Poly",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
-              "id": "13",
-              "uid": "s:40~l:41~t:13",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-9",
-                  "displayValue": "7-9"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "1-3",
-                  "displayValue": "1-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Long Beach State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/299/long-beach-state-beach",
               "id": "299",
@@ -19404,8 +19358,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-9",
-                  "displayValue": "7-9"
+                  "summary": "8-9",
+                  "displayValue": "8-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -19414,8 +19368,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -19425,8 +19379,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-3",
-                  "displayValue": "1-3"
+                  "summary": "2-3",
+                  "displayValue": "2-3"
                 }
               ],
               "logo": [
@@ -19493,6 +19447,59 @@
                     "default"
                   ],
                   "lastUpdated": "2019-09-13T15:43Z"
+                }
+              ]
+            },
+            {
+              "team": "Cal Poly",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/13/cal-poly-mustangs",
+              "id": "13",
+              "uid": "s:40~l:41~t:13",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-10",
+                  "displayValue": "7-10"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 3.5,
+                  "displayValue": "3.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-4",
+                  "displayValue": "1-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
