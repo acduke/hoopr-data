@@ -22559,7 +22559,7 @@
         "uid": "s:40~l:41~e:401488808~c:401488808",
         "date": "2022-12-21T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -23691,59 +23691,6 @@
         "standings": {
           "entries": [
             {
-              "team": "Norfolk State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2450/norfolk-state-spartans",
-              "id": "2450",
-              "uid": "s:40~l:41~t:2450",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-5",
-                  "displayValue": "12-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Morgan State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2415/morgan-state-bears",
               "id": "2415",
@@ -23757,8 +23704,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-8",
-                  "displayValue": "8-8"
+                  "summary": "9-8",
+                  "displayValue": "9-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -23778,13 +23725,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-0",
-                  "displayValue": "2-0"
+                  "summary": "3-0",
+                  "displayValue": "3-0"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Norfolk State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2450/norfolk-state-spartans",
+              "id": "2450",
+              "uid": "s:40~l:41~t:2450",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-6",
+                  "displayValue": "12-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-1",
+                  "displayValue": "2-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -23810,8 +23810,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-8",
-                  "displayValue": "8-8"
+                  "summary": "9-8",
+                  "displayValue": "9-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -23831,8 +23831,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
+                  "summary": "2-1",
+                  "displayValue": "2-1"
                 }
               ],
               "logo": [
@@ -23863,8 +23863,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-8",
-                  "displayValue": "8-8"
+                  "summary": "9-8",
+                  "displayValue": "9-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -23884,8 +23884,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
+                  "summary": "2-1",
+                  "displayValue": "2-1"
                 }
               ],
               "logo": [
@@ -23916,8 +23916,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-10",
-                  "displayValue": "8-10"
+                  "summary": "9-10",
+                  "displayValue": "9-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -23937,8 +23937,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
+                  "summary": "2-1",
+                  "displayValue": "2-1"
                 }
               ],
               "logo": [
@@ -23969,8 +23969,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-13",
-                  "displayValue": "6-13"
+                  "summary": "6-14",
+                  "displayValue": "6-14"
                 },
                 {
                   "name": "gamesBehind",
@@ -23979,8 +23979,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -23990,8 +23990,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-1",
-                  "displayValue": "1-1"
+                  "summary": "1-2",
+                  "displayValue": "1-2"
                 }
               ],
               "logo": [
@@ -24022,8 +24022,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-15",
-                  "displayValue": "3-15"
+                  "summary": "3-16",
+                  "displayValue": "3-16"
                 },
                 {
                   "name": "gamesBehind",
@@ -24032,8 +24032,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -24043,8 +24043,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-2",
-                  "displayValue": "0-2"
+                  "summary": "0-3",
+                  "displayValue": "0-3"
                 }
               ],
               "logo": [
@@ -24075,8 +24075,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "1-14",
-                  "displayValue": "1-14"
+                  "summary": "1-15",
+                  "displayValue": "1-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -24085,8 +24085,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -24096,8 +24096,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-2",
-                  "displayValue": "0-2"
+                  "summary": "0-3",
+                  "displayValue": "0-3"
                 }
               ],
               "logo": [
@@ -24646,9 +24646,9 @@
         "moneyLine": 128,
         "spreadRecord": {
           "wins": 7,
-          "losses": 8,
+          "losses": 9,
           "pushes": 0,
-          "summary": "7-8-0"
+          "summary": "7-9-0"
         },
         "spreadOdds": -105.0,
         "teamId": "116"
@@ -24780,7 +24780,7 @@
     "uid": "s:40~l:41~e:401488808~c:401488808",
     "date": "2022-12-21T19:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
