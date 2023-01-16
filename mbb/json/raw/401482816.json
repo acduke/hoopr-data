@@ -5981,7 +5981,7 @@
         "uid": "s:40~l:41~e:401482816~c:401482816",
         "date": "2023-01-15T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6188,14 +6188,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "44",
-          "name": "Mountain West Conference",
-          "abbreviation": "mwest",
-          "shortName": "Mountain West",
-          "midsizeName": "Mountain West"
-        }
+        ]
       }
     ],
     "links": [
@@ -18239,6 +18232,59 @@
               ]
             },
             {
+              "team": "Boise State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
+              "id": "68",
+              "uid": "s:40~l:41~t:68",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-4",
+                  "displayValue": "14-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.5,
+                  "displayValue": "0.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-1",
+                  "displayValue": "4-1"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-09T18:13Z"
+                }
+              ]
+            },
+            {
               "team": "San Diego State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/21/san-diego-state-aztecs",
               "id": "21",
@@ -18288,59 +18334,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Boise State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
-              "id": "68",
-              "uid": "s:40~l:41~t:68",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "13-4",
-                  "displayValue": "13-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-1",
-                  "displayValue": "3-1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-09T18:13Z"
                 }
               ]
             },
@@ -18729,8 +18722,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-11",
-                  "displayValue": "5-11"
+                  "summary": "5-12",
+                  "displayValue": "5-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -18739,8 +18732,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -18750,8 +18743,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-4",
-                  "displayValue": "0-4"
+                  "summary": "0-5",
+                  "displayValue": "0-5"
                 }
               ],
               "logo": [

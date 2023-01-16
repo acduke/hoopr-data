@@ -4322,8 +4322,8 @@
         "spreadRecord": {
           "wins": 9,
           "losses": 8,
-          "pushes": 0,
-          "summary": "9-8-0"
+          "pushes": 1,
+          "summary": "9-8-1"
         },
         "spreadOdds": -107.0,
         "teamId": "183"
@@ -6045,7 +6045,7 @@
         "uid": "s:40~l:41~e:401500552~c:401500552",
         "date": "2022-12-31T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6245,7 +6245,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "2",
+          "name": "Atlantic Coast Conference",
+          "abbreviation": "acc",
+          "shortName": "ACC",
+          "midsizeName": "ACC"
+        }
       }
     ],
     "links": [

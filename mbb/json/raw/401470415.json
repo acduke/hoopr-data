@@ -5737,7 +5737,7 @@
         "uid": "s:40~l:41~e:401470415~c:401470415",
         "date": "2023-01-15T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5921,7 +5921,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "29",
+          "name": "West Coast Conference",
+          "abbreviation": "wcc",
+          "shortName": "WCC",
+          "midsizeName": "West Coast"
+        }
       }
     ],
     "links": [
@@ -5934,6 +5941,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401470415",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401470415",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -17217,7 +17236,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "c7fc181516ae1",
+    "keywords": [],
+    "description": "\u2014 Keshawn Justice had 26 points in Santa Clara's 92-81 win over Pacific on Saturday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35449841",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35449841"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401470415"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401470415",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35449841"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401470415&version=mobile"
+      }
+    },
+    "id": 35449841,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 16874,
+        "description": "Pacific Tigers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 279,
+        "team": {
+          "id": 279,
+          "description": "Pacific Tigers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/279"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/279/pacific-tigers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=279"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:279"
+      },
+      {
+        "id": 3422,
+        "description": "Santa Clara Broncos",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2541,
+        "team": {
+          "id": 2541,
+          "description": "Santa Clara Broncos",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2541"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2541/santa-clara-broncos"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2541"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2541"
+      }
+    ],
+    "headline": "Justice scores 26, Santa Clara defeats Pacific 92-81",
+    "gameId": "401470415",
+    "images": [],
+    "linkText": "Justice scores 26, Santa Clara defeats Pacific 92-81",
+    "published": "2023-01-15T05:14:47Z",
+    "allowComments": true,
+    "lastModified": "2023-01-15T05:14:48Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">STOCKTON, Calif. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397751/keshawn-justice\">Keshawn Justice</a> had 26 points in Santa Clara's 92-81 win over Pacific on Saturday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Justice was 8-of-19 shooting, including 6 for 15 from distance, and went 4 for 4 from the foul line for the Broncos (15-5, 3-2 West Coast Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683956/carlos-stewart\">Carlos Stewart</a> scored 21 points with three steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396957/parker-braun\">Parker Braun</a> pitched in with 10 points and 12 rebounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Tigers (10-10, 3-2) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702512/judson-martindale\">Judson Martindale</a> with 17 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431901/keylan-boone\">Keylan Boone</a> added 13 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703122/jordan-ivy-curry\">Jordan Ivy-Curry</a> scored 10.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Santa Clara took the lead with 6:36 left in the first half and did not relinquish it. Justice led his team in scoring with 15 points in the first half to help put them ahead 51-39 at the break. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams play again on Thursday. Santa Clara hosts BYU and Pacific travels to play San Francisco.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -17295,8 +17476,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-4",
-                  "displayValue": "15-4"
+                  "summary": "16-4",
+                  "displayValue": "16-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -17305,8 +17486,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -17316,8 +17497,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-0",
-                  "displayValue": "4-0"
+                  "summary": "5-0",
+                  "displayValue": "5-0"
                 }
               ],
               "logo": [
@@ -17507,8 +17688,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-7",
-                  "displayValue": "12-7"
+                  "summary": "13-7",
+                  "displayValue": "13-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -17517,8 +17698,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -17528,8 +17709,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-3",
-                  "displayValue": "2-3"
+                  "summary": "3-3",
+                  "displayValue": "3-3"
                 }
               ],
               "logo": [
@@ -17560,8 +17741,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-10",
-                  "displayValue": "9-10"
+                  "summary": "9-11",
+                  "displayValue": "9-11"
                 },
                 {
                   "name": "gamesBehind",
@@ -17570,8 +17751,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -17581,66 +17762,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-3",
-                  "displayValue": "2-3"
+                  "summary": "2-4",
+                  "displayValue": "2-4"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "San Francisco",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2539/san-francisco-dons",
-              "id": "2539",
-              "uid": "s:40~l:41~t:2539",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-8",
-                  "displayValue": "12-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "1-4",
-                  "displayValue": "1-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17702,6 +17830,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-10-15T16:50Z"
+                }
+              ]
+            },
+            {
+              "team": "San Francisco",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2539/san-francisco-dons",
+              "id": "2539",
+              "uid": "s:40~l:41~t:2539",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-9",
+                  "displayValue": "12-9"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.5,
+                  "displayValue": "4.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-5",
+                  "displayValue": "1-5"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },

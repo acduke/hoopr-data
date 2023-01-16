@@ -23535,6 +23535,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "20",
+          "name": "Ohio Valley Conference",
+          "abbreviation": "ovc",
+          "shortName": "OVC",
+          "midsizeName": "Ohio Valley"
+        },
         "home": {
           "id": "2815",
           "uid": "s:40~l:41~t:2815",
@@ -24083,8 +24090,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-7",
-                  "displayValue": "11-7"
+                  "summary": "11-8",
+                  "displayValue": "11-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -24093,8 +24100,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -24104,8 +24111,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-2",
-                  "displayValue": "3-2"
+                  "summary": "3-3",
+                  "displayValue": "3-3"
                 }
               ],
               "logo": [
@@ -24176,6 +24183,59 @@
               ]
             },
             {
+              "team": "Southern Indiana",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/88/southern-indiana-screaming-eagles",
+              "id": "88",
+              "uid": "s:40~l:41~t:88",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "10-9",
+                  "displayValue": "10-9"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-3",
+                  "displayValue": "3-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-07-22T17:32Z"
+                }
+              ]
+            },
+            {
               "team": "Eastern Illinois",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2197/eastern-illinois-panthers",
               "id": "2197",
@@ -24225,59 +24285,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Southern Indiana",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/88/southern-indiana-screaming-eagles",
-              "id": "88",
-              "uid": "s:40~l:41~t:88",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "9-9",
-                  "displayValue": "9-9"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-3",
-                  "displayValue": "2-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-07-22T17:32Z"
                 }
               ]
             },
@@ -25303,6 +25310,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "20",
+      "name": "Ohio Valley Conference",
+      "abbreviation": "ovc",
+      "shortName": "OVC",
+      "midsizeName": "Ohio Valley"
+    },
     "home": {
       "id": "2815",
       "uid": "s:40~l:41~t:2815",

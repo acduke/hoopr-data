@@ -20823,7 +20823,7 @@
         "uid": "s:40~l:41~e:401490341~c:401490341",
         "date": "2023-01-15T03:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -20831,7 +20831,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -21024,6 +21024,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "21",
+          "name": "Pac-12 Conference",
+          "abbreviation": "pac12",
+          "shortName": "Pac-12",
+          "midsizeName": "Pac-12"
+        },
         "home": {
           "id": "30",
           "uid": "s:40~l:41~t:30",
@@ -21128,6 +21135,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490341",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490341",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -22022,7 +22041,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "57e20383fd03f",
+    "keywords": [],
+    "description": "\u2014 Boogie Ellis scored 17 points on 7-of-13 shooting, Tre White added 13 points and Southern California beat Utah 71-56 Saturday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35450107",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35450107"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490341"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490341",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35450107"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490341&version=mobile"
+      }
+    },
+    "id": 35450107,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3347,
+        "description": "USC Trojans",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 30,
+        "team": {
+          "id": 30,
+          "description": "USC Trojans",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/30"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=30"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:30"
+      },
+      {
+        "id": 3445,
+        "description": "Utah Utes",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 254,
+        "team": {
+          "id": 254,
+          "description": "Utah Utes",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/254"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/254/utah-utes"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=254"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:254"
+      }
+    ],
+    "headline": "Ellis scores 17, Southern Cal beats Utah 71-56",
+    "gameId": "401490341",
+    "images": [],
+    "linkText": "Ellis scores 17, Southern Cal beats Utah 71-56",
+    "published": "2023-01-15T06:01:37Z",
+    "allowComments": true,
+    "lastModified": "2023-01-15T06:01:38Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LOS ANGELES -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593106/boogie-ellis\">Boogie Ellis</a> scored 17 points on 7-of-13 shooting, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105643/tre-white\">Tre White</a> added 13 points and Southern California beat Utah 71-56 Saturday night. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">USC (13-5, 5-2 Pac-12) has won nine consecutive home games, the longest single-season streak of its kind since the Trojans won their first nine games at the Galen Center to start the 2016-17 season. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4898374/reese-dixon-waters\">Reese Dixon-Waters</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397689/drew-peterson\">Drew Peterson</a> each had 11 points, six rebounds and four assists for Southern Cal. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592435/branden-carlson\">Branden Carlson</a> returned from a one-game absence (non-COVID illness) for Utah (12-7, 5-3) and finished with 21 points on 8-of-12 shooting (3 of 5 from 3-point range), nine rebounds and three blocks. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701995/rollie-worster\">Rollie Worster</a> added 12 points. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Worster made a layup to trim Utah's deficit to 39-34 at halftime. Carlson made two free throws and then threw down a dunk before <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432753/gabe-madsen\">Gabe Madsen</a> hit a 3-pointer to cap a 7-0 run to open the second half and give the Runnin' Utes a two-point lead. Ellis answered with a 3-pointer to give USC the lead for good and Dixon-Waters hit a 3-pointer in an 11-2 spurt that made it 59-49 with eight minutes to go. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Utah shot 34% (21 of 61) from the field and made 8 of 25 (32%) from 3-point range. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Ellis has scored in double figures in each of the last eight games following a three-game stretch in which he scored a total of 18 points on 7-of-28 shooting, 2 of 15 from behind the arc. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Utes have lost three games in a row. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Utah heads north to play Thursday at Washington State\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">USC hits the road to take on No. 9 Arizona on Thursday\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------"
+  },
   "leaders": [
     {
       "team": {
@@ -22696,7 +22877,7 @@
     "uid": "s:40~l:41~e:401490341~c:401490341",
     "date": "2023-01-15T03:30Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -22704,7 +22885,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
@@ -22897,6 +23078,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "21",
+      "name": "Pac-12 Conference",
+      "abbreviation": "pac12",
+      "shortName": "Pac-12",
+      "midsizeName": "Pac-12"
+    },
     "home": {
       "id": "30",
       "uid": "s:40~l:41~t:30",
