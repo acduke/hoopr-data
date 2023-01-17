@@ -23508,7 +23508,7 @@
         "uid": "s:40~l:41~e:401484398~c:401484398",
         "date": "2022-12-31T18:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -23709,6 +23709,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "3",
+          "name": "Atlantic 10 Conference",
+          "abbreviation": "atl10",
+          "shortName": "A 10",
+          "midsizeName": "Atlantic 10"
+        },
         "home": {
           "id": "2184",
           "uid": "s:40~l:41~t:2184",
@@ -24310,59 +24317,6 @@
               ]
             },
             {
-              "team": "George Mason",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2244/george-mason-patriots",
-              "id": "2244",
-              "uid": "s:40~l:41~t:2244",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "11-7",
-                  "displayValue": "11-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-2",
-                  "displayValue": "3-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Richmond",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/257/richmond-spiders",
               "id": "257",
@@ -24482,8 +24436,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-9",
-                  "displayValue": "8-9"
+                  "summary": "9-9",
+                  "displayValue": "9-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -24492,8 +24446,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -24503,8 +24457,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-2",
-                  "displayValue": "2-2"
+                  "summary": "3-2",
+                  "displayValue": "3-2"
                 }
               ],
               "logo": [
@@ -24522,10 +24476,10 @@
               ]
             },
             {
-              "team": "La Salle",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2325/la-salle-explorers",
-              "id": "2325",
-              "uid": "s:40~l:41~t:2325",
+              "team": "George Mason",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2244/george-mason-patriots",
+              "id": "2244",
+              "uid": "s:40~l:41~t:2244",
               "stats": [
                 {
                   "id": "0",
@@ -24535,8 +24489,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-9",
-                  "displayValue": "8-9"
+                  "summary": "11-8",
+                  "displayValue": "11-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -24556,13 +24510,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-2",
-                  "displayValue": "2-2"
+                  "summary": "3-3",
+                  "displayValue": "3-3"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -24570,7 +24524,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2021-09-13T17:41Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -24677,6 +24631,59 @@
                     "default"
                   ],
                   "lastUpdated": "2022-12-09T16:51Z"
+                }
+              ]
+            },
+            {
+              "team": "La Salle",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2325/la-salle-explorers",
+              "id": "2325",
+              "uid": "s:40~l:41~t:2325",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-10",
+                  "displayValue": "8-10"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-3",
+                  "displayValue": "2-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-09-13T17:41Z"
                 }
               ]
             },
@@ -24800,8 +24807,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-10",
-                  "displayValue": "7-10"
+                  "summary": "8-10",
+                  "displayValue": "8-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -24810,8 +24817,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -24821,8 +24828,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-4",
-                  "displayValue": "1-4"
+                  "summary": "2-4",
+                  "displayValue": "2-4"
                 }
               ],
               "logo": [
@@ -25589,9 +25596,9 @@
         "moneyLine": 360,
         "spreadRecord": {
           "wins": 6,
-          "losses": 10,
+          "losses": 11,
           "pushes": 0,
-          "summary": "6-10-0"
+          "summary": "6-11-0"
         },
         "spreadOdds": -109.0,
         "teamId": "227"
@@ -25723,7 +25730,7 @@
     "uid": "s:40~l:41~e:401484398~c:401484398",
     "date": "2022-12-31T18:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -25924,6 +25931,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "3",
+      "name": "Atlantic 10 Conference",
+      "abbreviation": "atl10",
+      "shortName": "A 10",
+      "midsizeName": "Atlantic 10"
+    },
     "home": {
       "id": "2184",
       "uid": "s:40~l:41~t:2184",

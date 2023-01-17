@@ -4066,10 +4066,10 @@
         "underdog": false,
         "moneyLine": -136,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 4,
           "pushes": 2,
-          "summary": "11-4-2"
+          "summary": "12-4-2"
         },
         "spreadOdds": -110.0,
         "teamId": "2440"
@@ -4080,10 +4080,10 @@
         "underdog": true,
         "moneyLine": 116,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 5,
           "pushes": 0,
-          "summary": "11-5-0"
+          "summary": "12-5-0"
         },
         "spreadOdds": -110.0,
         "teamId": "23"
@@ -5660,7 +5660,7 @@
         "uid": "s:40~l:41~e:401482805~c:401482805",
         "date": "2023-01-07T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5844,7 +5844,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        }
       }
     ],
     "links": [
