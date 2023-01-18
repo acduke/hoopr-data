@@ -10,3 +10,110 @@ Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-col
 Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401494591
 Finished Scraping year 2023...
 Already up to date.
+          used (Mb) gc trigger  (Mb)  max used  (Mb)
+Ncells 1241909 66.4    3197694 170.8   3197694 170.8
+Vcells 3466073 26.5   74940276 571.8 115209357 879.0
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1253990 67.0    2527452 135.0  2527452 135.0
+Vcells 3233129 24.7   25338129 193.4 26312472 200.8
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1311493 70.1    2527653 135.0  2527653 135.0
+Vcells 3229769 24.7   24946408 190.4 25905167 197.7
+Already up to date.
+Already up to date.
+[main 792d1ef4d1] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 4598 files changed, 1818802 insertions(+), 208691 deletions(-)
+ rewrite daily_mbb.out (94%)
+ create mode 100644 mbb/json/final/401469674.json
+ create mode 100644 mbb/json/final/401469675.json
+ create mode 100644 mbb/json/final/401469771.json
+ create mode 100644 mbb/json/final/401469772.json
+ create mode 100644 mbb/json/final/401469773.json
+ create mode 100644 mbb/json/final/401469774.json
+ create mode 100644 mbb/json/final/401469775.json
+ create mode 100644 mbb/json/final/401469892.json
+ create mode 100644 mbb/json/final/401469893.json
+ create mode 100644 mbb/json/final/401469894.json
+ create mode 100644 mbb/json/final/401469895.json
+ create mode 100644 mbb/json/final/401469896.json
+ create mode 100644 mbb/json/final/401470017.json
+ create mode 100644 mbb/json/final/401473452.json
+ create mode 100644 mbb/json/final/401473453.json
+ create mode 100644 mbb/json/final/401473454.json
+ create mode 100644 mbb/json/final/401473455.json
+ create mode 100644 mbb/json/final/401484429.json
+ create mode 100644 mbb/json/final/401484430.json
+ create mode 100644 mbb/json/final/401484896.json
+ create mode 100644 mbb/json/final/401484897.json
+ create mode 100644 mbb/json/final/401485223.json
+ create mode 100644 mbb/json/final/401486949.json
+ create mode 100644 mbb/json/final/401487119.json
+ create mode 100644 mbb/json/final/401487143.json
+ create mode 100644 mbb/json/final/401487342.json
+ create mode 100644 mbb/json/final/401487380.json
+ create mode 100644 mbb/json/final/401487462.json
+ create mode 100644 mbb/json/final/401488435.json
+ create mode 100644 mbb/json/final/401489725.json
+ create mode 100644 mbb/json/final/401490424.json
+ create mode 100644 mbb/json/final/401490519.json
+ create mode 100644 mbb/json/final/401491250.json
+ create mode 100644 mbb/json/final/401491909.json
+ create mode 100644 mbb/json/final/401492183.json
+ create mode 100644 mbb/json/final/401492212.json
+ create mode 100644 mbb/json/final/401493726.json
+ create mode 100644 mbb/json/final/401497495.json
+ create mode 100644 mbb/json/final/401497567.json
+ create mode 100644 mbb/json/final/401499596.json
+ create mode 100644 mbb/json/raw/401469674.json
+ create mode 100644 mbb/json/raw/401469675.json
+ create mode 100644 mbb/json/raw/401469771.json
+ create mode 100644 mbb/json/raw/401469772.json
+ create mode 100644 mbb/json/raw/401469773.json
+ create mode 100644 mbb/json/raw/401469774.json
+ create mode 100644 mbb/json/raw/401469775.json
+ create mode 100644 mbb/json/raw/401469892.json
+ create mode 100644 mbb/json/raw/401469893.json
+ create mode 100644 mbb/json/raw/401469894.json
+ create mode 100644 mbb/json/raw/401469895.json
+ create mode 100644 mbb/json/raw/401469896.json
+ create mode 100644 mbb/json/raw/401470017.json
+ create mode 100644 mbb/json/raw/401473452.json
+ create mode 100644 mbb/json/raw/401473453.json
+ create mode 100644 mbb/json/raw/401473454.json
+ create mode 100644 mbb/json/raw/401473455.json
+ create mode 100644 mbb/json/raw/401484429.json
+ create mode 100644 mbb/json/raw/401484430.json
+ create mode 100644 mbb/json/raw/401484896.json
+ create mode 100644 mbb/json/raw/401484897.json
+ create mode 100644 mbb/json/raw/401485223.json
+ create mode 100644 mbb/json/raw/401486949.json
+ create mode 100644 mbb/json/raw/401487119.json
+ create mode 100644 mbb/json/raw/401487143.json
+ create mode 100644 mbb/json/raw/401487342.json
+ create mode 100644 mbb/json/raw/401487380.json
+ create mode 100644 mbb/json/raw/401487462.json
+ create mode 100644 mbb/json/raw/401488435.json
+ create mode 100644 mbb/json/raw/401489725.json
+ create mode 100644 mbb/json/raw/401490424.json
+ create mode 100644 mbb/json/raw/401490519.json
+ create mode 100644 mbb/json/raw/401491250.json
+ create mode 100644 mbb/json/raw/401491909.json
+ create mode 100644 mbb/json/raw/401492183.json
+ create mode 100644 mbb/json/raw/401492212.json
+ create mode 100644 mbb/json/raw/401493726.json
+ create mode 100644 mbb/json/raw/401497495.json
+ create mode 100644 mbb/json/raw/401497567.json
+ create mode 100644 mbb/json/raw/401499596.json
+ rewrite mbb/mbb_games_in_data_repo.parquet (69%)
+ rewrite mbb/mbb_games_in_data_repo.qs (81%)
+ rewrite mbb/player_box/csv/player_box_2023.csv.gz (68%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (80%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (81%)
+ rewrite mbb/player_box/rds/player_box_2023.rds (72%)
+ rewrite mbb/schedules/parquet/mbb_schedule_2023.parquet (65%)
+ rewrite mbb/schedules/qs/mbb_schedule_2023.qs (93%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (91%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (94%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (92%)
+ rewrite nba_schedule_master.qs (66%)
+Already up to date.
