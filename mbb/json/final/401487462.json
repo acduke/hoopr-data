@@ -24462,6 +24462,18 @@
         "shortText": "Team Stats",
         "isExternal": false,
         "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/video?gameId=401487462",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
       }
     ],
     "week": 11,
@@ -24685,7 +24697,101 @@
       "region": "us"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 35466051,
+      "headline": "Princeton Pulls Away From Penn In Ivy Play   - Via Ivy League",
+      "description": "Tosan Evbuomwan piled up 26 points and added seven rebounds to help Princeton past rival Penn",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "princeton_pulls_away_fro_63c6be96443cb10178eb04eb",
+        "trackingId": "63c6be96443cb10178eb04eb"
+      },
+      "cerebroId": "63c6bedabe6ab31ff7fe3ba0",
+      "lastModified": "2023-01-17T15:31:52Z",
+      "originalPublishDate": "2023-01-17T15:25:51Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-17T15:25:51Z",
+        "expirationDate": "2025-01-17T15:25:51Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 86,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35466051"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/882b47c5-046f-4165-aca9-1236e90ed52e"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35466051&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35466051"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35466051&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35466051&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_102932390_2160334/ss_20230117_102932390_2160334.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/882b47c5-046f-4165-aca9-1236e90ed52e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35466051",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/882b47c5-046f-4165-aca9-1236e90ed52e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35466051"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/882b47c5-046f-4165-aca9-1236e90ed52e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35466051"
+          }
+        }
+      }
+    }
+  ],
   "playByPlaySource": "full",
   "standings": {
     "fullViewLink": {
