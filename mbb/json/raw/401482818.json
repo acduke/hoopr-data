@@ -437,18 +437,18 @@
                 "ejected": false,
                 "stats": [
                   "37",
-                  "5-11",
+                  "6-12",
                   "3-7",
                   "0-0",
-                  "2",
+                  "3",
                   "7",
-                  "9",
+                  "10",
                   "1",
                   "2",
                   "0",
                   "0",
                   "0",
-                  "13"
+                  "15"
                 ]
               },
               {
@@ -643,18 +643,18 @@
                 "ejected": false,
                 "stats": [
                   "34",
-                  "4-10",
+                  "3-9",
                   "1-4",
                   "2-2",
+                  "0",
                   "1",
                   "1",
-                  "2",
                   "6",
                   "1",
                   "0",
                   "4",
                   "1",
-                  "11"
+                  "9"
                 ]
               },
               {
@@ -3685,13 +3685,13 @@
             {
               "displayValue": "15",
               "athlete": {
-                "id": "4701991",
-                "uid": "s:40~l:41~a:4701991",
-                "guid": "1c172841-8efd-3b12-bcca-6a93f4f926ea",
-                "lastName": "Ashworth",
-                "fullName": "Steven Ashworth",
-                "displayName": "Steven Ashworth",
-                "shortName": "S. Ashworth",
+                "id": "4278395",
+                "uid": "s:40~l:41~a:4278395",
+                "guid": "ea250c27ea37e853596a8f2186a60555",
+                "lastName": "Funk",
+                "fullName": "Taylor Funk",
+                "displayName": "Taylor Funk",
+                "shortName": "T. Funk",
                 "links": [
                   {
                     "rel": [
@@ -3699,17 +3699,17 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4701991/steven-ashworth",
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4278395/taylor-funk",
                     "text": "Player Card"
                   }
                 ],
                 "headshot": {
-                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4701991.png",
-                  "alt": "Steven Ashworth"
+                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278395.png",
+                  "alt": "Taylor Funk"
                 },
-                "jersey": "3",
+                "jersey": "23",
                 "position": {
-                  "abbreviation": "G"
+                  "abbreviation": "F"
                 }
               },
               "statistics": [
@@ -3728,8 +3728,8 @@
                   "shortDisplayName": "FG",
                   "description": "Field Goal makes and attempts.",
                   "abbreviation": "FG",
-                  "value": 0.444444,
-                  "displayValue": "4/9"
+                  "value": 0.5,
+                  "displayValue": "6/12"
                 },
                 {
                   "name": "freeThrows",
@@ -3737,8 +3737,8 @@
                   "shortDisplayName": "FT",
                   "description": "Free Throw makes and attempts.",
                   "abbreviation": "FT",
-                  "value": 1.0,
-                  "displayValue": "4/4"
+                  "value": 0.0,
+                  "displayValue": "0/0"
                 }
               ]
             }
@@ -3824,7 +3824,7 @@
           "displayName": "Rebounds",
           "leaders": [
             {
-              "displayValue": "9",
+              "displayValue": "10",
               "athlete": {
                 "id": "4278395",
                 "uid": "s:40~l:41~a:4278395",
@@ -3860,8 +3860,8 @@
                   "shortDisplayName": "REB",
                   "description": "The total number of rebounds (offensive and defensive).",
                   "abbreviation": "REB",
-                  "value": 9.0,
-                  "displayValue": "9"
+                  "value": 10.0,
+                  "displayValue": "10"
                 },
                 {
                   "name": "defensiveRebounds",
@@ -3878,8 +3878,8 @@
                   "shortDisplayName": "OREB",
                   "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
                   "abbreviation": "OR",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 }
               ]
             }
@@ -5591,7 +5591,7 @@
         "uid": "s:40~l:41~e:401482818~c:401482818",
         "date": "2023-01-14T04:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5791,7 +5791,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        }
       }
     ],
     "links": [

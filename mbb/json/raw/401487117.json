@@ -69,7 +69,7 @@
           },
           {
             "name": "assists",
-            "displayValue": "6",
+            "displayValue": "7",
             "abbreviation": "AST",
             "label": "Assists"
           },
@@ -752,7 +752,7 @@
                   "2",
                   "3",
                   "5",
-                  "1",
+                  "2",
                   "0",
                   "4",
                   "0",
@@ -1832,7 +1832,7 @@
               "9",
               "24",
               "33",
-              "6",
+              "7",
               "10",
               "11",
               "11",
@@ -3941,15 +3941,15 @@
           "displayName": "Assists",
           "leaders": [
             {
-              "displayValue": "1",
+              "displayValue": "2",
               "athlete": {
-                "id": "4067165",
-                "uid": "s:40~l:41~a:4067165",
-                "guid": "b774bb6324e5e664861b2a042c7ca771",
-                "lastName": "Dishman",
-                "fullName": "Deandre Dishman",
-                "displayName": "Deandre Dishman",
-                "shortName": "D. Dishman",
+                "id": "4897508",
+                "uid": "s:40~l:41~a:4897508",
+                "guid": "54574fed-33ab-3103-b8b3-ea8d0e01b911",
+                "lastName": "Bufford",
+                "fullName": "Justin Bufford",
+                "displayName": "Justin Bufford",
+                "shortName": "J. Bufford",
                 "links": [
                   {
                     "rel": [
@@ -3957,17 +3957,17 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4067165/deandre-dishman",
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4897508/justin-bufford",
                     "text": "Player Card"
                   }
                 ],
                 "headshot": {
-                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4067165.png",
-                  "alt": "Deandre Dishman"
+                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4897508.png",
+                  "alt": "Justin Bufford"
                 },
-                "jersey": "2",
+                "jersey": "4",
                 "position": {
-                  "abbreviation": "F"
+                  "abbreviation": "G"
                 }
               },
               "statistics": [
@@ -3977,8 +3977,8 @@
                   "shortDisplayName": "AST",
                   "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
                   "abbreviation": "AST",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "name": "turnovers",
@@ -3986,8 +3986,8 @@
                   "shortDisplayName": "TO",
                   "description": "The number of times a player loses possession to the other team.",
                   "abbreviation": "TO",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 0.0,
+                  "displayValue": "0"
                 },
                 {
                   "name": "minutes",
@@ -3995,8 +3995,8 @@
                   "shortDisplayName": "MIN",
                   "description": "The total number of minutes played.",
                   "abbreviation": "MIN",
-                  "value": 34.0,
-                  "displayValue": "34"
+                  "value": 29.0,
+                  "displayValue": "29"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -4004,8 +4004,8 @@
                   "shortDisplayName": "AST/TO",
                   "description": "The average number of assists a player or team records per turnover",
                   "abbreviation": "AST/TO",
-                  "value": 0.33333334,
-                  "displayValue": "0.3"
+                  "value": 0.0,
+                  "displayValue": "INF"
                 }
               ]
             }
@@ -4185,10 +4185,10 @@
         "underdog": true,
         "moneyLine": 119,
         "spreadRecord": {
-          "wins": 6,
+          "wins": 7,
           "losses": 9,
           "pushes": 0,
-          "summary": "6-9-0"
+          "summary": "7-9-0"
         },
         "spreadOdds": -113.0,
         "teamId": "2393"
@@ -4201,8 +4201,8 @@
         "spreadRecord": {
           "wins": 8,
           "losses": 6,
-          "pushes": 0,
-          "summary": "8-6-0"
+          "pushes": 1,
+          "summary": "8-6-1"
         },
         "spreadOdds": -103.0,
         "teamId": "242"
@@ -5829,7 +5829,7 @@
         "uid": "s:40~l:41~e:401487117~c:401487117",
         "date": "2023-01-12T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,

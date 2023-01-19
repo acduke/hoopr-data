@@ -20754,13 +20754,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "8",
-          "name": "Big 12 Conference",
-          "abbreviation": "big12",
-          "shortName": "Big 12",
-          "midsizeName": "Big 12"
-        },
         "home": {
           "id": "2641",
           "uid": "s:40~l:41~t:2641",
@@ -21582,6 +21575,99 @@
           }
         }
       }
+    },
+    {
+      "source": "espn",
+      "id": 35469916,
+      "headline": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
+      "description": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncbgamehighlights"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Highlight",
+        "trackingName": "COM_NCB Highlight (Baylor Bears vs. Texas Tech Red Raiders: Full Highlights) 2023/01/18 ESHEET Sotfull",
+        "trackingId": "dm_20230118_NCB_baylor_bears_vs_texas_tech_red_raiders_full_highlights"
+      },
+      "cerebroId": "63c770dabe6ab31ff702132b",
+      "lastModified": "2023-01-18T15:57:58Z",
+      "originalPublishDate": "2023-01-18T04:08:52Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-18T04:08:52Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 101,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35469916"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/9c76971f-9e8d-4ee1-bab4-ab848421cc29"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35469916&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35469916"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35469916&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35469916&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916"
+          }
+        }
+      }
     }
   ],
   "playByPlaySource": "full",
@@ -21820,8 +21906,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-3",
-                  "displayValue": "14-3"
+                  "summary": "14-4",
+                  "displayValue": "14-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -21830,8 +21916,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -21841,8 +21927,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-2",
-                  "displayValue": "3-2"
+                  "summary": "3-3",
+                  "displayValue": "3-3"
                 }
               ],
               "logo": [
@@ -21926,8 +22012,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-6",
-                  "displayValue": "11-6"
+                  "summary": "11-7",
+                  "displayValue": "11-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -21936,8 +22022,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -21947,8 +22033,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-3",
-                  "displayValue": "2-3"
+                  "summary": "2-4",
+                  "displayValue": "2-4"
                 }
               ],
               "logo": [
@@ -21979,8 +22065,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-8",
-                  "displayValue": "9-8"
+                  "summary": "10-8",
+                  "displayValue": "10-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -21989,8 +22075,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -22000,8 +22086,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-4",
-                  "displayValue": "1-4"
+                  "summary": "2-4",
+                  "displayValue": "2-4"
                 }
               ],
               "logo": [
@@ -22032,8 +22118,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-7",
-                  "displayValue": "10-7"
+                  "summary": "11-7",
+                  "displayValue": "11-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -22042,8 +22128,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -22053,8 +22139,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-5",
-                  "displayValue": "0-5"
+                  "summary": "1-5",
+                  "displayValue": "1-5"
                 }
               ],
               "logo": [
@@ -23007,13 +23093,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "8",
-      "name": "Big 12 Conference",
-      "abbreviation": "big12",
-      "shortName": "Big 12",
-      "midsizeName": "Big 12"
-    },
     "home": {
       "id": "2641",
       "uid": "s:40~l:41~t:2641",
