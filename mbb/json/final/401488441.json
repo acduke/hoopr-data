@@ -18580,6 +18580,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "2",
+          "name": "Atlantic Coast Conference",
+          "abbreviation": "acc",
+          "shortName": "ACC",
+          "midsizeName": "ACC"
+        },
         "home": {
           "id": "258",
           "uid": "s:40~l:41~t:258",
@@ -18684,6 +18691,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401488441",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401488441",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -19398,99 +19417,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/867e6272-a94e-4eb5-9f58-d7f1bfc3b520/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476699"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35476726,
-      "headline": "Reece Beekman makes a nice move for the lay-in",
-      "description": "Reece Beekman makes a nice move for the lay-in",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Reece Beekman makes a nice move for the lay-in) 2023/01/19 ESHEET",
-        "trackingId": "dm_20230119_NCB_reece_beekman_makes_a_nice_move_for_the_layin"
-      },
-      "cerebroId": "63c89fb0ca84b70e7e6bbf05",
-      "lastModified": "2023-01-19T02:12:09Z",
-      "originalPublishDate": "2023-01-19T01:41:02Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-19T01:41:02Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 16,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35476726"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/136c7bac-853b-4fe1-9070-a36ce5633ec9"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35476726&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35476726"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35476726&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35476726&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/136c7bac-853b-4fe1-9070-a36ce5633ec9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476726",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/136c7bac-853b-4fe1-9070-a36ce5633ec9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476726"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/136c7bac-853b-4fe1-9070-a36ce5633ec9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476726"
           }
         }
       }
@@ -20308,7 +20234,397 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "1cb5623f836e9",
+    "keywords": [],
+    "description": "\u2014 Kihei Clark picked a special night to have his best offensive game of the season.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35476726,
+        "dataSourceIdentifier": "f13f4f0161c47",
+        "headline": "Reece Beekman makes a nice move for the lay-in",
+        "caption": "Reece Beekman makes a nice move for the lay-in",
+        "description": "Reece Beekman makes a nice move for the lay-in",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Reece Beekman makes a nice move for the lay-in) 2023/01/19 ESHEET",
+          "trackingId": "dm_20230119_NCB_reece_beekman_makes_a_nice_move_for_the_layin"
+        },
+        "cerebroId": "63c89fb0ca84b70e7e6bbf05",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-19T02:12:09Z",
+        "originalPublishDate": "2023-01-19T01:41:02Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-01-19T01:41:02Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 16,
+        "categories": [
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 3160,
+            "description": "Virginia Cavaliers",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 258,
+            "team": {
+              "id": 258,
+              "description": "Virginia Cavaliers",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/258"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/258/virginia-cavaliers"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=258"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:258"
+          },
+          {
+            "id": 454217,
+            "description": "Reece Beekman",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4432187,
+            "athlete": {
+              "id": 4432187,
+              "description": "Reece Beekman",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432187"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432187/reece-beekman"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4432187"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4432187"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35476726"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/136c7bac-853b-4fe1-9070-a36ce5633ec9"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35476726",
+            "short": {
+              "href": "https://es.pn/3IVqKib"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35476726"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35476726"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/136c7bac-853b-4fe1-9070-a36ce5633ec9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476726",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/136c7bac-853b-4fe1-9070-a36ce5633ec9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476726"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/136c7bac-853b-4fe1-9070-a36ce5633ec9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476726"
+            }
+          }
+        },
+        "title": "Reece Beekman makes a nice move for the lay-in"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35482289",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35482289"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401488441"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401488441",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35482289"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401488441&version=mobile"
+      }
+    },
+    "id": 35482289,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3160,
+        "description": "Virginia Cavaliers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 258,
+        "team": {
+          "id": 258,
+          "description": "Virginia Cavaliers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/258"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/258/virginia-cavaliers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=258"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:258"
+      },
+      {
+        "id": 3176,
+        "description": "Virginia Tech Hokies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 259,
+        "team": {
+          "id": 259,
+          "description": "Virginia Tech Hokies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/259"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/259/virginia-tech-hokies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=259"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:259"
+      }
+    ],
+    "headline": "Clark's record night lifts No. 10 Virginia past Hokies 78-68",
+    "gameId": "401488441",
+    "images": [
+      {
+        "name": "Reece Beekman makes a nice move for the lay-in",
+        "width": 576,
+        "alt": "",
+        "caption": "Reece Beekman makes a nice move for the lay-in",
+        "url": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_204105642_2161494/ss_20230118_204105642_2161494.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Clark's record night lifts No. 10 Virginia past Hokies 78-68",
+    "published": "2023-01-19T19:23:45Z",
+    "allowComments": true,
+    "lastModified": "2023-01-19T19:25:19Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">CHARLOTTESVILLE, Va. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4395677/kihei-clark\">Kihei Clark</a> picked a special night to have his best offensive game of the season.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The fifth-year graduate student had 20 points and became Virginia's career victories leader as a player with win No. 111 as the No. 10 Cavaliers handed Virginia Tech its sixth straight loss, 78-68 on Wednesday night. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431744/armaan-franklin\">Armaan Franklin</a> added 15 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396614/jayden-gardner\">Jayden Gardner</a> 12 for the Cavaliers (14-3, 6-2 Atlantic Coast Conference). Clark was tied with Mamadi Diane (2017-20) on the overall victories list and with 64 career ACC wins.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">And Clark was integral in helping the Cavaliers hold off the Hokies, hitting two 3-pointers and a pair of free throws in the closing minutes with the Hokies refusing to go away.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\"We were getting different kinds, varied shots and Kihei just took advantage of some good drives. He made some real clever plays and then he hit a couple of big time 3s. We needed one that was huge,\" Cavaliers coach Tony Bennett said.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Clark deflected much of the credit for his records. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cYou know, kind of like what Coach Bennett says: it's a team award, right? With the players that I\u2019ve been playing with from my first year up until now, I mean, played with some great guys. So it means a lot to just be in that conversation,\u201d he said. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">One of those former Cavaliers, Ty Jerome, sat across the court from the Virginia bench with Golden State Warriors teammate Stephen Curry, and when Jerome was shown on the video board, he got a huge ovation. He played on the 2019 national championship team.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Having him in the building might have given Clark a little extra motivation, he said. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cMaybe a little bit,\" he said. \"But I mean, you go out, you just, you know, you try to play your game and to take the opportunities as they come, but obviously it gives a little extra motivation with them on the sideline.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432257/darius-maddox\">Darius Maddox</a> led the Hokies (11-7, 1-6) with 13 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397787/grant-basile\">Grant Basile</a> had 12. Virginia Tech's losing streak has come after the Hokies won 11 of their first 12 games. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Jayden Gardner's basket to open the second-half scoring gave Virginia its biggest lead to that point at 42-31, but the Hokies got it back to single digits on the strength of their 3-point shooting until Gardner's three-point play with 7:16 left made it 65-55.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">A 3-pointer by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4712845/isaac-mckneely\">Isaac McKneely</a> moments later pushed the lead back to 11, but Basile made the Hokies' 10th 3 to make it 68-60 before Clark hit a 3-pointer and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432187/reece-beekman\">Reece Beekman</a> followed with a three-point play with 3:52 left, and the Cavaliers finished it.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Hokies coach Mike Young said Clark has improved in his fifth year.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cHe\u2019s more explosive this year,\" Young said. \"He looks a little bigger and stronger. You you know what high regard we hold that young person in in our camp. But boy, he\u2019s got a slow to fast that is wow!\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Virginia Tech finished 12 for 27 from 3-point territory. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Hokies used an 11-0 run in the first half to lead 21-19, but Virginia canceled that with a 21-10 run to close the half. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Virginia Tech: Hokies big man Grant Basile played only 6 1/2 minutes in the first half after drawing a pair of fouls. He avoided further trouble after halftime.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Virginia: The Cavaliers made a concerted effort to attack the rim against the Hokies guards. Virginia scored 26 of its 40 first-half points in the paint and had eight second-chance points. They finished with 36 points in the paint and 11 second-chance points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Hokies are back on the road at No. 19 Clemson on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Cavaliers are on the road at Wake Forest on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "leaders": [
     {
       "team": {
@@ -21184,6 +21500,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "2",
+      "name": "Atlantic Coast Conference",
+      "abbreviation": "acc",
+      "shortName": "ACC",
+      "midsizeName": "ACC"
+    },
     "home": {
       "id": "258",
       "uid": "s:40~l:41~t:258",

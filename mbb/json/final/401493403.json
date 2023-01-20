@@ -22906,6 +22906,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "8",
+          "name": "Big 12 Conference",
+          "abbreviation": "big12",
+          "shortName": "Big 12",
+          "midsizeName": "Big 12"
+        },
         "home": {
           "id": "277",
           "uid": "s:40~l:41~t:277",
@@ -23010,6 +23017,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401493403",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401493403",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -23937,99 +23956,6 @@
     },
     {
       "source": "espn",
-      "id": 35476720,
-      "headline": "Jimmy Bell Jr. skies for big flush",
-      "description": "Jimmy Bell Jr. skies for big flush",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Jimmy Bell Jr. skies for big flush) 2023/01/19 ESHEET",
-        "trackingId": "dm_20230119_NCB_jimmy_bell_jr_skies_for_big_flush"
-      },
-      "cerebroId": "63c89f1dca84b70e7e6bbec3",
-      "lastModified": "2023-01-19T02:28:09Z",
-      "originalPublishDate": "2023-01-19T01:38:35Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-19T01:38:35Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 22,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35476720"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/2623b9ec-90e9-4575-b366-8b8d481435f0"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35476720&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35476720"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35476720&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35476720&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2623b9ec-90e9-4575-b366-8b8d481435f0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476720",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2623b9ec-90e9-4575-b366-8b8d481435f0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476720"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2623b9ec-90e9-4575-b366-8b8d481435f0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476720"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
       "id": 35476762,
       "headline": "Kedrian Johnson drills the jumper vs. TCU Horned Frogs",
       "description": "Kedrian Johnson drills the jumper vs. TCU Horned Frogs",
@@ -24762,7 +24688,397 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "f2e3b91e851e7",
+    "keywords": [],
+    "description": "\u2014 West Virginia's physical brand of basketball under coach Bob Huggins was too much for TCU to handle.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35476720,
+        "dataSourceIdentifier": "fcdd4f9c9c9d2",
+        "headline": "Jimmy Bell Jr. skies for big flush",
+        "caption": "Jimmy Bell Jr. skies for big flush",
+        "description": "Jimmy Bell Jr. skies for big flush",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Jimmy Bell Jr. skies for big flush) 2023/01/19 ESHEET",
+          "trackingId": "dm_20230119_NCB_jimmy_bell_jr_skies_for_big_flush"
+        },
+        "cerebroId": "63c89f1dca84b70e7e6bbec3",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-19T02:28:09Z",
+        "originalPublishDate": "2023-01-19T01:38:35Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-01-19T01:38:35Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 22,
+        "categories": [
+          {
+            "id": 409286,
+            "description": "Jimmy Bell Jr.",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4592485,
+            "athlete": {
+              "id": 4592485,
+              "description": "Jimmy Bell Jr.",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4592485"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4592485/jimmy-bell-jr."
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4592485"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4592485"
+          },
+          {
+            "id": 3185,
+            "description": "West Virginia Mountaineers",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 277,
+            "team": {
+              "id": 277,
+              "description": "West Virginia Mountaineers",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/277"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=277"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:277"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35476720"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/2623b9ec-90e9-4575-b366-8b8d481435f0"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35476720",
+            "short": {
+              "href": "https://es.pn/3wbnrfp"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35476720"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35476720"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2623b9ec-90e9-4575-b366-8b8d481435f0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476720",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2623b9ec-90e9-4575-b366-8b8d481435f0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476720"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2623b9ec-90e9-4575-b366-8b8d481435f0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35476720"
+            }
+          }
+        },
+        "title": "Jimmy Bell Jr. skies for big flush"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35482321",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35482321"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401493403"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401493403",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35482321"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401493403&version=mobile"
+      }
+    },
+    "id": 35482321,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3185,
+        "description": "West Virginia Mountaineers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 277,
+        "team": {
+          "id": 277,
+          "description": "West Virginia Mountaineers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/277"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=277"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:277"
+      },
+      {
+        "id": 3259,
+        "description": "TCU Horned Frogs",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2628,
+        "team": {
+          "id": 2628,
+          "description": "TCU Horned Frogs",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2628"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2628"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2628"
+      }
+    ],
+    "headline": "Johnson, Bell lead West Virginia over No. 14 TCU 74-65",
+    "gameId": "401493403",
+    "images": [
+      {
+        "name": "Jimmy Bell Jr. skies for big flush",
+        "width": 576,
+        "alt": "",
+        "caption": "Jimmy Bell Jr. skies for big flush",
+        "url": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_203838972_2161490/ss_20230118_203838972_2161490.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Johnson, Bell lead West Virginia over No. 14 TCU 74-65",
+    "published": "2023-01-19T19:25:54Z",
+    "allowComments": true,
+    "lastModified": "2023-01-19T19:28:05Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">MORGANTOWN, W.Va. -- \u2014 West Virginia's physical brand of basketball under coach Bob Huggins was too much for TCU to handle.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Mountaineers took advantage of a bruising inside performance behind 285-pound forward Jimmy Bell Jr. to build a big early lead and outlast No. 14 TCU 74-65 on Wednesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Bell, a junior college transfer, had 15 points and a season-high 12 rebounds for his second double-double. Prior to the start of the season, the 6-foot-10 Bell had changed his diet and workout habits and lost about 75 pounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cJimmy was terrific, but you know, Jimmy is a guy who really cares,\u201d Huggins said. \u201cHe's a guy who works really hard. When you think about a guy who came in here and lost the weight that he lost in order to be able to play, his skill level has gotten so much better.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4279756/kedrian-johnson\">Kedrian Johnson</a> scored 20 points to lead West Virginia (11-7, 1-5 Big 12), whose players slapped hands with the student section after breaking a five-game losing streak.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">TCU (14-4, 3-3) has lost three of its last four after starting the season 13-1.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWe\u2019ve got to play better against physical teams,\u201d TCU coach Jamie Dixon said. \u201cCertainly the most physical, aggressive team we\u2019ve played this year. They won that battle.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cIt was a different game. This wasn't a basketball game. But it was what we expected. They stepped it up as the game went on with their physicality.\u201d \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Mike Miles Jr. scored 21 points, including 14 after halftime, while <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432872/emanuel-miller\">Emanuel Miller</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431766/damion-baugh\">Damion Baugh</a> had 13 apiece for TCU.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">After a lackluster first half, the Horned Frogs made it interesting toward the end.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Down 17 with 11 minutes remaining, TCU sank eight free throws during a 13-2 run. Miles then hit a 3-pointer and an ensuing free throw after getting fouled, and Jakobe Coles made layups on back-to-back possessions to pull the Horned Frogs within 62-60 with 5:17 left. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">But TCU made just two field goals over the final five minutes and West Virginia never relinquished the lead.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Mountaineers' <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396679/erik-stevenson\">Erik Stevenson</a> scored nine points in the first half but earned a seat on the bench for much of the second half and got an earful from Huggins for defensive lapses and four turnovers. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">West Virginia finally beat a ranked opponent after 10 straight losses to Top 25 teams.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">West Virginia started with one of its best efforts all season, making 9 of its first 14 shots and racing to a 28-12 lead. The Mountaineers, guilty too often this season of one-pass possessions, made crisp passes on offense and clogged the paint on defense, while TCU was unable to get its transition offense on track until it was too late.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">TCU trailed 39-24 at halftime, its lowest first-half scoring output of the season. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">HUGGINS IN THE HOUSE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Huggins was at the game a day after meeting Tuesday at the state Capitol with Gov. Jim Justice, who <a href=\"https://apnews.com/article/sports-health-west-virginia-state-government-jim-justice-ddce0a3f4c2a2a6c02f3c0f58904d5d0\">announced hours later</a> that he had a mild case of the coronavirus. Huggins had gone to Charleston to be honored for his induction into the <a href=\"https://apnews.com/article/san-antonio-spurs-nba-sports-massachusetts-springfield-160362088d75e91c20d988491cde54d7\">Basketball Hall of Fame</a> last year. A West Virginia athletics spokesman said Huggins was being monitored for any symptoms and that COVID-19 testing would be conducted according to the school\u2019s protocols for his level of exposure, noting Huggins was fully vaccinated and boosted.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">TCU: The team with the fewest turnovers in the Big 12 committed 19 Wednesday. The Horned Frogs fell to 0-11 all-time in Morgantown. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">West Virginia: The Mountaineers played like they were fed up with their losing streak, outrebounding TCU 31-18. After shooting 61% from the free-throw line over their last five games, West Virginia went 20 of 26 (77%) on Wednesday. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">TCU plays at No. 2 Kansas on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">West Virginia hosts No. 7 Texas on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top2"
+  },
   "leaders": [
     {
       "team": {
@@ -25638,6 +25954,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "8",
+      "name": "Big 12 Conference",
+      "abbreviation": "big12",
+      "shortName": "Big 12",
+      "midsizeName": "Big 12"
+    },
     "home": {
       "id": "277",
       "uid": "s:40~l:41~t:277",

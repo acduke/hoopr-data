@@ -23912,6 +23912,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401488437",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -24924,99 +24936,6 @@
           }
         }
       }
-    },
-    {
-      "source": "espn",
-      "id": 35470007,
-      "headline": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights",
-      "description": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncbgamehighlights"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Highlight",
-        "trackingName": "COM_NCB Highlight (Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights) 2023/01/18 ESHEET Sotfull",
-        "trackingId": "dm_20230118_NCB_clemson_tigers_vs_wake_forest_demon_deacons_full_highlights"
-      },
-      "cerebroId": "63c772d3be6ab31ff7021367",
-      "lastModified": "2023-01-18T15:57:51Z",
-      "originalPublishDate": "2023-01-18T04:17:20Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-18T04:17:20Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 105,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35470007"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35470007&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35470007"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35470007&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35470007&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35470007",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35470007"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35470007"
-          }
-        }
-      }
     }
   ],
   "playByPlaySource": "full",
@@ -25831,7 +25750,513 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "efd8ee0b632fd",
+    "keywords": [],
+    "description": "\u2014 Wake Forest ended No. 19 Clemson\u2019s unexpected perfect start in Atlantic Coast Conference play in a style that demands the Demon Deacons start getting more attention of their own.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35470007,
+        "dataSourceIdentifier": "b9a9daf3aa245",
+        "headline": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights",
+        "caption": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights",
+        "description": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncbgamehighlights"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Highlight",
+          "trackingName": "COM_NCB Highlight (Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights) 2023/01/18 ESHEET Sotfull",
+          "trackingId": "dm_20230118_NCB_clemson_tigers_vs_wake_forest_demon_deacons_full_highlights"
+        },
+        "cerebroId": "63c772d3be6ab31ff7021367",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-18T15:57:51Z",
+        "originalPublishDate": "2023-01-18T04:17:20Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-01-18T04:17:20Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 105,
+        "categories": [
+          {
+            "id": 454997,
+            "description": "Andrew Carr",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4702743,
+            "athlete": {
+              "id": 4702743,
+              "description": "Andrew Carr",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4702743"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4702743/andrew-carr"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4702743"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4702743"
+          },
+          {
+            "id": 198400,
+            "description": "Tyree Appleby",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4280299,
+            "athlete": {
+              "id": 4280299,
+              "description": "Tyree Appleby",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4280299"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4280299/tyree-appleby"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4280299"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4280299"
+          },
+          {
+            "id": 3158,
+            "description": "Wake Forest Demon Deacons",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 154,
+            "team": {
+              "id": 154,
+              "description": "Wake Forest Demon Deacons",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/154"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/154/wake-forest-demon-deacons"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=154"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:154"
+          },
+          {
+            "id": 3159,
+            "description": "Clemson Tigers",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 228,
+            "team": {
+              "id": 228,
+              "description": "Clemson Tigers",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/228"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/228/clemson-tigers"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=228"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:228"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 568213,
+            "description": "Chauncey Wiggins",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 5105448,
+            "athlete": {
+              "id": 5105448,
+              "description": "Chauncey Wiggins",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/5105448"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105448/chauncey-wiggins"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=5105448"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:5105448"
+          },
+          {
+            "id": 218700,
+            "description": "Brevin Galloway",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4067219,
+            "athlete": {
+              "id": 4067219,
+              "description": "Brevin Galloway",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4067219"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4067219/brevin-galloway"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4067219"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4067219"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35470007"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35470007",
+            "short": {
+              "href": "https://es.pn/3Heptl5"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35470007"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35470007"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35470007",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35470007"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8bf5d0c1-1554-4802-b2e9-1bb9d4ad7bba/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35470007"
+            }
+          }
+        },
+        "title": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35482093",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35482093"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401488437"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401488437",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35482093"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401488437&version=mobile"
+      }
+    },
+    "id": 35482093,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3158,
+        "description": "Wake Forest Demon Deacons",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 154,
+        "team": {
+          "id": 154,
+          "description": "Wake Forest Demon Deacons",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/154"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/154/wake-forest-demon-deacons"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=154"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:154"
+      },
+      {
+        "id": 3159,
+        "description": "Clemson Tigers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 228,
+        "team": {
+          "id": 228,
+          "description": "Clemson Tigers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/228"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/228/clemson-tigers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=228"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:228"
+      }
+    ],
+    "headline": "Wake Forest spoils No. 19 Clemson's perfect ACC start",
+    "gameId": "401488437",
+    "images": [
+      {
+        "name": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights",
+        "width": 576,
+        "alt": "",
+        "caption": "Clemson Tigers vs. Wake Forest Demon Deacons: Full Highlights",
+        "url": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_231724773_2160907/ss_20230117_231724773_2160907.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Wake Forest spoils No. 19 Clemson's perfect ACC start",
+    "published": "2023-01-19T19:12:14Z",
+    "allowComments": true,
+    "lastModified": "2023-01-19T19:13:29Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">WINSTON-SALEM, N.C. -- \u2014 Wake Forest ended No. 19 Clemson\u2019s unexpected perfect start in Atlantic Coast Conference play in a style that demands the Demon Deacons start getting more attention of their own.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4280299/tyree-appleby\">Tyree Appleby</a> scored 24 points to help Wake Forest beat Clemson 87-77 on Tuesday night, giving the Demon Deacons their fourth straight win while playing from in front nearly all night against a team that had won its first seven league games.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cAs a team, we expect to win every time we step out on the floor and we do the right things,\" said <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4696316/cameron-hildreth\">Cameron Hildreth</a>, who had 17 points and 10 rebounds for Wake Foerst. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Generally speaking, the Demon Deacons (14-5, 6-2 ACC) did that. They went to work aggressively in the paint and knocked down their open looks from behind the arc early on, and got to the foul line the entire way. The combination had them controlling play all night and kept the Tigers in catch-up mode, while their defense even came through late when their offense sputtered a bit.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWe don't always play smart, but we play hard and we play together,\u201d coach Steve Forbes said. \u201cWe share that ball. And you know, this was a game we needed to play that way. We couldn't have won this game in November, December.\"\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702743/andrew-carr\">Andrew Carr</a> had 18 points, 11 rebounds and three blocks for Wake Forest, which jumped to a double-digit lead by midway through the first half and had a quick start out of the break to push that margin to 15 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cI thought our guys were just a little bit behind the play in the first half especially,\u201d Clemson coach Brad Brownell said. \u201cIt took us a while to to get into the game. I don\u2019t know if we had a little bit of heavy legs. And obviously some of it just Wake Forest playing so well quickly.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Tigers (15-4, 7-1) twice got as close as six in the second half, the last time coming on Hunter Tyson\u2019s putback dunk while drawing a foul for a three-point play with 2:07 left. But with the shot clock winding down on the ensuing possession, Hildreth took a kickout feed from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398180/daivien-williamson\">Daivien Williamson</a> and coolly knocked down a straightaway 3 for the 80-71 lead that kept Wake Forest in control.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWe didn't try to guard them as a team very well,,\" Brownell said. \"And we didn't have much success guarding them at all.\"\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701225/pj-hall\">PJ Hall</a> had 22 points and nine rebounds to lead Clemson, while Tyson had 19 points and 14 boards. The Tigers shot 42% while playing without second-leading scorer <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592184/chase-hunter\">Chase Hunter</a> due to an ankle injury. The Tigers also managed just two field goals over roughly 9 1/2 minutes during a critical stretch as the game pushed into its final stage with Wake Forest tenuously protecting its lead. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Wake Forest shot 46%, made nine 3-pointers and got to the foul line 33 times (making 22) while Clemson attempted just 14 free throws.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Clemson: Along with that first-ever 7-0 start, the Tigers had set a program record with 11 straight regular-season wins in league play. And the weekend home win against then-ranked Duke was enough to push the Tigers in Monday's latest AP Top 25 poll for the first time this season. But the Tigers led this one for only 29 seconds after <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4067219/brevin-galloway\">Brevin Galloway</a>'s layup off the opening tip. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Wake Forest: Forbes has the Demon Deacons making serious gains in Year 3. This marked the third straight win by double-digit margins for a team that already has a win against Duke and at Wisconsin on its resume. That has the Demon Deacons positioning themselves to be in the mix for the NCAA Tournament bid that barely eluded them last year \u2014 and it also attracted an energized home crowd for this one to provide a jolt after years of spotty showings during the program's long-term struggles.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Clemson: Home against Virginia Tech on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Wake Forest: Home against No. 10 Virginia on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Follow Aaron Beard on Twitter at http://www.twitter.com/aaronbeardap \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "leaders": [
     {
       "team": {

@@ -5524,7 +5524,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "8",
+          "name": "Big 12 Conference",
+          "abbreviation": "big12",
+          "shortName": "Big 12",
+          "midsizeName": "Big 12"
+        }
       }
     ],
     "links": [
@@ -5537,6 +5544,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401493402",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401493402",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15948,7 +15967,571 @@
       }
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "ed12cd0c8054e",
+    "keywords": [],
+    "description": "\u2014 Keyonte George scored 27 points, and No. 21 Baylor defeated Texas Tech 81-74 on Tuesday night.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35469916,
+        "dataSourceIdentifier": "9a2a0cbb1fabb",
+        "headline": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
+        "caption": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
+        "description": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncbgamehighlights"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Highlight",
+          "trackingName": "COM_NCB Highlight (Baylor Bears vs. Texas Tech Red Raiders: Full Highlights) 2023/01/18 ESHEET Sotfull",
+          "trackingId": "dm_20230118_NCB_baylor_bears_vs_texas_tech_red_raiders_full_highlights"
+        },
+        "cerebroId": "63c770dabe6ab31ff702132b",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-18T15:57:58Z",
+        "originalPublishDate": "2023-01-18T04:08:52Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-01-18T04:08:52Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 101,
+        "categories": [
+          {
+            "id": 3221,
+            "description": "Baylor Bears",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 239,
+            "team": {
+              "id": 239,
+              "description": "Baylor Bears",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/239"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/239/baylor-bears"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=239"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:239"
+          },
+          {
+            "id": 409264,
+            "description": "Jalen Bridges",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4432946,
+            "athlete": {
+              "id": 4432946,
+              "description": "Jalen Bridges",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432946"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432946/jalen-bridges"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4432946"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4432946"
+          },
+          {
+            "id": 568222,
+            "description": "Josh Ojianwuna",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4894236,
+            "athlete": {
+              "id": 4894236,
+              "description": "Josh Ojianwuna",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4894236"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4894236/josh-ojianwuna"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4894236"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4894236"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 3226,
+            "description": "Texas Tech Red Raiders",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 2641,
+            "team": {
+              "id": 2641,
+              "description": "Texas Tech Red Raiders",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2641"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2641/texas-tech-red-raiders"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=2641"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:2641"
+          },
+          {
+            "id": 509101,
+            "description": "Langston Love",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4433265,
+            "athlete": {
+              "id": 4433265,
+              "description": "Langston Love",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4433265"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433265/langston-love"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4433265"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4433265"
+          },
+          {
+            "id": 568292,
+            "description": "Keyonte George",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4433627,
+            "athlete": {
+              "id": 4433627,
+              "description": "Keyonte George",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4433627"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433627/keyonte-george"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4433627"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4433627"
+          },
+          {
+            "id": 207325,
+            "description": "Fardaws Aimaq",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4398226,
+            "athlete": {
+              "id": 4398226,
+              "description": "Fardaws Aimaq",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4398226"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4398226/fardaws-aimaq"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4398226"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4398226"
+          },
+          {
+            "id": 207020,
+            "description": "Kevin Obanor",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4398304,
+            "athlete": {
+              "id": 4398304,
+              "description": "Kevin Obanor",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4398304"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4398304/kevin-obanor"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4398304"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4398304"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35469916"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9c76971f-9e8d-4ee1-bab4-ab848421cc29"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35469916",
+            "short": {
+              "href": "https://es.pn/3XkX0jg"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35469916"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35469916"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916"
+            }
+          }
+        },
+        "title": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35482100",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35482100"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401493402"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401493402",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35482100"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401493402&version=mobile"
+      }
+    },
+    "id": 35482100,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3226,
+        "description": "Texas Tech Red Raiders",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2641,
+        "team": {
+          "id": 2641,
+          "description": "Texas Tech Red Raiders",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2641"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2641/texas-tech-red-raiders"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2641"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2641"
+      },
+      {
+        "id": 3221,
+        "description": "Baylor Bears",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 239,
+        "team": {
+          "id": 239,
+          "description": "Baylor Bears",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/239"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/239/baylor-bears"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=239"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:239"
+      }
+    ],
+    "headline": "George scores 27, leads No. 21 Baylor past Texas Tech 81-74",
+    "gameId": "401493402",
+    "images": [
+      {
+        "name": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
+        "width": 576,
+        "alt": "",
+        "caption": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
+        "url": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "George scores 27, leads No. 21 Baylor past Texas Tech 81-74",
+    "published": "2023-01-19T19:13:17Z",
+    "allowComments": true,
+    "lastModified": "2023-01-19T19:13:17Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LUBBOCK, Texas -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433627/keyonte-george\">Keyonte George</a> scored 27 points, and No. 21 Baylor defeated Texas Tech 81-74 on Tuesday night. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">George scored 18 points in the second half as the Bears (13-5, 3-3 Big 12) won their third in a row. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433149/lj-cryer\">LJ Cryer</a> added 18 points, and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432946/jalen-bridges\">Jalen Bridges</a> finished with 14 for Baylor, which returned to the AP Top 25 this week. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cJust a typical Big 12 basketball game,\u201d Baylor head coach Scott Drew said. \u201cA very hard-fought game. When you go on the road you\u2019re going to have to earn it. I was really proud of our guys with 16 assists and three turnovers. They did a really good job.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683747/jaylon-tyson\">Jaylon Tyson</a> led Texas Tech (10-8, 0-6) with 19 points, while <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106285/pop-isaacs\">Pop Isaacs</a> added 14, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398226/fardaws-aimaq\">Fardaws Aimaq</a> had 12 and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398304/kevin-obanor\">Kevin Obanor</a> added 10. The Bears took control early in the second half with a 20-9 run that gave them a 70-54 lead, but the Raiders chipped away, cutting the gap to 77-71.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">George scored Baylor\u2019s first 13 points of the second half and provided a consistent offensive spark throughout.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cThey did a great job finding me when I was open,\u201d he said. \u201cFor us, it\u2019s all about winning and trying to make winning plays.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Texas Tech drew within five points with 55 seconds left on an Isaacs free throw. The Raiders grabbed the offensive rebound on his second free throw, but they were unable to convert. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cIt\u2019s tough going through losses,\u201d Texas Tech head coach Mark Adams said. \u201cFour of the six have been two- or one-possession games. I was proud of our guys for fighting hard. We\u2019re competing, and we\u2019re going to keep playing hard. We have to keep our heads up. It\u2019s no different in life. You learn from adversity, and you can\u2019t give up. You have to keep fighting.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams shot the ball well in the first half, each connecting on more than 50 percent from the floor. Baylor broke a 22-22 tie with a 7-0 run highlighted by a 3-pointer from George. The Bears hit 18 of 35 from the floor, including 7 of 15 from 3-point range in the opening 20 minutes while Tech was 15 of 26 and also 7 of 15 from beyond the arc. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Red Raiders closed the gap to 40-36 before Cryer converted a 3-pointer after the Bears grabbed an offensive rebound. The Bears stretched the lead to 48-38 on another 3-pointer by Cryer before Isaacs drove the lane and scored to pull Tech within 48-40 at intermission. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor converted 11 of 29 from 3-point range in building its advantage midway through the second half. Texas Tech is now 0-6 against members of the AP Top 25 and it will face its fourth consecutive ranked team on Saturday. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Texas Tech plays at No. 13 Kansas State on Saturday. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor plays at Oklahoma on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "videos": [
     {
       "source": "espn",
@@ -16411,99 +16994,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/27f9425b-5146-4504-af62-b88ef55f29aa/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469846"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35469916,
-      "headline": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
-      "description": "Baylor Bears vs. Texas Tech Red Raiders: Full Highlights",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncbgamehighlights"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Highlight",
-        "trackingName": "COM_NCB Highlight (Baylor Bears vs. Texas Tech Red Raiders: Full Highlights) 2023/01/18 ESHEET Sotfull",
-        "trackingId": "dm_20230118_NCB_baylor_bears_vs_texas_tech_red_raiders_full_highlights"
-      },
-      "cerebroId": "63c770dabe6ab31ff702132b",
-      "lastModified": "2023-01-18T15:57:58Z",
-      "originalPublishDate": "2023-01-18T04:08:52Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-18T04:08:52Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 101,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35469916"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/9c76971f-9e8d-4ee1-bab4-ab848421cc29"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35469916&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35469916"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35469916&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35469916&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0117/ss_20230117_230859771_2160888/ss_20230117_230859771_2160888.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c76971f-9e8d-4ee1-bab4-ab848421cc29/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35469916"
           }
         }
       }

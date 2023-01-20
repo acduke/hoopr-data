@@ -22476,7 +22476,7 @@
         "uid": "s:40~l:41~e:401485227~c:401485227",
         "date": "2023-01-19T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -22783,6 +22783,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401485227",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401485227",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -23218,99 +23230,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4e7c91e7-fc8b-48fd-94b6-0a285a64d1e2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35477570"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35477820,
-      "headline": "Olivier-Maxence Prosper throws down huge slam for Marquette",
-      "description": "Olivier-Maxence Prosper throws down huge slam for Marquette",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Olivier-Maxence Prosper throws down huge slam for Marquette) 2023/01/19 ESHEET",
-        "trackingId": "dm_20230119_NCB_oliviermaxence_prosper_throws_down_huge_slam_for_marquette"
-      },
-      "cerebroId": "63c8c253be6ab31ff705f5f6",
-      "lastModified": "2023-01-19T04:18:25Z",
-      "originalPublishDate": "2023-01-19T04:08:48Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-19T04:08:48Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 19,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35477820"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/b26b8359-d033-4888-9644-21e7a74c8e69"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35477820&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35477820"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35477820&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35477820&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b26b8359-d033-4888-9644-21e7a74c8e69/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35477820",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b26b8359-d033-4888-9644-21e7a74c8e69/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35477820"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b26b8359-d033-4888-9644-21e7a74c8e69/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35477820"
           }
         }
       }
@@ -24009,7 +23928,397 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "fbaaa24eec9ce",
+    "keywords": [],
+    "description": "\u2014 Kam Jones had 21 points and Tyler Kolek scored 19 as No. 20 Marquette defeated No. 22 Providence 83-75 on Wednesday night.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35477820,
+        "dataSourceIdentifier": "9c832e1eeff08",
+        "headline": "Olivier-Maxence Prosper throws down huge slam for Marquette",
+        "caption": "Olivier-Maxence Prosper throws down huge slam for Marquette",
+        "description": "Olivier-Maxence Prosper throws down huge slam for Marquette",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Olivier-Maxence Prosper throws down huge slam for Marquette) 2023/01/19 ESHEET",
+          "trackingId": "dm_20230119_NCB_oliviermaxence_prosper_throws_down_huge_slam_for_marquette"
+        },
+        "cerebroId": "63c8c253be6ab31ff705f5f6",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-19T04:18:25Z",
+        "originalPublishDate": "2023-01-19T04:08:48Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-01-19T04:08:48Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 19,
+        "categories": [
+          {
+            "id": 3250,
+            "description": "Marquette Golden Eagles",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 269,
+            "team": {
+              "id": 269,
+              "description": "Marquette Golden Eagles",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/269"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=269"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:269"
+          },
+          {
+            "id": 453345,
+            "description": "Olivier-Maxence Prosper",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4595400,
+            "athlete": {
+              "id": 4595400,
+              "description": "Olivier-Maxence Prosper",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4595400"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4595400/olivier-maxence-prosper"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4595400"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4595400"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35477820"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/b26b8359-d033-4888-9644-21e7a74c8e69"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35477820",
+            "short": {
+              "href": "https://es.pn/3Dm5jn9"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35477820"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35477820"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b26b8359-d033-4888-9644-21e7a74c8e69/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35477820",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b26b8359-d033-4888-9644-21e7a74c8e69/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35477820"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b26b8359-d033-4888-9644-21e7a74c8e69/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35477820"
+            }
+          }
+        },
+        "title": "Olivier-Maxence Prosper throws down huge slam for Marquette"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35482405",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35482405"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401485227"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401485227",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35482405"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401485227&version=mobile"
+      }
+    },
+    "id": 35482405,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3250,
+        "description": "Marquette Golden Eagles",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 269,
+        "team": {
+          "id": 269,
+          "description": "Marquette Golden Eagles",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/269"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/269/marquette-golden-eagles"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=269"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:269"
+      },
+      {
+        "id": 3178,
+        "description": "Providence Friars",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2507,
+        "team": {
+          "id": 2507,
+          "description": "Providence Friars",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2507"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2507/providence-friars"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2507"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2507"
+      }
+    ],
+    "headline": "No. 20 Marquette holds off No. 22 Providence, 83-75",
+    "gameId": "401485227",
+    "images": [
+      {
+        "name": "Olivier-Maxence Prosper throws down huge slam for Marquette",
+        "width": 576,
+        "alt": "",
+        "caption": "Olivier-Maxence Prosper throws down huge slam for Marquette",
+        "url": "https://a.espncdn.com/media/motion/2023/0118/ss_20230118_230852647_2161801/ss_20230118_230852647_2161801.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "No. 20 Marquette holds off No. 22 Providence, 83-75",
+    "published": "2023-01-19T19:30:46Z",
+    "allowComments": true,
+    "lastModified": "2023-01-19T19:31:27Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">MILWAUKEE -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4697268/kam-jones\">Kam Jones</a> had 21 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433225/tyler-kolek\">Tyler Kolek</a> scored 19 as No. 20 Marquette defeated No. 22 Providence 83-75 on Wednesday night. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">With members of Marquette\u2019s 2003 Final Four team, including former NBA great Dwyane Wade, cheering them on from the stands, the surging Golden Eagles won for the sixth time in seven games. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cIt was a heck of a night for Marquette,\" Golden Eagles coach Shaka Smart said. \"(Wade) gave the pregame talk to the guys. His message was really, really powerful.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4595400/olivier-maxence-prosper\">Olivier-Maxence Prosper</a> added 13 points for Marquette. Kolek also had eight rebounds and six assists in a physical matchup between two of the Big East's top teams.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cThis team, the belief we have in each other, we can play with anybody,\" Jones said. \"We\u2019re not scared of anybody. We\u2019ll give you our best game, no matter who it is. The Big East is one of the toughest conferences, if not the best.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Marquette withstood another strong performance from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4565698/bryce-hopkins\">Bryce Hopkins</a>, who had 19 points and 10 rebounds for the Friars \u2014 although he was held to six points in the second half. Hopkins, a Kentucky transfer, came in averaging 16.2 points and 9.1 rebounds per game.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Providence played again without <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397194/jared-bynum\">Jared Bynum</a>, sidelined with an abdominal injury. The senior point guard has missed the past three games. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Friars (14-5, 6-2 Big East) lost their second in a row following a nine-game winning streak.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397153/ed-croswell\">Ed Croswell</a> led Providence with 20 points, and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433188/devin-carter\">Devin Carter</a> had 18.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cI thought our effort was fantastic but our synergy offensively was not there,\u201d coach Ed Cooley said.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Golden Eagles (15-5, 7-2) avenged a 103-98 double-overtime loss to the Friars in Providence on Dec. 20 to take over second place in the conference standings behind Xavier. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cIt\u2019s a really good win for us tonight but it\u2019s also something we can build on because I don\u2019t think any guy on our team is satisfied,\" Smart said. \"I think there\u2019s a lot of growth we can make from this game.\u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Marquette led by 14 in the second half but couldn't shake the scrappy Friars. Providence pulled within five with about 50 seconds remaining before a pair of free throws by Kolek pushed the lead back to seven. Kolek sealed the game with four more free throws in the final seconds. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">After leading by 11 in the first half, Marquette held a 38-31 advantage at the break as both teams shot 48%. Providence attempted just three first-half free throws, making one, while the Golden Eagles were 6 of 8 from the line. Hopkins led all scorers with 13 points in the half, although he was whistled for a technical foul midway through.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Providence: With Bynum out, backcourt mate <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4395713/noah-locke\">Noah Locke</a> struggled. He shot just 2 of 11, including 1 for 7 from 3-point range. The Friars went 4 of 18 on 3s and scored only five fast-break points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Marquette: Since joining the Big East for the 2005-06 season, Marquette is 14-3 against the Friars in Milwaukee. The Golden Eagles rolled to an 88-56 victory on Jan. 12, 2022, the previous time the teams met in Milwaukee. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cIt's hard to win on the road, especially against a talented team like this,\u201d Cooley said.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">FINAL FOUR REUNION\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Players and coaches from Marquette\u2019s 2003 Final Four team were honored during a halftime ceremony. The Golden Eagles finished 27-6 overall and 14-2 in Conference USA that season, earning a share of the regular-season title. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The team\u2019s NCAA Tournament run, under head coach Tom Crean, included wins over Holy Cross, Missouri, Pittsburgh and No. 1 Kentucky in the Elite Eight before bowing out to Kansas in the national semifinals in New Orleans. Consensus All-American Wade was the leading scorer on a roster that also featured Travis Diener, Steve Novak and Robert Jackson.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Providence: Will host DePaul on Saturday after the Blue Demons (9-10, 3-5) beat No. 8 Xavier 73-72 Wednesday night, handing the visiting Musketeers (15-4, 7-1) their first Big East loss.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Marquette: Plays on Saturday at Seton Hall (12-8, 5-4), which edged No. 15 UConn 67-66 at home Wednesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "leaders": [
     {
       "team": {
@@ -24672,7 +24981,7 @@
     "uid": "s:40~l:41~e:401485227~c:401485227",
     "date": "2023-01-19T02:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,

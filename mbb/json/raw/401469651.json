@@ -3928,10 +3928,10 @@
         "underdog": true,
         "moneyLine": 220,
         "spreadRecord": {
-          "wins": 10,
+          "wins": 11,
           "losses": 7,
           "pushes": 0,
-          "summary": "10-7-0"
+          "summary": "11-7-0"
         },
         "spreadOdds": -110.0,
         "teamId": "331"
@@ -5492,7 +5492,7 @@
         "uid": "s:40~l:41~e:401469651~c:401469651",
         "date": "2022-12-31T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5692,7 +5692,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "5",
+          "name": "Big Sky Conference",
+          "abbreviation": "bsky",
+          "shortName": "Big Sky",
+          "midsizeName": "Big Sky"
+        }
       }
     ],
     "links": [

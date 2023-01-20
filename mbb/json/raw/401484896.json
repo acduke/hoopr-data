@@ -5836,7 +5836,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "7",
+          "name": "Big Ten Conference",
+          "abbreviation": "big10",
+          "shortName": "Big Ten",
+          "midsizeName": "Big Ten"
+        }
       }
     ],
     "links": [
@@ -5849,6 +5856,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401484896",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401484896",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -5897,18 +5916,6 @@
         "href": "https://www.espn.com/mens-college-basketball/video?gameId=401484896",
         "text": "Videos",
         "shortText": "Videos",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "rel": [
-          "recap",
-          "desktop",
-          "event"
-        ],
-        "href": "http://www.espn.com/ncb/recap?gameId=401484896",
-        "text": "Recap",
-        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       }
