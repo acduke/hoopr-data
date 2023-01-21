@@ -20337,7 +20337,7 @@
         "uid": "s:40~l:41~e:401470011~c:401470011",
         "date": "2023-01-13T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -20538,13 +20538,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "45",
-          "name": "Horizon League",
-          "abbreviation": "hor",
-          "shortName": "Horizon",
-          "midsizeName": "Horizon"
-        },
         "home": {
           "id": "2174",
           "uid": "s:40~l:41~t:2174",
@@ -20922,6 +20915,112 @@
         "standings": {
           "entries": [
             {
+              "team": "Youngstown State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2754/youngstown-state-penguins",
+              "id": "2754",
+              "uid": "s:40~l:41~t:2754",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "15-5",
+                  "displayValue": "15-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-2",
+                  "displayValue": "7-2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Milwaukee",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/270/milwaukee-panthers",
+              "id": "270",
+              "uid": "s:40~l:41~t:270",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-6",
+                  "displayValue": "13-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-2",
+                  "displayValue": "7-2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-12-17T15:38Z"
+                }
+              ]
+            },
+            {
               "team": "Northern Kentucky",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/94/northern-kentucky-norse",
               "id": "94",
@@ -20971,112 +21070,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Youngstown State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2754/youngstown-state-penguins",
-              "id": "2754",
-              "uid": "s:40~l:41~t:2754",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "14-5",
-                  "displayValue": "14-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-2",
-                  "displayValue": "6-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Milwaukee",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/270/milwaukee-panthers",
-              "id": "270",
-              "uid": "s:40~l:41~t:270",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-6",
-                  "displayValue": "12-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-2",
-                  "displayValue": "6-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-12-17T15:38Z"
                 }
               ]
             },
@@ -21293,59 +21286,6 @@
               ]
             },
             {
-              "team": "Robert Morris",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2523/robert-morris-colonials",
-              "id": "2523",
-              "uid": "s:40~l:41~t:2523",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-11",
-                  "displayValue": "8-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-12-08T21:37Z"
-                }
-              ]
-            },
-            {
               "team": "Detroit Mercy",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2174/detroit-mercy-titans",
               "id": "2174",
@@ -21399,6 +21339,59 @@
               ]
             },
             {
+              "team": "Robert Morris",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2523/robert-morris-colonials",
+              "id": "2523",
+              "uid": "s:40~l:41~t:2523",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-12",
+                  "displayValue": "8-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-6",
+                  "displayValue": "3-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-12-08T21:37Z"
+                }
+              ]
+            },
+            {
               "team": "Green Bay",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2739/green-bay-phoenix",
               "id": "2739",
@@ -21412,8 +21405,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-17",
-                  "displayValue": "2-17"
+                  "summary": "2-18",
+                  "displayValue": "2-18"
                 },
                 {
                   "name": "gamesBehind",
@@ -21422,8 +21415,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -21433,8 +21426,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-7",
-                  "displayValue": "1-7"
+                  "summary": "1-8",
+                  "displayValue": "1-8"
                 }
               ],
               "logo": [
@@ -22039,10 +22032,10 @@
         "underdog": false,
         "moneyLine": -124,
         "spreadRecord": {
-          "wins": 12,
+          "wins": 13,
           "losses": 5,
           "pushes": 0,
-          "summary": "12-5-0"
+          "summary": "13-5-0"
         },
         "spreadOdds": -115.0,
         "teamId": "2754"
@@ -22174,7 +22167,7 @@
     "uid": "s:40~l:41~e:401470011~c:401470011",
     "date": "2023-01-13T00:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -22375,13 +22368,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "45",
-      "name": "Horizon League",
-      "abbreviation": "hor",
-      "shortName": "Horizon",
-      "midsizeName": "Horizon"
-    },
     "home": {
       "id": "2174",
       "uid": "s:40~l:41~t:2174",

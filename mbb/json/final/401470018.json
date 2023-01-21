@@ -23716,7 +23716,7 @@
         "uid": "s:40~l:41~e:401470018~c:401470018",
         "date": "2023-01-20T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -24026,6 +24026,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401470018",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -24300,10 +24312,6 @@
       "id": 35485270,
       "headline": "A walk-off game winner on your birthday ... now that is must-see",
       "description": "Northern Kentucky's Marques Warrick sinks a game-winning 3-pointer as the buzzer sounds on his birthday.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncbgamehighlights"
-      },
       "tracking": {
         "sportName": "ncb",
         "leagueName": "No League",
@@ -24311,7 +24319,6 @@
         "trackingName": "NCB_One-Play (A walk-off game winner on your birthday ... now that is must-see) 2023/01/19 ESHEET",
         "trackingId": "dm_230119_NCB_One-Play_Northern_Kentucky_winner"
       },
-      "cerebroId": "63ca0265ca84b70e7e717e8d",
       "lastModified": "2023-01-20T02:55:56Z",
       "originalPublishDate": "2023-01-20T02:49:46Z",
       "timeRestrictions": {
@@ -24989,7 +24996,395 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "f33ef75f8244c",
+    "keywords": [],
+    "description": "\u2014 Marques Warrick scored 19 points as Northern Kentucky beat Cleveland State 57-56 on Thursday night.",
+    "source": "Data Skrive",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35485270,
+        "dataSourceIdentifier": "fc56a4078b96f",
+        "headline": "A walk-off game winner on your birthday ... now that is must-see",
+        "caption": "Northern Kentucky's Marques Warrick sinks a game-winning 3-pointer as the buzzer sounds on his birthday.",
+        "description": "Northern Kentucky's Marques Warrick sinks a game-winning 3-pointer as the buzzer sounds on his birthday.",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncbgamehighlights"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (A walk-off game winner on your birthday ... now that is must-see) 2023/01/19 ESHEET",
+          "trackingId": "dm_230119_NCB_One-Play_Northern_Kentucky_winner"
+        },
+        "cerebroId": "63ca0265ca84b70e7e717e8d",
+        "lastModified": "2023-01-20T02:55:56Z",
+        "originalPublishDate": "2023-01-20T02:49:46Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-01-20T02:49:46Z",
+          "expirationDate": "2023-05-01T01:49:46Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 29,
+        "categories": [
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 454993,
+            "description": "Marques Warrick",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4702714,
+            "athlete": {
+              "id": 4702714,
+              "description": "Marques Warrick",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4702714"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4702714/marques-warrick"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4702714"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4702714"
+          },
+          {
+            "id": 106535,
+            "description": "Northern Kentucky Norse",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 94,
+            "team": {
+              "id": 94,
+              "description": "Northern Kentucky Norse",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/94"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/94/northern-kentucky-norse"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=94"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:94"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35485270"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/c156d570-c70d-4522-9c1f-cf24036786c2"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35485270",
+            "short": {
+              "href": "https://es.pn/3IY8bKf"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35485270"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35485270"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c156d570-c70d-4522-9c1f-cf24036786c2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35485270",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c156d570-c70d-4522-9c1f-cf24036786c2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35485270"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c156d570-c70d-4522-9c1f-cf24036786c2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35485270"
+            }
+          }
+        },
+        "title": "A walk-off game winner on your birthday ... now that is must-see"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35489919",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35489919"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401470018"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401470018",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35489919"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401470018&version=mobile"
+      }
+    },
+    "id": 35489919,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 106535,
+        "description": "Northern Kentucky Norse",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 94,
+        "team": {
+          "id": 94,
+          "description": "Northern Kentucky Norse",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/94"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/94/northern-kentucky-norse"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=94"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:94"
+      },
+      {
+        "id": 3451,
+        "description": "Cleveland State Vikings",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 325,
+        "team": {
+          "id": 325,
+          "description": "Cleveland State Vikings",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/325"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/325/cleveland-state-vikings"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=325"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:325"
+      }
+    ],
+    "headline": "Warrick's 19 lead Northern Kentucky past Cleveland St. 57-56",
+    "gameId": "401470018",
+    "images": [
+      {
+        "name": "A walk-off game winner on your birthday ... now that is must-see",
+        "width": 576,
+        "alt": "",
+        "caption": "Northern Kentucky's Marques Warrick sinks a game-winning 3-pointer as the buzzer sounds on his birthday.",
+        "url": "https://a.espncdn.com/media/motion/2023/0119/dm_230119_NCB_One-Play_Northern_Kentucky_winner/dm_230119_NCB_One-Play_Northern_Kentucky_winner.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Warrick's 19 lead Northern Kentucky past Cleveland St. 57-56",
+    "published": "2023-01-20T16:29:32Z",
+    "allowComments": true,
+    "lastModified": "2023-01-20T16:29:32Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">HIGHLAND HEIGHTS, Ky. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702714/marques-warrick\">Marques Warrick</a> scored 19 points as Northern Kentucky beat Cleveland State 57-56 on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Warrick was 6 of 8 shooting, including 4 for 5 from distance, and went 3 for 4 from the line for the Norse (12-8, 7-2 Horizon League). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4898164/sam-vinson\">Sam Vinson</a> scored 16 points and added five assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106777/xavier-rhodes\">Xavier Rhodes</a> shot 3 for 5, including 2 for 3 from beyond the arc to finish with eight points, while adding five rebounds, six assists, and five steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431734/tristan-enaruna\">Tristan Enaruna</a> led the way for the Vikings (11-9, 6-3) with 15 points and four steals. Cleveland State also got 11 points and three steals from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431859/drew-lowder\">Drew Lowder</a>. In addition, Tujautae Williams finished with nine points, seven rebounds and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -25517,10 +25912,10 @@
         "underdog": true,
         "moneyLine": 170,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 8,
           "pushes": 0,
-          "summary": "9-8-0"
+          "summary": "10-8-0"
         },
         "spreadOdds": -107.0,
         "teamId": "325"
@@ -25532,9 +25927,9 @@
         "moneyLine": -195,
         "spreadRecord": {
           "wins": 4,
-          "losses": 13,
+          "losses": 14,
           "pushes": 0,
-          "summary": "4-13-0"
+          "summary": "4-14-0"
         },
         "spreadOdds": -113.0,
         "teamId": "94"
@@ -25652,7 +26047,7 @@
     "uid": "s:40~l:41~e:401470018~c:401470018",
     "date": "2023-01-20T00:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,

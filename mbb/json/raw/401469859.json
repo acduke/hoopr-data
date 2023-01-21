@@ -4394,10 +4394,10 @@
         "underdog": true,
         "moneyLine": 1276,
         "spreadRecord": {
-          "wins": 6,
+          "wins": 7,
           "losses": 10,
           "pushes": 1,
-          "summary": "6-10-1"
+          "summary": "7-10-1"
         },
         "spreadOdds": -108.0,
         "teamId": "2261"
@@ -4409,9 +4409,9 @@
         "moneyLine": -2580,
         "spreadRecord": {
           "wins": 12,
-          "losses": 6,
+          "losses": 7,
           "pushes": 1,
-          "summary": "12-6-1"
+          "summary": "12-7-1"
         },
         "spreadOdds": -108.0,
         "teamId": "232"
@@ -6273,7 +6273,7 @@
         "uid": "s:40~l:41~e:401469859~c:401469859",
         "date": "2022-12-30T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6456,7 +6456,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "10",
+          "name": "Colonial Athletic Association",
+          "abbreviation": "col",
+          "shortName": "CAA",
+          "midsizeName": "Colonial"
+        }
       }
     ],
     "links": [

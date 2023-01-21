@@ -23996,7 +23996,7 @@
         "uid": "s:40~l:41~e:401485221~c:401485221",
         "date": "2023-01-15T17:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -24199,6 +24199,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "4",
+          "name": "Big East Conference",
+          "abbreviation": "bige",
+          "shortName": "Big East",
+          "midsizeName": "Big East"
+        },
         "home": {
           "id": "2752",
           "uid": "s:40~l:41~t:2752",
@@ -25270,10 +25277,10 @@
               ]
             },
             {
-              "team": "St. John's",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm",
-              "id": "2599",
-              "uid": "s:40~l:41~t:2599",
+              "team": "Villanova",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/222/villanova-wildcats",
+              "id": "222",
+              "uid": "s:40~l:41~t:222",
               "stats": [
                 {
                   "id": "0",
@@ -25283,8 +25290,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-6",
-                  "displayValue": "13-6"
+                  "summary": "10-10",
+                  "displayValue": "10-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -25293,8 +25300,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -25304,13 +25311,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
+                  "summary": "4-5",
+                  "displayValue": "4-5"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25318,7 +25325,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2022-12-09T15:57Z"
                 }
               ]
             },
@@ -25376,10 +25383,10 @@
               ]
             },
             {
-              "team": "Villanova",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/222/villanova-wildcats",
-              "id": "222",
-              "uid": "s:40~l:41~t:222",
+              "team": "St. John's",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st-johns-red-storm",
+              "id": "2599",
+              "uid": "s:40~l:41~t:2599",
               "stats": [
                 {
                   "id": "0",
@@ -25389,8 +25396,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-10",
-                  "displayValue": "9-10"
+                  "summary": "13-7",
+                  "displayValue": "13-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -25399,8 +25406,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -25410,13 +25417,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
+                  "summary": "3-6",
+                  "displayValue": "3-6"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25424,7 +25431,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2022-12-09T15:57Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -26452,10 +26459,10 @@
         "underdog": true,
         "moneyLine": 140,
         "spreadRecord": {
-          "wins": 12,
+          "wins": 13,
           "losses": 6,
           "pushes": 1,
-          "summary": "12-6-1"
+          "summary": "13-6-1"
         },
         "spreadOdds": -105.0,
         "teamId": "269"
@@ -26467,9 +26474,9 @@
         "moneyLine": -160,
         "spreadRecord": {
           "wins": 11,
-          "losses": 6,
+          "losses": 7,
           "pushes": 1,
-          "summary": "11-6-1"
+          "summary": "11-7-1"
         },
         "spreadOdds": -115.0,
         "teamId": "2752"
@@ -26598,7 +26605,7 @@
     "uid": "s:40~l:41~e:401485221~c:401485221",
     "date": "2023-01-15T17:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -26801,6 +26808,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "4",
+      "name": "Big East Conference",
+      "abbreviation": "bige",
+      "shortName": "Big East",
+      "midsizeName": "Big East"
+    },
     "home": {
       "id": "2752",
       "uid": "s:40~l:41~t:2752",

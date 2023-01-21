@@ -4349,10 +4349,10 @@
         "underdog": false,
         "moneyLine": -165,
         "spreadRecord": {
-          "wins": 10,
+          "wins": 11,
           "losses": 9,
           "pushes": 0,
-          "summary": "10-9-0"
+          "summary": "11-9-0"
         },
         "spreadOdds": -110.0,
         "teamId": "254"
@@ -6063,7 +6063,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "21",
+          "name": "Pac-12 Conference",
+          "abbreviation": "pac12",
+          "shortName": "Pac-12",
+          "midsizeName": "Pac-12"
+        }
       }
     ],
     "links": [
@@ -6076,6 +6083,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490349",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490349",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15558,7 +15577,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "bd96509252c05",
+    "keywords": [],
+    "description": "\u2014 Branden Carlson scored a career-high 28 points and grabbed eight rebounds to lead Utah to a 77-63 victory over Washington State on Thursday night to end a three-game losing streak.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35489940",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35489940"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490349"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490349",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35489940"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490349&version=mobile"
+      }
+    },
+    "id": 35489940,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3445,
+        "description": "Utah Utes",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 254,
+        "team": {
+          "id": 254,
+          "description": "Utah Utes",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/254"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/254/utah-utes"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=254"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:254"
+      },
+      {
+        "id": 3350,
+        "description": "Washington State Cougars",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 265,
+        "team": {
+          "id": 265,
+          "description": "Washington State Cougars",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/265"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=265"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:265"
+      }
+    ],
+    "headline": "Carlson's 28 helps Utah beat WSU 77-63 to end 3-game skid",
+    "gameId": "401490349",
+    "images": [],
+    "linkText": "Carlson's 28 helps Utah beat WSU 77-63 to end 3-game skid",
+    "published": "2023-01-20T16:29:39Z",
+    "allowComments": true,
+    "lastModified": "2023-01-20T16:29:40Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">SALT LAKE CITY -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592435/branden-carlson\">Branden Carlson</a> scored a career-high 28 points and grabbed eight rebounds to lead Utah to a 77-63 victory over Washington State on Thursday night to end a three-game losing streak. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Utah (13-7, 6-3 Pac-12) never trailed and held a double-digit lead for most of the second half. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4712863/mouhamed-gueye\">Mouhamed Gueye</a> scored five points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432250/justin-powell\">Justin Powell</a> hit a 3-pointer during an 8-2 surge to get Washington State within 62-56 with 5:30 to play. Powell\u2019s layup about a minute later kept it a six-point deficit for the Cougars before the Utes closed with a 13-5 run. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Carlson made 11 of 12 field goals with three 3-pointers and made all three of his free-throw attempts. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701995/rollie-worster\">Rollie Worster</a> added 14 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432753/gabe-madsen\">Gabe Madsen</a> had 12 points from four 3s for Utah. Worster also had seven of the Utes' 20 assists. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Gueye scored 20 points for Washington State (9-11, 4-5). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701181/jabe-mullins\">Jabe Mullins</a> had nine of his 11 points in the first half and Powell finished with 10. The Cougars' leading scorer, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4596365/tj-bamba\">TJ Bamba</a>, missed his third straight game with a hand injury. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Washington State collected its first win at Utah last season and is 1-19 on the road against the Utes and Colorado since the pair joined the Pac-12 in 2011.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Utah hosts Washington on Saturday. Washington State plays at Colorado on Sunday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -15583,8 +15764,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "16-2",
-                  "displayValue": "16-2"
+                  "summary": "17-2",
+                  "displayValue": "17-2"
                 },
                 {
                   "name": "gamesBehind",
@@ -15604,8 +15785,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-0",
-                  "displayValue": "7-0"
+                  "summary": "8-0",
+                  "displayValue": "8-0"
                 }
               ],
               "logo": [
@@ -15636,8 +15817,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-3",
-                  "displayValue": "15-3"
+                  "summary": "15-4",
+                  "displayValue": "15-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -15646,8 +15827,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -15657,8 +15838,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-1",
-                  "displayValue": "6-1"
+                  "summary": "6-2",
+                  "displayValue": "6-2"
                 }
               ],
               "logo": [
@@ -15699,8 +15880,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -15752,8 +15933,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -15805,8 +15986,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -15858,8 +16039,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -15911,8 +16092,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -15964,8 +16145,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -16017,8 +16198,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "id": "9",
@@ -16070,8 +16251,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -16113,8 +16294,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-11",
-                  "displayValue": "7-11"
+                  "summary": "7-12",
+                  "displayValue": "7-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -16123,8 +16304,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "id": "9",
@@ -16134,8 +16315,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-6",
-                  "displayValue": "1-6"
+                  "summary": "1-7",
+                  "displayValue": "1-7"
                 }
               ],
               "logo": [
@@ -16166,8 +16347,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-12",
-                  "displayValue": "5-12"
+                  "summary": "6-12",
+                  "displayValue": "6-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -16187,8 +16368,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-7",
-                  "displayValue": "0-7"
+                  "summary": "1-7",
+                  "displayValue": "1-7"
                 }
               ],
               "logo": [

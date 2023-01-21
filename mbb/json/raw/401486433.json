@@ -3936,9 +3936,9 @@
         "moneyLine": -143,
         "spreadRecord": {
           "wins": 10,
-          "losses": 5,
+          "losses": 6,
           "pushes": 1,
-          "summary": "10-5-1"
+          "summary": "10-6-1"
         },
         "spreadOdds": -109.0,
         "teamId": "2511"
@@ -3950,9 +3950,9 @@
         "moneyLine": 122,
         "spreadRecord": {
           "wins": 8,
-          "losses": 5,
+          "losses": 6,
           "pushes": 0,
-          "summary": "8-5-0"
+          "summary": "8-6-0"
         },
         "spreadOdds": -107.0,
         "teamId": "2415"
@@ -5694,7 +5694,7 @@
         "uid": "s:40~l:41~e:401486433~c:401486433",
         "date": "2022-11-20T22:20Z",
         "neutralSite": true,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -17035,8 +17035,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-11",
-                  "displayValue": "8-11"
+                  "summary": "9-11",
+                  "displayValue": "9-11"
                 },
                 {
                   "name": "gamesBehind",
@@ -17045,8 +17045,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -17056,8 +17056,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-3",
-                  "displayValue": "3-3"
+                  "summary": "4-3",
+                  "displayValue": "4-3"
                 }
               ],
               "logo": [
@@ -17234,59 +17234,6 @@
               ]
             },
             {
-              "team": "Austin Peay",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2046/austin-peay-governors",
-              "id": "2046",
-              "uid": "s:40~l:41~t:2046",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-11",
-                  "displayValue": "8-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-4",
-                  "displayValue": "2-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "North Alabama",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2453/north-alabama-lions",
               "id": "2453",
@@ -17336,6 +17283,59 @@
                     "default"
                   ],
                   "lastUpdated": "2022-12-09T00:28Z"
+                }
+              ]
+            },
+            {
+              "team": "Austin Peay",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2046/austin-peay-governors",
+              "id": "2046",
+              "uid": "s:40~l:41~t:2046",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-12",
+                  "displayValue": "8-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-5",
+                  "displayValue": "2-5"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },

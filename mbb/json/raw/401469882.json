@@ -3962,10 +3962,10 @@
         "underdog": true,
         "moneyLine": 275,
         "spreadRecord": {
-          "wins": 6,
+          "wins": 7,
           "losses": 10,
           "pushes": 1,
-          "summary": "6-10-1"
+          "summary": "7-10-1"
         },
         "spreadOdds": -110.0,
         "teamId": "2261"
@@ -3977,9 +3977,9 @@
         "moneyLine": -330,
         "spreadRecord": {
           "wins": 7,
-          "losses": 9,
+          "losses": 10,
           "pushes": 1,
-          "summary": "7-9-1"
+          "summary": "7-10-1"
         },
         "spreadOdds": -110.0,
         "teamId": "2729"
@@ -5471,7 +5471,7 @@
         "uid": "s:40~l:41~e:401469882~c:401469882",
         "date": "2023-01-12T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5654,7 +5654,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "10",
+          "name": "Colonial Athletic Association",
+          "abbreviation": "col",
+          "shortName": "CAA",
+          "midsizeName": "Colonial"
+        }
       }
     ],
     "links": [

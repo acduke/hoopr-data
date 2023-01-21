@@ -5552,7 +5552,7 @@
         "uid": "s:40~l:41~e:401484903~c:401484903",
         "date": "2023-01-19T23:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5753,7 +5753,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "7",
+          "name": "Big Ten Conference",
+          "abbreviation": "big10",
+          "shortName": "Big Ten",
+          "midsizeName": "Big Ten"
+        }
       }
     ],
     "links": [
@@ -5766,6 +5773,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401484903",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401484903",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15862,7 +15881,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "8a14f33aeb164",
+    "keywords": [],
+    "description": "\u2014 A.J. Hoggard had 16 points and seven assists to help four teammates reach double figures, lifting <a href=\"https://apnews.com/hub/michigan-state-spartans\">Michigan State</a> to a 70-57 win over No. 23 <a...",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35489904",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35489904"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401484903"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401484903",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35489904"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401484903&version=mobile"
+      }
+    },
+    "id": 35489904,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3206,
+        "description": "Michigan State Spartans",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 127,
+        "team": {
+          "id": 127,
+          "description": "Michigan State Spartans",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/127"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=127"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:127"
+      },
+      {
+        "id": 3182,
+        "description": "Rutgers Scarlet Knights",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 164,
+        "team": {
+          "id": 164,
+          "description": "Rutgers Scarlet Knights",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/164"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/164/rutgers-scarlet-knights"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=164"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:164"
+      }
+    ],
+    "headline": "Michigan St beats No. 23 Rutgers 70-57 with balanced scoring",
+    "gameId": "401484903",
+    "images": [],
+    "linkText": "Michigan St beats No. 23 Rutgers 70-57 with balanced scoring",
+    "published": "2023-01-20T16:27:29Z",
+    "allowComments": true,
+    "lastModified": "2023-01-20T16:27:30Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">EAST LANSING, Mich. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432206/aj-hoggard\">A.J. Hoggard</a> had 16 points and seven assists to help four teammates reach double figures, lifting <a href=\"https://apnews.com/hub/michigan-state-spartans\">Michigan State</a> to a 70-57 win over No. 23 <a href=\"https://apnews.com/hub/rutgers-scarlet-knights-mens-basketball\">Rutgers</a> on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Spartans (13-6, 5-3 Big Ten) overcame an awful start, trailing by nine in the opening minutes, to lead 36-30 at halftime and by as much as 16 points in the second half.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Scarlet Knights (13-6, 5-3 Big Ten) pulled within two points twice, but gave up seven straight points to trail 50-41 midway through the second half to end their comeback hopes.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWe had a run at the beginning of the game and they had the next run,\" Rutgers coach Steve Pikiell said. \u201cWe were never able to get over the hill against a good team.\"\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Michigan State freshman reserve <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105815/jaxon-kohler\">Jaxon Kohler</a> had career highs with 12 points and 11 rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4295180/joey-hauser\">Joey Hauser</a> scored 13 points, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432129/tyson-walker\">Tyson Walker</a> had 12 and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683730/jaden-akins\">Jaden Akins</a> scored 11 for the Spartans, who have won eight of their last 10 games.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cIt was a big win for us,\" Spartans coach Tom Izzo said. \u201cThat is a very good team. They\u2019re the only team to beat Purdue.\"\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rutgers' <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433155/clifford-omoruyi\">Clifford Omoruyi</a> had 12 points and 12 rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432849/paul-mulcahy\">Paul Mulcahy</a> scored 12 and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397249/caleb-mcconnell\">Caleb McConnell</a> added 11 points for the Scarlet Knights, who had won seven of their previous eight.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rutgers: Despite the setback, the defensive-minded and tough team is on pace to put the program into three straight NCAA Tournaments for the first time in school history.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWhen I took over the job, we were in 14th place and it\u2019s a real hard league to move up,\" said Pikiell, who was hired in 2016. \u201cI got some guys that took on the challenge of coming to a program that hadn\u2019t been to the NCAA Tournament and they wanted to be a part of that.\"\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Michigan State: <a href=\"https://apnews.com/hub/tom-izzo\">Izzo</a> is tough to please, but even is happy with how competitive his thin team has been this season.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWe're ahead of where I thought we would be when the season started and yet, I think we\u2019ve been a mixed bag of nuts,\" Izzo said. \u201cWe\u2019re not real polished.\"\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">KEY STAT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Michigan State, which didn\u2019t make a 3-pointer in last week\u2019s loss at Illinois, connected on 12 of 22 shots beyond the arc. Rutgers, meanwhile, made just 2 of 17 3-pointers.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cGiving up that percentage from 3 and not being able to generate any of that for us really hurt,\u201d Pikiell said.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">OFF NIGHT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rutgers senior guard <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433083/cam-spencer\">Cam Spencer</a> was named the co-Big Ten player of the week after averaging 22 points last week, but he missed 11 of 14 shots and finished with eight points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">FRESH FACES\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Spartans put their three freshmen on the court and Izzo was pleasantly surprised with how well Kohler, center <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105817/carson-cooper\">Carson Cooper</a> and point guard <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105816/tre-holloman\">Tre Holloman</a> performed.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cThat was a little scary, but it worked out,\" Izzo said.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">POLL IMPLICATIONS\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rutgers is in the <a href=\"https://apnews.com/hub/ap-top-25-college-basketball-poll\">AP Top 25</a> for the first time this season, but doesn't play again this week and will likely fall out of the poll.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWe get a little respect, and that\u2019s nice, but you have to earn it every week in this league,\" Pikiell said.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rutgers: Hosts Penn State on Tuesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Michigan State: At Indiana on Sunday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

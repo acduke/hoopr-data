@@ -4007,10 +4007,10 @@
         "underdog": true,
         "moneyLine": 145,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 10,
           "pushes": 0,
-          "summary": "7-10-0"
+          "summary": "8-10-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2870"
@@ -4022,9 +4022,9 @@
         "moneyLine": -165,
         "spreadRecord": {
           "wins": 9,
-          "losses": 8,
+          "losses": 9,
           "pushes": 0,
-          "summary": "9-8-0"
+          "summary": "9-9-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2750"
@@ -6021,7 +6021,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "45",
+          "name": "Horizon League",
+          "abbreviation": "hor",
+          "shortName": "Horizon",
+          "midsizeName": "Horizon"
+        }
       }
     ],
     "links": [
@@ -6034,6 +6041,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401470019",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401470019",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -17248,7 +17267,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "f44e3cde9dbc2",
+    "keywords": [],
+    "description": "\u2014 Quinton Morton-Robertson scored 19 points as Purdue Fort Wayne beat Wright State 88-80 on Thursday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35489917",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35489917"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401470019"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401470019",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35489917"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401470019&version=mobile"
+      }
+    },
+    "id": 35489917,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3456,
+        "description": "Wright State Raiders",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2750,
+        "team": {
+          "id": 2750,
+          "description": "Wright State Raiders",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2750"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2750/wright-state-raiders"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2750"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2750"
+      },
+      {
+        "id": 3440,
+        "description": "Purdue Fort Wayne Mastodons",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2870,
+        "team": {
+          "id": 2870,
+          "description": "Purdue Fort Wayne Mastodons",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2870"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2870/purdue-fort-wayne-mastodons"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2870"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2870"
+      }
+    ],
+    "headline": "Morton-Robertson's 19 lead Purdue Fort Wayne past Wright St.",
+    "gameId": "401470019",
+    "images": [],
+    "linkText": "Morton-Robertson's 19 lead Purdue Fort Wayne past Wright St.",
+    "published": "2023-01-20T16:29:29Z",
+    "allowComments": true,
+    "lastModified": "2023-01-20T16:29:30Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">FAIRBORN, Ohio -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592761/quinton-morton-robertson\">Quinton Morton-Robertson</a> scored 19 points as Purdue Fort Wayne beat Wright State 88-80 on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Morton-Robertson also contributed three steals for the Mastodons (13-7, 5-4 Horizon League). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4398080/jarred-godfrey\">Jarred Godfrey</a> scored 17 points and added nine rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106787/anthony-roberts\">Anthony Roberts</a> recorded 14 points and shot 5 of 6 from the field and 2 for 4 from the line.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431915/trey-calvin\">Trey Calvin</a> led the Raiders (11-9, 4-5) in scoring, finishing with 26 points and five assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702994/brandon-noel\">Brandon Noel</a> added 11 points and 11 rebounds for Wright State. In addition, Alex Huibregste had 10 points and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

@@ -19519,7 +19519,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -19823,6 +19823,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490348",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490348",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -20717,7 +20729,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "3cd8468790fe6",
+    "keywords": [],
+    "description": "\u2014 Spencer Jones and Michael Jones each scored 18 points and Stanford broke through at the defensive end to earn its first Pac-12 Conference win, knocking off Oregon State, 67-46 on Thursday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35489923",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35489923"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490348"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490348",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35489923"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490348&version=mobile"
+      }
+    },
+    "id": 35489923,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3344,
+        "description": "Stanford Cardinal",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 24,
+        "team": {
+          "id": 24,
+          "description": "Stanford Cardinal",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/24"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=24"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:24"
+      },
+      {
+        "id": 3348,
+        "description": "Oregon State Beavers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 204,
+        "team": {
+          "id": 204,
+          "description": "Oregon State Beavers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/204"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/204/oregon-state-beavers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=204"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:204"
+      }
+    ],
+    "headline": "Stanford earns first Pac-12 win, beats Oregon State, 67-46",
+    "gameId": "401490348",
+    "images": [],
+    "linkText": "Stanford earns first Pac-12 win, beats Oregon State, 67-46",
+    "published": "2023-01-20T16:29:34Z",
+    "allowComments": true,
+    "lastModified": "2023-01-20T16:29:34Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">STANFORD, Calif. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592427/spencer-jones\">Spencer Jones</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396784/michael-jones\">Michael Jones</a> each scored 18 points and Stanford broke through at the defensive end to earn its first Pac-12 Conference win, knocking off Oregon State, 67-46 on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Cardinal built a 31-22 lead by intermission but the Beavers battled back to start the second half behind 3-pointers from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105626/tyler-bilodeau\">Tyler Bilodeau</a> and Glenn Taylor Jr. and a layup from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431877/dexter-akanno\">Dexter Akanno</a> to get within one less than three minutes into the period. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433618/harrison-ingram\">Harrison Ingram</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4898371/maxime-raynaud\">Maxime Raynaud</a> each got to the basket for layups and Spencer Jones knocked down a 3. When Raynaud dunked with 13:21 left the Cardinal was back in front by double digits and they cruised home. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Stanford (6-12, 1-7 Pac-12) had lost seven straight games to start the conference season and the win snapped a five-game loss string. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Spencer Jones hit 4 of 8 from distance and Michael Jones hit 4 of 6. Ingram finished with eight rebounds and six assists and Raynaud added 12 points with six boards. Stanford hit 26 of 58 from, the field (44.8 percent) and checked the Beavers on 14 of 41 shooting (34.1%), including 7 of 21 from distance. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Stanford plays host to Oregon Saturday, Oregon State plays at Cal on Sunday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">----"
+  },
   "leaders": [
     {
       "team": {
@@ -21259,10 +21433,10 @@
         "underdog": false,
         "moneyLine": -650,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 10,
           "pushes": 0,
-          "summary": "7-10-0"
+          "summary": "8-10-0"
         },
         "spreadOdds": -109.0,
         "teamId": "24"
@@ -21399,7 +21573,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
