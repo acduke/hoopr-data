@@ -20251,7 +20251,7 @@
         "uid": "s:40~l:41~e:401469561~c:401469561",
         "date": "2023-01-14T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -20451,13 +20451,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "46",
-          "name": "ASUN Conference",
-          "abbreviation": "a-sun",
-          "shortName": "ASUN",
-          "midsizeName": "ASUN"
-        },
         "home": {
           "id": "91",
           "uid": "s:40~l:41~t:91",
@@ -20847,8 +20840,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-5",
-                  "displayValue": "15-5"
+                  "summary": "16-5",
+                  "displayValue": "16-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -20868,8 +20861,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-1",
-                  "displayValue": "6-1"
+                  "summary": "7-1",
+                  "displayValue": "7-1"
                 }
               ],
               "logo": [
@@ -20910,8 +20903,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "id": "9",
@@ -20953,8 +20946,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-8",
-                  "displayValue": "12-8"
+                  "summary": "13-8",
+                  "displayValue": "13-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -20974,8 +20967,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
+                  "summary": "6-2",
+                  "displayValue": "6-2"
                 }
               ],
               "logo": [
@@ -21006,8 +20999,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-8",
-                  "displayValue": "10-8"
+                  "summary": "11-8",
+                  "displayValue": "11-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -21027,8 +21020,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
+                  "summary": "6-2",
+                  "displayValue": "6-2"
                 }
               ],
               "logo": [
@@ -21042,6 +21035,59 @@
                     "default"
                   ],
                   "lastUpdated": "2019-10-21T16:39Z"
+                }
+              ]
+            },
+            {
+              "team": "Lipscomb",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
+              "id": "288",
+              "uid": "s:40~l:41~t:288",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-8",
+                  "displayValue": "13-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-3",
+                  "displayValue": "5-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -21069,8 +21115,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -21099,10 +21145,10 @@
               ]
             },
             {
-              "team": "Lipscomb",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/288/lipscomb-bisons",
-              "id": "288",
-              "uid": "s:40~l:41~t:288",
+              "team": "Jacksonville",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/294/jacksonville-dolphins",
+              "id": "294",
+              "uid": "s:40~l:41~t:294",
               "stats": [
                 {
                   "id": "0",
@@ -21112,8 +21158,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-8",
-                  "displayValue": "12-8"
+                  "summary": "11-8",
+                  "displayValue": "11-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -21122,8 +21168,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -21133,13 +21179,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-3",
-                  "displayValue": "4-3"
+                  "summary": "4-4",
+                  "displayValue": "4-4"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -21147,7 +21193,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2018-10-22T17:25Z"
                 }
               ]
             },
@@ -21165,8 +21211,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-11",
-                  "displayValue": "9-11"
+                  "summary": "9-12",
+                  "displayValue": "9-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -21175,8 +21221,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -21186,8 +21232,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-3",
-                  "displayValue": "4-3"
+                  "summary": "4-4",
+                  "displayValue": "4-4"
                 }
               ],
               "logo": [
@@ -21218,8 +21264,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-7",
-                  "displayValue": "13-7"
+                  "summary": "13-8",
+                  "displayValue": "13-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -21228,8 +21274,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -21239,8 +21285,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-4",
-                  "displayValue": "3-4"
+                  "summary": "3-5",
+                  "displayValue": "3-5"
                 }
               ],
               "logo": [
@@ -21258,59 +21304,6 @@
               ]
             },
             {
-              "team": "Jacksonville",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/294/jacksonville-dolphins",
-              "id": "294",
-              "uid": "s:40~l:41~t:294",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "10-8",
-                  "displayValue": "10-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-4",
-                  "displayValue": "3-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-10-22T17:25Z"
-                }
-              ]
-            },
-            {
               "team": "North Florida",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2454/north-florida-ospreys",
               "id": "2454",
@@ -21324,8 +21317,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-11",
-                  "displayValue": "8-11"
+                  "summary": "8-12",
+                  "displayValue": "8-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -21334,8 +21327,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -21345,8 +21338,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-4",
-                  "displayValue": "3-4"
+                  "summary": "3-5",
+                  "displayValue": "3-5"
                 }
               ],
               "logo": [
@@ -21387,8 +21380,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -21430,61 +21423,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-12",
-                  "displayValue": "8-12"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-5",
-                  "displayValue": "2-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Jacksonville State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/55/jacksonville-state-gamecocks",
-              "id": "55",
-              "uid": "s:40~l:41~t:55",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-12",
-                  "displayValue": "8-12"
+                  "summary": "8-13",
+                  "displayValue": "8-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -21504,13 +21444,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-6",
-                  "displayValue": "1-6"
+                  "summary": "2-6",
+                  "displayValue": "2-6"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -21546,8 +21486,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "id": "9",
@@ -21572,6 +21512,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-10-04T14:41Z"
+                }
+              ]
+            },
+            {
+              "team": "Jacksonville State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/55/jacksonville-state-gamecocks",
+              "id": "55",
+              "uid": "s:40~l:41~t:55",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-13",
+                  "displayValue": "8-13"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 6.0,
+                  "displayValue": "6"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "1-7",
+                  "displayValue": "1-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }
@@ -22241,7 +22234,7 @@
     "uid": "s:40~l:41~e:401469561~c:401469561",
     "date": "2023-01-14T21:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -22441,13 +22434,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "46",
-      "name": "ASUN Conference",
-      "abbreviation": "a-sun",
-      "shortName": "ASUN",
-      "midsizeName": "ASUN"
-    },
     "home": {
       "id": "91",
       "uid": "s:40~l:41~t:91",

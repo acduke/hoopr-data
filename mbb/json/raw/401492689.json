@@ -4124,10 +4124,10 @@
         "underdog": true,
         "moneyLine": 100,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 9,
           "pushes": 1,
-          "summary": "7-9-1"
+          "summary": "8-9-1"
         },
         "spreadOdds": -111.0,
         "teamId": "2724"
@@ -4138,10 +4138,10 @@
         "underdog": false,
         "moneyLine": -117,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 8,
           "pushes": 0,
-          "summary": "11-8-0"
+          "summary": "12-8-0"
         },
         "spreadOdds": -109.0,
         "teamId": "58"
@@ -5958,7 +5958,7 @@
         "uid": "s:40~l:41~e:401492689~c:401492689",
         "date": "2023-01-08T18:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6158,14 +6158,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "62",
-          "name": "American Athletic Conference",
-          "abbreviation": "aac",
-          "shortName": "American",
-          "midsizeName": "American"
-        }
+        ]
       }
     ],
     "links": [
@@ -17735,59 +17728,6 @@
               ]
             },
             {
-              "team": "Tulane",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2655/tulane-green-wave",
-              "id": "2655",
-              "uid": "s:40~l:41~t:2655",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-6",
-                  "displayValue": "12-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Temple",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/218/temple-owls",
               "id": "218",
@@ -17894,10 +17834,10 @@
               ]
             },
             {
-              "team": "UCF",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2116/ucf-knights",
-              "id": "2116",
-              "uid": "s:40~l:41~t:2116",
+              "team": "Tulane",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2655/tulane-green-wave",
+              "id": "2655",
+              "uid": "s:40~l:41~t:2655",
               "stats": [
                 {
                   "id": "0",
@@ -17907,8 +17847,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-5",
-                  "displayValue": "13-5"
+                  "summary": "12-7",
+                  "displayValue": "12-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -17928,8 +17868,61 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-2",
-                  "displayValue": "4-2"
+                  "summary": "5-3",
+                  "displayValue": "5-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UCF",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2116/ucf-knights",
+              "id": "2116",
+              "uid": "s:40~l:41~t:2116",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-6",
+                  "displayValue": "13-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.5,
+                  "displayValue": "2.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-3",
+                  "displayValue": "4-3"
                 }
               ],
               "logo": [
@@ -18066,8 +18059,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-11",
-                  "displayValue": "8-11"
+                  "summary": "9-11",
+                  "displayValue": "9-11"
                 },
                 {
                   "name": "gamesBehind",
@@ -18076,8 +18069,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -18087,8 +18080,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-5",
-                  "displayValue": "1-5"
+                  "summary": "2-5",
+                  "displayValue": "2-5"
                 }
               ],
               "logo": [
@@ -18172,8 +18165,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-13",
-                  "displayValue": "4-13"
+                  "summary": "5-13",
+                  "displayValue": "5-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -18182,8 +18175,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "id": "9",
@@ -18193,8 +18186,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-6",
-                  "displayValue": "0-6"
+                  "summary": "1-6",
+                  "displayValue": "1-6"
                 }
               ],
               "logo": [

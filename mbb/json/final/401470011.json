@@ -20337,7 +20337,7 @@
         "uid": "s:40~l:41~e:401470011~c:401470011",
         "date": "2023-01-13T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -20538,6 +20538,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "45",
+          "name": "Horizon League",
+          "abbreviation": "hor",
+          "shortName": "Horizon",
+          "midsizeName": "Horizon"
+        },
         "home": {
           "id": "2174",
           "uid": "s:40~l:41~t:2174",
@@ -20915,59 +20922,6 @@
         "standings": {
           "entries": [
             {
-              "team": "Youngstown State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2754/youngstown-state-penguins",
-              "id": "2754",
-              "uid": "s:40~l:41~t:2754",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "15-5",
-                  "displayValue": "15-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "7-2",
-                  "displayValue": "7-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Milwaukee",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/270/milwaukee-panthers",
               "id": "270",
@@ -20981,8 +20935,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-6",
-                  "displayValue": "13-6"
+                  "summary": "14-6",
+                  "displayValue": "14-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -21002,8 +20956,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-2",
-                  "displayValue": "7-2"
+                  "summary": "8-2",
+                  "displayValue": "8-2"
                 }
               ],
               "logo": [
@@ -21034,8 +20988,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-8",
-                  "displayValue": "12-8"
+                  "summary": "13-8",
+                  "displayValue": "13-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -21055,13 +21009,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-2",
-                  "displayValue": "7-2"
+                  "summary": "8-2",
+                  "displayValue": "8-2"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Youngstown State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2754/youngstown-state-penguins",
+              "id": "2754",
+              "uid": "s:40~l:41~t:2754",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "15-6",
+                  "displayValue": "15-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-3",
+                  "displayValue": "7-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -21087,8 +21094,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-9",
-                  "displayValue": "11-9"
+                  "summary": "12-9",
+                  "displayValue": "12-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -21108,8 +21115,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
+                  "summary": "7-3",
+                  "displayValue": "7-3"
                 }
               ],
               "logo": [
@@ -21150,8 +21157,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -21193,61 +21200,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-7",
-                  "displayValue": "13-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-4",
-                  "displayValue": "5-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2870.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-10-30T18:14Z"
-                }
-              ]
-            },
-            {
-              "team": "Wright State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2750/wright-state-raiders",
-              "id": "2750",
-              "uid": "s:40~l:41~t:2750",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "11-9",
-                  "displayValue": "11-9"
+                  "summary": "13-8",
+                  "displayValue": "13-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -21267,13 +21221,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-5",
-                  "displayValue": "4-5"
+                  "summary": "5-5",
+                  "displayValue": "5-5"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2870.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -21281,7 +21235,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2018-10-30T18:14Z"
                 }
               ]
             },
@@ -21299,8 +21253,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-12",
-                  "displayValue": "7-12"
+                  "summary": "8-12",
+                  "displayValue": "8-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -21320,13 +21274,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
+                  "summary": "4-5",
+                  "displayValue": "4-5"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Wright State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2750/wright-state-raiders",
+              "id": "2750",
+              "uid": "s:40~l:41~t:2750",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "11-10",
+                  "displayValue": "11-10"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-6",
+                  "displayValue": "4-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -21352,8 +21359,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-12",
-                  "displayValue": "8-12"
+                  "summary": "9-12",
+                  "displayValue": "9-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -21373,8 +21380,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-6",
-                  "displayValue": "3-6"
+                  "summary": "4-6",
+                  "displayValue": "4-6"
                 }
               ],
               "logo": [
@@ -21405,8 +21412,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-18",
-                  "displayValue": "2-18"
+                  "summary": "2-19",
+                  "displayValue": "2-19"
                 },
                 {
                   "name": "gamesBehind",
@@ -21415,8 +21422,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "id": "9",
@@ -21426,8 +21433,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-8",
-                  "displayValue": "1-8"
+                  "summary": "1-9",
+                  "displayValue": "1-9"
                 }
               ],
               "logo": [
@@ -21458,8 +21465,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-17",
-                  "displayValue": "3-17"
+                  "summary": "3-18",
+                  "displayValue": "3-18"
                 },
                 {
                   "name": "gamesBehind",
@@ -21468,8 +21475,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.0,
-                  "displayValue": "7"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "id": "9",
@@ -21479,8 +21486,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-9",
-                  "displayValue": "0-9"
+                  "summary": "0-10",
+                  "displayValue": "0-10"
                 }
               ],
               "logo": [
@@ -22047,9 +22054,9 @@
         "moneyLine": 106,
         "spreadRecord": {
           "wins": 9,
-          "losses": 9,
+          "losses": 10,
           "pushes": 0,
-          "summary": "9-9-0"
+          "summary": "9-10-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2174"
@@ -22167,7 +22174,7 @@
     "uid": "s:40~l:41~e:401470011~c:401470011",
     "date": "2023-01-13T00:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -22368,6 +22375,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "45",
+      "name": "Horizon League",
+      "abbreviation": "hor",
+      "shortName": "Horizon",
+      "midsizeName": "Horizon"
+    },
     "home": {
       "id": "2174",
       "uid": "s:40~l:41~t:2174",
