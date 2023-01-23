@@ -25602,7 +25602,7 @@
         "uid": "s:40~l:41~e:401493840~c:401493840",
         "date": "2023-01-05T02:10Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -25786,6 +25786,13 @@
           }
         },
         "broadcasts": [],
+        "groups": {
+          "id": "26",
+          "name": "Southwestern Athletic Conference",
+          "abbreviation": "swac",
+          "shortName": "SWAC",
+          "midsizeName": "SWAC"
+        },
         "home": {
           "id": "2504",
           "uid": "s:40~l:41~t:2504",
@@ -26353,6 +26360,59 @@
               ]
             },
             {
+              "team": "Alabama State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2011/alabama-state-hornets",
+              "id": "2011",
+              "uid": "s:40~l:41~t:2011",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "6-13",
+                  "displayValue": "6-13"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-2",
+                  "displayValue": "4-2"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Jackson State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2296/jackson-state-tigers",
               "id": "2296",
@@ -26406,59 +26466,6 @@
               ]
             },
             {
-              "team": "Alabama State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2011/alabama-state-hornets",
-              "id": "2011",
-              "uid": "s:40~l:41~t:2011",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "5-13",
-                  "displayValue": "5-13"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-2",
-                  "displayValue": "3-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Prairie View A&M",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2504/prairie-view-am-panthers",
               "id": "2504",
@@ -26472,8 +26479,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-12",
-                  "displayValue": "7-12"
+                  "summary": "7-13",
+                  "displayValue": "7-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -26482,8 +26489,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -26493,8 +26500,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-3",
-                  "displayValue": "3-3"
+                  "summary": "3-4",
+                  "displayValue": "3-4"
                 }
               ],
               "logo": [
@@ -27312,9 +27319,9 @@
         "moneyLine": 107,
         "spreadRecord": {
           "wins": 12,
-          "losses": 4,
+          "losses": 5,
           "pushes": 0,
-          "summary": "12-4-0"
+          "summary": "12-5-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2582"
@@ -27326,9 +27333,9 @@
         "moneyLine": -126,
         "spreadRecord": {
           "wins": 6,
-          "losses": 10,
+          "losses": 11,
           "pushes": 1,
-          "summary": "6-10-1"
+          "summary": "6-11-1"
         },
         "spreadOdds": -110.0,
         "teamId": "2504"
@@ -27446,7 +27453,7 @@
     "uid": "s:40~l:41~e:401493840~c:401493840",
     "date": "2023-01-05T02:10Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -27630,6 +27637,13 @@
       }
     },
     "broadcasts": [],
+    "groups": {
+      "id": "26",
+      "name": "Southwestern Athletic Conference",
+      "abbreviation": "swac",
+      "shortName": "SWAC",
+      "midsizeName": "SWAC"
+    },
     "home": {
       "id": "2504",
       "uid": "s:40~l:41~t:2504",

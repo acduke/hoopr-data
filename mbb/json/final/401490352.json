@@ -20900,7 +20900,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -21204,6 +21204,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490352",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490352",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -21774,59 +21786,6 @@
               ]
             },
             {
-              "team": "Washington State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
-              "id": "265",
-              "uid": "s:40~l:41~t:265",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "9-11",
-                  "displayValue": "9-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-5",
-                  "displayValue": "4-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Washington",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies",
               "id": "264",
@@ -21893,8 +21852,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-9",
-                  "displayValue": "11-9"
+                  "summary": "12-9",
+                  "displayValue": "12-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -21903,8 +21862,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -21914,8 +21873,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-6",
-                  "displayValue": "3-6"
+                  "summary": "4-6",
+                  "displayValue": "4-6"
                 }
               ],
               "logo": [
@@ -21933,10 +21892,10 @@
               ]
             },
             {
-              "team": "California",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/25/california-golden-bears",
-              "id": "25",
-              "uid": "s:40~l:41~t:25",
+              "team": "Washington State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
+              "id": "265",
+              "uid": "s:40~l:41~t:265",
               "stats": [
                 {
                   "id": "0",
@@ -21946,8 +21905,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-16",
-                  "displayValue": "3-16"
+                  "summary": "9-12",
+                  "displayValue": "9-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -21956,8 +21915,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -21967,13 +21926,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-6",
-                  "displayValue": "2-6"
+                  "summary": "4-6",
+                  "displayValue": "4-6"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Oregon State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/204/oregon-state-beavers",
+              "id": "204",
+              "uid": "s:40~l:41~t:204",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-12",
+                  "displayValue": "8-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 6.0,
+                  "displayValue": "6"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-7",
+                  "displayValue": "2-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22039,10 +22051,10 @@
               ]
             },
             {
-              "team": "Oregon State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/204/oregon-state-beavers",
-              "id": "204",
-              "uid": "s:40~l:41~t:204",
+              "team": "California",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/25/california-golden-bears",
+              "id": "25",
+              "uid": "s:40~l:41~t:25",
               "stats": [
                 {
                   "id": "0",
@@ -22052,8 +22064,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-12",
-                  "displayValue": "7-12"
+                  "summary": "3-17",
+                  "displayValue": "3-17"
                 },
                 {
                   "name": "gamesBehind",
@@ -22062,8 +22074,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -22073,13 +22085,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-7",
-                  "displayValue": "1-7"
+                  "summary": "2-7",
+                  "displayValue": "2-7"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -22098,7 +22110,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "be7bc87f97bfb",
+    "keywords": [],
+    "description": "\u2014 Spencer Jones scored 16 points, Harrison Ingram added 11 points, eight rebounds, five assists and two steals and Stanford beat Oregon 71-64 Saturday night.",
+    "source": "AP",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35501071",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35501071"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490352"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490352",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35501071"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490352&version=mobile"
+      }
+    },
+    "id": 35501071,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3344,
+        "description": "Stanford Cardinal",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 24,
+        "team": {
+          "id": 24,
+          "description": "Stanford Cardinal",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/24"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=24"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:24"
+      },
+      {
+        "id": 3351,
+        "description": "Oregon Ducks",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2483,
+        "team": {
+          "id": 2483,
+          "description": "Oregon Ducks",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2483"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2483/oregon-ducks"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2483"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2483"
+      }
+    ],
+    "headline": "Jones, Stanford win second straight, 71-64 over Oregon",
+    "gameId": "401490352",
+    "images": [],
+    "linkText": "Jones, Stanford win second straight, 71-64 over Oregon",
+    "published": "2023-01-22T06:35:47Z",
+    "allowComments": true,
+    "lastModified": "2023-01-22T06:35:48Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">STANFORD, Calif. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592427/spencer-jones\">Spencer Jones</a> scored 16 points, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433618/harrison-ingram\">Harrison Ingram</a> added 11 points, eight rebounds, five assists and two steals and Stanford beat Oregon 71-64 Saturday night. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Stanford (7-12, 2-7 Pac-12) has won back-to-back games following a string of five straight losses that capped a stretch of nine in 11 games. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397101/will-richardson\">Will Richardson</a> hit a 3-pointer to open the scoring but <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4590354/brandon-angel\">Brandon Angel</a> answered with a layup 11 seconds later and Jones followed with a 3 that made it 5-3 with 17:46 left in the first half. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Cardinal led the rest of the way. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396948/jermaine-couisnard\">Jermaine Couisnard</a> hit 8-of-8 free throws and led Oregon (11-9, 5-4) with 18 points but made just 4 of 12 from the field and 2 of 9 from behind the arc. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4898116/rivaldo-soares\">Rivaldo Soares</a> added 13 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105621/keeshawn-barthelemy\">Keeshawn Barthelemy</a> scored 11. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592401/n'faly-dante\">N'Faly Dante</a> had 15 rebounds, two blocks and a steal to go along with nine points. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Stanford made 26 of 52 from the field, 9 of 23 (39.1%) from 3-point range and 10 of 13 from the free-throw line. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Couisnard made two pairs of free throws to pull the Ducks within three points late in the first half but <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433614/isa-silva\">Isa Silva</a> scored in the lane to make it 42-37 at intermission. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683635/michael-oconnell\">Michael O'Connell</a> converted a traditional three-point play to open the scoring in the second half and Ingram followed with a 3-pointer to give Stanford an 11-point lead with 18 minutes to play. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Oregon went more than five minutes without a made field goal after Couisnard scored in the paint to make it 59-49 with 7:11 left. The Cardinal scored missed six consecutive shots during that drought but outscored the Ducks 9-2 to take a 17-point lead with 1:54 remaining. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Oregon, which had won back-to-back games beginning with an 87-68 home win over then-No. 19 Arizona last Saturday, was 9-of-30 (30%) shooting from the field and made just 4 of 16 from 3-point range in the second half. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396784/michael-jones\">Michael Jones</a> scored 10 points for Stanford. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Oregon returns home to play Thursday against Colorado\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Stanford plays the third of four consecutive home games Wednesday in non-conference matchup with Chicago State\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------"
+  },
   "leaders": [
     {
       "team": {
@@ -22780,7 +22954,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

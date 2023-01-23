@@ -3856,10 +3856,10 @@
         "underdog": true,
         "moneyLine": 330,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 5,
           "pushes": 0,
-          "summary": "9-5-0"
+          "summary": "10-5-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2379"
@@ -3870,10 +3870,10 @@
         "underdog": false,
         "moneyLine": -434,
         "spreadRecord": {
-          "wins": 5,
+          "wins": 6,
           "losses": 8,
           "pushes": 1,
-          "summary": "5-8-1"
+          "summary": "6-8-1"
         },
         "spreadOdds": -110.0,
         "teamId": "2450"
@@ -5410,7 +5410,7 @@
         "uid": "s:40~l:41~e:401485482~c:401485482",
         "date": "2023-01-07T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5593,7 +5593,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "16",
+          "name": "Mid-Eastern Athletic Conference",
+          "abbreviation": "meac",
+          "shortName": "MEAC",
+          "midsizeName": "MEAC"
+        }
       }
     ],
     "links": [
