@@ -6021,7 +6021,7 @@
         "uid": "s:40~l:41~e:401487379~c:401487379",
         "date": "2023-01-14T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6221,7 +6221,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "12",
+          "name": "Ivy League",
+          "abbreviation": "ivy",
+          "shortName": "Ivy",
+          "midsizeName": "Ivy"
+        }
       }
     ],
     "links": [
@@ -16616,8 +16623,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-11",
-                  "displayValue": "9-11"
+                  "summary": "10-11",
+                  "displayValue": "10-11"
                 },
                 {
                   "name": "gamesBehind",

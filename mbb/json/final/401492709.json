@@ -23254,7 +23254,7 @@
         "uid": "s:40~l:41~e:401492709~c:401492709",
         "date": "2023-01-22T18:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -23455,13 +23455,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "62",
-          "name": "American Athletic Conference",
-          "abbreviation": "aac",
-          "shortName": "American",
-          "midsizeName": "American"
-        },
         "home": {
           "id": "2132",
           "uid": "s:40~l:41~t:2132",
@@ -23614,6 +23607,18 @@
         "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401492709",
         "text": "Team Stats",
         "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/video?gameId=401492709",
+        "text": "Videos",
+        "shortText": "Videos",
         "isExternal": false,
         "isPremium": false
       }
@@ -23818,7 +23823,752 @@
     }
   },
   "broadcasts": [],
-  "videos": [],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 35503282,
+      "headline": "Keonte Kennedy rocks the rim with jam",
+      "description": "Keonte Kennedy rocks the rim with jam",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Keonte Kennedy rocks the rim with jam) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_keonte_kennedy_rocks_the_rim_with_jam"
+      },
+      "cerebroId": "63cd7d96ca84b70e7e78e40c",
+      "lastModified": "2023-01-23T17:23:36Z",
+      "originalPublishDate": "2023-01-22T18:16:51Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T18:16:51Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 14,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35503282"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/972b5b61-9474-4c7c-9c02-f23f9f793d76"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35503282&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35503282"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35503282&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35503282&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_131655988_2165601/ss_20230122_131655988_2165601.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/972b5b61-9474-4c7c-9c02-f23f9f793d76/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503282",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/972b5b61-9474-4c7c-9c02-f23f9f793d76/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503282"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/972b5b61-9474-4c7c-9c02-f23f9f793d76/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503282"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35503853,
+      "headline": "Viktor Lakhin gets the and-1 to fall",
+      "description": "Viktor Lakhin gets the and-1 to fall",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Viktor Lakhin gets the and-1 to fall) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_viktor_lakhin_gets_the_and1_to_fall"
+      },
+      "cerebroId": "63cd8c9abe6ab31ff71529e7",
+      "lastModified": "2023-01-23T17:23:35Z",
+      "originalPublishDate": "2023-01-22T19:20:55Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T19:20:55Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 21,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35503853"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/36e24a4a-6d8a-4030-b3fa-7c1a6419abd3"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35503853&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35503853"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35503853&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35503853&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142059487_2165718/ss_20230122_142059487_2165718.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36e24a4a-6d8a-4030-b3fa-7c1a6419abd3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503853",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36e24a4a-6d8a-4030-b3fa-7c1a6419abd3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503853"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36e24a4a-6d8a-4030-b3fa-7c1a6419abd3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503853"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35503923,
+      "headline": "Landers Nolley II drains 3-pointer vs. Memphis Tigers",
+      "description": "Landers Nolley II drains 3-pointer vs. Memphis Tigers",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Landers Nolley II drains 3-pointer vs. Memphis Tigers) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_landers_nolley_ii_drains_3pointer_vs_memphis_tigers"
+      },
+      "cerebroId": "63cd8ea6be6ab31ff7152b0f",
+      "lastModified": "2023-01-23T17:23:35Z",
+      "originalPublishDate": "2023-01-22T19:29:40Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T19:29:40Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 15,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35503923"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/e0dad9f2-a302-494a-8a20-3a4f47ca5ac3"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35503923&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35503923"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35503923&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35503923&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_142943516_2165736/ss_20230122_142943516_2165736.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e0dad9f2-a302-494a-8a20-3a4f47ca5ac3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503923",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e0dad9f2-a302-494a-8a20-3a4f47ca5ac3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503923"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e0dad9f2-a302-494a-8a20-3a4f47ca5ac3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35503923"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35504122,
+      "headline": "Viktor Lakhin throws down powerful flush vs. Memphis Tigers",
+      "description": "Viktor Lakhin throws down powerful flush vs. Memphis Tigers",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Viktor Lakhin throws down powerful flush vs. Memphis Tigers) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_viktor_lakhin_throws_down_powerful_flush_vs_memphis_tigers"
+      },
+      "cerebroId": "63cd9396be6ab31ff7152e78",
+      "lastModified": "2023-01-23T17:23:34Z",
+      "originalPublishDate": "2023-01-22T19:50:44Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T19:50:44Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 16,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35504122"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/e4157891-e3b4-4ca3-ac77-36e593e3c1b0"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35504122&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35504122"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35504122&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35504122&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145047784_2165785/ss_20230122_145047784_2165785.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e4157891-e3b4-4ca3-ac77-36e593e3c1b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504122",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e4157891-e3b4-4ca3-ac77-36e593e3c1b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504122"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e4157891-e3b4-4ca3-ac77-36e593e3c1b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504122"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35504174,
+      "headline": "Landers Nolley II nails the bucket",
+      "description": "Landers Nolley II nails the bucket",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Landers Nolley II nails the bucket) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_landers_nolley_ii_nails_the_bucket"
+      },
+      "cerebroId": "63cd9518be6ab31ff7152ea4",
+      "lastModified": "2023-01-23T17:23:33Z",
+      "originalPublishDate": "2023-01-22T19:57:11Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T19:57:11Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 19,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35504174"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/51318c8c-3ae2-4584-9bcd-455bcf8919ea"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35504174&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35504174"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35504174&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35504174&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145714109_2165797/ss_20230122_145714109_2165797.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51318c8c-3ae2-4584-9bcd-455bcf8919ea/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504174",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51318c8c-3ae2-4584-9bcd-455bcf8919ea/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504174"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51318c8c-3ae2-4584-9bcd-455bcf8919ea/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504174"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35504193,
+      "headline": "Keonte Kennedy drains 3 vs. Cincinnati Bearcats",
+      "description": "Keonte Kennedy drains 3 vs. Cincinnati Bearcats",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Keonte Kennedy drains 3 vs. Cincinnati Bearcats) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_keonte_kennedy_drains_3_vs_cincinnati_bearcats"
+      },
+      "cerebroId": "63cd9559be6ab31ff71530e0",
+      "lastModified": "2023-01-23T17:23:32Z",
+      "originalPublishDate": "2023-01-22T19:58:14Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T19:58:14Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 17,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35504193"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/dbefcbb0-015c-4f10-876d-12b25cdc6a15"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35504193&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35504193"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35504193&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35504193&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_145818455_2165799/ss_20230122_145818455_2165799.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dbefcbb0-015c-4f10-876d-12b25cdc6a15/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504193",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dbefcbb0-015c-4f10-876d-12b25cdc6a15/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504193"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dbefcbb0-015c-4f10-876d-12b25cdc6a15/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504193"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35504217,
+      "headline": "Viktor Lakhin elevates for slam dunk vs. Memphis Tigers",
+      "description": "Viktor Lakhin elevates for slam dunk vs. Memphis Tigers",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Viktor Lakhin elevates for slam dunk vs. Memphis Tigers) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_viktor_lakhin_elevates_for_slam_dunk_vs_memphis_tigers"
+      },
+      "cerebroId": "63cd964bbe6ab31ff715331e",
+      "lastModified": "2023-01-23T17:23:31Z",
+      "originalPublishDate": "2023-01-22T20:02:17Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T20:02:17Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 16,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35504217"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/9d5f1a85-5e17-4cb2-90bd-b544066f4e88"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35504217&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35504217"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35504217&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35504217&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_150220408_2165805/ss_20230122_150220408_2165805.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9d5f1a85-5e17-4cb2-90bd-b544066f4e88/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504217",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9d5f1a85-5e17-4cb2-90bd-b544066f4e88/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504217"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9d5f1a85-5e17-4cb2-90bd-b544066f4e88/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504217"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35504318,
+      "headline": "Viktor Lakhin throws down powerful flush vs. Memphis Tigers",
+      "description": "Viktor Lakhin throws down powerful flush vs. Memphis Tigers",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Viktor Lakhin throws down powerful flush vs. Memphis Tigers) 2023/01/22 ESHEET",
+        "trackingId": "dm_20230122_NCB_viktor_lakhin_throws_down_powerful_flush_vs_memphis_tigers"
+      },
+      "cerebroId": "63cd9943be6ab31ff7153910",
+      "lastModified": "2023-01-23T17:23:31Z",
+      "originalPublishDate": "2023-01-22T20:14:57Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T20:14:57Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 14,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35504318"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/784bf2e1-5efc-4ac6-8265-208770c299b2"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35504318&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35504318"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35504318&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35504318&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151500795_2165824/ss_20230122_151500795_2165824.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/784bf2e1-5efc-4ac6-8265-208770c299b2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504318",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/784bf2e1-5efc-4ac6-8265-208770c299b2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504318"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/784bf2e1-5efc-4ac6-8265-208770c299b2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504318"
+          }
+        }
+      }
+    }
+  ],
   "playByPlaySource": "full",
   "standings": {
     "fullViewLink": {
@@ -24424,7 +25174,400 @@
     "keywords": [],
     "description": "\u2014 DeAndre Williams scored 26 points as Memphis beat Cincinnati 75-68 on Sunday.",
     "source": "Data Skrive",
-    "video": [],
+    "video": [
+      {
+        "source": "espn",
+        "id": 35504354,
+        "dataSourceIdentifier": "bb6fad1f5f60c",
+        "headline": "Memphis Tigers vs. Cincinnati Bearcats: Full Highlights",
+        "caption": "Memphis Tigers vs. Cincinnati Bearcats: Full Highlights",
+        "description": "Memphis Tigers vs. Cincinnati Bearcats: Full Highlights",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncbgamehighlights"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "COM_NCB Highlight (Memphis Tigers vs. Cincinnati Bearcats: Full Highlights) 2023/01/22 ESHEET Sotfull",
+          "trackingId": "dm_20230122_NCB_memphis_tigers_vs_cincinnati_bearcats_full_highlights"
+        },
+        "cerebroId": "63cd9b15be6ab31ff7153973",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-23T17:25:00Z",
+        "originalPublishDate": "2023-01-22T20:22:40Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-01-22T20:22:40Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 104,
+        "categories": [
+          {
+            "id": 196096,
+            "description": "DeAndre Williams",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4397355,
+            "athlete": {
+              "id": 4397355,
+              "description": "DeAndre Williams",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4397355"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4397355/deandre-williams"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4397355"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4397355"
+          },
+          {
+            "id": 568763,
+            "description": "Dan Skillings Jr.",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 5105811,
+            "athlete": {
+              "id": 5105811,
+              "description": "Dan Skillings Jr.",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/5105811"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105811/dan-skillings-jr."
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=5105811"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:5105811"
+          },
+          {
+            "id": 3252,
+            "description": "Cincinnati Bearcats",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 2132,
+            "team": {
+              "id": 2132,
+              "description": "Cincinnati Bearcats",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2132"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2132/cincinnati-bearcats"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=2132"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:2132"
+          },
+          {
+            "id": 195607,
+            "description": "Keonte Kennedy",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4397137,
+            "athlete": {
+              "id": 4397137,
+              "description": "Keonte Kennedy",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4397137"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4397137/keonte-kennedy"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4397137"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4397137"
+          },
+          {
+            "id": 453315,
+            "description": "Viktor Lakhin",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4701192,
+            "athlete": {
+              "id": 4701192,
+              "description": "Viktor Lakhin",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4701192"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4701192/viktor-lakhin"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4701192"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4701192"
+          },
+          {
+            "id": 410016,
+            "description": "Jeremiah Davenport",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4592898,
+            "athlete": {
+              "id": 4592898,
+              "description": "Jeremiah Davenport",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4592898"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4592898/jeremiah-davenport"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4592898"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4592898"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 3256,
+            "description": "Memphis Tigers",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 235,
+            "team": {
+              "id": 235,
+              "description": "Memphis Tigers",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/235"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/235/memphis-tigers"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=235"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:235"
+          },
+          {
+            "id": 508889,
+            "description": "Johnathan Lawson",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4432589,
+            "athlete": {
+              "id": 4432589,
+              "description": "Johnathan Lawson",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432589"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432589/johnathan-lawson"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4432589"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4432589"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35504354"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/e96c310a-3d1e-4bf6-be70-698a6d0affb1"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35504354",
+            "short": {
+              "href": "https://es.pn/3iUn2em"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35504354"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35504354"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e96c310a-3d1e-4bf6-be70-698a6d0affb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504354",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e96c310a-3d1e-4bf6-be70-698a6d0affb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504354"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e96c310a-3d1e-4bf6-be70-698a6d0affb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504354"
+            }
+          }
+        },
+        "title": "Memphis Tigers vs. Cincinnati Bearcats: Full Highlights"
+      }
+    ],
     "type": "Recap",
     "nowId": "1-35504548",
     "premium": false,
@@ -24544,7 +25687,16 @@
     ],
     "headline": "Williams scores 26, Memphis defeats Cincinnati 75-68",
     "gameId": "401492709",
-    "images": [],
+    "images": [
+      {
+        "name": "Memphis Tigers vs. Cincinnati Bearcats: Full Highlights",
+        "width": 576,
+        "alt": "",
+        "caption": "Memphis Tigers vs. Cincinnati Bearcats: Full Highlights",
+        "url": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_152247217_2165842/ss_20230122_152247217_2165842.jpg",
+        "height": 324
+      }
+    ],
     "linkText": "Williams scores 26, Memphis defeats Cincinnati 75-68",
     "published": "2023-01-22T20:44:21Z",
     "allowComments": true,
@@ -25255,7 +26407,7 @@
     "uid": "s:40~l:41~e:401492709~c:401492709",
     "date": "2023-01-22T18:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -25456,13 +26608,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "62",
-      "name": "American Athletic Conference",
-      "abbreviation": "aac",
-      "shortName": "American",
-      "midsizeName": "American"
-    },
     "home": {
       "id": "2132",
       "uid": "s:40~l:41~t:2132",
