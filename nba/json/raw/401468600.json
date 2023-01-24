@@ -4118,15 +4118,15 @@
           "uid": "s:40~l:46~e:401468862~c:401468862",
           "date": "2023-01-24T00:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Mon, January 23rd at 7:00 PM EST",
-            "shortDetail": "1/23 - 7:00 PM EST"
+            "description": "In Progress",
+            "detail": "1:10 - 3rd Quarter",
+            "shortDetail": "1:10 - 3rd"
           },
           "broadcasts": [],
           "competitors": [
@@ -4149,7 +4149,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
               },
-              "score": "0"
+              "score": "86"
             },
             {
               "homeAway": "away",
@@ -4170,34 +4170,34 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
               },
-              "score": "0"
+              "score": "77"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401468862",
+              "href": "https://www.espn.com/nba/game?gameId=401468862",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401468862",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
