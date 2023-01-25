@@ -5793,7 +5793,7 @@
         "uid": "s:40~l:41~e:401469999~c:401469999",
         "date": "2023-01-07T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5993,7 +5993,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "45",
+          "name": "Horizon League",
+          "abbreviation": "hor",
+          "shortName": "Horizon",
+          "midsizeName": "Horizon"
+        }
       }
     ],
     "links": [
@@ -6140,7 +6147,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

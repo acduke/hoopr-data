@@ -5990,7 +5990,7 @@
         "uid": "s:40~l:41~e:401469902~c:401469902",
         "date": "2023-01-21T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6181,7 +6181,14 @@
             "altDetail": "OT"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "10",
+          "name": "Colonial Athletic Association",
+          "abbreviation": "col",
+          "shortName": "CAA",
+          "midsizeName": "Colonial"
+        }
       }
     ],
     "links": [
@@ -6316,7 +6323,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

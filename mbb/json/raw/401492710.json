@@ -5726,14 +5726,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "62",
-          "name": "American Athletic Conference",
-          "abbreviation": "aac",
-          "shortName": "American",
-          "midsizeName": "American"
-        }
+        ]
       }
     ],
     "links": [
@@ -5892,7 +5885,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {
@@ -17201,11 +17194,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35505017,
-        "dataSourceIdentifier": "1186b35fe3517",
-        "headline": "Temple prevails as No. 1 Houston can't convert final shot",
-        "caption": "Temple defeats No. 1 Houston 56-55 as Jamal Shead can't get the final shot to fall for the Cougars.",
-        "description": "Temple defeats No. 1 Houston 56-55 as Jamal Shead can't get the final shot to fall for the Cougars.",
+        "id": 35504325,
+        "dataSourceIdentifier": "f5661051e99b9",
+        "headline": "Emmanuel Okpomo gets the bucket down low",
+        "caption": "Emmanuel Okpomo grabs the bucket down low for Temple.",
+        "description": "Emmanuel Okpomo grabs the bucket down low for Temple.",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -17213,17 +17206,19 @@
         },
         "tracking": {
           "sportName": "ncb",
-          "leagueName": "NCAA Basketball",
-          "coverageType": "Final Game Highlight",
-          "trackingName": "NCB_One-Play (Temple prevails as No. 1 Houston can't convert final shot) 2023/01/22 ESHEET",
-          "trackingId": "evc_NCB_20230122_tem_@_hou_f7d266b8-5a8d-49b6-935f-6eb6a75f3e16_461"
+          "leagueName": "No League",
+          "coverageType": "OnePlay",
+          "trackingName": "NCB_One-Play (Emmanuel Okpomo gets the bucket down low) 2023/01/22 ESHEET",
+          "trackingId": "dm_20230122_NCB_emmanuel_okpomo_gets_the_bucket_down_low"
         },
-        "cerebroId": "63cdb4e5ca84b70e7e7918a6",
-        "lastModified": "2023-01-23T00:00:45Z",
-        "originalPublishDate": "2023-01-22T22:07:48Z",
+        "cerebroId": "63cd99d6be6ab31ff7153934",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-24T13:24:51Z",
+        "originalPublishDate": "2023-01-22T20:17:24Z",
         "timeRestrictions": {
-          "embargoDate": "2023-01-22T22:07:48Z",
-          "expirationDate": "2023-04-30T04:00:00Z"
+          "embargoDate": "2023-01-22T20:17:24Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
@@ -17236,65 +17231,36 @@
           ]
         },
         "syndicatable": true,
-        "duration": 49,
+        "duration": 21,
         "categories": [
           {
-            "id": 4742,
-            "description": "Temple Owls",
-            "type": "team",
-            "sportId": 54,
-            "teamId": 218,
-            "team": {
-              "id": 218,
-              "description": "Temple Owls",
-              "links": {
-                "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/218"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/womens-basketball/team/_/id/218/temple-owls"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/ncw/clubhouse?teamId=218"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:54~t:218"
-          },
-          {
-            "id": 3257,
-            "description": "Houston Cougars",
-            "type": "team",
+            "id": 454241,
+            "description": "Emmanuel Okpomo",
+            "type": "athlete",
             "sportId": 41,
-            "teamId": 248,
-            "team": {
-              "id": 248,
-              "description": "Houston Cougars",
+            "athleteId": 4432517,
+            "athlete": {
+              "id": 4432517,
+              "description": "Emmanuel Okpomo",
               "links": {
                 "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/248"
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432517"
                   }
                 },
                 "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/248/houston-cougars"
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432517/emmanuel-okpomo"
                   }
                 },
                 "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=248"
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4432517"
                   }
                 }
               }
             },
-            "uid": "s:40~l:41~t:248"
+            "uid": "s:40~l:41~a:4432517"
           },
           {
             "id": 9576,
@@ -17324,29 +17290,58 @@
               }
             },
             "uid": "s:40~l:41"
+          },
+          {
+            "id": 3163,
+            "description": "Temple Owls",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 218,
+            "team": {
+              "id": 218,
+              "description": "Temple Owls",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/218"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/218/temple-owls"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=218"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:218"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -17354,66 +17349,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35505017"
+              "href": "http://api-app.espn.com/v1/video/clips/35504325"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/9877f76f-4089-4113-80c7-9bfcaf62959d"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35505017",
+            "href": "http://espn.com/video/clip?id=35504325",
             "short": {
-              "href": "https://es.pn/3XsMjLG"
+              "href": "https://es.pn/3QXHTda"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35505017"
+              "href": "http://espn.com/video/clip?id=35504325"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35505017"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35504325"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9877f76f-4089-4113-80c7-9bfcaf62959d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35505017",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504325",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9877f76f-4089-4113-80c7-9bfcaf62959d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35505017"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504325"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9877f76f-4089-4113-80c7-9bfcaf62959d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35505017"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504325"
             }
           }
         },
-        "title": "Temple prevails as No. 1 Houston can't convert final shot"
+        "title": "Emmanuel Okpomo gets the bucket down low"
       }
     ],
     "type": "Recap",
@@ -17537,11 +17532,11 @@
     "gameId": "401492710",
     "images": [
       {
-        "name": "Temple prevails as No. 1 Houston can't convert final shot",
+        "name": "Emmanuel Okpomo gets the bucket down low",
         "width": 576,
         "alt": "",
-        "caption": "Temple defeats No. 1 Houston 56-55 as Jamal Shead can't get the final shot to fall for the Cougars.",
-        "url": "https://a.espncdn.com/media/motion/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138.jpg",
+        "caption": "Emmanuel Okpomo grabs the bucket down low for Temple.",
+        "url": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.jpg",
         "height": 324
       }
     ],
@@ -17585,99 +17580,6 @@
   "videos": [
     {
       "source": "espn",
-      "id": 35504325,
-      "headline": "Emmanuel Okpomo gets the bucket down low",
-      "description": "Emmanuel Okpomo grabs the bucket down low for Temple.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncbgamehighlights"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (Emmanuel Okpomo gets the bucket down low) 2023/01/22 ESHEET",
-        "trackingId": "dm_20230122_NCB_emmanuel_okpomo_gets_the_bucket_down_low"
-      },
-      "cerebroId": "63cd99d6be6ab31ff7153934",
-      "lastModified": "2023-01-22T20:18:40Z",
-      "originalPublishDate": "2023-01-22T20:17:24Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-22T20:17:24Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 21,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35504325"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35504325&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35504325"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35504325&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35504325&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0122/ss_20230122_151728127_2165830/ss_20230122_151728127_2165830.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504325",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504325"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c9e3d6c2-6d9f-4062-9c27-8e6fb21e9af3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35504325"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
       "id": 35504390,
       "headline": "Reggie Chaney gets the 2nd effort bucket for Houston",
       "description": "Reggie Chaney does a nice job to find the loose ball and tip it in for a Houston bucket.",
@@ -17693,7 +17595,7 @@
         "trackingId": "dm_20230122_NCB_reggie_chaney_gets_the_2nd_effort_bucket_for_houston"
       },
       "cerebroId": "63cd9baabe6ab31ff7153985",
-      "lastModified": "2023-01-22T20:26:37Z",
+      "lastModified": "2023-01-24T13:24:28Z",
       "originalPublishDate": "2023-01-22T20:25:12Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T20:25:12Z",
@@ -17786,7 +17688,7 @@
         "trackingId": "dm_20230122_NCB_kur_jongkuch_elevates_for_the_slam"
       },
       "cerebroId": "63cd9d58be6ab31ff71539be",
-      "lastModified": "2023-01-22T20:33:46Z",
+      "lastModified": "2023-01-24T13:23:39Z",
       "originalPublishDate": "2023-01-22T20:32:22Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T20:32:22Z",
@@ -17879,7 +17781,7 @@
         "trackingId": "dm_20230122_NCB_jwan_roberts_elevates_for_a_block"
       },
       "cerebroId": "63cda21abe6ab31ff71544d7",
-      "lastModified": "2023-01-22T20:54:12Z",
+      "lastModified": "2023-01-24T13:23:13Z",
       "originalPublishDate": "2023-01-22T20:52:40Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T20:52:40Z",
@@ -17972,7 +17874,7 @@
         "trackingId": "dm_20230122_NCB_jamal_shead_knocks_down_a_houston_3pointer"
       },
       "cerebroId": "63cda8e5ca84b70e7e790b88",
-      "lastModified": "2023-01-22T21:23:42Z",
+      "lastModified": "2023-01-24T13:22:48Z",
       "originalPublishDate": "2023-01-22T21:21:39Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T21:21:39Z",
@@ -18065,7 +17967,7 @@
         "trackingId": "dm_20230122_NCB_jarace_walker_goes_up_for_a_block"
       },
       "cerebroId": "63cdad78be6ab31ff7154a16",
-      "lastModified": "2023-01-22T21:42:13Z",
+      "lastModified": "2023-01-24T13:20:46Z",
       "originalPublishDate": "2023-01-22T21:41:09Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T21:41:09Z",
@@ -18158,7 +18060,7 @@
         "trackingId": "dm_20230122_NCB_damian_dunn_makes_a_nice_feed_for_a_temple_bucket"
       },
       "cerebroId": "63cdaefcbe6ab31ff7154a5b",
-      "lastModified": "2023-01-22T21:48:48Z",
+      "lastModified": "2023-01-24T13:20:15Z",
       "originalPublishDate": "2023-01-22T21:47:38Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T21:47:38Z",
@@ -18251,7 +18153,7 @@
         "trackingId": "dm_20230122_NCB_jwan_roberts_gets_the_steal_and_the_and1_bucket"
       },
       "cerebroId": "63cdb3dbbe6ab31ff7154fe8",
-      "lastModified": "2023-01-22T22:09:53Z",
+      "lastModified": "2023-01-24T13:19:44Z",
       "originalPublishDate": "2023-01-22T22:08:26Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T22:08:26Z",
@@ -18329,6 +18231,99 @@
     },
     {
       "source": "espn",
+      "id": 35505017,
+      "headline": "Temple prevails as No. 1 Houston can't convert final shot",
+      "description": "Temple defeats No. 1 Houston 56-55 as Jamal Shead can't get the final shot to fall for the Cougars.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncbgamehighlights"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "NCAA Basketball",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "NCB_One-Play (Temple prevails as No. 1 Houston can't convert final shot) 2023/01/22 ESHEET",
+        "trackingId": "evc_NCB_20230122_tem_@_hou_f7d266b8-5a8d-49b6-935f-6eb6a75f3e16_461"
+      },
+      "cerebroId": "63cdb4e5ca84b70e7e7918a6",
+      "lastModified": "2023-01-24T13:20:27Z",
+      "originalPublishDate": "2023-01-22T22:07:48Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-22T22:07:48Z",
+        "expirationDate": "2023-04-30T04:00:00Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 49,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_1138.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35505017"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/9877f76f-4089-4113-80c7-9bfcaf62959d"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35505017&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35505017"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35505017&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35505017&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0122/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461/evc_NCB_20230122_tem__hou_b938b8cc_cb2b_45e8_ad52_a9b43edd3b8a_461.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9877f76f-4089-4113-80c7-9bfcaf62959d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35505017",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9877f76f-4089-4113-80c7-9bfcaf62959d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35505017"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9877f76f-4089-4113-80c7-9bfcaf62959d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35505017"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
       "id": 35505101,
       "headline": "Temple gets clutch back-to-back blocks vs. Houston",
       "description": "Kur Jongkuch and Nick Jourdain each collect a block with under five seconds to play to prevent No. 1 Houston from going ahead.",
@@ -18344,7 +18339,7 @@
         "trackingId": "dm_20230122_NCB_temple_gets_clutch_backtoback_blocks_vs_houston"
       },
       "cerebroId": "63cdb7b2be6ab31ff7155318",
-      "lastModified": "2023-01-22T23:23:52Z",
+      "lastModified": "2023-01-24T13:21:21Z",
       "originalPublishDate": "2023-01-22T22:24:48Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-22T22:24:48Z",
@@ -18921,8 +18916,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-10",
-                  "displayValue": "10-10"
+                  "summary": "11-10",
+                  "displayValue": "11-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -18931,8 +18926,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -18942,8 +18937,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-6",
-                  "displayValue": "1-6"
+                  "summary": "2-6",
+                  "displayValue": "2-6"
                 }
               ],
               "logo": [
@@ -18974,8 +18969,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-13",
-                  "displayValue": "5-13"
+                  "summary": "5-14",
+                  "displayValue": "5-14"
                 },
                 {
                   "name": "gamesBehind",
@@ -18984,8 +18979,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "id": "9",
@@ -18995,8 +18990,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-6",
-                  "displayValue": "1-6"
+                  "summary": "1-7",
+                  "displayValue": "1-7"
                 }
               ],
               "logo": [

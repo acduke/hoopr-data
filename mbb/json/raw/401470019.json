@@ -4008,9 +4008,9 @@
         "moneyLine": 145,
         "spreadRecord": {
           "wins": 8,
-          "losses": 10,
+          "losses": 11,
           "pushes": 0,
-          "summary": "8-10-0"
+          "summary": "8-11-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2870"
@@ -5821,7 +5821,7 @@
         "uid": "s:40~l:41~e:401470019~c:401470019",
         "date": "2023-01-20T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6021,7 +6021,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "45",
+          "name": "Horizon League",
+          "abbreviation": "hor",
+          "shortName": "Horizon",
+          "midsizeName": "Horizon"
+        }
       }
     ],
     "links": [
@@ -6168,7 +6175,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

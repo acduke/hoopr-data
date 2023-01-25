@@ -5660,7 +5660,7 @@
         "uid": "s:40~l:41~e:401482805~c:401482805",
         "date": "2023-01-07T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5844,7 +5844,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        }
       }
     ],
     "links": [
@@ -5979,7 +5986,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {
@@ -15674,10 +15681,10 @@
               ]
             },
             {
-              "team": "New Mexico",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/167/new-mexico-lobos",
-              "id": "167",
-              "uid": "s:40~l:41~t:167",
+              "team": "Nevada",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2440/nevada-wolf-pack",
+              "id": "2440",
+              "uid": "s:40~l:41~t:2440",
               "stats": [
                 {
                   "id": "0",
@@ -15687,8 +15694,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-2",
-                  "displayValue": "18-2"
+                  "summary": "16-5",
+                  "displayValue": "16-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -15697,8 +15704,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "id": "9",
@@ -15708,13 +15715,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
+                  "summary": "6-2",
+                  "displayValue": "6-2"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -15722,7 +15729,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2022-08-31T05:34Z"
                 }
               ]
             },
@@ -15833,10 +15840,10 @@
               ]
             },
             {
-              "team": "Nevada",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2440/nevada-wolf-pack",
-              "id": "2440",
-              "uid": "s:40~l:41~t:2440",
+              "team": "New Mexico",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/167/new-mexico-lobos",
+              "id": "167",
+              "uid": "s:40~l:41~t:167",
               "stats": [
                 {
                   "id": "0",
@@ -15846,8 +15853,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-5",
-                  "displayValue": "15-5"
+                  "summary": "18-3",
+                  "displayValue": "18-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -15856,8 +15863,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -15867,13 +15874,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-2",
-                  "displayValue": "5-2"
+                  "summary": "5-3",
+                  "displayValue": "5-3"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -15881,7 +15888,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2022-08-31T05:34Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },

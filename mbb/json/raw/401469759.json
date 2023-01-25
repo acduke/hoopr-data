@@ -5972,7 +5972,7 @@
         "uid": "s:40~l:41~e:401469759~c:401469759",
         "date": "2023-01-08T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6172,7 +6172,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "9",
+          "name": "Big West Conference",
+          "abbreviation": "bigw",
+          "shortName": "Big West",
+          "midsizeName": "Big West"
+        }
       }
     ],
     "links": [
@@ -6307,7 +6314,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

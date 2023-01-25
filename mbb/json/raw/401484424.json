@@ -4052,9 +4052,9 @@
         "moneyLine": -108,
         "spreadRecord": {
           "wins": 9,
-          "losses": 9,
+          "losses": 10,
           "pushes": 1,
-          "summary": "9-9-1"
+          "summary": "9-10-1"
         },
         "spreadOdds": -110.0,
         "teamId": "257"
@@ -4066,9 +4066,9 @@
         "moneyLine": -108,
         "spreadRecord": {
           "wins": 12,
-          "losses": 7,
+          "losses": 8,
           "pushes": 0,
-          "summary": "12-7-0"
+          "summary": "12-8-0"
         },
         "spreadOdds": -110.0,
         "teamId": "179"
@@ -5735,7 +5735,7 @@
         "uid": "s:40~l:41~e:401484424~c:401484424",
         "date": "2023-01-14T19:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5918,7 +5918,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "3",
+          "name": "Atlantic 10 Conference",
+          "abbreviation": "atl10",
+          "shortName": "A 10",
+          "midsizeName": "Atlantic 10"
+        }
       }
     ],
     "links": [
@@ -6053,7 +6060,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {
@@ -16777,10 +16784,10 @@
               ]
             },
             {
-              "team": "La Salle",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2325/la-salle-explorers",
-              "id": "2325",
-              "uid": "s:40~l:41~t:2325",
+              "team": "Davidson",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2166/davidson-wildcats",
+              "id": "2166",
+              "uid": "s:40~l:41~t:2166",
               "stats": [
                 {
                   "id": "0",
@@ -16790,8 +16797,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-11",
-                  "displayValue": "8-11"
+                  "summary": "10-10",
+                  "displayValue": "10-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -16811,13 +16818,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-4",
-                  "displayValue": "2-4"
+                  "summary": "3-5",
+                  "displayValue": "3-5"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16825,7 +16832,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2021-09-13T17:41Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16883,10 +16890,10 @@
               ]
             },
             {
-              "team": "Davidson",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2166/davidson-wildcats",
-              "id": "2166",
-              "uid": "s:40~l:41~t:2166",
+              "team": "La Salle",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2325/la-salle-explorers",
+              "id": "2325",
+              "uid": "s:40~l:41~t:2325",
               "stats": [
                 {
                   "id": "0",
@@ -16896,8 +16903,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-10",
-                  "displayValue": "9-10"
+                  "summary": "8-12",
+                  "displayValue": "8-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -16923,7 +16930,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16931,7 +16938,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2021-09-13T17:41Z"
                 }
               ]
             },

@@ -69,7 +69,7 @@
           },
           {
             "name": "assists",
-            "displayValue": "18",
+            "displayValue": "19",
             "abbreviation": "AST",
             "label": "Assists"
           },
@@ -540,7 +540,7 @@
                 "ejected": false,
                 "stats": [
                   "32",
-                  "2-5",
+                  "2-4",
                   "1-3",
                   "1-2",
                   "1",
@@ -643,16 +643,16 @@
                 "ejected": false,
                 "stats": [
                   "36",
-                  "8-14",
+                  "8-15",
                   "4-9",
                   "2-2",
                   "1",
                   "3",
                   "4",
-                  "5",
+                  "6",
                   "3",
                   "0",
-                  "0",
+                  "1",
                   "1",
                   "22"
                 ]
@@ -858,7 +858,7 @@
                   "3",
                   "2",
                   "0",
-                  "2",
+                  "1",
                   "3",
                   "10"
                 ]
@@ -1771,7 +1771,7 @@
               "6",
               "31",
               "37",
-              "18",
+              "19",
               "11",
               "3",
               "11",
@@ -3545,8 +3545,8 @@
                   "shortDisplayName": "FG",
                   "description": "Field Goal makes and attempts.",
                   "abbreviation": "FG",
-                  "value": 0.571429,
-                  "displayValue": "8/14"
+                  "value": 0.533333,
+                  "displayValue": "8/15"
                 },
                 {
                   "name": "freeThrows",
@@ -5364,7 +5364,7 @@
         "uid": "s:40~l:41~e:401470213~c:401470213",
         "date": "2023-01-20T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5564,7 +5564,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "49",
+          "name": "Summit League",
+          "abbreviation": "summ",
+          "shortName": "Summit",
+          "midsizeName": "Summit League"
+        }
       }
     ],
     "links": [
@@ -5699,7 +5706,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

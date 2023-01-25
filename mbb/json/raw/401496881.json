@@ -5861,7 +5861,7 @@
         "uid": "s:40~l:41~e:401496881~c:401496881",
         "date": "2023-01-09T23:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6045,7 +6045,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "16",
+          "name": "Mid-Eastern Athletic Conference",
+          "abbreviation": "meac",
+          "shortName": "MEAC",
+          "midsizeName": "MEAC"
+        }
       }
     ],
     "links": [
@@ -6168,7 +6175,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {
@@ -6653,7 +6660,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2023-01-24T22:55Z"
                 }
               ]
             },

@@ -4087,10 +4087,10 @@
         "underdog": false,
         "moneyLine": -170,
         "spreadRecord": {
-          "wins": 8,
+          "wins": 9,
           "losses": 10,
           "pushes": 1,
-          "summary": "8-10-1"
+          "summary": "9-10-1"
         },
         "spreadOdds": -108.0,
         "teamId": "2670"
@@ -4101,10 +4101,10 @@
         "underdog": true,
         "moneyLine": 150,
         "spreadRecord": {
-          "wins": 3,
+          "wins": 4,
           "losses": 15,
           "pushes": 0,
-          "summary": "3-15-0"
+          "summary": "4-15-0"
         },
         "spreadOdds": -108.0,
         "teamId": "2350"
@@ -5726,7 +5726,7 @@
         "uid": "s:40~l:41~e:401484416~c:401484416",
         "date": "2023-01-11T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5925,7 +5925,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "3",
+          "name": "Atlantic 10 Conference",
+          "abbreviation": "atl10",
+          "shortName": "A 10",
+          "midsizeName": "Atlantic 10"
+        }
       }
     ],
     "links": [
@@ -6072,7 +6079,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

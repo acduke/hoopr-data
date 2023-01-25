@@ -2279,9 +2279,9 @@
                 "ejected": false,
                 "stats": [
                   "24",
-                  "2-5",
+                  "3-6",
                   "1-4",
-                  "2-2",
+                  "3-3",
                   "0",
                   "1",
                   "1",
@@ -2290,7 +2290,7 @@
                   "0",
                   "0",
                   "1",
-                  "7"
+                  "10"
                 ]
               },
               {
@@ -2382,9 +2382,9 @@
                 "ejected": false,
                 "stats": [
                   "33",
-                  "7-9",
+                  "6-8",
                   "4-5",
-                  "1-1",
+                  "0-0",
                   "1",
                   "2",
                   "3",
@@ -2393,7 +2393,7 @@
                   "1",
                   "0",
                   "2",
-                  "19"
+                  "16"
                 ]
               },
               {
@@ -2896,7 +2896,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "17",
+                  "16",
                   "0-1",
                   "0-1",
                   "2-2",
@@ -3722,7 +3722,7 @@
           "displayName": "Points",
           "leaders": [
             {
-              "displayValue": "19",
+              "displayValue": "16",
               "athlete": {
                 "id": "4585866",
                 "uid": "s:40~l:41~a:4585866",
@@ -3758,8 +3758,8 @@
                   "shortDisplayName": "PTS",
                   "description": "The number of points scored.",
                   "abbreviation": "PTS",
-                  "value": 19.0,
-                  "displayValue": "19"
+                  "value": 16.0,
+                  "displayValue": "16"
                 },
                 {
                   "name": "fieldGoals",
@@ -3767,8 +3767,8 @@
                   "shortDisplayName": "FG",
                   "description": "Field Goal makes and attempts.",
                   "abbreviation": "FG",
-                  "value": 0.777778,
-                  "displayValue": "7/9"
+                  "value": 0.75,
+                  "displayValue": "6/8"
                 },
                 {
                   "name": "freeThrows",
@@ -3776,8 +3776,8 @@
                   "shortDisplayName": "FT",
                   "description": "Free Throw makes and attempts.",
                   "abbreviation": "FT",
-                  "value": 1.0,
-                  "displayValue": "1/1"
+                  "value": 0.0,
+                  "displayValue": "0/0"
                 }
               ]
             }
@@ -5783,7 +5783,7 @@
         "uid": "s:40~l:41~e:401469898~c:401469898",
         "date": "2023-01-20T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5966,7 +5966,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "10",
+          "name": "Colonial Athletic Association",
+          "abbreviation": "col",
+          "shortName": "CAA",
+          "midsizeName": "Colonial"
+        }
       }
     ],
     "links": [
@@ -6101,7 +6108,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

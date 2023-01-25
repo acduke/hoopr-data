@@ -22931,7 +22931,7 @@
         "uid": "s:40~l:41~e:401484882~c:401484882",
         "date": "2023-01-08T17:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -23132,13 +23132,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "7",
-          "name": "Big Ten Conference",
-          "abbreviation": "big10",
-          "shortName": "Big Ten",
-          "midsizeName": "Big Ten"
-        },
         "home": {
           "id": "164",
           "uid": "s:40~l:41~t:164",
@@ -23377,7 +23370,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {
@@ -23573,8 +23566,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-6",
-                  "displayValue": "13-6"
+                  "summary": "14-6",
+                  "displayValue": "14-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -23583,8 +23576,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -23594,8 +23587,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-3",
-                  "displayValue": "5-3"
+                  "summary": "6-3",
+                  "displayValue": "6-3"
                 }
               ],
               "logo": [
@@ -23760,59 +23753,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Penn State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/213/penn-state-nittany-lions",
-              "id": "213",
-              "uid": "s:40~l:41~t:213",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "13-6",
-                  "displayValue": "13-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-4",
-                  "displayValue": "4-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -24025,6 +23965,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Penn State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/213/penn-state-nittany-lions",
+              "id": "213",
+              "uid": "s:40~l:41~t:213",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-7",
+                  "displayValue": "13-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-5",
+                  "displayValue": "4-5"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25079,7 +25072,7 @@
     "uid": "s:40~l:41~e:401484882~c:401484882",
     "date": "2023-01-08T17:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -25280,13 +25273,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "7",
-      "name": "Big Ten Conference",
-      "abbreviation": "big10",
-      "shortName": "Big Ten",
-      "midsizeName": "Big Ten"
-    },
     "home": {
       "id": "164",
       "uid": "s:40~l:41~t:164",

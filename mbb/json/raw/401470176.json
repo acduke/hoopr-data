@@ -5324,7 +5324,7 @@
         "uid": "s:40~l:41~e:401470176~c:401470176",
         "date": "2022-12-20T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5508,7 +5508,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "49",
+          "name": "Summit League",
+          "abbreviation": "summ",
+          "shortName": "Summit",
+          "midsizeName": "Summit League"
+        }
       }
     ],
     "links": [
@@ -5643,7 +5650,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {

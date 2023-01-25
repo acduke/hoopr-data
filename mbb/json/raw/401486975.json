@@ -5911,7 +5911,7 @@
         "uid": "s:40~l:41~e:401486975~c:401486975",
         "date": "2023-01-07T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6118,7 +6118,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "13",
+          "name": "Metro Atlantic Athletic Conference",
+          "abbreviation": "maac",
+          "shortName": "MAAC",
+          "midsizeName": "MAAC"
+        }
       }
     ],
     "links": [
@@ -6253,7 +6260,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/mens-college-basketball/scoreboard",
+          "href": "https://www.espn.com/mens-college-basketball/scoreboard",
           "text": "Scores"
         },
         {
