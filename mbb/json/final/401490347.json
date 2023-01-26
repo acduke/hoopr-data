@@ -23648,7 +23648,7 @@
         "uid": "s:40~l:41~e:401490347~c:401490347",
         "date": "2023-01-20T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -23849,13 +23849,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "21",
-          "name": "Pac-12 Conference",
-          "abbreviation": "pac12",
-          "shortName": "Pac-12",
-          "midsizeName": "Pac-12"
-        },
         "home": {
           "id": "38",
           "uid": "s:40~l:41~t:38",
@@ -24701,6 +24694,59 @@
               ]
             },
             {
+              "team": "Stanford",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal",
+              "id": "24",
+              "uid": "s:40~l:41~t:24",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-12",
+                  "displayValue": "8-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 6.0,
+                  "displayValue": "6"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-7",
+                  "displayValue": "2-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Oregon State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/204/oregon-state-beavers",
               "id": "204",
@@ -24742,59 +24788,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Stanford",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal",
-              "id": "24",
-              "uid": "s:40~l:41~t:24",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-12",
-                  "displayValue": "7-12"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-7",
-                  "displayValue": "2-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25557,9 +25550,9 @@
         "moneyLine": 360,
         "spreadRecord": {
           "wins": 10,
-          "losses": 9,
+          "losses": 10,
           "pushes": 1,
-          "summary": "10-9-1"
+          "summary": "10-10-1"
         },
         "spreadOdds": -106.0,
         "teamId": "264"
@@ -25571,9 +25564,9 @@
         "moneyLine": -450,
         "spreadRecord": {
           "wins": 8,
-          "losses": 12,
+          "losses": 13,
           "pushes": 0,
-          "summary": "8-12-0"
+          "summary": "8-13-0"
         },
         "spreadOdds": -114.0,
         "teamId": "38"
@@ -25702,7 +25695,7 @@
     "uid": "s:40~l:41~e:401490347~c:401490347",
     "date": "2023-01-20T02:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -25903,13 +25896,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "21",
-      "name": "Pac-12 Conference",
-      "abbreviation": "pac12",
-      "shortName": "Pac-12",
-      "midsizeName": "Pac-12"
-    },
     "home": {
       "id": "38",
       "uid": "s:40~l:41~t:38",

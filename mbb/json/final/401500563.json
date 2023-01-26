@@ -22462,7 +22462,7 @@
         "shotChartAvailable": false,
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
-        "onWatchESPN": false,
+        "onWatchESPN": true,
         "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
@@ -22586,7 +22586,23 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": [],
+        "broadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Web"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
         "home": {
           "id": "2453",
           "uid": "s:40~l:41~t:2453",
@@ -22893,7 +22909,28 @@
       "clock": 300.0
     }
   },
-  "broadcasts": [],
+  "broadcasts": [
+    {
+      "type": {
+        "id": "4",
+        "shortName": "Web",
+        "longName": "Web",
+        "slug": "web"
+      },
+      "station": "ESPN+",
+      "market": {
+        "id": "1",
+        "type": "National"
+      },
+      "media": {
+        "callLetters": "ESPN+",
+        "name": "ESPN+",
+        "shortName": "ESPN+"
+      },
+      "lang": "en",
+      "region": "us"
+    }
+  ],
   "videos": [],
   "playByPlaySource": "full",
   "standings": {
@@ -24207,7 +24244,7 @@
     "shotChartAvailable": false,
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
-    "onWatchESPN": false,
+    "onWatchESPN": true,
     "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
@@ -24331,7 +24368,23 @@
         "shortDetail": "Final"
       }
     },
-    "broadcasts": [],
+    "broadcasts": [
+      {
+        "type": {
+          "id": "4",
+          "shortName": "Web"
+        },
+        "market": {
+          "id": "1",
+          "type": "National"
+        },
+        "media": {
+          "shortName": "ESPN+"
+        },
+        "lang": "en",
+        "region": "us"
+      }
+    ],
     "home": {
       "id": "2453",
       "uid": "s:40~l:41~t:2453",

@@ -5686,7 +5686,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -5878,14 +5878,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "18",
-          "name": "Missouri Valley Conference",
-          "abbreviation": "mvc",
-          "shortName": "MVC",
-          "midsizeName": "Missouri Valley"
-        }
+        ]
       }
     ],
     "links": [
@@ -5898,6 +5891,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490181",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490181",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15690,7 +15695,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "ef6a239166a12",
+    "keywords": [],
+    "description": "\u2014 Tucker DeVries led Drake with 21 points and D.J. Wilkins scored the game-winning 3-pointer with two seconds left as the Bulldogs knocked off Indiana State 70-68 on Tuesday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35521292",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35521292"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490181"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490181",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35521292"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490181&version=mobile"
+      }
+    },
+    "id": 35521292,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3316,
+        "description": "Drake Bulldogs",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2181,
+        "team": {
+          "id": 2181,
+          "description": "Drake Bulldogs",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2181"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2181/drake-bulldogs"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2181"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2181"
+      },
+      {
+        "id": 3314,
+        "description": "Indiana State Sycamores",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 282,
+        "team": {
+          "id": 282,
+          "description": "Indiana State Sycamores",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/282"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/282/indiana-state-sycamores"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=282"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:282"
+      }
+    ],
+    "headline": "DeVries, Wilkins lead Drake over Indiana State, 70-68",
+    "gameId": "401490181",
+    "images": [],
+    "linkText": "DeVries, Wilkins lead Drake over Indiana State, 70-68",
+    "published": "2023-01-25T05:25:03Z",
+    "allowComments": true,
+    "lastModified": "2023-01-25T05:25:04Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">DES MOINES, Iowa -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4837238/tucker-devries\">Tucker DeVries</a> led Drake with 21 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397350/dj-wilkins\">D.J. Wilkins</a> scored the game-winning 3-pointer with two seconds left as the Bulldogs knocked off Indiana State 70-68 on Tuesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">DeVries added five rebounds for the Bulldogs (16-6, 7-4 Missouri Valley Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4279754/roman-penn\">Roman Penn</a> scored 16 points while going 6 of 10 and 4 of 5 from the free throw line. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397348/garrett-sturtz\">Garrett Sturtz</a> went 4 of 5 from the field to finish with 11 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701557/courvoisier-mccauley\">Courvoisier McCauley</a> finished with 22 points and nine rebounds for the Sycamores (13-9, 6-5). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4917097/robbie-avila\">Robbie Avila</a> added 22 points and seven rebounds for Indiana State. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4288068/cooper-neese\">Cooper Neese</a> also had 13 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Penn scored 10 second-half points for Drake.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Drake's next game is Sunday against Belmont on the road. Indiana State hosts Northern Iowa on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -15768,8 +15935,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-6",
-                  "displayValue": "15-6"
+                  "summary": "16-6",
+                  "displayValue": "16-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -15778,8 +15945,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 0.0,
+                  "displayValue": "-"
                 },
                 {
                   "id": "9",
@@ -15789,8 +15956,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-2",
-                  "displayValue": "8-2"
+                  "summary": "9-2",
+                  "displayValue": "9-2"
                 }
               ],
               "logo": [
@@ -15821,8 +15988,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-9",
-                  "displayValue": "11-9"
+                  "summary": "12-9",
+                  "displayValue": "12-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -15831,8 +15998,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -15842,8 +16009,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-3",
-                  "displayValue": "7-3"
+                  "summary": "8-3",
+                  "displayValue": "8-3"
                 }
               ],
               "logo": [
@@ -15914,6 +16081,59 @@
               ]
             },
             {
+              "team": "Bradley",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/71/bradley-braves",
+              "id": "71",
+              "uid": "s:40~l:41~t:71",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-8",
+                  "displayValue": "14-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-4",
+                  "displayValue": "7-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2023-01-24T18:33Z"
+                }
+              ]
+            },
+            {
               "team": "Missouri State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2623/missouri-state-bears",
               "id": "2623",
@@ -15963,59 +16183,6 @@
                     "default"
                   ],
                   "lastUpdated": "2023-01-24T18:33Z"
-                }
-              ]
-            },
-            {
-              "team": "Bradley",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/71/bradley-braves",
-              "id": "71",
-              "uid": "s:40~l:41~t:71",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "13-8",
-                  "displayValue": "13-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-4",
-                  "displayValue": "6-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-06-30T16:42Z"
                 }
               ]
             },
@@ -16139,8 +16306,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-12",
-                  "displayValue": "9-12"
+                  "summary": "9-13",
+                  "displayValue": "9-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -16149,8 +16316,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -16160,8 +16327,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-7",
-                  "displayValue": "3-7"
+                  "summary": "3-8",
+                  "displayValue": "3-8"
                 }
               ],
               "logo": [
@@ -16192,8 +16359,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-13",
-                  "displayValue": "8-13"
+                  "summary": "8-14",
+                  "displayValue": "8-14"
                 },
                 {
                   "name": "gamesBehind",
@@ -16202,8 +16369,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -16213,8 +16380,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-7",
-                  "displayValue": "3-7"
+                  "summary": "3-8",
+                  "displayValue": "3-8"
                 }
               ],
               "logo": [
@@ -16298,8 +16465,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-17",
-                  "displayValue": "4-17"
+                  "summary": "4-18",
+                  "displayValue": "4-18"
                 },
                 {
                   "name": "gamesBehind",
@@ -16308,8 +16475,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 8.5,
-                  "displayValue": "8.5"
+                  "value": 9.0,
+                  "displayValue": "9"
                 },
                 {
                   "id": "9",
@@ -16319,8 +16486,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-10",
-                  "displayValue": "0-10"
+                  "summary": "0-11",
+                  "displayValue": "0-11"
                 }
               ],
               "logo": [

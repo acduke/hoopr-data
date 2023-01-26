@@ -4073,7 +4073,28 @@
       ]
     }
   ],
-  "broadcasts": [],
+  "broadcasts": [
+    {
+      "type": {
+        "id": "4",
+        "shortName": "Web",
+        "longName": "Web",
+        "slug": "web"
+      },
+      "station": "ESPN+",
+      "market": {
+        "id": "1",
+        "type": "National"
+      },
+      "media": {
+        "callLetters": "ESPN+",
+        "name": "ESPN+",
+        "shortName": "ESPN+"
+      },
+      "lang": "en",
+      "region": "us"
+    }
+  ],
   "predictor": {
     "header": "Matchup Predictor",
     "homeTeam": {
@@ -6046,7 +6067,7 @@
         "shotChartAvailable": false,
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
-        "onWatchESPN": false,
+        "onWatchESPN": true,
         "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
@@ -6171,7 +6192,23 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Web"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "ESPN+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ]
       }
     ],
     "links": [

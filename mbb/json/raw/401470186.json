@@ -3890,10 +3890,10 @@
         "underdog": true,
         "moneyLine": 290,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 6,
           "pushes": 1,
-          "summary": "9-6-1"
+          "summary": "10-6-1"
         },
         "spreadOdds": -108.0,
         "teamId": "2710"
@@ -5429,7 +5429,7 @@
         "uid": "s:40~l:41~e:401470186~c:401470186",
         "date": "2022-12-30T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5629,7 +5629,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "49",
+          "name": "Summit League",
+          "abbreviation": "summ",
+          "shortName": "Summit",
+          "midsizeName": "Summit League"
+        }
       }
     ],
     "links": [

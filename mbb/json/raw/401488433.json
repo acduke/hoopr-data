@@ -5814,7 +5814,7 @@
         "uid": "s:40~l:41~e:401488433~c:401488433",
         "date": "2023-01-14T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6015,14 +6015,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "2",
-          "name": "Atlantic Coast Conference",
-          "abbreviation": "acc",
-          "shortName": "ACC",
-          "midsizeName": "ACC"
-        }
+        ]
       }
     ],
     "links": [
@@ -16854,59 +16847,6 @@
               ]
             },
             {
-              "team": "Wake Forest",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
-              "id": "154",
-              "uid": "s:40~l:41~t:154",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "14-6",
-                  "displayValue": "14-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-07T20:49Z"
-                }
-              ]
-            },
-            {
               "team": "Pittsburgh",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/221/pittsburgh-panthers",
               "id": "221",
@@ -16920,8 +16860,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-7",
-                  "displayValue": "13-7"
+                  "summary": "14-7",
+                  "displayValue": "14-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -16930,8 +16870,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -16941,8 +16881,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
+                  "summary": "7-3",
+                  "displayValue": "7-3"
                 }
               ],
               "logo": [
@@ -17009,6 +16949,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-09-05T22:10Z"
+                }
+              ]
+            },
+            {
+              "team": "Wake Forest",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
+              "id": "154",
+              "uid": "s:40~l:41~t:154",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-7",
+                  "displayValue": "14-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 3.0,
+                  "displayValue": "3"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "6-4",
+                  "displayValue": "6-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-07T20:49Z"
                 }
               ]
             },
