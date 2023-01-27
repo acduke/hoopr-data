@@ -21938,7 +21938,7 @@
         "uid": "s:40~l:41~e:401470003~c:401470003",
         "date": "2023-01-07T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -22139,6 +22139,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "45",
+          "name": "Horizon League",
+          "abbreviation": "hor",
+          "shortName": "Horizon",
+          "midsizeName": "Horizon"
+        },
         "home": {
           "id": "2754",
           "uid": "s:40~l:41~t:2754",
@@ -22516,59 +22523,6 @@
         "standings": {
           "entries": [
             {
-              "team": "Milwaukee",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/270/milwaukee-panthers",
-              "id": "270",
-              "uid": "s:40~l:41~t:270",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "14-6",
-                  "displayValue": "14-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "8-2",
-                  "displayValue": "8-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-12-17T15:38Z"
-                }
-              ]
-            },
-            {
               "team": "Northern Kentucky",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/94/northern-kentucky-norse",
               "id": "94",
@@ -22582,8 +22536,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-8",
-                  "displayValue": "13-8"
+                  "summary": "14-8",
+                  "displayValue": "14-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -22603,8 +22557,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-2",
-                  "displayValue": "8-2"
+                  "summary": "9-2",
+                  "displayValue": "9-2"
                 }
               ],
               "logo": [
@@ -22618,6 +22572,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Milwaukee",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/270/milwaukee-panthers",
+              "id": "270",
+              "uid": "s:40~l:41~t:270",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-7",
+                  "displayValue": "14-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "8-3",
+                  "displayValue": "8-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-12-17T15:38Z"
                 }
               ]
             },
@@ -22645,8 +22652,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -22698,8 +22705,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -22751,8 +22758,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -22804,8 +22811,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -22847,8 +22854,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-10",
-                  "displayValue": "11-10"
+                  "summary": "12-10",
+                  "displayValue": "12-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -22868,8 +22875,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-6",
-                  "displayValue": "4-6"
+                  "summary": "5-6",
+                  "displayValue": "5-6"
                 }
               ],
               "logo": [
@@ -22910,8 +22917,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -22963,8 +22970,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -23006,8 +23013,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-19",
-                  "displayValue": "2-19"
+                  "summary": "2-20",
+                  "displayValue": "2-20"
                 },
                 {
                   "name": "gamesBehind",
@@ -23016,8 +23023,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.0,
-                  "displayValue": "7"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "id": "9",
@@ -23027,8 +23034,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-9",
-                  "displayValue": "1-9"
+                  "summary": "1-10",
+                  "displayValue": "1-10"
                 }
               ],
               "logo": [
@@ -23069,8 +23076,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 8.5,
-                  "displayValue": "8.5"
+                  "value": 9.0,
+                  "displayValue": "9"
                 },
                 {
                   "id": "9",
@@ -23648,9 +23655,9 @@
         "moneyLine": -2450,
         "spreadRecord": {
           "wins": 13,
-          "losses": 5,
+          "losses": 6,
           "pushes": 0,
-          "summary": "13-5-0"
+          "summary": "13-6-0"
         },
         "spreadOdds": -111.0,
         "teamId": "2754"
@@ -23768,7 +23775,7 @@
     "uid": "s:40~l:41~e:401470003~c:401470003",
     "date": "2023-01-07T19:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -23969,6 +23976,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "45",
+      "name": "Horizon League",
+      "abbreviation": "hor",
+      "shortName": "Horizon",
+      "midsizeName": "Horizon"
+    },
     "home": {
       "id": "2754",
       "uid": "s:40~l:41~t:2754",

@@ -5828,7 +5828,7 @@
         "uid": "s:40~l:41~e:401482832~c:401482832",
         "date": "2023-01-26T04:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5836,7 +5836,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6028,7 +6028,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        }
       }
     ],
     "links": [
@@ -6041,6 +6048,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401482832",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401482832",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15666,7 +15685,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "253b066cc4d95",
+    "keywords": [],
+    "description": "\u2014 Adam Seiko's 25 points off of the bench helped San Diego State to an 85-75 victory against Utah State on Wednesday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35528903",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35528903"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401482832"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401482832",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35528903"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401482832&version=mobile"
+      }
+    },
+    "id": 35528903,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3441,
+        "description": "San Diego State Aztecs",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 21,
+        "team": {
+          "id": 21,
+          "description": "San Diego State Aztecs",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/21"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/21/san-diego-state-aztecs"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=21"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:21"
+      },
+      {
+        "id": 3233,
+        "description": "Utah State Aggies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 328,
+        "team": {
+          "id": 328,
+          "description": "Utah State Aggies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/328"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/328/utah-state-aggies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=328"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:328"
+      }
+    ],
+    "headline": "Seiko scores 25, San Diego State downs Utah State 85-75",
+    "gameId": "401482832",
+    "images": [],
+    "linkText": "Seiko scores 25, San Diego State downs Utah State 85-75",
+    "published": "2023-01-26T07:02:10Z",
+    "allowComments": true,
+    "lastModified": "2023-01-26T07:02:10Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">SAN DIEGO -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4278704/adam-seiko\">Adam Seiko</a>'s 25 points off of the bench helped San Diego State to an 85-75 victory against Utah State on Wednesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Seiko shot 7 for 10 (7 for 9 from 3-point range) and 4 of 4 from the free throw line for the Aztecs (16-4, 7-1 Mountain West Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431786/keshad-johnson\">Keshad Johnson</a> scored 11 points and added 10 rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397371/nathan-mensah\">Nathan Mensah</a> shot 4 of 6 from the field and 2 for 4 from the line to finish with 10 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Aggies (16-5, 5-3) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4278395/taylor-funk\">Taylor Funk</a>, who posted 22 points and three steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593102/sean-bairstow\">Sean Bairstow</a> added 18 points and four assists for Utah State. In addition, Daniel Akin had 15 points, 10 rebounds and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">San Diego State took the lead with 17:48 to go in the first half and never looked back. The score was 42-27 at halftime, with Seiko racking up 18 points. San Diego State was outscored by Utah State in the second half by five points, with Mensah scoring a team-high eight points after intermission.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

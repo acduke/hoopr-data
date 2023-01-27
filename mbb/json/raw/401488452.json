@@ -75,7 +75,7 @@
           },
           {
             "name": "steals",
-            "displayValue": "9",
+            "displayValue": "8",
             "abbreviation": "STL",
             "label": "Steals"
           },
@@ -221,7 +221,7 @@
           },
           {
             "name": "turnovers",
-            "displayValue": "17",
+            "displayValue": "16",
             "abbreviation": "TO",
             "label": "Turnovers"
           },
@@ -233,7 +233,7 @@
           },
           {
             "name": "totalTurnovers",
-            "displayValue": "17",
+            "displayValue": "16",
             "abbreviation": "ToTO",
             "label": "Total Turnovers"
           },
@@ -547,9 +547,9 @@
                   "4",
                   "4",
                   "3",
-                  "4",
+                  "3",
                   "1",
-                  "2",
+                  "3",
                   "1",
                   "21"
                 ]
@@ -961,7 +961,7 @@
                   "0",
                   "0",
                   "0",
-                  "1",
+                  "0",
                   "0",
                   "2"
                 ]
@@ -2082,7 +2082,7 @@
               "24",
               "30",
               "20",
-              "9",
+              "8",
               "3",
               "10",
               "11",
@@ -2575,7 +2575,7 @@
                   "2",
                   "3",
                   "0",
-                  "4",
+                  "3",
                   "5",
                   "17"
                 ]
@@ -3819,7 +3819,7 @@
               "12",
               "3",
               "8",
-              "17",
+              "16",
               "17",
               "68"
             ]
@@ -6042,7 +6042,7 @@
         "uid": "s:40~l:41~e:401488452~c:401488452",
         "date": "2023-01-25T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6242,14 +6242,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "2",
-          "name": "Atlantic Coast Conference",
-          "abbreviation": "acc",
-          "shortName": "ACC",
-          "midsizeName": "ACC"
-        }
+        ]
       }
     ],
     "links": [
@@ -17384,11 +17377,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35521146,
-        "dataSourceIdentifier": "2b157639bdf26",
-        "headline": "Judah Mintz given flagrant 1 after elbowing R.J. Davis in the face",
-        "caption": "Syracuse's Judah Mintz elbows R.J. Davis in the face and is assessed a flagrant foul 1 in the final seconds of the game.",
-        "description": "Syracuse's Judah Mintz elbows R.J. Davis in the face and is assessed a flagrant foul 1 in the final seconds of the game.",
+        "id": 35520994,
+        "dataSourceIdentifier": "19b71a9afacc7",
+        "headline": "Syracuse's save turns into go-ahead basket for UNC",
+        "caption": "Syracuse guard Joseph Girard III saves the ball from going out of bounds, but he throws it right to UNC's Pete Nance for the go-ahead basket.",
+        "description": "Syracuse guard Joseph Girard III saves the ball from going out of bounds, but he throws it right to UNC's Pete Nance for the go-ahead basket.",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -17397,17 +17390,17 @@
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "OnePlay",
-          "trackingName": "NCB_One-Play (Judah Mintz given flagrant 1 after elbowing R.J. Davis in the face) 2023/01/25 ESHEET",
-          "trackingId": "dm_20230125_NCB_judah_mintz_given_flagrant_1_after_elbowing_rj_davis_in_the_face"
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Syracuse's save turns into go-ahead basket for UNC) 2023/01/25 ESHEET",
+          "trackingId": "dm_20230125_NCB_syracuses_save_turns_into_goahead_basket_for_unc"
         },
-        "cerebroId": "63d0b471be6ab31ff71fc381",
+        "cerebroId": "63d0ae32be6ab31ff71fb130",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-01-25T05:00:03Z",
-        "originalPublishDate": "2023-01-25T04:47:43Z",
+        "lastModified": "2023-01-26T17:00:01Z",
+        "originalPublishDate": "2023-01-25T04:21:04Z",
         "timeRestrictions": {
-          "embargoDate": "2023-01-25T04:47:43Z",
+          "embargoDate": "2023-01-25T04:21:04Z",
           "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
@@ -17421,36 +17414,36 @@
           ]
         },
         "syndicatable": true,
-        "duration": 48,
+        "duration": 24,
         "categories": [
           {
-            "id": 16032,
-            "description": "Syracuse Orange",
-            "type": "team",
+            "id": 195238,
+            "description": "Pete Nance",
+            "type": "athlete",
             "sportId": 41,
-            "teamId": 183,
-            "team": {
-              "id": 183,
-              "description": "Syracuse Orange",
+            "athleteId": 4397233,
+            "athlete": {
+              "id": 4397233,
+              "description": "Pete Nance",
               "links": {
                 "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/183"
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4397233"
                   }
                 },
                 "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/183/syracuse-orange"
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4397233/pete-nance"
                   }
                 },
                 "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=183"
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4397233"
                   }
                 }
               }
             },
-            "uid": "s:40~l:41~t:183"
+            "uid": "s:40~l:41~a:4397233"
           },
           {
             "id": 3157,
@@ -17480,6 +17473,64 @@
               }
             },
             "uid": "s:40~l:41~t:153"
+          },
+          {
+            "id": 409502,
+            "description": "Joseph Girard III",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4431746,
+            "athlete": {
+              "id": 4431746,
+              "description": "Joseph Girard III",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4431746"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431746/joseph-girard-iii"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4431746"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4431746"
+          },
+          {
+            "id": 16032,
+            "description": "Syracuse Orange",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 183,
+            "team": {
+              "id": 183,
+              "description": "Syracuse Orange",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/183"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/183/syracuse-orange"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=183"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:183"
           },
           {
             "id": 9576,
@@ -17514,24 +17565,24 @@
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -17539,66 +17590,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35521146"
+              "href": "http://api-app.espn.com/v1/video/clips/35520994"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/bcd54760-401c-40a2-87fc-32b71a545fa5"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/b05c0901-c0ba-461c-8e47-9cb38599a34e"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35521146",
+            "href": "http://espn.com/video/clip?id=35520994",
             "short": {
-              "href": "https://es.pn/3kIKY4Z"
+              "href": "https://es.pn/3WDW1JP"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35521146"
+              "href": "http://espn.com/video/clip?id=35520994"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35521146"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35520994"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bcd54760-401c-40a2-87fc-32b71a545fa5/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35521146",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b05c0901-c0ba-461c-8e47-9cb38599a34e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35520994",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bcd54760-401c-40a2-87fc-32b71a545fa5/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35521146"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b05c0901-c0ba-461c-8e47-9cb38599a34e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35520994"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bcd54760-401c-40a2-87fc-32b71a545fa5/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35521146"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b05c0901-c0ba-461c-8e47-9cb38599a34e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35520994"
             }
           }
         },
-        "title": "Judah Mintz given flagrant 1 after elbowing R.J. Davis in the face"
+        "title": "Syracuse's save turns into go-ahead basket for UNC"
       }
     ],
     "type": "Recap",
@@ -17722,11 +17773,11 @@
     "gameId": "401488452",
     "images": [
       {
-        "name": "Judah Mintz given flagrant 1 after elbowing R.J. Davis in the face",
+        "name": "Syracuse's save turns into go-ahead basket for UNC",
         "width": 576,
         "alt": "",
-        "caption": "Syracuse's Judah Mintz elbows R.J. Davis in the face and is assessed a flagrant foul 1 in the final seconds of the game.",
-        "url": "https://a.espncdn.com/media/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.jpg",
+        "caption": "Syracuse guard Joseph Girard III saves the ball from going out of bounds, but he throws it right to UNC's Pete Nance for the go-ahead basket.",
+        "url": "https://a.espncdn.com/media/motion/2023/0126/dm_230126_232107595_2168065/dm_230126_232107595_2168065.jpg",
         "height": 324
       }
     ],
@@ -18607,9 +18658,9 @@
     },
     {
       "source": "espn",
-      "id": 35520994,
-      "headline": "Syracuse's save turns into go-ahead basket for UNC",
-      "description": "Syracuse guard Joseph Girard III saves the ball from going out of bounds, but he throws it right to UNC's Pete Nance for the go-ahead basket.",
+      "id": 35521146,
+      "headline": "Judah Mintz given flagrant 1 after elbowing R.J. Davis in the face",
+      "description": "Syracuse's Judah Mintz elbows R.J. Davis in the face and is assessed a flagrant foul 1 in the final seconds of the game.",
       "ad": {
         "sport": "ncb",
         "bundle": "ncb_instant_replay"
@@ -18617,15 +18668,15 @@
       "tracking": {
         "sportName": "ncb",
         "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Syracuse's save turns into go-ahead basket for UNC) 2023/01/25 ESHEET",
-        "trackingId": "dm_20230125_NCB_syracuses_save_turns_into_goahead_basket_for_unc"
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Judah Mintz given flagrant 1 after elbowing R.J. Davis in the face) 2023/01/25 ESHEET",
+        "trackingId": "dm_20230125_NCB_judah_mintz_given_flagrant_1_after_elbowing_rj_davis_in_the_face"
       },
-      "cerebroId": "63d0ae32be6ab31ff71fb130",
-      "lastModified": "2023-01-25T04:23:29Z",
-      "originalPublishDate": "2023-01-25T04:21:04Z",
+      "cerebroId": "63d0b471be6ab31ff71fc381",
+      "lastModified": "2023-01-25T05:00:03Z",
+      "originalPublishDate": "2023-01-25T04:47:43Z",
       "timeRestrictions": {
-        "embargoDate": "2023-01-25T04:21:04Z",
+        "embargoDate": "2023-01-25T04:47:43Z",
         "expirationDate": "2038-01-01T04:59:59Z"
       },
       "deviceRestrictions": {
@@ -18637,63 +18688,63 @@
           "tablet"
         ]
       },
-      "duration": 24,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065.jpg",
+      "duration": 48,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.jpg",
       "links": {
         "api": {
           "self": {
-            "href": "http://api.espn.com/v1/video/clips/35520994"
+            "href": "http://api.espn.com/v1/video/clips/35521146"
           },
           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/b05c0901-c0ba-461c-8e47-9cb38599a34e"
+            "href": "https://artwork.api.espn.com/artwork/collections/media/bcd54760-401c-40a2-87fc-32b71a545fa5"
           }
         },
         "web": {
-          "href": "https://www.espn.com/video/clip?id=35520994&ex_cid=espnapi_internal",
+          "href": "https://www.espn.com/video/clip?id=35521146&ex_cid=espnapi_internal",
           "short": {
-            "href": "https://www.espn.com/video/clip?id=35520994"
+            "href": "https://www.espn.com/video/clip?id=35521146"
           },
           "self": {
-            "href": "https://www.espn.com/video/clip?id=35520994&ex_cid=espnapi_internal"
+            "href": "https://www.espn.com/video/clip?id=35521146&ex_cid=espnapi_internal"
           }
         },
         "source": {
           "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065.mp4"
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.mp4"
           },
           "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065.smil"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.smil"
           },
           "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065_rel.smil/manifest.f4m"
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_rel.smil/manifest.f4m"
           },
           "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065/playlist.m3u8",
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094/playlist.m3u8",
             "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065/playlist.m3u8"
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094/playlist.m3u8"
             }
           },
           "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065_720p30_2896k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_720p30_2896k.mp4"
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_360p30_1464k.mp4"
           },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065_360p30_1464k.mp4"
+          "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094_360p30_1464k.mp4"
         },
         "mobile": {
           "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35520994&ex_cid=espnapi_internal"
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35521146&ex_cid=espnapi_internal"
           },
           "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_232107595_2168065/ss_20230124_232107595_2168065.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0124/ss_20230124_234746568_2168094/ss_20230124_234746568_2168094.mp4"
           },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b05c0901-c0ba-461c-8e47-9cb38599a34e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35520994",
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bcd54760-401c-40a2-87fc-32b71a545fa5/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35521146",
           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b05c0901-c0ba-461c-8e47-9cb38599a34e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35520994"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bcd54760-401c-40a2-87fc-32b71a545fa5/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35521146"
           },
           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b05c0901-c0ba-461c-8e47-9cb38599a34e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35520994"
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bcd54760-401c-40a2-87fc-32b71a545fa5/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35521146"
           }
         }
       }
