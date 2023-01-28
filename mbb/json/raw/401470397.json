@@ -3921,10 +3921,10 @@
         "underdog": false,
         "moneyLine": -205,
         "spreadRecord": {
-          "wins": 12,
+          "wins": 13,
           "losses": 8,
           "pushes": 0,
-          "summary": "12-8-0"
+          "summary": "13-8-0"
         },
         "spreadOdds": -107.0,
         "teamId": "2351"
@@ -3935,10 +3935,10 @@
         "underdog": true,
         "moneyLine": 175,
         "spreadRecord": {
-          "wins": 8,
+          "wins": 9,
           "losses": 11,
           "pushes": 0,
-          "summary": "8-11-0"
+          "summary": "9-11-0"
         },
         "spreadOdds": -113.0,
         "teamId": "279"
@@ -5700,7 +5700,7 @@
         "uid": "s:40~l:41~e:401470397~c:401470397",
         "date": "2022-12-31T22:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5884,7 +5884,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "29",
+          "name": "West Coast Conference",
+          "abbreviation": "wcc",
+          "shortName": "WCC",
+          "midsizeName": "West Coast"
+        }
       }
     ],
     "links": [

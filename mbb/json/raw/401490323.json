@@ -4742,10 +4742,10 @@
         "underdog": true,
         "moneyLine": 155,
         "spreadRecord": {
-          "wins": 10,
+          "wins": 11,
           "losses": 11,
           "pushes": 0,
-          "summary": "10-11-0"
+          "summary": "11-11-0"
         },
         "spreadOdds": -112.0,
         "teamId": "265"
@@ -4757,9 +4757,9 @@
         "moneyLine": -175,
         "spreadRecord": {
           "wins": 10,
-          "losses": 10,
+          "losses": 11,
           "pushes": 0,
-          "summary": "10-10-0"
+          "summary": "10-11-0"
         },
         "spreadOdds": -108.0,
         "teamId": "9"
@@ -6321,7 +6321,7 @@
         "uid": "s:40~l:41~e:401490323~c:401490323",
         "date": "2023-01-06T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6521,14 +6521,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "21",
-          "name": "Pac-12 Conference",
-          "abbreviation": "pac12",
-          "shortName": "Pac-12",
-          "midsizeName": "Pac-12"
-        }
+        ]
       }
     ],
     "links": [
@@ -16551,6 +16544,59 @@
               ]
             },
             {
+              "team": "Arizona",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/12/arizona-wildcats",
+              "id": "12",
+              "uid": "s:40~l:41~t:12",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "18-3",
+                  "displayValue": "18-3"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-3",
+                  "displayValue": "7-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "USC",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans",
               "id": "30",
@@ -16604,59 +16650,6 @@
               ]
             },
             {
-              "team": "Arizona",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/12/arizona-wildcats",
-              "id": "12",
-              "uid": "s:40~l:41~t:12",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "17-3",
-                  "displayValue": "17-3"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Arizona State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/9/arizona-state-sun-devils",
               "id": "9",
@@ -16670,8 +16663,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-5",
-                  "displayValue": "15-5"
+                  "summary": "15-6",
+                  "displayValue": "15-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -16680,8 +16673,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -16691,8 +16684,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
+                  "summary": "6-4",
+                  "displayValue": "6-4"
                 }
               ],
               "logo": [
@@ -16776,8 +16769,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-9",
-                  "displayValue": "12-9"
+                  "summary": "13-9",
+                  "displayValue": "13-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -16786,8 +16779,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -16797,8 +16790,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-6",
-                  "displayValue": "4-6"
+                  "summary": "5-6",
+                  "displayValue": "5-6"
                 }
               ],
               "logo": [
@@ -16812,59 +16805,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-07-12T19:04Z"
-                }
-              ]
-            },
-            {
-              "team": "Washington State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
-              "id": "265",
-              "uid": "s:40~l:41~t:265",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "9-12",
-                  "displayValue": "9-12"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-6",
-                  "displayValue": "4-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16910,6 +16850,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Washington State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
+              "id": "265",
+              "uid": "s:40~l:41~t:265",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "9-13",
+                  "displayValue": "9-13"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.5,
+                  "displayValue": "4.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-7",
+                  "displayValue": "4-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",

@@ -3880,10 +3880,10 @@
         "underdog": true,
         "moneyLine": 115,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 8,
           "pushes": 1,
-          "summary": "11-8-1"
+          "summary": "12-8-1"
         },
         "spreadOdds": -110.0,
         "teamId": "2752"
@@ -5549,7 +5549,7 @@
         "uid": "s:40~l:41~e:401485211~c:401485211",
         "date": "2023-01-07T21:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5750,7 +5750,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "4",
+          "name": "Big East Conference",
+          "abbreviation": "bige",
+          "shortName": "Big East",
+          "midsizeName": "Big East"
+        }
       }
     ],
     "links": [

@@ -21677,7 +21677,7 @@
         "uid": "s:40~l:41~e:401482810~c:401482810",
         "date": "2023-01-12T04:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -21878,6 +21878,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        },
         "home": {
           "id": "2439",
           "uid": "s:40~l:41~t:2439",
@@ -22418,8 +22425,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-3",
-                  "displayValue": "18-3"
+                  "summary": "19-3",
+                  "displayValue": "19-3"
                 },
                 {
                   "name": "gamesBehind",
@@ -22428,8 +22435,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -22439,8 +22446,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-3",
-                  "displayValue": "5-3"
+                  "summary": "6-3",
+                  "displayValue": "6-3"
                 }
               ],
               "logo": [
@@ -22564,59 +22571,6 @@
               ]
             },
             {
-              "team": "Air Force",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2005/air-force-falcons",
-              "id": "2005",
-              "uid": "s:40~l:41~t:2005",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-9",
-                  "displayValue": "12-9"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-07-31T20:01Z"
-                }
-              ]
-            },
-            {
               "team": "Fresno State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/278/fresno-state-bulldogs",
               "id": "278",
@@ -22666,6 +22620,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Air Force",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2005/air-force-falcons",
+              "id": "2005",
+              "uid": "s:40~l:41~t:2005",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-10",
+                  "displayValue": "12-10"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.5,
+                  "displayValue": "4.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-6",
+                  "displayValue": "3-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-07-31T20:01Z"
                 }
               ]
             },
@@ -23526,9 +23533,9 @@
         "moneyLine": 105,
         "spreadRecord": {
           "wins": 13,
-          "losses": 5,
+          "losses": 6,
           "pushes": 1,
-          "summary": "13-5-1"
+          "summary": "13-6-1"
         },
         "spreadOdds": -110.0,
         "teamId": "68"
@@ -23539,10 +23546,10 @@
         "underdog": false,
         "moneyLine": -123,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 9,
           "pushes": 0,
-          "summary": "9-9-0"
+          "summary": "10-9-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2439"
@@ -23660,7 +23667,7 @@
     "uid": "s:40~l:41~e:401482810~c:401482810",
     "date": "2023-01-12T04:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -23861,6 +23868,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "44",
+      "name": "Mountain West Conference",
+      "abbreviation": "mwest",
+      "shortName": "Mountain West",
+      "midsizeName": "Mountain West"
+    },
     "home": {
       "id": "2439",
       "uid": "s:40~l:41~t:2439",

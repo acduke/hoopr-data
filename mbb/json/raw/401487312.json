@@ -3993,10 +3993,10 @@
         "underdog": true,
         "moneyLine": 1106,
         "spreadRecord": {
-          "wins": 6,
+          "wins": 7,
           "losses": 11,
           "pushes": 2,
-          "summary": "6-11-2"
+          "summary": "7-11-2"
         },
         "spreadOdds": -110.0,
         "teamId": "2636"
@@ -4008,9 +4008,9 @@
         "moneyLine": -2099,
         "spreadRecord": {
           "wins": 9,
-          "losses": 10,
+          "losses": 11,
           "pushes": 0,
-          "summary": "9-10-0"
+          "summary": "9-11-0"
         },
         "spreadOdds": -110.0,
         "teamId": "249"
@@ -5400,7 +5400,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -5627,6 +5627,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401487312",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401487312",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -14171,7 +14183,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "4aee0312bd360",
+    "keywords": [],
+    "description": "\u2014 Tylor Perry scored 12 of his 21 points in the second half and North Texas' 63-59 victory over UTSA on Thursday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35535369",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35535369"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401487312"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401487312",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35535369"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401487312&version=mobile"
+      }
+    },
+    "id": 35535369,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3412,
+        "description": "North Texas Mean Green",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 249,
+        "team": {
+          "id": 249,
+          "description": "North Texas Mean Green",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/249"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/249/north-texas-mean-green"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=249"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:249"
+      },
+      {
+        "id": 3394,
+        "description": "UTSA Roadrunners",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2636,
+        "team": {
+          "id": 2636,
+          "description": "UTSA Roadrunners",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2636"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2636/utsa-roadrunners"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2636"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2636"
+      }
+    ],
+    "headline": "Perry scores 21, North Texas downs UTSA 63-59",
+    "gameId": "401487312",
+    "images": [],
+    "linkText": "Perry scores 21, North Texas downs UTSA 63-59",
+    "published": "2023-01-27T05:04:06Z",
+    "allowComments": true,
+    "lastModified": "2023-01-27T05:05:03Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">DENTON, Texas -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897518/tylor-perry\">Tylor Perry</a> scored 12 of his 21 points in the second half and North Texas' 63-59 victory over UTSA on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Perry was 6 of 11 shooting, including 5 for 8 from distance, and went 4 for 4 from the line for the Mean Green (17-5, 8-3 Conference USA). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702773/abou-ousmane\">Abou Ousmane</a> added 13 points while shooting 6 of 9 from the field and 1 for 3 from the line, and he also had 10 rebounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Roadrunners (7-15, 1-10) were led in scoring by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432877/jacob-germany\">Jacob Germany</a>, who finished with 15 points and seven rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592451/john-buggs-iii\">John Buggs III</a> added 13 points for UTSA. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106843/dj-richards\">DJ Richards</a> also had 12 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams next play Saturday. North Texas hosts UTEP while UTSA hosts Louisiana Tech.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

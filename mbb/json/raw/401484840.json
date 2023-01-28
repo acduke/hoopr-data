@@ -4080,10 +4080,10 @@
         "underdog": true,
         "moneyLine": 165,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 10,
           "pushes": 1,
-          "summary": "7-10-1"
+          "summary": "8-10-1"
         },
         "spreadOdds": -110.0,
         "teamId": "135"
@@ -4149,7 +4149,7 @@
         "uid": "s:40~l:41~e:401484840~c:401484840",
         "date": "2022-12-09T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -4349,7 +4349,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "7",
+          "name": "Big Ten Conference",
+          "abbreviation": "big10",
+          "shortName": "Big Ten",
+          "midsizeName": "Big Ten"
+        }
       }
     ],
     "links": [

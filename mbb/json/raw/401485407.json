@@ -4067,9 +4067,9 @@
         "moneyLine": -235,
         "spreadRecord": {
           "wins": 11,
-          "losses": 7,
+          "losses": 8,
           "pushes": 2,
-          "summary": "11-7-2"
+          "summary": "11-8-2"
         },
         "spreadOdds": -110.0,
         "teamId": "2837"
@@ -4080,10 +4080,10 @@
         "underdog": true,
         "moneyLine": 193,
         "spreadRecord": {
-          "wins": 8,
+          "wins": 9,
           "losses": 9,
           "pushes": 0,
-          "summary": "8-9-0"
+          "summary": "9-9-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2320"
@@ -5704,6 +5704,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401485407",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401485407",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -14336,7 +14348,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "7a39199fa1791",
+    "keywords": [],
+    "description": "\u2014 Jerome Brewer Jr. scored 12 points as Texas A&M-Commerce beat Lamar 62-57 on Thursday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35535166",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35535166"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401485407"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401485407",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35535166"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401485407&version=mobile"
+      }
+    },
+    "id": 35535166,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3386,
+        "description": "Lamar Cardinals",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2320,
+        "team": {
+          "id": 2320,
+          "description": "Lamar Cardinals",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2320"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2320/lamar-cardinals"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2320"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2320"
+      },
+      {
+        "id": 160327,
+        "description": "Texas A&M-Commerce Lions",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2837,
+        "team": {
+          "id": 2837,
+          "description": "Texas A&M-Commerce Lions",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2837"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2837/texas-a&m-commerce-lions"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2837"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2837"
+      }
+    ],
+    "headline": "Texas A&M-Commerce wins 62-57 over Lamar",
+    "gameId": "401485407",
+    "images": [],
+    "linkText": "Texas A&M-Commerce wins 62-57 over Lamar",
+    "published": "2023-01-27T04:21:06Z",
+    "allowComments": true,
+    "lastModified": "2023-01-27T04:21:07Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BEAUMONT, Texas -- \u2014 Jerome Brewer Jr. scored 12 points as Texas A&M-Commerce beat Lamar 62-57 on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Brewer also had seven rebounds for the Lions (9-13, 5-3 Southland Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4904479/demarcus-demonia\">Demarcus Demonia</a> scored 11 points, shooting 3 for 10 (1 for 7 from 3-point range) and 4 of 4 from the free throw line. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4904477/jj-romer-rosario\">JJ Romer Rosario</a> was 4 of 7 shooting (1 for 3 from distance) to finish with nine points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Cardinals (6-15, 2-7) were led in scoring by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5108081/nate-calmese\">Nate Calmese</a>, who finished with 17 points. Lamar also got 16 points from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5108084/terry-anderson\">Terry Anderson</a>. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5108083/chris-pryor\">Chris Pryor</a> also had 10 points and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

@@ -23194,7 +23194,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23498,6 +23498,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401487145",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401487145",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -24339,7 +24351,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "17581f12377c1",
+    "keywords": [],
+    "description": "\u2014 Eric Gaines scored 19 points as UAB beat Louisiana Tech 65-59 on Thursday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35535333",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35535333"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401487145"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401487145",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35535333"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401487145&version=mobile"
+      }
+    },
+    "id": 35535333,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3254,
+        "description": "UAB Blazers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 5,
+        "team": {
+          "id": 5,
+          "description": "UAB Blazers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/5"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/5/uab-blazers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=5"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:5"
+      },
+      {
+        "id": 3430,
+        "description": "Louisiana Tech Bulldogs",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2348,
+        "team": {
+          "id": 2348,
+          "description": "Louisiana Tech Bulldogs",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2348"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2348/louisiana-tech-bulldogs"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2348"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2348"
+      }
+    ],
+    "headline": "Gaines scores 19 in UAB's 65-59 win over Louisiana Tech",
+    "gameId": "401487145",
+    "images": [],
+    "linkText": "Gaines scores 19 in UAB's 65-59 win over Louisiana Tech",
+    "published": "2023-01-27T04:52:06Z",
+    "allowComments": true,
+    "lastModified": "2023-01-27T05:05:20Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIRMINGHAM, Ala. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4682883/eric-gaines\">Eric Gaines</a> scored 19 points as UAB beat Louisiana Tech 65-59 on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Gaines had six assists and three steals for the Blazers (14-7, 5-5 Conference USA). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4395623/trey-jemison\">Trey Jemison</a> added 12 points while shooting 6 of 8 from the field, and he also had six rebounds and three blocks. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396968/kj-buffen\">KJ Buffen</a> recorded 11 points and shot 4 of 10 from the field and 3 for 7 from the line.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Bulldogs (11-10, 4-6) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592858/cobe-williams\">Cobe Williams</a>, who posted 21 points, seven rebounds and two steals. Louisiana Tech also got 13 points from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593756/keaston-willis\">Keaston Willis</a>. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592857/isaiah-crawford\">Isaiah Crawford</a> also recorded nine points, nine rebounds, six assists and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Jemison scored six points in the first half and UAB went into the break trailing 30-25. Gaines' 16-point second half helped UAB close out the six-point victory.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -24867,10 +25041,10 @@
         "underdog": true,
         "moneyLine": 295,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 8,
           "pushes": 0,
-          "summary": "9-8-0"
+          "summary": "10-8-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2348"
@@ -24882,9 +25056,9 @@
         "moneyLine": -365,
         "spreadRecord": {
           "wins": 6,
-          "losses": 11,
+          "losses": 12,
           "pushes": 2,
-          "summary": "6-11-2"
+          "summary": "6-12-2"
         },
         "spreadOdds": -110.0,
         "teamId": "5"
@@ -25010,7 +25184,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

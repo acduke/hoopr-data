@@ -4171,10 +4171,10 @@
         "underdog": false,
         "moneyLine": -113,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 6,
           "pushes": 1,
-          "summary": "9-6-1"
+          "summary": "10-6-1"
         },
         "spreadOdds": -107.0,
         "teamId": "242"
@@ -5601,7 +5601,7 @@
         "uid": "s:40~l:41~e:401487092~c:401487092",
         "date": "2023-01-27T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5801,7 +5801,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "11",
+          "name": "Conference USA",
+          "abbreviation": "usa",
+          "shortName": "C-USA",
+          "midsizeName": "Conference USA"
+        }
       }
     ],
     "links": [

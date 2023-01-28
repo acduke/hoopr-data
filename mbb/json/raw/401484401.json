@@ -4094,10 +4094,10 @@
         "underdog": true,
         "moneyLine": 125,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 8,
           "pushes": 0,
-          "summary": "11-8-0"
+          "summary": "12-8-0"
         },
         "spreadOdds": -113.0,
         "teamId": "2230"
@@ -4108,10 +4108,10 @@
         "underdog": false,
         "moneyLine": -145,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 12,
           "pushes": 0,
-          "summary": "7-12-0"
+          "summary": "8-12-0"
         },
         "spreadOdds": -107.0,
         "teamId": "227"
@@ -5953,7 +5953,7 @@
         "uid": "s:40~l:41~e:401484401~c:401484401",
         "date": "2023-01-05T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6153,7 +6153,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "3",
+          "name": "Atlantic 10 Conference",
+          "abbreviation": "atl10",
+          "shortName": "A 10",
+          "midsizeName": "Atlantic 10"
+        }
       }
     ],
     "links": [

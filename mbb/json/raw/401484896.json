@@ -3917,10 +3917,10 @@
         "underdog": false,
         "moneyLine": -400,
         "spreadRecord": {
-          "wins": 10,
+          "wins": 11,
           "losses": 8,
           "pushes": 1,
-          "summary": "10-8-1"
+          "summary": "11-8-1"
         },
         "spreadOdds": -110.0,
         "teamId": "356"
@@ -3931,10 +3931,10 @@
         "underdog": true,
         "moneyLine": 320,
         "spreadRecord": {
-          "wins": 7,
+          "wins": 8,
           "losses": 10,
           "pushes": 1,
-          "summary": "7-10-1"
+          "summary": "8-10-1"
         },
         "spreadOdds": -110.0,
         "teamId": "135"
@@ -5636,7 +5636,7 @@
         "uid": "s:40~l:41~e:401484896~c:401484896",
         "date": "2023-01-16T23:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5836,7 +5836,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "7",
+          "name": "Big Ten Conference",
+          "abbreviation": "big10",
+          "shortName": "Big Ten",
+          "midsizeName": "Big Ten"
+        }
       }
     ],
     "links": [

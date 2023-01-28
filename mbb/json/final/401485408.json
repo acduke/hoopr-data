@@ -23662,7 +23662,7 @@
         "uid": "s:40~l:41~e:401485408~c:401485408",
         "date": "2023-01-27T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -23670,7 +23670,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23862,13 +23862,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "25",
-          "name": "Southland Conference",
-          "abbreviation": "land",
-          "shortName": "Southland",
-          "midsizeName": "Southland"
-        },
         "home": {
           "id": "2466",
           "uid": "s:40~l:41~t:2466",
@@ -24008,6 +24001,18 @@
         "href": "https://www.espn.com/mens-college-basketball/matchup?gameId=401485408",
         "text": "Team Stats",
         "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/video?gameId=401485408",
+        "text": "Videos",
+        "shortText": "Videos",
         "isExternal": false,
         "isPremium": false
       }
@@ -24233,7 +24238,101 @@
       "region": "us"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 35535657,
+      "headline": "Hansel Emmanuel elevates for big putback jam",
+      "description": "Northwestern State's Hansel Emmanuel, who has just one arm, rises high to dunk home a putback slam vs. Houston Christian.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncbgamehighlights"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "NCB_One-Play (Hansel Emmanuel elevates for big putback jam) 2023/1/26 ESHEET",
+        "trackingId": "dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK"
+      },
+      "cerebroId": "63d36db5be6ab31ff7268ea0",
+      "lastModified": "2023-01-27T06:25:11Z",
+      "originalPublishDate": "2023-01-27T06:18:41Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-27T06:18:41Z",
+        "expirationDate": "2023-04-30T05:18:41Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 23,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35535657"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/b0980108-d113-4d6a-893f-17cb05f57b0d"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35535657&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35535657"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35535657&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35535657&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0127/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK/dm_230127_HANSEL_EMMANUEL_PUTBACK_DUNK.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b0980108-d113-4d6a-893f-17cb05f57b0d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35535657",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b0980108-d113-4d6a-893f-17cb05f57b0d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35535657"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b0980108-d113-4d6a-893f-17cb05f57b0d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35535657"
+          }
+        }
+      }
+    }
+  ],
   "playByPlaySource": "full",
   "standings": {
     "fullViewLink": {
@@ -25310,9 +25409,9 @@
         "moneyLine": 522,
         "spreadRecord": {
           "wins": 7,
-          "losses": 10,
+          "losses": 11,
           "pushes": 0,
-          "summary": "7-10-0"
+          "summary": "7-11-0"
         },
         "spreadOdds": -107.0,
         "teamId": "2277"
@@ -25323,10 +25422,10 @@
         "underdog": false,
         "moneyLine": -762,
         "spreadRecord": {
-          "wins": 14,
+          "wins": 15,
           "losses": 5,
           "pushes": 0,
-          "summary": "14-5-0"
+          "summary": "15-5-0"
         },
         "spreadOdds": -109.0,
         "teamId": "2466"
@@ -25444,7 +25543,7 @@
     "uid": "s:40~l:41~e:401485408~c:401485408",
     "date": "2023-01-27T02:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -25452,7 +25551,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": true,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
@@ -25644,13 +25743,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "25",
-      "name": "Southland Conference",
-      "abbreviation": "land",
-      "shortName": "Southland",
-      "midsizeName": "Southland"
-    },
     "home": {
       "id": "2466",
       "uid": "s:40~l:41~t:2466",
