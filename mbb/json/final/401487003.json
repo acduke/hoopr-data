@@ -19798,7 +19798,7 @@
         "uid": "s:40~l:41~e:401487003~c:401487003",
         "date": "2023-01-22T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -19998,6 +19998,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "13",
+          "name": "Metro Atlantic Athletic Conference",
+          "abbreviation": "maac",
+          "shortName": "MAAC",
+          "midsizeName": "MAAC"
+        },
         "home": {
           "id": "2612",
           "uid": "s:40~l:41~t:2612",
@@ -20745,6 +20752,59 @@
               ]
             },
             {
+              "team": "Saint Peter's",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2612/saint-peters-peacocks",
+              "id": "2612",
+              "uid": "s:40~l:41~t:2612",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "9-12",
+                  "displayValue": "9-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.0,
+                  "displayValue": "5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-8",
+                  "displayValue": "4-8"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-08-27T15:52Z"
+                }
+              ]
+            },
+            {
               "team": "Marist",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2368/marist-red-foxes",
               "id": "2368",
@@ -20794,59 +20854,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Mount St. Mary's",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/116/mount-st-marys-mountaineers",
-              "id": "116",
-              "uid": "s:40~l:41~t:116",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-14",
-                  "displayValue": "7-14"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-7",
-                  "displayValue": "3-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-02-19T15:57Z"
                 }
               ]
             },
@@ -20904,10 +20911,10 @@
               ]
             },
             {
-              "team": "Saint Peter's",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2612/saint-peters-peacocks",
-              "id": "2612",
-              "uid": "s:40~l:41~t:2612",
+              "team": "Mount St. Mary's",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/116/mount-st-marys-mountaineers",
+              "id": "116",
+              "uid": "s:40~l:41~t:116",
               "stats": [
                 {
                   "id": "0",
@@ -20917,8 +20924,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-12",
-                  "displayValue": "8-12"
+                  "summary": "7-15",
+                  "displayValue": "7-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -20944,7 +20951,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -20952,7 +20959,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2020-08-27T15:52Z"
+                  "lastUpdated": "2021-02-19T15:57Z"
                 }
               ]
             }
@@ -21626,7 +21633,7 @@
     "uid": "s:40~l:41~e:401487003~c:401487003",
     "date": "2023-01-22T19:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -21826,6 +21833,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "13",
+      "name": "Metro Atlantic Athletic Conference",
+      "abbreviation": "maac",
+      "shortName": "MAAC",
+      "midsizeName": "MAAC"
+    },
     "home": {
       "id": "2612",
       "uid": "s:40~l:41~t:2612",
