@@ -21696,7 +21696,7 @@
         "uid": "s:40~l:41~e:401492688~c:401492688",
         "date": "2023-01-07T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -21897,6 +21897,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "62",
+          "name": "American Athletic Conference",
+          "abbreviation": "aac",
+          "shortName": "American",
+          "midsizeName": "American"
+        },
         "home": {
           "id": "218",
           "uid": "s:40~l:41~t:218",
@@ -22617,8 +22624,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-10",
-                  "displayValue": "10-10"
+                  "summary": "11-10",
+                  "displayValue": "11-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -22627,8 +22634,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -22638,8 +22645,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
+                  "summary": "4-5",
+                  "displayValue": "4-5"
                 }
               ],
               "logo": [
@@ -22653,59 +22660,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "East Carolina",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/151/east-carolina-pirates",
-              "id": "151",
-              "uid": "s:40~l:41~t:151",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "11-10",
-                  "displayValue": "11-10"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-6",
-                  "displayValue": "2-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-08-31T21:06Z"
                 }
               ]
             },
@@ -22812,6 +22766,59 @@
                     "default"
                   ],
                   "lastUpdated": "2022-08-31T21:25Z"
+                }
+              ]
+            },
+            {
+              "team": "East Carolina",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/151/east-carolina-pirates",
+              "id": "151",
+              "uid": "s:40~l:41~t:151",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "11-11",
+                  "displayValue": "11-11"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 6.0,
+                  "displayValue": "6"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-7",
+                  "displayValue": "2-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-08-31T21:06Z"
                 }
               ]
             },
@@ -23578,10 +23585,10 @@
         "underdog": false,
         "moneyLine": -117,
         "spreadRecord": {
-          "wins": 13,
+          "wins": 14,
           "losses": 8,
           "pushes": 1,
-          "summary": "13-8-1"
+          "summary": "14-8-1"
         },
         "spreadOdds": -110.0,
         "teamId": "218"
@@ -23678,7 +23685,7 @@
     "uid": "s:40~l:41~e:401492688~c:401492688",
     "date": "2023-01-07T19:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -23879,6 +23886,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "62",
+      "name": "American Athletic Conference",
+      "abbreviation": "aac",
+      "shortName": "American",
+      "midsizeName": "American"
+    },
     "home": {
       "id": "218",
       "uid": "s:40~l:41~t:218",

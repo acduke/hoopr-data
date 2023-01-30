@@ -5784,7 +5784,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -5980,6 +5980,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401470431",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401470431",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -17060,7 +17072,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "12f91c854a821",
+    "keywords": [],
+    "description": "\u2014 Cameron Shelton scored 26 points as Loyola Marymount beat Pepperdine 84-70 on Saturday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35549282",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35549282"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401470431"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401470431",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35549282"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401470431&version=mobile"
+      }
+    },
+    "id": 35549282,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3418,
+        "description": "Loyola Marymount Lions",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2351,
+        "team": {
+          "id": 2351,
+          "description": "Loyola Marymount Lions",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2351"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2351/loyola-marymount-lions"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2351"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2351"
+      },
+      {
+        "id": 3419,
+        "description": "Pepperdine Waves",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2492,
+        "team": {
+          "id": 2492,
+          "description": "Pepperdine Waves",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2492"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2492/pepperdine-waves"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2492"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2492"
+      }
+    ],
+    "headline": "Shelton's 26 lead Loyola Marymount past Pepperdine 84-70",
+    "gameId": "401470431",
+    "images": [],
+    "linkText": "Shelton's 26 lead Loyola Marymount past Pepperdine 84-70",
+    "published": "2023-01-29T07:05:17Z",
+    "allowComments": true,
+    "lastModified": "2023-01-29T07:05:18Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LOS ANGELES -- \u2014 Cameron Shelton scored 26 points as Loyola Marymount beat Pepperdine 84-70 on Saturday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Shelton added seven assists and three steals for the Lions (16-7, 6-3 West Coast Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397236/justin-ahrens\">Justin Ahrens</a> scored 18 points, shooting 6 for 9, including 5 for 8 from beyond the arc. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105459/chance-stephens\">Chance Stephens</a> was 4=of-7 shooting (4 for 6 from distance) to finish with 12 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4684286/maxwell-lewis\">Maxwell Lewis</a> led the way for the Waves (7-16, 0-9) with 21 points and seven rebounds. Pepperdine also got 13 points, four assists and two steals from Mike Mitchell Jr. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4709141/houston-mallette\">Houston Mallette</a> had 10 points. The loss is the 10th in a row overall and the 16th straight in conference play for the Waves.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Loyola Marymount took the lead with 19:20 left in the first half and never looked back. The score was 48-40 at halftime, with Ahrens racking up 12 points. Loyola Marymount outscored Pepperdine by six points in the second half, and Shelton scored a team-high 16 points in the second half to help his team secure the victory.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams next play Thursday. Loyola Marymount visits BYU while Pepperdine visits Pacific.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

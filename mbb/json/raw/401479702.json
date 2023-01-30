@@ -4026,9 +4026,9 @@
         "moneyLine": -285,
         "spreadRecord": {
           "wins": 10,
-          "losses": 9,
+          "losses": 10,
           "pushes": 1,
-          "summary": "10-9-1"
+          "summary": "10-10-1"
         },
         "spreadOdds": -109.0,
         "teamId": "239"
@@ -5705,7 +5705,7 @@
         "uid": "s:40~l:41~e:401479702~c:401479702",
         "date": "2023-01-28T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -17682,29 +17682,31 @@
     "video": [
       {
         "source": "espn",
-        "id": 35547745,
-        "dataSourceIdentifier": "5158b80d793de",
-        "headline": "Council IV's 25 not enough in Hogs' loss to Baylor",
-        "caption": "Ricky Council IV tallies a game-high 25 points to take the No. 17 Bears down to the wire, but Arkansas falls 67-64 in the SEC/Big 12 Challenge contest.",
-        "description": "Ricky Council IV tallies a game-high 25 points to take the No. 17 Bears down to the wire, but Arkansas falls 67-64 in the SEC/Big 12 Challenge contest.",
+        "id": 35546258,
+        "dataSourceIdentifier": "c9d12492d6f1b",
+        "headline": "Jordan Walsh erases the jump shot attempt",
+        "caption": "Jordan Walsh makes a great defensive read and sends Baylor's jump shot out of bounds.",
+        "description": "Jordan Walsh makes a great defensive read and sends Baylor's jump shot out of bounds.",
         "premium": false,
         "ad": {
           "sport": "ncb",
-          "bundle": "no_show"
+          "bundle": "ncb_instant_replay"
         },
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Highlight",
-          "trackingName": "SEC_NCB Highlight (Ark Baylor) 230128 ESHEET",
-          "trackingId": "dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET"
+          "coverageType": "OnePlay",
+          "trackingName": "NCB_One-Play (Jordan Walsh erases the jump shot attempt) 2023/01/28 ESHEET",
+          "trackingId": "dm_20230128_NCB_jordan_walsh_erases_the_jump_shot_attempt"
         },
-        "cerebroId": "63d5cfd0be6ab31ff72cc73c",
-        "lastModified": "2023-01-29T05:03:29Z",
-        "originalPublishDate": "2023-01-29T01:38:41Z",
+        "cerebroId": "63d597b3be6ab31ff72c974e",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-01-29T13:51:42Z",
+        "originalPublishDate": "2023-01-28T21:46:25Z",
         "timeRestrictions": {
-          "embargoDate": "2023-01-29T01:38:41Z",
-          "expirationDate": "2024-02-01T01:38:41Z"
+          "embargoDate": "2023-01-28T21:46:25Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
@@ -17717,14 +17719,36 @@
           ]
         },
         "syndicatable": true,
-        "duration": 100,
+        "duration": 17,
         "categories": [
           {
-            "id": 126329,
-            "description": "sec network",
-            "type": "topic",
-            "sportId": 0,
-            "topicId": 89
+            "id": 568570,
+            "description": "Jordan Walsh",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 5105520,
+            "athlete": {
+              "id": 5105520,
+              "description": "Jordan Walsh",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/5105520"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105520/jordan-walsh"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=5105520"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:5105520"
           },
           {
             "id": 9576,
@@ -17783,82 +17807,29 @@
               }
             },
             "uid": "s:40~l:41~t:8"
-          },
-          {
-            "id": 14491,
-            "description": "Arkansas Razorbacks",
-            "type": "team",
-            "sportId": 3170,
-            "teamId": 8,
-            "team": {
-              "id": 8,
-              "description": "Arkansas Razorbacks",
-              "links": {
-                "api": {
-                  "teams": {}
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/college-sports/team/_/name/:abbreviation/:location-:name"
-                  }
-                },
-                "mobile": {
-                  "teams": {}
-                }
-              }
-            }
-          },
-          {
-            "id": 453259,
-            "description": "Ricky Council IV",
-            "type": "athlete",
-            "sportId": 41,
-            "athleteId": 4701234,
-            "athlete": {
-              "id": 4701234,
-              "description": "Ricky Council IV",
-              "links": {
-                "api": {
-                  "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4701234"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4701234/ricky-council-iv"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "http://m.espn.com/ncb/playercard?playerId=4701234"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:41~a:4701234"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -17866,66 +17837,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35547745"
+              "href": "http://api-app.espn.com/v1/video/clips/35546258"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/b1882b6c-167d-4265-95fe-86b132fe10ca"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/46d84ef5-ab63-433f-85b5-92a6416a91cc"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35547745",
+            "href": "http://espn.com/video/clip?id=35546258",
             "short": {
-              "href": "https://es.pn/3JpNYxq"
+              "href": "https://es.pn/3jgT2t9"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35547745"
+              "href": "http://espn.com/video/clip?id=35546258"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35547745"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35546258"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b1882b6c-167d-4265-95fe-86b132fe10ca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35547745",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46d84ef5-ab63-433f-85b5-92a6416a91cc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35546258",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b1882b6c-167d-4265-95fe-86b132fe10ca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35547745"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46d84ef5-ab63-433f-85b5-92a6416a91cc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35546258"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b1882b6c-167d-4265-95fe-86b132fe10ca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35547745"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46d84ef5-ab63-433f-85b5-92a6416a91cc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35546258"
             }
           }
         },
-        "title": "Council IV's 25 not enough in Hogs' loss to Baylor"
+        "title": "Jordan Walsh erases the jump shot attempt"
       }
     ],
     "type": "Recap",
@@ -18049,11 +18020,11 @@
     "gameId": "401479702",
     "images": [
       {
-        "name": "Council IV's 25 not enough in Hogs' loss to Baylor",
+        "name": "Jordan Walsh erases the jump shot attempt",
         "width": 576,
         "alt": "",
-        "caption": "Ricky Council IV tallies a game-high 25 points to take the No. 17 Bears down to the wire, but Arkansas falls 67-64 in the SEC/Big 12 Challenge contest.",
-        "url": "https://a.espncdn.com/media/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.jpg",
+        "caption": "Jordan Walsh makes a great defensive read and sends Baylor's jump shot out of bounds.",
+        "url": "https://a.espncdn.com/media/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.jpg",
         "height": 324
       }
     ],
@@ -18097,99 +18068,6 @@
   "videos": [
     {
       "source": "espn",
-      "id": 35546258,
-      "headline": "Jordan Walsh erases the jump shot attempt",
-      "description": "Jordan Walsh makes a great defensive read and sends Baylor's jump shot out of bounds.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (Jordan Walsh erases the jump shot attempt) 2023/01/28 ESHEET",
-        "trackingId": "dm_20230128_NCB_jordan_walsh_erases_the_jump_shot_attempt"
-      },
-      "cerebroId": "63d597b3be6ab31ff72c974e",
-      "lastModified": "2023-01-28T21:49:03Z",
-      "originalPublishDate": "2023-01-28T21:46:25Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-28T21:46:25Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 17,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35546258"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/46d84ef5-ab63-433f-85b5-92a6416a91cc"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35546258&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35546258"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35546258&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35546258&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0128/ss_20230128_164628469_2171846/ss_20230128_164628469_2171846.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46d84ef5-ab63-433f-85b5-92a6416a91cc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35546258",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46d84ef5-ab63-433f-85b5-92a6416a91cc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35546258"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/46d84ef5-ab63-433f-85b5-92a6416a91cc/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35546258"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
       "id": 35546262,
       "headline": "Makhi Mitchell powers home a dunk for Arkansas",
       "description": "Makhi Mitchell takes the feed from Anthony Black and throws down the jam.",
@@ -18205,7 +18083,7 @@
         "trackingId": "dm_20230128_NCB_makhi_mitchell_powers_home_a_dunk_for_arkansas"
       },
       "cerebroId": "63d597e2be6ab31ff72c975e",
-      "lastModified": "2023-01-28T21:48:41Z",
+      "lastModified": "2023-01-29T13:51:14Z",
       "originalPublishDate": "2023-01-28T21:47:12Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-28T21:47:12Z",
@@ -18298,7 +18176,7 @@
         "trackingId": "dm_20230128_NCB_keyonte_george_muscles_in_the_and1"
       },
       "cerebroId": "63d598e2be6ab31ff72c97d0",
-      "lastModified": "2023-01-28T21:56:50Z",
+      "lastModified": "2023-01-29T13:50:37Z",
       "originalPublishDate": "2023-01-28T21:51:29Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-28T21:51:29Z",
@@ -18391,7 +18269,7 @@
         "trackingId": "dm_20230128_NCB_davonte_davis_throws_down_the_dunk_in_transition"
       },
       "cerebroId": "63d59d91be6ab31ff72c9907",
-      "lastModified": "2023-01-28T22:12:46Z",
+      "lastModified": "2023-01-29T13:50:10Z",
       "originalPublishDate": "2023-01-28T22:11:27Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-28T22:11:27Z",
@@ -18649,6 +18527,99 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c2721ccf-d399-44b7-88dd-2cd7bad8ae7a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35546967"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35547745,
+      "headline": "Council IV's 25 not enough in Hogs' loss to Baylor",
+      "description": "Ricky Council IV tallies a game-high 25 points to take the No. 17 Bears down to the wire, but Arkansas falls 67-64 in the SEC/Big 12 Challenge contest.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Highlight",
+        "trackingName": "SEC_NCB Highlight (Ark Baylor) 230128 ESHEET",
+        "trackingId": "dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET"
+      },
+      "cerebroId": "63d5cfd0be6ab31ff72cc73c",
+      "lastModified": "2023-01-29T05:03:29Z",
+      "originalPublishDate": "2023-01-29T01:38:41Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-01-29T01:38:41Z",
+        "expirationDate": "2024-02-01T01:38:41Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 100,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35547745"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/b1882b6c-167d-4265-95fe-86b132fe10ca"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35547745&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35547745"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35547745&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35547745&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0128/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET/dm_230128_SEC_NCB_Highlight_Ark_Baylor_230128_ESHEET.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b1882b6c-167d-4265-95fe-86b132fe10ca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35547745",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b1882b6c-167d-4265-95fe-86b132fe10ca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35547745"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b1882b6c-167d-4265-95fe-86b132fe10ca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35547745"
           }
         }
       }
