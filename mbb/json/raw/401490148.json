@@ -4152,10 +4152,10 @@
         "underdog": true,
         "moneyLine": 230,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 13,
           "pushes": 0,
-          "summary": "9-13-0"
+          "summary": "10-13-0"
         },
         "spreadOdds": -109.0,
         "teamId": "2287"
@@ -5652,7 +5652,7 @@
         "uid": "s:40~l:41~e:401490148~c:401490148",
         "date": "2023-01-05T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5852,7 +5852,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "18",
+          "name": "Missouri Valley Conference",
+          "abbreviation": "mvc",
+          "shortName": "MVC",
+          "midsizeName": "Missouri Valley"
+        }
       }
     ],
     "links": [

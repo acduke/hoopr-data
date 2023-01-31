@@ -5657,7 +5657,7 @@
         "uid": "s:40~l:41~e:401470999~c:401470999",
         "date": "2022-12-31T18:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5840,7 +5840,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "19",
+          "name": "Northeast Conference",
+          "abbreviation": "neast",
+          "shortName": "NEC",
+          "midsizeName": "Northeast"
+        }
       }
     ],
     "links": [
