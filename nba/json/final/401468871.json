@@ -31184,8 +31184,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 10.5,
-                  "displayValue": "10.5"
+                  "value": 10.0,
+                  "displayValue": "10"
                 },
                 {
                   "name": "losses",
@@ -31204,8 +31204,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -31214,8 +31214,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.46938777,
-                  "displayValue": ".469"
+                  "value": 0.48,
+                  "displayValue": ".480"
                 },
                 {
                   "name": "wins",
@@ -31224,8 +31224,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 23.0,
-                  "displayValue": "23"
+                  "value": 24.0,
+                  "displayValue": "24"
                 }
               ],
               "logo": [
@@ -32745,15 +32745,15 @@
           "uid": "s:40~l:46~e:401468923~c:401468923",
           "date": "2023-02-01T03:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Tue, January 31st at 10:00 PM EST",
-            "shortDetail": "1/31 - 10:00 PM EST"
+            "description": "In Progress",
+            "detail": "3:06 - 4th Quarter",
+            "shortDetail": "3:06 - 4th"
           },
           "broadcasts": [
             {
@@ -32792,7 +32792,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
               },
-              "score": "0"
+              "score": "113"
             },
             {
               "homeAway": "away",
@@ -32813,34 +32813,34 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
               },
-              "score": "0"
+              "score": "106"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401468923",
+              "href": "https://www.espn.com/nba/game?gameId=401468923",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401468923",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
