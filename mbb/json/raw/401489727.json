@@ -2097,8 +2097,8 @@
                 "ejected": false,
                 "stats": [
                   "18",
-                  "4-6",
-                  "4-6",
+                  "3-5",
+                  "3-5",
                   "2-2",
                   "2",
                   "4",
@@ -2108,7 +2108,7 @@
                   "0",
                   "1",
                   "0",
-                  "14"
+                  "11"
                 ]
               },
               {
@@ -2200,8 +2200,8 @@
                 "ejected": false,
                 "stats": [
                   "29",
-                  "2-7",
-                  "2-6",
+                  "3-8",
+                  "3-7",
                   "0-0",
                   "0",
                   "4",
@@ -2211,7 +2211,7 @@
                   "1",
                   "2",
                   "4",
-                  "6"
+                  "9"
                 ]
               },
               {
@@ -3483,7 +3483,7 @@
           "displayName": "Points",
           "leaders": [
             {
-              "displayValue": "14",
+              "displayValue": "11",
               "athlete": {
                 "id": "4897476",
                 "uid": "s:40~l:41~a:4897476",
@@ -3519,8 +3519,8 @@
                   "shortDisplayName": "PTS",
                   "description": "The number of points scored.",
                   "abbreviation": "PTS",
-                  "value": 14.0,
-                  "displayValue": "14"
+                  "value": 11.0,
+                  "displayValue": "11"
                 },
                 {
                   "name": "fieldGoals",
@@ -3528,8 +3528,8 @@
                   "shortDisplayName": "FG",
                   "description": "Field Goal makes and attempts.",
                   "abbreviation": "FG",
-                  "value": 0.666667,
-                  "displayValue": "4/6"
+                  "value": 0.6,
+                  "displayValue": "3/5"
                 },
                 {
                   "name": "freeThrows",
@@ -5809,7 +5809,7 @@
         "uid": "s:40~l:41~e:401489727~c:401489727",
         "date": "2023-01-28T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5994,7 +5994,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "11",
+          "name": "Conference USA",
+          "abbreviation": "usa",
+          "shortName": "C-USA",
+          "midsizeName": "Conference USA"
+        }
       }
     ],
     "links": [

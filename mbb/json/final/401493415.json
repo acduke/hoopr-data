@@ -23502,7 +23502,7 @@
         "timeoutsAvailable": true,
         "possessionArrowAvailable": true,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23697,13 +23697,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "8",
-          "name": "Big 12 Conference",
-          "abbreviation": "big12",
-          "shortName": "Big 12",
-          "midsizeName": "Big 12"
-        },
         "home": {
           "id": "251",
           "uid": "s:40~l:41~t:251",
@@ -24696,6 +24689,59 @@
               ]
             },
             {
+              "team": "Kansas",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2305/kansas-jayhawks",
+              "id": "2305",
+              "uid": "s:40~l:41~t:2305",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "18-4",
+                  "displayValue": "18-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "6-3",
+                  "displayValue": "6-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-09-23T18:52Z"
+                }
+              ]
+            },
+            {
               "team": "Kansas State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2306/kansas-state-wildcats",
               "id": "2306",
@@ -24709,8 +24755,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-3",
-                  "displayValue": "18-3"
+                  "summary": "18-4",
+                  "displayValue": "18-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -24719,8 +24765,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -24730,8 +24776,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-2",
-                  "displayValue": "6-2"
+                  "summary": "6-3",
+                  "displayValue": "6-3"
                 }
               ],
               "logo": [
@@ -24745,6 +24791,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "TCU",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
+              "id": "2628",
+              "uid": "s:40~l:41~t:2628",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "17-5",
+                  "displayValue": "17-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "6-3",
+                  "displayValue": "6-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2023-01-06T17:01Z"
                 }
               ]
             },
@@ -24798,112 +24897,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Kansas",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2305/kansas-jayhawks",
-              "id": "2305",
-              "uid": "s:40~l:41~t:2305",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "17-4",
-                  "displayValue": "17-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-3",
-                  "displayValue": "5-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-09-23T18:52Z"
-                }
-              ]
-            },
-            {
-              "team": "TCU",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
-              "id": "2628",
-              "uid": "s:40~l:41~t:2628",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "16-5",
-                  "displayValue": "16-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-3",
-                  "displayValue": "5-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2023-01-06T17:01Z"
                 }
               ]
             },
@@ -25014,59 +25007,6 @@
               ]
             },
             {
-              "team": "West Virginia",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers",
-              "id": "277",
-              "uid": "s:40~l:41~t:277",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "13-8",
-                  "displayValue": "13-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-6",
-                  "displayValue": "2-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Oklahoma",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/201/oklahoma-sooners",
               "id": "201",
@@ -25108,6 +25048,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "West Virginia",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/277/west-virginia-mountaineers",
+              "id": "277",
+              "uid": "s:40~l:41~t:277",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-9",
+                  "displayValue": "13-9"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.0,
+                  "displayValue": "5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-7",
+                  "displayValue": "2-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25182,7 +25175,7 @@
   "article": {
     "dataSourceIdentifier": "6f81d056c5e66",
     "keywords": [],
-    "description": "\u2014 Sir'Jabari Rice scored 21 points and Timmy Allen added 19 to send No. 10 Texas to a 76-71 win over No. 11 Baylor on Monday night, ending the Bears' six-game win streak and keeping the Longhorns in a share of first place in the Big 12.",
+    "description": "\u2014 Sir'Jabari Rice scored 21 points and Timmy Allen added 18 to send No. 10 Texas to a 76-71 win over No. 11 Baylor on Monday night, ending the Bears' six-game win streak and keeping the Longhorns in a share of first place in the Big 12.",
     "source": "AP",
     "video": [
       {
@@ -25207,7 +25200,7 @@
         "cerebroId": "63d88912ca84b70e7e93ae3e",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-01-31T04:20:15Z",
+        "lastModified": "2023-01-31T05:27:51Z",
         "originalPublishDate": "2023-01-31T03:20:48Z",
         "timeRestrictions": {
           "embargoDate": "2023-01-31T03:20:48Z",
@@ -25346,24 +25339,24 @@
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0130/ss_20230130_222051956_2174620/ss_20230130_222051956_2174620_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230130_222051956_217462027/ss_20230130_222051956_217462027_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0130/ss_20230130_222051956_2174620/ss_20230130_222051956_2174620.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230130_222051956_217462027/ss_20230130_222051956_217462027.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0130/ss_20230130_222051956_2174620/ss_20230130_222051956_2174620_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230130_222051956_217462027/ss_20230130_222051956_217462027_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0130/ss_20230130_222051956_2174620/ss_20230130_222051956_2174620_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230130_222051956_217462027/ss_20230130_222051956_217462027_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0130/ss_20230130_222051956_2174620/ss_20230130_222051956_2174620.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0131/ss_20230130_222051956_217462027/ss_20230130_222051956_217462027.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -25371,7 +25364,7 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0130/ss_20230130_222051956_2174620/ss_20230130_222051956_2174620.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0131/ss_20230130_222051956_217462027/ss_20230130_222051956_217462027.jpg",
         "links": {
           "api": {
             "self": {
@@ -25558,14 +25551,14 @@
         "width": 576,
         "alt": "",
         "caption": "Dillon Mitchell elevates and slams it in for Texas.\n",
-        "url": "https://a.espncdn.com/media/motion/2023/0130/ss_20230130_222051956_2174620/ss_20230130_222051956_2174620.jpg",
+        "url": "https://a.espncdn.com/media/motion/2023/0131/ss_20230130_222051956_217462027/ss_20230130_222051956_217462027.jpg",
         "height": 324
       }
     ],
     "linkText": "Rice, Allen lead No. 10 Texas over No. 11 Baylor 76-71",
     "published": "2023-01-31T04:39:22Z",
     "allowComments": true,
-    "lastModified": "2023-01-31T04:42:21Z",
+    "lastModified": "2023-01-31T06:25:21Z",
     "metrics": [
       {
         "count": 0,
@@ -25597,7 +25590,7 @@
       }
     ],
     "inlines": [],
-    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AUSTIN, Texas -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4280181/sir'jabari-rice\">Sir'Jabari Rice</a> scored 21 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397148/timmy-allen\">Timmy Allen</a> added 19 to send No. 10 Texas to a 76-71 win over No. 11 Baylor on Monday night, ending the Bears' six-game win streak and keeping the Longhorns in a share of first place in the Big 12.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rice made four 3-pointers in the second half and his two free throws with 16 seconds left put Texas ahead by five with the final points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor had closed to 72-71 on <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433627/keyonte-george\">Keyonte George</a>'s three-point play before Texas answered with <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4278014/marcus-carr\">Marcus Carr</a>'s fallaway jumper with 27 seconds left. It was Carr's first basket of the second half and just his second of the game.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rice, a 29% 3-point shooter in Big 12 play, was 4 of 5 shooting from long range. Allen was 7 of 10 from the floor and made two free throws in the final minute that put the Longhorns (18-4, 7-2) ahead by four.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor had fought back from nine points down in the first half to tie it at 38 on the opening possession after halftime. Texas answered with a quick 8-0 run punctuated by a 3-pointer by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683751/tyrese-hunter\">Tyrese Hunter</a>, a put-back dunk by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106283/dillon-mitchell\">Dillon Mitchell</a> and Allen's short jumper over two defenders.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rice's 3-pointers kept any chance of a Baylor rally in check and Texas never trailed in the second half.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433149/lj-cryer\">LJ Cryer</a> scored 19 points to lead four Baylor players in double figures.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor (16-6, 5-4) trailed 70-68 with a chance to take the lead in the final two minutes, but <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397654/adam-flagler\">Adam Flagler</a> threw up a quick 3-pointer that missed before Allen made his two late free throws.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor: The Bears fell in love with the 3-pointer and couldn't break out of it against a Texas defense that denied shot after shot near the basket. Baylor was 8 of 26 from long range and made just two in the second half. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Texas: The Longhorns were coming off a loss at No. 2 Tennessee when interim coach Rodney Terry complained the Longhorns let themselves get pushed around in a physical matchup. They had no such problems against the Bears, nearly matching the Bears in rebounding and points in the paint.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AUSTIN, Texas -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4280181/sir'jabari-rice\">Sir'Jabari Rice</a> scored 21 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397148/timmy-allen\">Timmy Allen</a> added 18 to send No. 10 Texas to a 76-71 win over No. 11 Baylor on Monday night, ending the Bears' six-game win streak and keeping the Longhorns in a share of first place in the Big 12.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rice made four 3-pointers in the second half and his two free throws with 16 seconds left put Texas ahead by five with the final points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor had closed to 72-71 on <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433627/keyonte-george\">Keyonte George</a>'s three-point play before Texas answered with <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4278014/marcus-carr\">Marcus Carr</a>'s fallaway jumper with 27 seconds left. It was Carr's first basket of the second half and just his second of the game.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rice, a 29% 3-point shooter in Big 12 play, was 4 of 5 shooting from long range. Allen was 7 of 10 from the floor and made two free throws in the final minute that put the Longhorns (18-4, 7-2) ahead by four.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cThat\u2019s what this league is about. You have to put your hat on every day and come to work. That was one of the hardest games I\u2019ve been in since I got here,\u201d Allen said. \u201cIn the Big 12, that\u2019s what it takes every night. \u201d\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor had fought back from nine points down in the first half to tie it at 38 on the opening possession after halftime. Texas answered with a quick 8-0 run punctuated by a 3-pointer by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683751/tyrese-hunter\">Tyrese Hunter</a>, a put-back dunk by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106283/dillon-mitchell\">Dillon Mitchell</a> and Allen's short jumper over two defenders.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Rice's 3-pointers kept any chance of a Baylor rally in check and Texas never trailed in the second half.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433149/lj-cryer\">LJ Cryer</a> scored 19 points to lead four Baylor players in double figures.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor (16-6, 5-4) trailed 70-68 with a chance to take the lead in the final two minutes, but <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397654/adam-flagler\">Adam Flagler</a> threw up a quick 3-pointer that missed before Allen made his two late free throws.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cIt\u2019s hard to have long winning streaks in this league,\" Baylor coach Scott Drew said. \"You can play well and lose games.\u201d \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor had won 12 of the previous 13 matchups with the Longhorns.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cThey've had our number,\" Texas interim coach Rodney Terry said. \u201cWe needed to find a way to get this thing done. We were at home.\"\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">MISSING POINTS\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Carr, Texas' leading scorer this season, had a rare off night as a shooter. He was just 2 of 8 from the floor and didn't score in double figures for just the third time this season, and the first time since Dec. 12.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cGuys picked each other up,\" Rice said. \"Obviously Marcus didn't have the game everybody's used to him having, but he still made sure we sure we were playing defense ... Things like that got us the win.\u201d \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BIG PICTURE\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor: The Bears fell in love with the 3-pointer and couldn't break out of it against a Texas defense that denied shot after shot near the basket. Baylor was 8 of 26 from long range and made just two in the second half. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201cWe can't let them dictate what we do,\" Cryer said. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Texas: The Longhorns were coming off a loss at No. 2 Tennessee, when Terry complained the Longhorns let themselves get pushed around in a physical matchup. They had no such problems against the Bears, nearly matching the Bears in rebounding and points in the paint.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">\u201c(Terry) challenged us on defense. He challenged us to be better. We\u2019re not a team that\u2019s used to getting out-toughed. We had to respond physically, mentally,\u201d Allen said. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Baylor hosts Texas Tech on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Texas plays at No. 7 Kansas State on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
   },
   "leaders": [
     {
@@ -26269,7 +26262,7 @@
     "timeoutsAvailable": true,
     "possessionArrowAvailable": true,
     "onWatchESPN": true,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
@@ -26464,13 +26457,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "8",
-      "name": "Big 12 Conference",
-      "abbreviation": "big12",
-      "shortName": "Big 12",
-      "midsizeName": "Big 12"
-    },
     "home": {
       "id": "251",
       "uid": "s:40~l:41~t:251",
