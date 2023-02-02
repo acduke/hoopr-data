@@ -4067,10 +4067,10 @@
         "underdog": false,
         "moneyLine": -360,
         "spreadRecord": {
-          "wins": 5,
+          "wins": 6,
           "losses": 14,
           "pushes": 1,
-          "summary": "5-14-1"
+          "summary": "6-14-1"
         },
         "spreadOdds": -115.0,
         "teamId": "2250"
@@ -4082,9 +4082,9 @@
         "moneyLine": 290,
         "spreadRecord": {
           "wins": 12,
-          "losses": 9,
+          "losses": 10,
           "pushes": 0,
-          "summary": "12-9-0"
+          "summary": "12-10-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2541"
@@ -5811,7 +5811,7 @@
         "uid": "s:40~l:41~e:401470404~c:401470404",
         "date": "2023-01-08T03:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5996,7 +5996,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "29",
+          "name": "West Coast Conference",
+          "abbreviation": "wcc",
+          "shortName": "WCC",
+          "midsizeName": "West Coast"
+        }
       }
     ],
     "links": [

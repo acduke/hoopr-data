@@ -163,23 +163,23 @@
           },
           {
             "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-            "displayValue": "4-19",
+            "displayValue": "5-20",
             "label": "3PT"
           },
           {
             "name": "threePointFieldGoalPct",
-            "displayValue": "21.1",
+            "displayValue": "25.0",
             "abbreviation": "3P%",
             "label": "Three Point %"
           },
           {
             "name": "freeThrowsMade-freeThrowsAttempted",
-            "displayValue": "12-16",
+            "displayValue": "11-16",
             "label": "FT"
           },
           {
             "name": "freeThrowPct",
-            "displayValue": "75.0",
+            "displayValue": "68.8",
             "abbreviation": "FT%",
             "label": "Free Throw %"
           },
@@ -257,7 +257,7 @@
           },
           {
             "name": "fouls",
-            "displayValue": "13",
+            "displayValue": "14",
             "abbreviation": "PF",
             "label": "Fouls"
           },
@@ -2035,7 +2035,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "30",
+                  "33",
                   "5-10",
                   "1-5",
                   "2-2",
@@ -2046,7 +2046,7 @@
                   "1",
                   "0",
                   "4",
-                  "0",
+                  "1",
                   "13"
                 ]
               },
@@ -2138,7 +2138,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "27",
+                  "28",
                   "2-2",
                   "0-0",
                   "2-2",
@@ -2347,7 +2347,7 @@
                   "27",
                   "3-14",
                   "0-4",
-                  "4-5",
+                  "3-5",
                   "1",
                   "3",
                   "4",
@@ -2356,7 +2356,7 @@
                   "0",
                   "2",
                   "4",
-                  "10"
+                  "9"
                 ]
               },
               {
@@ -2447,9 +2447,9 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "36",
+                  "34",
                   "8-19",
-                  "2-7",
+                  "3-8",
                   "1-2",
                   "3",
                   "3",
@@ -2459,7 +2459,7 @@
                   "1",
                   "1",
                   "1",
-                  "19"
+                  "20"
                 ]
               },
               {
@@ -2756,7 +2756,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "8",
+                  "6",
                   "0-0",
                   "0-0",
                   "1-2",
@@ -3337,8 +3337,8 @@
             "totals": [
               "",
               "24-57",
-              "4-19",
-              "12-16",
+              "5-20",
+              "11-16",
               "16",
               "20",
               "36",
@@ -3346,7 +3346,7 @@
               "8",
               "5",
               "18",
-              "13",
+              "14",
               "64"
             ]
           }
@@ -3436,7 +3436,7 @@
           "displayName": "Points",
           "leaders": [
             {
-              "displayValue": "19",
+              "displayValue": "20",
               "athlete": {
                 "id": "4898369",
                 "uid": "s:40~l:41~a:4898369",
@@ -3472,8 +3472,8 @@
                   "shortDisplayName": "PTS",
                   "description": "The number of points scored.",
                   "abbreviation": "PTS",
-                  "value": 19.0,
-                  "displayValue": "19"
+                  "value": 20.0,
+                  "displayValue": "20"
                 },
                 {
                   "name": "fieldGoals",
@@ -5608,7 +5608,7 @@
         "uid": "s:40~l:41~e:401473552~c:401473552",
         "date": "2023-02-01T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5808,7 +5808,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "14",
+          "name": "Mid-American Conference",
+          "abbreviation": "midam",
+          "shortName": "MAC",
+          "midsizeName": "Mid-American"
+        }
       }
     ],
     "links": [

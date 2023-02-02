@@ -26439,6 +26439,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "8",
+          "name": "Big 12 Conference",
+          "abbreviation": "big12",
+          "shortName": "Big 12",
+          "midsizeName": "Big 12"
+        },
         "home": {
           "id": "2641",
           "uid": "s:40~l:41~t:2641",
@@ -26813,7 +26820,7 @@
         "trackingId": "dm_20230131_NCB_devion_harmon_makes_a_sweet_dish"
       },
       "cerebroId": "63d87cebbe6ab31ff7310c2b",
-      "lastModified": "2023-01-31T03:00:03Z",
+      "lastModified": "2023-02-01T13:27:09Z",
       "originalPublishDate": "2023-01-31T02:28:57Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-31T02:28:57Z",
@@ -26906,7 +26913,7 @@
         "trackingId": "dm_20230131_NCB_tre_king_rocks_the_rim_on_this_follow_slam"
       },
       "cerebroId": "63d88390be6ab31ff7310d76",
-      "lastModified": "2023-01-31T02:59:34Z",
+      "lastModified": "2023-02-01T13:45:35Z",
       "originalPublishDate": "2023-01-31T02:57:18Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-31T02:57:18Z",
@@ -26999,7 +27006,7 @@
         "trackingId": "dm_20230131_NCB_jaren_holmes_cuts_through_texas_techs_defense_for_a_score"
       },
       "cerebroId": "63d88826ca84b70e7e93adfb",
-      "lastModified": "2023-01-31T03:18:19Z",
+      "lastModified": "2023-02-01T13:50:08Z",
       "originalPublishDate": "2023-01-31T03:16:52Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-31T03:16:52Z",
@@ -27092,7 +27099,7 @@
         "trackingId": "dm_20230131_NCB_jaylon_tyson_makes_iowa_state_pay_for_turnover"
       },
       "cerebroId": "63d88cfeca84b70e7e93bf3f",
-      "lastModified": "2023-01-31T03:40:21Z",
+      "lastModified": "2023-02-01T13:54:48Z",
       "originalPublishDate": "2023-01-31T03:37:32Z",
       "timeRestrictions": {
         "embargoDate": "2023-01-31T03:37:32Z",
@@ -27883,8 +27890,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-9",
-                  "displayValue": "12-9"
+                  "summary": "13-9",
+                  "displayValue": "13-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -27893,8 +27900,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -27904,8 +27911,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
+                  "summary": "4-5",
+                  "displayValue": "4-5"
                 }
               ],
               "logo": [
@@ -27919,59 +27926,6 @@
                     "default"
                   ],
                   "lastUpdated": "2019-07-29T17:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Oklahoma",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/201/oklahoma-sooners",
-              "id": "201",
-              "uid": "s:40~l:41~t:201",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-9",
-                  "displayValue": "12-9"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-6",
-                  "displayValue": "2-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -28017,6 +27971,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Oklahoma",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/201/oklahoma-sooners",
+              "id": "201",
+              "uid": "s:40~l:41~t:201",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-10",
+                  "displayValue": "12-10"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.0,
+                  "displayValue": "5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-7",
+                  "displayValue": "2-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -28939,6 +28946,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "8",
+      "name": "Big 12 Conference",
+      "abbreviation": "big12",
+      "shortName": "Big 12",
+      "midsizeName": "Big 12"
+    },
     "home": {
       "id": "2641",
       "uid": "s:40~l:41~t:2641",

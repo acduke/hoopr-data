@@ -5651,7 +5651,7 @@
         "uid": "s:40~l:41~e:401488463~c:401488463",
         "date": "2023-01-31T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5852,14 +5852,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "2",
-          "name": "Atlantic Coast Conference",
-          "abbreviation": "acc",
-          "shortName": "ACC",
-          "midsizeName": "ACC"
-        }
+        ]
       }
     ],
     "links": [
@@ -17016,99 +17009,6 @@
     },
     {
       "source": "espn",
-      "id": 35560312,
-      "headline": "Ryan Dunn throws down one-handed dunk",
-      "description": "Ryan Dunn takes the alley-oop from Kihei Clark and throws down a mean dunk.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (Ryan Dunn throws down one-handed dunk) 2023/01/31 ESHEET",
-        "trackingId": "dm_20230131_NCB_ryan_dunn_throws_down_onehanded_dunk"
-      },
-      "cerebroId": "63d870a6be6ab31ff730f519",
-      "lastModified": "2023-01-31T01:37:47Z",
-      "originalPublishDate": "2023-01-31T01:36:36Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-01-31T01:36:36Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 17,
-      "thumbnail": "https://a.espncdn.com/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJIMEYCIQCnBs37tOAiupEE%2ByXv6aAiULgSSJRepBlc4CKSOFq3TwIhAKGKY%2FRsgjrD3kixtOkMHzneHvKBBQyXF0",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35560312"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/54ff17d0-66f3-4c67-a780-eaed2a37bcca"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35560312&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35560312"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35560312&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4.smil"
-          },
-          "hds": {
-            "href": "https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35560312&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/36c26478-306b-4702-8ba0-05841ae51cd7.mp4.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/54ff17d0-66f3-4c67-a780-eaed2a37bcca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35560312",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/54ff17d0-66f3-4c67-a780-eaed2a37bcca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35560312"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/54ff17d0-66f3-4c67-a780-eaed2a37bcca/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35560312"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
       "id": 35560354,
       "headline": "Judah Mintz grabs the steal and the layup",
       "description": "Judah Mintz grabs the steal from Virginia and takes it to the hoop for a layup.",
@@ -17423,8 +17323,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-7",
-                  "displayValue": "15-7"
+                  "summary": "16-7",
+                  "displayValue": "16-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -17433,8 +17333,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -17444,8 +17344,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-3",
-                  "displayValue": "8-3"
+                  "summary": "9-3",
+                  "displayValue": "9-3"
                 }
               ],
               "logo": [
@@ -17463,10 +17363,10 @@
               ]
             },
             {
-              "team": "North Carolina",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels",
-              "id": "153",
-              "uid": "s:40~l:41~t:153",
+              "team": "NC State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/152/nc-state-wolfpack",
+              "id": "152",
+              "uid": "s:40~l:41~t:152",
               "stats": [
                 {
                   "id": "0",
@@ -17476,8 +17376,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-6",
-                  "displayValue": "15-6"
+                  "summary": "18-5",
+                  "displayValue": "18-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17497,13 +17397,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-3",
-                  "displayValue": "7-3"
+                  "summary": "8-4",
+                  "displayValue": "8-4"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17511,7 +17411,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2018-09-05T22:10Z"
                 }
               ]
             },
@@ -17569,59 +17469,6 @@
               ]
             },
             {
-              "team": "NC State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/152/nc-state-wolfpack",
-              "id": "152",
-              "uid": "s:40~l:41~t:152",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "17-5",
-                  "displayValue": "17-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "7-4",
-                  "displayValue": "7-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-09-05T22:10Z"
-                }
-              ]
-            },
-            {
               "team": "Duke",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/150/duke-blue-devils",
               "id": "150",
@@ -17663,6 +17510,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "North Carolina",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels",
+              "id": "153",
+              "uid": "s:40~l:41~t:153",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "15-7",
+                  "displayValue": "15-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.5,
+                  "displayValue": "2.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-4",
+                  "displayValue": "7-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17781,59 +17681,6 @@
               ]
             },
             {
-              "team": "Florida State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/52/florida-state-seminoles",
-              "id": "52",
-              "uid": "s:40~l:41~t:52",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "7-15",
-                  "displayValue": "7-15"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-6",
-                  "displayValue": "5-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Boston College",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/103/boston-college-eagles",
               "id": "103",
@@ -17875,6 +17722,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Florida State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/52/florida-state-seminoles",
+              "id": "52",
+              "uid": "s:40~l:41~t:52",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-16",
+                  "displayValue": "7-16"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.0,
+                  "displayValue": "5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-7",
+                  "displayValue": "5-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17993,10 +17893,10 @@
               ]
             },
             {
-              "team": "Georgia Tech",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/59/georgia-tech-yellow-jackets",
-              "id": "59",
-              "uid": "s:40~l:41~t:59",
+              "team": "Louisville",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/97/louisville-cardinals",
+              "id": "97",
+              "uid": "s:40~l:41~t:97",
               "stats": [
                 {
                   "id": "0",
@@ -18006,8 +17906,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-13",
-                  "displayValue": "8-13"
+                  "summary": "3-19",
+                  "displayValue": "3-19"
                 },
                 {
                   "name": "gamesBehind",
@@ -18033,7 +17933,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18041,15 +17941,15 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2022-09-01T23:57Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
             {
-              "team": "Louisville",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/97/louisville-cardinals",
-              "id": "97",
-              "uid": "s:40~l:41~t:97",
+              "team": "Georgia Tech",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/59/georgia-tech-yellow-jackets",
+              "id": "59",
+              "uid": "s:40~l:41~t:59",
               "stats": [
                 {
                   "id": "0",
@@ -18059,8 +17959,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "2-19",
-                  "displayValue": "2-19"
+                  "summary": "8-14",
+                  "displayValue": "8-14"
                 },
                 {
                   "name": "gamesBehind",
@@ -18080,13 +17980,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "0-10",
-                  "displayValue": "0-10"
+                  "summary": "1-11",
+                  "displayValue": "1-11"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18094,7 +17994,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2022-09-01T23:57Z"
                 }
               ]
             }
