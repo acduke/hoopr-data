@@ -7,3 +7,83 @@ KeyError: game_id = 401488802
 Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401491688
 Finished Scraping year 2023...
 Already up to date.
+          used (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells 1241909 66.4    3213317 171.7   3213317  171.7
+Vcells 3470756 26.5   89832509 685.4 136086498 1038.3
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1253990 67.0    2526958 135.0  2526958 135.0
+Vcells 3237812 24.8   25340244 193.4 26315359 200.8
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1311496 70.1    2527407 135.0  2527407 135.0
+Vcells 3234452 24.7   25122302 191.7 26000418 198.4
+Already up to date.
+Already up to date.
+[main bf9f67490f] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 3517 files changed, 1276333 insertions(+), 117416 deletions(-)
+ rewrite daily_mbb.out (94%)
+ create mode 100644 mbb/json/final/401473551.json
+ create mode 100644 mbb/json/final/401473552.json
+ create mode 100644 mbb/json/final/401473553.json
+ create mode 100644 mbb/json/final/401473554.json
+ create mode 100644 mbb/json/final/401473555.json
+ create mode 100644 mbb/json/final/401473556.json
+ create mode 100644 mbb/json/final/401482839.json
+ create mode 100644 mbb/json/final/401482840.json
+ create mode 100644 mbb/json/final/401482842.json
+ create mode 100644 mbb/json/final/401482843.json
+ create mode 100644 mbb/json/final/401484457.json
+ create mode 100644 mbb/json/final/401484458.json
+ create mode 100644 mbb/json/final/401484459.json
+ create mode 100644 mbb/json/final/401484584.json
+ create mode 100644 mbb/json/final/401484585.json
+ create mode 100644 mbb/json/final/401484586.json
+ create mode 100644 mbb/json/final/401484587.json
+ create mode 100644 mbb/json/final/401484925.json
+ create mode 100644 mbb/json/final/401484926.json
+ create mode 100644 mbb/json/final/401485242.json
+ create mode 100644 mbb/json/final/401487014.json
+ create mode 100644 mbb/json/final/401488464.json
+ create mode 100644 mbb/json/final/401488465.json
+ create mode 100644 mbb/json/final/401488467.json
+ create mode 100644 mbb/json/final/401493417.json
+ create mode 100644 mbb/json/final/401493418.json
+ create mode 100644 mbb/json/final/401522876.json
+ create mode 100644 mbb/json/raw/401473551.json
+ create mode 100644 mbb/json/raw/401473552.json
+ create mode 100644 mbb/json/raw/401473553.json
+ create mode 100644 mbb/json/raw/401473554.json
+ create mode 100644 mbb/json/raw/401473555.json
+ create mode 100644 mbb/json/raw/401473556.json
+ create mode 100644 mbb/json/raw/401482839.json
+ create mode 100644 mbb/json/raw/401482840.json
+ create mode 100644 mbb/json/raw/401482842.json
+ create mode 100644 mbb/json/raw/401482843.json
+ create mode 100644 mbb/json/raw/401484457.json
+ create mode 100644 mbb/json/raw/401484458.json
+ create mode 100644 mbb/json/raw/401484459.json
+ create mode 100644 mbb/json/raw/401484584.json
+ create mode 100644 mbb/json/raw/401484585.json
+ create mode 100644 mbb/json/raw/401484586.json
+ create mode 100644 mbb/json/raw/401484587.json
+ create mode 100644 mbb/json/raw/401484925.json
+ create mode 100644 mbb/json/raw/401484926.json
+ create mode 100644 mbb/json/raw/401485242.json
+ create mode 100644 mbb/json/raw/401487014.json
+ create mode 100644 mbb/json/raw/401488464.json
+ create mode 100644 mbb/json/raw/401488465.json
+ create mode 100644 mbb/json/raw/401488467.json
+ create mode 100644 mbb/json/raw/401493417.json
+ create mode 100644 mbb/json/raw/401493418.json
+ create mode 100644 mbb/json/raw/401522876.json
+ rewrite mbb/mbb_games_in_data_repo.parquet (70%)
+ rewrite mbb/mbb_games_in_data_repo.qs (80%)
+ rewrite mbb/player_box/csv/player_box_2023.csv.gz (65%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (76%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (78%)
+ rewrite mbb/player_box/rds/player_box_2023.rds (68%)
+ rewrite mbb/schedules/qs/mbb_schedule_2023.qs (91%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (86%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (93%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (88%)
+ rewrite nba_schedule_master.qs (63%)
+Already up to date.

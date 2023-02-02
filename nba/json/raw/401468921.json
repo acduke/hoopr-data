@@ -4313,9 +4313,7 @@
       "id": "4"
     },
     "awayTeam": {
-      "id": "12",
-      "gameProjection": "50.5",
-      "teamChanceLoss": "49.5"
+      "id": "12"
     }
   },
   "pickcenter": [
@@ -4386,10 +4384,10 @@
         "underdog": false,
         "moneyLine": -137,
         "spreadRecord": {
-          "wins": 26,
+          "wins": 27,
           "losses": 27,
           "pushes": 0,
-          "summary": "26-27-0"
+          "summary": "27-27-0"
         },
         "spreadOdds": -110.0,
         "teamId": "12"
@@ -4401,9 +4399,9 @@
         "moneyLine": 117,
         "spreadRecord": {
           "wins": 25,
-          "losses": 22,
+          "losses": 23,
           "pushes": 2,
-          "summary": "25-22-2"
+          "summary": "25-23-2"
         },
         "spreadOdds": -110.0,
         "teamId": "4"
@@ -24064,11 +24062,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35566807,
-        "dataSourceIdentifier": "51dc560823ee1",
-        "headline": "Patrick Williams throws down the one-handed hammer",
-        "caption": "Patrick Williams throws down the one-handed hammer",
-        "description": "Patrick Williams throws down the one-handed hammer",
+        "id": 35571202,
+        "dataSourceIdentifier": "20eff781b1435",
+        "headline": "Zach LaVine drills the 3-pointer",
+        "caption": "Zach LaVine makes 26-foot 3-pointer vs. the Clippers.",
+        "description": "Zach LaVine makes 26-foot 3-pointer vs. the Clippers.",
         "premium": false,
         "ad": {
           "sport": "nba",
@@ -24076,18 +24074,16 @@
         },
         "tracking": {
           "sportName": "nba",
-          "leagueName": "No League",
+          "leagueName": "NBA",
           "coverageType": "OnePlay",
-          "trackingName": "NBA_One-Play (Patrick Williams throws down the one-handed hammer) 2023/02/01 ESHEET",
-          "trackingId": "dm_20230201_NBA_patrick_williams_throws_down_the_onehanded_hammer"
+          "trackingName": "NBA_One-Play (Zach LaVine drills the 3-pointer) 2023/02/01 ESHEET",
+          "trackingId": "evc_NBA_20230201_lac_@_chi_0153adf3-1726-45fb-a336-058083063135_3542"
         },
-        "cerebroId": "63d9d1aabe6ab31ff7351716",
-        "contributingPartner": "wsc",
-        "contributingSystem": "wsc",
-        "lastModified": "2023-02-01T04:45:13Z",
-        "originalPublishDate": "2023-02-01T02:42:40Z",
+        "cerebroId": "63daa93dbe6ab31ff7365853",
+        "lastModified": "2023-02-01T18:11:19Z",
+        "originalPublishDate": "2023-02-01T17:57:29Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-01T02:42:40Z",
+          "embargoDate": "2023-02-01T17:57:29Z",
           "expirationDate": "2023-07-31T04:00:00Z"
         },
         "deviceRestrictions": {
@@ -24132,8 +24128,8 @@
             "CG",
             "KE",
             "HN",
-            "MQ",
             "TG",
+            "MQ",
             "NE",
             "SR",
             "MF",
@@ -24153,8 +24149,8 @@
             "ET",
             "GA",
             "JM",
-            "GU",
             "RW",
+            "GU",
             "LR",
             "CO",
             "MX",
@@ -24185,17 +24181,17 @@
             "EC",
             "FM",
             "SZ",
+            "VG",
             "BW",
             "CV",
             "BI",
             "TT",
             "ST",
             "ZW",
-            "PE",
             "GB",
             "UK",
             "AI",
-            "AR",
+            "PE",
             "HT",
             "KN",
             "GN",
@@ -24203,44 +24199,74 @@
             "BS",
             "PW",
             "PY",
-            "BQ",
             "TZ",
+            "BQ",
             "AO",
             "FJ",
             "KM"
           ]
         },
         "syndicatable": true,
-        "duration": 16,
+        "duration": 18,
         "categories": [
           {
-            "id": 457697,
-            "description": "Patrick Williams",
-            "type": "athlete",
+            "id": 9577,
+            "description": "NBA",
+            "type": "league",
             "sportId": 46,
-            "athleteId": 4431687,
-            "athlete": {
-              "id": 4431687,
-              "description": "Patrick Williams",
+            "leagueId": 46,
+            "league": {
+              "id": 46,
+              "description": "NBA",
               "links": {
                 "api": {
-                  "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba/athletes/4431687"
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba"
                   }
                 },
                 "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/nba/player/_/id/4431687/patrick-williams"
+                  "leagues": {
+                    "href": "https://www.espn.com/nba/"
                   }
                 },
                 "mobile": {
-                  "athletes": {
-                    "href": "http://m.espn.com/nba/playercard?playerId=4431687"
+                  "leagues": {
+                    "href": "http://m.espn.com/nba/"
                   }
                 }
               }
             },
-            "uid": "s:40~l:46~a:4431687"
+            "uid": "s:40~l:46"
+          },
+          {
+            "id": 12025,
+            "description": "Fantasy NBA",
+            "type": "league",
+            "sportId": 3090,
+            "leagueId": 3090,
+            "league": {
+              "id": 3090,
+              "description": "Fantasy NBA",
+              "links": {
+                "api": {
+                  "leagues": {}
+                },
+                "web": {
+                  "leagues": {}
+                },
+                "mobile": {
+                  "leagues": {}
+                }
+              }
+            },
+            "uid": "s:40~l:3090"
+          },
+          {
+            "id": 191422,
+            "description": "nba highlight",
+            "type": "topic",
+            "sportId": 0,
+            "topicId": 707
           },
           {
             "id": 4392,
@@ -24272,115 +24298,60 @@
             "uid": "s:40~l:46~t:4"
           },
           {
-            "id": 9577,
-            "description": "NBA",
-            "type": "league",
+            "id": 128803,
+            "description": "Zach LaVine",
+            "type": "athlete",
             "sportId": 46,
-            "leagueId": 46,
-            "league": {
-              "id": 46,
-              "description": "NBA",
+            "athleteId": 3064440,
+            "athlete": {
+              "id": 3064440,
+              "description": "Zach LaVine",
               "links": {
                 "api": {
-                  "leagues": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba"
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba/athletes/3064440"
                   }
                 },
                 "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/nba/"
+                  "athletes": {
+                    "href": "https://www.espn.com/nba/player/_/id/3064440/zach-lavine"
                   }
                 },
                 "mobile": {
-                  "leagues": {
-                    "href": "http://m.espn.com/nba/"
+                  "athletes": {
+                    "href": "http://m.espn.com/nba/playercard?playerId=3064440"
                   }
                 }
               }
             },
-            "uid": "s:40~l:46"
-          },
-          {
-            "id": 154798,
-            "description": "LA Clippers",
-            "type": "team",
-            "sportId": 46,
-            "teamId": 12,
-            "team": {
-              "id": 12,
-              "description": "LA Clippers",
-              "links": {
-                "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/nba/teams/12"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nba/team/_/name/lac/la-clippers"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/nba/clubhouse?teamId=12"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:46~t:12"
-          },
-          {
-            "id": 191422,
-            "description": "nba highlight",
-            "type": "topic",
-            "sportId": 0,
-            "topicId": 707
-          },
-          {
-            "id": 12025,
-            "description": "Fantasy NBA",
-            "type": "league",
-            "sportId": 3090,
-            "leagueId": 3090,
-            "league": {
-              "id": 3090,
-              "description": "Fantasy NBA",
-              "links": {
-                "api": {
-                  "leagues": {}
-                },
-                "web": {
-                  "leagues": {}
-                },
-                "mobile": {
-                  "leagues": {}
-                }
-              }
-            },
-            "uid": "s:40~l:3090"
+            "uid": "s:40~l:46~a:3064440"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          "NBA",
+          "ESPN",
+          "highlights"
+        ],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416.jpg",
+            "url": "https://media.video-cdn.espn.com/images/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -24388,66 +24359,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35566807"
+              "href": "http://api-app.espn.com/v1/video/clips/35571202"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/65d83987-86ee-4097-a864-4024d48f3490"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/3fb8c706-ed59-4b9c-94f5-8da0539b564e"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35566807",
+            "href": "http://espn.com/video/clip?id=35571202",
             "short": {
-              "href": "https://es.pn/3DxKCVk"
+              "href": "https://es.pn/40mGUaQ"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35566807"
+              "href": "http://espn.com/video/clip?id=35571202"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330.smil"
+              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35566807"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35571202"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/65d83987-86ee-4097-a864-4024d48f3490/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566807",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3fb8c706-ed59-4b9c-94f5-8da0539b564e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35571202",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/65d83987-86ee-4097-a864-4024d48f3490/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566807"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3fb8c706-ed59-4b9c-94f5-8da0539b564e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35571202"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/65d83987-86ee-4097-a864-4024d48f3490/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566807"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/3fb8c706-ed59-4b9c-94f5-8da0539b564e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35571202"
             }
           }
         },
-        "title": "Patrick Williams throws down the one-handed hammer"
+        "title": "Zach LaVine drills the 3-pointer"
       }
     ],
     "type": "Recap",
@@ -24571,11 +24542,11 @@
     "gameId": "401468921",
     "images": [
       {
-        "name": "Patrick Williams throws down the one-handed hammer",
+        "name": "Zach LaVine drills the 3-pointer",
         "width": 576,
         "alt": "",
-        "caption": "Patrick Williams throws down the one-handed hammer",
-        "url": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416.jpg",
+        "caption": "Zach LaVine makes 26-foot 3-pointer vs. the Clippers.",
+        "url": "https://a.espncdn.com/media/motion/fastclipper/2023/0201/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542/evc_NBA_20230201_lac__chi_0b74e629_47a7_4786_af47_676fe726d447_3542.jpg",
         "height": 324
       }
     ],
@@ -25628,6 +25599,209 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d6f53bf8-cae4-47d8-83ff-085ef300b3db/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566751"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35566807,
+      "headline": "Patrick Williams throws down the one-handed hammer",
+      "description": "Patrick Williams throws down the one-handed hammer",
+      "ad": {
+        "sport": "nba",
+        "bundle": "nba_instantreplay"
+      },
+      "tracking": {
+        "sportName": "nba",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NBA_One-Play (Patrick Williams throws down the one-handed hammer) 2023/02/01 ESHEET",
+        "trackingId": "dm_20230201_NBA_patrick_williams_throws_down_the_onehanded_hammer"
+      },
+      "cerebroId": "63d9d1aabe6ab31ff7351716",
+      "lastModified": "2023-02-01T04:45:13Z",
+      "originalPublishDate": "2023-02-01T02:42:40Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-02-01T02:42:40Z",
+        "expirationDate": "2023-07-31T04:00:00Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "CM",
+          "GT",
+          "SV",
+          "GH",
+          "GY",
+          "VC",
+          "MZ",
+          "MG",
+          "SC",
+          "MW",
+          "PR",
+          "LS",
+          "TC",
+          "SS",
+          "UY",
+          "GM",
+          "NI",
+          "GF",
+          "NZ",
+          "AU",
+          "CD",
+          "AG",
+          "BJ",
+          "GD",
+          "BF",
+          "SX",
+          "CG",
+          "KE",
+          "HN",
+          "MQ",
+          "TG",
+          "NE",
+          "SR",
+          "MF",
+          "ZM",
+          "BB",
+          "BM",
+          "BR",
+          "CR",
+          "SL",
+          "ER",
+          "CU",
+          "UG",
+          "LC",
+          "CF",
+          "GP",
+          "MH",
+          "ET",
+          "GA",
+          "JM",
+          "GU",
+          "RW",
+          "LR",
+          "CO",
+          "MX",
+          "GQ",
+          "RE",
+          "ZA",
+          "BO",
+          "US",
+          "AS",
+          "MP",
+          "VI",
+          "UM",
+          "CI",
+          "SN",
+          "DO",
+          "PA",
+          "ML",
+          "NG",
+          "BZ",
+          "AW",
+          "AM",
+          "KY",
+          "MU",
+          "CL",
+          "MS",
+          "VE",
+          "NA",
+          "EC",
+          "FM",
+          "SZ",
+          "BW",
+          "CV",
+          "BI",
+          "TT",
+          "ST",
+          "ZW",
+          "PE",
+          "GB",
+          "UK",
+          "AI",
+          "AR",
+          "HT",
+          "KN",
+          "GN",
+          "GW",
+          "BS",
+          "PW",
+          "PY",
+          "BQ",
+          "TZ",
+          "AO",
+          "FJ",
+          "KM"
+        ]
+      },
+      "duration": 16,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_214251682_21753301416/ss_20230131_214251682_21753301416.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35566807"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/65d83987-86ee-4097-a864-4024d48f3490"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35566807&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35566807"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35566807&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35566807&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_214251682_2175330/ss_20230131_214251682_2175330.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/65d83987-86ee-4097-a864-4024d48f3490/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566807",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/65d83987-86ee-4097-a864-4024d48f3490/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566807"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/65d83987-86ee-4097-a864-4024d48f3490/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566807"
           }
         }
       }
@@ -26690,8 +26864,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -26700,8 +26874,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5714286,
-                  "displayValue": ".571"
+                  "value": 0.58,
+                  "displayValue": ".580"
                 },
                 {
                   "name": "wins",
@@ -26710,8 +26884,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 28.0,
-                  "displayValue": "28"
+                  "value": 29.0,
+                  "displayValue": "29"
                 }
               ],
               "logo": [
@@ -26753,8 +26927,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "name": "losses",
@@ -26836,8 +27010,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "name": "losses",
@@ -26846,8 +27020,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 24.0,
-                  "displayValue": "24"
+                  "value": 25.0,
+                  "displayValue": "25"
                 },
                 {
                   "name": "streak",
@@ -26856,8 +27030,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 3.0,
-                  "displayValue": "W3"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -26866,8 +27040,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.52,
-                  "displayValue": ".520"
+                  "value": 0.50980395,
+                  "displayValue": ".510"
                 },
                 {
                   "name": "wins",
@@ -26919,8 +27093,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "name": "losses",
@@ -26929,8 +27103,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 25.0,
-                  "displayValue": "25"
+                  "value": 26.0,
+                  "displayValue": "26"
                 },
                 {
                   "name": "streak",
@@ -26939,8 +27113,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -26949,8 +27123,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5192308,
-                  "displayValue": ".519"
+                  "value": 0.509434,
+                  "displayValue": ".509"
                 },
                 {
                   "name": "wins",
@@ -27002,8 +27176,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "name": "losses",
