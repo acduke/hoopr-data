@@ -22165,7 +22165,7 @@
         "uid": "s:40~l:41~e:401482841~c:401482841",
         "date": "2023-02-02T03:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -22173,7 +22173,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -22366,6 +22366,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        },
         "home": {
           "id": "328",
           "uid": "s:40~l:41~t:328",
@@ -22470,6 +22477,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401482841",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401482841",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -23311,7 +23330,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "3d38977a0b4d3",
+    "keywords": [],
+    "description": "\u2014 Sean Bairstow's 20 points helped Utah State defeat New Mexico 84-73 on Wednesday.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35574733",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35574733"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401482841"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401482841",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35574733"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401482841&version=mobile"
+      }
+    },
+    "id": 35574733,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3233,
+        "description": "Utah State Aggies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 328,
+        "team": {
+          "id": 328,
+          "description": "Utah State Aggies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/328"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/328/utah-state-aggies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=328"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:328"
+      },
+      {
+        "id": 3443,
+        "description": "New Mexico Lobos",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 167,
+        "team": {
+          "id": 167,
+          "description": "New Mexico Lobos",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/167"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/167/new-mexico-lobos"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=167"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:167"
+      }
+    ],
+    "headline": "Bairstow scores 20, Utah State defeats New Mexico 84-73",
+    "gameId": "401482841",
+    "images": [],
+    "linkText": "Bairstow scores 20, Utah State defeats New Mexico 84-73",
+    "published": "2023-02-02T06:30:08Z",
+    "allowComments": true,
+    "lastModified": "2023-02-02T06:30:09Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LOGAN, Utah -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593102/sean-bairstow\">Sean Bairstow</a>'s 20 points helped Utah State defeat New Mexico 84-73 on Wednesday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Bairstow added five rebounds for the Aggies (18-5, 7-3 Mountain West Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701991/steven-ashworth\">Steven Ashworth</a> scored 19 points, going 4 of 8 from the floor, including 2 for 5 from distance, and 9 for 9 from the line. Daniel Akin was 4 of 6 shooting and 8 of 9 from the free throw line to finish with 16 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Jamal Mashburn Jr. finished with 17 points for the Lobos (19-4, 6-4). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396681/morris-udeze\">Morris Udeze</a> added 16 points and 12 rebounds for New Mexico. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431763/jaelen-house\">Jaelen House</a> finished with 14 points and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Utah State took the lead with 18:33 to go in the first half and never looked back. The score was 46-27 at halftime, with Ashworth racking up 10 points. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Utah State's next game is Saturday against Colorado State on the road, while New Mexico hosts Nevada on Tuesday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -23974,7 +24155,7 @@
     "uid": "s:40~l:41~e:401482841~c:401482841",
     "date": "2023-02-02T03:30Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -23982,7 +24163,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
@@ -24175,6 +24356,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "44",
+      "name": "Mountain West Conference",
+      "abbreviation": "mwest",
+      "shortName": "Mountain West",
+      "midsizeName": "Mountain West"
+    },
     "home": {
       "id": "328",
       "uid": "s:40~l:41~t:328",

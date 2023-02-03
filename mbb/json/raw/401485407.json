@@ -5485,7 +5485,7 @@
         "uid": "s:40~l:41~e:401485407~c:401485407",
         "date": "2023-01-27T01:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5684,7 +5684,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "25",
+          "name": "Southland Conference",
+          "abbreviation": "land",
+          "shortName": "Southland",
+          "midsizeName": "Southland"
+        }
       }
     ],
     "links": [
@@ -14528,8 +14535,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-9",
-                  "displayValue": "13-9"
+                  "summary": "14-9",
+                  "displayValue": "14-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -14549,8 +14556,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-2",
-                  "displayValue": "7-2"
+                  "summary": "8-2",
+                  "displayValue": "8-2"
                 }
               ],
               "logo": [
@@ -14581,8 +14588,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-8",
-                  "displayValue": "14-8"
+                  "summary": "15-8",
+                  "displayValue": "15-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -14602,8 +14609,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
+                  "summary": "7-3",
+                  "displayValue": "7-3"
                 }
               ],
               "logo": [
@@ -14634,8 +14641,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-9",
-                  "displayValue": "13-9"
+                  "summary": "14-9",
+                  "displayValue": "14-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -14655,8 +14662,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-3",
-                  "displayValue": "6-3"
+                  "summary": "7-3",
+                  "displayValue": "7-3"
                 }
               ],
               "logo": [
@@ -14697,8 +14704,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -14750,8 +14757,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -14793,8 +14800,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-12",
-                  "displayValue": "10-12"
+                  "summary": "10-13",
+                  "displayValue": "10-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -14803,8 +14810,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -14814,8 +14821,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-5",
-                  "displayValue": "4-5"
+                  "summary": "4-6",
+                  "displayValue": "4-6"
                 }
               ],
               "logo": [
@@ -14846,8 +14853,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-15",
-                  "displayValue": "7-15"
+                  "summary": "7-16",
+                  "displayValue": "7-16"
                 },
                 {
                   "name": "gamesBehind",
@@ -14856,8 +14863,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -14867,13 +14874,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-5",
-                  "displayValue": "4-5"
+                  "summary": "4-6",
+                  "displayValue": "4-6"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Lamar",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2320/lamar-cardinals",
+              "id": "2320",
+              "uid": "s:40~l:41~t:2320",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-16",
+                  "displayValue": "7-16"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.0,
+                  "displayValue": "5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-7",
+                  "displayValue": "3-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -14899,8 +14959,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-14",
-                  "displayValue": "6-14"
+                  "summary": "6-15",
+                  "displayValue": "6-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -14909,8 +14969,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "id": "9",
@@ -14920,8 +14980,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-6",
-                  "displayValue": "3-6"
+                  "summary": "3-7",
+                  "displayValue": "3-7"
                 }
               ],
               "logo": [
@@ -14939,59 +14999,6 @@
               ]
             },
             {
-              "team": "Lamar",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2320/lamar-cardinals",
-              "id": "2320",
-              "uid": "s:40~l:41~t:2320",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "6-16",
-                  "displayValue": "6-16"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-7",
-                  "displayValue": "2-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "McNeese",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2377/mcneese-cowboys",
               "id": "2377",
@@ -15005,8 +15012,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-17",
-                  "displayValue": "5-17"
+                  "summary": "5-18",
+                  "displayValue": "5-18"
                 },
                 {
                   "name": "gamesBehind",
@@ -15015,8 +15022,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -15026,8 +15033,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-7",
-                  "displayValue": "2-7"
+                  "summary": "2-8",
+                  "displayValue": "2-8"
                 }
               ],
               "logo": [

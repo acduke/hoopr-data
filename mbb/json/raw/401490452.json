@@ -5864,7 +5864,7 @@
         "uid": "s:40~l:41~e:401490452~c:401490452",
         "date": "2023-01-07T21:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6048,7 +6048,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "16",
+          "name": "Mid-Eastern Athletic Conference",
+          "abbreviation": "meac",
+          "shortName": "MEAC",
+          "midsizeName": "MEAC"
+        }
       }
     ],
     "links": [
@@ -19023,8 +19030,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-8",
-                  "displayValue": "13-8"
+                  "summary": "14-8",
+                  "displayValue": "14-8"
                 },
                 {
                   "name": "gamesBehind",
