@@ -22597,7 +22597,7 @@
         "uid": "s:40~l:41~e:401490368~c:401490368",
         "date": "2023-02-03T03:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -22605,7 +22605,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -22798,13 +22798,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "21",
-          "name": "Pac-12 Conference",
-          "abbreviation": "pac12",
-          "shortName": "Pac-12",
-          "midsizeName": "Pac-12"
-        },
         "home": {
           "id": "38",
           "uid": "s:40~l:41~t:38",
@@ -22909,6 +22902,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490368",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490368",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -23254,99 +23259,6 @@
           }
         }
       }
-    },
-    {
-      "source": "espn",
-      "id": 35580258,
-      "headline": "Luke O'Brien hits the 3 vs. Cal",
-      "description": "Luke O'Brien hits the 3 vs. Cal",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Luke O'brien hits the 3 vs. California Golden Bears) 2023/02/03 ESHEET",
-        "trackingId": "dm_20230203_NCB_luke_obrien_hits_the_3_vs_california_golden_bears"
-      },
-      "cerebroId": "63dc8ff3be6ab31ff73b48e5",
-      "lastModified": "2023-02-03T05:15:14Z",
-      "originalPublishDate": "2023-02-03T04:39:13Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-03T04:39:13Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 27,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35580258"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/72bbf249-ec68-470b-8104-3a091539feb7"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35580258&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35580258"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35580258&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35580258&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/72bbf249-ec68-470b-8104-3a091539feb7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580258",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/72bbf249-ec68-470b-8104-3a091539feb7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580258"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/72bbf249-ec68-470b-8104-3a091539feb7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580258"
-          }
-        }
-      }
     }
   ],
   "playByPlaySource": "full",
@@ -23479,8 +23391,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-6",
-                  "displayValue": "15-6"
+                  "summary": "16-6",
+                  "displayValue": "16-6"
                 },
                 {
                   "name": "gamesBehind",
@@ -23489,8 +23401,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -23500,8 +23412,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-3",
-                  "displayValue": "7-3"
+                  "summary": "8-3",
+                  "displayValue": "8-3"
                 }
               ],
               "logo": [
@@ -23678,59 +23590,6 @@
               ]
             },
             {
-              "team": "Washington State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
-              "id": "265",
-              "uid": "s:40~l:41~t:265",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "10-13",
-                  "displayValue": "10-13"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-7",
-                  "displayValue": "5-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Washington",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies",
               "id": "264",
@@ -23825,6 +23684,59 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Washington State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars",
+              "id": "265",
+              "uid": "s:40~l:41~t:265",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "10-14",
+                  "displayValue": "10-14"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.0,
+                  "displayValue": "5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-8",
+                  "displayValue": "5-8"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -24002,7 +23914,397 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "8f17d5db0ddcc",
+    "keywords": [],
+    "description": "\u2014 Tristan da Silva scored 20 points, Colorado leaned hard on its reserves and the Buffaloes staved off a season sweep against California by beating the Bears 59-46 on Thursday night.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35580258,
+        "dataSourceIdentifier": "d79d0d9be8cb0",
+        "headline": "Luke O'Brien hits the 3 vs. Cal",
+        "caption": "Luke O'Brien hits the 3 vs. Cal",
+        "description": "Luke O'Brien hits the 3 vs. Cal",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Luke O'brien hits the 3 vs. California Golden Bears) 2023/02/03 ESHEET",
+          "trackingId": "dm_20230203_NCB_luke_obrien_hits_the_3_vs_california_golden_bears"
+        },
+        "cerebroId": "63dc8ff3be6ab31ff73b48e5",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-02-03T05:15:14Z",
+        "originalPublishDate": "2023-02-03T04:39:13Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-02-03T04:39:13Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 27,
+        "categories": [
+          {
+            "id": 454293,
+            "description": "Luke O'Brien",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4702380,
+            "athlete": {
+              "id": 4702380,
+              "description": "Luke O'Brien",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4702380"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4702380/luke-o'brien"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4702380"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4702380"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 3215,
+            "description": "Colorado Buffaloes",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 38,
+            "team": {
+              "id": 38,
+              "description": "Colorado Buffaloes",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/38"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/38/colorado-buffaloes"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=38"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:38"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35580258"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/72bbf249-ec68-470b-8104-3a091539feb7"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35580258",
+            "short": {
+              "href": "https://es.pn/3HwM4Z7"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35580258"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35580258"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/72bbf249-ec68-470b-8104-3a091539feb7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580258",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/72bbf249-ec68-470b-8104-3a091539feb7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580258"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/72bbf249-ec68-470b-8104-3a091539feb7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580258"
+            }
+          }
+        },
+        "title": "Luke O'Brien hits the 3 vs. Cal"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35580587",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35580587"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490368"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490368",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35580587"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490368&version=mobile"
+      }
+    },
+    "id": 35580587,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3215,
+        "description": "Colorado Buffaloes",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 38,
+        "team": {
+          "id": 38,
+          "description": "Colorado Buffaloes",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/38"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/38/colorado-buffaloes"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=38"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:38"
+      },
+      {
+        "id": 3345,
+        "description": "California Golden Bears",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 25,
+        "team": {
+          "id": 25,
+          "description": "California Golden Bears",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/25"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/25/california-golden-bears"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=25"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:25"
+      }
+    ],
+    "headline": "Colorado recovers from slow start to beat Cal 59-46",
+    "gameId": "401490368",
+    "images": [
+      {
+        "name": "Luke O'Brien hits the 3 vs. Cal",
+        "width": 576,
+        "alt": "",
+        "caption": "Luke O'Brien hits the 3 vs. Cal",
+        "url": "https://a.espncdn.com/media/motion/2023/0202/ss_20230202_233917428_2177259/ss_20230202_233917428_2177259.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Colorado recovers from slow start to beat Cal 59-46",
+    "published": "2023-02-03T05:51:47Z",
+    "allowComments": true,
+    "lastModified": "2023-02-03T05:51:48Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BOULDER, Colo. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702382/tristan-da-silva\">Tristan da Silva</a> scored 20 points, Colorado leaned hard on its reserves and the Buffaloes staved off a season sweep against California by beating the Bears 59-46 on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Bears beat Colorado 80-76 on New Year's Eve for their first Pac-12 Conference win of the season.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Da Silva and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683834/kj-simpson\">KJ Simpson</a> were the only Colorado (13-11, 5-8 Pac-12) starters to score for the Buffs in the first 30 minutes of play until 7-foot-1 center <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4596528/lawson-lovering\">Lawson Lovering</a> buried a jumper with 9:43 remaining. Simpson had 10 points and the bench scored 25 \u2014 led by nine points each from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4279696/jalen-gabbidon\">Jalen Gabbidon</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702380/luke-obrien\">Luke O'Brien</a>.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432021/kuany-kuany\">Kuany Kuany</a> was the only Cal (3-19, 2-9) player to score in double digits with 10 points. The Bears piled up 22 turnovers and 22 personal fouls.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Despite that, Cal controlled the first half and built a 27-17 lead on a pair of <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431787/joel-brown\">Joel Brown</a> foul shots with 2:38 left. Colorado closed the half with a 7-0 run and used runs of 13-0 and 11-0 in the second half to clinch the win.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Cal plays at Utah on Sunday. Colorado hosts Stanford on Sunday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------"
+  },
   "leaders": [
     {
       "team": {
@@ -24676,7 +24978,7 @@
     "uid": "s:40~l:41~e:401490368~c:401490368",
     "date": "2023-02-03T03:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -24684,7 +24986,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
@@ -24877,13 +25179,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "21",
-      "name": "Pac-12 Conference",
-      "abbreviation": "pac12",
-      "shortName": "Pac-12",
-      "midsizeName": "Pac-12"
-    },
     "home": {
       "id": "38",
       "uid": "s:40~l:41~t:38",

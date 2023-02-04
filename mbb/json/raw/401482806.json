@@ -4164,10 +4164,10 @@
         "underdog": true,
         "moneyLine": 290,
         "spreadRecord": {
-          "wins": 6,
+          "wins": 7,
           "losses": 12,
           "pushes": 1,
-          "summary": "6-12-1"
+          "summary": "7-12-1"
         },
         "spreadOdds": -107.0,
         "teamId": "2751"
@@ -5604,7 +5604,7 @@
         "uid": "s:40~l:41~e:401482806~c:401482806",
         "date": "2023-01-07T21:05Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5804,14 +5804,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "44",
-          "name": "Mountain West Conference",
-          "abbreviation": "mwest",
-          "shortName": "Mountain West",
-          "midsizeName": "Mountain West"
-        }
+        ]
       }
     ],
     "links": [
@@ -14762,10 +14755,10 @@
         "standings": {
           "entries": [
             {
-              "team": "Boise State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
-              "id": "68",
-              "uid": "s:40~l:41~t:68",
+              "team": "San Diego State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/21/san-diego-state-aztecs",
+              "id": "21",
+              "uid": "s:40~l:41~t:21",
               "stats": [
                 {
                   "id": "0",
@@ -14796,61 +14789,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-2",
-                  "displayValue": "8-2"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-09-09T18:13Z"
-                }
-              ]
-            },
-            {
-              "team": "San Diego State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/21/san-diego-state-aztecs",
-              "id": "21",
-              "uid": "s:40~l:41~t:21",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "17-5",
-                  "displayValue": "17-5"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "8-2",
-                  "displayValue": "8-2"
+                  "summary": "9-2",
+                  "displayValue": "9-2"
                 }
               ],
               "logo": [
@@ -14864,6 +14804,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Boise State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos",
+              "id": "68",
+              "uid": "s:40~l:41~t:68",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "18-6",
+                  "displayValue": "18-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 1.0,
+                  "displayValue": "1"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "8-3",
+                  "displayValue": "8-3"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-09T18:13Z"
                 }
               ]
             },
@@ -14891,8 +14884,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -14944,8 +14937,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -14997,8 +14990,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -15050,8 +15043,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -15103,8 +15096,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -15156,8 +15149,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "id": "9",
@@ -15209,8 +15202,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "id": "9",
@@ -15262,8 +15255,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -15315,8 +15308,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 6.5,
+                  "displayValue": "6.5"
                 },
                 {
                   "id": "9",

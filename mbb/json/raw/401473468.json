@@ -2308,7 +2308,7 @@
                   "5",
                   "6",
                   "4",
-                  "2",
+                  "3",
                   "2",
                   "0",
                   "0",
@@ -2617,7 +2617,7 @@
                   "4",
                   "4",
                   "5",
-                  "4",
+                  "3",
                   "0",
                   "2",
                   "4",
@@ -4036,10 +4036,10 @@
         "underdog": true,
         "moneyLine": 102,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 14,
           "pushes": 0,
-          "summary": "9-14-0"
+          "summary": "10-14-0"
         },
         "spreadOdds": -108.0,
         "teamId": "2529"
@@ -4050,10 +4050,10 @@
         "underdog": false,
         "moneyLine": -119,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 12,
           "pushes": 0,
-          "summary": "11-12-0"
+          "summary": "12-12-0"
         },
         "spreadOdds": -108.0,
         "teamId": "284"
@@ -5690,7 +5690,7 @@
         "uid": "s:40~l:41~e:401473468~c:401473468",
         "date": "2023-01-28T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5873,7 +5873,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "19",
+          "name": "Northeast Conference",
+          "abbreviation": "neast",
+          "shortName": "NEC",
+          "midsizeName": "Northeast"
+        }
       }
     ],
     "links": [

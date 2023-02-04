@@ -4083,9 +4083,9 @@
         "moneyLine": 260,
         "spreadRecord": {
           "wins": 12,
-          "losses": 11,
+          "losses": 12,
           "pushes": 0,
-          "summary": "12-11-0"
+          "summary": "12-12-0"
         },
         "spreadOdds": -108.0,
         "teamId": "265"
@@ -4096,10 +4096,10 @@
         "underdog": false,
         "moneyLine": -310,
         "spreadRecord": {
-          "wins": 12,
+          "wins": 13,
           "losses": 9,
           "pushes": 0,
-          "summary": "12-9-0"
+          "summary": "13-9-0"
         },
         "spreadOdds": -112.0,
         "teamId": "30"
@@ -5694,7 +5694,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -5906,6 +5906,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490370",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490370",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15753,7 +15765,397 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "56c73934cb7ff",
+    "keywords": [],
+    "description": "\u2014 Boogie Ellis scored 17 of his 23 points in the second half to offset a big night by Washington State's Mouhamed Gueye and Southern California pulled away late for an 80-70 victory on Thursday night.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35580728,
+        "dataSourceIdentifier": "cdcd441baee66",
+        "headline": "Drew Peterson drills dagger 3 for USC",
+        "caption": "Drew Peterson drills dagger 3 for USC",
+        "description": "Drew Peterson drills dagger 3 for USC",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Drew Peterson drills dagger 3 for USC) 2023/02/03 ESHEET",
+          "trackingId": "dm_20230203_NCB_drew_peterson_drills_dagger_3_for_usc"
+        },
+        "cerebroId": "63dca7ebbe6ab31ff73b5fd2",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-02-03T06:22:37Z",
+        "originalPublishDate": "2023-02-03T06:21:29Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-02-03T06:21:29Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 23,
+        "categories": [
+          {
+            "id": 203601,
+            "description": "Drew Peterson",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4397689,
+            "athlete": {
+              "id": 4397689,
+              "description": "Drew Peterson",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4397689"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4397689/drew-peterson"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4397689"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4397689"
+          },
+          {
+            "id": 3347,
+            "description": "USC Trojans",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 30,
+            "team": {
+              "id": 30,
+              "description": "USC Trojans",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/30"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=30"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:30"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38_5x2.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38_1x1.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35580728"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/21899466-ff6f-4317-991c-3ae485e8c831"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35580728",
+            "short": {
+              "href": "https://es.pn/3RroDFf"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35580728"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4.smil"
+            },
+            "hds": {
+              "href": "https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35580728"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/21899466-ff6f-4317-991c-3ae485e8c831/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580728",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/21899466-ff6f-4317-991c-3ae485e8c831/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580728"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/21899466-ff6f-4317-991c-3ae485e8c831/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580728"
+            }
+          }
+        },
+        "title": "Drew Peterson drills dagger 3 for USC"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35580774",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35580774"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490370"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490370",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35580774"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490370&version=mobile"
+      }
+    },
+    "id": 35580774,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3347,
+        "description": "USC Trojans",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 30,
+        "team": {
+          "id": 30,
+          "description": "USC Trojans",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/30"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=30"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:30"
+      },
+      {
+        "id": 3350,
+        "description": "Washington State Cougars",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 265,
+        "team": {
+          "id": 265,
+          "description": "Washington State Cougars",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/265"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/265/washington-state-cougars"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=265"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:265"
+      }
+    ],
+    "headline": "Ellis sparks Southern Cal past Washington State 80-70",
+    "gameId": "401490370",
+    "images": [
+      {
+        "name": "Drew Peterson drills dagger 3 for USC",
+        "width": 576,
+        "alt": "",
+        "caption": "Drew Peterson drills dagger 3 for USC",
+        "url": "https://a.espncdn.comhttps://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6",
+        "height": 324
+      }
+    ],
+    "linkText": "Ellis sparks Southern Cal past Washington State 80-70",
+    "published": "2023-02-03T06:52:47Z",
+    "allowComments": true,
+    "lastModified": "2023-02-03T08:03:03Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LOS ANGELES -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593106/boogie-ellis\">Boogie Ellis</a> scored 17 of his 23 points in the second half to offset a big night by Washington State's <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4712863/mouhamed-gueye\">Mouhamed Gueye</a> and Southern California pulled away late for an 80-70 victory on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Ellis hit 5 of 9 from 3-point range, adding five rebounds and four assists for the Trojans (16-6, 8-3 Pac-12 Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397689/drew-peterson\">Drew Peterson</a> finished with 20 points, six rebounds and four assists. Peterson sank 8 of 13 shots, including 3 of 6 from beyond the arc. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105643/tre-white\">Tre White</a> made 6 of 9 shots and scored 14.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Gueye, a sophomore, finished with a career-high 31 points for the Cougars (10-14, 5-8). He made 14 of 21 shots with a 3-pointer and grabbed 12 rebounds for his 10th double-double of the season. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432250/justin-powell\">Justin Powell</a> hit 3 of 4 from distance and scored 11.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Gueye hit his first six shots and his three-point play gave Washington State a 26-13 lead with 9:34 left in the first half. From there, Peterson scored eight of his 14 first-half points and the Trojans moved in front 37-35 at halftime.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Gueye scored the first two baskets of the second half and the Cougars grabbed a two-point lead. Gueye surpassed his career high with his 26th point on a dunk with 17:32 left to play and hit a hook shot against a double-team the next trip down the floor for a 43-40 Cougars' lead. Ellis followed with a free throw and two 3-pointers to give USC a 49-47 lead with 14:20 remaining.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Trojans stayed in front until Powell buried a 3-pointer to put the Cougars ahead 65-63 with 4:29 left. Peterson hit the second of two free throws, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683857/kobe-johnson\">Kobe Johnson</a> followed with a 3-pointer and the Trojans never trailed again. It was Johnson's only shot of the game in 30 minutes of play. He missed the front end of a 1-and-1 free throw.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Andy Enfield picked up his 199th win in his 10th season at USC. The Trojans won their third straight game and avenged an 81-71 loss to the Cougars earlier this season. WSU hasn't won at USC since 2015. The Trojans improved to 11-0 this season in games with a 7 p.m. (PST) or later tip-off.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Washington State: The Cougars travel to play No. 9 UCLA on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">USC: The Trojans host Washington on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "videos": [
     {
       "source": "espn",
@@ -16030,99 +16432,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d0925ec7-8fcf-488b-a0d4-86df5d503ac9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580680"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35580728,
-      "headline": "Drew Peterson drills dagger 3 for USC",
-      "description": "Drew Peterson drills dagger 3 for USC",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Drew Peterson drills dagger 3 for USC) 2023/02/03 ESHEET",
-        "trackingId": "dm_20230203_NCB_drew_peterson_drills_dagger_3_for_usc"
-      },
-      "cerebroId": "63dca7ebbe6ab31ff73b5fd2",
-      "lastModified": "2023-02-03T06:22:37Z",
-      "originalPublishDate": "2023-02-03T06:21:29Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-03T06:21:29Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 23,
-      "thumbnail": "https://a.espncdn.com/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIANcSc9EaLTFQLOPbQxbWUzFp0TJyrzKZgz5Ab126rArAiEAzeSIUcxwaTEo2KvOGj94ABr1pqzIaNnTxNZzW6",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35580728"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/21899466-ff6f-4317-991c-3ae485e8c831"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35580728&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35580728"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35580728&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4.smil"
-          },
-          "hds": {
-            "href": "https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35580728&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/https://wsc-ingest-bucket-prod-us-east-1.s3.amazonaws.com/complete/cd66fd36-76e7-435a-a7e7-b42398378b38.mp4.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/21899466-ff6f-4317-991c-3ae485e8c831/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580728",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/21899466-ff6f-4317-991c-3ae485e8c831/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580728"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/21899466-ff6f-4317-991c-3ae485e8c831/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35580728"
           }
         }
       }

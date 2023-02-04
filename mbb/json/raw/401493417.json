@@ -4197,9 +4197,9 @@
         "moneyLine": 320,
         "spreadRecord": {
           "wins": 16,
-          "losses": 5,
+          "losses": 6,
           "pushes": 0,
-          "summary": "16-5-0"
+          "summary": "16-6-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2306"
@@ -4210,10 +4210,10 @@
         "underdog": false,
         "moneyLine": -400,
         "spreadRecord": {
-          "wins": 8,
+          "wins": 9,
           "losses": 13,
           "pushes": 0,
-          "summary": "8-13-0"
+          "summary": "9-13-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2305"
@@ -6290,7 +6290,7 @@
         "uid": "s:40~l:41~e:401493417~c:401493417",
         "date": "2023-02-01T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6492,7 +6492,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "8",
+          "name": "Big 12 Conference",
+          "abbreviation": "big12",
+          "shortName": "Big 12",
+          "midsizeName": "Big 12"
+        }
       }
     ],
     "links": [
@@ -21139,11 +21146,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35566553,
-        "dataSourceIdentifier": "f4961fa239966",
-        "headline": "Travis Kelce hypes up Jayhawks fans",
-        "caption": "Chiefs TE Travis Kelce is spotted at the Kansas game, and he immediately pumps up the crowd.",
-        "description": "Chiefs TE Travis Kelce is spotted at the Kansas game, and he immediately pumps up the crowd.",
+        "id": 35566834,
+        "dataSourceIdentifier": "51cece95cc2cc",
+        "headline": "Dajuan Harris drops in layup in transition",
+        "caption": "Kansas' Dajaun Harris Jr. speeds to the bucket for a smooth layup.",
+        "description": "Kansas' Dajaun Harris Jr. speeds to the bucket for a smooth layup.",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -21152,17 +21159,17 @@
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "OnePlay",
-          "trackingName": "NCB_One-Play (Travis Kelce hypes up Jayhawks fans) 2023/02/01 ESHEET",
-          "trackingId": "dm_20230201_NCB_travis_kelce_hypes_up_jayhawks_fans"
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Dajuan Harris drops in layup in transition) 2023/02/01 ESHEET",
+          "trackingId": "dm_20230201_NCB_dajuan_harris_drops_in_layup_in_transition"
         },
-        "cerebroId": "63d9c7dfbe6ab31ff7350a8c",
+        "cerebroId": "63d9d362be6ab31ff7351956",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-02-02T14:10:29Z",
-        "originalPublishDate": "2023-02-01T02:01:02Z",
+        "lastModified": "2023-02-03T14:06:04Z",
+        "originalPublishDate": "2023-02-01T02:50:08Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-01T02:01:02Z",
+          "embargoDate": "2023-02-01T02:50:08Z",
           "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
@@ -21176,7 +21183,7 @@
           ]
         },
         "syndicatable": true,
-        "duration": 20,
+        "duration": 16,
         "categories": [
           {
             "id": 9576,
@@ -21237,85 +21244,56 @@
             "uid": "s:40~l:41~t:2305"
           },
           {
-            "id": 115523,
-            "description": "Travis Kelce",
+            "id": 409501,
+            "description": "Dajuan Harris Jr.",
             "type": "athlete",
-            "sportId": 28,
-            "athleteId": 15847,
+            "sportId": 41,
+            "athleteId": 4431983,
             "athlete": {
-              "id": 15847,
-              "description": "Travis Kelce",
+              "id": 4431983,
+              "description": "Dajuan Harris Jr.",
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/football/nfl/athletes/15847"
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4431983"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/nfl/player/_/id/15847/travis-kelce"
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431983/dajuan-harris-jr."
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.com/nfl/playercard?playerId=15847"
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4431983"
                   }
                 }
               }
             },
-            "uid": "s:20~l:28~a:15847"
-          },
-          {
-            "id": 2496,
-            "description": "Kansas City Chiefs",
-            "type": "team",
-            "sportId": 28,
-            "teamId": 12,
-            "team": {
-              "id": 12,
-              "description": "Kansas City Chiefs",
-              "links": {
-                "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/football/nfl/teams/12"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/nfl/clubhouse?teamId=12"
-                  }
-                }
-              }
-            },
-            "uid": "s:20~l:28~t:12"
+            "uid": "s:40~l:41~a:4431983"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -21323,66 +21301,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35566553"
+              "href": "http://api-app.espn.com/v1/video/clips/35566834"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/b08a01c3-0bae-48be-b9b4-102bf3d3ca91"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35566553",
+            "href": "http://espn.com/video/clip?id=35566834",
             "short": {
-              "href": "https://es.pn/3jdO2FS"
+              "href": "https://es.pn/3XWHjiw"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35566553"
+              "href": "http://espn.com/video/clip?id=35566834"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35566553"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35566834"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b08a01c3-0bae-48be-b9b4-102bf3d3ca91/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566553",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566834",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b08a01c3-0bae-48be-b9b4-102bf3d3ca91/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566553"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566834"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b08a01c3-0bae-48be-b9b4-102bf3d3ca91/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566553"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566834"
             }
           }
         },
-        "title": "Travis Kelce hypes up Jayhawks fans"
+        "title": "Dajuan Harris drops in layup in transition"
       }
     ],
     "type": "Recap",
@@ -21506,11 +21484,11 @@
     "gameId": "401493417",
     "images": [
       {
-        "name": "Travis Kelce hypes up Jayhawks fans",
+        "name": "Dajuan Harris drops in layup in transition",
         "width": 576,
         "alt": "",
-        "caption": "Chiefs TE Travis Kelce is spotted at the Kansas game, and he immediately pumps up the crowd.",
-        "url": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293.jpg",
+        "caption": "Kansas' Dajaun Harris Jr. speeds to the bucket for a smooth layup.",
+        "url": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.jpg",
         "height": 324
       }
     ],
@@ -21833,6 +21811,99 @@
     },
     {
       "source": "espn",
+      "id": 35566553,
+      "headline": "Travis Kelce hypes up Jayhawks fans",
+      "description": "Chiefs TE Travis Kelce is spotted at the Kansas game, and he immediately pumps up the crowd.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Travis Kelce hypes up Jayhawks fans) 2023/02/01 ESHEET",
+        "trackingId": "dm_20230201_NCB_travis_kelce_hypes_up_jayhawks_fans"
+      },
+      "cerebroId": "63d9c7dfbe6ab31ff7350a8c",
+      "lastModified": "2023-02-02T14:10:29Z",
+      "originalPublishDate": "2023-02-01T02:01:02Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-02-01T02:01:02Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 20,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_210104898_21752551293/ss_20230131_210104898_21752551293.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35566553"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/b08a01c3-0bae-48be-b9b4-102bf3d3ca91"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35566553&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35566553"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35566553&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35566553&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_210104898_2175255/ss_20230131_210104898_2175255.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b08a01c3-0bae-48be-b9b4-102bf3d3ca91/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566553",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b08a01c3-0bae-48be-b9b4-102bf3d3ca91/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566553"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b08a01c3-0bae-48be-b9b4-102bf3d3ca91/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566553"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
       "id": 35566752,
       "headline": "Zach Clemence sinks and-1 for the Jayhawks",
       "description": "Kansas' Dajuan Harris Jr. dishes to Zach Clemence, who drops in a layup while drawing contact.",
@@ -21848,7 +21919,7 @@
         "trackingId": "dm_20230201_NCB_zach_clemence_sinks_and1_for_the_jayhawks"
       },
       "cerebroId": "63d9d02bbe6ab31ff73516bb",
-      "lastModified": "2023-02-01T02:38:47Z",
+      "lastModified": "2023-02-03T14:04:36Z",
       "originalPublishDate": "2023-02-01T02:36:26Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-01T02:36:26Z",
@@ -21920,99 +21991,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a692d563-fa0c-4992-95fe-3250c79e5716/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566752"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35566834,
-      "headline": "Dajuan Harris drops in layup in transition",
-      "description": "Kansas' Dajaun Harris Jr. speeds to the bucket for a smooth layup.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Dajuan Harris drops in layup in transition) 2023/02/01 ESHEET",
-        "trackingId": "dm_20230201_NCB_dajuan_harris_drops_in_layup_in_transition"
-      },
-      "cerebroId": "63d9d362be6ab31ff7351956",
-      "lastModified": "2023-02-01T03:15:34Z",
-      "originalPublishDate": "2023-02-01T02:50:08Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-01T02:50:08Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 16,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35566834"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35566834&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35566834"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35566834&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35566834&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0131/ss_20230131_215012208_2175346/ss_20230131_215012208_2175346.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566834",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566834"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8e36fc2d-62a4-4cfa-98c7-1262f2b6d2a3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35566834"
           }
         }
       }

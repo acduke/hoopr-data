@@ -4125,9 +4125,9 @@
         "moneyLine": 165,
         "spreadRecord": {
           "wins": 13,
-          "losses": 6,
+          "losses": 7,
           "pushes": 0,
-          "summary": "13-6-0"
+          "summary": "13-7-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2638"
@@ -4138,10 +4138,10 @@
         "underdog": false,
         "moneyLine": -190,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 11,
           "pushes": 0,
-          "summary": "9-11-0"
+          "summary": "10-11-0"
         },
         "spreadOdds": -115.0,
         "teamId": "2393"
@@ -5781,7 +5781,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6008,6 +6008,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401487167",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401487167",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -16055,7 +16067,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "c935a7d6ba454",
+    "keywords": [],
+    "description": "\u2014 DeAndre Dishman and reserve Camryn Weston helped lead Middle Tennessee over UTEP on Thursday night with 16 points apiece in an 84-72 victory.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35580262",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35580262"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401487167"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401487167",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35580262"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401487167&version=mobile"
+      }
+    },
+    "id": 35580262,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3409,
+        "description": "Middle Tennessee Blue Raiders",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2393,
+        "team": {
+          "id": 2393,
+          "description": "Middle Tennessee Blue Raiders",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2393"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2393/middle-tennessee-blue-raiders"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2393"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2393"
+      },
+      {
+        "id": 3433,
+        "description": "UTEP Miners",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2638,
+        "team": {
+          "id": 2638,
+          "description": "UTEP Miners",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2638"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2638/utep-miners"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2638"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2638"
+      }
+    ],
+    "headline": "Weston scores 16 as Middle Tennessee defeats UTEP 84-72",
+    "gameId": "401487167",
+    "images": [],
+    "linkText": "Weston scores 16 as Middle Tennessee defeats UTEP 84-72",
+    "published": "2023-02-03T04:41:44Z",
+    "allowComments": true,
+    "lastModified": "2023-02-03T04:41:45Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">MURFREESBORO, Tenn. -- \u2014 DeAndre Dishman and reserve <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897511/camryn-weston\">Camryn Weston</a> helped lead Middle Tennessee over UTEP on Thursday night with 16 points apiece in an 84-72 victory.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Weston added six rebounds for the Blue Raiders (14-9, 7-5 Conference USA). Dishman shot 6 of 7 from the field and 4 for 4 from the line to add 16 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592866/tyler-millin\">Tyler Millin</a> was 7 of 10 shooting (1 for 3 from distance) to finish with 15 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Miners (11-11, 4-7) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396616/tae-hardy\">Tae Hardy</a>, who recorded 21 points. UTEP also got 13 points and six rebounds from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4594155/calvin-solomon\">Calvin Solomon</a>. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397353/shamar-givance\">Shamar Givance</a> also put up nine points and two steals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Middle Tennessee took the lead with 16:27 remaining in the first half and did not give it up. The score was 38-31 at halftime, with <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106880/jestin-porter\">Jestin Porter</a> racking up 11 points. Middle Tennessee outscored UTEP by five points over the final half, while Dishman led the way with a team-high 12 second-half points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

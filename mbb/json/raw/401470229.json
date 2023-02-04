@@ -4231,9 +4231,9 @@
         "moneyLine": -106,
         "spreadRecord": {
           "wins": 11,
-          "losses": 7,
+          "losses": 8,
           "pushes": 1,
-          "summary": "11-7-1"
+          "summary": "11-8-1"
         },
         "spreadOdds": -107.0,
         "teamId": "2710"
@@ -4244,10 +4244,10 @@
         "underdog": true,
         "moneyLine": -110,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 12,
           "pushes": 1,
-          "summary": "9-12-1"
+          "summary": "10-12-1"
         },
         "spreadOdds": -113.0,
         "teamId": "2172"
@@ -5792,7 +5792,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -5988,6 +5988,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401470229",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401470229",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15490,7 +15502,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "a6b32e771a334",
+    "keywords": [],
+    "description": "\u2014 Tommy Bruner had 18 points in Denver's 74-44 victory over Western Illinois on Thursday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35580269",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35580269"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401470229"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401470229",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35580269"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401470229&version=mobile"
+      }
+    },
+    "id": 35580269,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3414,
+        "description": "Denver Pioneers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2172,
+        "team": {
+          "id": 2172,
+          "description": "Denver Pioneers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2172"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2172/denver-pioneers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2172"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2172"
+      },
+      {
+        "id": 3299,
+        "description": "Western Illinois Leathernecks",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2710,
+        "team": {
+          "id": 2710,
+          "description": "Western Illinois Leathernecks",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2710"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2710/western-illinois-leathernecks"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2710"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2710"
+      }
+    ],
+    "headline": "Bruner scores 18, Denver tops Western Illinois 74-44",
+    "gameId": "401470229",
+    "images": [],
+    "linkText": "Bruner scores 18, Denver tops Western Illinois 74-44",
+    "published": "2023-02-03T04:45:44Z",
+    "allowComments": true,
+    "lastModified": "2023-02-03T04:45:44Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">DENVER -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592767/tommy-bruner\">Tommy Bruner</a> had 18 points in Denver's 74-44 victory over Western Illinois on Thursday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Bruner shot 8 for 13, including 2 for 6 from beyond the arc for the Pioneers (13-12, 4-8 Summit League). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5107289/justin-mullins\">Justin Mullins</a> scored 11 points, shooting 4 for 8, including 3 for 3 from beyond the arc. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397116/lukas-kisunas\">Lukas Kisunas</a> recorded 10 points and finished 5 of 6 from the floor. Marko Luki had 10 on 3 of 4 from the field with two 3 pointers.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4594126/trenton-massner\">Trenton Massner</a> led the way for the Leathernecks (14-9, 7-5) with nine points and two steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703627/quinlan-bennett\">Quinlan Bennett</a> added nine points for Western Illinois. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5108994/jesiah-west\">Jesiah West</a> also recorded eight points, 11 rebounds and two steals. The Leathernecks broke a five-game winning streak with the loss.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

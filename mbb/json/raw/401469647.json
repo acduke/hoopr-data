@@ -4120,10 +4120,10 @@
         "underdog": true,
         "moneyLine": 200,
         "spreadRecord": {
-          "wins": 13,
+          "wins": 14,
           "losses": 9,
           "pushes": 0,
-          "summary": "13-9-0"
+          "summary": "14-9-0"
         },
         "spreadOdds": -110.0,
         "teamId": "331"
@@ -4135,9 +4135,9 @@
         "moneyLine": -240,
         "spreadRecord": {
           "wins": 9,
-          "losses": 12,
+          "losses": 13,
           "pushes": 0,
-          "summary": "9-12-0"
+          "summary": "9-13-0"
         },
         "spreadOdds": -110.0,
         "teamId": "149"
@@ -5909,7 +5909,7 @@
         "uid": "s:40~l:41~e:401469647~c:401469647",
         "date": "2022-12-30T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6109,14 +6109,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "5",
-          "name": "Big Sky Conference",
-          "abbreviation": "bsky",
-          "shortName": "Big Sky",
-          "midsizeName": "Big Sky"
-        }
+        ]
       }
     ],
     "links": [
@@ -17537,8 +17530,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-13",
-                  "displayValue": "9-13"
+                  "summary": "10-13",
+                  "displayValue": "10-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -17547,8 +17540,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.0,
-                  "displayValue": "7"
+                  "value": 6.5,
+                  "displayValue": "6.5"
                 },
                 {
                   "id": "9",
@@ -17558,8 +17551,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-6",
-                  "displayValue": "3-6"
+                  "summary": "4-6",
+                  "displayValue": "4-6"
                 }
               ],
               "logo": [
@@ -17573,59 +17566,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Idaho",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/70/idaho-vandals",
-              "id": "70",
-              "uid": "s:40~l:41~t:70",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-15",
-                  "displayValue": "8-15"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 8.5,
-                  "displayValue": "8.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "2-8",
-                  "displayValue": "2-8"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-11-04T21:05Z"
                 }
               ]
             },
@@ -17732,6 +17672,59 @@
                     "default"
                   ],
                   "lastUpdated": "2022-12-08T23:27Z"
+                }
+              ]
+            },
+            {
+              "team": "Idaho",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/70/idaho-vandals",
+              "id": "70",
+              "uid": "s:40~l:41~t:70",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-16",
+                  "displayValue": "8-16"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 9.0,
+                  "displayValue": "9"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-9",
+                  "displayValue": "2-9"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-11-04T21:05Z"
                 }
               ]
             }
