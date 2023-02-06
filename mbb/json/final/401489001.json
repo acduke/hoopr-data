@@ -3418,7 +3418,7 @@
         "uid": "s:40~l:41~e:401489001~c:401489001",
         "date": "2022-12-10T22:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -4069,8 +4069,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-5",
-                  "displayValue": "18-5"
+                  "summary": "19-5",
+                  "displayValue": "19-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -4079,8 +4079,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -4090,8 +4090,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-3",
-                  "displayValue": "9-3"
+                  "summary": "10-3",
+                  "displayValue": "10-3"
                 }
               ],
               "logo": [
@@ -4228,8 +4228,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-7",
-                  "displayValue": "15-7"
+                  "summary": "15-8",
+                  "displayValue": "15-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -4238,8 +4238,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 5.5,
+                  "displayValue": "5.5"
                 },
                 {
                   "id": "9",
@@ -4249,8 +4249,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-5",
-                  "displayValue": "6-5"
+                  "summary": "6-6",
+                  "displayValue": "6-6"
                 }
               ],
               "logo": [
@@ -4594,6 +4594,59 @@
         "standings": {
           "entries": [
             {
+              "team": "Drake",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2181/drake-bulldogs",
+              "id": "2181",
+              "uid": "s:40~l:41~t:2181",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "19-6",
+                  "displayValue": "19-6"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "10-4",
+                  "displayValue": "10-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Belmont",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2057/belmont-bruins",
               "id": "2057",
@@ -4696,59 +4749,6 @@
                     "default"
                   ],
                   "lastUpdated": "2023-01-24T18:33Z"
-                }
-              ]
-            },
-            {
-              "team": "Drake",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2181/drake-bulldogs",
-              "id": "2181",
-              "uid": "s:40~l:41~t:2181",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "18-6",
-                  "displayValue": "18-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "9-4",
-                  "displayValue": "9-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -5084,8 +5084,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-14",
-                  "displayValue": "10-14"
+                  "summary": "10-15",
+                  "displayValue": "10-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -5094,8 +5094,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -5105,8 +5105,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-9",
-                  "displayValue": "4-9"
+                  "summary": "4-10",
+                  "displayValue": "4-10"
                 }
               ],
               "logo": [
@@ -6069,7 +6069,7 @@
     "uid": "s:40~l:41~e:401489001~c:401489001",
     "date": "2022-12-10T22:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,

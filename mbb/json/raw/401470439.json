@@ -6081,7 +6081,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6257,14 +6257,7 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": [],
-        "groups": {
-          "id": "29",
-          "name": "West Coast Conference",
-          "abbreviation": "wcc",
-          "shortName": "WCC",
-          "midsizeName": "West Coast"
-        }
+        "broadcasts": []
       }
     ],
     "links": [
@@ -6277,6 +6270,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401470439",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401470439",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -17010,7 +17015,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "93dce8716881f",
+    "keywords": [],
+    "description": "\u2014 Marcellus Earlington scored 30 points as San Diego beat Loyola Marymount 87-79 on Saturday.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35592289",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35592289"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401470439"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401470439",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35592289"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401470439&version=mobile"
+      }
+    },
+    "id": 35592289,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3416,
+        "description": "San Diego Toreros",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 301,
+        "team": {
+          "id": 301,
+          "description": "San Diego Toreros",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/301"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=301"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:301"
+      },
+      {
+        "id": 3418,
+        "description": "Loyola Marymount Lions",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2351,
+        "team": {
+          "id": 2351,
+          "description": "Loyola Marymount Lions",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2351"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2351/loyola-marymount-lions"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2351"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2351"
+      }
+    ],
+    "headline": "Earlington scores 30 as San Diego knocks off LMU 87-79",
+    "gameId": "401470439",
+    "images": [],
+    "linkText": "Earlington scores 30 as San Diego knocks off LMU 87-79",
+    "published": "2023-02-05T06:52:15Z",
+    "allowComments": true,
+    "lastModified": "2023-02-05T06:52:16Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">SAN DIEGO -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397124/marcellus-earlington\">Marcellus Earlington</a> scored 30 points as San Diego beat Loyola Marymount 87-79 on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Earlington had six rebounds for the Toreros (11-14, 4-7 West Coast Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702497/deuce-turner\">Deuce Turner</a> scored 20 points and added five assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593773/seikou-sisoho-jawara\">Seikou Sisoho Jawara</a> shot 5 for 9, including 2 for 5 from beyond the arc to finish with 13 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Cameron Shelton finished with 25 points, seven rebounds and four assists for the Lions (16-9, 6-5). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432031/keli-leaupepe\">Keli Leaupepe</a> added 15 points, six rebounds and two steals for Loyola Marymount. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702761/michael-graham\">Michael Graham</a> had 14 points, 15 rebounds and two blocks.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">A 10-0 run in the first half gave San Diego a 10-point lead. The teams entered the break with San Diego ahead 43-38, while Earlington led his club in scoring with 13 points. San Diego used an 18-0 second-half run to come back from a nine-point deficit and take the lead at 76-67 with 4:43 left in the half before finishing off the victory. Earlington scored 17 second-half points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams next play Thursday. San Diego visits Santa Clara while Loyola Marymount hosts Saint Mary's (Cal).\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
@@ -17035,8 +17202,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "20-4",
-                  "displayValue": "20-4"
+                  "summary": "21-4",
+                  "displayValue": "21-4"
                 },
                 {
                   "name": "gamesBehind",
@@ -17056,8 +17223,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-0",
-                  "displayValue": "9-0"
+                  "summary": "10-0",
+                  "displayValue": "10-0"
                 }
               ],
               "logo": [
@@ -17088,8 +17255,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "19-4",
-                  "displayValue": "19-4"
+                  "summary": "19-5",
+                  "displayValue": "19-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17098,8 +17265,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -17109,8 +17276,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-1",
-                  "displayValue": "8-1"
+                  "summary": "8-2",
+                  "displayValue": "8-2"
                 }
               ],
               "logo": [
@@ -17151,8 +17318,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -17204,8 +17371,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -17257,8 +17424,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "id": "9",
@@ -17310,8 +17477,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "id": "9",
@@ -17363,8 +17530,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 6.5,
+                  "displayValue": "6.5"
                 },
                 {
                   "id": "9",
@@ -17416,8 +17583,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 6.5,
+                  "displayValue": "6.5"
                 },
                 {
                   "id": "9",
@@ -17469,8 +17636,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 6.5,
+                  "displayValue": "6.5"
                 },
                 {
                   "id": "9",
@@ -17522,8 +17689,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 9.0,
-                  "displayValue": "9"
+                  "value": 9.5,
+                  "displayValue": "9.5"
                 },
                 {
                   "id": "9",

@@ -6416,7 +6416,7 @@
         "uid": "s:40~l:41~e:401490328~c:401490328",
         "date": "2023-01-07T22:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6617,7 +6617,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "21",
+          "name": "Pac-12 Conference",
+          "abbreviation": "pac12",
+          "shortName": "Pac-12",
+          "midsizeName": "Pac-12"
+        }
       }
     ],
     "links": [
@@ -18623,8 +18630,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-9",
-                  "displayValue": "15-9"
+                  "summary": "16-9",
+                  "displayValue": "16-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -18633,8 +18640,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -18644,8 +18651,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-5",
-                  "displayValue": "8-5"
+                  "summary": "9-5",
+                  "displayValue": "9-5"
                 }
               ],
               "logo": [
@@ -19047,8 +19054,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-19",
-                  "displayValue": "3-19"
+                  "summary": "3-20",
+                  "displayValue": "3-20"
                 },
                 {
                   "name": "gamesBehind",
@@ -19057,8 +19064,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.5,
-                  "displayValue": "7.5"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "id": "9",
@@ -19068,8 +19075,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-9",
-                  "displayValue": "2-9"
+                  "summary": "2-10",
+                  "displayValue": "2-10"
                 }
               ],
               "logo": [

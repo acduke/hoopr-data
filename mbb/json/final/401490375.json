@@ -24160,7 +24160,7 @@
         "uid": "s:40~l:41~e:401490375~c:401490375",
         "date": "2023-02-05T02:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -24465,6 +24465,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401490375",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401490375",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -25461,99 +25473,6 @@
           }
         }
       }
-    },
-    {
-      "source": "espn",
-      "id": 35591756,
-      "headline": "Tre White gets the layup to fall vs. Washington Huskies",
-      "description": "Tre White gets the layup to fall vs. Washington Huskies.\n",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "sportscenter"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Tre White gets the layup to fall vs. Washington Huskies) 2023/02/05 ESHEET",
-        "trackingId": "dm_20230205_NCB_tre_white_gets_the_layup_to_fall_vs_washington_huskies"
-      },
-      "cerebroId": "63df31dbca84b70e7ea1f8a3",
-      "lastModified": "2023-02-05T04:43:35Z",
-      "originalPublishDate": "2023-02-05T04:34:32Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-05T04:34:32Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 23,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35591756"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/bdcae0f6-1e5c-4afc-abf1-a135f941f011"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35591756&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35591756"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35591756&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35591756&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bdcae0f6-1e5c-4afc-abf1-a135f941f011/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591756",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bdcae0f6-1e5c-4afc-abf1-a135f941f011/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591756"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bdcae0f6-1e5c-4afc-abf1-a135f941f011/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591756"
-          }
-        }
-      }
     }
   ],
   "playByPlaySource": "full",
@@ -25739,8 +25658,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-9",
-                  "displayValue": "15-9"
+                  "summary": "16-9",
+                  "displayValue": "16-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -25749,8 +25668,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -25760,8 +25679,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-5",
-                  "displayValue": "8-5"
+                  "summary": "9-5",
+                  "displayValue": "9-5"
                 }
               ],
               "logo": [
@@ -25898,8 +25817,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-11",
-                  "displayValue": "13-11"
+                  "summary": "14-11",
+                  "displayValue": "14-11"
                 },
                 {
                   "name": "gamesBehind",
@@ -25908,8 +25827,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "id": "9",
@@ -25919,66 +25838,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-8",
-                  "displayValue": "5-8"
+                  "summary": "6-8",
+                  "displayValue": "6-8"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Stanford",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal",
-              "id": "24",
-              "uid": "s:40~l:41~t:24",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "10-12",
-                  "displayValue": "10-12"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -26097,6 +25963,59 @@
               ]
             },
             {
+              "team": "Stanford",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/24/stanford-cardinal",
+              "id": "24",
+              "uid": "s:40~l:41~t:24",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "10-13",
+                  "displayValue": "10-13"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 6.0,
+                  "displayValue": "6"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-8",
+                  "displayValue": "4-8"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Oregon State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/204/oregon-state-beavers",
               "id": "204",
@@ -26163,8 +26082,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "3-19",
-                  "displayValue": "3-19"
+                  "summary": "3-20",
+                  "displayValue": "3-20"
                 },
                 {
                   "name": "gamesBehind",
@@ -26173,8 +26092,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.5,
-                  "displayValue": "7.5"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "id": "9",
@@ -26184,8 +26103,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-9",
-                  "displayValue": "2-9"
+                  "summary": "2-10",
+                  "displayValue": "2-10"
                 }
               ],
               "logo": [
@@ -26209,7 +26128,426 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "cf3342f55c409",
+    "keywords": [],
+    "description": "\u2014 Tre White totaled 22 points, Kobe Johnson scored 21 and Southern California turned back Washington 80-74 on Saturday night.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35591756,
+        "dataSourceIdentifier": "fb19847dd607f",
+        "headline": "Tre White gets the layup to fall vs. Washington Huskies",
+        "caption": "Tre White gets the layup to fall vs. Washington Huskies.\n",
+        "description": "Tre White gets the layup to fall vs. Washington Huskies.\n",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "sportscenter"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Tre White gets the layup to fall vs. Washington Huskies) 2023/02/05 ESHEET",
+          "trackingId": "dm_20230205_NCB_tre_white_gets_the_layup_to_fall_vs_washington_huskies"
+        },
+        "cerebroId": "63df31dbca84b70e7ea1f8a3",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-02-05T04:43:35Z",
+        "originalPublishDate": "2023-02-05T04:34:32Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-02-05T04:34:32Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 23,
+        "categories": [
+          {
+            "id": 3347,
+            "description": "USC Trojans",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 30,
+            "team": {
+              "id": 30,
+              "description": "USC Trojans",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/30"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=30"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:30"
+          },
+          {
+            "id": 568427,
+            "description": "Tre White",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 5105643,
+            "athlete": {
+              "id": 5105643,
+              "description": "Tre White",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/5105643"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/5105643/tre-white"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=5105643"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:5105643"
+          },
+          {
+            "id": 3349,
+            "description": "Washington Huskies",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 264,
+            "team": {
+              "id": 264,
+              "description": "Washington Huskies",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/264"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=264"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:264"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35591756"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/bdcae0f6-1e5c-4afc-abf1-a135f941f011"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35591756",
+            "short": {
+              "href": "https://es.pn/3DHIfPK"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35591756"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35591756"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bdcae0f6-1e5c-4afc-abf1-a135f941f011/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591756",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bdcae0f6-1e5c-4afc-abf1-a135f941f011/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591756"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bdcae0f6-1e5c-4afc-abf1-a135f941f011/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591756"
+            }
+          }
+        },
+        "title": "Tre White gets the layup to fall vs. Washington Huskies"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35592051",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35592051"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401490375"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401490375",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35592051"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401490375&version=mobile"
+      }
+    },
+    "id": 35592051,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3347,
+        "description": "USC Trojans",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 30,
+        "team": {
+          "id": 30,
+          "description": "USC Trojans",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/30"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/30/usc-trojans"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=30"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:30"
+      },
+      {
+        "id": 3349,
+        "description": "Washington Huskies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 264,
+        "team": {
+          "id": 264,
+          "description": "Washington Huskies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/264"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/264/washington-huskies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=264"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:264"
+      }
+    ],
+    "headline": "White, Johnson propel USC to 80-74 victory over Washington",
+    "gameId": "401490375",
+    "images": [
+      {
+        "name": "Tre White gets the layup to fall vs. Washington Huskies",
+        "width": 576,
+        "alt": "",
+        "caption": "Tre White gets the layup to fall vs. Washington Huskies.\n",
+        "url": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_233436299_2180086/ss_20230204_233436299_2180086.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "White, Johnson propel USC to 80-74 victory over Washington",
+    "published": "2023-02-05T05:29:17Z",
+    "allowComments": true,
+    "lastModified": "2023-02-05T05:29:17Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LOS ANGELES -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105643/tre-white\">Tre White</a> totaled 22 points, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683857/kobe-johnson\">Kobe Johnson</a> scored 21 and Southern California turned back Washington 80-74 on Saturday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">USC's fourth straight win was the 200th victory for coach Andy Enfield, who is in his 10th season with the Trojans.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">White made 10 of 16 shots from the floor and added eight rebounds and four assists for the Trojans (17-6, 9-3 Pac-12 Conference). Johnson sank 5 of 7 shots with two 3-points and made all nine of his free throws. He added five assists and four steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593106/boogie-ellis\">Boogie Ellis</a> contributed 14 points and five assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397689/drew-peterson\">Drew Peterson</a> pitched in with 11 points, 10 rebounds, eight assists and two blocks. It was his fourth double-double this season.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431689/keion-brooks\">Keion Brooks</a> Jr. made 11 of 13 foul shots and scored 22 points to lead the Huskies (13-12, 5-9), who have lost three straight. Brooks added 12 rebounds for his fifth double-double of the season, and four assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105651/keyon-menifield\">Keyon Menifield</a> hit four 3-pointers and scored 21 with four assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703242/braxton-meah\">Braxton Meah</a> added 11 points before fouling out and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397155/jamal-bey\">Jamal Bey</a> scored 10.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">A dunk by Meah gave Washington a 16-9 lead at the 11:49 mark of the first half. White scored nine in an 11-0 run and his three-point play gave the Trojans a 31-22 lead with 3:06 left. Menifield hit a 3-pointer and two free throws to get the Huskies within 34-27 at the half.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Meah had baskets to begin and end an 8-0 run and Washington grabbed a 35-34 lead with 17:13 remaining to play. Menifield buried a 3-pointer to give the Huskies a 60-58 lead at the 4:11 mark. Ellis followed with a jumper, Johnson hit a 3-pointer and White scored off a turnover to push USC's lead to 65-60. The Huskies got no closer than three over the final 2:44.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">USC shot 45% overall to Washington's 44%. The Trojans hit only 4 of 22 shots from 3-point range, while the Huskies sank 6 of 17. Washington had a 20-18 edge at the free-throw line. USC outscored Washington 42-32 in the paint and had 23 assists to just 12 for the Huskies.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Southern Cal: The Trojans travel to play Oregon on Thursday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Washington: The Huskies travel to play Washington State on Saturday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "leaders": [
     {
       "team": {
@@ -26883,7 +27221,7 @@
     "uid": "s:40~l:41~e:401490375~c:401490375",
     "date": "2023-02-05T02:30Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,

@@ -2830,10 +2830,11 @@
                       "text": "Overview"
                     }
                   ],
+                  "jersey": "12",
                   "position": {
-                    "name": "Athlete",
-                    "displayName": "Athlete",
-                    "abbreviation": "ATH"
+                    "name": "Forward",
+                    "displayName": "Forward",
+                    "abbreviation": "F"
                   }
                 },
                 "starter": false,
@@ -5883,7 +5884,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "44",
+          "name": "Mountain West Conference",
+          "abbreviation": "mwest",
+          "shortName": "Mountain West",
+          "midsizeName": "Mountain West"
+        }
       }
     ],
     "links": [
@@ -5896,6 +5904,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401482848",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401482848",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -15188,7 +15208,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "995437a65a0be",
+    "keywords": [],
+    "description": "\u2014 Omari Moore scored 29 points as San Jose State beat Wyoming 84-64 on Saturday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35592287",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35592287"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401482848"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401482848",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35592287"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401482848&version=mobile"
+      }
+    },
+    "id": 35592287,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3424,
+        "description": "San Jos\u00e9 State Spartans",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 23,
+        "team": {
+          "id": 23,
+          "description": "San Jos\u00e9 State Spartans",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/23"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/23/san-jos\u00e9-state-spartans"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=23"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:23"
+      },
+      {
+        "id": 3448,
+        "description": "Wyoming Cowboys",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2751,
+        "team": {
+          "id": 2751,
+          "description": "Wyoming Cowboys",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2751"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2751/wyoming-cowboys"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2751"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2751"
+      }
+    ],
+    "headline": "Moore's 29 lead San Jose State over Wyoming 84-64",
+    "gameId": "401482848",
+    "images": [],
+    "linkText": "Moore's 29 lead San Jose State over Wyoming 84-64",
+    "published": "2023-02-05T06:50:15Z",
+    "allowComments": true,
+    "lastModified": "2023-02-05T06:50:16Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">SAN JOSE, Calif. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593095/omari-moore\">Omari Moore</a> scored 29 points as San Jose State beat Wyoming 84-64 on Saturday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Moore added six rebounds and six assists for the Spartans (14-9, 5-5 Mountain West Conference). Sage Tolbert scored 14 points while going 5 of 8 and 3 of 4 from the free throw line, and added five rebounds and three steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897535/alvaro-cardenas\">Alvaro Cardenas</a> Torre was 5-of-9 shooting (3 for 6 from distance) to finish with 13 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4280267/hunter-maldonado\">Hunter Maldonado</a> finished with 34 points for the Cowboys (7-15, 2-8). Wyoming also got 12 points from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703399/jeremiah-oden\">Jeremiah Oden</a>. Xavier Dusell also had six points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">San Jose State took the lead with 11:07 remaining in the first half and did not give it up. The score was 39-28 at halftime, with Moore racking up 14 points. San Jose State pulled away with a 7-0 run in the second half to extend a five-point lead to 12 points. They outscored Wyoming by nine points in the final half, as Moore led the way with a team-high 15 second-half points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">San Jose State plays Tuesday against Fresno State on the road, and Wyoming hosts UNLV on Wednesday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

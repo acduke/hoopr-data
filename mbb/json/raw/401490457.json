@@ -5723,7 +5723,7 @@
         "uid": "s:40~l:41~e:401490457~c:401490457",
         "date": "2023-01-31T00:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5907,7 +5907,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "16",
+          "name": "Mid-Eastern Athletic Conference",
+          "abbreviation": "meac",
+          "shortName": "MEAC",
+          "midsizeName": "MEAC"
+        }
       }
     ],
     "links": [
@@ -16969,8 +16976,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -16980,8 +16987,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-3",
-                  "displayValue": "5-3"
+                  "summary": "4-3",
+                  "displayValue": "4-3"
                 }
               ],
               "logo": [
@@ -17075,8 +17082,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -17086,8 +17093,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "3-5",
-                  "displayValue": "3-5"
+                  "summary": "3-4",
+                  "displayValue": "3-4"
                 }
               ],
               "logo": [

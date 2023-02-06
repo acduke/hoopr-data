@@ -19234,7 +19234,7 @@
         "uid": "s:40~l:41~e:401492673~c:401492673",
         "date": "2022-12-29T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -19435,6 +19435,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "62",
+          "name": "American Athletic Conference",
+          "abbreviation": "aac",
+          "shortName": "American",
+          "midsizeName": "American"
+        },
         "home": {
           "id": "2116",
           "uid": "s:40~l:41~t:2116",
@@ -20089,6 +20096,59 @@
               ]
             },
             {
+              "team": "Wichita State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2724/wichita-state-shockers",
+              "id": "2724",
+              "uid": "s:40~l:41~t:2724",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-11",
+                  "displayValue": "12-11"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.5,
+                  "displayValue": "4.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-6",
+                  "displayValue": "5-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "UCF",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2116/ucf-knights",
               "id": "2116",
@@ -20138,59 +20198,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-09-01T23:51Z"
-                }
-              ]
-            },
-            {
-              "team": "Wichita State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2724/wichita-state-shockers",
-              "id": "2724",
-              "uid": "s:40~l:41~t:2724",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "11-11",
-                  "displayValue": "11-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-6",
-                  "displayValue": "4-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -20367,8 +20374,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-16",
-                  "displayValue": "5-16"
+                  "summary": "5-17",
+                  "displayValue": "5-17"
                 },
                 {
                   "name": "gamesBehind",
@@ -20377,8 +20384,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 8.0,
-                  "displayValue": "8"
+                  "value": 8.5,
+                  "displayValue": "8.5"
                 },
                 {
                   "id": "9",
@@ -20388,8 +20395,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-9",
-                  "displayValue": "1-9"
+                  "summary": "1-10",
+                  "displayValue": "1-10"
                 }
               ],
               "logo": [
@@ -21102,10 +21109,10 @@
         "underdog": true,
         "moneyLine": 235,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 10,
           "pushes": 1,
-          "summary": "11-10-1"
+          "summary": "12-10-1"
         },
         "spreadOdds": -103.0,
         "teamId": "2724"
@@ -21238,7 +21245,7 @@
     "uid": "s:40~l:41~e:401492673~c:401492673",
     "date": "2022-12-29T00:00Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -21439,6 +21446,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "62",
+      "name": "American Athletic Conference",
+      "abbreviation": "aac",
+      "shortName": "American",
+      "midsizeName": "American"
+    },
     "home": {
       "id": "2116",
       "uid": "s:40~l:41~t:2116",

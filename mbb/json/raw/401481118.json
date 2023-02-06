@@ -6419,7 +6419,7 @@
         "uid": "s:40~l:41~e:401481118~c:401481118",
         "date": "2023-02-05T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6619,14 +6619,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "30",
-          "name": "Western Athletic Conference",
-          "abbreviation": "wac",
-          "shortName": "WAC",
-          "midsizeName": "WAC"
-        }
+        ]
       }
     ],
     "links": [
@@ -6639,6 +6632,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401481118",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401481118",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -17528,7 +17533,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "448fb6b50390d",
+    "keywords": [],
+    "description": "\u2014 Anthony Roy scored 15 points to guide New Mexico State past Seattle University 82-75 on Saturday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35592194",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35592194"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401481118"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401481118",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35592194"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401481118&version=mobile"
+      }
+    },
+    "id": 35592194,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3411,
+        "description": "New Mexico State Aggies",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 166,
+        "team": {
+          "id": 166,
+          "description": "New Mexico State Aggies",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/166"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=166"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:166"
+      },
+      {
+        "id": 58984,
+        "description": "Seattle U Redhawks",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2547,
+        "team": {
+          "id": 2547,
+          "description": "Seattle U Redhawks",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2547"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2547/seattle-u-redhawks"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2547"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2547"
+      }
+    ],
+    "headline": "Roy leads New Mexico State past Seattle University 82-75",
+    "gameId": "401481118",
+    "images": [],
+    "linkText": "Roy leads New Mexico State past Seattle University 82-75",
+    "published": "2023-02-05T05:56:15Z",
+    "allowComments": true,
+    "lastModified": "2023-02-05T05:56:16Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LAS CRUCES, N.M. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4701189/anthony-roy\">Anthony Roy</a> scored 15 points to guide New Mexico State past Seattle University 82-75 on Saturday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Roy also had six rebounds for the Aggies (9-14, 2-9 Western Athletic Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432891/dajuan-gordon\">DaJuan Gordon</a> added 14 points and three blocks. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5108977/issa-muhammad\">Issa Muhammad</a> shot 5 of 6 from the field and scored 12.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Redhawks (16-8, 7-4) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397285/cameron-tyson\">Cameron Tyson</a> with 24 points and six rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396001/riley-grigsby\">Riley Grigsby</a> added 17 points and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4712280/alex-schumacher\">Alex Schumacher</a> scored 14.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams next play Wednesday. New Mexico State visits Grand Canyon, while Seattle U hosts Utah Tech.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {
