@@ -5999,7 +5999,7 @@
         "uid": "s:40~l:41~e:401488288~c:401488288",
         "date": "2023-02-02T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6198,7 +6198,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "1",
+          "name": "America East Conference",
+          "abbreviation": "aeast",
+          "shortName": "Am. East",
+          "midsizeName": "America East"
+        }
       }
     ],
     "links": [
@@ -15381,8 +15388,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "19-6",
-                  "displayValue": "19-6"
+                  "summary": "20-6",
+                  "displayValue": "20-6"
                 },
                 {
                   "name": "gamesBehind",
