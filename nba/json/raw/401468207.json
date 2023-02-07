@@ -4210,7 +4210,7 @@
       "description": "Regular Season Series",
       "summary": "WSH leads series 1-0",
       "completed": false,
-      "totalCompetitions": 3,
+      "totalCompetitions": 4,
       "events": [
         {
           "id": "401468207",
@@ -4385,6 +4385,96 @@
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401468924",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            }
+          ]
+        },
+        {
+          "id": "401526670",
+          "uid": "s:40~l:46~e:401526670~c:401526670",
+          "date": "2023-03-08T00:00:00Z",
+          "timeValid": true,
+          "status": "pre",
+          "statusType": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Tue, March 7th at 7:00 PM EST",
+            "shortDetail": "3/7 - 7:00 PM EST"
+          },
+          "broadcasts": [],
+          "competitors": [
+            {
+              "homeAway": "home",
+              "team": {
+                "id": "8",
+                "uid": "s:40~l:46~t:8",
+                "displayName": "Detroit Pistons",
+                "abbreviation": "DET",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/det",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+              },
+              "score": "0"
+            },
+            {
+              "homeAway": "away",
+              "team": {
+                "id": "27",
+                "uid": "s:40~l:46~t:27",
+                "displayName": "Washington Wizards",
+                "abbreviation": "WSH",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/wsh/washington-wizards",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/wsh",
+                    "text": "Schedule"
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
+              },
+              "score": "0"
+            }
+          ],
+          "links": [
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "desktop",
+                "event"
+              ],
+              "href": "https://www.espn.com/nba/game/_/gameId/401526670",
+              "text": "Gamecast",
+              "shortText": "Summary",
+              "isExternal": false,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "summary",
+                "sportscenter",
+                "app",
+                "event"
+              ],
+              "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401526670",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -7262,7 +7352,7 @@
             "description": "Regular Season Series",
             "summary": "WSH leads series 1-0",
             "completed": false,
-            "totalCompetitions": 3,
+            "totalCompetitions": 4,
             "competitors": [
               {
                 "id": "27",
@@ -7291,6 +7381,10 @@
               {
                 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401468924?lang=en&region=us",
                 "id": "401468924"
+              },
+              {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401526670?lang=en&region=us",
+                "id": "401526670"
               },
               {
                 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/events/401469183?lang=en&region=us",
