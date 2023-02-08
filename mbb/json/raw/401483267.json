@@ -4057,9 +4057,9 @@
         "moneyLine": 1139,
         "spreadRecord": {
           "wins": 12,
-          "losses": 9,
+          "losses": 10,
           "pushes": 0,
-          "summary": "12-9-0"
+          "summary": "12-10-0"
         },
         "spreadOdds": -103.0,
         "teamId": "2448"
@@ -5745,7 +5745,7 @@
         "uid": "s:40~l:41~e:401483267~c:401483267",
         "date": "2022-11-13T18:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -17370,8 +17370,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-5",
-                  "displayValue": "18-5"
+                  "summary": "19-5",
+                  "displayValue": "19-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17380,8 +17380,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -17391,8 +17391,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-4",
-                  "displayValue": "6-4"
+                  "summary": "7-4",
+                  "displayValue": "7-4"
                 }
               ],
               "logo": [
@@ -17406,59 +17406,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "TCU",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
-              "id": "2628",
-              "uid": "s:40~l:41~t:2628",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "17-6",
-                  "displayValue": "17-6"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-4",
-                  "displayValue": "6-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2023-01-06T17:01Z"
                 }
               ]
             },
@@ -17512,6 +17459,59 @@
                     "default"
                   ],
                   "lastUpdated": "2021-02-16T17:25Z"
+                }
+              ]
+            },
+            {
+              "team": "TCU",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2628/tcu-horned-frogs",
+              "id": "2628",
+              "uid": "s:40~l:41~t:2628",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "17-7",
+                  "displayValue": "17-7"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "6-5",
+                  "displayValue": "6-5"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2023-01-06T17:01Z"
                 }
               ]
             },

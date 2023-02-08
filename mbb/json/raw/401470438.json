@@ -2379,7 +2379,7 @@
                   "0",
                   "3",
                   "3",
-                  "2",
+                  "1",
                   "4",
                   "0",
                   "0",
@@ -3100,7 +3100,7 @@
                   "0",
                   "3",
                   "3",
-                  "0",
+                  "1",
                   "1",
                   "2",
                   "1",
@@ -6150,7 +6150,7 @@
         "uid": "s:40~l:41~e:401470438~c:401470438",
         "date": "2023-02-05T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6334,7 +6334,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "29",
+          "name": "West Coast Conference",
+          "abbreviation": "wcc",
+          "shortName": "WCC",
+          "midsizeName": "West Coast"
+        }
       }
     ],
     "links": [

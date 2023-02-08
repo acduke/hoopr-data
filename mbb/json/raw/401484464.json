@@ -5725,7 +5725,7 @@
         "uid": "s:40~l:41~e:401484464~c:401484464",
         "date": "2023-02-04T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5940,7 +5940,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "3",
+          "name": "Atlantic 10 Conference",
+          "abbreviation": "atl10",
+          "shortName": "A 10",
+          "midsizeName": "Atlantic 10"
+        }
       }
     ],
     "links": [
@@ -15615,11 +15622,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35584774,
-        "dataSourceIdentifier": "6ae3f004b4273",
-        "headline": "Adrian Baldwin's efficient 37 leads VCU to road win",
-        "caption": "Adrian Baldwin goes for 37 on an efficient 12-of-15 from the floor in VCU's important road win over St. Louis.",
-        "description": "Adrian Baldwin goes for 37 on an efficient 12-of-15 from the floor in VCU's important road win over St. Louis.",
+        "id": 35584265,
+        "dataSourceIdentifier": "047968cb6bb22",
+        "headline": "David Shriver rocks the rim with powerful jam",
+        "caption": "David Shriver rocks the rim with powerful jam",
+        "description": "David Shriver rocks the rim with powerful jam",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -15628,17 +15635,17 @@
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Final Game Highlight",
-          "trackingName": "COM_NCB Highlight (Adrian Baldwin's efficient 37 leads VCU to road win) 2023/02/04 ESHEET SOTFULL",
-          "trackingId": "dm_20230204_NCB_adrian_baldwins_efficient_37_leads_vcu_to_road_win"
+          "coverageType": "OnePlay",
+          "trackingName": "NCB_One-Play (David Shriver rocks the rim with powerful jam) 2023/02/04 ESHEET",
+          "trackingId": "dm_20230204_NCB_david_shriver_rocks_the_rim_with_powerful_jam"
         },
-        "cerebroId": "63ddbe47ca84b70e7ea0afea",
+        "cerebroId": "63dda30eca84b70e7ea0949a",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-02-04T02:23:43Z",
-        "originalPublishDate": "2023-02-04T02:09:09Z",
+        "lastModified": "2023-02-07T13:19:04Z",
+        "originalPublishDate": "2023-02-04T00:13:00Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-04T02:09:09Z",
+          "embargoDate": "2023-02-04T00:13:00Z",
           "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
@@ -15652,36 +15659,36 @@
           ]
         },
         "syndicatable": true,
-        "duration": 131,
+        "duration": 15,
         "categories": [
           {
-            "id": 453335,
-            "description": "Adrian Baldwin Jr.",
-            "type": "athlete",
+            "id": 23057,
+            "description": "Saint Louis Billikens",
+            "type": "team",
             "sportId": 41,
-            "athleteId": 4433182,
-            "athlete": {
-              "id": 4433182,
-              "description": "Adrian Baldwin Jr.",
+            "teamId": 139,
+            "team": {
+              "id": 139,
+              "description": "Saint Louis Billikens",
               "links": {
                 "api": {
-                  "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4433182"
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/139"
                   }
                 },
                 "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433182/adrian-baldwin-jr."
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/139/saint-louis-billikens"
                   }
                 },
                 "mobile": {
-                  "athletes": {
-                    "href": "http://m.espn.com/ncb/playercard?playerId=4433182"
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=139"
                   }
                 }
               }
             },
-            "uid": "s:40~l:41~a:4433182"
+            "uid": "s:40~l:41~t:139"
           },
           {
             "id": 9576,
@@ -15711,6 +15718,35 @@
               }
             },
             "uid": "s:40~l:41"
+          },
+          {
+            "id": 513275,
+            "description": "David Shriver",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4902627,
+            "athlete": {
+              "id": 4902627,
+              "description": "David Shriver",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4902627"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4902627/david-shriver"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4902627"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4902627"
           },
           {
             "id": 3245,
@@ -15745,24 +15781,24 @@
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -15770,66 +15806,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35584774"
+              "href": "http://api-app.espn.com/v1/video/clips/35584265"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/fbfb4f0f-68e1-4526-a119-0f89753f1043"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/a5775c33-3cc7-4408-a376-e187aab4d157"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35584774",
+            "href": "http://espn.com/video/clip?id=35584265",
             "short": {
-              "href": "https://es.pn/3Y1A3lj"
+              "href": "https://es.pn/3HxGWUD"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35584774"
+              "href": "http://espn.com/video/clip?id=35584265"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35584774"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35584265"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/fbfb4f0f-68e1-4526-a119-0f89753f1043/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584774",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a5775c33-3cc7-4408-a376-e187aab4d157/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584265",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/fbfb4f0f-68e1-4526-a119-0f89753f1043/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584774"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a5775c33-3cc7-4408-a376-e187aab4d157/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584265"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/fbfb4f0f-68e1-4526-a119-0f89753f1043/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584774"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a5775c33-3cc7-4408-a376-e187aab4d157/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584265"
             }
           }
         },
-        "title": "Adrian Baldwin's efficient 37 leads VCU to road win"
+        "title": "David Shriver rocks the rim with powerful jam"
       }
     ],
     "type": "Recap",
@@ -15953,11 +15989,11 @@
     "gameId": "401484464",
     "images": [
       {
-        "name": "Adrian Baldwin's efficient 37 leads VCU to road win",
+        "name": "David Shriver rocks the rim with powerful jam",
         "width": 576,
         "alt": "",
-        "caption": "Adrian Baldwin goes for 37 on an efficient 12-of-15 from the floor in VCU's important road win over St. Louis.",
-        "url": "https://a.espncdn.com/media/motion/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283.jpg",
+        "caption": "David Shriver rocks the rim with powerful jam",
+        "url": "https://a.espncdn.com/media/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.jpg",
         "height": 324
       }
     ],
@@ -16016,7 +16052,7 @@
         "trackingId": "dm_20230204_NCB_jake_forrester_throws_down_big_slam_dunk_vs_vcu_rams"
       },
       "cerebroId": "63dda304ca84b70e7ea09493",
-      "lastModified": "2023-02-04T00:15:34Z",
+      "lastModified": "2023-02-07T13:18:37Z",
       "originalPublishDate": "2023-02-04T00:12:49Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T00:12:49Z",
@@ -16088,99 +16124,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/af6a1aa8-437a-412b-b324-b83856d4a230/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584264"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35584265,
-      "headline": "David Shriver rocks the rim with powerful jam",
-      "description": "David Shriver rocks the rim with powerful jam",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (David Shriver rocks the rim with powerful jam) 2023/02/04 ESHEET",
-        "trackingId": "dm_20230204_NCB_david_shriver_rocks_the_rim_with_powerful_jam"
-      },
-      "cerebroId": "63dda30eca84b70e7ea0949a",
-      "lastModified": "2023-02-04T00:16:24Z",
-      "originalPublishDate": "2023-02-04T00:13:00Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-04T00:13:00Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 15,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35584265"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/a5775c33-3cc7-4408-a376-e187aab4d157"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35584265&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35584265"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35584265&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35584265&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_191303702_2177779/ss_20230203_191303702_2177779.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a5775c33-3cc7-4408-a376-e187aab4d157/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584265",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a5775c33-3cc7-4408-a376-e187aab4d157/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584265"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a5775c33-3cc7-4408-a376-e187aab4d157/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584265"
           }
         }
       }
@@ -16649,6 +16592,99 @@
           }
         }
       }
+    },
+    {
+      "source": "espn",
+      "id": 35584774,
+      "headline": "Adrian Baldwin's efficient 37 leads VCU to road win",
+      "description": "Adrian Baldwin goes for 37 on an efficient 12-of-15 from the floor in VCU's important road win over St. Louis.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "COM_NCB Highlight (Adrian Baldwin's efficient 37 leads VCU to road win) 2023/02/04 ESHEET SOTFULL",
+        "trackingId": "dm_20230204_NCB_adrian_baldwins_efficient_37_leads_vcu_to_road_win"
+      },
+      "cerebroId": "63ddbe47ca84b70e7ea0afea",
+      "lastModified": "2023-02-04T02:23:43Z",
+      "originalPublishDate": "2023-02-04T02:09:09Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-02-04T02:09:09Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 131,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0203/ss_20230203_210912726_21779531283/ss_20230203_210912726_21779531283.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35584774"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/fbfb4f0f-68e1-4526-a119-0f89753f1043"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35584774&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35584774"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35584774&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35584774&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0203/ss_20230203_210912726_2177953/ss_20230203_210912726_2177953.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/fbfb4f0f-68e1-4526-a119-0f89753f1043/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584774",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/fbfb4f0f-68e1-4526-a119-0f89753f1043/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584774"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/fbfb4f0f-68e1-4526-a119-0f89753f1043/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35584774"
+          }
+        }
+      }
     }
   ],
   "standings": {
@@ -16674,8 +16710,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-6",
-                  "displayValue": "18-6"
+                  "summary": "18-7",
+                  "displayValue": "18-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -16695,8 +16731,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-2",
-                  "displayValue": "9-2"
+                  "summary": "9-3",
+                  "displayValue": "9-3"
                 }
               ],
               "logo": [
@@ -16727,8 +16763,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-8",
-                  "displayValue": "15-8"
+                  "summary": "16-8",
+                  "displayValue": "16-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -16737,8 +16773,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 0.5,
+                  "displayValue": "0.5"
                 },
                 {
                   "id": "9",
@@ -16748,8 +16784,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-3",
-                  "displayValue": "7-3"
+                  "summary": "8-3",
+                  "displayValue": "8-3"
                 }
               ],
               "logo": [
@@ -16780,8 +16816,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-9",
-                  "displayValue": "15-9"
+                  "summary": "16-9",
+                  "displayValue": "16-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -16790,8 +16826,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -16801,8 +16837,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-4",
-                  "displayValue": "7-4"
+                  "summary": "8-4",
+                  "displayValue": "8-4"
                 }
               ],
               "logo": [
@@ -16843,8 +16879,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -16896,8 +16932,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -16949,8 +16985,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -17002,8 +17038,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -17055,8 +17091,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -17108,8 +17144,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -17161,8 +17197,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -17214,8 +17250,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -17244,59 +17280,6 @@
               ]
             },
             {
-              "team": "Rhode Island",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/227/rhode-island-rams",
-              "id": "227",
-              "uid": "s:40~l:41~t:227",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-14",
-                  "displayValue": "8-14"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-6",
-                  "displayValue": "4-6"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-12-09T16:51Z"
-                }
-              ]
-            },
-            {
               "team": "UMass",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/113/umass-minutemen",
               "id": "113",
@@ -17320,8 +17303,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -17373,8 +17356,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -17403,6 +17386,59 @@
               ]
             },
             {
+              "team": "Rhode Island",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/227/rhode-island-rams",
+              "id": "227",
+              "uid": "s:40~l:41~t:227",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "8-15",
+                  "displayValue": "8-15"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.5,
+                  "displayValue": "4.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-7",
+                  "displayValue": "4-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-12-09T16:51Z"
+                }
+              ]
+            },
+            {
               "team": "Loyola Chicago",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2350/loyola-chicago-ramblers",
               "id": "2350",
@@ -17426,8 +17462,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
