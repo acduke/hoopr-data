@@ -19542,7 +19542,7 @@
         "uid": "s:40~l:41~e:401488451~c:401488451",
         "date": "2023-01-25T02:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -19744,13 +19744,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "2",
-          "name": "Atlantic Coast Conference",
-          "abbreviation": "acc",
-          "shortName": "ACC",
-          "midsizeName": "ACC"
-        },
         "home": {
           "id": "228",
           "uid": "s:40~l:41~t:228",
@@ -20596,6 +20589,59 @@
               ]
             },
             {
+              "team": "Syracuse",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/183/syracuse-orange",
+              "id": "183",
+              "uid": "s:40~l:41~t:183",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "15-10",
+                  "displayValue": "15-10"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.5,
+                  "displayValue": "2.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "8-6",
+                  "displayValue": "8-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-09-02T00:03Z"
+                }
+              ]
+            },
+            {
               "team": "North Carolina",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels",
               "id": "153",
@@ -20649,10 +20695,10 @@
               ]
             },
             {
-              "team": "Syracuse",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/183/syracuse-orange",
-              "id": "183",
-              "uid": "s:40~l:41~t:183",
+              "team": "Boston College",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/103/boston-college-eagles",
+              "id": "103",
+              "uid": "s:40~l:41~t:103",
               "stats": [
                 {
                   "id": "0",
@@ -20662,8 +20708,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-10",
-                  "displayValue": "14-10"
+                  "summary": "12-13",
+                  "displayValue": "12-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -20672,8 +20718,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -20683,13 +20729,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-6",
-                  "displayValue": "7-6"
+                  "summary": "6-8",
+                  "displayValue": "6-8"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -20697,7 +20743,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2022-09-02T00:03Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -20715,8 +20761,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-16",
-                  "displayValue": "8-16"
+                  "summary": "8-17",
+                  "displayValue": "8-17"
                 },
                 {
                   "name": "gamesBehind",
@@ -20725,8 +20771,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -20736,66 +20782,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-7",
-                  "displayValue": "6-7"
+                  "summary": "6-8",
+                  "displayValue": "6-8"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Boston College",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/103/boston-college-eagles",
-              "id": "103",
-              "uid": "s:40~l:41~t:103",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "11-13",
-                  "displayValue": "11-13"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-8",
-                  "displayValue": "5-8"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -20821,8 +20814,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-9",
-                  "displayValue": "14-9"
+                  "summary": "14-10",
+                  "displayValue": "14-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -20831,8 +20824,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -20842,8 +20835,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-8",
-                  "displayValue": "4-8"
+                  "summary": "4-9",
+                  "displayValue": "4-9"
                 }
               ],
               "logo": [
@@ -20874,8 +20867,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-13",
-                  "displayValue": "10-13"
+                  "summary": "10-14",
+                  "displayValue": "10-14"
                 },
                 {
                   "name": "gamesBehind",
@@ -20884,8 +20877,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.5,
-                  "displayValue": "7.5"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "id": "9",
@@ -20895,8 +20888,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-10",
-                  "displayValue": "2-10"
+                  "summary": "2-11",
+                  "displayValue": "2-11"
                 }
               ],
               "logo": [
@@ -20927,8 +20920,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-15",
-                  "displayValue": "8-15"
+                  "summary": "9-15",
+                  "displayValue": "9-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -20937,8 +20930,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 9.0,
-                  "displayValue": "9"
+                  "value": 8.5,
+                  "displayValue": "8.5"
                 },
                 {
                   "id": "9",
@@ -20948,8 +20941,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-12",
-                  "displayValue": "1-12"
+                  "summary": "2-12",
+                  "displayValue": "2-12"
                 }
               ],
               "logo": [
@@ -22119,7 +22112,7 @@
     "uid": "s:40~l:41~e:401488451~c:401488451",
     "date": "2023-01-25T02:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -22321,13 +22314,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "2",
-      "name": "Atlantic Coast Conference",
-      "abbreviation": "acc",
-      "shortName": "ACC",
-      "midsizeName": "ACC"
-    },
     "home": {
       "id": "228",
       "uid": "s:40~l:41~t:228",

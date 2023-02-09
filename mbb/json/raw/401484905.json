@@ -5552,7 +5552,7 @@
         "uid": "s:40~l:41~e:401484905~c:401484905",
         "date": "2023-01-21T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5752,7 +5752,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "7",
+          "name": "Big Ten Conference",
+          "abbreviation": "big10",
+          "shortName": "Big Ten",
+          "midsizeName": "Big Ten"
+        }
       }
     ],
     "links": [
@@ -16099,59 +16106,6 @@
               ]
             },
             {
-              "team": "Maryland",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/120/maryland-terrapins",
-              "id": "120",
-              "uid": "s:40~l:41~t:120",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "16-7",
-                  "displayValue": "16-7"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "7-5",
-                  "displayValue": "7-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Northwestern",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/77/northwestern-wildcats",
               "id": "77",
@@ -16364,6 +16318,59 @@
               ]
             },
             {
+              "team": "Maryland",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/120/maryland-terrapins",
+              "id": "120",
+              "uid": "s:40~l:41~t:120",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "16-8",
+                  "displayValue": "16-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-6",
+                  "displayValue": "7-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Michigan State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
               "id": "127",
@@ -16377,8 +16384,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-9",
-                  "displayValue": "14-9"
+                  "summary": "15-9",
+                  "displayValue": "15-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -16387,8 +16394,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -16398,8 +16405,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-6",
-                  "displayValue": "6-6"
+                  "summary": "7-6",
+                  "displayValue": "7-6"
                 }
               ],
               "logo": [

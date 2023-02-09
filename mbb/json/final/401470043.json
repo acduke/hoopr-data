@@ -19705,7 +19705,7 @@
         "uid": "s:40~l:41~e:401470043~c:401470043",
         "date": "2023-02-03T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -19906,13 +19906,6 @@
             "region": "us"
           }
         ],
-        "groups": {
-          "id": "45",
-          "name": "Horizon League",
-          "abbreviation": "hor",
-          "shortName": "Horizon",
-          "midsizeName": "Horizon"
-        },
         "home": {
           "id": "2523",
           "uid": "s:40~l:41~t:2523",
@@ -20555,6 +20548,59 @@
               ]
             },
             {
+              "team": "Wright State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2750/wright-state-raiders",
+              "id": "2750",
+              "uid": "s:40~l:41~t:2750",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "15-11",
+                  "displayValue": "15-11"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 3.5,
+                  "displayValue": "3.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "8-7",
+                  "displayValue": "8-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Purdue Fort Wayne",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2870/purdue-fort-wayne-mastodons",
               "id": "2870",
@@ -20604,59 +20650,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-10-30T18:14Z"
-                }
-              ]
-            },
-            {
-              "team": "Wright State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2750/wright-state-raiders",
-              "id": "2750",
-              "uid": "s:40~l:41~t:2750",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "14-11",
-                  "displayValue": "14-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "7-7",
-                  "displayValue": "7-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -20833,8 +20826,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-21",
-                  "displayValue": "4-21"
+                  "summary": "4-22",
+                  "displayValue": "4-22"
                 },
                 {
                   "name": "gamesBehind",
@@ -20843,8 +20836,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 10.5,
+                  "displayValue": "10.5"
                 },
                 {
                   "id": "9",
@@ -20854,8 +20847,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-13",
-                  "displayValue": "1-13"
+                  "summary": "1-14",
+                  "displayValue": "1-14"
                 }
               ],
               "logo": [
@@ -21542,7 +21535,7 @@
     "uid": "s:40~l:41~e:401470043~c:401470043",
     "date": "2023-02-03T00:00Z",
     "neutralSite": false,
-    "conferenceCompetition": true,
+    "conferenceCompetition": false,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -21743,13 +21736,6 @@
         "region": "us"
       }
     ],
-    "groups": {
-      "id": "45",
-      "name": "Horizon League",
-      "abbreviation": "hor",
-      "shortName": "Horizon",
-      "midsizeName": "Horizon"
-    },
     "home": {
       "id": "2523",
       "uid": "s:40~l:41~t:2523",

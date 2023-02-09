@@ -3915,10 +3915,10 @@
         "underdog": false,
         "moneyLine": -165,
         "spreadRecord": {
-          "wins": 12,
+          "wins": 13,
           "losses": 8,
           "pushes": 1,
-          "summary": "12-8-1"
+          "summary": "13-8-1"
         },
         "spreadOdds": -113.0,
         "teamId": "2198"
@@ -5615,7 +5615,7 @@
         "uid": "s:40~l:41~e:401469560~c:401469560",
         "date": "2023-01-14T20:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5799,7 +5799,14 @@
             "shortDetail": "Final"
           }
         },
-        "broadcasts": []
+        "broadcasts": [],
+        "groups": {
+          "id": "46",
+          "name": "ASUN Conference",
+          "abbreviation": "a-sun",
+          "shortName": "ASUN",
+          "midsizeName": "ASUN"
+        }
       }
     ],
     "links": [
