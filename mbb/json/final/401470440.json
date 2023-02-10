@@ -23696,7 +23696,7 @@
         "uid": "s:40~l:41~e:401470440~c:401470440",
         "date": "2023-02-05T03:30Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -23906,6 +23906,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "29",
+          "name": "West Coast Conference",
+          "abbreviation": "wcc",
+          "shortName": "WCC",
+          "midsizeName": "West Coast"
+        },
         "home": {
           "id": "2608",
           "uid": "s:40~l:41~t:2608",
@@ -24292,7 +24299,7 @@
         "trackingId": "dm_20230205_NCB_ben_greggs_3_puts_gonzaga_up_double_digits"
       },
       "cerebroId": "63df30febe6ab31ff73ee2ce",
-      "lastModified": "2023-02-05T04:32:35Z",
+      "lastModified": "2023-02-09T13:23:39Z",
       "originalPublishDate": "2023-02-05T04:30:52Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-05T04:30:52Z",
@@ -24385,7 +24392,7 @@
         "trackingId": "dm_20230205_NCB_anton_watsons_dunk_finishes_chaotic_sequence"
       },
       "cerebroId": "63df31d4ca84b70e7ea1f89f",
-      "lastModified": "2023-02-05T04:35:52Z",
+      "lastModified": "2023-02-09T13:24:40Z",
       "originalPublishDate": "2023-02-05T04:34:25Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-05T04:34:25Z",
@@ -24571,7 +24578,7 @@
         "trackingId": "dm_20230205_NCB_harry_wessels_gets_the_and1_over_drew_timme"
       },
       "cerebroId": "63df3380ca84b70e7ea1f8c1",
-      "lastModified": "2023-02-05T04:43:48Z",
+      "lastModified": "2023-02-09T13:36:37Z",
       "originalPublishDate": "2023-02-05T04:41:35Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-05T04:41:35Z",
@@ -24643,99 +24650,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a9ff9879-82b5-4b66-a8b0-86ebf424c56d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591804"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35591862,
-      "headline": "Drew Timme muscles in an and-1",
-      "description": "Drew Timme goes at a couple defenders and finishes the floater through the contact.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (Drew Timme muscles in an and-1) 2023/02/05 ESHEET",
-        "trackingId": "dm_20230205_NCB_drew_timme_muscles_in_an_and1"
-      },
-      "cerebroId": "63df3575ca84b70e7ea1f939",
-      "lastModified": "2023-02-05T04:51:17Z",
-      "originalPublishDate": "2023-02-05T04:49:55Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-05T04:49:55Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 18,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35591862"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/01a052a4-b218-42e5-b8b2-5f145f09a433"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35591862&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35591862"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35591862&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35591862&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/01a052a4-b218-42e5-b8b2-5f145f09a433/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591862",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/01a052a4-b218-42e5-b8b2-5f145f09a433/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591862"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/01a052a4-b218-42e5-b8b2-5f145f09a433/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591862"
           }
         }
       }
@@ -24943,7 +24857,7 @@
         "trackingId": "dm_20230205_NCB_saint_marys_forces_overtime_with_late_basket"
       },
       "cerebroId": "63df427fbe6ab31ff73eff5f",
-      "lastModified": "2023-02-05T05:55:16Z",
+      "lastModified": "2023-02-09T13:13:08Z",
       "originalPublishDate": "2023-02-05T05:45:32Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-05T05:45:32Z",
@@ -25018,6 +24932,99 @@
           }
         }
       }
+    },
+    {
+      "source": "espn",
+      "id": 35592240,
+      "headline": "Aidan Mahaney comes alive late leading Saint Mary's to win over Gonzaga",
+      "description": "Aidan Mahaney goes off late in the game, leading Saint Mary's to the huge home win over Gonzaga.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "COM_NCB Highlight (Aidan Mahaney comes alive late leading Saint Mary\u2019s to win over Gonzaga) 2023/02/05 ESHEET SOTFULL",
+        "trackingId": "dm_20230205_NCB_aidan_mahaney_comes_alive_late_leading_saint_marys_to_win_over_gonzaga"
+      },
+      "cerebroId": "63df4809ca84b70e7ea20f93",
+      "lastModified": "2023-02-05T06:11:09Z",
+      "originalPublishDate": "2023-02-05T06:09:11Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-02-05T06:09:11Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 97,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35592240"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/abc07ad8-c9cf-4b88-be3c-9f8e034de38d"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35592240&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35592240"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35592240&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35592240&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/abc07ad8-c9cf-4b88-be3c-9f8e034de38d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35592240",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/abc07ad8-c9cf-4b88-be3c-9f8e034de38d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35592240"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/abc07ad8-c9cf-4b88-be3c-9f8e034de38d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35592240"
+          }
+        }
+      }
     }
   ],
   "playByPlaySource": "full",
@@ -25044,8 +25051,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "21-4",
-                  "displayValue": "21-4"
+                  "summary": "21-5",
+                  "displayValue": "21-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -25065,8 +25072,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "10-0",
-                  "displayValue": "10-0"
+                  "summary": "10-1",
+                  "displayValue": "10-1"
                 }
               ],
               "logo": [
@@ -25097,8 +25104,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "19-5",
-                  "displayValue": "19-5"
+                  "summary": "20-5",
+                  "displayValue": "20-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -25107,8 +25114,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.0,
+                  "displayValue": "1"
                 },
                 {
                   "id": "9",
@@ -25118,8 +25125,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "8-2",
-                  "displayValue": "8-2"
+                  "summary": "9-2",
+                  "displayValue": "9-2"
                 }
               ],
               "logo": [
@@ -25150,8 +25157,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "16-9",
-                  "displayValue": "16-9"
+                  "summary": "17-9",
+                  "displayValue": "17-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -25160,8 +25167,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -25171,8 +25178,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-5",
-                  "displayValue": "6-5"
+                  "summary": "7-5",
+                  "displayValue": "7-5"
                 }
               ],
               "logo": [
@@ -25190,6 +25197,59 @@
               ]
             },
             {
+              "team": "Santa Clara",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2541/santa-clara-broncos",
+              "id": "2541",
+              "uid": "s:40~l:41~t:2541",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "18-8",
+                  "displayValue": "18-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "6-5",
+                  "displayValue": "6-5"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2023-01-23T20:42Z"
+                }
+              ]
+            },
+            {
               "team": "BYU",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/252/byu-cougars",
               "id": "252",
@@ -25203,8 +25263,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "16-10",
-                  "displayValue": "16-10"
+                  "summary": "16-11",
+                  "displayValue": "16-11"
                 },
                 {
                   "name": "gamesBehind",
@@ -25224,66 +25284,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "6-5",
-                  "displayValue": "6-5"
+                  "summary": "6-6",
+                  "displayValue": "6-6"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2023-01-23T20:42Z"
-                }
-              ]
-            },
-            {
-              "team": "Santa Clara",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2541/santa-clara-broncos",
-              "id": "2541",
-              "uid": "s:40~l:41~t:2541",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "17-8",
-                  "displayValue": "17-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-5",
-                  "displayValue": "5-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25309,8 +25316,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-13",
-                  "displayValue": "12-13"
+                  "summary": "12-14",
+                  "displayValue": "12-14"
                 },
                 {
                   "name": "gamesBehind",
@@ -25330,13 +25337,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-5",
-                  "displayValue": "5-5"
+                  "summary": "5-6",
+                  "displayValue": "5-6"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2023-01-23T20:42Z"
+                }
+              ]
+            },
+            {
+              "team": "Portland",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2501/portland-pilots",
+              "id": "2501",
+              "uid": "s:40~l:41~t:2501",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-14",
+                  "displayValue": "13-14"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.5,
+                  "displayValue": "5.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-7",
+                  "displayValue": "5-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2501.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -25362,8 +25422,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-11",
-                  "displayValue": "15-11"
+                  "summary": "15-12",
+                  "displayValue": "15-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -25383,8 +25443,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
+                  "summary": "4-8",
+                  "displayValue": "4-8"
                 }
               ],
               "logo": [
@@ -25402,59 +25462,6 @@
               ]
             },
             {
-              "team": "Portland",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2501/portland-pilots",
-              "id": "2501",
-              "uid": "s:40~l:41~t:2501",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-14",
-                  "displayValue": "12-14"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2501.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2023-01-23T20:42Z"
-                }
-              ]
-            },
-            {
               "team": "San Diego",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/301/san-diego-toreros",
               "id": "301",
@@ -25468,8 +25475,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-14",
-                  "displayValue": "11-14"
+                  "summary": "11-15",
+                  "displayValue": "11-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -25489,8 +25496,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
+                  "summary": "4-8",
+                  "displayValue": "4-8"
                 }
               ],
               "logo": [
@@ -25521,8 +25528,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "8-17",
-                  "displayValue": "8-17"
+                  "summary": "9-17",
+                  "displayValue": "9-17"
                 },
                 {
                   "name": "gamesBehind",
@@ -25531,8 +25538,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 9.5,
-                  "displayValue": "9.5"
+                  "value": 8.5,
+                  "displayValue": "8.5"
                 },
                 {
                   "id": "9",
@@ -25542,8 +25549,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-10",
-                  "displayValue": "1-10"
+                  "summary": "2-10",
+                  "displayValue": "2-10"
                 }
               ],
               "logo": [
@@ -25575,11 +25582,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35592240,
-        "dataSourceIdentifier": "d99f1cb0f7a48",
-        "headline": "Aidan Mahaney comes alive late leading Saint Mary's to win over Gonzaga",
-        "caption": "Aidan Mahaney goes off late in the game, leading Saint Mary's to the huge home win over Gonzaga.",
-        "description": "Aidan Mahaney goes off late in the game, leading Saint Mary's to the huge home win over Gonzaga.",
+        "id": 35591862,
+        "dataSourceIdentifier": "32c982f25a0cb",
+        "headline": "Drew Timme muscles in an and-1",
+        "caption": "Drew Timme goes at a couple defenders and finishes the floater through the contact.",
+        "description": "Drew Timme goes at a couple defenders and finishes the floater through the contact.",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -25588,17 +25595,17 @@
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Final Game Highlight",
-          "trackingName": "COM_NCB Highlight (Aidan Mahaney comes alive late leading Saint Mary\u2019s to win over Gonzaga) 2023/02/05 ESHEET SOTFULL",
-          "trackingId": "dm_20230205_NCB_aidan_mahaney_comes_alive_late_leading_saint_marys_to_win_over_gonzaga"
+          "coverageType": "OnePlay",
+          "trackingName": "NCB_One-Play (Drew Timme muscles in an and-1) 2023/02/05 ESHEET",
+          "trackingId": "dm_20230205_NCB_drew_timme_muscles_in_an_and1"
         },
-        "cerebroId": "63df4809ca84b70e7ea20f93",
+        "cerebroId": "63df3575ca84b70e7ea1f939",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-02-05T06:11:09Z",
-        "originalPublishDate": "2023-02-05T06:09:11Z",
+        "lastModified": "2023-02-09T13:48:39Z",
+        "originalPublishDate": "2023-02-05T04:49:55Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-05T06:09:11Z",
+          "embargoDate": "2023-02-05T04:49:55Z",
           "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
@@ -25612,7 +25619,7 @@
           ]
         },
         "syndicatable": true,
-        "duration": 97,
+        "duration": 18,
         "categories": [
           {
             "id": 9576,
@@ -25673,6 +25680,35 @@
             "uid": "s:40~l:41~t:2250"
           },
           {
+            "id": 411192,
+            "description": "Drew Timme",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4431695,
+            "athlete": {
+              "id": 4431695,
+              "description": "Drew Timme",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4431695"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4431695/drew-timme"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4431695"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4431695"
+          },
+          {
             "id": 23119,
             "description": "Saint Mary's Gaels",
             "type": "team",
@@ -25700,58 +25736,29 @@
               }
             },
             "uid": "s:40~l:41~t:2608"
-          },
-          {
-            "id": 568124,
-            "description": "Aidan Mahaney",
-            "type": "athlete",
-            "sportId": 41,
-            "athleteId": 4684628,
-            "athlete": {
-              "id": 4684628,
-              "description": "Aidan Mahaney",
-              "links": {
-                "api": {
-                  "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4684628"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4684628/aidan-mahaney"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "http://m.espn.com/ncb/playercard?playerId=4684628"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:41~a:4684628"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -25759,66 +25766,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35592240"
+              "href": "http://api-app.espn.com/v1/video/clips/35591862"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/abc07ad8-c9cf-4b88-be3c-9f8e034de38d"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/01a052a4-b218-42e5-b8b2-5f145f09a433"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35592240",
+            "href": "http://espn.com/video/clip?id=35591862",
             "short": {
-              "href": "https://es.pn/3X6F8b5"
+              "href": "https://es.pn/3JJjnLq"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35592240"
+              "href": "http://espn.com/video/clip?id=35591862"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35592240"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35591862"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/abc07ad8-c9cf-4b88-be3c-9f8e034de38d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35592240",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/01a052a4-b218-42e5-b8b2-5f145f09a433/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591862",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/abc07ad8-c9cf-4b88-be3c-9f8e034de38d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35592240"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/01a052a4-b218-42e5-b8b2-5f145f09a433/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591862"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/abc07ad8-c9cf-4b88-be3c-9f8e034de38d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35592240"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/01a052a4-b218-42e5-b8b2-5f145f09a433/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35591862"
             }
           }
         },
-        "title": "Aidan Mahaney comes alive late leading Saint Mary's to win over Gonzaga"
+        "title": "Drew Timme muscles in an and-1"
       }
     ],
     "type": "Recap",
@@ -25942,11 +25949,11 @@
     "gameId": "401470440",
     "images": [
       {
-        "name": "Aidan Mahaney comes alive late leading Saint Mary's to win over Gonzaga",
+        "name": "Drew Timme muscles in an and-1",
         "width": 576,
         "alt": "",
-        "caption": "Aidan Mahaney goes off late in the game, leading Saint Mary's to the huge home win over Gonzaga.",
-        "url": "https://a.espncdn.com/media/motion/2023/0205/ss_20230205_010914957_2180133/ss_20230205_010914957_2180133.jpg",
+        "caption": "Drew Timme goes at a couple defenders and finishes the floater through the contact.",
+        "url": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_234958807_2180105/ss_20230204_234958807_2180105.jpg",
         "height": 324
       }
     ],
@@ -26649,7 +26656,7 @@
     "uid": "s:40~l:41~e:401470440~c:401470440",
     "date": "2023-02-05T03:30Z",
     "neutralSite": false,
-    "conferenceCompetition": false,
+    "conferenceCompetition": true,
     "boxscoreAvailable": true,
     "commentaryAvailable": false,
     "liveAvailable": false,
@@ -26859,6 +26866,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "29",
+      "name": "West Coast Conference",
+      "abbreviation": "wcc",
+      "shortName": "WCC",
+      "midsizeName": "West Coast"
+    },
     "home": {
       "id": "2608",
       "uid": "s:40~l:41~t:2608",

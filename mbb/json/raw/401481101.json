@@ -5583,7 +5583,7 @@
         "uid": "s:40~l:41~e:401481101~c:401481101",
         "date": "2023-01-27T01:00Z",
         "neutralSite": false,
-        "conferenceCompetition": true,
+        "conferenceCompetition": false,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5783,14 +5783,7 @@
             "lang": "en",
             "region": "us"
           }
-        ],
-        "groups": {
-          "id": "30",
-          "name": "Western Athletic Conference",
-          "abbreviation": "wac",
-          "shortName": "WAC",
-          "midsizeName": "WAC"
-        }
+        ]
       }
     ],
     "links": [
@@ -16231,6 +16224,59 @@
               ]
             },
             {
+              "team": "Seattle U",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2547/seattle-u-redhawks",
+              "id": "2547",
+              "uid": "s:40~l:41~t:2547",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "17-8",
+                  "displayValue": "17-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "8-4",
+                  "displayValue": "8-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Sam Houston",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2534/sam-houston-bearkats",
               "id": "2534",
@@ -16284,10 +16330,10 @@
               ]
             },
             {
-              "team": "Seattle U",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2547/seattle-u-redhawks",
-              "id": "2547",
-              "uid": "s:40~l:41~t:2547",
+              "team": "Grand Canyon",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-lopes",
+              "id": "2253",
+              "uid": "s:40~l:41~t:2253",
               "stats": [
                 {
                   "id": "0",
@@ -16324,7 +16370,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -16332,7 +16378,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2021-10-11T19:28Z"
                 }
               ]
             },
@@ -16386,59 +16432,6 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Grand Canyon",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2253/grand-canyon-lopes",
-              "id": "2253",
-              "uid": "s:40~l:41~t:2253",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "15-8",
-                  "displayValue": "15-8"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-4",
-                  "displayValue": "6-4"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2021-10-11T19:28Z"
                 }
               ]
             },
@@ -16655,59 +16648,6 @@
               ]
             },
             {
-              "team": "Utah Tech",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/utah-tech-trailblazers",
-              "id": "3101",
-              "uid": "s:40~l:41~t:3101",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "11-13",
-                  "displayValue": "11-13"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-8",
-                  "displayValue": "3-8"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2023-01-23T21:39Z"
-                }
-              ]
-            },
-            {
               "team": "UT Arlington",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/250/ut-arlington-mavericks",
               "id": "250",
@@ -16761,6 +16701,59 @@
               ]
             },
             {
+              "team": "Utah Tech",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/3101/utah-tech-trailblazers",
+              "id": "3101",
+              "uid": "s:40~l:41~t:3101",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "11-14",
+                  "displayValue": "11-14"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 7.0,
+                  "displayValue": "7"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "3-9",
+                  "displayValue": "3-9"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2023-01-23T21:39Z"
+                }
+              ]
+            },
+            {
               "team": "New Mexico State",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/166/new-mexico-state-aggies",
               "id": "166",
@@ -16774,8 +16767,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-14",
-                  "displayValue": "9-14"
+                  "summary": "9-15",
+                  "displayValue": "9-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -16784,8 +16777,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.5,
-                  "displayValue": "7.5"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "id": "9",
@@ -16795,8 +16788,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-9",
-                  "displayValue": "2-9"
+                  "summary": "2-10",
+                  "displayValue": "2-10"
                 }
               ],
               "logo": [

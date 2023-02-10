@@ -20106,6 +20106,13 @@
             "region": "us"
           }
         ],
+        "groups": {
+          "id": "5",
+          "name": "Big Sky Conference",
+          "abbreviation": "bsky",
+          "shortName": "Big Sky",
+          "midsizeName": "Big Sky"
+        },
         "home": {
           "id": "2692",
           "uid": "s:40~l:41~t:2692",
@@ -20549,8 +20556,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "17-8",
-                  "displayValue": "17-8"
+                  "summary": "17-9",
+                  "displayValue": "17-9"
                 },
                 {
                   "name": "gamesBehind",
@@ -20559,8 +20566,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -20570,8 +20577,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "10-2",
-                  "displayValue": "10-2"
+                  "summary": "10-3",
+                  "displayValue": "10-3"
                 }
               ],
               "logo": [
@@ -20602,8 +20609,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-12",
-                  "displayValue": "12-12"
+                  "summary": "13-12",
+                  "displayValue": "13-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -20612,8 +20619,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.5,
-                  "displayValue": "4.5"
+                  "value": 4.0,
+                  "displayValue": "4"
                 },
                 {
                   "id": "9",
@@ -20623,13 +20630,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-4",
-                  "displayValue": "7-4"
+                  "summary": "8-4",
+                  "displayValue": "8-4"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Montana",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/149/montana-grizzlies",
+              "id": "149",
+              "uid": "s:40~l:41~t:149",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "13-12",
+                  "displayValue": "13-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.5,
+                  "displayValue": "5.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "7-6",
+                  "displayValue": "7-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -20655,61 +20715,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-15",
-                  "displayValue": "9-15"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "6-5",
-                  "displayValue": "6-5"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2019-08-22T15:06Z"
-                }
-              ]
-            },
-            {
-              "team": "Montana",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/149/montana-grizzlies",
-              "id": "149",
-              "uid": "s:40~l:41~t:149",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "12-12",
-                  "displayValue": "12-12"
+                  "summary": "9-16",
+                  "displayValue": "9-16"
                 },
                 {
                   "name": "gamesBehind",
@@ -20735,7 +20742,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -20743,7 +20750,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2019-08-22T15:06Z"
                 }
               ]
             },
@@ -20761,8 +20768,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "12-12",
-                  "displayValue": "12-12"
+                  "summary": "12-13",
+                  "displayValue": "12-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -20771,8 +20778,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "id": "9",
@@ -20782,8 +20789,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "5-6",
-                  "displayValue": "5-6"
+                  "summary": "5-7",
+                  "displayValue": "5-7"
                 }
               ],
               "logo": [
@@ -20814,8 +20821,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-14",
-                  "displayValue": "10-14"
+                  "summary": "10-15",
+                  "displayValue": "10-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -20824,8 +20831,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 7.5,
-                  "displayValue": "7.5"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "id": "9",
@@ -20835,13 +20842,66 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "4-7",
-                  "displayValue": "4-7"
+                  "summary": "4-8",
+                  "displayValue": "4-8"
                 }
               ],
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Northern Colorado",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
+              "id": "2458",
+              "uid": "s:40~l:41~t:2458",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "9-16",
+                  "displayValue": "9-16"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 8.5,
+                  "displayValue": "8.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-9",
+                  "displayValue": "4-9"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -20907,59 +20967,6 @@
               ]
             },
             {
-              "team": "Northern Colorado",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2458/northern-colorado-bears",
-              "id": "2458",
-              "uid": "s:40~l:41~t:2458",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "8-16",
-                  "displayValue": "8-16"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 9.0,
-                  "displayValue": "9"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "3-9",
-                  "displayValue": "3-9"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "Northern Arizona",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2464/northern-arizona-lumberjacks",
               "id": "2464",
@@ -20973,8 +20980,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-19",
-                  "displayValue": "6-19"
+                  "summary": "7-19",
+                  "displayValue": "7-19"
                 },
                 {
                   "name": "gamesBehind",
@@ -20983,8 +20990,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 9.5,
+                  "displayValue": "9.5"
                 },
                 {
                   "id": "9",
@@ -20994,8 +21001,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-10",
-                  "displayValue": "2-10"
+                  "summary": "3-10",
+                  "displayValue": "3-10"
                 }
               ],
               "logo": [
@@ -21883,6 +21890,13 @@
         "region": "us"
       }
     ],
+    "groups": {
+      "id": "5",
+      "name": "Big Sky Conference",
+      "abbreviation": "bsky",
+      "shortName": "Big Sky",
+      "midsizeName": "Big Sky"
+    },
     "home": {
       "id": "2692",
       "uid": "s:40~l:41~t:2692",
