@@ -4134,10 +4134,10 @@
         "underdog": true,
         "moneyLine": 175,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 11,
           "pushes": 0,
-          "summary": "11-11-0"
+          "summary": "12-11-0"
         },
         "spreadOdds": -104.0,
         "teamId": "2717"
@@ -5904,7 +5904,7 @@
         "uid": "s:40~l:41~e:401479661~c:401479661",
         "date": "2022-12-29T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6104,7 +6104,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "24",
+          "name": "Southern Conference",
+          "abbreviation": "south",
+          "shortName": "Southern",
+          "midsizeName": "Southern"
+        }
       }
     ],
     "links": [
@@ -17253,6 +17260,59 @@
               ]
             },
             {
+              "team": "East Tennessee State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2193/east-tennessee-state-buccaneers",
+              "id": "2193",
+              "uid": "s:40~l:41~t:2193",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "10-17",
+                  "displayValue": "10-17"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.5,
+                  "displayValue": "5.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "6-8",
+                  "displayValue": "6-8"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Wofford",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2747/wofford-terriers",
               "id": "2747",
@@ -17412,59 +17472,6 @@
               ]
             },
             {
-              "team": "East Tennessee State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2193/east-tennessee-state-buccaneers",
-              "id": "2193",
-              "uid": "s:40~l:41~t:2193",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "9-17",
-                  "displayValue": "9-17"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "5-8",
-                  "displayValue": "5-8"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "The Citadel",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2643/the-citadel-bulldogs",
               "id": "2643",
@@ -17531,8 +17538,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "6-20",
-                  "displayValue": "6-20"
+                  "summary": "6-21",
+                  "displayValue": "6-21"
                 },
                 {
                   "name": "gamesBehind",
@@ -17541,8 +17548,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 10.5,
+                  "displayValue": "10.5"
                 },
                 {
                   "id": "9",
@@ -17552,8 +17559,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-12",
-                  "displayValue": "1-12"
+                  "summary": "1-13",
+                  "displayValue": "1-13"
                 }
               ],
               "logo": [

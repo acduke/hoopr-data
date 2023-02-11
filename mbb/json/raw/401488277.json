@@ -3960,10 +3960,10 @@
         "underdog": true,
         "moneyLine": 660,
         "spreadRecord": {
-          "wins": 10,
+          "wins": 11,
           "losses": 10,
           "pushes": 1,
-          "summary": "10-10-1"
+          "summary": "11-10-1"
         },
         "spreadOdds": -105.0,
         "teamId": "2885"
@@ -3974,10 +3974,10 @@
         "underdog": false,
         "moneyLine": -1000,
         "spreadRecord": {
-          "wins": 13,
+          "wins": 14,
           "losses": 10,
           "pushes": 0,
-          "summary": "13-10-0"
+          "summary": "14-10-0"
         },
         "spreadOdds": -111.0,
         "teamId": "261"
@@ -5454,7 +5454,7 @@
         "uid": "s:40~l:41~e:401488277~c:401488277",
         "date": "2023-01-22T18:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5654,7 +5654,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "1",
+          "name": "America East Conference",
+          "abbreviation": "aeast",
+          "shortName": "Am. East",
+          "midsizeName": "America East"
+        }
       }
     ],
     "links": [

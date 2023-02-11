@@ -3768,10 +3768,10 @@
         "underdog": true,
         "moneyLine": 629,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 14,
           "pushes": 1,
-          "summary": "9-14-1"
+          "summary": "10-14-1"
         },
         "spreadOdds": -110.0,
         "teamId": "2083"
@@ -3782,10 +3782,10 @@
         "underdog": false,
         "moneyLine": -969,
         "spreadRecord": {
-          "wins": 10,
+          "wins": 11,
           "losses": 14,
           "pushes": 0,
-          "summary": "10-14-0"
+          "summary": "11-14-0"
         },
         "spreadOdds": -110.0,
         "teamId": "2142"
@@ -5342,7 +5342,7 @@
         "uid": "s:40~l:41~e:401491283~c:401491283",
         "date": "2023-01-14T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5542,7 +5542,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "22",
+          "name": "Patriot League",
+          "abbreviation": "pat",
+          "shortName": "Patriot",
+          "midsizeName": "Patriot League"
+        }
       }
     ],
     "links": [

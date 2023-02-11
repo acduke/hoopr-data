@@ -4033,10 +4033,10 @@
         "underdog": true,
         "moneyLine": -106,
         "spreadRecord": {
-          "wins": 9,
+          "wins": 10,
           "losses": 14,
           "pushes": 0,
-          "summary": "9-14-0"
+          "summary": "10-14-0"
         },
         "spreadOdds": -111.0,
         "teamId": "2305"
@@ -4048,9 +4048,9 @@
         "moneyLine": -110,
         "spreadRecord": {
           "wins": 13,
-          "losses": 9,
+          "losses": 10,
           "pushes": 0,
-          "summary": "13-9-0"
+          "summary": "13-10-0"
         },
         "spreadOdds": -105.0,
         "teamId": "66"
@@ -5622,7 +5622,7 @@
         "uid": "s:40~l:41~e:401493420~c:401493420",
         "date": "2023-02-04T17:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5840,7 +5840,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "8",
+          "name": "Big 12 Conference",
+          "abbreviation": "big12",
+          "shortName": "Big 12",
+          "midsizeName": "Big 12"
+        }
       }
     ],
     "links": [
@@ -16901,11 +16908,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35587781,
-        "dataSourceIdentifier": "df776e934922f",
-        "headline": "Iowa State fans get loud after a big slam from Osun Osunniyi",
-        "caption": "Tamin Lipsey dishes to Osun Osunniyi for an emphatic dunk against Kansas.",
-        "description": "Tamin Lipsey dishes to Osun Osunniyi for an emphatic dunk against Kansas.",
+        "id": 35587900,
+        "dataSourceIdentifier": "40a7bbe987df0",
+        "headline": "Gradey Dick gets up for the beautiful slam",
+        "caption": "Gradey Dick gets up for the beautiful slam",
+        "description": "Gradey Dick gets up for the beautiful slam",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -16914,17 +16921,17 @@
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Final Game Highlight",
-          "trackingName": "NCB_One-Play (Iowa State fans get loud after a big slam from Osun Osunniyi) 2023/02/04 ESHEET",
-          "trackingId": "dm_20230204_NCB_iowa_state_fans_get_loud_after_a_big_slam_from_osun_osunniyi"
+          "coverageType": "OnePlay",
+          "trackingName": "NCB_One-Play (Gradey Dick gets up for the beautiful slam) 2023/02/04 ESHEET",
+          "trackingId": "dm_20230204_NCB_gradey_dick_gets_up_for_the_beautiful_slam"
         },
-        "cerebroId": "63de9c3eca84b70e7ea1132b",
+        "cerebroId": "63dea0ffca84b70e7ea11fca",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-02-04T19:58:26Z",
-        "originalPublishDate": "2023-02-04T17:56:12Z",
+        "lastModified": "2023-02-10T13:33:24Z",
+        "originalPublishDate": "2023-02-04T18:16:29Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-04T17:56:12Z",
+          "embargoDate": "2023-02-04T18:16:29Z",
           "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
@@ -16938,36 +16945,36 @@
           ]
         },
         "syndicatable": true,
-        "duration": 16,
+        "duration": 18,
         "categories": [
           {
-            "id": 3216,
-            "description": "Iowa State Cyclones",
-            "type": "team",
+            "id": 569357,
+            "description": "Gradey Dick",
+            "type": "athlete",
             "sportId": 41,
-            "teamId": 66,
-            "team": {
-              "id": 66,
-              "description": "Iowa State Cyclones",
+            "athleteId": 5106258,
+            "athlete": {
+              "id": 5106258,
+              "description": "Gradey Dick",
               "links": {
                 "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/66"
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/5106258"
                   }
                 },
                 "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/66/iowa-state-cyclones"
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/5106258/gradey-dick"
                   }
                 },
                 "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=66"
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=5106258"
                   }
                 }
               }
             },
-            "uid": "s:40~l:41~t:66"
+            "uid": "s:40~l:41~a:5106258"
           },
           {
             "id": 9576,
@@ -17026,58 +17033,29 @@
               }
             },
             "uid": "s:40~l:41~t:2305"
-          },
-          {
-            "id": 195214,
-            "description": "Osun Osunniyi",
-            "type": "athlete",
-            "sportId": 41,
-            "athleteId": 4397224,
-            "athlete": {
-              "id": 4397224,
-              "description": "Osun Osunniyi",
-              "links": {
-                "api": {
-                  "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4397224"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4397224/osun-osunniyi"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "http://m.espn.com/ncb/playercard?playerId=4397224"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:41~a:4397224"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -17085,66 +17063,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35587781"
+              "href": "http://api-app.espn.com/v1/video/clips/35587900"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/36fb9443-010e-4988-b9ba-4aeec929ab7d"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35587781",
+            "href": "http://espn.com/video/clip?id=35587900",
             "short": {
-              "href": "https://es.pn/3Y1RW3y"
+              "href": "https://es.pn/3l7U7UH"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35587781"
+              "href": "http://espn.com/video/clip?id=35587900"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35587781"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35587900"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587781",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36fb9443-010e-4988-b9ba-4aeec929ab7d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587900",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587781"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36fb9443-010e-4988-b9ba-4aeec929ab7d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587900"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587781"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36fb9443-010e-4988-b9ba-4aeec929ab7d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587900"
             }
           }
         },
-        "title": "Iowa State fans get loud after a big slam from Osun Osunniyi"
+        "title": "Gradey Dick gets up for the beautiful slam"
       }
     ],
     "type": "Recap",
@@ -17268,11 +17246,11 @@
     "gameId": "401493420",
     "images": [
       {
-        "name": "Iowa State fans get loud after a big slam from Osun Osunniyi",
+        "name": "Gradey Dick gets up for the beautiful slam",
         "width": 576,
         "alt": "",
-        "caption": "Tamin Lipsey dishes to Osun Osunniyi for an emphatic dunk against Kansas.",
-        "url": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897.jpg",
+        "caption": "Gradey Dick gets up for the beautiful slam",
+        "url": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.jpg",
         "height": 324
       }
     ],
@@ -17331,7 +17309,7 @@
         "trackingId": "dm_20230204_NCB_gabe_kalscheur_drives_through_the_paint_for_a_smooth_bucket"
       },
       "cerebroId": "63de93ebca84b70e7ea111d1",
-      "lastModified": "2023-02-04T17:22:48Z",
+      "lastModified": "2023-02-10T13:21:50Z",
       "originalPublishDate": "2023-02-04T17:20:40Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T17:20:40Z",
@@ -17424,7 +17402,7 @@
         "trackingId": "dm_20230204_NCB_robert_jones_comes_up_from_under_the_rim_for_a_basket"
       },
       "cerebroId": "63de9525ca84b70e7ea111f1",
-      "lastModified": "2023-02-04T17:27:50Z",
+      "lastModified": "2023-02-10T13:22:47Z",
       "originalPublishDate": "2023-02-04T17:25:55Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T17:25:55Z",
@@ -17517,7 +17495,7 @@
         "trackingId": "dm_20230204_NCB_jalen_wilson_drains_a_deep_3_for_the_jayhawks"
       },
       "cerebroId": "63de96dcca84b70e7ea11236",
-      "lastModified": "2023-02-04T17:34:26Z",
+      "lastModified": "2023-02-10T13:23:48Z",
       "originalPublishDate": "2023-02-04T17:33:14Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T17:33:14Z",
@@ -17610,7 +17588,7 @@
         "trackingId": "dm_20230204_NCB_tre_king_nails_the_jump_shot"
       },
       "cerebroId": "63de986cca84b70e7ea11298",
-      "lastModified": "2023-02-04T17:45:39Z",
+      "lastModified": "2023-02-10T13:26:13Z",
       "originalPublishDate": "2023-02-04T17:39:54Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T17:39:54Z",
@@ -17703,7 +17681,7 @@
         "trackingId": "dm_20230204_NCB_kj_adams_elevates_for_the_aggressive_jam"
       },
       "cerebroId": "63de9983ca84b70e7ea112aa",
-      "lastModified": "2023-02-04T17:46:11Z",
+      "lastModified": "2023-02-10T13:27:04Z",
       "originalPublishDate": "2023-02-04T17:44:33Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T17:44:33Z",
@@ -17781,6 +17759,99 @@
     },
     {
       "source": "espn",
+      "id": 35587781,
+      "headline": "Iowa State fans get loud after a big slam from Osun Osunniyi",
+      "description": "Tamin Lipsey dishes to Osun Osunniyi for an emphatic dunk against Kansas.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "NCB_One-Play (Iowa State fans get loud after a big slam from Osun Osunniyi) 2023/02/04 ESHEET",
+        "trackingId": "dm_20230204_NCB_iowa_state_fans_get_loud_after_a_big_slam_from_osun_osunniyi"
+      },
+      "cerebroId": "63de9c3eca84b70e7ea1132b",
+      "lastModified": "2023-02-10T13:28:43Z",
+      "originalPublishDate": "2023-02-04T17:56:12Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-02-04T17:56:12Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 16,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_125615625_2178706897/ss_20230204_125615625_2178706897.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35587781"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35587781&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35587781"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35587781&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35587781&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_125615625_2178706/ss_20230204_125615625_2178706.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587781",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587781"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c3acbe7c-c6ba-486e-aeda-8ccf8a4837f6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587781"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
       "id": 35587884,
       "headline": "Jaren Holmes buries 3-point shot against Kansas Jayhawks",
       "description": "Jaren Holmes buries 3-point shot against Kansas Jayhawks",
@@ -17796,7 +17867,7 @@
         "trackingId": "dm_20230204_NCB_jaren_holmes_buries_3point_shot_against_kansas_jayhawks"
       },
       "cerebroId": "63dea020ca84b70e7ea11cf2",
-      "lastModified": "2023-02-04T18:14:27Z",
+      "lastModified": "2023-02-10T13:29:55Z",
       "originalPublishDate": "2023-02-04T18:12:46Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T18:12:46Z",
@@ -17868,99 +17939,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/c04e7365-2d94-4168-a68f-438a6533e48a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587884"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35587900,
-      "headline": "Gradey Dick gets up for the beautiful slam",
-      "description": "Gradey Dick gets up for the beautiful slam",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (Gradey Dick gets up for the beautiful slam) 2023/02/04 ESHEET",
-        "trackingId": "dm_20230204_NCB_gradey_dick_gets_up_for_the_beautiful_slam"
-      },
-      "cerebroId": "63dea0ffca84b70e7ea11fca",
-      "lastModified": "2023-02-04T18:19:55Z",
-      "originalPublishDate": "2023-02-04T18:16:29Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-04T18:16:29Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 18,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35587900"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/36fb9443-010e-4988-b9ba-4aeec929ab7d"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35587900&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35587900"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35587900&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35587900&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_131632834_2178746/ss_20230204_131632834_2178746.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36fb9443-010e-4988-b9ba-4aeec929ab7d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587900",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36fb9443-010e-4988-b9ba-4aeec929ab7d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587900"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/36fb9443-010e-4988-b9ba-4aeec929ab7d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35587900"
           }
         }
       }

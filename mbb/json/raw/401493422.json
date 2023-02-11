@@ -4286,9 +4286,9 @@
         "moneyLine": 175,
         "spreadRecord": {
           "wins": 13,
-          "losses": 9,
+          "losses": 10,
           "pushes": 1,
-          "summary": "13-9-1"
+          "summary": "13-10-1"
         },
         "spreadOdds": -104.0,
         "teamId": "2628"
@@ -4300,9 +4300,9 @@
         "moneyLine": -205,
         "spreadRecord": {
           "wins": 13,
-          "losses": 10,
+          "losses": 11,
           "pushes": 0,
-          "summary": "13-10-0"
+          "summary": "13-11-0"
         },
         "spreadOdds": -112.0,
         "teamId": "197"
@@ -6009,7 +6009,7 @@
         "uid": "s:40~l:41~e:401493422~c:401493422",
         "date": "2023-02-04T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -6210,7 +6210,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "8",
+          "name": "Big 12 Conference",
+          "abbreviation": "big12",
+          "shortName": "Big 12",
+          "midsizeName": "Big 12"
+        }
       }
     ],
     "links": [
@@ -16845,11 +16852,11 @@
     "video": [
       {
         "source": "espn",
-        "id": 35588235,
-        "dataSourceIdentifier": "f74eba5bd891d",
-        "headline": "Shahada Wells makes a nice move for the layup",
-        "caption": "Shahada Wells makes a nice move for the layup",
-        "description": "Shahada Wells makes a nice move for the layup",
+        "id": 35588831,
+        "dataSourceIdentifier": "b68fffd1a51be",
+        "headline": "This jam from Kalib Boone was too nice",
+        "caption": "This jam from jam was too nice",
+        "description": "This jam from jam was too nice",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -16859,16 +16866,16 @@
           "sportName": "ncb",
           "leagueName": "No League",
           "coverageType": "OnePlay",
-          "trackingName": "NCB_One-Play (Shahada Wells makes a nice move for the layup) 2023/02/04 ESHEET",
-          "trackingId": "dm_20230204_NCB_shahada_wells_makes_a_nice_move_for_the_layup"
+          "trackingName": "NCB_One-Play (This jam from Kalib Boone was too nice) 2023/02/04 ESHEET",
+          "trackingId": "dm_20230204_NCB_this_jam_from_kalib_boone_was_too_nice"
         },
-        "cerebroId": "63deb11aca84b70e7ea131fb",
+        "cerebroId": "63dec7d7be6ab31ff73e240d",
         "contributingPartner": "wsc",
         "contributingSystem": "wsc",
-        "lastModified": "2023-02-09T13:52:33Z",
-        "originalPublishDate": "2023-02-04T19:25:12Z",
+        "lastModified": "2023-02-10T13:20:17Z",
+        "originalPublishDate": "2023-02-04T21:02:13Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-04T19:25:12Z",
+          "embargoDate": "2023-02-04T21:02:13Z",
           "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
@@ -16882,7 +16889,7 @@
           ]
         },
         "syndicatable": true,
-        "duration": 17,
+        "duration": 20,
         "categories": [
           {
             "id": 3219,
@@ -16912,6 +16919,35 @@
               }
             },
             "uid": "s:40~l:41~t:197"
+          },
+          {
+            "id": 409378,
+            "description": "Kalib Boone",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4432854,
+            "athlete": {
+              "id": 4432854,
+              "description": "Kalib Boone",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432854"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432854/kalib-boone"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4432854"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4432854"
           },
           {
             "id": 9576,
@@ -16970,58 +17006,29 @@
               }
             },
             "uid": "s:40~l:41~t:2628"
-          },
-          {
-            "id": 454125,
-            "description": "Shahada Wells",
-            "type": "athlete",
-            "sportId": 41,
-            "athleteId": 4702056,
-            "athlete": {
-              "id": 4702056,
-              "description": "Shahada Wells",
-              "links": {
-                "api": {
-                  "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4702056"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4702056/shahada-wells"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "http://m.espn.com/ncb/playercard?playerId=4702056"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:41~a:4702056"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -17029,66 +17036,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35588235"
+              "href": "http://api-app.espn.com/v1/video/clips/35588831"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/afdf749e-5eb1-40c1-8a41-cc8d6212609a"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/7f89587f-983c-4c48-99c0-ed588dbffb67"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35588235",
+            "href": "http://espn.com/video/clip?id=35588831",
             "short": {
-              "href": "https://es.pn/3HY7vnm"
+              "href": "https://es.pn/3JDrngH"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35588235"
+              "href": "http://espn.com/video/clip?id=35588831"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35588235"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35588831"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/afdf749e-5eb1-40c1-8a41-cc8d6212609a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588235",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7f89587f-983c-4c48-99c0-ed588dbffb67/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588831",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/afdf749e-5eb1-40c1-8a41-cc8d6212609a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588235"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7f89587f-983c-4c48-99c0-ed588dbffb67/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588831"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/afdf749e-5eb1-40c1-8a41-cc8d6212609a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588235"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7f89587f-983c-4c48-99c0-ed588dbffb67/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588831"
             }
           }
         },
-        "title": "Shahada Wells makes a nice move for the layup"
+        "title": "This jam from Kalib Boone was too nice"
       }
     ],
     "type": "Recap",
@@ -17212,11 +17219,11 @@
     "gameId": "401493422",
     "images": [
       {
-        "name": "Shahada Wells makes a nice move for the layup",
+        "name": "This jam from Kalib Boone was too nice",
         "width": 576,
         "alt": "",
-        "caption": "Shahada Wells makes a nice move for the layup",
-        "url": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.jpg",
+        "caption": "This jam from jam was too nice",
+        "url": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.jpg",
         "height": 324
       }
     ],
@@ -17539,6 +17546,99 @@
     },
     {
       "source": "espn",
+      "id": 35588235,
+      "headline": "Shahada Wells makes a nice move for the layup",
+      "description": "Shahada Wells makes a nice move for the layup",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncb_instant_replay"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "OnePlay",
+        "trackingName": "NCB_One-Play (Shahada Wells makes a nice move for the layup) 2023/02/04 ESHEET",
+        "trackingId": "dm_20230204_NCB_shahada_wells_makes_a_nice_move_for_the_layup"
+      },
+      "cerebroId": "63deb11aca84b70e7ea131fb",
+      "lastModified": "2023-02-09T13:52:33Z",
+      "originalPublishDate": "2023-02-04T19:25:12Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-02-04T19:25:12Z",
+        "expirationDate": "2038-01-01T04:59:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 17,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35588235"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/afdf749e-5eb1-40c1-8a41-cc8d6212609a"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35588235&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35588235"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35588235&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35588235&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_142515536_2178903/ss_20230204_142515536_2178903.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/afdf749e-5eb1-40c1-8a41-cc8d6212609a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588235",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/afdf749e-5eb1-40c1-8a41-cc8d6212609a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588235"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/afdf749e-5eb1-40c1-8a41-cc8d6212609a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588235"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
       "id": 35588247,
       "headline": "Chris Harris Jr. makes a great defensive play for the steal",
       "description": "Chris Harris Jr. makes a great defensive play for the steal",
@@ -17554,7 +17654,7 @@
         "trackingId": "dm_20230204_NCB_chris_harris_jr_makes_a_great_defensive_play_for_the_steal"
       },
       "cerebroId": "63deb1f4ca84b70e7ea13232",
-      "lastModified": "2023-02-04T21:10:40Z",
+      "lastModified": "2023-02-10T13:15:21Z",
       "originalPublishDate": "2023-02-04T19:28:50Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T19:28:50Z",
@@ -17647,7 +17747,7 @@
         "trackingId": "dm_20230204_NCB_shahada_wells_drills_the_and1_from_beyond_the_arc"
       },
       "cerebroId": "63deb4dcbe6ab31ff73e0e65",
-      "lastModified": "2023-02-04T21:10:59Z",
+      "lastModified": "2023-02-10T13:17:00Z",
       "originalPublishDate": "2023-02-04T19:41:13Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T19:41:13Z",
@@ -17740,7 +17840,7 @@
         "trackingId": "dm_20230204_NCB_kalib_boone_takes_flight_for_a_bigtime_alleyoop"
       },
       "cerebroId": "63debc8abe6ab31ff73e1e61",
-      "lastModified": "2023-02-04T21:11:36Z",
+      "lastModified": "2023-02-10T13:18:36Z",
       "originalPublishDate": "2023-02-04T20:14:00Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-04T20:14:00Z",
@@ -17812,99 +17912,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/98f4c3cc-20d0-466e-b630-fc7076bc80fe/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588523"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35588831,
-      "headline": "This jam from Kalib Boone was too nice",
-      "description": "This jam from jam was too nice",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (This jam from Kalib Boone was too nice) 2023/02/04 ESHEET",
-        "trackingId": "dm_20230204_NCB_this_jam_from_kalib_boone_was_too_nice"
-      },
-      "cerebroId": "63dec7d7be6ab31ff73e240d",
-      "lastModified": "2023-02-04T21:12:17Z",
-      "originalPublishDate": "2023-02-04T21:02:13Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-04T21:02:13Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 20,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35588831"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/7f89587f-983c-4c48-99c0-ed588dbffb67"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35588831&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35588831"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35588831&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35588831&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0204/ss_20230204_160217049_2179104/ss_20230204_160217049_2179104.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7f89587f-983c-4c48-99c0-ed588dbffb67/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588831",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7f89587f-983c-4c48-99c0-ed588dbffb67/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588831"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7f89587f-983c-4c48-99c0-ed588dbffb67/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35588831"
           }
         }
       }

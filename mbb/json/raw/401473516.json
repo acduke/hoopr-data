@@ -3932,10 +3932,10 @@
         "underdog": true,
         "moneyLine": 113,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 10,
           "pushes": 0,
-          "summary": "11-10-0"
+          "summary": "12-10-0"
         },
         "spreadOdds": -107.0,
         "teamId": "2050"
@@ -5696,7 +5696,7 @@
         "uid": "s:40~l:41~e:401473516~c:401473516",
         "date": "2023-01-11T00:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5896,7 +5896,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "14",
+          "name": "Mid-American Conference",
+          "abbreviation": "midam",
+          "shortName": "MAC",
+          "midsizeName": "Mid-American"
+        }
       }
     ],
     "links": [

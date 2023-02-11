@@ -3819,10 +3819,10 @@
         "underdog": true,
         "moneyLine": 150,
         "spreadRecord": {
-          "wins": 8,
+          "wins": 9,
           "losses": 14,
           "pushes": 1,
-          "summary": "8-14-1"
+          "summary": "9-14-1"
         },
         "spreadOdds": -109.0,
         "teamId": "2641"
@@ -3833,10 +3833,10 @@
         "underdog": false,
         "moneyLine": -170,
         "spreadRecord": {
-          "wins": 16,
+          "wins": 17,
           "losses": 7,
           "pushes": 0,
-          "summary": "16-7-0"
+          "summary": "17-7-0"
         },
         "spreadOdds": -107.0,
         "teamId": "2306"
@@ -5603,7 +5603,7 @@
         "uid": "s:40~l:41~e:401493406~c:401493406",
         "date": "2023-01-21T19:00Z",
         "neutralSite": false,
-        "conferenceCompetition": false,
+        "conferenceCompetition": true,
         "boxscoreAvailable": true,
         "commentaryAvailable": false,
         "liveAvailable": false,
@@ -5804,7 +5804,14 @@
             "lang": "en",
             "region": "us"
           }
-        ]
+        ],
+        "groups": {
+          "id": "8",
+          "name": "Big 12 Conference",
+          "abbreviation": "big12",
+          "shortName": "Big 12",
+          "midsizeName": "Big 12"
+        }
       }
     ],
     "links": [
