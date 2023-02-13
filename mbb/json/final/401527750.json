@@ -21527,90 +21527,6 @@
               {
                 "active": false,
                 "athlete": {
-                  "id": "5127438",
-                  "uid": "s:40~l:41~a:5127438",
-                  "guid": "4011aa88-faca-3844-bafe-7deb18684a5b",
-                  "displayName": "Unkown Unknown",
-                  "shortName": "U. Unknown",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5127438/unkown-unknown",
-                      "text": "Player Card"
-                    },
-                    {
-                      "rel": [
-                        "stats",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5127438/unkown-unknown",
-                      "text": "Stats"
-                    },
-                    {
-                      "rel": [
-                        "splits",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5127438/unkown-unknown",
-                      "text": "Splits"
-                    },
-                    {
-                      "rel": [
-                        "gamelog",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5127438/unkown-unknown",
-                      "text": "Game Log"
-                    },
-                    {
-                      "rel": [
-                        "news",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5127438/unkown-unknown",
-                      "text": "News"
-                    },
-                    {
-                      "rel": [
-                        "bio",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5127438/unkown-unknown",
-                      "text": "Bio"
-                    },
-                    {
-                      "rel": [
-                        "overview",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5127438/unkown-unknown",
-                      "text": "Overview"
-                    }
-                  ],
-                  "position": {
-                    "name": "Athlete",
-                    "displayName": "Athlete",
-                    "abbreviation": "ATH"
-                  }
-                },
-                "starter": false,
-                "didNotPlay": true,
-                "ejected": false,
-                "stats": []
-              },
-              {
-                "active": false,
-                "athlete": {
                   "id": "5120266",
                   "uid": "s:40~l:41~a:5120266",
                   "guid": "5f8d4aec-7ff9-38fe-a918-20d7ac922586",
@@ -22357,6 +22273,90 @@
                     "name": "Athlete",
                     "displayName": "Athlete",
                     "abbreviation": "ATH"
+                  }
+                },
+                "starter": false,
+                "didNotPlay": true,
+                "ejected": false,
+                "stats": []
+              },
+              {
+                "active": false,
+                "athlete": {
+                  "id": "5127438",
+                  "uid": "s:40~l:41~a:5127438",
+                  "guid": "4011aa88-faca-3844-bafe-7deb18684a5b",
+                  "displayName": "Unkown Unknown",
+                  "shortName": "U. Unknown",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mens-college-basketball/player/_/id/5127438/unkown-unknown",
+                      "text": "Player Card"
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/stats/_/id/5127438/unkown-unknown",
+                      "text": "Stats"
+                    },
+                    {
+                      "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/splits/_/id/5127438/unkown-unknown",
+                      "text": "Splits"
+                    },
+                    {
+                      "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/gamelog/_/id/5127438/unkown-unknown",
+                      "text": "Game Log"
+                    },
+                    {
+                      "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/news/_/id/5127438/unkown-unknown",
+                      "text": "News"
+                    },
+                    {
+                      "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/bio/_/id/5127438/unkown-unknown",
+                      "text": "Bio"
+                    },
+                    {
+                      "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "http://www.espn.com/mens-college-basketball/player/_/id/5127438/unkown-unknown",
+                      "text": "Overview"
+                    }
+                  ],
+                  "position": {
+                    "name": "Forward",
+                    "displayName": "Forward",
+                    "abbreviation": "F"
                   }
                 },
                 "starter": false,
@@ -27263,7 +27263,21 @@
     }
   ],
   "odds": [],
-  "predictor": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "2856",
+      "gameProjection": "99.9",
+      "teamChanceLoss": "0.1",
+      "teamChanceTie": "0.0"
+    },
+    "awayTeam": {
+      "id": "110418",
+      "gameProjection": "0.1",
+      "teamChanceLoss": "99.9",
+      "teamChanceTie": "0.0"
+    }
+  },
   "espnWP": {},
   "gameInfo": {
     "venue": {
