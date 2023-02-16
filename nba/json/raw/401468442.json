@@ -4064,15 +4064,15 @@
           "uid": "s:40~l:46~e:401469035~c:401469035",
           "date": "2023-02-16T01:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "22",
+            "name": "STATUS_END_PERIOD",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Wed, February 15th at 8:00 PM EST",
-            "shortDetail": "2/15 - 8:00 PM EST"
+            "description": "End of Period",
+            "detail": "End of 3rd Quarter",
+            "shortDetail": "End of 3rd"
           },
           "broadcasts": [],
           "competitors": [
@@ -4095,7 +4095,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
               },
-              "score": "0"
+              "score": "116"
             },
             {
               "homeAway": "away",
@@ -4116,34 +4116,34 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png"
               },
-              "score": "0"
+              "score": "78"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401469035",
+              "href": "https://www.espn.com/nba/game?gameId=401469035",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401469035",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
@@ -27150,8 +27150,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 11.5,
-                  "displayValue": "11.5"
+                  "value": 12.0,
+                  "displayValue": "12"
                 },
                 {
                   "name": "losses",
@@ -27160,8 +27160,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 29.0,
-                  "displayValue": "29"
+                  "value": 30.0,
+                  "displayValue": "30"
                 },
                 {
                   "name": "streak",
@@ -27170,8 +27170,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -27180,8 +27180,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.49122807,
-                  "displayValue": ".491"
+                  "value": 0.4827586,
+                  "displayValue": ".483"
                 },
                 {
                   "name": "wins",
@@ -27573,8 +27573,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 21.0,
-                  "displayValue": "21"
+                  "value": 21.5,
+                  "displayValue": "21.5"
                 },
                 {
                   "name": "losses",
@@ -27583,8 +27583,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 44.0,
-                  "displayValue": "44"
+                  "value": 45.0,
+                  "displayValue": "45"
                 },
                 {
                   "name": "streak",
@@ -27593,8 +27593,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -13.0,
-                  "displayValue": "L13"
+                  "value": -14.0,
+                  "displayValue": "L14"
                 },
                 {
                   "name": "winPercent",
@@ -27603,8 +27603,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.2413793,
-                  "displayValue": ".241"
+                  "value": 0.23728813,
+                  "displayValue": ".237"
                 },
                 {
                   "name": "wins",
