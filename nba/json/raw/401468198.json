@@ -4527,15 +4527,15 @@
           "uid": "s:40~l:46~e:401469040~c:401469040",
           "date": "2023-02-17T03:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "22",
+            "name": "STATUS_END_PERIOD",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Thu, February 16th at 10:00 PM EST",
-            "shortDetail": "2/16 - 10:00 PM EST"
+            "description": "End of Period",
+            "detail": "End of 3rd Quarter",
+            "shortDetail": "End of 3rd"
           },
           "broadcasts": [
             {
@@ -4574,7 +4574,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
               },
-              "score": "0"
+              "score": "84"
             },
             {
               "homeAway": "away",
@@ -4595,34 +4595,34 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
               },
-              "score": "0"
+              "score": "91"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401469040",
+              "href": "https://www.espn.com/nba/game?gameId=401469040",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401469040",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
@@ -26885,8 +26885,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "name": "losses",
@@ -26905,8 +26905,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -26915,8 +26915,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.44827586,
-                  "displayValue": ".448"
+                  "value": 0.45762712,
+                  "displayValue": ".458"
                 },
                 {
                   "name": "wins",
@@ -26925,8 +26925,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 26.0,
-                  "displayValue": "26"
+                  "value": 27.0,
+                  "displayValue": "27"
                 }
               ],
               "logo": [
