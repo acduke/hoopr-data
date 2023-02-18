@@ -34714,10 +34714,10 @@
               ]
             },
             {
-              "team": "Phoenix",
-              "link": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
-              "id": "21",
-              "uid": "s:40~l:46~t:21",
+              "team": "LA Clippers",
+              "link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
+              "id": "12",
+              "uid": "s:40~l:46~t:12",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -34736,8 +34736,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 27.0,
-                  "displayValue": "27"
+                  "value": 28.0,
+                  "displayValue": "28"
                 },
                 {
                   "name": "streak",
@@ -34756,8 +34756,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5423729,
-                  "displayValue": ".542"
+                  "value": 0.5409836,
+                  "displayValue": ".541"
                 },
                 {
                   "name": "wins",
@@ -34766,13 +34766,13 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 32.0,
-                  "displayValue": "32"
+                  "value": 33.0,
+                  "displayValue": "33"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -34783,7 +34783,7 @@
                   "lastUpdated": "2018-06-05T12:08Z"
                 },
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lac.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -34797,10 +34797,10 @@
               ]
             },
             {
-              "team": "LA Clippers",
-              "link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
-              "id": "12",
-              "uid": "s:40~l:46~t:12",
+              "team": "Phoenix",
+              "link": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
+              "id": "21",
+              "uid": "s:40~l:46~t:21",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -34829,8 +34829,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -34855,7 +34855,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -34866,7 +34866,7 @@
                   "lastUpdated": "2018-06-05T12:08Z"
                 },
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lac.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -36282,36 +36282,20 @@
           "uid": "s:40~l:46~e:401469040~c:401469040",
           "date": "2023-02-17T03:00:00Z",
           "timeValid": true,
-          "status": "in",
+          "status": "post",
           "statusType": {
-            "id": "2",
-            "name": "STATUS_IN_PROGRESS",
-            "state": "in",
-            "completed": false,
-            "description": "In Progress",
-            "detail": "7:26 - 4th Quarter",
-            "shortDetail": "7:26 - 4th"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [
-            {
-              "type": {
-                "id": "1",
-                "shortName": "TV"
-              },
-              "market": {
-                "id": "1",
-                "type": "National"
-              },
-              "media": {
-                "shortName": "TNT"
-              },
-              "lang": "en",
-              "region": "us"
-            }
-          ],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": false,
               "team": {
                 "id": "21",
                 "uid": "s:40~l:46~t:21",
@@ -36329,10 +36313,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
               },
-              "score": "93"
+              "score": "107"
             },
             {
               "homeAway": "away",
+              "winner": true,
               "team": {
                 "id": "12",
                 "uid": "s:40~l:46~t:12",
@@ -36350,34 +36335,34 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
               },
-              "score": "100"
+              "score": "116"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "live",
+                "summary",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game?gameId=401469040",
+              "href": "https://www.espn.com/nba/game/_/gameId/401469040",
               "text": "Gamecast",
-              "shortText": "Gamecast",
+              "shortText": "Summary",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "live",
+                "summary",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401469040",
               "text": "Gamecast",
-              "shortText": "Gamecast",
+              "shortText": "Summary",
               "isExternal": false,
               "isPremium": false
             }
