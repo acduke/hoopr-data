@@ -3475,7 +3475,7 @@
           "displayName": "Points",
           "leaders": [
             {
-              "displayValue": "6",
+              "displayValue": "20",
               "athlete": {
                 "id": "5107157",
                 "uid": "s:40~l:41~a:5107157",
@@ -3541,15 +3541,15 @@
           "displayName": "Assists",
           "leaders": [
             {
-              "displayValue": "1",
+              "displayValue": "3",
               "athlete": {
-                "id": "5107157",
-                "uid": "s:40~l:41~a:5107157",
-                "guid": "00da764f-2021-3741-92ca-2045983b9a92",
-                "lastName": "Conwell",
-                "fullName": "Ryan Conwell",
-                "displayName": "Ryan Conwell",
-                "shortName": "R. Conwell",
+                "id": "4433187",
+                "uid": "s:40~l:41~a:4433187",
+                "guid": "b94263af-0e56-34a6-8ac4-f00eb98ac661",
+                "lastName": "Miguel",
+                "fullName": "Selton Miguel",
+                "displayName": "Selton Miguel",
+                "shortName": "S. Miguel",
                 "links": [
                   {
                     "rel": [
@@ -3557,15 +3557,15 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/5107157/ryan-conwell",
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433187/selton-miguel",
                     "text": "Player Card"
                   }
                 ],
                 "headshot": {
-                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5107157.png",
-                  "alt": "Ryan Conwell"
+                  "href": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433187.png",
+                  "alt": "Selton Miguel"
                 },
-                "jersey": "0",
+                "jersey": "1",
                 "position": {
                   "abbreviation": "G"
                 }
@@ -3577,8 +3577,8 @@
                   "shortDisplayName": "AST",
                   "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
                   "abbreviation": "AST",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "turnovers",
@@ -3595,8 +3595,8 @@
                   "shortDisplayName": "MIN",
                   "description": "The total number of minutes played.",
                   "abbreviation": "MIN",
-                  "value": 32.0,
-                  "displayValue": "32"
+                  "value": 14.0,
+                  "displayValue": "14"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -3604,8 +3604,8 @@
                   "shortDisplayName": "AST/TO",
                   "description": "The average number of assists a player or team records per turnover",
                   "abbreviation": "AST/TO",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 }
               ]
             }
@@ -3616,7 +3616,7 @@
           "displayName": "Rebounds",
           "leaders": [
             {
-              "displayValue": "8",
+              "displayValue": "15",
               "athlete": {
                 "id": "4432888",
                 "uid": "s:40~l:41~a:4432888",
@@ -3992,10 +3992,10 @@
         "underdog": false,
         "moneyLine": -205,
         "spreadRecord": {
-          "wins": 11,
+          "wins": 12,
           "losses": 12,
           "pushes": 0,
-          "summary": "11-12-0"
+          "summary": "12-12-0"
         },
         "spreadOdds": -112.0,
         "teamId": "2655"
@@ -4007,9 +4007,9 @@
         "moneyLine": 175,
         "spreadRecord": {
           "wins": 16,
-          "losses": 10,
+          "losses": 11,
           "pushes": 0,
-          "summary": "16-10-0"
+          "summary": "16-11-0"
         },
         "spreadOdds": -104.0,
         "teamId": "58"
@@ -17582,6 +17582,59 @@
               ]
             },
             {
+              "team": "East Carolina",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/151/east-carolina-pirates",
+              "id": "151",
+              "uid": "s:40~l:41~t:151",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "14-13",
+                  "displayValue": "14-13"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 8.0,
+                  "displayValue": "8"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-9",
+                  "displayValue": "5-9"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2022-08-31T21:06Z"
+                }
+              ]
+            },
+            {
               "team": "SMU",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2567/smu-mustangs",
               "id": "2567",
@@ -17631,59 +17684,6 @@
                     "default"
                   ],
                   "lastUpdated": "2022-08-31T21:25Z"
-                }
-              ]
-            },
-            {
-              "team": "East Carolina",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/151/east-carolina-pirates",
-              "id": "151",
-              "uid": "s:40~l:41~t:151",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "13-13",
-                  "displayValue": "13-13"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 8.5,
-                  "displayValue": "8.5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "4-9",
-                  "displayValue": "4-9"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2022-08-31T21:06Z"
                 }
               ]
             },
@@ -17754,8 +17754,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "5-21",
-                  "displayValue": "5-21"
+                  "summary": "5-22",
+                  "displayValue": "5-22"
                 },
                 {
                   "name": "gamesBehind",
@@ -17764,8 +17764,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 12.5,
-                  "displayValue": "12.5"
+                  "value": 13.0,
+                  "displayValue": "13"
                 },
                 {
                   "id": "9",
@@ -17775,8 +17775,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-14",
-                  "displayValue": "1-14"
+                  "summary": "1-15",
+                  "displayValue": "1-15"
                 }
               ],
               "logo": [
