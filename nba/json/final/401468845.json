@@ -39224,7 +39224,6 @@
                     "href": "https://a.espncdn.com/i/headshots/nba/players/full/3964.png",
                     "alt": "Patrick Beverley"
                   },
-                  "jersey": "21",
                   "position": {
                     "name": "Point Guard",
                     "displayName": "Point Guard",
@@ -44652,7 +44651,7 @@
         {
           "id": "401469082",
           "uid": "s:40~l:46~e:401469082~c:401469082",
-          "date": "2023-03-01T01:00:00Z",
+          "date": "2023-03-01T00:30:00Z",
           "timeValid": true,
           "status": "pre",
           "statusType": {
@@ -44661,10 +44660,26 @@
             "state": "pre",
             "completed": false,
             "description": "Scheduled",
-            "detail": "Tue, February 28th at 8:00 PM EST",
-            "shortDetail": "2/28 - 8:00 PM EST"
+            "detail": "Tue, February 28th at 7:30 PM EST",
+            "shortDetail": "2/28 - 7:30 PM EST"
           },
-          "broadcasts": [],
+          "broadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "TNT"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
           "competitors": [
             {
               "homeAway": "home",
