@@ -18569,71 +18569,72 @@
     "video": [
       {
         "source": "espn",
-        "id": 35698911,
-        "dataSourceIdentifier": "ba519c723cebd",
-        "headline": "What's UNC's margin of error after another Quad 1 loss?",
-        "caption": "Joe Lunardi says North Carolina's margin of error is \"next to none\" after losing to NC State on Sunday.",
-        "description": "Joe Lunardi says North Carolina's margin of error is \"next to none\" after losing to NC State on Sunday.",
+        "id": 35696259,
+        "headline": "Jarkel Joiner's slam puts NC State up 10 over UNC",
+        "caption": "Jarkel Joiner collects Terquavion Smith's pass and puts an exclamation point on NC State's late second-half run.",
+        "description": "Jarkel Joiner collects Terquavion Smith's pass and puts an exclamation point on NC State's late second-half run.",
         "premium": false,
         "ad": {
           "sport": "ncb",
-          "bundle": "ncb_bracketology"
+          "bundle": "ncb_instant_replay"
         },
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Analysis",
-          "trackingName": "UNPUB 2/22 9p COM_NCB Analysis (What's UNC's margin of error after another Quad 1 loss?) 2023/02/19 SC ESHEET",
-          "trackingId": "dm_230219_ncb_lunardi_on_unc"
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Jarkel Joiner\u2019s slam puts NC State up 10 over UNC) 2023/02/19 ESHEET",
+          "trackingId": "dm_20230219_NCB_jarkel_joiners_slam_puts_nc_state_up_10_over_unc"
         },
-        "cerebroId": "63f2ced2be6ab31ff76e054b",
-        "lastModified": "2023-02-20T01:38:51Z",
-        "originalPublishDate": "2023-02-20T01:29:10Z",
+        "cerebroId": "63f2814bbe6ab31ff76da4c2",
+        "pccId": "9cc431f5-51fb-42cb-b64a-95ee7f1b2239",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-02-19T20:08:00Z",
+        "originalPublishDate": "2023-02-19T20:06:33Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-20T01:29:10Z",
-          "expirationDate": "2023-02-23T02:29:10Z"
+          "embargoDate": "2023-02-19T20:06:33Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
           "devices": [
             "desktop",
-            "ipad",
             "settop",
             "handset",
             "tablet"
           ]
         },
         "syndicatable": true,
-        "duration": 56,
+        "duration": 19,
         "categories": [
           {
-            "id": 9576,
-            "description": "Men's College Basketball",
-            "type": "league",
+            "id": 3156,
+            "description": "NC State Wolfpack",
+            "type": "team",
             "sportId": 41,
-            "leagueId": 41,
-            "league": {
-              "id": 41,
-              "description": "Men's College Basketball",
+            "teamId": 152,
+            "team": {
+              "id": 152,
+              "description": "NC State Wolfpack",
               "links": {
                 "api": {
-                  "leagues": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  "teams": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/152"
                   }
                 },
                 "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/mens-college-basketball/"
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/152/nc-state-wolfpack?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
-                  "leagues": {
-                    "href": "http://m.espn.com/ncb/"
+                  "teams": {
+                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=152&ex_cid=espnapi_internal"
                   }
                 }
               }
             },
-            "uid": "s:40~l:41"
+            "uid": "s:40~l:41~t:152"
           },
           {
             "id": 3157,
@@ -18647,45 +18648,103 @@
               "links": {
                 "api": {
                   "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/153"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/153"
                   }
                 },
                 "web": {
                   "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels"
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=153"
+                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=153&ex_cid=espnapi_internal"
                   }
                 }
               }
             },
             "uid": "s:40~l:41~t:153"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.go.com/ncb/?ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 509162,
+            "description": "Terquavion Smith",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4683940,
+            "athlete": {
+              "id": 4683940,
+              "description": "Terquavion Smith",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4683940"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4683940/terquavion-smith?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4683940&ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            }
           }
         ],
+        "gameId": 401488504,
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -18693,66 +18752,65 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35698911"
+              "href": "http://api.espn.com/v1/video/clips/35696259"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/bf8df7f2-2488-41d3-922b-0d51470ceaec"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9cc431f5-51fb-42cb-b64a-95ee7f1b2239"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35698911",
+            "href": "https://www.espn.com/video/clip?id=35696259&ex_cid=espnapi_internal",
             "short": {
-              "href": "https://es.pn/3EnAq26"
+              "href": "https://www.espn.com/video/clip?id=35696259"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35698911"
+              "href": "https://www.espn.com/video/clip?id=35696259&ex_cid=espnapi_internal"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc.mp4"
+              "href": "https://media.video-origin.espn.com/espnvideo/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35698911"
+              "href": "http://m.espn.go.com/general/video/videoAlert?vid=35696259&ex_cid=espnapi_internal"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0219/ss_20230219_150637012_2196118/ss_20230219_150637012_2196118.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bf8df7f2-2488-41d3-922b-0d51470ceaec/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35698911",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9cc431f5-51fb-42cb-b64a-95ee7f1b2239/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35696259",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bf8df7f2-2488-41d3-922b-0d51470ceaec/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35698911"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9cc431f5-51fb-42cb-b64a-95ee7f1b2239/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35696259"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/bf8df7f2-2488-41d3-922b-0d51470ceaec/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35698911"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9cc431f5-51fb-42cb-b64a-95ee7f1b2239/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35696259"
             }
           }
-        },
-        "title": "What's UNC's margin of error after another Quad 1 loss?"
+        }
       }
     ],
     "type": "Recap",
@@ -18874,16 +18932,7 @@
     ],
     "headline": "Joiner, No. 23 NC State pull away late to beat rival UNC",
     "gameId": "401488504",
-    "images": [
-      {
-        "name": "What's UNC's margin of error after another Quad 1 loss?",
-        "width": 576,
-        "alt": "",
-        "caption": "Joe Lunardi says North Carolina's margin of error is \"next to none\" after losing to NC State on Sunday.",
-        "url": "https://a.espncdn.com/media/motion/2023/0219/dm_230219_ncb_lunardi_on_unc/dm_230219_ncb_lunardi_on_unc.jpg",
-        "height": 324
-      }
-    ],
+    "images": [],
     "linkText": "Joiner, No. 23 NC State pull away late to beat rival UNC",
     "published": "2023-02-19T20:17:39Z",
     "allowComments": true,
@@ -19862,59 +19911,6 @@
         "standings": {
           "entries": [
             {
-              "team": "Virginia",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/258/virginia-cavaliers",
-              "id": "258",
-              "uid": "s:40~l:41~t:258",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "21-4",
-                  "displayValue": "21-4"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 0.0,
-                  "displayValue": "-"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "13-3",
-                  "displayValue": "13-3"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2020-09-16T19:21Z"
-                }
-              ]
-            },
-            {
               "team": "Miami",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/2390/miami-hurricanes",
               "id": "2390",
@@ -19964,6 +19960,59 @@
                     "default"
                   ],
                   "lastUpdated": "2018-11-19T19:02Z"
+                }
+              ]
+            },
+            {
+              "team": "Virginia",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/258/virginia-cavaliers",
+              "id": "258",
+              "uid": "s:40~l:41~t:258",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "21-5",
+                  "displayValue": "21-5"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.5,
+                  "displayValue": "0.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "13-4",
+                  "displayValue": "13-4"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2020-09-16T19:21Z"
                 }
               ]
             },
@@ -20034,8 +20083,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "19-8",
-                  "displayValue": "19-8"
+                  "summary": "20-8",
+                  "displayValue": "20-8"
                 },
                 {
                   "name": "gamesBehind",
@@ -20044,8 +20093,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -20055,8 +20104,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "11-5",
-                  "displayValue": "11-5"
+                  "summary": "12-5",
+                  "displayValue": "12-5"
                 }
               ],
               "logo": [
@@ -20087,8 +20136,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "21-7",
-                  "displayValue": "21-7"
+                  "summary": "22-7",
+                  "displayValue": "22-7"
                 },
                 {
                   "name": "gamesBehind",
@@ -20097,8 +20146,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "id": "9",
@@ -20108,8 +20157,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "11-6",
-                  "displayValue": "11-6"
+                  "summary": "12-6",
+                  "displayValue": "12-6"
                 }
               ],
               "logo": [
@@ -20180,6 +20229,59 @@
               ]
             },
             {
+              "team": "North Carolina",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels",
+              "id": "153",
+              "uid": "s:40~l:41~t:153",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "17-11",
+                  "displayValue": "17-11"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 4.5,
+                  "displayValue": "4.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "9-8",
+                  "displayValue": "9-8"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2023-02-17T21:04Z"
+                }
+              ]
+            },
+            {
               "team": "Wake Forest",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
               "id": "154",
@@ -20193,8 +20295,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "17-10",
-                  "displayValue": "17-10"
+                  "summary": "17-11",
+                  "displayValue": "17-11"
                 },
                 {
                   "name": "gamesBehind",
@@ -20203,8 +20305,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -20214,8 +20316,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-7",
-                  "displayValue": "9-7"
+                  "summary": "9-8",
+                  "displayValue": "9-8"
                 }
               ],
               "logo": [
@@ -20246,8 +20348,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "16-11",
-                  "displayValue": "16-11"
+                  "summary": "16-12",
+                  "displayValue": "16-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -20256,8 +20358,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -20267,8 +20369,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-7",
-                  "displayValue": "9-7"
+                  "summary": "9-8",
+                  "displayValue": "9-8"
                 }
               ],
               "logo": [
@@ -20286,59 +20388,6 @@
               ]
             },
             {
-              "team": "North Carolina",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels",
-              "id": "153",
-              "uid": "s:40~l:41~t:153",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "16-11",
-                  "displayValue": "16-11"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "8-8",
-                  "displayValue": "8-8"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2023-02-17T21:04Z"
-                }
-              ]
-            },
-            {
               "team": "Boston College",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/103/boston-college-eagles",
               "id": "103",
@@ -20352,8 +20401,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "13-15",
-                  "displayValue": "13-15"
+                  "summary": "14-15",
+                  "displayValue": "14-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -20362,8 +20411,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "id": "9",
@@ -20373,8 +20422,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-10",
-                  "displayValue": "7-10"
+                  "summary": "8-10",
+                  "displayValue": "8-10"
                 }
               ],
               "logo": [
@@ -20564,8 +20613,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "10-17",
-                  "displayValue": "10-17"
+                  "summary": "10-18",
+                  "displayValue": "10-18"
                 },
                 {
                   "name": "gamesBehind",
@@ -20574,8 +20623,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 11.0,
-                  "displayValue": "11"
+                  "value": 11.5,
+                  "displayValue": "11.5"
                 },
                 {
                   "id": "9",
@@ -20585,8 +20634,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "2-14",
-                  "displayValue": "2-14"
+                  "summary": "2-15",
+                  "displayValue": "2-15"
                 }
               ],
               "logo": [
