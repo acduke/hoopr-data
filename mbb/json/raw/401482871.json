@@ -5986,7 +5986,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -6198,6 +6198,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401482871",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401482871",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -18008,7 +18020,169 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "f8d09ddc354bf",
+    "keywords": [],
+    "description": "\u2014 Max Rice scored 22 of his 30 points in the second half and grabbed seven rebounds and Boise State beat New Mexico 82-77 on Wednesday.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35715842",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35715842"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401482871"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401482871",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35715842"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401482871&version=mobile"
+      }
+    },
+    "id": 35715842,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3426,
+        "description": "Boise State Broncos",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 68,
+        "team": {
+          "id": 68,
+          "description": "Boise State Broncos",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/68"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/68/boise-state-broncos"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=68"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:68"
+      },
+      {
+        "id": 3443,
+        "description": "New Mexico Lobos",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 167,
+        "team": {
+          "id": 167,
+          "description": "New Mexico Lobos",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/167"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/167/new-mexico-lobos"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=167"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:167"
+      }
+    ],
+    "headline": "Rice scores 30 as Boise State defeats New Mexico 82-77",
+    "gameId": "401482871",
+    "images": [],
+    "linkText": "Rice scores 30 as Boise State defeats New Mexico 82-77",
+    "published": "2023-02-23T06:35:56Z",
+    "allowComments": true,
+    "lastModified": "2023-02-23T06:35:57Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">BOISE, Idaho -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397263/max-rice\">Max Rice</a> scored 22 of his 30 points in the second half and grabbed seven rebounds and Boise State beat New Mexico 82-77 on Wednesday.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4898260/tyson-degenhart\">Tyson Degenhart</a> scored 13 points and grabbed seven rebounds and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433197/chibuzo-agbo\">Chibuzo Agbo</a> scored 12 shooting 6 of 7 from the foul line for the Broncos (22-6, 12-3 Mountain West Conference). \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Lobos (20-8, 7-8) were led in scoring by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4396681/morris-udeze\">Morris Udeze</a>, who finished with 18 points and 14 rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431763/jaelen-house\">Jaelen House</a> added 14 points, six rebounds, six assists and two blocks for New Mexico. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897526/kj-jenkins\">KJ Jenkins</a> also had 12 points and six rebounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">NEXT UP\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Both teams next play Saturday. Boise State visits San Jose State while New Mexico hosts San Diego State.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "videos": [],
   "standings": {
     "fullViewLink": {

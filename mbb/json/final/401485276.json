@@ -23680,7 +23680,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23984,6 +23984,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401485276",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401485276",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -24496,7 +24508,7 @@
                     "full",
                     "default"
                   ],
-                  "lastUpdated": "2018-06-05T12:08Z"
+                  "lastUpdated": "2023-02-22T17:01Z"
                 }
               ]
             },
@@ -24825,7 +24837,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "0a8c149ab5c25",
+    "keywords": [],
+    "description": "\u2014 Joel Soriano scored 16 points as St. John's beat Georgetown 79-70 on Wednesday night.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35715508",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35715508"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401485276"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401485276",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35715508"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401485276&version=mobile"
+      }
+    },
+    "id": 35715508,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3180,
+        "description": "Georgetown Hoyas",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 46,
+        "team": {
+          "id": 46,
+          "description": "Georgetown Hoyas",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/46"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/46/georgetown-hoyas"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=46"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:46"
+      },
+      {
+        "id": 3179,
+        "description": "St. John's Red Storm",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2599,
+        "team": {
+          "id": 2599,
+          "description": "St. John's Red Storm",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2599"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2599/st.-john's-red-storm"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2599"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2599"
+      }
+    ],
+    "headline": "Soriano scores 16, St. John's beats Georgetown 79-70",
+    "gameId": "401485276",
+    "images": [],
+    "linkText": "Soriano scores 16, St. John's beats Georgetown 79-70",
+    "published": "2023-02-23T04:59:48Z",
+    "allowComments": true,
+    "lastModified": "2023-02-23T04:59:48Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">WASHINGTON -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592317/joel-soriano\">Joel Soriano</a> scored 16 points as St. John's beat Georgetown 79-70 on Wednesday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Soriano added eight rebounds for the Red Storm (17-12, 7-11 Big East Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105603/aj-storr\">AJ Storr</a> shot 6 for 14, including 1 for 4 from beyond the arc to add 15 points. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4713010/david-jones\">David Jones</a> finished 7 of 13 from the field to finish with 14 points, while adding 12 rebounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4684166/brandon-murray\">Brandon Murray</a> led the way for the Hoyas (7-22, 2-16) with 25 points and three steals. Georgetown also got 16 points, seven assists and two steals from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592181/jay-heath\">Jay Heath</a>. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897090/primo-spears\">Primo Spears</a> put up 11 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">St. John's entered halftime up 40-32. Storr paced the team in scoring in the first half with 10 points. St. John's took the lead for good with 5:27 remaining in the second half on a 3-pointer from Storr to make it a 70-67 game.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -25507,7 +25681,7 @@
     "timeoutsAvailable": false,
     "possessionArrowAvailable": false,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
