@@ -22968,7 +22968,7 @@
         "timeoutsAvailable": true,
         "possessionArrowAvailable": true,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23283,6 +23283,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401470389",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401470389",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -23739,99 +23751,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b592ffc8-5a31-4589-baa5-5766622b5da5/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35729563"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35729926,
-      "headline": "This slam dunk from Joe Charles was too nice",
-      "description": "This slam dunk from Joe Charles was too nice",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (This slam dunk from Joe Charles was too nice) 2023/02/25 ESHEET",
-        "trackingId": "dm_20230225_NCB_this_slam_dunk_from_joe_charles_was_too_nice"
-      },
-      "cerebroId": "63f982cdca84b7099eb381d7",
-      "lastModified": "2023-02-25T04:05:57Z",
-      "originalPublishDate": "2023-02-25T03:38:51Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-25T03:38:51Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 25,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35729926"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/eac45da8-5f1c-41eb-9e99-64a33c2e30a0"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35729926&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35729926"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35729926&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35729926&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/eac45da8-5f1c-41eb-9e99-64a33c2e30a0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35729926",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/eac45da8-5f1c-41eb-9e99-64a33c2e30a0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35729926"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/eac45da8-5f1c-41eb-9e99-64a33c2e30a0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35729926"
           }
         }
       }
@@ -24596,7 +24515,397 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "071e7ed2e7b44",
+    "keywords": [],
+    "description": "\u2014 Jordan Brown scored 28 points as Louisiana beat South Alabama 74-64 on Friday night.",
+    "source": "Data Skrive",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35729926,
+        "dataSourceIdentifier": "a1d0246555320",
+        "headline": "This slam dunk from Joe Charles was too nice",
+        "caption": "This slam dunk from Joe Charles was too nice",
+        "description": "This slam dunk from Joe Charles was too nice",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (This slam dunk from Joe Charles was too nice) 2023/02/25 ESHEET",
+          "trackingId": "dm_20230225_NCB_this_slam_dunk_from_joe_charles_was_too_nice"
+        },
+        "cerebroId": "63f982cdca84b7099eb381d7",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-02-25T04:05:57Z",
+        "originalPublishDate": "2023-02-25T03:38:51Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-02-25T03:38:51Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 25,
+        "categories": [
+          {
+            "id": 3413,
+            "description": "Louisiana Ragin' Cajuns",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 309,
+            "team": {
+              "id": 309,
+              "description": "Louisiana Ragin' Cajuns",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/309"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/309/louisiana-ragin'-cajuns"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=309"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:309"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 508904,
+            "description": "Joe Charles",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4708075,
+            "athlete": {
+              "id": 4708075,
+              "description": "Joe Charles",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4708075"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4708075/joe-charles"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4708075"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4708075"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35729926"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/eac45da8-5f1c-41eb-9e99-64a33c2e30a0"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35729926",
+            "short": {
+              "href": "https://es.pn/3ZowdTT"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35729926"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35729926"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/eac45da8-5f1c-41eb-9e99-64a33c2e30a0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35729926",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/eac45da8-5f1c-41eb-9e99-64a33c2e30a0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35729926"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/eac45da8-5f1c-41eb-9e99-64a33c2e30a0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35729926"
+            }
+          }
+        },
+        "title": "This slam dunk from Joe Charles was too nice"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35730410",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35730410"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401470389"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401470389",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35730410"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401470389&version=mobile"
+      }
+    },
+    "id": 35730410,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3413,
+        "description": "Louisiana Ragin' Cajuns",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 309,
+        "team": {
+          "id": 309,
+          "description": "Louisiana Ragin' Cajuns",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/309"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/309/louisiana-ragin'-cajuns"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=309"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:309"
+      },
+      {
+        "id": 3410,
+        "description": "South Alabama Jaguars",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 6,
+        "team": {
+          "id": 6,
+          "description": "South Alabama Jaguars",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/6"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/6/south-alabama-jaguars"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=6"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:6"
+      }
+    ],
+    "headline": "Louisiana beats South Alabama 74-64",
+    "gameId": "401470389",
+    "images": [
+      {
+        "name": "This slam dunk from Joe Charles was too nice",
+        "width": 576,
+        "alt": "",
+        "caption": "This slam dunk from Joe Charles was too nice",
+        "url": "https://a.espncdn.com/media/motion/2023/0224/ss_20230224_223855544_2200444/ss_20230224_223855544_2200444.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Louisiana beats South Alabama 74-64",
+    "published": "2023-02-25T05:08:15Z",
+    "allowComments": true,
+    "lastModified": "2023-02-25T05:08:16Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">LAFAYETTE, La. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397340/jordan-brown\">Jordan Brown</a> scored 28 points as Louisiana beat South Alabama 74-64 on Friday night.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Brown also had 11 rebounds for the Ragin' Cajuns (23-7, 13-5 Sun Belt Conference). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703343/jalen-dalcourt\">Jalen Dalcourt</a> scored 11 points while going 1 of 5 from the floor, including 1 for 3 from distance, and 8 for 8 from the line. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702105/michael-thomas\">Michael Thomas</a> was 2 of 8 shooting, including 1 for 5 from distance, and went 5 for 6 from the line to finish with 10 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106458/isaiah-moore\">Isaiah Moore</a> led the Jaguars (16-15, 9-9) in scoring, finishing with 22 points and three steals. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5106460/owen-white\">Owen White</a> added 15 points for South Alabama. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4277915/kevin-samuel\">Kevin Samuel</a> also put up nine points and two blocks. The loss broke the Jaguars' five-game winning streak.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -25267,7 +25576,7 @@
     "timeoutsAvailable": true,
     "possessionArrowAvailable": true,
     "onWatchESPN": true,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [

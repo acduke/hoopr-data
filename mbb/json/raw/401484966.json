@@ -4129,9 +4129,9 @@
         "moneyLine": -161,
         "spreadRecord": {
           "wins": 14,
-          "losses": 13,
+          "losses": 14,
           "pushes": 0,
-          "summary": "14-13-0"
+          "summary": "14-14-0"
         },
         "spreadOdds": -107.0,
         "teamId": "127"
@@ -16421,29 +16421,31 @@
     "video": [
       {
         "source": "espn",
-        "id": 35709728,
-        "dataSourceIdentifier": "7989ecba527a4",
-        "headline": "Michigan State tops Indiana in emotional 1st game back at MSU",
-        "caption": "Tyson Walker leads all scorers with 23 points as Michigan State defeats No. 17 Indiana 80-65.",
-        "description": "Tyson Walker leads all scorers with 23 points as Michigan State defeats No. 17 Indiana 80-65.",
+        "id": 35709504,
+        "dataSourceIdentifier": "a7944cafb9521",
+        "headline": "Tyson Walker excites the fans as he drains a 3-pointer",
+        "caption": "Michigan State fans cheer after Tyson Walker connects on a trey.",
+        "description": "Michigan State fans cheer after Tyson Walker connects on a trey.",
         "premium": false,
         "ad": {
           "sport": "ncb",
-          "bundle": "ncbgamehighlights"
+          "bundle": "ncb_instant_replay"
         },
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Final Game Highlight",
-          "trackingName": "COM_NCB Highlight (Michigan State tops Indiana in emotional 1st game back at MSU) 2023/2/21 ESHEET SVP SC",
-          "trackingId": "dm_230221_ncb_indiana_msu_highlight"
+          "coverageType": "OnePlay",
+          "trackingName": "NCB_One-Play (Tyson Walker excites the fans as he drains a 3-pointer) 2023/02/22 ESHEET",
+          "trackingId": "dm_20230222_NCB_tyson_walker_shows_off_the_range_on_trey"
         },
-        "cerebroId": "63f59c4cbe6ab31ff774e142",
-        "lastModified": "2023-02-22T04:43:20Z",
-        "originalPublishDate": "2023-02-22T04:34:59Z",
+        "cerebroId": "63f58c29be6ab31ff774d1e2",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-02-25T15:30:00Z",
+        "originalPublishDate": "2023-02-22T03:29:42Z",
         "timeRestrictions": {
-          "embargoDate": "2023-02-22T04:34:59Z",
-          "expirationDate": "2023-06-01T03:34:59Z"
+          "embargoDate": "2023-02-22T03:29:42Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
@@ -16456,37 +16458,8 @@
           ]
         },
         "syndicatable": true,
-        "duration": 193,
+        "duration": 16,
         "categories": [
-          {
-            "id": 9576,
-            "description": "Men's College Basketball",
-            "type": "league",
-            "sportId": 41,
-            "leagueId": 41,
-            "league": {
-              "id": 41,
-              "description": "Men's College Basketball",
-              "links": {
-                "api": {
-                  "leagues": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
-                  }
-                },
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/mens-college-basketball/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "http://m.espn.com/ncb/"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:41"
-          },
           {
             "id": 3205,
             "description": "Indiana Hoosiers",
@@ -16517,6 +16490,35 @@
             "uid": "s:40~l:41~t:84"
           },
           {
+            "id": 411251,
+            "description": "Tyson Walker",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4432129,
+            "athlete": {
+              "id": 4432129,
+              "description": "Tyson Walker",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432129"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432129/tyson-walker"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4432129"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4432129"
+          },
+          {
             "id": 3206,
             "description": "Michigan State Spartans",
             "type": "team",
@@ -16544,29 +16546,58 @@
               }
             },
             "uid": "s:40~l:41~t:127"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
           }
         ],
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -16574,66 +16605,66 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35709728"
+              "href": "http://api-app.espn.com/v1/video/clips/35709504"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/e958fbe9-6536-420d-b326-9757918b35ad"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35709728",
+            "href": "http://espn.com/video/clip?id=35709504",
             "short": {
-              "href": "https://es.pn/3lZVLbi"
+              "href": "https://es.pn/3EsndoF"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35709728"
+              "href": "http://espn.com/video/clip?id=35709504"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.mp4"
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35709728"
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35709504"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e958fbe9-6536-420d-b326-9757918b35ad/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709728",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709504",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e958fbe9-6536-420d-b326-9757918b35ad/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709728"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709504"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e958fbe9-6536-420d-b326-9757918b35ad/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709728"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709504"
             }
           }
         },
-        "title": "Michigan State tops Indiana in emotional 1st game back at MSU"
+        "title": "Tyson Walker excites the fans as he drains a 3-pointer"
       }
     ],
     "type": "Recap",
@@ -16757,11 +16788,11 @@
     "gameId": "401484966",
     "images": [
       {
-        "name": "Michigan State tops Indiana in emotional 1st game back at MSU",
+        "name": "Tyson Walker excites the fans as he drains a 3-pointer",
         "width": 576,
         "alt": "",
-        "caption": "Tyson Walker leads all scorers with 23 points as Michigan State defeats No. 17 Indiana 80-65.",
-        "url": "https://a.espncdn.com/media/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.jpg",
+        "caption": "Michigan State fans cheer after Tyson Walker connects on a trey.",
+        "url": "https://a.espncdn.com/media/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.jpg",
         "height": 324
       }
     ],
@@ -17363,99 +17394,6 @@
     },
     {
       "source": "espn",
-      "id": 35709504,
-      "headline": "Tyson Walker excites the fans as he drains a 3-pointer",
-      "description": "Michigan State fans cheer after Tyson Walker connects on a trey.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "OnePlay",
-        "trackingName": "NCB_One-Play (Tyson Walker excites the fans as he drains a 3-pointer) 2023/02/22 ESHEET",
-        "trackingId": "dm_20230222_NCB_tyson_walker_shows_off_the_range_on_trey"
-      },
-      "cerebroId": "63f58c29be6ab31ff774d1e2",
-      "lastModified": "2023-02-22T03:38:23Z",
-      "originalPublishDate": "2023-02-22T03:29:42Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-02-22T03:29:42Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 16,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35709504"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35709504&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35709504"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35709504&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35709504&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0221/ss_20230221_222946934_2197881/ss_20230221_222946934_2197881.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709504",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709504"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7da02eae-f69f-4e9d-b881-d0b2a9ea0db8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709504"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
       "id": 35709528,
       "headline": "Trayce Jackson-Davis gets the and-1 to fall\n",
       "description": "Trayce Jackson-Davis scores the and-1 for the Indiana Hoosiers.\n",
@@ -17471,7 +17409,7 @@
         "trackingId": "dm_20230222_NCB_trayce_jacksondavis_somehow_gets_the_and1_to_fall"
       },
       "cerebroId": "63f58e6cbe6ab31ff774d520",
-      "lastModified": "2023-02-22T03:50:03Z",
+      "lastModified": "2023-02-25T15:28:50Z",
       "originalPublishDate": "2023-02-22T03:38:20Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-22T03:38:20Z",
@@ -17564,7 +17502,7 @@
         "trackingId": "dm_20230222_NCB_mady_sissoko_elevates_for_the_bigtime_swat"
       },
       "cerebroId": "63f591dcbe6ab31ff774d68d",
-      "lastModified": "2023-02-22T04:04:12Z",
+      "lastModified": "2023-02-25T15:28:06Z",
       "originalPublishDate": "2023-02-22T03:52:59Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-22T03:52:59Z",
@@ -17657,7 +17595,7 @@
         "trackingId": "dm_20230222_NCB_tyson_walker_nails_the_bucket"
       },
       "cerebroId": "63f59739be6ab31ff774db5c",
-      "lastModified": "2023-02-22T04:24:07Z",
+      "lastModified": "2023-02-25T15:27:23Z",
       "originalPublishDate": "2023-02-22T04:16:55Z",
       "timeRestrictions": {
         "embargoDate": "2023-02-22T04:16:55Z",
@@ -17732,6 +17670,99 @@
           }
         }
       }
+    },
+    {
+      "source": "espn",
+      "id": 35709728,
+      "headline": "Michigan State tops Indiana in emotional 1st game back at MSU",
+      "description": "Tyson Walker leads all scorers with 23 points as Michigan State defeats No. 17 Indiana 80-65.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "ncbgamehighlights"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "COM_NCB Highlight (Michigan State tops Indiana in emotional 1st game back at MSU) 2023/2/21 ESHEET SVP SC",
+        "trackingId": "dm_230221_ncb_indiana_msu_highlight"
+      },
+      "cerebroId": "63f59c4cbe6ab31ff774e142",
+      "lastModified": "2023-02-22T04:43:20Z",
+      "originalPublishDate": "2023-02-22T04:34:59Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-02-22T04:34:59Z",
+        "expirationDate": "2023-06-01T03:34:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "duration": 193,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35709728"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/e958fbe9-6536-420d-b326-9757918b35ad"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35709728&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35709728"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35709728&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35709728&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0221/dm_230221_ncb_indiana_msu_highlight/dm_230221_ncb_indiana_msu_highlight.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e958fbe9-6536-420d-b326-9757918b35ad/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709728",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e958fbe9-6536-420d-b326-9757918b35ad/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709728"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e958fbe9-6536-420d-b326-9757918b35ad/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35709728"
+          }
+        }
+      }
     }
   ],
   "standings": {
@@ -17757,8 +17788,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "24-4",
-                  "displayValue": "24-4"
+                  "summary": "24-5",
+                  "displayValue": "24-5"
                 },
                 {
                   "name": "gamesBehind",
@@ -17778,8 +17809,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "13-4",
-                  "displayValue": "13-4"
+                  "summary": "13-5",
+                  "displayValue": "13-5"
                 }
               ],
               "logo": [
@@ -17820,8 +17851,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 1.5,
+                  "displayValue": "1.5"
                 },
                 {
                   "id": "9",
@@ -17850,6 +17881,59 @@
               ]
             },
             {
+              "team": "Indiana",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/84/indiana-hoosiers",
+              "id": "84",
+              "uid": "s:40~l:41~t:84",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "overall",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "20-9",
+                  "displayValue": "20-9"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 2.0,
+                  "displayValue": "2"
+                },
+                {
+                  "id": "9",
+                  "name": "vs. Conf.",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "11-7",
+                  "displayValue": "11-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
               "team": "Maryland",
               "link": "https://www.espn.com/mens-college-basketball/team/_/id/120/maryland-terrapins",
               "id": "120",
@@ -17873,8 +17957,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -17891,59 +17975,6 @@
               "logo": [
                 {
                   "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Indiana",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/84/indiana-hoosiers",
-              "id": "84",
-              "uid": "s:40~l:41~t:84",
-              "stats": [
-                {
-                  "id": "0",
-                  "name": "overall",
-                  "abbreviation": "Season",
-                  "displayName": "Team Season Record",
-                  "shortDisplayName": "Season",
-                  "description": "Overall Record",
-                  "type": "total",
-                  "summary": "19-9",
-                  "displayValue": "19-9"
-                },
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
-                },
-                {
-                  "id": "9",
-                  "name": "vs. Conf.",
-                  "abbreviation": "VS CONF",
-                  "displayName": "CONF",
-                  "shortDisplayName": "CONF",
-                  "description": "Conference Record",
-                  "type": "vsconf",
-                  "summary": "10-7",
-                  "displayValue": "10-7"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -17979,8 +18010,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -18032,8 +18063,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.0,
-                  "displayValue": "3"
+                  "value": 2.5,
+                  "displayValue": "2.5"
                 },
                 {
                   "id": "9",
@@ -18062,10 +18093,10 @@
               ]
             },
             {
-              "team": "Michigan State",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
-              "id": "127",
-              "uid": "s:40~l:41~t:127",
+              "team": "Iowa",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2294/iowa-hawkeyes",
+              "id": "2294",
+              "uid": "s:40~l:41~t:2294",
               "stats": [
                 {
                   "id": "0",
@@ -18075,8 +18106,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "17-10",
-                  "displayValue": "17-10"
+                  "summary": "18-11",
+                  "displayValue": "18-11"
                 },
                 {
                   "name": "gamesBehind",
@@ -18085,8 +18116,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 3.5,
-                  "displayValue": "3.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "id": "9",
@@ -18096,13 +18127,13 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "9-7",
-                  "displayValue": "9-7"
+                  "summary": "10-8",
+                  "displayValue": "10-8"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18115,10 +18146,10 @@
               ]
             },
             {
-              "team": "Iowa",
-              "link": "https://www.espn.com/mens-college-basketball/team/_/id/2294/iowa-hawkeyes",
-              "id": "2294",
-              "uid": "s:40~l:41~t:2294",
+              "team": "Michigan State",
+              "link": "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans",
+              "id": "127",
+              "uid": "s:40~l:41~t:127",
               "stats": [
                 {
                   "id": "0",
@@ -18138,8 +18169,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -18155,7 +18186,7 @@
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -18191,8 +18222,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 4.0,
-                  "displayValue": "4"
+                  "value": 3.5,
+                  "displayValue": "3.5"
                 },
                 {
                   "id": "9",
@@ -18244,8 +18275,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -18297,8 +18328,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 5.0,
-                  "displayValue": "5"
+                  "value": 4.5,
+                  "displayValue": "4.5"
                 },
                 {
                   "id": "9",
@@ -18340,8 +18371,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-14",
-                  "displayValue": "14-14"
+                  "summary": "15-14",
+                  "displayValue": "15-14"
                 },
                 {
                   "name": "gamesBehind",
@@ -18350,8 +18381,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 6.0,
-                  "displayValue": "6"
+                  "value": 5.0,
+                  "displayValue": "5"
                 },
                 {
                   "id": "9",
@@ -18361,8 +18392,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "7-10",
-                  "displayValue": "7-10"
+                  "summary": "8-10",
+                  "displayValue": "8-10"
                 }
               ],
               "logo": [
@@ -18403,8 +18434,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "vsconf_gamesbehind",
-                  "value": 10.0,
-                  "displayValue": "10"
+                  "value": 9.5,
+                  "displayValue": "9.5"
                 },
                 {
                   "id": "9",
@@ -18446,8 +18477,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-19",
-                  "displayValue": "7-19"
+                  "summary": "7-20",
+                  "displayValue": "7-20"
                 },
                 {
                   "name": "gamesBehind",
@@ -18467,8 +18498,8 @@
                   "shortDisplayName": "CONF",
                   "description": "Conference Record",
                   "type": "vsconf",
-                  "summary": "1-15",
-                  "displayValue": "1-15"
+                  "summary": "1-16",
+                  "displayValue": "1-16"
                 }
               ],
               "logo": [
