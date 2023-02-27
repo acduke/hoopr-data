@@ -4196,36 +4196,20 @@
           "uid": "s:40~l:46~e:401469071~c:401469071",
           "date": "2023-02-27T00:30:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "post",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Sun, February 26th at 7:30 PM EST",
-            "shortDetail": "2/26 - 7:30 PM EST"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [
-            {
-              "type": {
-                "id": "1",
-                "shortName": "TV"
-              },
-              "market": {
-                "id": "1",
-                "type": "National"
-              },
-              "media": {
-                "shortName": "ESPN"
-              },
-              "lang": "en",
-              "region": "us"
-            }
-          ],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "9",
                 "uid": "s:40~l:46~t:9",
@@ -4243,10 +4227,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
               },
-              "score": "0"
+              "score": "109"
             },
             {
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "16",
                 "uid": "s:40~l:46~t:16",
@@ -4264,7 +4249,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
               },
-              "score": "0"
+              "score": "104"
             }
           ],
           "links": [
@@ -29161,8 +29146,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": 3.0,
+                  "displayValue": "W3"
                 },
                 {
                   "name": "winPercent",
@@ -29171,8 +29156,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5762712,
-                  "displayValue": ".576"
+                  "value": 0.5833333,
+                  "displayValue": ".583"
                 },
                 {
                   "name": "wins",
@@ -29181,8 +29166,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 34.0,
-                  "displayValue": "34"
+                  "value": 35.0,
+                  "displayValue": "35"
                 }
               ],
               "logo": [
@@ -29224,8 +29209,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "losses",
@@ -29234,8 +29219,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 28.0,
-                  "displayValue": "28"
+                  "value": 29.0,
+                  "displayValue": "29"
                 },
                 {
                   "name": "streak",
@@ -29244,8 +29229,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -29254,8 +29239,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5409836,
-                  "displayValue": ".541"
+                  "value": 0.5322581,
+                  "displayValue": ".532"
                 },
                 {
                   "name": "wins",
@@ -29307,8 +29292,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 2.5,
-                  "displayValue": "2.5"
+                  "value": 3.0,
+                  "displayValue": "3"
                 },
                 {
                   "name": "losses",
@@ -29410,8 +29395,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -29420,8 +29405,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5,
-                  "displayValue": ".500"
+                  "value": 0.5081967,
+                  "displayValue": ".508"
                 },
                 {
                   "name": "wins",
@@ -29430,8 +29415,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 30.0,
-                  "displayValue": "30"
+                  "value": 31.0,
+                  "displayValue": "31"
                 }
               ],
               "logo": [
@@ -29493,8 +29478,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": 3.0,
+                  "displayValue": "W3"
                 },
                 {
                   "name": "winPercent",
@@ -29503,8 +29488,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.46666667,
-                  "displayValue": ".467"
+                  "value": 0.47540984,
+                  "displayValue": ".475"
                 },
                 {
                   "name": "wins",
@@ -29513,8 +29498,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 28.0,
-                  "displayValue": "28"
+                  "value": 29.0,
+                  "displayValue": "29"
                 }
               ],
               "logo": [
@@ -29635,10 +29620,10 @@
               ]
             },
             {
-              "team": "Minnesota",
-              "link": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
-              "id": "16",
-              "uid": "s:40~l:46~t:16",
+              "team": "Utah",
+              "link": "https://www.espn.com/nba/team/_/name/utah/utah-jazz",
+              "id": "26",
+              "uid": "s:40~l:46~t:26",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -29667,8 +29652,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -29679,6 +29664,89 @@
                   "type": "winpercent",
                   "value": 0.5,
                   "displayValue": ".500"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Wins",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 31.0,
+                  "displayValue": "31"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2022-11-23T20:22Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/utah.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2022-11-23T20:19Z"
+                }
+              ]
+            },
+            {
+              "team": "Minnesota",
+              "link": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
+              "id": "16",
+              "uid": "s:40~l:46~t:16",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 12.0,
+                  "displayValue": "12"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 32.0,
+                  "displayValue": "32"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -3.0,
+                  "displayValue": "L3"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.4920635,
+                  "displayValue": ".492"
                 },
                 {
                   "name": "wins",
@@ -29718,10 +29786,10 @@
               ]
             },
             {
-              "team": "Utah",
-              "link": "https://www.espn.com/nba/team/_/name/utah/utah-jazz",
-              "id": "26",
-              "uid": "s:40~l:46~t:26",
+              "team": "Portland",
+              "link": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers",
+              "id": "22",
+              "uid": "s:40~l:46~t:22",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -29730,8 +29798,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 12.0,
-                  "displayValue": "12"
+                  "value": 12.5,
+                  "displayValue": "12.5"
                 },
                 {
                   "name": "losses",
@@ -29760,8 +29828,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.4918033,
-                  "displayValue": ".492"
+                  "value": 0.48333332,
+                  "displayValue": ".483"
                 },
                 {
                   "name": "wins",
@@ -29770,13 +29838,13 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 30.0,
-                  "displayValue": "30"
+                  "value": 29.0,
+                  "displayValue": "29"
                 }
               ],
               "logo": [
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -29784,10 +29852,10 @@
                     "full",
                     "scoreboard"
                   ],
-                  "lastUpdated": "2022-11-23T20:22Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 },
                 {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/utah.png",
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/por.png",
                   "width": 500,
                   "height": 500,
                   "alt": "",
@@ -29796,7 +29864,7 @@
                     "scoreboard",
                     "dark"
                   ],
-                  "lastUpdated": "2022-11-23T20:19Z"
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -29813,8 +29881,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 13.0,
-                  "displayValue": "13"
+                  "value": 13.5,
+                  "displayValue": "13.5"
                 },
                 {
                   "name": "losses",
@@ -29823,8 +29891,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 31.0,
-                  "displayValue": "31"
+                  "value": 32.0,
+                  "displayValue": "32"
                 },
                 {
                   "name": "streak",
@@ -29833,8 +29901,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
+                  "value": -3.0,
+                  "displayValue": "L3"
                 },
                 {
                   "name": "winPercent",
@@ -29843,8 +29911,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.47457626,
-                  "displayValue": ".475"
+                  "value": 0.46666667,
+                  "displayValue": ".467"
                 },
                 {
                   "name": "wins",
@@ -29880,89 +29948,6 @@
                     "dark"
                   ],
                   "lastUpdated": "2018-09-05T22:10Z"
-                }
-              ]
-            },
-            {
-              "team": "Portland",
-              "link": "https://www.espn.com/nba/team/_/name/por/portland-trail-blazers",
-              "id": "22",
-              "uid": "s:40~l:46~t:22",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 13.0,
-                  "displayValue": "13"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 31.0,
-                  "displayValue": "31"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.47457626,
-                  "displayValue": ".475"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Wins",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 28.0,
-                  "displayValue": "28"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/por.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }
