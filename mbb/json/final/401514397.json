@@ -23267,7 +23267,7 @@
         "timeoutsAvailable": true,
         "possessionArrowAvailable": true,
         "onWatchESPN": false,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -23556,6 +23556,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401514397",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401514397",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -24345,7 +24357,169 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "8e2e3304b02a3",
+    "keywords": [],
+    "description": "\u2014 Tyrell Roberts had 25 points in San Francisco's 80-63 win over Pacific on Friday in the second round of the West Coast Conference tournament.",
+    "source": "Data Skrive",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-35780232",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35780232"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401514397"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401514397",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35780232"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401514397&version=mobile"
+      }
+    },
+    "id": 35780232,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3421,
+        "description": "San Francisco Dons",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2539,
+        "team": {
+          "id": 2539,
+          "description": "San Francisco Dons",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2539"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2539/san-francisco-dons"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2539"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2539"
+      },
+      {
+        "id": 16874,
+        "description": "Pacific Tigers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 279,
+        "team": {
+          "id": 279,
+          "description": "Pacific Tigers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/279"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/279/pacific-tigers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=279"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:279"
+      }
+    ],
+    "headline": "San Francisco beats Pacific 80-63, advances to WCC quarters",
+    "gameId": "401514397",
+    "images": [],
+    "linkText": "San Francisco beats Pacific 80-63, advances to WCC quarters",
+    "published": "2023-03-04T07:40:35Z",
+    "allowComments": true,
+    "lastModified": "2023-03-04T07:40:36Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">PARADISE, Nev. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702609/tyrell-roberts\">Tyrell Roberts</a> had 25 points in San Francisco's 80-63 win over Pacific on Friday in the second round of the West Coast Conference tournament. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The sixth-seeded Dons advance to Saturday's quarterfinals, where they will face third-seeded Santa Clara. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Roberts was 8 of 15 shooting, including 3 for 9 from distance, and went 6 for 8 from the line for the Dons (18-13). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703400/marcus-williams\">Marcus Williams</a> scored 18 points while going 6 of 12 from the floor, including 3 for 6 from distance, and 3 for 4 from the line, and added eight rebounds and five assists. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432026/josh-kunen\">Josh Kunen</a> shot 6 for 10, including 3 for 5 from beyond the arc to finish with 15 points, while adding eight rebounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431901/keylan-boone\">Keylan Boone</a> finished with 16 points, 11 rebounds and three steals for the Tigers (14-17). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433195/tyler-beard\">Tyler Beard</a> added 16 points for Pacific. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703122/jordan-ivy-curry\">Jordan Ivy-Curry</a> finished with seven points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">San Francisco took the lead with 1:03 left in the first half and did not give it up. Roberts led his team in scoring with 19 points in the first half to help put them up 40-36 at the break. San Francisco extended its lead to 55-39 during the second half, fueled by an 11-0 scoring run. Williams scored a team-high 15 points in the second half as his team closed out the win.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
@@ -24935,10 +25109,10 @@
         "underdog": false,
         "moneyLine": -407,
         "spreadRecord": {
-          "wins": 14,
+          "wins": 15,
           "losses": 16,
           "pushes": 0,
-          "summary": "14-16-0"
+          "summary": "15-16-0"
         },
         "spreadOdds": -105.0,
         "teamId": "2539"
@@ -25112,7 +25286,7 @@
     "timeoutsAvailable": true,
     "possessionArrowAvailable": true,
     "onWatchESPN": false,
-    "recent": true,
+    "recent": false,
     "boxscoreSource": "full",
     "playByPlaySource": "full",
     "competitors": [
