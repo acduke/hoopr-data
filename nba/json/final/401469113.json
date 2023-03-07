@@ -34432,15 +34432,15 @@
           "uid": "s:40~l:46~e:401469129~c:401469129",
           "date": "2023-03-07T00:30:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Mon, March 6th at 7:30 PM EST",
-            "shortDetail": "3/6 - 7:30 PM EST"
+            "description": "In Progress",
+            "detail": "25.8 - 2nd Quarter",
+            "shortDetail": "25.8 - 2nd"
           },
           "broadcasts": [
             {
@@ -34503,7 +34503,7 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "63"
             },
             {
               "homeAway": "away",
@@ -34548,34 +34548,34 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "68"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401469129",
+              "href": "https://www.espn.com/nba/game?gameId=401469129",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401469129",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
