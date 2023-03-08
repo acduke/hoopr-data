@@ -9,3 +9,56 @@ TypeError: game_id = 401532177
  the JSON object must be str, bytes or bytearray, not NoneType
 Finished Scraping year 2023...
 Already up to date.
+          used (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells 1202611 64.3    3522559 188.2   3522559  188.2
+Vcells 3405609 26.0  127989741 976.5 185437033 1414.8
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1207669 64.5    2716464 145.1  2716464 145.1
+Vcells 3158813 24.1   19517101 149.0 21731222 165.8
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1264836 67.6    2716453 145.1  2716453 145.1
+Vcells 3285270 25.1   21955535 167.6 22751694 173.6
+Already up to date.
+Already up to date.
+[main f92eca8774a] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 5078 files changed, 712521 insertions(+), 89881 deletions(-)
+ rewrite daily_mbb.out (93%)
+ create mode 100644 mbb/json/final/401514281.json
+ create mode 100644 mbb/json/final/401514282.json
+ create mode 100644 mbb/json/final/401514290.json
+ create mode 100644 mbb/json/final/401514291.json
+ create mode 100644 mbb/json/final/401514360.json
+ create mode 100644 mbb/json/final/401514367.json
+ create mode 100644 mbb/json/final/401514368.json
+ create mode 100644 mbb/json/final/401514382.json
+ create mode 100644 mbb/json/final/401514400.json
+ create mode 100644 mbb/json/final/401514401.json
+ create mode 100644 mbb/json/final/401523956.json
+ create mode 100644 mbb/json/final/401523957.json
+ create mode 100644 mbb/json/final/401524232.json
+ create mode 100644 mbb/json/final/401524233.json
+ create mode 100644 mbb/json/raw/401514281.json
+ create mode 100644 mbb/json/raw/401514282.json
+ create mode 100644 mbb/json/raw/401514290.json
+ create mode 100644 mbb/json/raw/401514291.json
+ create mode 100644 mbb/json/raw/401514360.json
+ create mode 100644 mbb/json/raw/401514367.json
+ create mode 100644 mbb/json/raw/401514368.json
+ create mode 100644 mbb/json/raw/401514382.json
+ create mode 100644 mbb/json/raw/401514400.json
+ create mode 100644 mbb/json/raw/401514401.json
+ create mode 100644 mbb/json/raw/401523956.json
+ create mode 100644 mbb/json/raw/401523957.json
+ create mode 100644 mbb/json/raw/401524232.json
+ create mode 100644 mbb/json/raw/401524233.json
+ rewrite mbb/mbb_games_in_data_repo.parquet (79%)
+ rewrite mbb/mbb_games_in_data_repo.qs (80%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (71%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (72%)
+ rewrite mbb/player_box/rds/player_box_2023.rds (60%)
+ rewrite mbb/schedules/qs/mbb_schedule_2023.qs (91%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (88%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (90%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (86%)
+ rewrite nba_schedule_master.qs (63%)
+Already up to date.
