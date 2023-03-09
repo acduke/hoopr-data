@@ -25658,6 +25658,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401482954",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -26839,94 +26851,6 @@
     },
     {
       "source": "espn",
-      "id": 35301175,
-      "headline": "Caleb Love follows steal with thunderous one-handed jam",
-      "description": "Caleb Love follows steal with thunderous one-handed jam",
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Caleb Love follows steal with thunderous one-handed jam) 2022/12/22 ESHEET",
-        "trackingId": "dm_20221222_NCB_caleb_love_follows_steal_with_thunderous_onehanded_jam"
-      },
-      "lastModified": "2022-12-22T02:45:23Z",
-      "originalPublishDate": "2022-12-22T01:39:07Z",
-      "timeRestrictions": {
-        "embargoDate": "2022-12-22T01:39:07Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 29,
-      "thumbnail": "https://a.espncdn.com/media/motion/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35301175"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/b2aa864b-7ef9-4494-9ff9-5c4c6822219d"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35301175&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35301175"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35301175&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35301175&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2aa864b-7ef9-4494-9ff9-5c4c6822219d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35301175",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2aa864b-7ef9-4494-9ff9-5c4c6822219d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35301175"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2aa864b-7ef9-4494-9ff9-5c4c6822219d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35301175"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
       "id": 35301303,
       "headline": "Joey Baker's 3 gets Wolverines within 3",
       "description": "Joey Baker's 3 gets Wolverines within 3",
@@ -28005,8 +27929,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "21-10",
-                  "displayValue": "21-10"
+                  "summary": "22-10",
+                  "displayValue": "22-10"
                 },
                 {
                   "name": "gamesBehind",
@@ -28164,8 +28088,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-13",
-                  "displayValue": "18-13"
+                  "summary": "19-13",
+                  "displayValue": "19-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -28217,8 +28141,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "17-14",
-                  "displayValue": "17-14"
+                  "summary": "17-15",
+                  "displayValue": "17-15"
                 },
                 {
                   "name": "gamesBehind",
@@ -28270,8 +28194,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "15-16",
-                  "displayValue": "15-16"
+                  "summary": "16-16",
+                  "displayValue": "16-16"
                 },
                 {
                   "name": "gamesBehind",
@@ -28323,8 +28247,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "18-13",
-                  "displayValue": "18-13"
+                  "summary": "19-13",
+                  "displayValue": "19-13"
                 },
                 {
                   "name": "gamesBehind",
@@ -28376,8 +28300,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "9-22",
-                  "displayValue": "9-22"
+                  "summary": "9-23",
+                  "displayValue": "9-23"
                 },
                 {
                   "name": "gamesBehind",
@@ -28429,8 +28353,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "14-17",
-                  "displayValue": "14-17"
+                  "summary": "15-18",
+                  "displayValue": "15-18"
                 },
                 {
                   "name": "gamesBehind",
@@ -28482,8 +28406,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-20",
-                  "displayValue": "11-20"
+                  "summary": "11-21",
+                  "displayValue": "11-21"
                 },
                 {
                   "name": "gamesBehind",
@@ -28535,8 +28459,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "4-27",
-                  "displayValue": "4-27"
+                  "summary": "4-28",
+                  "displayValue": "4-28"
                 },
                 {
                   "name": "gamesBehind",
@@ -28581,7 +28505,424 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "keywords": [],
+    "description": "\u2014 Armando Bacot scored 26 points on 11-of-16 shooting, RJ Davis hit four 3-pointers and finished with 19 points and North Carolina held on to beat Michigan 80-76 Wednesday night.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35301175,
+        "headline": "Caleb Love follows steal with thunderous one-handed jam",
+        "caption": "Caleb Love follows steal with thunderous one-handed jam",
+        "description": "Caleb Love follows steal with thunderous one-handed jam",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Caleb Love follows steal with thunderous one-handed jam) 2022/12/22 ESHEET",
+          "trackingId": "dm_20221222_NCB_caleb_love_follows_steal_with_thunderous_onehanded_jam"
+        },
+        "cerebroId": "63a3b53dbe6ab30a028546fd",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2022-12-22T02:45:23Z",
+        "originalPublishDate": "2022-12-22T01:39:07Z",
+        "timeRestrictions": {
+          "embargoDate": "2022-12-22T01:39:07Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 29,
+        "categories": [
+          {
+            "id": 454167,
+            "description": "Caleb Love",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4433144,
+            "athlete": {
+              "id": 4433144,
+              "description": "Caleb Love",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4433144"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433144/caleb-love"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4433144"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4433144"
+          },
+          {
+            "id": 3157,
+            "description": "North Carolina Tar Heels",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 153,
+            "team": {
+              "id": 153,
+              "description": "North Carolina Tar Heels",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/153"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=153"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:153"
+          },
+          {
+            "id": 3207,
+            "description": "Michigan Wolverines",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 130,
+            "team": {
+              "id": 130,
+              "description": "Michigan Wolverines",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/130"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/130/michigan-wolverines"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=130"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:130"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35301175"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/b2aa864b-7ef9-4494-9ff9-5c4c6822219d"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35301175",
+            "short": {
+              "href": "https://es.pn/3VaToys"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35301175"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35301175"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2022/1221/ss_20221221_203910990_2136171/ss_20221221_203910990_2136171.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2aa864b-7ef9-4494-9ff9-5c4c6822219d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35301175",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2aa864b-7ef9-4494-9ff9-5c4c6822219d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35301175"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2aa864b-7ef9-4494-9ff9-5c4c6822219d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35301175"
+            }
+          }
+        },
+        "title": "Caleb Love follows steal with thunderous one-handed jam"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35301831",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35301831"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401482954"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401482954",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35301831"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401482954&version=mobile"
+      }
+    },
+    "id": 35301831,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3157,
+        "description": "North Carolina Tar Heels",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 153,
+        "team": {
+          "id": 153,
+          "description": "North Carolina Tar Heels",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/153"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=153"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:153"
+      },
+      {
+        "id": 3207,
+        "description": "Michigan Wolverines",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 130,
+        "team": {
+          "id": 130,
+          "description": "Michigan Wolverines",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/130"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/130/michigan-wolverines"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=130"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:130"
+      }
+    ],
+    "headline": "Bacot scores 26, UNC beats Michigan at Jumpman Invitational",
+    "gameId": "401482954",
+    "images": [
+      {
+        "name": "Caleb Love follows steal with thunderous one-handed jam",
+        "width": 576,
+        "alt": "",
+        "caption": "Caleb Love follows steal with thunderous one-handed jam",
+        "url": "https://a.espncdn.com/media/motion/2022/1221/ss_20221221_203910990_21361711303/ss_20221221_203910990_21361711303.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Bacot scores 26, UNC beats Michigan at Jumpman Invitational",
+    "published": "2022-12-22T03:12:12Z",
+    "allowComments": true,
+    "lastModified": "2022-12-22T03:12:13Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">CHARLOTTE, N.C. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431674/armando-bacot\">Armando Bacot</a> scored 26 points on 11-of-16 shooting, RJ Davis hit four 3-pointers and finished with 19 points and North Carolina held on to beat Michigan 80-76 Wednesday night. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433144/caleb-love\">Caleb Love</a> added 18 points, including four free throws in the closing seconds, for North Carolina. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Tar Heels (9-4), who were coming off an 89-84 overtime win over then-No. 23 Ohio State on Saturday, have won four games in row. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683736/kobe-bufkin\">Kobe Bufkin</a> led Michigan (7-4) with 22 points on 7-of-10 shooting. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105806/jett-howard\">Jett Howard</a> made 6 of 12 from the field and finished with 17 points. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Bacot scored inside, Love followed with a 3-pointer and Bacot converted a three-point play that gave UNC the lead for good with 4:09 left in the first half. Davis added two 3s, the latter of which capped an 18-4 run that made it 41-32 with 59 seconds remaining. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">North Carolina shot 50% (29 of 58) from the field and scored 40 points in the paint. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Davis hit a 3-pointer before <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397233/pete-nance\">Pete Nance</a> was fouled as he threw down a dunk and made the and-1 free throw to give UNC an nine-point lead with 5:45 to play. The Wolverines scored 11 of the next 15 points \u2014 including 3s by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4395624/joey-baker\">Joey Baker</a> and <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702236/terrance-williams-ii\">Terrance Williams II</a> \u2014 to trim their deficit to 73-71 when Bufkin made a jumper with 1:23 to play. Davis answered with a runner off the glass 34 seconds later and Michigan got no closer. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">UP NEXT\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Michigan returns home to play Dec. 30 against Central Michigan\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">North Carolina hits the road to resume ACC play at Pitt on Dec. 30\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------"
+  },
   "leaders": [
     {
       "team": {

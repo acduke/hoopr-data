@@ -98,9 +98,11 @@ mbb_pbp_games <- function(y){
   return(NULL)
 }
 
+tictoc::tic()
 all_games <- purrr::map(years_vec, function(y){
   mbb_pbp_games(y)
 })
+tictoc::toc()
 
 sched_list <- list.files(path = glue::glue('mbb/schedules/parquet/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
@@ -126,4 +128,4 @@ arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arr
 rm(sched_g)
 rm(sched_list)
 rm(years_vec)
-gc()
+gcol <- gc()

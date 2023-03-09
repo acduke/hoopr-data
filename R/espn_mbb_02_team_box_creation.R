@@ -167,12 +167,12 @@ mbb_team_box_games <- function(y){
   return(NULL)
 }
 
-
+tictoc::tic()
 all_games <- purrr::map(years_vec, function(y){
   mbb_team_box_games(y)
   return(NULL)
 })
-
+tictoc::toc()
 sched_list <- list.files(path = glue::glue('mbb/schedules/parquet/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
   sched <- arrow::read_parquet(paste0('mbb/schedules/parquet/',x)) %>%
@@ -200,4 +200,4 @@ rm(all_games)
 rm(sched_g)
 rm(sched_list)
 rm(years_vec)
-gc()
+gcol <- gc()

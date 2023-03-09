@@ -433,7 +433,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "17",
                   "0-3",
                   "0-0",
                   "0-0",
@@ -536,7 +536,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "25",
                   "2-5",
                   "1-2",
                   "2-2",
@@ -639,7 +639,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "39",
                   "3-17",
                   "1-9",
                   "3-4",
@@ -742,7 +742,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "34",
                   "4-6",
                   "0-0",
                   "7-8",
@@ -845,7 +845,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "28",
                   "2-6",
                   "0-3",
                   "4-4",
@@ -948,7 +948,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "13",
                   "0-1",
                   "0-0",
                   "0-0",
@@ -1051,7 +1051,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "13",
                   "1-1",
                   "0-0",
                   "0-0",
@@ -1154,7 +1154,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "8",
                   "1-2",
                   "0-0",
                   "0-0",
@@ -1257,7 +1257,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "23",
                   "1-3",
                   "1-2",
                   "0-0",
@@ -2167,13 +2167,13 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "36",
                   "3-12",
                   "0-0",
                   "4-4",
                   "4",
-                  "1",
-                  "5",
+                  "2",
+                  "6",
                   "3",
                   "1",
                   "0",
@@ -2270,13 +2270,13 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "27",
                   "4-10",
                   "1-4",
                   "2-3",
                   "1",
-                  "1",
                   "2",
+                  "3",
                   "0",
                   "1",
                   "2",
@@ -2373,7 +2373,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "37",
                   "6-13",
                   "0-0",
                   "4-5",
@@ -2476,7 +2476,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "29",
                   "1-7",
                   "1-5",
                   "2-2",
@@ -2579,7 +2579,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "37",
                   "2-5",
                   "1-2",
                   "1-2",
@@ -2682,7 +2682,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "2",
                   "0-0",
                   "0-0",
                   "0-0",
@@ -2785,7 +2785,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "7",
                   "0-3",
                   "0-3",
                   "0-0",
@@ -2888,7 +2888,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "7",
                   "0-1",
                   "0-1",
                   "0-0",
@@ -2991,7 +2991,7 @@
                 "didNotPlay": false,
                 "ejected": false,
                 "stats": [
-                  "--",
+                  "18",
                   "1-2",
                   "0-0",
                   "1-2",
@@ -3402,7 +3402,39 @@
       "grass": false,
       "images": []
     },
-    "attendance": 0
+    "attendance": 0,
+    "officials": [
+      {
+        "fullName": "Tony Padilla",
+        "displayName": "Tony Padilla",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 1
+      },
+      {
+        "fullName": "Mike Reed",
+        "displayName": "Mike Reed",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 2
+      },
+      {
+        "fullName": "Frank Harvey",
+        "displayName": "Frank Harvey",
+        "position": {
+          "name": "Referee",
+          "displayName": "Referee",
+          "id": "40"
+        },
+        "order": 3
+      }
+    ]
   },
   "leaders": [
     {
@@ -3566,6 +3598,15 @@
                   "abbreviation": "TO",
                   "value": 0.0,
                   "displayValue": "0"
+                },
+                {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 37.0,
+                  "displayValue": "37"
                 },
                 {
                   "name": "assistTurnoverRatio",
@@ -3811,6 +3852,15 @@
                   "displayValue": "3"
                 },
                 {
+                  "name": "minutes",
+                  "displayName": "Minutes",
+                  "shortDisplayName": "MIN",
+                  "description": "The total number of minutes played.",
+                  "abbreviation": "MIN",
+                  "value": 28.0,
+                  "displayValue": "28"
+                },
+                {
                   "name": "assistTurnoverRatio",
                   "displayName": "Assist To Turnover Ratio",
                   "shortDisplayName": "AST/TO",
@@ -4011,10 +4061,10 @@
         "underdog": false,
         "moneyLine": -122,
         "spreadRecord": {
-          "wins": 13,
+          "wins": 14,
           "losses": 16,
           "pushes": 0,
-          "summary": "13-16-0"
+          "summary": "14-16-0"
         },
         "spreadOdds": -109.0,
         "teamId": "2934"
@@ -5652,7 +5702,7 @@
         "timeoutsAvailable": false,
         "possessionArrowAvailable": false,
         "onWatchESPN": true,
-        "recent": true,
+        "recent": false,
         "boxscoreSource": "full",
         "playByPlaySource": "full",
         "competitors": [
@@ -15988,8 +16038,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "17-15",
-                  "displayValue": "17-15"
+                  "summary": "17-16",
+                  "displayValue": "17-16"
                 },
                 {
                   "name": "gamesBehind",
@@ -16200,8 +16250,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "7-24",
-                  "displayValue": "7-24"
+                  "summary": "8-24",
+                  "displayValue": "8-24"
                 },
                 {
                   "name": "gamesBehind",
