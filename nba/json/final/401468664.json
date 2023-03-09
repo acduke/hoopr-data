@@ -33600,8 +33600,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -3.0,
-                  "displayValue": "L3"
+                  "value": 1.0,
+                  "displayValue": "W1"
                 },
                 {
                   "name": "winPercent",
@@ -33610,8 +33610,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.6818182,
-                  "displayValue": ".682"
+                  "value": 0.6865672,
+                  "displayValue": ".687"
                 },
                 {
                   "name": "wins",
@@ -33620,8 +33620,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 45.0,
-                  "displayValue": "45"
+                  "value": 46.0,
+                  "displayValue": "46"
                 }
               ],
               "logo": [
@@ -33663,8 +33663,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 2.0,
+                  "displayValue": "2"
                 },
                 {
                   "name": "losses",
@@ -33746,8 +33746,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 6.5,
-                  "displayValue": "6.5"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "name": "losses",
@@ -33829,8 +33829,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 7.5,
-                  "displayValue": "7.5"
+                  "value": 8.0,
+                  "displayValue": "8"
                 },
                 {
                   "name": "losses",
@@ -33912,8 +33912,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 13.0,
-                  "displayValue": "13"
+                  "value": 13.5,
+                  "displayValue": "13.5"
                 },
                 {
                   "name": "losses",
@@ -35195,15 +35195,15 @@
           "uid": "s:40~l:46~e:401469146~c:401469146",
           "date": "2023-03-09T03:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Wed, March 8th at 10:00 PM EST",
-            "shortDetail": "3/8 - 10:00 PM EST"
+            "description": "In Progress",
+            "detail": "10:08 - 1st Quarter",
+            "shortDetail": "10:08 - 1st"
           },
           "broadcasts": [
             {
@@ -35266,7 +35266,7 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "2"
             },
             {
               "homeAway": "away",
@@ -35311,34 +35311,34 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "4"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401469146",
+              "href": "https://www.espn.com/nba/game?gameId=401469146",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401469146",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }

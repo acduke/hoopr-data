@@ -4245,15 +4245,15 @@
           "uid": "s:40~l:46~e:401469145~c:401469145",
           "date": "2023-03-09T02:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "23",
+            "name": "STATUS_HALFTIME",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Wed, March 8th at 9:00 PM EST",
-            "shortDetail": "3/8 - 9:00 PM EST"
+            "description": "Halftime",
+            "detail": "Halftime",
+            "shortDetail": "Halftime"
           },
           "broadcasts": [],
           "competitors": [
@@ -4300,7 +4300,7 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "60"
             },
             {
               "homeAway": "away",
@@ -4345,34 +4345,34 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "52"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401469145",
+              "href": "https://www.espn.com/nba/game?gameId=401469145",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401469145",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
@@ -28065,8 +28065,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 15.0,
-                  "displayValue": "15"
+                  "value": 15.5,
+                  "displayValue": "15.5"
                 },
                 {
                   "name": "losses",
@@ -28075,8 +28075,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 34.0,
-                  "displayValue": "34"
+                  "value": 35.0,
+                  "displayValue": "35"
                 },
                 {
                   "name": "streak",
@@ -28085,8 +28085,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 2.0,
-                  "displayValue": "W2"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -28095,8 +28095,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.47692308,
-                  "displayValue": ".477"
+                  "value": 0.46969697,
+                  "displayValue": ".470"
                 },
                 {
                   "name": "wins",
