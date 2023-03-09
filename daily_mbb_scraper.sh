@@ -8,7 +8,7 @@ do
     esac
 done
 git pull
-python3 scrape_mbb_schedules.py -s $START_YEAR -e $END_YEAR
+python3 scrape_mbb_schedules_threaded.py -s $START_YEAR -e $END_YEAR
 python3 scrape_mbb_json_threaded.py -s $START_YEAR -e $END_YEAR
 git pull
 git add .
