@@ -6012,6 +6012,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401514297",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -15643,101 +15655,427 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
-  "videos": [
-    {
-      "source": "espn",
-      "id": 35814548,
-      "headline": "Walter Clayton Jr. drains a long 3-pointer from downtown",
-      "description": "Walter Clayton Jr. drains a long 3-pointer from downtown.\n",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "sportscenter"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Walter Clayton Jr. drains a long 3-pointer from downtown) 2023/03/09 ESHEET",
-        "trackingId": "dm_20230309_NCB_walter_clayton_jr_drains_a_long_3pointer_from_downtown"
-      },
-      "cerebroId": "64092535ca84b7099ed85492",
-      "lastModified": "2023-03-09T02:15:05Z",
-      "originalPublishDate": "2023-03-09T00:15:48Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-03-09T00:15:48Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 17,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35814548"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7"
-          }
+  "article": {
+    "dataSourceIdentifier": "a028fb55fcbbf",
+    "keywords": [],
+    "description": "\u2014 Walter Clayton Jr. had 21 points in Iona's 74-54 win against Mount St. Mary's on Wednesday night in the Metro Atlantic Athletic Conference Tournament quarterfinals.",
+    "source": "Data Skrive",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35814548,
+        "dataSourceIdentifier": "e73e5db46a379",
+        "headline": "Walter Clayton Jr. drains a long 3-pointer from downtown",
+        "caption": "Walter Clayton Jr. drains a long 3-pointer from downtown.\n",
+        "description": "Walter Clayton Jr. drains a long 3-pointer from downtown.\n",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "sportscenter"
         },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35814548&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35814548"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35814548&ex_cid=espnapi_internal"
-          }
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Walter Clayton Jr. drains a long 3-pointer from downtown) 2023/03/09 ESHEET",
+          "trackingId": "dm_20230309_NCB_walter_clayton_jr_drains_a_long_3pointer_from_downtown"
         },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.mp4"
+        "cerebroId": "64092535ca84b7099ed85492",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-03-09T02:15:05Z",
+        "originalPublishDate": "2023-03-09T00:15:48Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-03-09T00:15:48Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 17,
+        "categories": [
+          {
+            "id": 23056,
+            "description": "Mount St. Mary's Mountaineers",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 116,
+            "team": {
+              "id": 116,
+              "description": "Mount St. Mary's Mountaineers",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/116"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/116/mount-st.-mary's-mountaineers"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=116"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:116"
           },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.smil"
+          {
+            "id": 3269,
+            "description": "Iona Gaels",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 314,
+            "team": {
+              "id": 314,
+              "description": "Iona Gaels",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/314"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/314/iona-gaels"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=314"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:314"
           },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_rel.smil/manifest.f4m"
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
           },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_720p30_2896k.mp4"
+          {
+            "id": 507881,
+            "description": "Walter Clayton Jr.",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4896372,
+            "athlete": {
+              "id": 4896372,
+              "description": "Walter Clayton Jr.",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4896372"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4896372/walter-clayton-jr."
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4896372"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4896372"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_default.jpg",
+            "width": 576,
+            "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.jpg"
           },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_360p30_1464k.mp4"
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_1x1.jpg"
+          }
         },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35814548&ex_cid=espnapi_internal"
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35814548"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35814548",
+            "short": {
+              "href": "https://es.pn/3L88Ny4"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35814548"
+            }
           },
           "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.mp4"
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017_360p30_1464k.mp4"
           },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35814548",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35814548"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35814548"
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35814548"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35814548",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35814548"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9dfd59d3-0af0-40ef-9293-dfa2ffcd28b7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35814548"
+            }
           }
+        },
+        "title": "Walter Clayton Jr. drains a long 3-pointer from downtown"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35822481",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35822481"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401514297"
         }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401514297",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35822481"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401514297&version=mobile"
       }
     },
+    "id": 35822481,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3269,
+        "description": "Iona Gaels",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 314,
+        "team": {
+          "id": 314,
+          "description": "Iona Gaels",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/314"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/314/iona-gaels"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=314"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:314"
+      },
+      {
+        "id": 23056,
+        "description": "Mount St. Mary's Mountaineers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 116,
+        "team": {
+          "id": 116,
+          "description": "Mount St. Mary's Mountaineers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/116"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/116/mount-st.-mary's-mountaineers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=116"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:116"
+      }
+    ],
+    "headline": "Iona beats Mount St. Mary's 74-54 in MAAC Tournament",
+    "gameId": "401514297",
+    "images": [
+      {
+        "name": "Walter Clayton Jr. drains a long 3-pointer from downtown",
+        "width": 576,
+        "alt": "",
+        "caption": "Walter Clayton Jr. drains a long 3-pointer from downtown.\n",
+        "url": "https://a.espncdn.com/media/motion/2023/0308/ss_20230308_191550933_2214017/ss_20230308_191550933_2214017.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Iona beats Mount St. Mary's 74-54 in MAAC Tournament",
+    "published": "2023-03-09T21:05:38Z",
+    "allowComments": true,
+    "lastModified": "2023-03-09T21:05:39Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">ATLANTIC CITY, N.J. -- \u2014 Walter Clayton Jr. had 21 points in Iona's 74-54 win against Mount St. Mary's on Wednesday night in the Metro Atlantic Athletic Conference Tournament quarterfinals.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Clayton added 11 rebounds for the Gaels (25-7). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703016/osborn-shema\">Osborn Shema</a> added 17 points while shooting 6 for 10 (2 for 4 from 3-point range) and 3 of 4 from the free throw line, and he also had five rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5107199/daniss-jenkins\">Daniss Jenkins</a> shot 6 for 13, including 2 for 4 from beyond the arc to finish with 15 points. The Gaels picked up their 11th straight win.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Mountaineers (13-20) were led by <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4431903/jalen-benjamin\">Jalen Benjamin</a>, who recorded 27 points. Mount St. Mary's also got eight points, seven rebounds and three steals from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703167/dakota-leffew\">Dakota Leffew</a>. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4432126/george-tinsley\">George Tinsley</a> finished with five points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Iona extended its lead to 52-39 during the second half, fueled by an 8-0 scoring run. \n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
+  "videos": [
     {
       "source": "espn",
       "id": 35814621,
@@ -15984,6 +16322,17 @@
                     "default"
                   ],
                   "lastUpdated": "2019-07-24T14:41Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/314.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-07-24T14:42Z"
                 }
               ]
             },
@@ -16037,6 +16386,17 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2520.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16054,8 +16414,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "20-11",
-                  "displayValue": "20-11"
+                  "summary": "20-12",
+                  "displayValue": "20-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -16088,6 +16448,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2514.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -16143,6 +16514,17 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2561.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16194,6 +16576,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/315.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -16249,6 +16642,17 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2363.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -16300,6 +16704,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2217.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -16355,6 +16770,17 @@
                     "default"
                   ],
                   "lastUpdated": "2021-02-19T15:57Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/116.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2021-02-19T15:57Z"
                 }
               ]
             },
@@ -16406,6 +16832,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2099.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -16461,6 +16898,17 @@
                     "default"
                   ],
                   "lastUpdated": "2020-08-27T15:52Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2612.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2020-08-27T15:52Z"
                 }
               ]
             },
@@ -16478,8 +16926,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-19",
-                  "displayValue": "11-19"
+                  "summary": "12-19",
+                  "displayValue": "12-19"
                 },
                 {
                   "name": "gamesBehind",
@@ -16512,6 +16960,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2368.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }

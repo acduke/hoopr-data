@@ -20651,6 +20651,18 @@
       },
       {
         "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401514298",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "boxscore",
           "desktop",
           "event"
@@ -21292,99 +21304,6 @@
           }
         }
       }
-    },
-    {
-      "source": "espn",
-      "id": 35816462,
-      "headline": "Saint Peter's advances to MAAC Semifinals",
-      "description": "With a victory over Rider, Saint Peter's becomes the first 10-seed in MAAC tournament history to advance to the semifinals.",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncbgamehighlights"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Saint Peter's advances to MAAC Semifinals) 2023/03/09 ESHEET",
-        "trackingId": "dm_20230309_NCB_saint_peters_peacocks_vs_rider_broncs_full_highlights"
-      },
-      "cerebroId": "6409647dca84b7099ed8fefa",
-      "lastModified": "2023-03-09T04:54:49Z",
-      "originalPublishDate": "2023-03-09T04:45:45Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-03-09T04:45:45Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 103,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35816462"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/98abcb31-1f83-43b1-841a-e8b73490ae2f"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35816462&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35816462"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35816462&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35816462&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/98abcb31-1f83-43b1-841a-e8b73490ae2f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35816462",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/98abcb31-1f83-43b1-841a-e8b73490ae2f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35816462"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/98abcb31-1f83-43b1-841a-e8b73490ae2f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35816462"
-          }
-        }
-      }
     }
   ],
   "playByPlaySource": "full",
@@ -21447,6 +21366,17 @@
                     "default"
                   ],
                   "lastUpdated": "2019-07-24T14:41Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/314.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2019-07-24T14:42Z"
                 }
               ]
             },
@@ -21500,6 +21430,17 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2520.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -21517,8 +21458,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "20-11",
-                  "displayValue": "20-11"
+                  "summary": "20-12",
+                  "displayValue": "20-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -21551,6 +21492,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2514.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -21606,6 +21558,17 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2561.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -21657,6 +21620,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/315.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -21712,6 +21686,17 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2363.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             },
@@ -21763,6 +21748,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2217.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -21818,6 +21814,17 @@
                     "default"
                   ],
                   "lastUpdated": "2021-02-19T15:57Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/116.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2021-02-19T15:57Z"
                 }
               ]
             },
@@ -21869,6 +21876,17 @@
                   "rel": [
                     "full",
                     "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2099.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
                 }
@@ -21924,6 +21942,17 @@
                     "default"
                   ],
                   "lastUpdated": "2020-08-27T15:52Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2612.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2020-08-27T15:52Z"
                 }
               ]
             },
@@ -21941,8 +21970,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "11-19",
-                  "displayValue": "11-19"
+                  "summary": "12-19",
+                  "displayValue": "12-19"
                 },
                 {
                   "name": "gamesBehind",
@@ -21977,6 +22006,17 @@
                     "default"
                   ],
                   "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2368.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
                 }
               ]
             }
@@ -21987,7 +22027,513 @@
       }
     ]
   },
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "3a7e74c081220",
+    "keywords": [],
+    "description": "\u2014 Jaylen Murray had 22 points in Saint Peter's 70-62 victory over Rider on Wednesday in a Metro Atlantic Athletic Conference Tournament quarterfinal.",
+    "source": "Data Skrive",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35816462,
+        "dataSourceIdentifier": "87253ce7096fd",
+        "headline": "Saint Peter's advances to MAAC Semifinals",
+        "caption": "With a victory over Rider, Saint Peter's becomes the first 10-seed in MAAC tournament history to advance to the semifinals.",
+        "description": "With a victory over Rider, Saint Peter's becomes the first 10-seed in MAAC tournament history to advance to the semifinals.",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncbgamehighlights"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Saint Peter's advances to MAAC Semifinals) 2023/03/09 ESHEET",
+          "trackingId": "dm_20230309_NCB_saint_peters_peacocks_vs_rider_broncs_full_highlights"
+        },
+        "cerebroId": "6409647dca84b7099ed8fefa",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-03-09T04:54:49Z",
+        "originalPublishDate": "2023-03-09T04:45:45Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-03-09T04:45:45Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 103,
+        "categories": [
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 206187,
+            "description": "Dwight Murray Jr.",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4398029,
+            "athlete": {
+              "id": 4398029,
+              "description": "Dwight Murray Jr.",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4398029"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4398029/dwight-murray-jr."
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4398029"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4398029"
+          },
+          {
+            "id": 509837,
+            "description": "Jaylen Murray",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4683865,
+            "athlete": {
+              "id": 4683865,
+              "description": "Jaylen Murray",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4683865"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4683865/jaylen-murray"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4683865"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4683865"
+          },
+          {
+            "id": 3276,
+            "description": "Rider Broncs",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 2520,
+            "team": {
+              "id": 2520,
+              "description": "Rider Broncs",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2520"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2520/rider-broncs"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=2520"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:2520"
+          },
+          {
+            "id": 457498,
+            "description": "Corey McKeithan",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4433243,
+            "athlete": {
+              "id": 4433243,
+              "description": "Corey McKeithan",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4433243"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433243/corey-mckeithan"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4433243"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4433243"
+          },
+          {
+            "id": 3278,
+            "description": "Saint Peter's Peacocks",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 2612,
+            "team": {
+              "id": 2612,
+              "description": "Saint Peter's Peacocks",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2612"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2612/saint-peter's-peacocks"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=2612"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:2612"
+          },
+          {
+            "id": 409337,
+            "description": "Mervin James",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4592283,
+            "athlete": {
+              "id": 4592283,
+              "description": "Mervin James",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4592283"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4592283/mervin-james"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4592283"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4592283"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35816462"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/98abcb31-1f83-43b1-841a-e8b73490ae2f"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35816462",
+            "short": {
+              "href": "https://es.pn/3YO8fAR"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35816462"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35816462"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/98abcb31-1f83-43b1-841a-e8b73490ae2f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35816462",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/98abcb31-1f83-43b1-841a-e8b73490ae2f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35816462"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/98abcb31-1f83-43b1-841a-e8b73490ae2f/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35816462"
+            }
+          }
+        },
+        "title": "Saint Peter's advances to MAAC Semifinals"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35821581",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35821581"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401514298"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401514298",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35821581"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401514298&version=mobile"
+      }
+    },
+    "id": 35821581,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3276,
+        "description": "Rider Broncs",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2520,
+        "team": {
+          "id": 2520,
+          "description": "Rider Broncs",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2520"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2520/rider-broncs"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2520"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2520"
+      },
+      {
+        "id": 3278,
+        "description": "Saint Peter's Peacocks",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 2612,
+        "team": {
+          "id": 2612,
+          "description": "Saint Peter's Peacocks",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2612"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/2612/saint-peter's-peacocks"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=2612"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:2612"
+      }
+    ],
+    "headline": "Saint Peter's tops Rider 70-62 in MAAC quarterfinal",
+    "gameId": "401514298",
+    "images": [
+      {
+        "name": "Saint Peter's advances to MAAC Semifinals",
+        "width": 576,
+        "alt": "",
+        "caption": "With a victory over Rider, Saint Peter's becomes the first 10-seed in MAAC tournament history to advance to the semifinals.",
+        "url": "https://a.espncdn.com/media/motion/2023/0308/ss_20230308_234550922_2214494/ss_20230308_234550922_2214494.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Saint Peter's tops Rider 70-62 in MAAC quarterfinal",
+    "published": "2023-03-09T19:28:23Z",
+    "allowComments": true,
+    "lastModified": "2023-03-09T21:09:42Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">ATLANTIC CITY, N.J. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4683865/jaylen-murray\">Jaylen Murray</a> had 22 points in Saint Peter's 70-62 victory over Rider on Wednesday in a Metro Atlantic Athletic Conference Tournament quarterfinal.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Murray was 8 of 15 shooting, including 3 for 6 from distance, and went 3 for 4 from the line for the Peacocks (14-17). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4402919/jayden-saddler\">Jayden Saddler</a> scored 11 points while going 4 of 4 from the field. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4898259/mouhamed-sow\">Mouhamed Sow</a> finished 5 of 7 from the field to finish with 10 points, while adding nine rebounds.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592283/mervin-james\">Mervin James</a> finished with 13 points for the Broncs (16-14). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4405283/zahrion-blue\">Zahrion Blue</a> added 12 points for Rider. In addition, <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4904596/dwight-murray\">Dwight Murray</a> Jr. had 10 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">The Associated Press created this story using technology provided by <a href=\"https://www.dataskrive.com/\">Data Skrive</a> and data from <a href=\"https://www.sportradar.com\">Sportradar</a>."
+  },
   "leaders": [
     {
       "team": {
