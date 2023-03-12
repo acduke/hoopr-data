@@ -4727,9 +4727,9 @@
         "moneyLine": 100,
         "spreadRecord": {
           "wins": 32,
-          "losses": 35,
+          "losses": 36,
           "pushes": 0,
-          "summary": "32-35-0"
+          "summary": "32-36-0"
         },
         "spreadOdds": -107.0,
         "teamId": "16"
@@ -4740,10 +4740,10 @@
         "underdog": false,
         "moneyLine": -120,
         "spreadRecord": {
-          "wins": 36,
+          "wins": 37,
           "losses": 29,
           "pushes": 2,
-          "summary": "36-29-2"
+          "summary": "37-29-2"
         },
         "spreadOdds": -107.0,
         "teamId": "26"
@@ -27695,6 +27695,89 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
+                  "value": 13.5,
+                  "displayValue": "13.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 35.0,
+                  "displayValue": "35"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": 2.0,
+                  "displayValue": "W2"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.4852941,
+                  "displayValue": ".485"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Wins",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 33.0,
+                  "displayValue": "33"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2022-11-23T20:22Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/utah.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2023-03-01T12:03Z"
+                }
+              ]
+            },
+            {
+              "team": "Oklahoma City",
+              "link": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder",
+              "id": "25",
+              "uid": "s:40~l:46~t:25",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
                   "value": 14.0,
                   "displayValue": "14"
                 },
@@ -27737,89 +27820,6 @@
                   "type": "wins",
                   "value": 32.0,
                   "displayValue": "32"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2022-11-23T20:22Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/utah.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2023-03-01T12:03Z"
-                }
-              ]
-            },
-            {
-              "team": "Oklahoma City",
-              "link": "https://www.espn.com/nba/team/_/name/okc/oklahoma-city-thunder",
-              "id": "25",
-              "uid": "s:40~l:46~t:25",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 14.5,
-                  "displayValue": "14.5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 35.0,
-                  "displayValue": "35"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.46969697,
-                  "displayValue": ".470"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Wins",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 31.0,
-                  "displayValue": "31"
                 }
               ],
               "logo": [
