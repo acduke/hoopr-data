@@ -1,110 +1,27 @@
 Already up to date.
 Scraping MBB schedules for year 2023...
-1.3211880445480346 minutes to download 1 years of season schedules.
+1.5364293773969016 minutes to download 1 years of season schedules.
 Scraping year 2023...
-Number of Games: 6083
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401483366
-TypeError: game_id = 401483366
- the JSON object must be str, bytes or bytearray, not NoneType
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401483338
-TypeError: game_id = 401483338
- the JSON object must be str, bytes or bytearray, not NoneType
+Number of Games: 6110
 KeyError: game_id = 401488802
  'abbreviation'
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401486720
+TypeError: game_id = 401486720
+ the JSON object must be str, bytes or bytearray, not NoneType
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401487456
+TypeError: game_id = 401487456
+ the JSON object must be str, bytes or bytearray, not NoneType
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401485177
+TypeError: game_id = 401485177
+ the JSON object must be str, bytes or bytearray, not NoneType
 Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401532177
 TypeError: game_id = 401532177
  the JSON object must be str, bytes or bytearray, not NoneType
 DecodeError: game_id = 401532177
  Expecting value: line 1 column 1 (char 0)
-1812.0976042747498 seconds to download 6083 game play-by-plays.
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401473609
+TypeError: game_id = 401473609
+ the JSON object must be str, bytes or bytearray, not NoneType
+2045.9181792736053 seconds to download 6110 game play-by-plays.
 Finished Scraping year 2023...
-Already up to date.
-1289.594 sec elapsed
-1295.931 sec elapsed
-Already up to date.
-Already up to date.
-[main 5aae987c90c] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
- 7092 files changed, 1760449 insertions(+), 134293 deletions(-)
- rewrite daily_mbb.out (92%)
- create mode 100644 mbb/json/final/401514049.json
- create mode 100644 mbb/json/final/401514210.json
- create mode 100644 mbb/json/final/401514241.json
- create mode 100644 mbb/json/final/401514242.json
- create mode 100644 mbb/json/final/401514251.json
- create mode 100644 mbb/json/final/401514252.json
- create mode 100644 mbb/json/final/401514265.json
- create mode 100644 mbb/json/final/401514269.json
- create mode 100644 mbb/json/final/401514301.json
- create mode 100644 mbb/json/final/401514302.json
- create mode 100644 mbb/json/final/401514308.json
- create mode 100644 mbb/json/final/401514309.json
- create mode 100644 mbb/json/final/401514315.json
- create mode 100644 mbb/json/final/401514316.json
- create mode 100644 mbb/json/final/401514390.json
- create mode 100644 mbb/json/final/401514391.json
- create mode 100644 mbb/json/final/401514410.json
- create mode 100644 mbb/json/final/401514411.json
- create mode 100644 mbb/json/final/401514420.json
- create mode 100644 mbb/json/final/401514421.json
- create mode 100644 mbb/json/final/401514422.json
- create mode 100644 mbb/json/final/401514423.json
- create mode 100644 mbb/json/final/401514979.json
- create mode 100644 mbb/json/final/401514980.json
- create mode 100644 mbb/json/final/401515333.json
- create mode 100644 mbb/json/final/401515334.json
- create mode 100644 mbb/json/final/401515335.json
- create mode 100644 mbb/json/final/401515336.json
- create mode 100644 mbb/json/final/401515347.json
- create mode 100644 mbb/json/final/401515348.json
- create mode 100644 mbb/json/final/401519352.json
- create mode 100644 mbb/json/final/401519353.json
- create mode 100644 mbb/json/final/401519354.json
- create mode 100644 mbb/json/final/401519355.json
- create mode 100644 mbb/json/final/401527434.json
- create mode 100644 mbb/json/final/401527435.json
- create mode 100644 mbb/json/raw/401514049.json
- create mode 100644 mbb/json/raw/401514210.json
- create mode 100644 mbb/json/raw/401514241.json
- create mode 100644 mbb/json/raw/401514242.json
- create mode 100644 mbb/json/raw/401514251.json
- create mode 100644 mbb/json/raw/401514252.json
- create mode 100644 mbb/json/raw/401514265.json
- create mode 100644 mbb/json/raw/401514269.json
- create mode 100644 mbb/json/raw/401514301.json
- create mode 100644 mbb/json/raw/401514302.json
- create mode 100644 mbb/json/raw/401514308.json
- create mode 100644 mbb/json/raw/401514309.json
- create mode 100644 mbb/json/raw/401514315.json
- create mode 100644 mbb/json/raw/401514316.json
- create mode 100644 mbb/json/raw/401514390.json
- create mode 100644 mbb/json/raw/401514391.json
- create mode 100644 mbb/json/raw/401514410.json
- create mode 100644 mbb/json/raw/401514411.json
- create mode 100644 mbb/json/raw/401514420.json
- create mode 100644 mbb/json/raw/401514421.json
- create mode 100644 mbb/json/raw/401514422.json
- create mode 100644 mbb/json/raw/401514423.json
- create mode 100644 mbb/json/raw/401514979.json
- create mode 100644 mbb/json/raw/401514980.json
- create mode 100644 mbb/json/raw/401515333.json
- create mode 100644 mbb/json/raw/401515334.json
- create mode 100644 mbb/json/raw/401515335.json
- create mode 100644 mbb/json/raw/401515336.json
- create mode 100644 mbb/json/raw/401515347.json
- create mode 100644 mbb/json/raw/401515348.json
- create mode 100644 mbb/json/raw/401519352.json
- create mode 100644 mbb/json/raw/401519353.json
- create mode 100644 mbb/json/raw/401519354.json
- create mode 100644 mbb/json/raw/401519355.json
- create mode 100644 mbb/json/raw/401527434.json
- create mode 100644 mbb/json/raw/401527435.json
- rewrite mbb/mbb_games_in_data_repo.parquet (68%)
- rewrite mbb/mbb_games_in_data_repo.qs (78%)
- rewrite mbb/player_box/parquet/player_box_2023.parquet (71%)
- rewrite mbb/player_box/qs/player_box_2023.qs (72%)
- rewrite mbb/player_box/rds/player_box_2023.rds (62%)
- rewrite mbb/schedules/qs/mbb_schedule_2023.qs (92%)
- rewrite mbb/schedules/rds/mbb_schedule_2023.rds (91%)
- rewrite mbb/team_box/qs/team_box_2023.qs (91%)
- rewrite mbb/team_box/rds/team_box_2023.rds (87%)
 Already up to date.
