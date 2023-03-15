@@ -1,43 +1,35 @@
 Already up to date.
 Scraping MBB schedules for year 2023...
-1.4580238660176594 minutes to download 1 years of season schedules.
+1.4818767507870991 minutes to download 1 years of season schedules.
 Scraping year 2023...
-Number of Games: 6115
+Number of Games: 6125
 KeyError: game_id = 401488802
  'abbreviation'
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401487006
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401487006
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479709
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479703
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401469916
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401487006
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479709
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479703
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401469916
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401487006
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479709
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479703
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401469916
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479709
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479703
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401469916
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401479703
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401484953
+TypeError: game_id = 401484953
+ the JSON object must be str, bytes or bytearray, not NoneType
 Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401532177
 TypeError: game_id = 401532177
  the JSON object must be str, bytes or bytearray, not NoneType
 DecodeError: game_id = 401532177
  Expecting value: line 1 column 1 (char 0)
-1904.0382096767426 seconds to download 6115 game play-by-plays.
+1984.3851952552795 seconds to download 6125 game play-by-plays.
 Finished Scraping year 2023...
-Already up to date.
-1373.122 sec elapsed
-1272.081 sec elapsed
-Already up to date.
-Already up to date.
-[main d48e7a9a91a] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
- 8341 files changed, 243881 insertions(+), 2536145 deletions(-)
- rewrite daily_mbb.out (78%)
- create mode 100644 mbb/json/final/401514234.json
- create mode 100644 mbb/json/final/401514426.json
- create mode 100644 mbb/json/final/401515339.json
- create mode 100644 mbb/json/final/401515352.json
- create mode 100644 mbb/json/final/401519358.json
- create mode 100644 mbb/json/raw/401514234.json
- create mode 100644 mbb/json/raw/401514426.json
- create mode 100644 mbb/json/raw/401515339.json
- create mode 100644 mbb/json/raw/401515352.json
- create mode 100644 mbb/json/raw/401519358.json
- rewrite mbb/mbb_games_in_data_repo.parquet (64%)
- rewrite mbb/mbb_games_in_data_repo.qs (79%)
- rewrite mbb/player_box/parquet/player_box_2023.parquet (71%)
- rewrite mbb/player_box/qs/player_box_2023.qs (71%)
- rewrite mbb/schedules/parquet/mbb_schedule_2023.parquet (69%)
- rewrite mbb/schedules/qs/mbb_schedule_2023.qs (92%)
- rewrite mbb/schedules/rds/mbb_schedule_2023.rds (88%)
- rewrite mbb/team_box/qs/team_box_2023.qs (90%)
- rewrite mbb/team_box/rds/team_box_2023.rds (88%)
- rewrite nba_schedule_master.qs (63%)
 Already up to date.
