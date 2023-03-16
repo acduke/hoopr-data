@@ -4400,7 +4400,21 @@
       "region": "us"
     }
   ],
-  "predictor": [],
+  "predictor": {
+    "header": "Matchup Predictor",
+    "homeTeam": {
+      "id": "275",
+      "gameProjection": "63.7",
+      "teamChanceLoss": "36.3",
+      "teamChanceTie": "0.0"
+    },
+    "awayTeam": {
+      "id": "71",
+      "gameProjection": "36.3",
+      "teamChanceLoss": "63.7",
+      "teamChanceTie": "0.0"
+    }
+  },
   "pickcenter": [
     {
       "provider": {
@@ -6420,6 +6434,18 @@
         "href": "https://www.espn.com/mens-college-basketball/game/_/gameId/401526873",
         "text": "Gamecast",
         "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/recap?gameId=401526873",
+        "text": "Recap",
+        "shortText": "Recap",
         "isExternal": false,
         "isPremium": false
       },
@@ -16776,7 +16802,397 @@
       "shootingPlay": false
     }
   ],
-  "article": [],
+  "article": {
+    "dataSourceIdentifier": "4a0b32d484441",
+    "keywords": [],
+    "description": "\u2014 Steven Crowl scored a career-high 36 points and Wisconsin cruised to an 81-62 victory over Bradley on Tuesday night in the first round of the NIT.",
+    "source": "AP",
+    "video": [
+      {
+        "source": "espn",
+        "id": 35861850,
+        "dataSourceIdentifier": "b1433461aac65",
+        "headline": "Steven Crowl scores 36 in Badgers' win",
+        "caption": "Steven Crowl finishes with 36 points and nine rebounds in Wisconsin's win over Bradley.\n",
+        "description": "Steven Crowl finishes with 36 points and nine rebounds in Wisconsin's win over Bradley.\n",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "ncb_instant_replay"
+        },
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Steven Crowl scores 36 in Badgers' win) 2023/03/15 ESHEET",
+          "trackingId": "dm_20230315_NCB_steven_crowl_scores_36_in_badgers_win"
+        },
+        "cerebroId": "64113f23be6ab34284f89c62",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-03-15T04:30:48Z",
+        "originalPublishDate": "2023-03-15T03:44:33Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-03-15T03:44:33Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "ipad",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "syndicatable": true,
+        "duration": 96,
+        "categories": [
+          {
+            "id": 454759,
+            "description": "Steven Crowl",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4588201,
+            "athlete": {
+              "id": 4588201,
+              "description": "Steven Crowl",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4588201"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4588201/steven-crowl"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.com/ncb/playercard?playerId=4588201"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~a:4588201"
+          },
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.com/ncb/"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 3211,
+            "description": "Wisconsin Badgers",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 275,
+            "team": {
+              "id": 275,
+              "description": "Wisconsin Badgers",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/275"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/275/wisconsin-badgers"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.com/ncb/clubhouse?teamId=275"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:275"
+          }
+        ],
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api-app.espn.com/v1/video/clips/35861850"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/2a759d20-f3c6-46a7-a920-11d3f6ead9d9"
+            }
+          },
+          "web": {
+            "href": "http://espn.com/video/clip?id=35861850",
+            "short": {
+              "href": "https://es.pn/3lfd08B"
+            },
+            "self": {
+              "href": "http://espn.com/video/clip?id=35861850"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "http://media.video-origin.espn.com/espnvideo/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.com/general/video/videoAlert?vid=35861850"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2a759d20-f3c6-46a7-a920-11d3f6ead9d9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35861850",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2a759d20-f3c6-46a7-a920-11d3f6ead9d9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35861850"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2a759d20-f3c6-46a7-a920-11d3f6ead9d9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35861850"
+            }
+          }
+        },
+        "title": "Steven Crowl scores 36 in Badgers' win"
+      }
+    ],
+    "type": "Recap",
+    "nowId": "1-35866707",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/35866707"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/events/401526873"
+        }
+      },
+      "web": {
+        "href": "http://www.espn.com/ncb/recap?gameId=401526873",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=35866707"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncb/gamecast?gameId=401526873&version=mobile"
+      }
+    },
+    "id": 35866707,
+    "categories": [
+      {
+        "id": 9576,
+        "description": "Men's College Basketball",
+        "type": "league",
+        "sportId": 41,
+        "leagueId": 41,
+        "league": {
+          "id": 41,
+          "description": "Men's College Basketball",
+          "links": {
+            "api": {
+              "leagues": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+              }
+            },
+            "web": {
+              "leagues": {
+                "href": "https://www.espn.com/mens-college-basketball/"
+              }
+            },
+            "mobile": {
+              "leagues": {
+                "href": "http://m.espn.com/ncb/"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41"
+      },
+      {
+        "id": 3211,
+        "description": "Wisconsin Badgers",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 275,
+        "team": {
+          "id": 275,
+          "description": "Wisconsin Badgers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/275"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/275/wisconsin-badgers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=275"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:275"
+      },
+      {
+        "id": 3311,
+        "description": "Bradley Braves",
+        "type": "team",
+        "sportId": 41,
+        "teamId": 71,
+        "team": {
+          "id": 71,
+          "description": "Bradley Braves",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/71"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/mens-college-basketball/team/_/id/71/bradley-braves"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncb/clubhouse?teamId=71"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:41~t:71"
+      }
+    ],
+    "headline": "Crowl scores 36, Wisconsin tops Bradley 81-62 in NIT",
+    "gameId": "401526873",
+    "images": [
+      {
+        "name": "Steven Crowl scores 36 in Badgers' win",
+        "width": 576,
+        "alt": "",
+        "caption": "Steven Crowl finishes with 36 points and nine rebounds in Wisconsin's win over Bradley.\n",
+        "url": "https://a.espncdn.com/media/motion/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930.jpg",
+        "height": 324
+      }
+    ],
+    "linkText": "Crowl scores 36, Wisconsin tops Bradley 81-62 in NIT",
+    "published": "2023-03-15T21:04:35Z",
+    "allowComments": true,
+    "lastModified": "2023-03-15T21:04:35Z",
+    "metrics": [
+      {
+        "count": 0,
+        "type": "views"
+      },
+      {
+        "count": 0,
+        "type": "fShares"
+      },
+      {
+        "count": 0,
+        "type": "tweets"
+      },
+      {
+        "count": 0,
+        "type": "comments"
+      },
+      {
+        "count": 0,
+        "type": "emails"
+      },
+      {
+        "count": 0,
+        "type": "votes"
+      },
+      {
+        "count": 0,
+        "type": "popularity"
+      }
+    ],
+    "inlines": [],
+    "story": "<p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">MADISON, Wis. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4588201/steven-crowl\">Steven Crowl</a> scored a career-high 36 points and Wisconsin cruised to an 81-62 victory over Bradley on Tuesday night in the first round of the NIT.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Crowl buried 12 of 16 shots from the floor, including 5 of 7 from 3-point range, and all seven of his free throws for the second-seeded Badgers, who advance to play No. 3 seed Liberty in the second round. Crowl, a junior, topped his previous high by 11 points. He also grabbed nine rebounds. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4703885/max-klesmit\">Max Klesmit</a> totaled 16 points and three steals, while <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/5105861/connor-essegian\">Connor Essegian</a> was 9 of 9 at the foul line and scored 14.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\"><a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4592677/rienk-mast\">Rienk Mast</a> scored 14 points to lead the Braves (25-10). <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4897446/zek-montgomery\">Zek Montgomery</a> added 12 points.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">Crowl scored 19 points in the first half to guide the Badgers to 40-35 lead at halftime. Crowl scored 17 in the second half and Klesmit added 13 to help Wisconsin pull away.\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">------\n\n\r\n              <p xmlns=\"http://iptc.org/std/NITF/2006-10-18/\">AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP--Top25"
+  },
   "videos": [
     {
       "source": "espn",
@@ -17239,99 +17655,6 @@
           },
           "progressiveDownload": {
             "href": "https://watch.auth.api.espn.com/video/auth/brightcove/757a90e0-5794-4a11-a681-434479b2544a/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35861799"
-          }
-        }
-      }
-    },
-    {
-      "source": "espn",
-      "id": 35861850,
-      "headline": "Steven Crowl scores 36 in Badgers' win",
-      "description": "Steven Crowl finishes with 36 points and nine rebounds in Wisconsin's win over Bradley.\n",
-      "ad": {
-        "sport": "ncb",
-        "bundle": "ncb_instant_replay"
-      },
-      "tracking": {
-        "sportName": "ncb",
-        "leagueName": "No League",
-        "coverageType": "Final Game Highlight",
-        "trackingName": "NCB_One-Play (Steven Crowl scores 36 in Badgers' win) 2023/03/15 ESHEET",
-        "trackingId": "dm_20230315_NCB_steven_crowl_scores_36_in_badgers_win"
-      },
-      "cerebroId": "64113f23be6ab34284f89c62",
-      "lastModified": "2023-03-15T04:30:48Z",
-      "originalPublishDate": "2023-03-15T03:44:33Z",
-      "timeRestrictions": {
-        "embargoDate": "2023-03-15T03:44:33Z",
-        "expirationDate": "2038-01-01T04:59:59Z"
-      },
-      "deviceRestrictions": {
-        "type": "whitelist",
-        "devices": [
-          "desktop",
-          "settop",
-          "handset",
-          "tablet"
-        ]
-      },
-      "duration": 96,
-      "thumbnail": "https://a.espncdn.com/media/motion/2023/0315/ss_20230314_234437407_222146930/ss_20230314_234437407_222146930.jpg",
-      "links": {
-        "api": {
-          "self": {
-            "href": "http://api.espn.com/v1/video/clips/35861850"
-          },
-          "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/2a759d20-f3c6-46a7-a920-11d3f6ead9d9"
-          }
-        },
-        "web": {
-          "href": "https://www.espn.com/video/clip?id=35861850&ex_cid=espnapi_internal",
-          "short": {
-            "href": "https://www.espn.com/video/clip?id=35861850"
-          },
-          "self": {
-            "href": "https://www.espn.com/video/clip?id=35861850&ex_cid=espnapi_internal"
-          }
-        },
-        "source": {
-          "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469.mp4"
-          },
-          "flash": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469.smil"
-          },
-          "hds": {
-            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_rel.smil/manifest.f4m"
-          },
-          "HLS": {
-            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469/playlist.m3u8",
-            "HD": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469/playlist.m3u8"
-            }
-          },
-          "HD": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_720p30_2896k.mp4"
-          },
-          "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_360p30_1464k.mp4"
-          },
-          "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469_360p30_1464k.mp4"
-        },
-        "mobile": {
-          "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35861850&ex_cid=espnapi_internal"
-          },
-          "source": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0314/ss_20230314_234437407_2221469/ss_20230314_234437407_2221469.mp4"
-          },
-          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2a759d20-f3c6-46a7-a920-11d3f6ead9d9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35861850",
-          "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2a759d20-f3c6-46a7-a920-11d3f6ead9d9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35861850"
-          },
-          "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2a759d20-f3c6-46a7-a920-11d3f6ead9d9/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35861850"
           }
         }
       }

@@ -26184,6 +26184,18 @@
       },
       {
         "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mens-college-basketball/video?gameId=401522117",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
           "bracket",
           "desktop",
           "event"
@@ -26408,7 +26420,533 @@
     }
   },
   "broadcasts": [],
-  "videos": [],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 35860544,
+      "headline": "Southeast Missouri State bench amped up after 3-pointer",
+      "description": "Dylan Branson drains a corner 3-pointer for Southeast Missouri State, and the bench is loving it.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Highlight",
+        "trackingName": "*UNPUB 6/30* NCB_One-Play (Southeast Missouri State bench amped up after 3-pointer) 2022/03/14 ESHEET",
+        "trackingId": "dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer"
+      },
+      "cerebroId": "64110b5cca84b7099eedb9e3",
+      "lastModified": "2023-03-15T20:53:40Z",
+      "originalPublishDate": "2023-03-15T00:01:59Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-03-15T00:01:59Z",
+        "expirationDate": "2023-07-01T00:01:59Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "US",
+          "AS",
+          "GU",
+          "MP",
+          "PR",
+          "VI",
+          "UM"
+        ]
+      },
+      "duration": 23,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35860544"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/04a0088f-e3cb-4154-9fdf-8ebcadc0901d"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35860544&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35860544"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35860544&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35860544&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer/dm_230314_NCB_One-Play_Southeast_Missouri_State_3_pointer.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/04a0088f-e3cb-4154-9fdf-8ebcadc0901d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860544",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/04a0088f-e3cb-4154-9fdf-8ebcadc0901d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860544"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/04a0088f-e3cb-4154-9fdf-8ebcadc0901d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860544"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35860641,
+      "headline": "Chris Harris gets a friendly bounce for Southeast Missouri State",
+      "description": "Southeast Missouri State's Chris Harris puts up a short jumper that bounces off the rim and in.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Highlight",
+        "trackingName": "*UNPUB 6/30* NCB_One-Play (Chris Harris gets a friendly bounce for Southeast Missouri State) 2022/03/14 ESHEET",
+        "trackingId": "dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket"
+      },
+      "cerebroId": "64111136ca84b7099eedc4a2",
+      "lastModified": "2023-03-15T20:54:23Z",
+      "originalPublishDate": "2023-03-15T00:27:21Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-03-15T00:27:21Z",
+        "expirationDate": "2023-07-01T00:27:21Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "US",
+          "AS",
+          "GU",
+          "MP",
+          "PR",
+          "VI",
+          "UM"
+        ]
+      },
+      "duration": 26,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35860641"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/9aec24f2-bf5d-434d-99e2-7263c0b66080"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35860641&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35860641"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35860641&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35860641&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket/dm_230314_NCB_One-Play_Southeast_Missouri_State_bucket.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9aec24f2-bf5d-434d-99e2-7263c0b66080/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860641",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9aec24f2-bf5d-434d-99e2-7263c0b66080/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860641"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9aec24f2-bf5d-434d-99e2-7263c0b66080/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860641"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35860644,
+      "headline": "Trevian Tennyson speeds in for a Texas A&M-Corpus Christi and-1",
+      "description": "Texas A&M-Corpus Christi's Trevian Tennyson gets to the rim in transition for a tough and-1.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Highlight",
+        "trackingName": "*UNPUB 6/30* NCB_One-Play (Trevian Tennyson speeds in for a Texas A&M-Corpus Christi and-1) 2022/03/14 ESHEET",
+        "trackingId": "dm_230314_NCB_One-Play_Trevian_Tennyson_and_1"
+      },
+      "cerebroId": "6411117eca84b7099eedc4c2",
+      "lastModified": "2023-03-15T20:54:44Z",
+      "originalPublishDate": "2023-03-15T00:28:37Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-03-15T00:28:37Z",
+        "expirationDate": "2023-07-01T00:28:37Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "US",
+          "AS",
+          "GU",
+          "MP",
+          "PR",
+          "VI",
+          "UM"
+        ]
+      },
+      "duration": 17,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35860644"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/14ab8b06-efb8-4966-9677-a0c7dfd5804c"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35860644&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35860644"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35860644&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35860644&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1/dm_230314_NCB_One-Play_Trevian_Tennyson_and_1.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/14ab8b06-efb8-4966-9677-a0c7dfd5804c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860644",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/14ab8b06-efb8-4966-9677-a0c7dfd5804c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860644"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/14ab8b06-efb8-4966-9677-a0c7dfd5804c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860644"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35860927,
+      "headline": "Trevian Tennyson drops tough scoop layup",
+      "description": "Trevian Tennyson gets to the rack for a tough scoop layup to extend Texas A&M-Corpus Christi's lead.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Highlight",
+        "trackingName": "*UNPUB 6/30* NCB_One-Play (Trevian Tennyson drops tough scoop layup) 2022/03/14 ESHEET",
+        "trackingId": "dm_230314_NCB_One-Play_Trevian_Tennyson_layup"
+      },
+      "cerebroId": "64111989ca84b7099eedd8aa",
+      "lastModified": "2023-03-15T20:55:16Z",
+      "originalPublishDate": "2023-03-15T01:02:53Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-03-15T01:02:53Z",
+        "expirationDate": "2023-07-01T01:02:53Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "US",
+          "AS",
+          "GU",
+          "MP",
+          "PR",
+          "VI",
+          "UM"
+        ]
+      },
+      "duration": 21,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35860927"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/db2c4f00-b911-4df5-b013-8b6aa9c7be74"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35860927&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35860927"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35860927&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35860927&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Trevian_Tennyson_layup/dm_230314_NCB_One-Play_Trevian_Tennyson_layup.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/db2c4f00-b911-4df5-b013-8b6aa9c7be74/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860927",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/db2c4f00-b911-4df5-b013-8b6aa9c7be74/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860927"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/db2c4f00-b911-4df5-b013-8b6aa9c7be74/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860927"
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 35860979,
+      "headline": "Texas A&M-Corpus Christi earns first NCAA tournament win",
+      "description": "The Texas A&M-Corpus Christi Islanders hold off the Southeast Missouri State Redhawks and advance to face No. 1 seed Alabama.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "*UNPUB 6/30* NCB_One-Play (Texas A&M-Corpus Christi earns first NCAA tournament win) 2022/03/14 ESHEET",
+        "trackingId": "dm_230314_NCB_One-Play_Texas_AM_CC_wins"
+      },
+      "cerebroId": "64111bb2ca84b7099eedf0b0",
+      "lastModified": "2023-03-15T20:55:42Z",
+      "originalPublishDate": "2023-03-15T01:11:17Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-03-15T01:11:17Z",
+        "expirationDate": "2023-07-01T01:11:17Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "US",
+          "AS",
+          "GU",
+          "MP",
+          "PR",
+          "VI",
+          "UM"
+        ]
+      },
+      "duration": 31,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35860979"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/83d78f8a-663c-4ad2-8b0d-11b5f19b2787"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35860979&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35860979"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35860979&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35860979&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0314/dm_230314_NCB_One-Play_Texas_AM_CC_wins/dm_230314_NCB_One-Play_Texas_AM_CC_wins.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/83d78f8a-663c-4ad2-8b0d-11b5f19b2787/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860979",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/83d78f8a-663c-4ad2-8b0d-11b5f19b2787/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860979"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/83d78f8a-663c-4ad2-8b0d-11b5f19b2787/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35860979"
+          }
+        }
+      }
+    }
+  ],
   "playByPlaySource": "full",
   "standings": {
     "fullViewLink": {
@@ -26433,8 +26971,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "21-11",
-                  "displayValue": "21-11"
+                  "summary": "22-11",
+                  "displayValue": "22-11"
                 },
                 {
                   "name": "gamesBehind",
