@@ -1,39 +1,8 @@
 Already up to date.
 Scraping NBA schedules for year 2023...
-0.7429846366246541 minutes to download 1 years of season schedules.
+0.7778344988822937 minutes to download 1 years of season schedules.
 Scraping NBA PBP for 2023...
-Number of Games: 1047
-Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401468941
-TypeError: game_id = 401468941
- the JSON object must be str, bytes or bytearray, not NoneType
-545.1726562976837 seconds to download 1047 game play-by-plays.
+Number of Games: 1055
+538.6440010070801 seconds to download 1055 game play-by-plays.
 Finished NBA PBP for 2023...
-Already up to date.
-Already up to date.
-Already up to date.
-[main 2b34a75d6eb] NBA Play-by-Play and Schedules update (Start: 2023 End: 2023)
- 2112 files changed, 397228 insertions(+), 70238 deletions(-)
- rewrite daily_nba.out (92%)
- create mode 100644 nba/json/final/401469197.json
- create mode 100644 nba/json/final/401469198.json
- create mode 100644 nba/json/final/401469199.json
- create mode 100644 nba/json/final/401469200.json
- create mode 100644 nba/json/final/401469201.json
- create mode 100644 nba/json/raw/401469197.json
- create mode 100644 nba/json/raw/401469198.json
- create mode 100644 nba/json/raw/401469199.json
- create mode 100644 nba/json/raw/401469200.json
- create mode 100644 nba/json/raw/401469201.json
- rewrite nba/nba_games_in_data_repo.parquet (61%)
- rewrite nba/nba_games_in_data_repo.qs (80%)
- rewrite nba/player_box/csv/player_box_2023.csv.gz (87%)
- rewrite nba/player_box/parquet/player_box_2023.parquet (92%)
- rewrite nba/player_box/qs/player_box_2023.qs (93%)
- rewrite nba/player_box/rds/player_box_2023.rds (91%)
- rewrite nba/schedules/qs/nba_schedule_2023.qs (90%)
- rewrite nba/schedules/rds/nba_schedule_2023.rds (92%)
- rewrite nba/team_box/csv/team_box_2023.csv.gz (98%)
- rewrite nba/team_box/parquet/team_box_2023.parquet (82%)
- rewrite nba/team_box/qs/team_box_2023.qs (98%)
- rewrite nba/team_box/rds/team_box_2023.rds (95%)
 Already up to date.
