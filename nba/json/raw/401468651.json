@@ -4408,15 +4408,15 @@
           "uid": "s:40~l:46~e:401469216~c:401469216",
           "date": "2023-03-19T00:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "in",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
             "completed": false,
-            "description": "Scheduled",
-            "detail": "Sat, March 18th at 8:00 PM EDT",
-            "shortDetail": "3/18 - 8:00 PM EDT"
+            "description": "In Progress",
+            "detail": "11:10 - 3rd Quarter",
+            "shortDetail": "11:10 - 3rd"
           },
           "broadcasts": [
             {
@@ -4479,7 +4479,7 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "73"
             },
             {
               "homeAway": "away",
@@ -4524,34 +4524,34 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "61"
             }
           ],
           "links": [
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "desktop",
                 "event"
               ],
-              "href": "https://www.espn.com/nba/game/_/gameId/401469216",
+              "href": "https://www.espn.com/nba/game?gameId=401469216",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             },
             {
               "language": "en-US",
               "rel": [
-                "summary",
+                "live",
                 "sportscenter",
                 "app",
                 "event"
               ],
               "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401469216",
               "text": "Gamecast",
-              "shortText": "Summary",
+              "shortText": "Gamecast",
               "isExternal": false,
               "isPremium": false
             }
@@ -4661,9 +4661,9 @@
         "moneyLine": -264,
         "spreadRecord": {
           "wins": 32,
-          "losses": 34,
+          "losses": 35,
           "pushes": 2,
-          "summary": "32-34-2"
+          "summary": "32-35-2"
         },
         "spreadOdds": -105.0,
         "teamId": "29"
@@ -30739,8 +30739,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 5.5,
-                  "displayValue": "5.5"
+                  "value": 6.0,
+                  "displayValue": "6"
                 },
                 {
                   "name": "losses",
@@ -30749,8 +30749,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 33.0,
-                  "displayValue": "33"
+                  "value": 34.0,
+                  "displayValue": "34"
                 },
                 {
                   "name": "streak",
@@ -30759,8 +30759,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 4.0,
-                  "displayValue": "W4"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -30769,8 +30769,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5285714,
-                  "displayValue": ".529"
+                  "value": 0.52112675,
+                  "displayValue": ".521"
                 },
                 {
                   "name": "wins",
