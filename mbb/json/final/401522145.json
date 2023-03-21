@@ -24332,8 +24332,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "21-15",
-                  "displayValue": "21-15"
+                  "summary": "21-16",
+                  "displayValue": "21-16"
                 },
                 {
                   "name": "gamesBehind",
@@ -24916,8 +24916,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "23-11",
-                  "displayValue": "23-11"
+                  "summary": "23-12",
+                  "displayValue": "23-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -25044,8 +25044,8 @@
                   "shortDisplayName": "Season",
                   "description": "Overall Record",
                   "type": "total",
-                  "summary": "20-12",
-                  "displayValue": "20-12"
+                  "summary": "21-12",
+                  "displayValue": "21-12"
                 },
                 {
                   "name": "gamesBehind",
@@ -25749,42 +25749,53 @@
     "video": [
       {
         "source": "espn",
-        "id": 35885663,
-        "dataSourceIdentifier": "16c1214c77641",
-        "headline": "FDU coach: We outplayed Purdue for 40 minutes",
-        "caption": "Fairleigh Dickinson coach Tobin Anderson talks about the Knights' stunning upset of Purdue and what they need to do to reach the Sweet 16.",
-        "description": "Fairleigh Dickinson coach Tobin Anderson talks about the Knights' stunning upset of Purdue and what they need to do to reach the Sweet 16.",
+        "id": 35884277,
+        "headline": "FDU makes NCAA history as 2nd men's 16-seed to pull off an upset",
+        "caption": "Fairleigh Dickinson shocks 1-seed Purdue to become the second men's 16-seed to knock off a top seed.",
+        "description": "Fairleigh Dickinson shocks 1-seed Purdue to become the second men's 16-seed to knock off a top seed.",
         "premium": false,
         "ad": {
           "sport": "ncb",
-          "bundle": "tourney_update"
+          "bundle": "no_show"
         },
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Interview",
-          "trackingName": "UNPUB 3/19 7:45p COM_NCB Interview (FDU coach: We outplayed Purdue for 40 minutes) 2023/03/17",
-          "trackingId": "dm_230318_ncb_fdu_coach_interview_rev1"
+          "coverageType": "Final Game Highlight",
+          "trackingName": "**UNPUB 6/30** COM_NCB Highlight (FDU makes NCAA history as 2nd men's 16-seed to pull off an upset) 2023/3/17 ESHEET SOTFULL",
+          "trackingId": "dm_230317_fdu_upsets_purdue"
         },
-        "cerebroId": "64154692ca84b7099ef861ea",
-        "lastModified": "2023-03-18T05:07:48Z",
-        "originalPublishDate": "2023-03-18T05:02:30Z",
+        "cerebroId": "641519e1ca84b7099ef7f1aa",
+        "pccId": "9580b79a-0b61-405d-b33d-d39edf350c42",
+        "lastModified": "2023-03-18T03:01:09Z",
+        "originalPublishDate": "2023-03-18T01:48:55Z",
         "timeRestrictions": {
-          "embargoDate": "2023-03-18T05:02:30Z",
-          "expirationDate": "2023-03-19T23:45:00Z"
+          "embargoDate": "2023-03-18T01:48:55Z",
+          "expirationDate": "2023-07-01T01:48:55Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
           "devices": [
             "desktop",
-            "ipad",
             "settop",
             "handset",
             "tablet"
           ]
         },
-        "syndicatable": true,
-        "duration": 121,
+        "geoRestrictions": {
+          "type": "whitelist",
+          "countries": [
+            "US",
+            "AS",
+            "GU",
+            "MP",
+            "PR",
+            "VI",
+            "UM"
+          ]
+        },
+        "syndicatable": false,
+        "duration": 120,
         "categories": [
           {
             "id": 9576,
@@ -25798,17 +25809,17 @@
               "links": {
                 "api": {
                   "leagues": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball"
                   }
                 },
                 "web": {
                   "leagues": {
-                    "href": "https://www.espn.com/mens-college-basketball/"
+                    "href": "https://www.espn.com/mens-college-basketball/?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "leagues": {
-                    "href": "http://m.espn.com/ncb/"
+                    "href": "http://m.espn.go.com/ncb/?ex_cid=espnapi_internal"
                   }
                 }
               }
@@ -25827,17 +25838,17 @@
               "links": {
                 "api": {
                   "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/161"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/161"
                   }
                 },
                 "web": {
                   "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/161/fairleigh-dickinson-knights"
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/161/fairleigh-dickinson-knights?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=161"
+                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=161&ex_cid=espnapi_internal"
                   }
                 }
               }
@@ -25856,45 +25867,130 @@
               "links": {
                 "api": {
                   "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2509"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/2509"
                   }
                 },
                 "web": {
                   "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2509/purdue-boilermakers"
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/2509/purdue-boilermakers?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=2509"
+                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=2509&ex_cid=espnapi_internal"
                   }
                 }
               }
             },
             "uid": "s:40~l:41~t:2509"
+          },
+          {
+            "id": 455718,
+            "description": "Joe Munden Jr.",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4703144,
+            "athlete": {
+              "id": 4703144,
+              "description": "Joe Munden Jr.",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4703144"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4703144/joe-munden-jr.?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4703144&ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 569591,
+            "description": "Sean Moore",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 5106587,
+            "athlete": {
+              "id": 5106587,
+              "description": "Sean Moore",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/5106587"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/5106587/sean-moore?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.go.com/ncb/playercard?playerId=5106587&ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 454437,
+            "description": "Zach Edey",
+            "type": "athlete",
+            "sportId": 41,
+            "athleteId": 4600663,
+            "athlete": {
+              "id": 4600663,
+              "description": "Zach Edey",
+              "links": {
+                "api": {
+                  "athletes": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4600663"
+                  }
+                },
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4600663/zach-edey?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4600663&ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            }
           }
         ],
+        "gameId": 401522145,
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -25902,66 +25998,263 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35885663"
+              "href": "http://api.espn.com/v1/video/clips/35884277"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/6f08f020-bd6f-446c-a260-52e42cbfea0e"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/9580b79a-0b61-405d-b33d-d39edf350c42"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35885663",
+            "href": "https://www.espn.com/video/clip?id=35884277&ex_cid=espnapi_internal",
             "short": {
-              "href": "https://es.pn/3To0vnY"
+              "href": "https://www.espn.com/video/clip?id=35884277"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35885663"
+              "href": "https://www.espn.com/video/clip?id=35884277&ex_cid=espnapi_internal"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1.mp4"
+              "href": "https://media.video-origin.espn.com/espnvideo/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35885663"
+              "href": "http://m.espn.go.com/general/video/videoAlert?vid=35884277&ex_cid=espnapi_internal"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets_purdue/dm_230317_fdu_upsets_purdue.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f08f020-bd6f-446c-a260-52e42cbfea0e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35885663",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9580b79a-0b61-405d-b33d-d39edf350c42/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35884277",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f08f020-bd6f-446c-a260-52e42cbfea0e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35885663"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9580b79a-0b61-405d-b33d-d39edf350c42/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35884277"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f08f020-bd6f-446c-a260-52e42cbfea0e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35885663"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9580b79a-0b61-405d-b33d-d39edf350c42/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35884277"
             }
           }
+        }
+      },
+      {
+        "source": "espn",
+        "id": 35883999,
+        "headline": "16-seed Fairleigh Dickinson celebrates monumental upset over 1-seed Purdue",
+        "caption": "Fairleigh Dickinson is jubilant after completing the huge upset of the top-seeded Purdue Boilermakers in the East Region.",
+        "description": "Fairleigh Dickinson is jubilant after completing the huge upset of the top-seeded Purdue Boilermakers in the East Region.",
+        "premium": false,
+        "ad": {
+          "sport": "ncb",
+          "bundle": "no_show"
         },
-        "title": "FDU coach: We outplayed Purdue for 40 minutes"
+        "tracking": {
+          "sportName": "ncb",
+          "leagueName": "No League",
+          "coverageType": "Final Game Highlight",
+          "trackingName": "**UNPUB 6/30** NCB_One-Play (16-seed Fairleigh Dickinson celebrates monumental upset over 1-seed Purdue) 2023/3/17 ESHEET",
+          "trackingId": "dm_230317_fdu_upsets"
+        },
+        "cerebroId": "64151208ca84b7099ef7dc95",
+        "pccId": "8119c031-919b-418f-8bc1-4b47d2f0bf13",
+        "lastModified": "2023-03-18T01:37:40Z",
+        "originalPublishDate": "2023-03-18T01:17:58Z",
+        "timeRestrictions": {
+          "embargoDate": "2023-03-18T01:17:58Z",
+          "expirationDate": "2023-07-01T01:17:58Z"
+        },
+        "deviceRestrictions": {
+          "type": "whitelist",
+          "devices": [
+            "desktop",
+            "settop",
+            "handset",
+            "tablet"
+          ]
+        },
+        "geoRestrictions": {
+          "type": "whitelist",
+          "countries": [
+            "US",
+            "AS",
+            "GU",
+            "MP",
+            "PR",
+            "VI",
+            "UM"
+          ]
+        },
+        "syndicatable": false,
+        "duration": 25,
+        "categories": [
+          {
+            "id": 9576,
+            "description": "Men's College Basketball",
+            "type": "league",
+            "sportId": 41,
+            "leagueId": 41,
+            "league": {
+              "id": 41,
+              "description": "Men's College Basketball",
+              "links": {
+                "api": {
+                  "leagues": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball"
+                  }
+                },
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/mens-college-basketball/?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "http://m.espn.go.com/ncb/?ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41"
+          },
+          {
+            "id": 3322,
+            "description": "Fairleigh Dickinson Knights",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 161,
+            "team": {
+              "id": 161,
+              "description": "Fairleigh Dickinson Knights",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/161"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/161/fairleigh-dickinson-knights?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=161&ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:161"
+          }
+        ],
+        "gameId": 401522145,
+        "keywords": [],
+        "posterImages": {
+          "default": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets_default.jpg",
+            "width": 576,
+            "height": 324
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets.jpg"
+          },
+          "wide": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets_5x2.jpg"
+          },
+          "square": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets_1x1.jpg"
+          }
+        },
+        "images": [
+          {
+            "name": "Poster Image",
+            "url": "https://media.video-cdn.espn.com/images/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets.jpg",
+            "alt": "",
+            "caption": "",
+            "credit": "",
+            "width": 576,
+            "height": 324
+          }
+        ],
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets.jpg",
+        "links": {
+          "api": {
+            "self": {
+              "href": "http://api.espn.com/v1/video/clips/35883999"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/8119c031-919b-418f-8bc1-4b47d2f0bf13"
+            }
+          },
+          "web": {
+            "href": "https://www.espn.com/video/clip?id=35883999&ex_cid=espnapi_internal",
+            "short": {
+              "href": "https://www.espn.com/video/clip?id=35883999"
+            },
+            "self": {
+              "href": "https://www.espn.com/video/clip?id=35883999&ex_cid=espnapi_internal"
+            }
+          },
+          "source": {
+            "mezzanine": {
+              "href": "https://media.video-origin.espn.com/espnvideo/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets.mp4"
+            },
+            "flash": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets.smil"
+            },
+            "hds": {
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets_rel.smil/manifest.f4m"
+            },
+            "HLS": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets/playlist.m3u8",
+              "HD": {
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets/playlist.m3u8"
+              }
+            },
+            "HD": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets_720p30_2896k.mp4"
+            },
+            "full": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets_360p30_1464k.mp4"
+            },
+            "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets_360p30_1464k.mp4"
+          },
+          "mobile": {
+            "alert": {
+              "href": "http://m.espn.go.com/general/video/videoAlert?vid=35883999&ex_cid=espnapi_internal"
+            },
+            "source": {
+              "href": "https://media.video-cdn.espn.com/motion/2023/0317/dm_230317_fdu_upsets/dm_230317_fdu_upsets.mp4"
+            },
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8119c031-919b-418f-8bc1-4b47d2f0bf13/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35883999",
+            "streaming": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8119c031-919b-418f-8bc1-4b47d2f0bf13/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35883999"
+            },
+            "progressiveDownload": {
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8119c031-919b-418f-8bc1-4b47d2f0bf13/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35883999"
+            }
+          }
+        }
       }
     ],
     "type": "Recap",
@@ -26083,16 +26376,7 @@
     ],
     "headline": "Fairleigh Dickinson stuns No. 1 seed Purdue in March Madness",
     "gameId": "401522145",
-    "images": [
-      {
-        "name": "FDU coach: We outplayed Purdue for 40 minutes",
-        "width": 576,
-        "alt": "",
-        "caption": "Fairleigh Dickinson coach Tobin Anderson talks about the Knights' stunning upset of Purdue and what they need to do to reach the Sweet 16.",
-        "url": "https://a.espncdn.com/media/motion/2023/0318/dm_230318_ncb_fdu_coach_interview_rev1/dm_230318_ncb_fdu_coach_interview_rev1.jpg",
-        "height": 324
-      }
-    ],
+    "images": [],
     "linkText": "Fairleigh Dickinson stuns No. 1 seed Purdue in March Madness",
     "published": "2023-03-18T01:11:56Z",
     "allowComments": true,
