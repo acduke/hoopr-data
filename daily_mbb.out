@@ -17,3 +17,27 @@ Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-col
 2143.682546377182 seconds to download 6207 game play-by-plays.
 Finished Scraping year 2023...
 Already up to date.
+1537.767 sec elapsed
+1377.104 sec elapsed
+Already up to date.
+Already up to date.
+[main cfe66b00767] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 3314 files changed, 204604 insertions(+), 8573 deletions(-)
+ create mode 100644 mbb/json/final/401526916.json
+ create mode 100644 mbb/json/final/401526918.json
+ create mode 100644 mbb/json/final/401526969.json
+ create mode 100644 mbb/json/final/401526970.json
+ create mode 100644 mbb/json/raw/401526916.json
+ create mode 100644 mbb/json/raw/401526918.json
+ create mode 100644 mbb/json/raw/401526969.json
+ create mode 100644 mbb/json/raw/401526970.json
+ rewrite mbb/mbb_games_in_data_repo.parquet (63%)
+ rewrite mbb/mbb_games_in_data_repo.qs (78%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (70%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (72%)
+ rewrite mbb/schedules/qs/mbb_schedule_2023.qs (87%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (84%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (88%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (86%)
+ rewrite nba_schedule_master.qs (64%)
+Already up to date.
