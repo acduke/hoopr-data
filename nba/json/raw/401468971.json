@@ -1797,7 +1797,7 @@
                     "href": "https://a.espncdn.com/i/headshots/nba/players/full/3133602.png",
                     "alt": "Svi Mykhailiuk"
                   },
-                  "jersey": "17",
+                  "jersey": "10",
                   "position": {
                     "name": "Shooting Guard",
                     "displayName": "Shooting Guard",
@@ -4453,36 +4453,20 @@
           "uid": "s:40~l:46~e:401469248~c:401469248",
           "date": "2023-03-23T23:00:00Z",
           "timeValid": true,
-          "status": "pre",
+          "status": "post",
           "statusType": {
-            "id": "1",
-            "name": "STATUS_SCHEDULED",
-            "state": "pre",
-            "completed": false,
-            "description": "Scheduled",
-            "detail": "Thu, March 23rd at 7:00 PM EDT",
-            "shortDetail": "3/23 - 7:00 PM EDT"
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
           },
-          "broadcasts": [
-            {
-              "type": {
-                "id": "1",
-                "shortName": "TV"
-              },
-              "market": {
-                "id": "1",
-                "type": "National"
-              },
-              "media": {
-                "shortName": "NBA TV"
-              },
-              "lang": "en",
-              "region": "us"
-            }
-          ],
           "competitors": [
             {
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "19",
                 "uid": "s:40~l:46~t:19",
@@ -4524,10 +4508,11 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "111"
             },
             {
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "18",
                 "uid": "s:40~l:46~t:18",
@@ -4569,7 +4554,7 @@
                   }
                 ]
               },
-              "score": "0"
+              "score": "106"
             }
           ],
           "links": [
@@ -25021,8 +25006,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 8.5,
-                  "displayValue": "8.5"
+                  "value": 9.0,
+                  "displayValue": "9"
                 },
                 {
                   "name": "losses",
@@ -25031,8 +25016,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 32.0,
-                  "displayValue": "32"
+                  "value": 33.0,
+                  "displayValue": "33"
                 },
                 {
                   "name": "streak",
@@ -25041,8 +25026,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
+                  "value": -3.0,
+                  "displayValue": "L3"
                 },
                 {
                   "name": "winPercent",
@@ -25051,8 +25036,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5675676,
-                  "displayValue": ".568"
+                  "value": 0.56,
+                  "displayValue": ".560"
                 },
                 {
                   "name": "wins",
@@ -25104,8 +25089,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 10.5,
-                  "displayValue": "10.5"
+                  "value": 11.0,
+                  "displayValue": "11"
                 },
                 {
                   "name": "losses",
@@ -25114,8 +25099,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 33.0,
-                  "displayValue": "33"
+                  "value": 34.0,
+                  "displayValue": "34"
                 },
                 {
                   "name": "streak",
@@ -25124,8 +25109,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -4.0,
-                  "displayValue": "L4"
+                  "value": -5.0,
+                  "displayValue": "L5"
                 },
                 {
                   "name": "winPercent",
@@ -25134,8 +25119,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5416667,
-                  "displayValue": ".542"
+                  "value": 0.53424656,
+                  "displayValue": ".534"
                 },
                 {
                   "name": "wins",
@@ -25527,8 +25512,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 9.5,
-                  "displayValue": "9.5"
+                  "value": 9.0,
+                  "displayValue": "9"
                 },
                 {
                   "name": "losses",
@@ -25547,8 +25532,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": 2.0,
+                  "displayValue": "W2"
                 },
                 {
                   "name": "winPercent",
@@ -25557,8 +25542,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.41095892,
-                  "displayValue": ".411"
+                  "value": 0.4189189,
+                  "displayValue": ".419"
                 },
                 {
                   "name": "wins",
@@ -25567,8 +25552,8 @@
                   "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 30.0,
-                  "displayValue": "30"
+                  "value": 31.0,
+                  "displayValue": "31"
                 }
               ],
               "logo": [
@@ -25610,8 +25595,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 16.5,
-                  "displayValue": "16.5"
+                  "value": 17.0,
+                  "displayValue": "17"
                 },
                 {
                   "name": "losses",
@@ -25620,8 +25605,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 50.0,
-                  "displayValue": "50"
+                  "value": 51.0,
+                  "displayValue": "51"
                 },
                 {
                   "name": "streak",
@@ -25630,8 +25615,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -25640,8 +25625,8 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.31506848,
-                  "displayValue": ".315"
+                  "value": 0.3108108,
+                  "displayValue": ".311"
                 },
                 {
                   "name": "wins",
