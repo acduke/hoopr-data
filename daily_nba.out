@@ -1,34 +1,14 @@
 Already up to date.
 Scraping NBA schedules for year 2023...
-0.6213939785957336 minutes to download 1 years of season schedules.
+0.6256596724192302 minutes to download 1 years of season schedules.
 Scraping NBA PBP for 2023...
-Number of Games: 1097
-485.8429594039917 seconds to download 1097 game play-by-plays.
+Number of Games: 1107
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401468581
+TypeError: game_id = 401468581
+ the JSON object must be str, bytes or bytearray, not NoneType
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401468706
+TypeError: game_id = 401468706
+ the JSON object must be str, bytes or bytearray, not NoneType
+538.5463256835938 seconds to download 1107 game play-by-plays.
 Finished NBA PBP for 2023...
-Already up to date.
-Already up to date.
-Already up to date.
-[main 383565d2820] NBA Play-by-Play and Schedules update (Start: 2023 End: 2023)
- 2216 files changed, 298417 insertions(+), 49232 deletions(-)
- rewrite daily_nba.out (93%)
- create mode 100644 nba/json/final/401469248.json
- create mode 100644 nba/json/final/401469249.json
- create mode 100644 nba/json/final/401469250.json
- create mode 100644 nba/json/final/401469251.json
- create mode 100644 nba/json/raw/401469248.json
- create mode 100644 nba/json/raw/401469249.json
- create mode 100644 nba/json/raw/401469250.json
- create mode 100644 nba/json/raw/401469251.json
- rewrite nba/nba_games_in_data_repo.parquet (62%)
- rewrite nba/nba_games_in_data_repo.qs (80%)
- rewrite nba/player_box/csv/player_box_2023.csv.gz (86%)
- rewrite nba/player_box/parquet/player_box_2023.parquet (92%)
- rewrite nba/player_box/qs/player_box_2023.qs (92%)
- rewrite nba/player_box/rds/player_box_2023.rds (90%)
- rewrite nba/schedules/qs/nba_schedule_2023.qs (86%)
- rewrite nba/schedules/rds/nba_schedule_2023.rds (82%)
- rewrite nba/team_box/csv/team_box_2023.csv.gz (98%)
- rewrite nba/team_box/parquet/team_box_2023.parquet (88%)
- rewrite nba/team_box/qs/team_box_2023.qs (98%)
- rewrite nba/team_box/rds/team_box_2023.rds (95%)
 Already up to date.

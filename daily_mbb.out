@@ -13,3 +13,28 @@ DecodeError: game_id = 401532177
 2109.800679922104 seconds to download 6218 game play-by-plays.
 Finished Scraping year 2023...
 Already up to date.
+1362.367 sec elapsed
+1364.414 sec elapsed
+Already up to date.
+Already up to date.
+[main 05e77318f1d] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 3478 files changed, 259490 insertions(+), 45105 deletions(-)
+ rewrite daily_mbb.out (72%)
+ create mode 100644 mbb/json/final/401522194.json
+ create mode 100644 mbb/json/final/401522195.json
+ create mode 100644 mbb/json/final/401522197.json
+ create mode 100644 mbb/json/final/401522198.json
+ create mode 100644 mbb/json/raw/401522194.json
+ create mode 100644 mbb/json/raw/401522195.json
+ create mode 100644 mbb/json/raw/401522197.json
+ create mode 100644 mbb/json/raw/401522198.json
+ rewrite mbb/mbb_games_in_data_repo.parquet (64%)
+ rewrite mbb/mbb_games_in_data_repo.qs (78%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (70%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (72%)
+ rewrite mbb/schedules/qs/mbb_schedule_2023.qs (89%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (79%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (90%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (80%)
+ rewrite nba_schedule_master.qs (63%)
+Already up to date.
