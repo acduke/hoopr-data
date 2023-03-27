@@ -13,3 +13,24 @@ DecodeError: game_id = 401532177
 1985.0885758399963 seconds to download 6222 game play-by-plays.
 Finished Scraping year 2023...
 Already up to date.
+1294.795 sec elapsed
+1300.428 sec elapsed
+Already up to date.
+Already up to date.
+[main 096bf8f1f7b] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 2226 files changed, 95464 insertions(+), 5073 deletions(-)
+ rewrite daily_mbb.out (85%)
+ create mode 100644 mbb/json/final/401522196.json
+ create mode 100644 mbb/json/final/401522199.json
+ create mode 100644 mbb/json/raw/401522196.json
+ create mode 100644 mbb/json/raw/401522199.json
+ rewrite mbb/mbb_games_in_data_repo.parquet (60%)
+ rewrite mbb/mbb_games_in_data_repo.qs (77%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (67%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (72%)
+ rewrite mbb/schedules/qs/mbb_schedule_2023.qs (74%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (78%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (88%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (82%)
+ rewrite nba_schedule_master.qs (62%)
+Already up to date.
