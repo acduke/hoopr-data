@@ -119,7 +119,7 @@ nba_team_box_games <- function(y){
 
   if(nrow(team_box_g)>1){
     team_box_g <- team_box_g %>%
-      hoopR:::make_hoopR_data("ESPN NBA Team Box Information from hoopR data repository",Sys.time())
+      hoopR:::make_hoopR_data("ESPN NBA Team Boxscores from hoopR data repository",Sys.time())
 
     ifelse(!dir.exists(file.path("nba/team_box")), dir.create(file.path("nba/team_box")), FALSE)
 
@@ -134,6 +134,15 @@ nba_team_box_games <- function(y){
 
     ifelse(!dir.exists(file.path("nba/team_box/parquet")), dir.create(file.path("nba/team_box/parquet")), FALSE)
     arrow::write_parquet(team_box_g, glue::glue("nba/team_box/parquet/team_box_{y}.parquet"))
+
+    sportsdataversedata::sportsdataverse_save(
+      data_frame = team_box_g,
+      file_name =  glue::glue("team_box_{y}"),
+      sportsdataverse_type = "team boxscores data",
+      release_tag = "espn_nba_team_boxscores",
+      file_types = c("rds", "csv", "parquet"),
+      .token = Sys.getenv("GITHUB_PAT")
+    )
   }
   sched <- sched %>%
     dplyr::mutate(
@@ -150,8 +159,10 @@ nba_team_box_games <- function(y){
   }
 
   final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
+
   final_sched <- final_sched %>%
-    hoopR:::make_hoopR_data("ESPN NBA Schedule Information from hoopR data repository",Sys.time())
+    hoopR:::make_hoopR_data("ESPN NBA Schedule from hoopR data repository", Sys.time())
+
   data.table::fwrite(final_sched,paste0("nba/schedules/csv/nba_schedule_",y,".csv"))
   qs::qsave(final_sched,glue::glue('nba/schedules/qs/nba_schedule_{y}.qs'))
   saveRDS(final_sched, glue::glue('nba/schedules/rds/nba_schedule_{y}.rds'))
@@ -180,7 +191,7 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 
 
 sched_g <- sched_g %>%
-  hoopR:::make_hoopR_data("ESPN NBA Schedule Information from hoopR data repository",Sys.time())
+  hoopR:::make_hoopR_data("ESPN NBA Schedule from hoopR data repository",Sys.time())
 
 data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_master.csv')
 data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.csv')

@@ -121,7 +121,7 @@ mbb_team_box_games <- function(y){
   }
   if(nrow(team_box_g)>0){
     team_box_g <- team_box_g %>%
-      hoopR:::make_hoopR_data("ESPN MBB Team Boxscore Information from hoopR data repository",Sys.time())
+      hoopR:::make_hoopR_data("ESPN MBB Team Boxscores from hoopR data repository", Sys.time())
     ifelse(!dir.exists(file.path("mbb/team_box")), dir.create(file.path("mbb/team_box")), FALSE)
     ifelse(!dir.exists(file.path("mbb/team_box/csv")), dir.create(file.path("mbb/team_box/csv")), FALSE)
     data.table::fwrite(team_box_g, file=paste0("mbb/team_box/csv/team_box_",y,".csv.gz"))
@@ -134,6 +134,15 @@ mbb_team_box_games <- function(y){
 
     ifelse(!dir.exists(file.path("mbb/team_box/parquet")), dir.create(file.path("mbb/team_box/parquet")), FALSE)
     arrow::write_parquet(team_box_g, glue::glue("mbb/team_box/parquet/team_box_{y}.parquet"))
+
+    sportsdataversedata::sportsdataverse_save(
+      data_frame = team_box_g,
+      file_name =  glue::glue("team_box_{y}"),
+      sportsdataverse_type = "team boxscores data",
+      release_tag = "espn_mens_college_basketball_team_boxscores",
+      file_types = c("rds", "csv", "parquet"),
+      .token = Sys.getenv("GITHUB_PAT")
+    )
   }
   sched <- arrow::read_parquet(paste0('mbb/schedules/parquet/mbb_schedule_',y,'.parquet'))
   sched <- sched %>%
@@ -153,8 +162,9 @@ mbb_team_box_games <- function(y){
   final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
 
   final_sched <- final_sched %>%
-    hoopR:::make_hoopR_data("MBB Schedule Information from hoopR data repository",Sys.time())
-  data.table::fwrite(final_sched,paste0("mbb/schedules/csv/mbb_schedule_",y,".csv"))
+    hoopR:::make_hoopR_data("ESPN MBB Schedule from hoopR data repository", Sys.time())
+
+  data.table::fwrite(final_sched, paste0("mbb/schedules/csv/mbb_schedule_", y, ".csv"))
   qs::qsave(final_sched,glue::glue('mbb/schedules/qs/mbb_schedule_{y}.qs'))
   saveRDS(final_sched, glue::glue('mbb/schedules/rds/mbb_schedule_{y}.rds'))
   arrow::write_parquet(final_sched, glue::glue('mbb/schedules/parquet/mbb_schedule_{y}.parquet'))
@@ -186,7 +196,7 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 
 
 sched_g <- sched_g %>%
-  hoopR:::make_hoopR_data("MBB Schedule Information from hoopR data repository",Sys.time())
+  hoopR:::make_hoopR_data("ESPN MBB Schedule from hoopR data repository", Sys.time())
 
 # data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.csv')
 data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'mbb/mbb_games_in_data_repo.csv')

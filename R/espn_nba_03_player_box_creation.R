@@ -139,7 +139,7 @@ nba_player_box_games <- function(y){
 
   if(nrow(player_box_g)>1){
     player_box_g <- player_box_g %>%
-      hoopR:::make_hoopR_data("ESPN NBA Player Boxscore Information from hoopR data repository",Sys.time())
+      hoopR:::make_hoopR_data("ESPN NBA Player Boxscores from hoopR data repository",Sys.time())
 
     ifelse(!dir.exists(file.path("nba/player_box")), dir.create(file.path("nba/player_box")), FALSE)
 
@@ -154,6 +154,15 @@ nba_player_box_games <- function(y){
 
     ifelse(!dir.exists(file.path("nba/player_box/parquet")), dir.create(file.path("nba/player_box/parquet")), FALSE)
     arrow::write_parquet(player_box_g, glue::glue("nba/player_box/parquet/player_box_{y}.parquet"))
+
+    sportsdataversedata::sportsdataverse_save(
+      data_frame = player_box_g,
+      file_name =  glue::glue("player_box_{y}"),
+      sportsdataverse_type = "player boxscores data",
+      release_tag = "espn_nba_player_boxscores",
+      file_types = c("rds", "csv", "parquet"),
+      .token = Sys.getenv("GITHUB_PAT")
+    )
   }
   sched <- sched %>%
     dplyr::mutate(
@@ -169,8 +178,19 @@ nba_player_box_games <- function(y){
     sched$player_box <- FALSE
   }
   final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
+
   final_sched <- final_sched %>%
-    hoopR:::make_hoopR_data("ESPN NBA Schedule Information from hoopR data repository",Sys.time())
+    hoopR:::make_hoopR_data("ESPN NBA Schedule from hoopR data repository", Sys.time())
+
+  sportsdataversedata::sportsdataverse_save(
+    data_frame = final_sched,
+    file_name =  glue::glue("nba_schedule_{y}"),
+    sportsdataverse_type = "schedule data",
+    release_tag = "espn_nba_schedules",
+    file_types = c("rds", "csv", "parquet"),
+    .token = Sys.getenv("GITHUB_PAT")
+  )
+
   data.table::fwrite(final_sched,paste0("nba/schedules/csv/nba_schedule_",y,".csv"))
   qs::qsave(final_sched,glue::glue('nba/schedules/qs/nba_schedule_{y}.qs'))
   saveRDS(final_sched, glue::glue('nba/schedules/rds/nba_schedule_{y}.rds'))
@@ -200,7 +220,7 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 
 
 sched_g <- sched_g %>%
-  hoopR:::make_hoopR_data("ESPN NBA Schedule Information from hoopR data repository",Sys.time())
+  hoopR:::make_hoopR_data("ESPN NBA Schedule from hoopR data repository", Sys.time())
 
 data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'nba_schedule_master.csv')
 data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'nba/nba_games_in_data_repo.csv')
