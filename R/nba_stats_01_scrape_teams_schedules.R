@@ -1,25 +1,22 @@
 pacman::p_load("dplyr","purrr","stringr","data.table", "qs","arrow")
 source('R/utils.R')
-years_vec <- hoopR:::most_recent_nba_season()-1
 
-seasons_vec <- unlist(purrr::map(years_vec,function(x){hoopR::year_to_season(x)}))
 
+years_vec <- 1996:(hoopR:::most_recent_nba_season() - 1)
+
+seasons_vec <- purrr::map(years_vec, function(x){ hoopR::year_to_season(x) }) %>% 
+  unlist()
+
+
+proxies_df <- get_proxy_ips()
 
 schedules_df <- purrr::map_dfr(1:length(seasons_vec), function(x){
   season_pull <- seasons_vec[[x]]
 
-  completed_sched <- hoopR::nba_leaguegamefinder(season=seasons_vec[[x]])$LeagueGameFinderResults %>%
-    rejoin_schedules() %>%
+  completed_sched <- hoopR::nba_schedule(season = seasons_vec[[x]], proxy = select_proxy(proxies = proxies_df)) %>%
     dplyr::mutate(
       Season = seasons_vec[[x]])
-  playoff_sched <- data.frame()
-  if(nrow(playoff_sched)>0){
-  playoff_sched <- hoopR::nba_leaguegamefinder(season=seasons_vec[[x]],season_type="Playoffs")$LeagueGameFinderResults %>%
-    rejoin_schedules() %>%
-    dplyr::mutate(
-      Season = seasons_vec[[x]])
-  }
-  completed_sched <- dplyr::bind_rows(completed_sched,playoff_sched)
+  
   data.table::fwrite(completed_sched,paste0('nba_stats/schedules/csv/schedule_',seasons_vec[[x]],'.csv'))
   saveRDS(completed_sched,paste0('nba_stats/schedules/rds/schedule_',seasons_vec[[x]],'.rds'))
   qs::qsave(completed_sched,paste0('nba_stats/schedules/qs/schedule_',seasons_vec[[x]],'.qs'))
