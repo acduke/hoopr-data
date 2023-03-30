@@ -19,23 +19,23 @@ suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc = lib_
 source('R/utils.R')
 
 option_list = list(
-  make_option(c("-s", "--start_year"), 
-              action = "store", 
-              default = hoopR:::most_recent_nba_season(), 
-              type = 'integer', 
+  make_option(c("-s", "--start_year"),
+              action = "store",
+              default = hoopR:::most_recent_nba_season(),
+              type = 'integer',
               help = "Start year of the seasons to process"),
-  make_option(c("-e", "--end_year"), 
-              action = "store", 
-              default = hoopR:::most_recent_nba_season(), 
-              type = 'integer', 
+  make_option(c("-e", "--end_year"),
+              action = "store",
+              default = hoopR:::most_recent_nba_season(),
+              type = 'integer',
               help = "End year of the seasons to process"),
-  make_option(c("-r", "--rescrape"), 
-              action = "store", 
+  make_option(c("-r", "--rescrape"),
+              action = "store",
               default = FALSE,
-              type = "logical", 
+              type = "logical",
               help = "Rescrape the raw JSON files from web api")
 )
-opt = parse_args(OptionParser(option_list = option_list))
+opt <- parse_args(OptionParser(option_list = option_list))
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
 years_vec <- (opt$s - 1):(opt$e - 1)
@@ -44,50 +44,58 @@ rescrape <- opt$r
 proxies_df <- get_proxy_ips()
 
 
-seasons_vec <- unlist(purrr::map(years_vec, function(x){hoopR::year_to_season(x)})) 
+seasons_vec <- unlist(purrr::map(years_vec, function(x){hoopR::year_to_season(x)}))
 
 
-year_json_scrape <- function(season){
-  
-  
-  schedules_df <- data.table::fread(paste0("nba_stats/schedules/csv/schedule_", season, ".csv")) %>% 
+nba_stats_pbp_games <- function(season){
+
+
+  schedules_df <- data.table::fread(paste0("nba_stats/schedules/csv/schedule_", season, ".csv")) %>%
     dplyr::filter(.data$game_status == 3)
-  
+
   ifelse(!dir.exists(file.path("nba_stats/json")), dir.create("nba_stats/json"), FALSE)
   pbp_list <- list.files(path = "nba_stats/json")
+
   if (length(pbp_list) > 0) {
     pbp_list <- as.integer(stringr::str_extract(pbp_list, "\\d+"))
     pbp_list <- gsub('.json', '', pbp_list)
     pbp_list <- lapply(pbp_list, function(x){hoopR:::pad_id(x)})
   }
+
   if (rescrape == FALSE) {
-    schedules_year <- schedules_df %>% 
+    schedules_year <- schedules_df %>%
       dplyr::filter(.data$season == season,
                     !(.data$game_id %in% pbp_list))
   } else {
     schedules_year <- schedules_df
   }
-  
+
   games_list <- unique(schedules_year$game_id)
-  
+
   if (length(games_list) > 0) {
-    cli::cli_progress_step("Downloading {season} NBA Stats pbps ({length(games_list)} games)",
+
+    cli::cli_progress_step(msg = "Downloading {season} NBA Stats pbps ({length(games_list)} games)",
                            msg_done = "Downloaded {season} NBA Stats pbps!")
+
     future::plan("multisession")
-    nba_pbp_stats <- furrr::future_map_dfr(1:length(games_list), function(x){
+    nba_pbp_stats <- furrr::future_map_dfr(1:length(games_list), function(x) {
+
       df <- hoopR::nba_pbp(game_id = games_list[x], proxy = select_proxy(proxies = proxies_df))
       jsonlite::write_json(df, path = paste0("nba_stats/json/", hoopR:::pad_id(games_list[x]), ".json"))
       Sys.sleep(1)
-      # if (x %% 200 == 0) {
-      #   Sys.sleep(60)
-      # }
-    })
+
+    },
+    .options = furrr::furrr_options(seed = TRUE))
   } else {
     print(glue::glue("Skipping {season} season, {length(games_list)} completed games left to scrape"))
   }
-  
+
 }
-cli::cli_progress_message("Downloading {opt$s - 1} to {opt$e -1} seasons of NBA Stats play-by-play data")
+cli::cli_progress_step("Downloading {opt$s - 1}-{substr(opt$s,3,4)} to {opt$e -1}-{substr(opt$e,3,4)} seasons of NBA Stats play-by-play data",
+                       msg_done = "Downloaded {opt$s - 1}-{substr(opt$s,3,4)} to {opt$e -1}-{substr(opt$e,3,4)} seasons of NBA Stats play-by-play data")
+
 all_games <- purrr::map(seasons_vec, function(y){
-  year_json_scrape(y)
+  nba_stats_pbp_games(y)
 })
+
+cli::cli_progress_message("")
