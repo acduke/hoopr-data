@@ -1,45 +1,93 @@
-pacman::p_load("dplyr","purrr","stringr","data.table", "qs","arrow", "progressr")
+rm(list = ls())
+gcol <- gc()
+lib_path <- Sys.getenv("R_LIBS")
+if (!requireNamespace('pacman', quietly = TRUE)) {
+  install.packages('pacman', lib = Sys.getenv("R_LIBS"), repos = 'http://cran.us.r-project.org')
+}
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(stringr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc = lib_path)))
+
 source('R/utils.R')
 
-years_vec <- 2022
-schedules_df <- data.table::fread("nba_stats_schedule_master.csv") %>% 
-  dplyr::filter(.data$game_status == 3)
+option_list = list(
+  make_option(c("-s", "--start_year"), 
+              action = "store", 
+              default = hoopR:::most_recent_nba_season(), 
+              type = 'integer', 
+              help = "Start year of the seasons to process"),
+  make_option(c("-e", "--end_year"), 
+              action = "store", 
+              default = hoopR:::most_recent_nba_season(), 
+              type = 'integer', 
+              help = "End year of the seasons to process"),
+  make_option(c("-r", "--rescrape"), 
+              action = "store", 
+              default = FALSE,
+              type = "logical", 
+              help = "Rescrape the raw JSON files from web api")
+)
+opt = parse_args(OptionParser(option_list = option_list))
+options(stringsAsFactors = FALSE)
+options(scipen = 999)
+years_vec <- (opt$s - 1):(opt$e - 1)
+rescrape <- opt$r
+
+proxies_df <- get_proxy_ips()
+
 
 seasons_vec <- unlist(purrr::map(years_vec, function(x){hoopR::year_to_season(x)})) 
 
-proxies_df <- get_proxy_ips()
-rescrape <- FALSE
-year_json_scrape <- function(seasons_vec){
-  
-  for (i in 1:length(seasons_vec)) {
-    print(seasons_vec[[i]])
-    ifelse(!dir.exists(file.path(paste0("nba_stats/", years_vec[[i]]))), dir.create(paste0("nba_stats/", years_vec[[i]])), FALSE)
-    
-    pbp_list <- as.integer(stringr::str_extract(list.files(path = glue::glue('nba_stats/', years_vec[[i]])), "\\d+"))
-    pbp_list <- gsub('.json', '', pbp_list)
-    
-    if (rescrape == FALSE) {
-      schedules_year <- schedules_df %>% 
-        dplyr::filter(.data$Season == seasons_vec[[i]],
-                      !(.data$game_id %in% pbp_list))
-    }
-    yr <- years_vec[[i]]
-    games_list <- unique(schedules_year$game_id)
-    print(length(games_list))
-    if (length(games_list) > 0) {
-      future::plan("multisession")
-      nba_pbp_stats <- furrr::future_map_dfr(1:length(games_list), function(x){
-        df <- hoopR::nba_pbp(game_id = games_list[x], proxy = select_proxy(proxies = proxies_df))
-        jsonlite::write_json(df, path = paste0("nba_stats/", yr, "/", games_list[x], ".json"))
-        Sys.sleep(1)
-        # if (x %% 200 == 0) {
-        #   Sys.sleep(60)
-        # }
-      })
-    } else {
-      print(glue::glue("Skipping {yr}, {length(games_list)} completed games left to scrape"))
-    }
-  }
-}
 
-year_json_scrape(seasons_vec)
+year_json_scrape <- function(season){
+  
+  
+  schedules_df <- data.table::fread(paste0("nba_stats/schedules/csv/schedule_", season, ".csv")) %>% 
+    dplyr::filter(.data$game_status == 3)
+  
+  ifelse(!dir.exists(file.path("nba_stats/json")), dir.create("nba_stats/json"), FALSE)
+  pbp_list <- list.files(path = "nba_stats/json")
+  if (length(pbp_list) > 0) {
+    pbp_list <- as.integer(stringr::str_extract(pbp_list, "\\d+"))
+    pbp_list <- gsub('.json', '', pbp_list)
+    pbp_list <- lapply(pbp_list, function(x){hoopR:::pad_id(x)})
+  }
+  if (rescrape == FALSE) {
+    schedules_year <- schedules_df %>% 
+      dplyr::filter(.data$season == season,
+                    !(.data$game_id %in% pbp_list))
+  } else {
+    schedules_year <- schedules_df
+  }
+  
+  games_list <- unique(schedules_year$game_id)
+  
+  if (length(games_list) > 0) {
+    cli::cli_progress_step("Downloading {season} NBA Stats pbps ({length(games_list)} games)",
+                           msg_done = "Downloaded {season} NBA Stats pbps!")
+    future::plan("multisession")
+    nba_pbp_stats <- furrr::future_map_dfr(1:length(games_list), function(x){
+      df <- hoopR::nba_pbp(game_id = games_list[x], proxy = select_proxy(proxies = proxies_df))
+      jsonlite::write_json(df, path = paste0("nba_stats/json/", hoopR:::pad_id(games_list[x]), ".json"))
+      Sys.sleep(1)
+      # if (x %% 200 == 0) {
+      #   Sys.sleep(60)
+      # }
+    })
+  } else {
+    print(glue::glue("Skipping {season} season, {length(games_list)} completed games left to scrape"))
+  }
+  
+}
+cli::cli_progress_message("Downloading {opt$s - 1} to {opt$e -1} seasons of NBA Stats play-by-play data")
+all_games <- purrr::map(seasons_vec, function(y){
+  year_json_scrape(y)
+})
