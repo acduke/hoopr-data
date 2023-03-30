@@ -1,4 +1,42 @@
 pacman::p_load("dplyr","purrr","stringr","data.table", "qs","arrow")
+rm(list = ls())
+gcol <- gc()
+lib_path <- Sys.getenv("R_LIBS")
+if (!requireNamespace('pacman', quietly = TRUE)) {
+  install.packages('pacman',lib = Sys.getenv("R_LIBS"), repos = 'http://cran.us.r-project.org')
+}
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc = lib_path)))
+suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc = lib_path)))
+
+option_list = list(
+  make_option(c("-s", "--start_year"), 
+              action = "store", 
+              default = hoopR:::most_recent_nba_season(), 
+              type = 'integer', 
+              help = "Start year of the seasons to process"),
+  make_option(c("-e", "--end_year"), 
+              action = "store", 
+              default = hoopR:::most_recent_nba_season(), 
+              type = 'integer', 
+              help = "End year of the seasons to process"),
+  make_option(c("-r", "--rescrape"), 
+              action = "store", 
+              default = FALSE,
+              type = "logical", 
+              help = "Rescrape the raw JSON files from web api")
+)
+opt = parse_args(OptionParser(option_list = option_list))
+options(stringsAsFactors = FALSE)
+options(scipen = 999)
+years_vec <- opt$s:opt$e
 source('R/utils.R')
 
 

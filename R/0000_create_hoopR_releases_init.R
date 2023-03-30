@@ -67,3 +67,40 @@ piggyback::pb_release_create(
   body = "NBA Play-by-Play Data (from ESPN)",
   .token = Sys.getenv("GITHUB_PAT")
 )
+
+
+
+#--- NBA Stats Data -----
+
+piggyback::pb_release_create(
+  repo = "sportsdataverse/sportsdataverse-data",
+  tag = "nba_stats_schedules",
+  name = "nba_stats_schedules",
+  body = "NBA Schedules Data (from stats.nba.com)",
+  .token = Sys.getenv("GITHUB_PAT")
+)
+
+piggyback::pb_release_create(
+  repo = "sportsdataverse/sportsdataverse-data",
+  tag = "nba_stats_team_boxscores",
+  name = "nba_stats_team_boxscores",
+  body = "NBA Team Boxscores Data (from stats.nba.com)",
+  .token = Sys.getenv("GITHUB_PAT")
+)
+
+piggyback::pb_release_create(
+  repo = "sportsdataverse/sportsdataverse-data",
+  tag = "nba_stats_player_boxscores",
+  name = "nba_stats_player_boxscores",
+  body = "NBA Player Boxscores Data (from stats.nba.com)",
+  .token = Sys.getenv("GITHUB_PAT")
+)
+
+
+piggyback::pb_release_create(
+  repo = "sportsdataverse/sportsdataverse-data",
+  tag = "nba_stats_pbp",
+  name = "nba_stats_pbp",
+  body = "NBA Play-by-Play Data (from stats.nba.com)",
+  .token = Sys.getenv("GITHUB_PAT")
+)
