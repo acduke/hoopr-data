@@ -16378,11 +16378,10 @@
     "video": [
       {
         "source": "espn",
-        "id": 35958678,
-        "dataSourceIdentifier": "0bad556dcb55a",
-        "headline": "Arthur Kaluma shows off early with a sweet spin move",
-        "caption": "Arthur Kaluma makes a smooth spin to fake out his defender and drop in a bucket.",
-        "description": "Arthur Kaluma makes a smooth spin to fake out his defender and drop in a bucket.",
+        "id": 35959664,
+        "headline": "San Diego State tops Creighton after last-second foul",
+        "caption": "Creighton fouls San Diego State's Darrion Trammell, who knocks down the winning free throw.",
+        "description": "Creighton fouls San Diego State's Darrion Trammell, who knocks down the winning free throw.",
         "premium": false,
         "ad": {
           "sport": "ncb",
@@ -16391,22 +16390,22 @@
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Highlight",
-          "trackingName": "**UNPUB 6/30** NCB_One-Play (Arthur Kaluma shows off early with a sweet spin move) 2023/3/26 ESHEET",
-          "trackingId": "dm_230326_Creighton_spin_kaluma"
+          "coverageType": "Final Game Highlight",
+          "trackingName": "**UNPUB 6/30** NCB_One-Play (San Diego State tops Creighton after last-second foul) 2023/3/26 ESHEET",
+          "trackingId": "dm_230326_NCB_San_Diegoe_St_win"
         },
-        "cerebroId": "64209525ca84b7099e131ab2",
-        "lastModified": "2023-03-26T20:51:21Z",
-        "originalPublishDate": "2023-03-26T18:54:25Z",
+        "cerebroId": "6420aff2ca84b7099e13a412",
+        "pccId": "e03f0954-d7da-4e15-98a8-92530d882ae1",
+        "lastModified": "2023-03-26T20:50:50Z",
+        "originalPublishDate": "2023-03-26T20:48:15Z",
         "timeRestrictions": {
-          "embargoDate": "2023-03-26T18:54:25Z",
-          "expirationDate": "2023-06-30T18:54:25Z"
+          "embargoDate": "2023-03-26T20:48:15Z",
+          "expirationDate": "2023-06-30T20:48:15Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
           "devices": [
             "desktop",
-            "ipad",
             "settop",
             "handset",
             "tablet"
@@ -16425,7 +16424,7 @@
           ]
         },
         "syndicatable": false,
-        "duration": 19,
+        "duration": 38,
         "categories": [
           {
             "id": 9576,
@@ -16439,17 +16438,17 @@
               "links": {
                 "api": {
                   "leagues": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball"
                   }
                 },
                 "web": {
                   "leagues": {
-                    "href": "https://www.espn.com/mens-college-basketball/"
+                    "href": "https://www.espn.com/mens-college-basketball/?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "leagues": {
-                    "href": "http://m.espn.com/ncb/"
+                    "href": "http://m.espn.go.com/ncb/?ex_cid=espnapi_internal"
                   }
                 }
               }
@@ -16457,85 +16456,57 @@
             "uid": "s:40~l:41"
           },
           {
-            "id": 509206,
-            "description": "Arthur Kaluma",
-            "type": "athlete",
-            "sportId": 41,
-            "athleteId": 4433599,
-            "athlete": {
-              "id": 4433599,
-              "description": "Arthur Kaluma",
-              "links": {
-                "api": {
-                  "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4433599"
-                  }
-                },
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4433599/arthur-kaluma"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "http://m.espn.com/ncb/playercard?playerId=4433599"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:41~a:4433599"
-          },
-          {
-            "id": 3313,
-            "description": "Creighton Bluejays",
+            "id": 3441,
+            "description": "San Diego State Aztecs",
             "type": "team",
             "sportId": 41,
-            "teamId": 156,
+            "teamId": 21,
             "team": {
-              "id": 156,
-              "description": "Creighton Bluejays",
+              "id": 21,
+              "description": "San Diego State Aztecs",
               "links": {
                 "api": {
                   "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/156"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/21"
                   }
                 },
                 "web": {
                   "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/156/creighton-bluejays"
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/21/san-diego-state-aztecs?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=156"
+                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=21&ex_cid=espnapi_internal"
                   }
                 }
               }
             },
-            "uid": "s:40~l:41~t:156"
+            "uid": "s:40~l:41~t:21"
           }
         ],
+        "gameId": 401522199,
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -16543,66 +16514,65 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35958678"
+              "href": "http://api.espn.com/v1/video/clips/35959664"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/b56f9357-990f-4ba0-b715-74ca02d0f438"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/e03f0954-d7da-4e15-98a8-92530d882ae1"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35958678",
+            "href": "https://www.espn.com/video/clip?id=35959664&ex_cid=espnapi_internal",
             "short": {
-              "href": "https://es.pn/3lJEXFW"
+              "href": "https://www.espn.com/video/clip?id=35959664"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35958678"
+              "href": "https://www.espn.com/video/clip?id=35959664&ex_cid=espnapi_internal"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.mp4"
+              "href": "https://media.video-origin.espn.com/espnvideo/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35958678"
+              "href": "http://m.espn.go.com/general/video/videoAlert?vid=35959664&ex_cid=espnapi_internal"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_NCB_San_Diegoe_St_win/dm_230326_NCB_San_Diegoe_St_win.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b56f9357-990f-4ba0-b715-74ca02d0f438/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35958678",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e03f0954-d7da-4e15-98a8-92530d882ae1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35959664",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b56f9357-990f-4ba0-b715-74ca02d0f438/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35958678"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e03f0954-d7da-4e15-98a8-92530d882ae1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35959664"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b56f9357-990f-4ba0-b715-74ca02d0f438/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35958678"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e03f0954-d7da-4e15-98a8-92530d882ae1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35959664"
             }
           }
-        },
-        "title": "Arthur Kaluma shows off early with a sweet spin move"
+        }
       }
     ],
     "type": "Recap",
@@ -16724,16 +16694,7 @@
     ],
     "headline": "San Diego State muscles past Creighton, makes 1st Final Four",
     "gameId": "401522199",
-    "images": [
-      {
-        "name": "Arthur Kaluma shows off early with a sweet spin move",
-        "width": 576,
-        "alt": "",
-        "caption": "Arthur Kaluma makes a smooth spin to fake out his defender and drop in a bucket.",
-        "url": "https://a.espncdn.com/media/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.jpg",
-        "height": 324
-      }
-    ],
+    "images": [],
     "linkText": "San Diego State muscles past Creighton, makes 1st Final Four",
     "published": "2023-03-26T20:50:04Z",
     "allowComments": true,
@@ -16772,6 +16733,111 @@
     "story": "LOUISVILLE, Ky. -- \u2014 <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4702011/darrion-trammell\">Darrion Trammell</a> had shot enough free throws in practice to believe at least one would fall when it mattered.\n\n\r\n              San Diego State's 5-foot-10 senior guard was fouled by Creighton's <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433629/ryan-nembhard\">Ryan Nembhard</a> when he put up a floater near the free-throw line with 1.2 seconds left in a rugged NCAA Tournament East Region final that was tied at 56-all.\n\n\r\n              Trammell's first free throw clanged off the rim, but he knocked down the second, and that was enough to push the defense-first Aztecs into their first Final Four with a 57-56 victory on Sunday.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433183/lamont-butler\">Lamont Butler</a> scored 18 points and Trammell had 12 for fifth-seeded San Diego State (31-6), which slowed down high-scoring, sixth-seeded Creighton (24-13) and became the first Mountain West Conference team to reach the national semifinals.\n\n\r\n              The experienced Aztecs, in their sixth season under coach Brian Dutcher, will play the surprising East Region champion, ninth-seeded Florida Atlantic, on Saturday in Houston for a spot in the national title game.\n\n\r\n              \u201cHere we are,\u201d said Dutcher, a longtime assistant to his predecessor, Steve Fisher. \"We're making the next step and it's something we've always talked about. I'm sure there were people that doubted we could do it, but we never doubted for a minute.\n\n\r\n              \u201cNot to say it's easy to get there or that we would ever get there. But we're there now, and we're going to go and try to win the thing.\u201d\n\n\r\n              In the final seconds, Trammell dribbled from the perimeter and elevated for the potential winning shot. <a href=\"https://twitter.com/MarchMadnessMBB/status/1640088979549880321\">A chasing Nembhard got his hand on Trammell's hip</a> and was whistled for the foul, sending Trammell to the line for the first time in the game.\n\n\r\n              \u201cI feel like I\u2019ve shot probably a thousand free throws in the last week,\" said Trammell, who was named the region's most outstanding player. \"And then today, I feel like I put in the work to be able to step up and have confidence that I\u2019m going to make \u2019em.\u201d\n\n\r\n              Make one, anyway.\n\n\r\n              Creighton couldn't get a shot off on its final, desperation play. <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4593841/baylor-scheierman\">Baylor Scheierman</a> threw the ensuing inbound pass the length of the floor. San Diego State\u2019s <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397368/aguek-arop\">Aguek Arop</a> and Creighton's <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4433599/arthur-kaluma\">Arthur Kaluma</a> both jumped for it and the ball deflected out of bounds. Officials reviewed the play and determined that time had expired, and the celebration was on for the Aztecs.\n\n\r\n              \u201cI wasn\u2019t given an explanation other than there was no time on the clock,\u201d Creighton coach Greg McDermott said. \u201cThey made no call on the floor but officiating is part of the game and we\u2019re not gonna go there.\u201d\n\n\r\n              Scheierman had tied the game at 56-all when he stole an inbounds pass and converted a layup with 34 seconds remaining.\n\n\r\n              <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4576060/ryan-kalkbrenner\">Ryan Kalkbrenner</a> scored 17 points and Scheierman and Kaluma had 12 apiece for the Bluejays, who went 2 of 17 from 3-point range.\n\n\r\n              The Aztecs, who got this far thanks to defense and physical play, held the Bluejays to 23 second-half points on 28% shooting as they won for the 14th time in 15 games. Creighton shot 40% overall.\n\n\r\n              San Diego State shot 38% but got clutch baskets from <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4397371/nathan-mensah\">Nathan Mensah</a>, whose jumper gave the Aztecs a 56-54 lead with 1:37 left, and Arop, who made two straight shots before that for a 54-50 advantage with 3:03 remaining.\n\n\r\n              \u201cI\u2019ve done that a thousand times throughout the season, so it was just another shot for me,\u201d Arop, who had six points, said of his go-ahead jumper. \"Obviously, there was a lot more weight to it, but I wasn\u2019t thinking like that. I was just thinking, staying in rhythm, getting the shot up and putting my team up front.\u201d\n\n\r\n              Creighton, which beat San Diego State in overtime in the first round of last year's NCAA Tournament, fell just short of joining Big East rival UConn in the Final Four.\n\n\r\n              The teams didn't appear to share any hard feelings from last year's meeting. They shared a round-trip flight to Hawaii last fall for the Maui Invitational, and there were no dustups during a tight, physical game in which no team led by more than eight points.\n\n\r\n              REGION HONORS\n\n\r\n              Trammell was part of an all-region team that included Butler, Creighton's Kalkbrenner and Scheierman and Princeton's Tasan Evbuomwan.\n\n\r\n              PERIMETER DEFENSE\n\n\r\n              Before muscling past Creighton, San Diego State crafted a similar defensive masterwork against Alabama, the tournament's top overall seed. The Aztecs held Alabama and Creighton to a combined 5 of 44 (11.4%) from 3-point range, the best 3-point percentage defense ever in a regional weekend for a team that advanced to the Final Four.\n\n\r\n              DIVIDED LOYALTIES\n\n\r\n              Kaluma played against his brother, San Diego State\u2019s <a href=\"http://www.espn.com/mens-college-basketball/player/_/id/4278704/adam-seiko\">Adam Seiko</a>. Their parents sat a few rows up at midcourt, sitting quietly before joining Seiko to celebrate.\n\n\r\n              BIG PICTURE\n\n\r\n              Creighton\u2019s offense started well enough as the Bluejays built a 33-28 halftime lead and extended their advantage to seven in the second half. But Creighton didn't make a single 3-pointer after halftime.\n\n\r\n              San Diego State proved again that defense matters, especially since the Aztecs also scuffled for points. Their experience and depth showed as Mensah and Arop, who averaged just 6.1 and 4.5 points per game respectively, converted the last three baskets. They and Creighton each grabbed 37 rebounds, but the Aztecs' 13-9 edge offensively proved critical.\n\n\r\n              ------\n\n\r\n              AP March Madness coverage: <a href=\"https://apnews.com/hub/march-madness\">https://apnews.com/hub/march-madness</a> and bracket: <a href=\"https://apnews.com/hub/ncaa-mens-bracket\">https://apnews.com/hub/ncaa-mens-bracket</a> and <a href=\"https://apnews.com/hub/ap-top-25-college-basketball-poll\">https://apnews.com/hub/ap-top-25-college-basketball-poll</a> and <a href=\"https://twitter.com/AP--Top25\">https://twitter.com/AP--Top25</a>"
   },
   "videos": [
+    {
+      "source": "espn",
+      "id": 35958678,
+      "headline": "Arthur Kaluma shows off early with a sweet spin move",
+      "description": "Arthur Kaluma makes a smooth spin to fake out his defender and drop in a bucket.",
+      "ad": {
+        "sport": "ncb",
+        "bundle": "no_show"
+      },
+      "tracking": {
+        "sportName": "ncb",
+        "leagueName": "No League",
+        "coverageType": "Highlight",
+        "trackingName": "**UNPUB 6/30** NCB_One-Play (Arthur Kaluma shows off early with a sweet spin move) 2023/3/26 ESHEET",
+        "trackingId": "dm_230326_Creighton_spin_kaluma"
+      },
+      "cerebroId": "64209525ca84b7099e131ab2",
+      "lastModified": "2023-03-26T20:51:21Z",
+      "originalPublishDate": "2023-03-26T18:54:25Z",
+      "timeRestrictions": {
+        "embargoDate": "2023-03-26T18:54:25Z",
+        "expirationDate": "2023-06-30T18:54:25Z"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "desktop",
+          "settop",
+          "handset",
+          "tablet"
+        ]
+      },
+      "geoRestrictions": {
+        "type": "whitelist",
+        "countries": [
+          "US",
+          "AS",
+          "GU",
+          "MP",
+          "PR",
+          "VI",
+          "UM"
+        ]
+      },
+      "duration": 19,
+      "thumbnail": "https://a.espncdn.com/media/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.jpg",
+      "links": {
+        "api": {
+          "self": {
+            "href": "http://api.espn.com/v1/video/clips/35958678"
+          },
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/b56f9357-990f-4ba0-b715-74ca02d0f438"
+          }
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=35958678&ex_cid=espnapi_internal",
+          "short": {
+            "href": "https://www.espn.com/video/clip?id=35958678"
+          },
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=35958678&ex_cid=espnapi_internal"
+          }
+        },
+        "source": {
+          "mezzanine": {
+            "href": "https://media.video-origin.espn.com/espnvideo/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.mp4"
+          },
+          "flash": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.smil"
+          },
+          "hds": {
+            "href": "https://hds.video-cdn.espn.com/z/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_rel.smil/manifest.f4m"
+          },
+          "HLS": {
+            "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma/playlist.m3u8",
+            "HD": {
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma/playlist.m3u8"
+            }
+          },
+          "HD": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_720p30_2896k.mp4"
+          },
+          "full": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_360p30_1464k.mp4"
+          },
+          "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma_360p30_1464k.mp4"
+        },
+        "mobile": {
+          "alert": {
+            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35958678&ex_cid=espnapi_internal"
+          },
+          "source": {
+            "href": "https://media.video-cdn.espn.com/motion/2023/0326/dm_230326_Creighton_spin_kaluma/dm_230326_Creighton_spin_kaluma.mp4"
+          },
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b56f9357-990f-4ba0-b715-74ca02d0f438/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35958678",
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b56f9357-990f-4ba0-b715-74ca02d0f438/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35958678"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/b56f9357-990f-4ba0-b715-74ca02d0f438/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35958678"
+          }
+        }
+      }
+    },
     {
       "source": "espn",
       "id": 35959168,

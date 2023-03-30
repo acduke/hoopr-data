@@ -1,36 +1,18 @@
 Already up to date.
 Scraping MBB schedules for year 2023...
-1.3047537565231324 minutes to download 1 years of season schedules.
+1.208478899796804 minutes to download 1 years of season schedules.
 Scraping year 2023...
 Number of Games: 6224
 KeyError: game_id = 401488802
  'abbreviation'
+Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401483005
+TypeError: game_id = 401483005
+ the JSON object must be str, bytes or bytearray, not NoneType
 Download error: http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401532177
 TypeError: game_id = 401532177
  the JSON object must be str, bytes or bytearray, not NoneType
 DecodeError: game_id = 401532177
  Expecting value: line 1 column 1 (char 0)
-1777.1775298118591 seconds to download 6224 game play-by-plays.
+1674.0247735977173 seconds to download 6224 game play-by-plays.
 Finished Scraping year 2023...
-Already up to date.
-1162.585 sec elapsed
-1195.744 sec elapsed
-Already up to date.
-Already up to date.
-[main 694a751a742] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
- 1184 files changed, 105167 insertions(+), 3023 deletions(-)
- rewrite daily_mbb.out (92%)
- create mode 100644 mbb/json/final/401526927.json
- create mode 100644 mbb/json/final/401526930.json
- create mode 100644 mbb/json/raw/401526927.json
- create mode 100644 mbb/json/raw/401526930.json
- rewrite mbb/mbb_games_in_data_repo.parquet (62%)
- rewrite mbb/mbb_games_in_data_repo.qs (78%)
- rewrite mbb/player_box/parquet/player_box_2023.parquet (68%)
- rewrite mbb/player_box/qs/player_box_2023.qs (72%)
- rewrite mbb/schedules/qs/mbb_schedule_2023.qs (66%)
- rewrite mbb/schedules/rds/mbb_schedule_2023.rds (73%)
- rewrite mbb/team_box/qs/team_box_2023.qs (86%)
- rewrite mbb/team_box/rds/team_box_2023.rds (77%)
- rewrite nba_schedule_master.qs (62%)
 Already up to date.
