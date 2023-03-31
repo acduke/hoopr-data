@@ -81,6 +81,9 @@ nba_stats_pbp_games <- function(season){
     nba_pbp_stats <- furrr::future_map_dfr(1:length(games_list), function(x) {
 
       df <- hoopR::nba_pbp(game_id = hoopR:::pad_id(games_list[x]), proxy = select_proxy(proxies = proxies_df))
+      df <-  df %>%
+        dplyr::mutate(
+          season = season)
       jsonlite::write_json(df, path = paste0("nba_stats/json/", hoopR:::pad_id(games_list[x]), ".json"))
       Sys.sleep(1)
 
