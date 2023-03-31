@@ -7,8 +7,9 @@ do
         r) RESCRAPE=${OPTARG};;
     esac
 done
-for i in {$START_YEAR..$END_YEAR}
+for i in $(seq "${START_YEAR}" "${END_YEAR}")
 do
+    echo "$i"
     git pull
     git add .
     Rscript R/nba_stats_01_scrape_teams_schedules.R -s $i -e $i -r $RESCRAPE
