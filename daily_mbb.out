@@ -2693,3 +2693,40 @@ DecodeError: game_id = 401532177
 1593.4936881065369 seconds to download 6225 game play-by-plays.
 Finished Scraping year 2023...
 Already up to date.
+
+
+
+
+
+1120.517 sec elapsed
+
+
+
+
+
+1115.547 sec elapsed
+
+
+
+
+
+
+
+
+
+
+Already up to date.
+Already up to date.
+[main 8a29f061466] MBB Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 740 files changed, 50509 insertions(+), 4310 deletions(-)
+ create mode 100644 mbb/json/final/401526932.json
+ create mode 100644 mbb/json/raw/401526932.json
+ rewrite mbb/mbb_games_in_data_repo.qs (77%)
+ rewrite mbb/player_box/parquet/player_box_2023.parquet (64%)
+ rewrite mbb/player_box/qs/player_box_2023.qs (71%)
+ rewrite mbb/schedules/rds/mbb_schedule_2023.rds (79%)
+ rewrite mbb/team_box/csv/team_box_2023.csv.gz (80%)
+ rewrite mbb/team_box/parquet/team_box_2023.parquet (77%)
+ rewrite mbb/team_box/qs/team_box_2023.qs (90%)
+ rewrite mbb/team_box/rds/team_box_2023.rds (78%)
+Already up to date.
