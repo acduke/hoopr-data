@@ -4,7 +4,7 @@ lib_path <- Sys.getenv("R_LIBS")
 if (!requireNamespace('pacman', quietly = TRUE)) {
   install.packages('pacman', lib = Sys.getenv("R_LIBS"), repos = 'http://cran.us.r-project.org')
 }
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc = lib_path)))
+suppressWarnings(suppressMessages(library(dplyr, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc = lib_path)))
@@ -80,7 +80,10 @@ nba_stats_pbp_games <- function(season){
     future::plan("multisession")
     nba_pbp_stats <- furrr::future_map_dfr(1:length(games_list), function(x) {
 
-      df <- hoopR::nba_pbp(game_id = games_list[x], proxy = select_proxy(proxies = proxies_df))
+      df <- hoopR::nba_pbp(game_id = hoopR:::pad_id(games_list[x]), proxy = select_proxy(proxies = proxies_df))
+      df <-  df %>%
+        dplyr::mutate(
+          season = season)
       jsonlite::write_json(df, path = paste0("nba_stats/json/", hoopR:::pad_id(games_list[x]), ".json"))
       Sys.sleep(1)
 

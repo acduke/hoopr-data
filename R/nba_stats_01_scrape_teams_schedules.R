@@ -4,7 +4,7 @@ lib_path <- Sys.getenv("R_LIBS")
 if (!requireNamespace('pacman', quietly = TRUE)) {
   install.packages('pacman', lib = Sys.getenv("R_LIBS"), repos = 'http://cran.us.r-project.org')
 }
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc = lib_path)))
+suppressWarnings(suppressMessages(library(dplyr, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc = lib_path)))

@@ -7,13 +7,17 @@ do
         r) RESCRAPE=${OPTARG};;
     esac
 done
-git pull
-git add .
-Rscript R/nba_stats_01_scrape_teams_schedules.R -s $START_YEAR -e $END_YEAR -r $RESCRAPE
-Rscript R/nba_stats_02_scrape_pbp.R -s $START_YEAR -e $END_YEAR -r $RESCRAPE
-git pull
-git add nba_stats/* nba_stats_schedule_master.csv nba_stats_schedule_master.parquet
-git pull
-git commit -m "NBA Stats API Play-by-Play and Schedules update (Start: $START_YEAR End: $END_YEAR)" || echo "No changes to commit"
-git pull
-git push
+for i in $(seq "${START_YEAR}" "${END_YEAR}")
+do
+    echo "$i"
+    git pull
+    git add .
+    Rscript R/nba_stats_01_scrape_teams_schedules.R -s $i -e $i -r $RESCRAPE
+    Rscript R/nba_stats_02_scrape_pbp.R -s $i -e $i -r $RESCRAPE
+    git pull
+    git add nba_stats/* nba_stats_schedule_master.csv nba_stats_schedule_master.parquet
+    git pull
+    git commit -m "NBA Stats Play-by-Play and Schedules update (Start: $i End: $i)" || echo "No changes to commit"
+    git pull
+    git push
+done
