@@ -185,8 +185,8 @@ nba_stats_pbp_season <- function(season){
   }
 }
 
-cli::cli_progress_step(msg = "Downloading {opt$s - 1}-{substr(opt$s,3,4)} to {opt$e -1}-{substr(opt$e,3,4)} seasons of NBA Stats play-by-play data",
-                       msg_done = "Downloaded {opt$s - 1}-{substr(opt$s,3,4)} to {opt$e -1}-{substr(opt$e,3,4)} seasons of NBA Stats play-by-play data")
+# cli::cli_progress_step(msg = "Downloading {opt$s - 1}-{substr(opt$s,3,4)} to {opt$e -1}-{substr(opt$e,3,4)} seasons of NBA Stats play-by-play data",
+#                        msg_done = "Downloaded {opt$s - 1}-{substr(opt$s,3,4)} to {opt$e -1}-{substr(opt$e,3,4)} seasons of NBA Stats play-by-play data")
 
 all_games <- purrr::map(seasons_vec, function(y){
   nba_stats_pbp_season(y)

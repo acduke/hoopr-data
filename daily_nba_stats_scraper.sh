@@ -17,7 +17,7 @@ do
     git pull
     git add nba_stats/* >> /dev/null 
     git pull
-    git commit -m "NBA Stats Play-by-Play and Schedules update (Start: $i End: $i)" || echo "No changes to commit" >> /dev/null 
+    git commit -m "NBA Stats Play-by-Play and Schedules update (Start: $i End: $i)"  >> /dev/null || echo "No changes to commit"
     git pull
     git push >> /dev/null 
 done
