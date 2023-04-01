@@ -46,10 +46,9 @@ proxies_df <- get_proxy_ips()
 seasons_vec <- purrr::map(years_vec, function(x){ hoopR::year_to_season(x) }) %>% 
   unlist()
 
-# future::plan("sequential")
 
 schedules_df <- purrr::map_dfr(1:length(seasons_vec), function(x){
-  cli::cli_progress_step("Downloading {seasons_vec[[x]]} NBA Stats schedule",
+  cli::cli_progress_step(msg = "Downloading {seasons_vec[[x]]} NBA Stats schedule",
                          msg_done = "Downloaded {seasons_vec[[x]]} NBA Stats schedule!")
   
   completed_sched <- hoopR::nba_schedule(season = seasons_vec[[x]], proxy = select_proxy(proxies = proxies_df)) %>%
@@ -72,23 +71,5 @@ schedules_df <- purrr::map_dfr(1:length(seasons_vec), function(x){
   return(completed_sched)
 })
 
-
-cli::cli_progress_step("Compiling NBA Stats master schedule",
-                       msg_done = "NBA Stats master schedule compiled and written to disk")
-
-sched_list <- list.files(path = glue::glue('nba_stats/schedules/rds'))
-master_schedules_df <- purrr::map_dfr(sched_list, function(x){
-  
-  sched <- readRDS(paste0('nba_stats/schedules/rds/', x))
-  return(sched)
-})
-
-master_schedules_df <- master_schedules_df %>%
-  hoopR:::make_hoopR_data("NBA Stats Schedule from hoopR data repository", Sys.time())
-
-data.table::fwrite(master_schedules_df, 'nba_stats_schedule_master.csv')
-saveRDS(master_schedules_df, 'nba_stats_schedule_master.rds')
-qs::qsave(master_schedules_df, 'nba_stats_schedule_master.qs')
-arrow::write_parquet(master_schedules_df, 'nba_stats_schedule_master.parquet')
 
 cli::cli_progress_message("")

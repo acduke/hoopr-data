@@ -16,10 +16,18 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc=lib_path))
 suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc=lib_path)))
 
 option_list = list(
-  make_option(c("-s", "--start_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="Start year of the seasons to process"),
-  make_option(c("-e", "--end_year"), action="store", default=hoopR:::most_recent_nba_season(), type='integer', help="End year of the seasons to process")
+  make_option(c("-s", "--start_year"),
+              action = "store",
+              default = hoopR:::most_recent_nba_season(),
+              type = 'integer',
+              help = "Start year of the seasons to process"),
+  make_option(c("-e", "--end_year"),
+              action = "store",
+              default = hoopR:::most_recent_nba_season(),
+              type = 'integer',
+              help = "End year of the seasons to process")
 )
-opt = parse_args(OptionParser(option_list=option_list))
+opt = parse_args(OptionParser(option_list = option_list))
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
 years_vec <- opt$s:opt$e
@@ -36,32 +44,32 @@ nba_pbp_games <- function(y){
     dplyr::pull("game_id")
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
     pbp <- jsonlite::fromJSON(glue::glue('nba/json/final/{x}.json'))$plays
-    if (length(pbp)>1) {
+    if (length(pbp) > 1) {
       pbp$game_id <- x
     }
     return(pbp)
   })
-  if (nrow(pbp_g)>0 && length(pbp_g)>1) {
+  if (nrow(pbp_g) > 0 && length(pbp_g) > 1) {
     pbp_g <- pbp_g %>% janitor::clean_names()
     pbp_g <- pbp_g %>%
       dplyr::mutate(
         game_id = as.integer(.data$game_id)
       )
   }
-  if (!('coordinate_x' %in% colnames(pbp_g)) && length(pbp_g)>1) {
+  if (!('coordinate_x' %in% colnames(pbp_g)) && length(pbp_g) > 1) {
     pbp_g <- pbp_g %>%
       dplyr::mutate(
         coordinate_x = NA_real_,
         coordinate_y = NA_real_
       )
   }
-  if (!('type_abbreviation' %in% colnames(pbp_g)) && length(pbp_g)>1) {
+  if (!('type_abbreviation' %in% colnames(pbp_g)) && length(pbp_g) > 1) {
     pbp_g <- pbp_g %>%
       dplyr::mutate(
         type_abbreviation = NA_character_
       )
   }
-  if (nrow(pbp_g)>1){
+  if (nrow(pbp_g) > 1) {
     pbp_g <- pbp_g %>%
       hoopR:::make_hoopR_data("ESPN NBA Play-by-Play from hoopR data repository",Sys.time())
 
@@ -93,7 +101,7 @@ nba_pbp_games <- function(y){
       game_id = as.integer(.data$id),
       status_display_clock = as.character(.data$status_display_clock)
     )
-  if (nrow(pbp_g)>0) {
+  if (nrow(pbp_g) > 0) {
     sched <- sched %>%
       dplyr::mutate(
         PBP = ifelse(.data$game_id %in% unique(pbp_g$game_id), TRUE, FALSE)

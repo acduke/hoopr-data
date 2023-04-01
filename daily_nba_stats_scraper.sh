@@ -15,9 +15,9 @@ do
     Rscript R/nba_stats_01_scrape_teams_schedules.R -s $i -e $i -r $RESCRAPE
     Rscript R/nba_stats_02_scrape_pbp.R -s $i -e $i -r $RESCRAPE
     git pull
-    git add nba_stats/* nba_stats_schedule_master.csv nba_stats_schedule_master.parquet
+    git add nba_stats/* nba_stats_schedule_master.csv nba_stats_schedule_master.parquet >> /dev/null 
     git pull
-    git commit -m "NBA Stats Play-by-Play and Schedules update (Start: $i End: $i)" || echo "No changes to commit"
+    git commit -m "NBA Stats Play-by-Play and Schedules update (Start: $i End: $i)" || echo "No changes to commit" >> /dev/null 
     git pull
-    git push
+    git push >> /dev/null 
 done
