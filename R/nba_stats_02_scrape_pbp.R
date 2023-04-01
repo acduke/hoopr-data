@@ -41,15 +41,12 @@ options(list(stringsAsFactors = FALSE, scipen = 999))
 years_vec <- (opt$s - 1):(opt$e - 1)
 rescrape <- opt$r
 
-years_vec <- 1996
-rescrape <- FALSE
-
 proxies_df <- get_proxy_ips()
 
 seasons_vec <- unlist(purrr::map(years_vec, function(x){hoopR::year_to_season(x)}))
 
 nba_stats_pbp_season <- function(season){
-  season <- '1996-97'
+  
   schedules_df <- readRDS(paste0("nba_stats/schedules/rds/schedule_", season, ".rds"))
 
   ifelse(!dir.exists(file.path("nba_stats/json")), dir.create("nba_stats/json"), FALSE)
