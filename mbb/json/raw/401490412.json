@@ -19256,43 +19256,73 @@
     "video": [
       {
         "source": "espn",
-        "id": 35772614,
-        "dataSourceIdentifier": "02f39bb70ab4c",
-        "headline": "Jaime Jazquez puts up Wooden-worthy performance in win over ASU",
-        "caption": "UCLA's Jaime Jaquez Jr. elevated his Wooden Award candidacy with a 26-point performance vs. Arizona State.",
-        "description": "UCLA's Jaime Jaquez Jr. elevated his Wooden Award candidacy with a 26-point performance vs. Arizona State.",
+        "id": 35771699,
+        "headline": "Jaime Jaquez Jr. gets the tough transition slam",
+        "caption": "Tyger Campbell sends a transition pass to Jaime Jaquez Jr., who finishes hard at the rim for UCLA.",
+        "description": "Tyger Campbell sends a transition pass to Jaime Jaquez Jr., who finishes hard at the rim for UCLA.",
         "premium": false,
         "ad": {
           "sport": "ncb",
-          "bundle": "ncbwoodenwatch"
+          "bundle": "ncb_instant_replay"
         },
         "tracking": {
           "sportName": "ncb",
           "leagueName": "No League",
-          "coverageType": "Analysis",
-          "trackingName": "COM_NCB Analysis (Jaime Jazquez puts up Wooden-worthy performance in win over ASU) 2023/3/2 ESHEET",
-          "trackingId": "dm_230302_ncb_woodenwatch_jaquez"
+          "coverageType": "Final Game Highlight",
+          "trackingName": "NCB_One-Play (Jaime Jaquez Jr. gets the tough transition slam) 2023/03/03 ESHEET",
+          "trackingId": "dm_20230303_NCB_jaime_jaquez_jr_slams_it_home_with_authority"
         },
-        "cerebroId": "64017bf9ca84b7099ec73cdf",
-        "lastModified": "2023-03-03T04:48:46Z",
-        "originalPublishDate": "2023-03-03T04:42:40Z",
+        "cerebroId": "64015b2fbe6ab34284d1cbcd",
+        "pccId": "2355c816-391d-4416-9c49-583a9f70481d",
+        "contributingPartner": "wsc",
+        "contributingSystem": "wsc",
+        "lastModified": "2023-03-03T04:10:51Z",
+        "originalPublishDate": "2023-03-03T02:27:57Z",
         "timeRestrictions": {
-          "embargoDate": "2023-03-03T04:42:40Z",
-          "expirationDate": "2023-03-31T16:00:00Z"
+          "embargoDate": "2023-03-03T02:27:57Z",
+          "expirationDate": "2038-01-01T04:59:59Z"
         },
         "deviceRestrictions": {
           "type": "whitelist",
           "devices": [
             "desktop",
-            "ipad",
             "settop",
             "handset",
             "tablet"
           ]
         },
         "syndicatable": true,
-        "duration": 39,
+        "duration": 18,
         "categories": [
+          {
+            "id": 3346,
+            "description": "UCLA Bruins",
+            "type": "team",
+            "sportId": 41,
+            "teamId": 26,
+            "team": {
+              "id": 26,
+              "description": "UCLA Bruins",
+              "links": {
+                "api": {
+                  "teams": {
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/teams/26"
+                  }
+                },
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/26/ucla-bruins?ex_cid=espnapi_internal"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "http://m.espn.go.com/ncb/clubhouse?teamId=26&ex_cid=espnapi_internal"
+                  }
+                }
+              }
+            },
+            "uid": "s:40~l:41~t:26"
+          },
           {
             "id": 9576,
             "description": "Men's College Basketball",
@@ -19305,17 +19335,17 @@
               "links": {
                 "api": {
                   "leagues": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball"
                   }
                 },
                 "web": {
                   "leagues": {
-                    "href": "https://www.espn.com/mens-college-basketball/"
+                    "href": "https://www.espn.com/mens-college-basketball/?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "leagues": {
-                    "href": "http://m.espn.com/ncb/"
+                    "href": "http://m.espn.go.com/ncb/?ex_cid=espnapi_internal"
                   }
                 }
               }
@@ -19334,74 +19364,45 @@
               "links": {
                 "api": {
                   "athletes": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432848"
+                    "href": "http://api.espn.com/v1/sports/basketball/mens-college-basketball/athletes/4432848"
                   }
                 },
                 "web": {
                   "athletes": {
-                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432848/jaime-jaquez-jr."
+                    "href": "https://www.espn.com/mens-college-basketball/player/_/id/4432848/jaime-jaquez-jr.?ex_cid=espnapi_internal"
                   }
                 },
                 "mobile": {
                   "athletes": {
-                    "href": "http://m.espn.com/ncb/playercard?playerId=4432848"
+                    "href": "http://m.espn.go.com/ncb/playercard?playerId=4432848&ex_cid=espnapi_internal"
                   }
                 }
               }
-            },
-            "uid": "s:40~l:41~a:4432848"
-          },
-          {
-            "id": 3346,
-            "description": "UCLA Bruins",
-            "type": "team",
-            "sportId": 41,
-            "teamId": 26,
-            "team": {
-              "id": 26,
-              "description": "UCLA Bruins",
-              "links": {
-                "api": {
-                  "teams": {
-                    "href": "http://now.core.api.espn.com/v1/sports/basketball/mens-college-basketball/teams/26"
-                  }
-                },
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/mens-college-basketball/team/_/id/26/ucla-bruins"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "http://m.espn.com/ncb/clubhouse?teamId=26"
-                  }
-                }
-              }
-            },
-            "uid": "s:40~l:41~t:26"
+            }
           }
         ],
+        "gameId": 401490412,
         "keywords": [],
         "posterImages": {
           "default": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez_default.jpg",
+            "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125_default.jpg",
             "width": 576,
             "height": 324
           },
           "full": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125.jpg"
           },
           "wide": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez_5x2.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125_5x2.jpg"
           },
           "square": {
-            "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez_1x1.jpg"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125_1x1.jpg"
           }
         },
         "images": [
           {
             "name": "Poster Image",
-            "url": "https://media.video-cdn.espn.com/images/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez.jpg",
+            "url": "https://media.video-cdn.espn.com/images/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125.jpg",
             "alt": "",
             "caption": "",
             "credit": "",
@@ -19409,66 +19410,65 @@
             "height": 324
           }
         ],
-        "thumbnail": "https://a.espncdn.com/media/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez.jpg",
+        "thumbnail": "https://a.espncdn.com/media/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125.jpg",
         "links": {
           "api": {
             "self": {
-              "href": "http://api-app.espn.com/v1/video/clips/35772614"
+              "href": "http://api.espn.com/v1/video/clips/35771699"
             },
             "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/51689b32-b0f1-4c69-b6c0-2f587839889d"
+              "href": "https://artwork.api.espn.com/artwork/collections/media/2355c816-391d-4416-9c49-583a9f70481d"
             }
           },
           "web": {
-            "href": "http://espn.com/video/clip?id=35772614",
+            "href": "https://www.espn.com/video/clip?id=35771699&ex_cid=espnapi_internal",
             "short": {
-              "href": "https://es.pn/3J89PIU"
+              "href": "https://www.espn.com/video/clip?id=35771699"
             },
             "self": {
-              "href": "http://espn.com/video/clip?id=35772614"
+              "href": "https://www.espn.com/video/clip?id=35771699&ex_cid=espnapi_internal"
             }
           },
           "source": {
             "mezzanine": {
-              "href": "http://media.video-origin.espn.com/espnvideo/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez.mp4"
+              "href": "https://media.video-origin.espn.com/espnvideo/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125.mp4"
             },
             "flash": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez.smil"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125.smil"
             },
             "hds": {
-              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez_rel.smil/manifest.f4m"
+              "href": "https://hds.video-cdn.espn.com/z/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125_rel.smil/manifest.f4m"
             },
             "HLS": {
-              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez/playlist.m3u8",
+              "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125/playlist.m3u8",
               "HD": {
-                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez/playlist.m3u8"
+                "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125/playlist.m3u8"
               }
             },
             "HD": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez_720p30_2896k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125_720p30_2896k.mp4"
             },
             "full": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez_360p30_1464k.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125_360p30_1464k.mp4"
             },
-            "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez_360p30_1464k.mp4"
+            "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125_360p30_1464k.mp4"
           },
           "mobile": {
             "alert": {
-              "href": "http://m.espn.com/general/video/videoAlert?vid=35772614"
+              "href": "http://m.espn.go.com/general/video/videoAlert?vid=35771699&ex_cid=espnapi_internal"
             },
             "source": {
-              "href": "https://media.video-cdn.espn.com/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez.mp4"
+              "href": "https://media.video-cdn.espn.com/motion/2023/0302/ss_20230302_212801483_2207125/ss_20230302_212801483_2207125.mp4"
             },
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51689b32-b0f1-4c69-b6c0-2f587839889d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35772614",
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2355c816-391d-4416-9c49-583a9f70481d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35771699",
             "streaming": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51689b32-b0f1-4c69-b6c0-2f587839889d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35772614"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2355c816-391d-4416-9c49-583a9f70481d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35771699"
             },
             "progressiveDownload": {
-              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/51689b32-b0f1-4c69-b6c0-2f587839889d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35772614"
+              "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2355c816-391d-4416-9c49-583a9f70481d/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=35771699"
             }
           }
-        },
-        "title": "Jaime Jazquez puts up Wooden-worthy performance in win over ASU"
+        }
       }
     ],
     "type": "Recap",
@@ -19590,16 +19590,7 @@
     ],
     "headline": "Jaquez Jr. scores 26 as No. 4 UCLA beats Arizona State 79-61",
     "gameId": "401490412",
-    "images": [
-      {
-        "name": "Jaime Jazquez puts up Wooden-worthy performance in win over ASU",
-        "width": 576,
-        "alt": "",
-        "caption": "UCLA's Jaime Jaquez Jr. elevated his Wooden Award candidacy with a 26-point performance vs. Arizona State.",
-        "url": "https://a.espncdn.com/media/motion/2023/0302/dm_230302_ncb_woodenwatch_jaquez/dm_230302_ncb_woodenwatch_jaquez.jpg",
-        "height": 324
-      }
-    ],
+    "images": [],
     "linkText": "Jaquez Jr. scores 26 as No. 4 UCLA beats Arizona State 79-61",
     "published": "2023-03-03T04:12:41Z",
     "allowComments": true,
