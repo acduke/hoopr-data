@@ -36,19 +36,14 @@ option_list = list(
               help = "Rescrape the raw JSON files from web api")
 )
 opt <- parse_args(OptionParser(option_list = option_list))
-options(stringsAsFactors = FALSE)
-options(scipen = 999)
+options(list(stringsAsFactors = FALSE, scipen = 999))
+
 years_vec <- (opt$s - 1):(opt$e - 1)
 rescrape <- opt$r
 
-# years_vec <- 2022:2022
-# rescrape <- FALSE
-
 proxies_df <- get_proxy_ips()
 
-
 seasons_vec <- unlist(purrr::map(years_vec, function(x){hoopR::year_to_season(x)}))
-
 
 nba_stats_pbp_season <- function(season){
   
@@ -80,6 +75,8 @@ nba_stats_pbp_season <- function(season){
                     .data$game_status == 3)
   }
 
+  
+  ## --- Scraping the PBP -----
   games_to_scrape_list <- unique(schedules_year$game_id)
 
   if (length(games_to_scrape_list) > 0) {
@@ -105,7 +102,7 @@ nba_stats_pbp_season <- function(season){
   }
   
   
-  
+  ## --- Compiling the PBP ----
   pbp_list <- list.files(path = "nba_stats/json")
   
   if (length(pbp_list) > 0) {
@@ -122,14 +119,20 @@ nba_stats_pbp_season <- function(season){
                          msg_done = "Compiled {season} NBA Stats pbps!")
   
   nba_stats_df <- purrr::map_dfr(season_pbp_list, function(x){
-    pbp <- glue::glue('nba_stats/json/{x}.json') %>% 
+    pbp <- glue::glue('nba_stats/json/{hoopR:::pad_id(x)}.json') %>% 
       jsonlite::fromJSON()
     return(pbp)
   })
   
+  nba_stats_df <- nba_stats_df %>% 
+    dplyr::left_join(schedules_df, by = c("game_id" = "game_id")) %>% 
+    dplyr::arrange(dplyr::desc(.data$game_date_est))
+  
+  
+  ## --- Writing PBP to disk and pushing to nba_stats_pbp release -----
   if (nrow(nba_stats_df) > 1) {
     nba_stats_df <- nba_stats_df %>%
-      hoopR:::make_hoopR_data("NBA Stats Play-by-Play from hoopR data repository",Sys.time())
+      hoopR:::make_hoopR_data("NBA Stats Play-by-Play from hoopR data repository", Sys.time())
     
     ifelse(!dir.exists(file.path("nba_stats/pbp")), dir.create(file.path("nba_stats/pbp")), FALSE)
     ifelse(!dir.exists(file.path("nba_stats/pbp/csv")), dir.create(file.path("nba/pbp/csv")), FALSE)
@@ -151,6 +154,7 @@ nba_stats_pbp_season <- function(season){
     # )
   }
   
+  ## --- Adding PBP Flag to Schedules -----
   if (nrow(nba_stats_df) > 0) {
     schedules_df <- schedules_df %>%
       dplyr::mutate(
@@ -159,8 +163,11 @@ nba_stats_pbp_season <- function(season){
   } else {
     schedules_df$PBP <- FALSE
   }
+  schedules_df <- schedules_df %>% 
+    dplyr::arrange(dplyr::desc(.data$game_date_est)) %>% 
+    hoopR:::make_hoopR_data("NBA Stats Schedule from hoopR data repository", Sys.time())
   
-  
+  ## --- Writing Schedules to disk -----
   if (nrow(nba_stats_df) > 0) {
     ifelse(!dir.exists(file.path("nba_stats/schedules")), dir.create(file.path("nba_stats/schedules")), FALSE)
     
@@ -182,6 +189,9 @@ all_games <- purrr::map(seasons_vec, function(y){
   nba_stats_pbp_season(y)
 })
 
+
+
+## --- Compiling Schedules and writing master to disk -----
 cli::cli_progress_step(msg = "Compiling NBA Stats master schedule",
                        msg_done = "NBA Stats master schedule compiled and written to disk")
 
@@ -191,7 +201,8 @@ master_schedules_df <- purrr::map_dfr(sched_list, function(x){
   return(sched)
 })
 
-master_schedules_df <- master_schedules_df %>%
+master_schedules_df <- master_schedules_df %>% 
+  dplyr::arrange(dplyr::desc(.data$game_date_est)) %>%
   hoopR:::make_hoopR_data("NBA Stats Schedule from hoopR data repository", Sys.time())
 
 data.table::fwrite(master_schedules_df, 'nba_stats/nba_stats_schedule_master.csv')
