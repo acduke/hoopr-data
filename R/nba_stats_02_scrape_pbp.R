@@ -98,7 +98,9 @@ nba_stats_pbp_season <- function(season){
     }, .options = furrr::furrr_options(seed = TRUE))
     
   } else {
+    
     print(glue::glue("Skipping {season} season scrape, {length(games_to_scrape_list)} completed games left to scrape"))
+    
   }
   
   
