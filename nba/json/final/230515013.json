@@ -26486,7 +26486,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/nba/game/_/gameId/230515013",
+        "href": "https://www.espn.com/nba/game/_/gameId/230515013",
         "text": "Gamecast",
         "shortText": "Summary",
         "isExternal": false,
@@ -26510,7 +26510,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/nba/boxscore/_/gameId/230515013",
+        "href": "https://www.espn.com/nba/boxscore/_/gameId/230515013",
         "text": "Box Score",
         "shortText": "Box Score",
         "isExternal": false,
@@ -26522,7 +26522,7 @@
           "desktop",
           "event"
         ],
-        "href": "http://www.espn.com/nba/playbyplay/_/gameId/230515013",
+        "href": "https://www.espn.com/nba/playbyplay/_/gameId/230515013",
         "text": "Play-by-Play",
         "shortText": "Play-by-Play",
         "isExternal": false,
@@ -26622,7 +26622,7 @@
             "desktop",
             "league"
           ],
-          "href": "http://www.espn.com/nba/scoreboard",
+          "href": "https://www.espn.com/nba/scoreboard",
           "text": "Scores"
         },
         {
@@ -26705,10 +26705,10 @@
         "standings": {
           "entries": [
             {
-              "team": "LA Clippers",
-              "link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
-              "id": "12",
-              "uid": "s:40~l:46~t:12",
+              "team": "Sacramento",
+              "link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
+              "id": "23",
+              "uid": "s:40~l:46~t:23",
               "stats": [
                 {
                   "name": "gamesBehind",
@@ -26727,8 +26727,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 31.0,
+                  "displayValue": "31"
                 },
                 {
                   "name": "streak",
@@ -26737,8 +26737,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": 1.0,
-                  "displayValue": "W1"
+                  "value": -1.0,
+                  "displayValue": "L1"
                 },
                 {
                   "name": "winPercent",
@@ -26747,18 +26747,184 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 1.0,
-                  "displayValue": "1.000"
+                  "value": 0.6025641,
+                  "displayValue": ".603"
                 },
                 {
                   "name": "wins",
                   "displayName": "Wins",
                   "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
+                  "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 47.0,
+                  "displayValue": "47"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Phoenix",
+              "link": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
+              "id": "21",
+              "uid": "s:40~l:46~t:21",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 4.0,
+                  "displayValue": "4"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 35.0,
+                  "displayValue": "35"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": 5.0,
+                  "displayValue": "W5"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.55128205,
+                  "displayValue": ".551"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Wins",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 43.0,
+                  "displayValue": "43"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "LA Clippers",
+              "link": "https://www.espn.com/nba/team/_/name/lac/la-clippers",
+              "id": "12",
+              "uid": "s:40~l:46~t:12",
+              "stats": [
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "gamesbehind",
+                  "value": 6.5,
+                  "displayValue": "6.5"
+                },
+                {
+                  "name": "losses",
+                  "displayName": "Losses",
+                  "shortDisplayName": "L",
+                  "description": "Losses",
+                  "abbreviation": "L",
+                  "type": "losses",
+                  "value": 38.0,
+                  "displayValue": "38"
+                },
+                {
+                  "name": "streak",
+                  "displayName": "Streak",
+                  "shortDisplayName": "STRK",
+                  "description": "Current Streak",
+                  "abbreviation": "STRK",
+                  "type": "streak",
+                  "value": -2.0,
+                  "displayValue": "L2"
+                },
+                {
+                  "name": "winPercent",
+                  "displayName": "Win Percentage",
+                  "shortDisplayName": "PCT",
+                  "description": "Winning Percentage",
+                  "abbreviation": "PCT",
+                  "type": "winpercent",
+                  "value": 0.51898736,
+                  "displayValue": ".519"
+                },
+                {
+                  "name": "wins",
+                  "displayName": "Wins",
+                  "shortDisplayName": "W",
+                  "description": "Wins",
+                  "abbreviation": "W",
+                  "type": "wins",
+                  "value": 41.0,
+                  "displayValue": "41"
                 }
               ],
               "logo": [
@@ -26800,8 +26966,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
+                  "value": 6.5,
+                  "displayValue": "6.5"
                 },
                 {
                   "name": "losses",
@@ -26810,8 +26976,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 38.0,
+                  "displayValue": "38"
                 },
                 {
                   "name": "streak",
@@ -26830,18 +26996,18 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.5,
-                  "displayValue": ".500"
+                  "value": 0.51898736,
+                  "displayValue": ".519"
                 },
                 {
                   "name": "wins",
                   "displayName": "Wins",
                   "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
+                  "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
+                  "value": 41.0,
+                  "displayValue": "41"
                 }
               ],
               "logo": [
@@ -26871,172 +27037,6 @@
               ]
             },
             {
-              "team": "Phoenix",
-              "link": "https://www.espn.com/nba/team/_/name/phx/phoenix-suns",
-              "id": "21",
-              "uid": "s:40~l:46~t:21",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 0.5,
-                  "displayValue": "0.5"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.5,
-                  "displayValue": ".500"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 1.0,
-                  "displayValue": "1"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
-              "team": "Sacramento",
-              "link": "https://www.espn.com/nba/team/_/name/sac/sacramento-kings",
-              "id": "23",
-              "uid": "s:40~l:46~t:23",
-              "stats": [
-                {
-                  "name": "gamesBehind",
-                  "displayName": "Games Back",
-                  "shortDisplayName": "GB",
-                  "description": "Games Back",
-                  "abbreviation": "GB",
-                  "type": "gamesbehind",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "name": "losses",
-                  "displayName": "Losses",
-                  "shortDisplayName": "L",
-                  "description": "Losses",
-                  "abbreviation": "L",
-                  "type": "losses",
-                  "value": 1.0,
-                  "displayValue": "1"
-                },
-                {
-                  "name": "streak",
-                  "displayName": "Streak",
-                  "shortDisplayName": "STRK",
-                  "description": "Current Streak",
-                  "abbreviation": "STRK",
-                  "type": "streak",
-                  "value": -1.0,
-                  "displayValue": "L1"
-                },
-                {
-                  "name": "winPercent",
-                  "displayName": "Win Percentage",
-                  "shortDisplayName": "PCT",
-                  "description": "Winning Percentage",
-                  "abbreviation": "PCT",
-                  "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
-                },
-                {
-                  "name": "wins",
-                  "displayName": "Wins",
-                  "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
-                  "abbreviation": "W",
-                  "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
-                }
-              ],
-              "logo": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2018-06-05T12:08Z"
-                }
-              ]
-            },
-            {
               "team": "LA Lakers",
               "link": "https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers",
               "id": "13",
@@ -27049,8 +27049,8 @@
                   "description": "Games Back",
                   "abbreviation": "GB",
                   "type": "gamesbehind",
-                  "value": 1.5,
-                  "displayValue": "1.5"
+                  "value": 7.0,
+                  "displayValue": "7"
                 },
                 {
                   "name": "losses",
@@ -27059,8 +27059,8 @@
                   "description": "Losses",
                   "abbreviation": "L",
                   "type": "losses",
-                  "value": 2.0,
-                  "displayValue": "2"
+                  "value": 38.0,
+                  "displayValue": "38"
                 },
                 {
                   "name": "streak",
@@ -27069,8 +27069,8 @@
                   "description": "Current Streak",
                   "abbreviation": "STRK",
                   "type": "streak",
-                  "value": -2.0,
-                  "displayValue": "L2"
+                  "value": 3.0,
+                  "displayValue": "W3"
                 },
                 {
                   "name": "winPercent",
@@ -27079,18 +27079,18 @@
                   "description": "Winning Percentage",
                   "abbreviation": "PCT",
                   "type": "winpercent",
-                  "value": 0.0,
-                  "displayValue": ".000"
+                  "value": 0.51282054,
+                  "displayValue": ".513"
                 },
                 {
                   "name": "wins",
                   "displayName": "Wins",
                   "shortDisplayName": "W",
-                  "description": "Team's current Win-Loss record",
+                  "description": "Wins",
                   "abbreviation": "W",
                   "type": "wins",
-                  "value": 0.0,
-                  "displayValue": "0"
+                  "value": 40.0,
+                  "displayValue": "40"
                 }
               ],
               "logo": [
@@ -27145,9 +27145,12 @@
             "height": 37
           }
         ],
-        "premium": false,
         "description": "Both the Spurs and Lakers deserved what they got in San Antonio's series-clinching win.",
         "linkText": "Stein: A fitting finale for Lakers, Spurs",
+        "published": "2005-07-05T19:13:45Z",
+        "title": "Lakers, Spurs deserved what they got in Game 6",
+        "type": "Columnist",
+        "premium": false,
         "links": {
           "api": {
             "news": {
@@ -27162,18 +27165,18 @@
           }
         },
         "id": 1554599,
-        "published": "2005-07-05T19:13:45Z",
         "lastModified": "2003-05-16T18:20:47Z",
-        "title": "Lakers, Spurs deserved what they got in Game 6",
-        "type": "Columnist",
         "headline": "Lakers, Spurs deserved what they got in Game 6",
         "byline": "Marc Stein"
       },
       {
         "images": [],
-        "premium": false,
         "description": "Phil Jackson's most difficult season as an NBA head coach will not be his last -- health permitting.",
         "linkText": "Zen return: Jackson expects to coach Lakers next year",
+        "published": "2003-06-10T18:20:14Z",
+        "title": "Jackson expects to be back healthy next season",
+        "type": "MLBPlayoffs2000Story",
+        "premium": false,
         "links": {
           "api": {
             "news": {
@@ -27188,10 +27191,7 @@
           }
         },
         "id": 1554584,
-        "published": "2003-06-10T18:20:14Z",
         "lastModified": "2003-05-16T18:21:37Z",
-        "title": "Jackson expects to be back healthy next season",
-        "type": "MLBPlayoffs2000Story",
         "headline": "Jackson expects to be back healthy next season"
       },
       {
@@ -27207,9 +27207,12 @@
             "height": 262
           }
         ],
-        "premium": false,
         "description": "Shaquille O'Neal's delayed surgery on his toe started a season of discontent for the Lakers.",
         "linkText": "Tracking the Lakers' trouble in 2002-03",
+        "published": "2003-07-01T18:47:41Z",
+        "title": "Tracking the Lakers' trouble in 2002-03",
+        "type": "Story",
+        "premium": false,
         "links": {
           "api": {
             "news": {
@@ -27224,10 +27227,7 @@
           }
         },
         "id": 1554804,
-        "published": "2003-07-01T18:47:41Z",
         "lastModified": "2003-05-21T17:10:43Z",
-        "title": "Tracking the Lakers' trouble in 2002-03",
-        "type": "Story",
         "headline": "Tracking the Lakers' trouble in 2002-03"
       }
     ],
@@ -27283,7 +27283,31 @@
             "text": "Schedule"
           }
         ],
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+        "logos": [
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          },
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          }
+        ]
       },
       "leaders": [
         {
@@ -27520,7 +27544,31 @@
             "text": "Schedule"
           }
         ],
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+        "logos": [
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          },
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          }
+        ]
       },
       "leaders": [
         {
@@ -27785,7 +27833,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "81"
             },
@@ -27807,7 +27879,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "87"
             }
@@ -27820,7 +27916,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/221029013",
+              "href": "https://www.espn.com/nba/game/_/gameId/221029013",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -27876,7 +27972,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "95"
             },
@@ -27898,7 +28018,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "88"
             }
@@ -27911,7 +28055,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/221120024",
+              "href": "https://www.espn.com/nba/game/_/gameId/221120024",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -27967,7 +28111,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "95"
             },
@@ -27989,7 +28157,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "103"
             }
@@ -28002,7 +28194,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230214013",
+              "href": "https://www.espn.com/nba/game/_/gameId/230214013",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28058,7 +28250,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "98"
             },
@@ -28080,7 +28296,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "89"
             }
@@ -28093,7 +28333,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230323024",
+              "href": "https://www.espn.com/nba/game/_/gameId/230323024",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28159,7 +28399,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "87"
             },
@@ -28181,7 +28445,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "82"
             }
@@ -28194,7 +28482,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230505024",
+              "href": "https://www.espn.com/nba/game/_/gameId/230505024",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28250,7 +28538,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "114"
             },
@@ -28272,7 +28584,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "95"
             }
@@ -28285,7 +28621,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230507024",
+              "href": "https://www.espn.com/nba/game/_/gameId/230507024",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28341,7 +28677,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "110"
             },
@@ -28363,7 +28723,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "95"
             }
@@ -28376,7 +28760,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230509013",
+              "href": "https://www.espn.com/nba/game/_/gameId/230509013",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28432,7 +28816,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "99"
             },
@@ -28454,7 +28862,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "95"
             }
@@ -28467,7 +28899,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230511013",
+              "href": "https://www.espn.com/nba/game/_/gameId/230511013",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28523,7 +28955,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "96"
             },
@@ -28545,7 +29001,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "94"
             }
@@ -28558,7 +29038,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230513024",
+              "href": "https://www.espn.com/nba/game/_/gameId/230513024",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28614,7 +29094,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "82"
             },
@@ -28636,7 +29140,31 @@
                     "text": "Schedule"
                   }
                 ],
-                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2018-06-05T12:08Z"
+                  }
+                ]
               },
               "score": "110"
             }
@@ -28649,7 +29177,7 @@
                 "desktop",
                 "event"
               ],
-              "href": "http://www.espn.com/nba/game/_/gameId/230515013",
+              "href": "https://www.espn.com/nba/game/_/gameId/230515013",
               "text": "Gamecast",
               "shortText": "Summary",
               "isExternal": false,
@@ -28693,7 +29221,31 @@
             "text": "Schedule"
           }
         ],
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+        "logos": [
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          },
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          }
+        ]
       },
       "records": []
     },
@@ -28713,7 +29265,31 @@
             "text": "Schedule"
           }
         ],
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+        "logos": [
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          },
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "lastUpdated": "2018-06-05T12:08Z"
+          }
+        ]
       },
       "records": []
     }
