@@ -15,3 +15,45 @@ TypeError: game_id = 401469315
 443.17283606529236 seconds to download 1163 game play-by-plays.
 Finished NBA PBP for 2023...
 Already up to date.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Already up to date.
+Already up to date.
+[main 3c55cc93842] NBA Play-by-Play and Schedules update (Start: 2023 End: 2023)
+ 1948 files changed, 167186 insertions(+), 43844 deletions(-)
+ rewrite daily_nba.out (94%)
+ create mode 100644 nba/json/final/401469316.json
+ create mode 100644 nba/json/final/401469317.json
+ create mode 100644 nba/json/raw/401469316.json
+ create mode 100644 nba/json/raw/401469317.json
+ rewrite nba/nba_games_in_data_repo.parquet (61%)
+ rewrite nba/nba_games_in_data_repo.qs (79%)
+ rewrite nba/player_box/csv/player_box_2023.csv.gz (85%)
+ rewrite nba/player_box/parquet/player_box_2023.parquet (92%)
+ rewrite nba/player_box/qs/player_box_2023.qs (93%)
+ rewrite nba/player_box/rds/player_box_2023.rds (81%)
+ rewrite nba/schedules/qs/nba_schedule_2023.qs (88%)
+ rewrite nba/schedules/rds/nba_schedule_2023.rds (89%)
+ rewrite nba/team_box/csv/team_box_2023.csv.gz (67%)
+ rewrite nba/team_box/parquet/team_box_2023.parquet (83%)
+ rewrite nba/team_box/qs/team_box_2023.qs (98%)
+ rewrite nba/team_box/rds/team_box_2023.rds (90%)
+Already up to date.
