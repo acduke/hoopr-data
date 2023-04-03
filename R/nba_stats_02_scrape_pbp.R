@@ -50,7 +50,8 @@ nba_stats_pbp_season <- function(season){
   schedules_df <- readRDS(paste0("nba_stats/schedules/rds/schedule_", season, ".rds"))
 
   ifelse(!dir.exists(file.path("nba_stats/json")), dir.create("nba_stats/json"), FALSE)
-  pbp_list <- list.files(path = "nba_stats/json")
+  ifelse(!dir.exists(file.path("nba_stats/json/pbp")), dir.create("nba_stats/json/pbp"), FALSE)
+  pbp_list <- list.files(path = "nba_stats/json/pbp")
 
   if (length(pbp_list) > 0) {
     pbp_list <- as.integer(stringr::str_extract(pbp_list, "\\d+"))
@@ -91,7 +92,7 @@ nba_stats_pbp_season <- function(season){
       df <-  df %>%
         dplyr::mutate(
           season = season)
-      jsonlite::write_json(df, path = paste0("nba_stats/json/", hoopR:::pad_id(games_to_scrape_list[x]), ".json"))
+      jsonlite::write_json(df, path = paste0("nba_stats/json/pbp/", hoopR:::pad_id(games_to_scrape_list[x]), ".json"))
       Sys.sleep(1)
       
       return(df)
@@ -105,7 +106,7 @@ nba_stats_pbp_season <- function(season){
   
   
   ## --- Compiling the PBP ----
-  pbp_list <- list.files(path = "nba_stats/json")
+  pbp_list <- list.files(path = "nba_stats/json/pbp")
   
   if (length(pbp_list) > 0) {
     pbp_list <- as.integer(stringr::str_extract(pbp_list, "\\d+"))
@@ -121,7 +122,7 @@ nba_stats_pbp_season <- function(season){
                          msg_done = "Compiled {season} NBA Stats pbps!")
   
   nba_stats_df <- purrr::map_dfr(season_pbp_list, function(x){
-    pbp <- glue::glue('nba_stats/json/{hoopR:::pad_id(x)}.json') %>% 
+    pbp <- glue::glue('nba_stats/json/pbp/{hoopR:::pad_id(x)}.json') %>% 
       jsonlite::fromJSON()
     return(pbp)
   })
@@ -144,7 +145,7 @@ nba_stats_pbp_season <- function(season){
     saveRDS(nba_stats_df, glue::glue("nba_stats/pbp/rds/play_by_play_{season}.rds"))
     
     ifelse(!dir.exists(file.path("nba_stats/pbp/parquet")), dir.create(file.path("nba_stats/pbp/parquet")), FALSE)
-    arrow::write_parquet(nba_stats_df, paste0("nba_stats/pbp/parquet/play_by_play_", season,".parquet"))
+    arrow::write_parquet(nba_stats_df, paste0("nba_stats/pbp/parquet/play_by_play_", season, ".parquet"))
     
     # sportsdataversedata::sportsdataverse_save(
     #   data_frame = nba_pbp_stats,
@@ -174,13 +175,13 @@ nba_stats_pbp_season <- function(season){
     ifelse(!dir.exists(file.path("nba_stats/schedules")), dir.create(file.path("nba_stats/schedules")), FALSE)
     
     ifelse(!dir.exists(file.path("nba_stats/schedules/csv")), dir.create(file.path("nba_stats/schedules/csv")), FALSE)
-    data.table::fwrite(schedules_df, paste0('nba_stats/schedules/csv/schedule_', season,'.csv'))
+    data.table::fwrite(schedules_df, paste0('nba_stats/schedules/csv/schedule_', season, '.csv'))
     
     ifelse(!dir.exists(file.path("nba_stats/schedules/rds")), dir.create(file.path("nba_stats/schedules/rds")), FALSE)
-    saveRDS(schedules_df, paste0('nba_stats/schedules/rds/schedule_', season,'.rds'))
+    saveRDS(schedules_df, paste0('nba_stats/schedules/rds/schedule_', season, '.rds'))
     
     ifelse(!dir.exists(file.path("nba_stats/schedules/parquet")), dir.create(file.path("nba_stats/schedules/parquet")), FALSE)
-    arrow::write_parquet(schedules_df, paste0('nba_stats/schedules/parquet/schedule_', season,'.parquet'))
+    arrow::write_parquet(schedules_df, paste0('nba_stats/schedules/parquet/schedule_', season, '.parquet'))
   }
 }
 
