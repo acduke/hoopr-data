@@ -16,15 +16,15 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc = lib_path
 suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc = lib_path)))
 
 option_list = list(
-  make_option(c("-s", "--start_year"), 
-              action = "store", 
+  make_option(c("-s", "--start_year"),
+              action = "store",
               default = hoopR:::most_recent_nba_season(),
-              type = 'integer', 
+              type = 'integer',
               help = "Start year of the seasons to process"),
-  make_option(c("-e", "--end_year"), 
-              action = "store", 
-              default = hoopR:::most_recent_nba_season(), 
-              type = 'integer', 
+  make_option(c("-e", "--end_year"),
+              action = "store",
+              default = hoopR:::most_recent_nba_season(),
+              type = 'integer',
               help = "End year of the seasons to process")
 )
 opt = parse_args(OptionParser(option_list = option_list))
@@ -42,18 +42,18 @@ nba_pbp_games <- function(y){
   season_pbp_list <- sched %>%
     dplyr::filter(.data$game_id %in% pbp_game_ids) %>%
     dplyr::pull("game_id")
-  
-  
+
+
   cli::cli_progress_step(msg = "Compiling {y} ESPN NBA pbps ({length(season_pbp_list)} games)",
                          msg_done = "Compiled {y} ESPN NBA pbps!")
-  
+
   future::plan("multisession")
   espn_df <- furrr::future_map_dfr(season_pbp_list, function(x){
     resp <- glue::glue('nba/json/final/{x}.json')
     pbp <- hoopR:::helper_espn_nba_pbp(resp)
     return(pbp)
   }, .options = furrr::furrr_options(seed = TRUE))
-  
+
   if (!('coordinate_x' %in% colnames(espn_df)) && length(espn_df) > 1) {
     espn_df <- espn_df %>%
       dplyr::mutate(
@@ -69,10 +69,11 @@ nba_pbp_games <- function(y){
         type_abbreviation = NA_character_
       )
   }
-  
+    cli::cli_progress_step(msg = "Updating {y} ESPN NBA PBP GitHub Release",
+                         msg_done = "Updated {y} ESPN NBA PBP GitHub Release!")
   if (nrow(espn_df) > 1) {
-    
-    espn_df <- espn_df %>% 
+
+    espn_df <- espn_df %>%
       dplyr::arrange(dplyr::desc(.data$game_date)) %>%
       hoopR:::make_hoopR_data("ESPN NBA Play-by-Play from hoopR data repository", Sys.time())
 
@@ -105,7 +106,7 @@ nba_pbp_games <- function(y){
       id = as.integer(.data$id),
       status_display_clock = as.character(.data$status_display_clock)
     )
-  
+
   if (nrow(espn_df) > 0) {
     sched <- sched %>%
       dplyr::mutate(
@@ -114,9 +115,9 @@ nba_pbp_games <- function(y){
   } else {
     sched$PBP <- FALSE
   }
-  
-  final_sched <- sched %>% 
-    dplyr::distinct() %>% 
+
+  final_sched <- sched %>%
+    dplyr::distinct() %>%
     dplyr::arrange(dplyr::desc(.data$date))
 
   final_sched <- final_sched %>%
@@ -154,16 +155,16 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 sched_g <- sched_g %>%
   hoopR:::make_hoopR_data("ESPN NBA Schedule from hoopR data repository", Sys.time())
 
-data.table::fwrite(sched_g %>% 
+data.table::fwrite(sched_g %>%
                      dplyr::arrange(dplyr::desc(.data$date)), 'nba_schedule_master.csv')
-data.table::fwrite(sched_g %>% 
-                     dplyr::filter(.data$PBP == TRUE) %>% 
+data.table::fwrite(sched_g %>%
+                     dplyr::filter(.data$PBP == TRUE) %>%
                      dplyr::arrange(dplyr::desc(.data$date)), 'nba/nba_games_in_data_repo.csv')
 
-arrow::write_parquet(sched_g %>% 
+arrow::write_parquet(sched_g %>%
                        dplyr::arrange(dplyr::desc(.data$date)),glue::glue('nba_schedule_master.parquet'))
-arrow::write_parquet(sched_g %>% 
-                       dplyr::filter(.data$PBP == TRUE) %>% 
+arrow::write_parquet(sched_g %>%
+                       dplyr::filter(.data$PBP == TRUE) %>%
                        dplyr::arrange(dplyr::desc(.data$date)), 'nba/nba_games_in_data_repo.parquet')
 
 cli::cli_progress_message("")

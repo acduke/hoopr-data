@@ -16,15 +16,15 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc = lib_path
 suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc = lib_path)))
 
 option_list = list(
-  make_option(c("-s", "--start_year"), 
-              action = "store", 
+  make_option(c("-s", "--start_year"),
+              action = "store",
               default = hoopR:::most_recent_mbb_season(),
-              type = 'integer', 
+              type = 'integer',
               help = "Start year of the seasons to process"),
-  make_option(c("-e", "--end_year"), 
-              action = "store", 
-              default = hoopR:::most_recent_mbb_season(), 
-              type = 'integer', 
+  make_option(c("-e", "--end_year"),
+              action = "store",
+              default = hoopR:::most_recent_mbb_season(),
+              type = 'integer',
               help = "End year of the seasons to process")
 )
 opt = parse_args(OptionParser(option_list = option_list))
@@ -34,7 +34,7 @@ years_vec <- opt$s:opt$e
 
 # --- compile into play_by_play_{year}.parquet ---------
 mbb_pbp_games <- function(y){
-  
+
   espn_df <- data.frame()
   pbp_list <- list.files(path = glue::glue('mbb/json/final/'))
   sched <- data.table::fread(paste0('mbb/schedules/csv/mbb_schedule_', y, '.csv'))
@@ -42,17 +42,17 @@ mbb_pbp_games <- function(y){
   season_pbp_list <- sched %>%
     dplyr::filter(.data$game_id %in% pbp_game_ids) %>%
     dplyr::pull("game_id")
-  
+
   cli::cli_progress_step(msg = "Compiling {y} ESPN MBB pbps ({length(season_pbp_list)} games)",
                          msg_done = "Compiled {y} ESPN MBB pbps!")
-  
+
   future::plan("multisession")
   espn_df <- furrr::future_map_dfr(season_pbp_list, function(x){
     resp <- glue::glue('mbb/json/final/{x}.json')
     pbp <- hoopR:::helper_espn_mbb_pbp(resp)
     return(pbp)
   }, .options = furrr::furrr_options(seed = TRUE))
-  
+
   if (!('coordinate_x' %in% colnames(espn_df)) && length(espn_df) > 1) {
     espn_df <- espn_df %>%
       dplyr::mutate(
@@ -62,14 +62,18 @@ mbb_pbp_games <- function(y){
         coordinate_y_raw = NA_real_
       )
   }
-  
+
+
+  cli::cli_progress_step(msg = "Updating {y} ESPN MBB PBP GitHub Release",
+                         msg_done = "Updated {y} ESPN MBB PBP GitHub Release!")
+
   ifelse(!dir.exists(file.path("mbb/pbp")), dir.create(file.path("mbb/pbp")), FALSE)
   ifelse(!dir.exists(file.path("mbb/pbp/csv")), dir.create(file.path("mbb/pbp/csv")), FALSE)
   if (nrow(espn_df) > 1) {
-    espn_df <- espn_df %>% 
+    espn_df <- espn_df %>%
       dplyr::arrange(dplyr::desc(.data$game_date)) %>%
       hoopR:::make_hoopR_data("ESPN MBB Play-by-Play from hoopR data repository", Sys.time())
-    
+
     data.table::fwrite(espn_df, file = paste0("mbb/pbp/csv/play_by_play_", y, ".csv.gz"))
 
     ifelse(!dir.exists(file.path("mbb/pbp/rds")), dir.create(file.path("mbb/pbp/rds")), FALSE)
@@ -96,23 +100,23 @@ mbb_pbp_games <- function(y){
       game_date_time = lubridate::ymd_hm(substr(.data$date, 1, nchar(.data$date) - 1)) %>%
         lubridate::with_tz(tzone = "America/New_York"),
       game_date = as.Date(substr(.data$game_date_time, 1, 10)))
-  
+
   if (nrow(espn_df) > 0) {
-    
+
     sched <- sched %>%
       dplyr::mutate(
         PBP = ifelse(.data$game_id %in% unique(espn_df$game_id), TRUE, FALSE))
-    
+
   } else {
-    
+
     sched$PBP <- FALSE
-    
+
   }
 
-  final_sched <- sched %>% 
-    dplyr::distinct() %>% 
+  final_sched <- sched %>%
+    dplyr::distinct() %>%
     dplyr::arrange(dplyr::desc(.data$date))
-  
+
   final_sched <- final_sched %>%
     hoopR:::make_hoopR_data("ESPN MBB Schedule from hoopR data repository", Sys.time())
 
@@ -152,15 +156,15 @@ sched_g <- sched_g %>%
   hoopR:::make_hoopR_data("ESPN MBB Schedule from hoopR data repository", Sys.time())
 
 # data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'mbb_schedule_master.csv')
-data.table::fwrite(sched_g %>% 
-                     dplyr::filter(.data$PBP == TRUE) %>% 
+data.table::fwrite(sched_g %>%
+                     dplyr::filter(.data$PBP == TRUE) %>%
                      dplyr::arrange(dplyr::desc(.data$date)), 'mbb/mbb_games_in_data_repo.csv')
 
-arrow::write_parquet(sched_g %>% 
+arrow::write_parquet(sched_g %>%
                        dplyr::arrange(dplyr::desc(.data$date)), glue::glue('mbb_schedule_master.parquet'))
 
-arrow::write_parquet(sched_g %>% 
-                       dplyr::filter(.data$PBP == TRUE) %>% 
+arrow::write_parquet(sched_g %>%
+                       dplyr::filter(.data$PBP == TRUE) %>%
                        dplyr::arrange(dplyr::desc(.data$date)), 'mbb/mbb_games_in_data_repo.parquet')
 
 cli::cli_progress_message("")
