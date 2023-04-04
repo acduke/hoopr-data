@@ -63,7 +63,6 @@ mbb_pbp_games <- function(y){
       )
   }
 
-
   cli::cli_progress_step(msg = "Updating {y} ESPN MBB PBP GitHub Release",
                          msg_done = "Updated {y} ESPN MBB PBP GitHub Release!")
 
@@ -91,6 +90,7 @@ mbb_pbp_games <- function(y){
       .token = Sys.getenv("GITHUB_PAT")
     )
   }
+
   sched <- arrow::read_parquet(paste0('mbb/schedules/parquet/mbb_schedule_', y, '.parquet'))
   sched <- sched %>%
     dplyr::mutate(

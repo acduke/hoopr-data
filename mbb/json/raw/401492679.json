@@ -16572,6 +16572,7 @@
         "type": "whitelist",
         "devices": [
           "desktop",
+          "ipad",
           "settop",
           "handset",
           "tablet"
@@ -16582,24 +16583,24 @@
       "links": {
         "api": {
           "self": {
-            "href": "http://api.espn.com/v1/video/clips/35360683"
+            "href": "http://api-app.espn.com/v1/video/clips/35360683"
           },
           "artwork": {
             "href": "https://artwork.api.espn.com/artwork/collections/media/82176732-d0af-4e07-8ca2-0c3f8540217e"
           }
         },
         "web": {
-          "href": "https://www.espn.com/video/clip?id=35360683&ex_cid=espnapi_internal",
+          "href": "http://espn.com/video/clip?id=35360683",
           "short": {
-            "href": "https://www.espn.com/video/clip?id=35360683"
+            "href": "https://es.pn/3G8QHIb"
           },
           "self": {
-            "href": "https://www.espn.com/video/clip?id=35360683&ex_cid=espnapi_internal"
+            "href": "http://espn.com/video/clip?id=35360683"
           }
         },
         "source": {
           "mezzanine": {
-            "href": "https://media.video-origin.espn.com/espnvideo/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.mp4"
+            "href": "http://media.video-origin.espn.com/espnvideo/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.mp4"
           },
           "flash": {
             "href": "https://media.video-cdn.espn.com/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.smil"
@@ -16623,7 +16624,7 @@
         },
         "mobile": {
           "alert": {
-            "href": "http://m.espn.go.com/general/video/videoAlert?vid=35360683&ex_cid=espnapi_internal"
+            "href": "http://m.espn.com/general/video/videoAlert?vid=35360683"
           },
           "source": {
             "href": "https://media.video-cdn.espn.com/motion/2023/0101/ss_20230101_171337918_2144845/ss_20230101_171337918_2144845.mp4"

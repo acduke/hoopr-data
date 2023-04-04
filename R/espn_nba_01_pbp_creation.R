@@ -43,7 +43,6 @@ nba_pbp_games <- function(y){
     dplyr::filter(.data$game_id %in% pbp_game_ids) %>%
     dplyr::pull("game_id")
 
-
   cli::cli_progress_step(msg = "Compiling {y} ESPN NBA pbps ({length(season_pbp_list)} games)",
                          msg_done = "Compiled {y} ESPN NBA pbps!")
 
@@ -63,14 +62,17 @@ nba_pbp_games <- function(y){
         coordinate_y_raw = NA_real_
       )
   }
+
   if (!('type_abbreviation' %in% colnames(espn_df)) && length(espn_df) > 1) {
     espn_df <- espn_df %>%
       dplyr::mutate(
         type_abbreviation = NA_character_
       )
   }
+
     cli::cli_progress_step(msg = "Updating {y} ESPN NBA PBP GitHub Release",
                          msg_done = "Updated {y} ESPN NBA PBP GitHub Release!")
+
   if (nrow(espn_df) > 1) {
 
     espn_df <- espn_df %>%
@@ -108,12 +110,15 @@ nba_pbp_games <- function(y){
     )
 
   if (nrow(espn_df) > 0) {
+
     sched <- sched %>%
       dplyr::mutate(
-        PBP = ifelse(.data$game_id %in% unique(espn_df$game_id), TRUE, FALSE)
-      )
+        PBP = ifelse(.data$game_id %in% unique(espn_df$game_id), TRUE, FALSE))
+
   } else {
+
     sched$PBP <- FALSE
+
   }
 
   final_sched <- sched %>%
